@@ -27,15 +27,14 @@
 	<!--Update section for updates-->
 	<h3>更新紀錄</h3>
 
-	<h4>v1.12.3 (October 19th, 2019)</h4>
+	<h4>v1.12.5 (October 25th, 2019)</h4>
 	<ul>
-		<li>Ferocious Cup rankings and Training Battles are now live!</li>
-		<li>A new Consistency score has been added to the rankings to illustrate which Pokemon are depenendent on shield baiting:</li>
+		<li>Pokemon search in the rankings and Multi-Battle results have been adjusted to be closer to in-game search terms:</li>
 		<ul>
-			<li>This score is calculated based on the Pokemon's recommended moveset. It is a function of how much of the Pokemon's total damage output comes from Charged Moves, and how that damage output is impacted by failed baits.</li>
-			<li>The calculation evaluates consistency when both moves are neutral or when either move is resisted (if applicable). For example, Vaporeon has 100 Consistency when spamming Aqua Tail but loses Consistency when Aqua Tail is resisted and Vaporeon can potentially bait with Aqua Tail while reaching for Last Resort.</li>
-			<li>Consistency is incorporated into the overall scores. This should help tone down Pokemon who are heavily dependent on baiting, and better represent Pokemon who are more consistent.</li>
+			<li>Search for Pokemon that know a specific move or type of move with "@move" or "@movetype"</li>
+			<li>Perform search operations with "," "&amp;" or "!"</li>
 		</ul>
+		<li>Shield selection now defaults to 1 shield to hopefully save you a few clicks</li>
 	</ul>
 
 	<p>追蹤原作者 <a href="https://twitter.com/pvpoke" target="_blank">推特</a> 以獲得第一手消息及更新快訊！</p>
@@ -70,8 +69,8 @@
 <br>
 <h3>更新時間<h3>
 <ul>
-	<li>中文版最後更新時間：Thu Oct 24 12:08:16 2019 +0800</li>
-	<li>原版最後版本時間：Wed Oct 23 14:46:16 2019 -0500</li>
+	<li>中文版最後更新時間：Wed Oct 23 08:57:38 2019 +0800</li>
+	<li>原版最後版本時間：Thu Oct 24 15:45:14 2019 -0500</li>
 
 </ul>
 </div>

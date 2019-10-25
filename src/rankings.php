@@ -112,12 +112,16 @@ require_once 'header.php';
 
 	<p class="description overall"><b>在面對強大對手時能夠擔任多種定位的寶可夢。</b>在各種狀況中皆能有較佳戰果，且自身屬性、招式以及個體數值皆較為突出的寶可夢。</p>
     <p class="description overall"><b>(The best Pokemon against top opponents in multiple roles.</b> They have the typing, moves, and stats to succeed against the top Pokemon in multiple scenarios.)</p>
+
 	<p class="description closers hide"><b>對戰中不需使用防禦網就能有優秀表現的寶可夢。</b>擁有優秀的屬性、個體數值以及強勢的招式使這類寶可夢無往不利。</p>
 	<p class="description closers hide"><b>(The best Pokemon with no shields in play.</b> Good typing, stats, and efficient moves give them the advantage.)</p>
+
 	<p class="description leads hide"><b>搭配使用防禦網就能有絕佳表現的寶可夢。</b>能夠給對手造成壓力並且能夠提供較佳的掩護與抵抗能力，適合作為對戰隊伍先發。</p>
 	<p class="description leads hide"><b>(The best Pokemon with shields in play.</b> Capable of pressuring the opponent with good coverage or resistances, they're ideal leads in battle.)</p>
+
     <p class="description attackers hide"><b>在面對使用防禦網的對手時，即便自身不使用防禦網也能有出色戰果的寶可夢。</b>此類寶可夢有絕佳的個體、抗性以及強大的攻擊能力，能夠有效對抗具備優越防禦能力的對手。</p>
 	<p class="description attackers hide"><b>(The best Pokemon against shielded opponents, while unshielded.</b> Their natural bulk, resistances, and strong attacks allow them to succeed against sturdy defenses.)</p>
+
 	<p class="description defenders hide"><b>在面對沒有使用防禦網的對手時，只要自己使用，就能發揮優秀性能的寶可夢。</b>此類寶可夢先天具備能夠承受大量傷害的能力，在面對強大對手時更能看到勝利的機會。</p>
 	<p class="description defenders hide"><b>(The best Pokemon while shielded, against unshielded opponents.</b> Able to absorb incredible damage, they can emerge victorious against top opponents.)</p>
 
@@ -126,7 +130,11 @@ require_once 'header.php';
 	<div class="check on limited hide"><span></span>顯示 <div class="limited-title">數量限制寶可夢</div>*</div>
 	<div class="asterisk limited hide">* 冠軍賽規定，這些寶可夢在每個出戰隊伍中，最多只能派出兩隻。</div>
 
-	<input class="poke-search" context="ranking-search" type="text" placeholder="寶可夢中文名或英文屬性搜尋" />
+	<div class="poke-search-container">
+		<input class="poke-search" context="ranking-search" type="text" placeholder="寶可夢中文名或英文屬性搜尋" />
+		<a href="#" class="search-info">i</a>
+	</div>
+
 
 	<div class="ranking-header">寶可夢</div>
 	<div class="ranking-header right">排行分數</div>
@@ -142,13 +150,14 @@ require_once 'header.php';
 		<p>As we improve our simulator and ranking algorithms, please note that exact rankings may change. They aren't set-in-stone fact, but a best guess at which Pokemon might or might not be good for Trainer Battles. Ultimately we hope the rankings here are a helpful resource in their own way, and help you build toward succcess.</p>
 		<h2>Using the Pokemon Rankings</h2>
 		<p>In the top-level rankings, you'll see a score for each Pokemon. This score is an overall performance number from 0 to 100, where 100 is the best Pokemon in that league and category. It is derived from simulating every possible matchup, with each Pokemon's most used moveset (these may be manually adjusted). Use this score to compare overall performance between Pokemon; for example, the difference between the #1 and #50 Pokemon may not be the same as the difference between the #50 and #100 Pokemon. This score also allows you to see the parity in different leagues and categories.</p>
-		<p>Trainer Battles feature a wide variety of scenarios, especially involving shields. In order to give a fuller picture, our overall rankings are derived from additional sets of rankings, where battles are simulated with different shield combinations. You can explore rankings for each of the following categories:</p>
+		<p>Trainer Battles feature a wide variety of scenarios, especially involving shields. In order to give a fuller picture, our overall rankings are derived from additional sets of rankings, where battles are simulated with different roles in mind. You can explore rankings for each of the following categories:</p>
 		<ul>
 			<li><b>Overall - </b> Derived from a Pokemon's score in all other categories. Moves are ranked based on usage in every category. Key Counters and Top Matchups, however, are taken from the Leads category.</li>
 			<li><b>Leads - </b> Ranking battles simulated with 2 shields vs. 2 shields.</li>
 			<li><b>Closers - </b> Ranking battles simulated with no shields vs. no shields.</li>
 			<li><b>Attackers - </b> Ranking battles simulated with no shields vs. 2 shields.</li>
 			<li><b>Defenders - </b> Ranking battles simulated with 2 shields vs. no shields.</li>
+			<li><b>Consistency - </b> Rating of how dependent Pokemon are at baiting shields.</li>
 		</ul>
 		<p>Different Pokemon may succeed in different scenarios, so use these categories to help determine when a particular Pokemon would be the most valuable.</p>
 		<p>Within each ranking, you'll see four separate detail sections:</p>
@@ -190,10 +199,45 @@ require_once 'header.php';
 	</div>
 </div>
 
+<div class="sandbox-search-strings hide">
+	<p>You can use the following search formats to filter Pokemon:</p>
+	<table>
+		<tr>
+			<td><strong>Pokemon Name</strong></td>
+			<td>"azumarill"</td>
+		</tr>
+		<tr>
+			<td><strong>Pokemon Type</strong></td>
+			<td>"water"</td>
+		</tr>
+		<tr>
+			<td><strong>Move Name</strong></td>
+			<td>"@counter"</td>
+		</tr>
+		<tr>
+			<td><strong>Move Type</strong></td>
+			<td>"@fighting"</td>
+		</tr>
+		<tr>
+			<td><strong>And</strong></td>
+			<td>"water&amp;@fighting"</td>
+		</tr>
+		<tr>
+			<td><strong>Or</strong></td>
+			<td>"water,fighting"</td>
+		</tr>
+		<tr>
+			<td><strong>Not</strong></td>
+			<td>"!water"</td>
+		</tr>
+	</table>
+</div>
+
 <!--test 2-->
 <script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/pokemon/Pokemon.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/interface/RankingInterface.js?v=<?php echo $SITE_VERSION; ?>"></script>
+<script src="<?php echo $WEB_ROOT; ?>js/interface/ModalWindow.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/interface/PokeSearch.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/battle/TimelineEvent.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/battle/Battle.js?v=<?php echo $SITE_VERSION; ?>"></script>

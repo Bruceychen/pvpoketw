@@ -1,7 +1,6 @@
 <div class="poke single">
 	<a class="random" href="#">隨機</a>
 	<a class="swap" href="#">左右交換</a>
-	<input type="radio" value="測試">
 	<input class="poke-search" type="text" placeholder="Search name">
 	<select class="poke-select">
 		<option disabled selected value="">選擇寶可夢</option>
@@ -93,7 +92,7 @@
 			<h3 class="section-title">防禦網使用策略</h3>
 			<select class="shield-select">
 				<option value="0">不使用防禦網</option>
-				<option value="1">使用1次防禦網</option>
+				<option value="1" selected>使用1次防禦網</option>
 				<option value="2">使用2次防禦網</option>
 			</select>
 			<a href="#" class="section-title toggle">其他選項 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>

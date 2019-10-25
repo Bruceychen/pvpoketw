@@ -33,7 +33,7 @@
 				<option value="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
 				<option value="ferocious" class="multi-battle">Ferocious Cup Meta</option>
 				<option value="sinister" class="multi-battle">Sinister Cup Meta</option>
-				
+
 				<?php
 				// Display custom groups
 

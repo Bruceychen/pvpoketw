@@ -6,7 +6,7 @@
 			<h3 class="section-title">其他選項</h3>
 			<select class="shield-select">
 				<option value="0">不使用防禦網</option>
-				<option value="1">使用1次防禦網</option>
+				<option value="1" selected>使用1次防禦網</option>
 				<option value="2">使用2次防禦網</option>
 			</select>
 			<select class="charged-count-select">
@@ -33,7 +33,7 @@
 				<option value="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
 				<option value="ferocious" class="multi-battle">Ferocious Cup Meta</option>
 				<option value="sinister" class="multi-battle">Sinister Cup Meta</option>
-				
+
 				<?php
 				// Display custom groups
 

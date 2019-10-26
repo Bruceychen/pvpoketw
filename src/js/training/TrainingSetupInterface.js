@@ -117,6 +117,7 @@ var InterfaceMaster = (function () {
 							$el.attr("type-2", pokemon.types[1]);
 						}
 
+						$el.attr("data-pokemon-id", pokemon.speciesId);
 						$el.addClass("active");
 						$el.find(".name").html(pokemon.speciesName);
 						$el.find(".cp").html("cp " + pokemon.cp);
@@ -185,7 +186,7 @@ var InterfaceMaster = (function () {
 
 					return false;
 				}
-				
+
 				if((teamSelectMethod == "featured")&&(! featuredTeam)){
 					modalWindow("Featured Team", $("<p>Please select a featured team to fight.</p>"));
 

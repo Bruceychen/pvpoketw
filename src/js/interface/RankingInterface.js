@@ -87,7 +87,7 @@ var InterfaceMaster = (function () {
 					$(".limited").show();
 					$(".check.limited").addClass("on");
 
-					limitedPokemon = ["mantine","swampert","muk_alolan","skuntank","drapion","ivysaur","venusaur","victreebel","gloom","vileplume","bellossom","jirachi","bronzong","hypno","mew","deoxys_defense","lugia"];
+					limitedPokemon = ["mantine","swampert","azumarill","muk_alolan","drapion","skuntank","ivysaur","venusaur","victreebel","jirachi","bronzong","mew","deoxys_defense","lugia"];
 				}
 
 

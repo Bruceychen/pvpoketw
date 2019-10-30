@@ -3,7 +3,7 @@
 <h1>Ranker</h1>
 <div class="section white">
 	<?php require 'modules/leagueselect.php'; ?>
-	<?php require 'modules/cupselect.php'; ?>
+	<?php require 'modules/cupselect2.php'; ?>
 
 	<p>The button below will generate ranking data for all leagues and categories, and save it to the '/data' directory. Open the developer console before clicking to see output. This process may take a few minutes.</p>
 

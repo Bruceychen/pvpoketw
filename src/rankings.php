@@ -85,6 +85,10 @@ switch($cup){
 	case "rainbowtw":
         $league = 'Rainbow Cup Taiwan';
 		break;
+
+	case "plaguetw":
+            $league = 'Plague Cup Taiwan';
+    		break;
 }
 
 $META_TITLE = $league . ' PvP Rankings';
@@ -128,7 +132,7 @@ require_once 'header.php';
 	<p>點擊以下各寶可夢可獲得更詳細的資料。</p>
 
 	<div class="check on limited hide"><span></span>顯示 <div class="limited-title">數量限制寶可夢</div>*</div>
-	<div class="asterisk limited hide">* 冠軍賽規定，這些寶可夢在每個出戰隊伍中，最多只能派出兩隻。</div>
+	<div class="asterisk limited hide">*本賽制規定，這些受標示寶可夢在每位參賽者六隻寶可夢隊伍中，有數量上之限制。詳情請見此賽制規則。</div>
 
 	<div class="poke-search-container">
 		<input class="poke-search" context="ranking-search" type="text" placeholder="寶可夢中文名或英文屬性搜尋" />
@@ -200,34 +204,34 @@ require_once 'header.php';
 </div>
 
 <div class="sandbox-search-strings hide">
-	<p>You can use the following search formats to filter Pokemon:</p>
+	<p>使用以下格式可以用來過濾尋找特定條件寶可夢(均不含雙引號 " ")：</p>
 	<table>
 		<tr>
-			<td><strong>Pokemon Name</strong></td>
-			<td>"azumarill"</td>
+			<td><strong>中文名稱 如：</strong></td>
+			<td>"瑪力露麗"</td>
 		</tr>
 		<tr>
-			<td><strong>Pokemon Type</strong></td>
+			<td><strong>英文屬性 如：</strong></td>
 			<td>"water"</td>
 		</tr>
 		<tr>
-			<td><strong>Move Name</strong></td>
-			<td>"@counter"</td>
+			<td><strong>中文招式名稱 如：</strong></td>
+			<td>"@雙倍奉還"</td>
 		</tr>
 		<tr>
-			<td><strong>Move Type</strong></td>
+			<td><strong>英文招式屬性 如：</strong></td>
 			<td>"@fighting"</td>
 		</tr>
 		<tr>
-			<td><strong>And</strong></td>
+			<td><strong>And(且)符號 如：</strong></td>
 			<td>"water&amp;@fighting"</td>
 		</tr>
 		<tr>
-			<td><strong>Or</strong></td>
+			<td><strong>Or(或)符號 如：</strong></td>
 			<td>"water,fighting"</td>
 		</tr>
 		<tr>
-			<td><strong>Not</strong></td>
+			<td><strong>Not(非)符號 如：</strong></td>
 			<td>"!water"</td>
 		</tr>
 	</table>

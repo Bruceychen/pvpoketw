@@ -83,6 +83,13 @@ var InterfaceMaster = (function () {
 					limitedPokemon = ["medicham","lucario","venusaur","meganium","skarmory","altaria","bastiodon","probopass","tropius","azumarill"];
 				}
 
+				if(cup == "plaguetw"){
+					$(".limited").show();
+					$(".check.limited").addClass("on");
+
+					limitedPokemon = ["mantine","swampert","muk_alolan","skuntank","drapion","ivysaur","venusaur","victreebel","gloom","vileplume","bellossom","jirachi","bronzong","hypno","mew","deoxys_defense","lugia"];
+				}
+
 
 				if(cup == "safari"){
 					$(".limited").show();

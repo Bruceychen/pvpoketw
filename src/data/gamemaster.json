@@ -132,23 +132,23 @@
 		"title": "Cliffhanger",
 		"include": [],
 		"exclude": []
-	}, {
-		"name": "sinister",
-		"title": "Sinister Cup",
-		"include": [{
-			"filterType": "type",
-			"values": ["ghost", "psychic", "fighting", "steel"]
-		}],
-		"exclude": [{
-			"filterType": "id",
-			"values": ["skarmory", "hypno"]
 		}, {
-			"filterType": "tag",
-			"values": ["mythical"]
-		}, {
-			"filterType": "type",
-			"values": ["dark"]
-		}]
+			"name": "sinister",
+			"title": "Sinister Cup",
+			"include": [{
+				"filterType": "type",
+				"values": ["ghost", "psychic", "fighting", "steel"]
+			}],
+			"exclude": [{
+				"filterType": "id",
+				"values": ["skarmory", "hypno"]
+			}, {
+				"filterType": "tag",
+				"values": ["mythical"]
+			}, {
+				"filterType": "type",
+				"values": ["dark"]
+			}]
 	}, {
 		"name": "ferocious",
 		"title": "Ferocious Cup",
@@ -158,17 +158,17 @@
 		}],
 		"exclude": []
 	},{
-			"name": "plaguetw",
-			"title": "Plague Cup",
-			"include": [{
-				"filterType": "type",
-				"values": ["water", "psychic", "fighting", "poison"]
-			}],
-			"exclude": []
+		"name": "plaguetw",
+		"title": "Plague Cup",
+		"include": [{
+			"filterType": "type",
+			"values": ["water", "psychic", "fighting", "poison"]
+		}],
+		"exclude": []
 	}],
 	"pokemon": [{
 		"dex": 1,
-		"speciesName": "Bulbasaur",
+		"speciesName": "妙蛙種子",
 		"speciesId": "bulbasaur",
 		"baseStats": {
 			"atk": 118,
@@ -185,7 +185,7 @@
 		}
 	}, {
 		"dex": 2,
-		"speciesName": "Ivysaur",
+		"speciesName": "妙蛙草",
 		"speciesId": "ivysaur",
 		"baseStats": {
 			"atk": 151,
@@ -202,7 +202,7 @@
 		}
 	}, {
 		"dex": 3,
-		"speciesName": "Venusaur",
+		"speciesName": "妙蛙花",
 		"speciesId": "venusaur",
 		"baseStats": {
 			"atk": 198,
@@ -219,7 +219,7 @@
 		}
 	}, {
 		"dex": 4,
-		"speciesName": "Charmander",
+		"speciesName": "小火龍",
 		"speciesId": "charmander",
 		"baseStats": {
 			"atk": 116,
@@ -236,7 +236,7 @@
 		}
 	}, {
 		"dex": 5,
-		"speciesName": "Charmeleon",
+		"speciesName": "火恐龍",
 		"speciesId": "charmeleon",
 		"baseStats": {
 			"atk": 158,
@@ -253,7 +253,7 @@
 		}
 	}, {
 		"dex": 6,
-		"speciesName": "Charizard",
+		"speciesName": "噴火龍",
 		"speciesId": "charizard",
 		"baseStats": {
 			"atk": 223,
@@ -270,7 +270,7 @@
 		}
 	}, {
 		"dex": 7,
-		"speciesName": "Squirtle",
+		"speciesName": "傑尼龜",
 		"speciesId": "squirtle",
 		"baseStats": {
 			"atk": 94,
@@ -287,7 +287,7 @@
 		}
 	}, {
 		"dex": 8,
-		"speciesName": "Wartortle",
+		"speciesName": "卡咪龜",
 		"speciesId": "wartortle",
 		"baseStats": {
 			"atk": 126,
@@ -304,7 +304,7 @@
 		}
 	}, {
 		"dex": 9,
-		"speciesName": "Blastoise",
+		"speciesName": "水箭龜",
 		"speciesId": "blastoise",
 		"baseStats": {
 			"atk": 171,
@@ -321,7 +321,7 @@
 		}
 	}, {
 		"dex": 10,
-		"speciesName": "Caterpie",
+		"speciesName": "綠毛蟲",
 		"speciesId": "caterpie",
 		"baseStats": {
 			"atk": 55,
@@ -337,7 +337,7 @@
 		}
 	}, {
 		"dex": 11,
-		"speciesName": "Metapod",
+		"speciesName": "鐵甲蛹",
 		"speciesId": "metapod",
 		"baseStats": {
 			"atk": 45,
@@ -353,7 +353,7 @@
 		}
 	}, {
 		"dex": 12,
-		"speciesName": "Butterfree",
+		"speciesName": "巴大蝶",
 		"speciesId": "butterfree",
 		"baseStats": {
 			"atk": 167,
@@ -370,7 +370,7 @@
 		}
 	}, {
 		"dex": 13,
-		"speciesName": "Weedle",
+		"speciesName": "獨角蟲",
 		"speciesId": "weedle",
 		"baseStats": {
 			"atk": 63,
@@ -387,7 +387,7 @@
 		}
 	}, {
 		"dex": 14,
-		"speciesName": "Kakuna",
+		"speciesName": "鐵殼蛹",
 		"speciesId": "kakuna",
 		"baseStats": {
 			"atk": 46,
@@ -404,7 +404,7 @@
 		}
 	}, {
 		"dex": 15,
-		"speciesName": "Beedrill",
+		"speciesName": "大針蜂",
 		"speciesId": "beedrill",
 		"baseStats": {
 			"atk": 169,
@@ -421,7 +421,7 @@
 		}
 	}, {
 		"dex": 16,
-		"speciesName": "Pidgey",
+		"speciesName": "波波",
 		"speciesId": "pidgey",
 		"baseStats": {
 			"atk": 85,
@@ -437,7 +437,7 @@
 		}
 	}, {
 		"dex": 17,
-		"speciesName": "Pidgeotto",
+		"speciesName": "比比鳥",
 		"speciesId": "pidgeotto",
 		"baseStats": {
 			"atk": 117,
@@ -453,7 +453,7 @@
 		}
 	}, {
 		"dex": 18,
-		"speciesName": "Pidgeot",
+		"speciesName": "大比鳥",
 		"speciesId": "pidgeot",
 		"baseStats": {
 			"atk": 166,
@@ -470,7 +470,7 @@
 		}
 	}, {
 		"dex": 19,
-		"speciesName": "Rattata",
+		"speciesName": "小拉達",
 		"speciesId": "rattata",
 		"baseStats": {
 			"atk": 103,
@@ -487,7 +487,7 @@
 		}
 	}, {
 		"dex": 19,
-		"speciesName": "Rattata (Alolan)",
+		"speciesName": "小拉達 阿羅拉型態",
 		"speciesId": "rattata_alolan",
 		"baseStats": {
 			"atk": 103,
@@ -504,7 +504,7 @@
 		}
 	}, {
 		"dex": 20,
-		"speciesName": "Raticate",
+		"speciesName": "拉達",
 		"speciesId": "raticate",
 		"baseStats": {
 			"atk": 161,
@@ -521,7 +521,7 @@
 		}
 	}, {
 		"dex": 20,
-		"speciesName": "Raticate (Alolan)",
+		"speciesName": "拉達 阿羅拉型態",
 		"speciesId": "raticate_alolan",
 		"baseStats": {
 			"atk": 135,
@@ -538,7 +538,7 @@
 		}
 	}, {
 		"dex": 21,
-		"speciesName": "Spearow",
+		"speciesName": "烈雀",
 		"speciesId": "spearow",
 		"baseStats": {
 			"atk": 112,
@@ -555,7 +555,7 @@
 		}
 	}, {
 		"dex": 22,
-		"speciesName": "Fearow",
+		"speciesName": "大嘴雀",
 		"speciesId": "fearow",
 		"baseStats": {
 			"atk": 182,
@@ -572,7 +572,7 @@
 		}
 	}, {
 		"dex": 23,
-		"speciesName": "Ekans",
+		"speciesName": "阿柏蛇",
 		"speciesId": "ekans",
 		"baseStats": {
 			"atk": 110,
@@ -589,7 +589,7 @@
 		}
 	}, {
 		"dex": 24,
-		"speciesName": "Arbok",
+		"speciesName": "阿柏怪",
 		"speciesId": "arbok",
 		"baseStats": {
 			"atk": 167,
@@ -605,7 +605,7 @@
 		}
 	}, {
 		"dex": 25,
-		"speciesName": "Pikachu",
+		"speciesName": "皮卡丘",
 		"speciesId": "pikachu",
 		"baseStats": {
 			"atk": 112,
@@ -622,7 +622,7 @@
 		}
 	}, {
 		"dex": 26,
-		"speciesName": "Raichu",
+		"speciesName": "雷丘",
 		"speciesId": "raichu",
 		"baseStats": {
 			"atk": 193,
@@ -639,7 +639,7 @@
 		}
 	}, {
 		"dex": 26,
-		"speciesName": "Raichu (Alolan)",
+		"speciesName": "雷丘 阿羅拉型態",
 		"speciesId": "raichu_alolan",
 		"baseStats": {
 			"atk": 201,
@@ -656,7 +656,7 @@
 		}
 	}, {
 		"dex": 27,
-		"speciesName": "Sandshrew",
+		"speciesName": "穿山鼠",
 		"speciesId": "sandshrew",
 		"baseStats": {
 			"atk": 126,
@@ -673,7 +673,7 @@
 		}
 	}, {
 		"dex": 27,
-		"speciesName": "Sandshrew (Alolan)",
+		"speciesName": "穿山鼠 阿羅拉型態",
 		"speciesId": "sandshrew_alolan",
 		"baseStats": {
 			"atk": 125,
@@ -690,7 +690,7 @@
 		}
 	}, {
 		"dex": 28,
-		"speciesName": "Sandslash",
+		"speciesName": "穿山王",
 		"speciesId": "sandslash",
 		"baseStats": {
 			"atk": 182,
@@ -706,7 +706,7 @@
 		}
 	}, {
 		"dex": 28,
-		"speciesName": "Sandslash (Alolan)",
+		"speciesName": "穿山王 阿羅拉型態",
 		"speciesId": "sandslash_alolan",
 		"baseStats": {
 			"atk": 177,
@@ -723,7 +723,7 @@
 		}
 	}, {
 		"dex": 29,
-		"speciesName": "Nidoran♀",
+		"speciesName": "尼多蘭",
 		"speciesId": "nidoran_female",
 		"baseStats": {
 			"atk": 86,
@@ -739,7 +739,7 @@
 		}
 	}, {
 		"dex": 30,
-		"speciesName": "Nidorina",
+		"speciesName": "尼多娜",
 		"speciesId": "nidorina",
 		"baseStats": {
 			"atk": 117,
@@ -755,7 +755,7 @@
 		}
 	}, {
 		"dex": 31,
-		"speciesName": "Nidoqueen",
+		"speciesName": "尼多后",
 		"speciesId": "nidoqueen",
 		"baseStats": {
 			"atk": 180,
@@ -771,7 +771,7 @@
 		}
 	}, {
 		"dex": 32,
-		"speciesName": "Nidoran♂",
+		"speciesName": "尼多朗",
 		"speciesId": "nidoran_male",
 		"baseStats": {
 			"atk": 105,
@@ -787,7 +787,7 @@
 		}
 	}, {
 		"dex": 33,
-		"speciesName": "Nidorino",
+		"speciesName": "尼多力諾",
 		"speciesId": "nidorino",
 		"baseStats": {
 			"atk": 137,
@@ -803,7 +803,7 @@
 		}
 	}, {
 		"dex": 34,
-		"speciesName": "Nidoking",
+		"speciesName": "尼多王",
 		"speciesId": "nidoking",
 		"baseStats": {
 			"atk": 204,
@@ -820,7 +820,7 @@
 		}
 	}, {
 		"dex": 35,
-		"speciesName": "Clefairy",
+		"speciesName": "皮皮",
 		"speciesId": "clefairy",
 		"baseStats": {
 			"atk": 107,
@@ -836,7 +836,7 @@
 		}
 	}, {
 		"dex": 36,
-		"speciesName": "Clefable",
+		"speciesName": "皮可西",
 		"speciesId": "clefable",
 		"baseStats": {
 			"atk": 178,
@@ -853,7 +853,7 @@
 		}
 	}, {
 		"dex": 37,
-		"speciesName": "Vulpix",
+		"speciesName": "六尾",
 		"speciesId": "vulpix",
 		"baseStats": {
 			"atk": 96,
@@ -869,7 +869,7 @@
 		}
 	}, {
 		"dex": 37,
-		"speciesName": "Vulpix (Alolan)",
+		"speciesName": "六尾 阿羅拉型態",
 		"speciesId": "vulpix_alolan",
 		"baseStats": {
 			"atk": 96,
@@ -886,7 +886,7 @@
 		}
 	}, {
 		"dex": 38,
-		"speciesName": "Ninetales",
+		"speciesName": "九尾",
 		"speciesId": "ninetales",
 		"baseStats": {
 			"atk": 169,
@@ -903,7 +903,7 @@
 		}
 	}, {
 		"dex": 38,
-		"speciesName": "Ninetales (Alolan)",
+		"speciesName": "九尾 阿羅拉型態",
 		"speciesId": "ninetales_alolan",
 		"baseStats": {
 			"atk": 170,
@@ -920,7 +920,7 @@
 		}
 	}, {
 		"dex": 39,
-		"speciesName": "Jigglypuff",
+		"speciesName": "胖丁",
 		"speciesId": "jigglypuff",
 		"baseStats": {
 			"atk": 80,
@@ -937,7 +937,7 @@
 		}
 	}, {
 		"dex": 40,
-		"speciesName": "Wigglytuff",
+		"speciesName": "胖可丁",
 		"speciesId": "wigglytuff",
 		"baseStats": {
 			"atk": 156,
@@ -953,7 +953,7 @@
 		}
 	}, {
 		"dex": 41,
-		"speciesName": "Zubat",
+		"speciesName": "超音蝠",
 		"speciesId": "zubat",
 		"baseStats": {
 			"atk": 83,
@@ -970,7 +970,7 @@
 		}
 	}, {
 		"dex": 42,
-		"speciesName": "Golbat",
+		"speciesName": "大嘴蝠",
 		"speciesId": "golbat",
 		"baseStats": {
 			"atk": 161,
@@ -987,7 +987,7 @@
 		}
 	}, {
 		"dex": 43,
-		"speciesName": "Oddish",
+		"speciesName": "走路草",
 		"speciesId": "oddish",
 		"baseStats": {
 			"atk": 131,
@@ -1004,7 +1004,7 @@
 		}
 	}, {
 		"dex": 44,
-		"speciesName": "Gloom",
+		"speciesName": "臭臭花",
 		"speciesId": "gloom",
 		"baseStats": {
 			"atk": 153,
@@ -1021,7 +1021,7 @@
 		}
 	}, {
 		"dex": 45,
-		"speciesName": "Vileplume",
+		"speciesName": "霸王花",
 		"speciesId": "vileplume",
 		"baseStats": {
 			"atk": 202,
@@ -1038,7 +1038,7 @@
 		}
 	}, {
 		"dex": 46,
-		"speciesName": "Paras",
+		"speciesName": "派拉斯",
 		"speciesId": "paras",
 		"baseStats": {
 			"atk": 121,
@@ -1054,7 +1054,7 @@
 		}
 	}, {
 		"dex": 47,
-		"speciesName": "Parasect",
+		"speciesName": "派拉斯特",
 		"speciesId": "parasect",
 		"baseStats": {
 			"atk": 165,
@@ -1071,7 +1071,7 @@
 		}
 	}, {
 		"dex": 48,
-		"speciesName": "Venonat",
+		"speciesName": "毛球",
 		"speciesId": "venonat",
 		"baseStats": {
 			"atk": 100,
@@ -1088,7 +1088,7 @@
 		}
 	}, {
 		"dex": 49,
-		"speciesName": "Venomoth",
+		"speciesName": "摩魯蛾",
 		"speciesId": "venomoth",
 		"baseStats": {
 			"atk": 179,
@@ -1105,7 +1105,7 @@
 		}
 	}, {
 		"dex": 50,
-		"speciesName": "Diglett",
+		"speciesName": "地鼠",
 		"speciesId": "diglett",
 		"baseStats": {
 			"atk": 109,
@@ -1122,7 +1122,7 @@
 		}
 	}, {
 		"dex": 50,
-		"speciesName": "Diglett (Alolan)",
+		"speciesName": "地鼠 阿羅拉型態",
 		"speciesId": "diglett_alolan",
 		"baseStats": {
 			"atk": 108,
@@ -1139,7 +1139,7 @@
 		}
 	}, {
 		"dex": 51,
-		"speciesName": "Dugtrio",
+		"speciesName": "三地鼠",
 		"speciesId": "dugtrio",
 		"baseStats": {
 			"atk": 167,
@@ -1156,7 +1156,7 @@
 		}
 	}, {
 		"dex": 51,
-		"speciesName": "Dugtrio (Alolan)",
+		"speciesName": "三地鼠 阿羅拉型態",
 		"speciesId": "dugtrio_alolan",
 		"baseStats": {
 			"atk": 201,
@@ -1173,7 +1173,7 @@
 		}
 	}, {
 		"dex": 52,
-		"speciesName": "Meowth",
+		"speciesName": "喵喵",
 		"speciesId": "meowth",
 		"baseStats": {
 			"atk": 92,
@@ -1190,7 +1190,7 @@
 		}
 	}, {
 		"dex": 52,
-		"speciesName": "Meowth (Alolan)",
+		"speciesName": "喵喵 阿羅拉型態",
 		"speciesId": "meowth_alolan",
 		"baseStats": {
 			"atk": 99,
@@ -1207,7 +1207,7 @@
 		}
 	}, {
 		"dex": 53,
-		"speciesName": "Persian",
+		"speciesName": "貓老大",
 		"speciesId": "persian",
 		"baseStats": {
 			"atk": 150,
@@ -1224,7 +1224,7 @@
 		}
 	}, {
 		"dex": 53,
-		"speciesName": "Persian (Alolan)",
+		"speciesName": "貓老大 阿羅拉型態",
 		"speciesId": "persian_alolan",
 		"baseStats": {
 			"atk": 158,
@@ -1241,7 +1241,7 @@
 		}
 	}, {
 		"dex": 54,
-		"speciesName": "Psyduck",
+		"speciesName": "可達鴨",
 		"speciesId": "psyduck",
 		"baseStats": {
 			"atk": 122,
@@ -1258,7 +1258,7 @@
 		}
 	}, {
 		"dex": 55,
-		"speciesName": "Golduck",
+		"speciesName": "哥達鴨",
 		"speciesId": "golduck",
 		"baseStats": {
 			"atk": 191,
@@ -1275,7 +1275,7 @@
 		}
 	}, {
 		"dex": 56,
-		"speciesName": "Mankey",
+		"speciesName": "猴怪",
 		"speciesId": "mankey",
 		"baseStats": {
 			"atk": 148,
@@ -1291,7 +1291,7 @@
 		}
 	}, {
 		"dex": 57,
-		"speciesName": "Primeape",
+		"speciesName": "火爆猴",
 		"speciesId": "primeape",
 		"baseStats": {
 			"atk": 207,
@@ -1308,7 +1308,7 @@
 		}
 	}, {
 		"dex": 58,
-		"speciesName": "Growlithe",
+		"speciesName": "卡蒂狗",
 		"speciesId": "growlithe",
 		"baseStats": {
 			"atk": 136,
@@ -1325,7 +1325,7 @@
 		}
 	}, {
 		"dex": 59,
-		"speciesName": "Arcanine",
+		"speciesName": "風速狗",
 		"speciesId": "arcanine",
 		"baseStats": {
 			"atk": 227,
@@ -1342,7 +1342,7 @@
 		}
 	}, {
 		"dex": 60,
-		"speciesName": "Poliwag",
+		"speciesName": "蚊香蝌蚪",
 		"speciesId": "poliwag",
 		"baseStats": {
 			"atk": 101,
@@ -1359,7 +1359,7 @@
 		}
 	}, {
 		"dex": 61,
-		"speciesName": "Poliwhirl",
+		"speciesName": "蚊香君",
 		"speciesId": "poliwhirl",
 		"baseStats": {
 			"atk": 130,
@@ -1376,7 +1376,7 @@
 		}
 	}, {
 		"dex": 62,
-		"speciesName": "Poliwrath",
+		"speciesName": "蚊香泳士",
 		"speciesId": "poliwrath",
 		"baseStats": {
 			"atk": 182,
@@ -1393,7 +1393,7 @@
 		}
 	}, {
 		"dex": 63,
-		"speciesName": "Abra",
+		"speciesName": "凱西",
 		"speciesId": "abra",
 		"baseStats": {
 			"atk": 195,
@@ -1410,7 +1410,7 @@
 		}
 	}, {
 		"dex": 64,
-		"speciesName": "Kadabra",
+		"speciesName": "勇基拉",
 		"speciesId": "kadabra",
 		"baseStats": {
 			"atk": 232,
@@ -1427,7 +1427,7 @@
 		}
 	}, {
 		"dex": 65,
-		"speciesName": "Alakazam",
+		"speciesName": "胡地",
 		"speciesId": "alakazam",
 		"baseStats": {
 			"atk": 271,
@@ -1444,7 +1444,7 @@
 		}
 	}, {
 		"dex": 66,
-		"speciesName": "Machop",
+		"speciesName": "腕力",
 		"speciesId": "machop",
 		"baseStats": {
 			"atk": 137,
@@ -1461,7 +1461,7 @@
 		}
 	}, {
 		"dex": 67,
-		"speciesName": "Machoke",
+		"speciesName": "豪力",
 		"speciesId": "machoke",
 		"baseStats": {
 			"atk": 177,
@@ -1478,7 +1478,7 @@
 		}
 	}, {
 		"dex": 68,
-		"speciesName": "Machamp",
+		"speciesName": "怪力",
 		"speciesId": "machamp",
 		"baseStats": {
 			"atk": 234,
@@ -1495,7 +1495,7 @@
 		}
 	}, {
 		"dex": 69,
-		"speciesName": "Bellsprout",
+		"speciesName": "喇叭芽",
 		"speciesId": "bellsprout",
 		"baseStats": {
 			"atk": 139,
@@ -1511,7 +1511,7 @@
 		}
 	}, {
 		"dex": 70,
-		"speciesName": "Weepinbell",
+		"speciesName": "口呆花",
 		"speciesId": "weepinbell",
 		"baseStats": {
 			"atk": 172,
@@ -1528,7 +1528,7 @@
 		}
 	}, {
 		"dex": 71,
-		"speciesName": "Victreebel",
+		"speciesName": "大食花",
 		"speciesId": "victreebel",
 		"baseStats": {
 			"atk": 207,
@@ -1544,7 +1544,7 @@
 		}
 	}, {
 		"dex": 72,
-		"speciesName": "Tentacool",
+		"speciesName": "瑪瑙水母",
 		"speciesId": "tentacool",
 		"baseStats": {
 			"atk": 97,
@@ -1560,7 +1560,7 @@
 		}
 	}, {
 		"dex": 73,
-		"speciesName": "Tentacruel",
+		"speciesName": "毒刺水母",
 		"speciesId": "tentacruel",
 		"baseStats": {
 			"atk": 166,
@@ -1576,7 +1576,7 @@
 		}
 	}, {
 		"dex": 74,
-		"speciesName": "Geodude",
+		"speciesName": "小拳石",
 		"speciesId": "geodude",
 		"baseStats": {
 			"atk": 132,
@@ -1592,7 +1592,7 @@
 		}
 	}, {
 		"dex": 74,
-		"speciesName": "Geodude (Alolan)",
+		"speciesName": "小拳石 阿羅拉型態",
 		"speciesId": "geodude_alolan",
 		"baseStats": {
 			"atk": 132,
@@ -1609,7 +1609,7 @@
 		}
 	}, {
 		"dex": 75,
-		"speciesName": "Graveler",
+		"speciesName": "隆隆石",
 		"speciesId": "graveler",
 		"baseStats": {
 			"atk": 164,
@@ -1626,7 +1626,7 @@
 		}
 	}, {
 		"dex": 75,
-		"speciesName": "Graveler (Alolan)",
+		"speciesName": "隆隆石 阿羅拉型態",
 		"speciesId": "graveler_alolan",
 		"baseStats": {
 			"atk": 164,
@@ -1643,7 +1643,7 @@
 		}
 	}, {
 		"dex": 76,
-		"speciesName": "Golem",
+		"speciesName": "隆隆岩",
 		"speciesId": "golem",
 		"baseStats": {
 			"atk": 211,
@@ -1660,7 +1660,7 @@
 		}
 	}, {
 		"dex": 76,
-		"speciesName": "Golem (Alolan)",
+		"speciesName": "隆隆岩 阿羅拉型態",
 		"speciesId": "golem_alolan",
 		"baseStats": {
 			"atk": 211,
@@ -1677,7 +1677,7 @@
 		}
 	}, {
 		"dex": 77,
-		"speciesName": "Ponyta",
+		"speciesName": "小火馬",
 		"speciesId": "ponyta",
 		"baseStats": {
 			"atk": 170,
@@ -1694,7 +1694,7 @@
 		}
 	}, {
 		"dex": 78,
-		"speciesName": "Rapidash",
+		"speciesName": "烈焰馬",
 		"speciesId": "rapidash",
 		"baseStats": {
 			"atk": 207,
@@ -1711,7 +1711,7 @@
 		}
 	}, {
 		"dex": 79,
-		"speciesName": "Slowpoke",
+		"speciesName": "呆呆獸",
 		"speciesId": "slowpoke",
 		"baseStats": {
 			"atk": 109,
@@ -1727,7 +1727,7 @@
 		}
 	}, {
 		"dex": 80,
-		"speciesName": "Slowbro",
+		"speciesName": "呆殼獸",
 		"speciesId": "slowbro",
 		"baseStats": {
 			"atk": 177,
@@ -1743,7 +1743,7 @@
 		}
 	}, {
 		"dex": 81,
-		"speciesName": "Magnemite",
+		"speciesName": "小磁怪",
 		"speciesId": "magnemite",
 		"baseStats": {
 			"atk": 165,
@@ -1759,7 +1759,7 @@
 		}
 	}, {
 		"dex": 82,
-		"speciesName": "Magneton",
+		"speciesName": "三合一磁怪",
 		"speciesId": "magneton",
 		"baseStats": {
 			"atk": 223,
@@ -1776,7 +1776,7 @@
 		}
 	}, {
 		"dex": 83,
-		"speciesName": "Farfetch'd",
+		"speciesName": "大蔥鴨",
 		"speciesId": "farfetchd",
 		"baseStats": {
 			"atk": 124,
@@ -1794,7 +1794,7 @@
 		}
 	}, {
 		"dex": 84,
-		"speciesName": "Doduo",
+		"speciesName": "嘟嘟",
 		"speciesId": "doduo",
 		"baseStats": {
 			"atk": 158,
@@ -1811,7 +1811,7 @@
 		}
 	}, {
 		"dex": 85,
-		"speciesName": "Dodrio",
+		"speciesName": "嘟嘟利",
 		"speciesId": "dodrio",
 		"baseStats": {
 			"atk": 218,
@@ -1828,7 +1828,7 @@
 		}
 	}, {
 		"dex": 86,
-		"speciesName": "Seel",
+		"speciesName": "小海獅",
 		"speciesId": "seel",
 		"baseStats": {
 			"atk": 85,
@@ -1845,7 +1845,7 @@
 		}
 	}, {
 		"dex": 87,
-		"speciesName": "Dewgong",
+		"speciesName": "白海獅",
 		"speciesId": "dewgong",
 		"baseStats": {
 			"atk": 139,
@@ -1862,7 +1862,7 @@
 		}
 	}, {
 		"dex": 88,
-		"speciesName": "Grimer",
+		"speciesName": "臭泥",
 		"speciesId": "grimer",
 		"baseStats": {
 			"atk": 135,
@@ -1879,7 +1879,7 @@
 		}
 	}, {
 		"dex": 88,
-		"speciesName": "Grimer (Alolan)",
+		"speciesName": "臭泥 阿羅拉型態",
 		"speciesId": "grimer_alolan",
 		"baseStats": {
 			"atk": 135,
@@ -1897,7 +1897,7 @@
 		}
 	}, {
 		"dex": 89,
-		"speciesName": "Muk",
+		"speciesName": "臭臭泥",
 		"speciesId": "muk",
 		"baseStats": {
 			"atk": 190,
@@ -1914,7 +1914,7 @@
 		}
 	}, {
 		"dex": 89,
-		"speciesName": "Muk (Alolan)",
+		"speciesName": "臭臭泥 阿羅拉型態",
 		"speciesId": "muk_alolan",
 		"baseStats": {
 			"atk": 190,
@@ -1931,7 +1931,7 @@
 		}
 	}, {
 		"dex": 90,
-		"speciesName": "Shellder",
+		"speciesName": "大舌貝",
 		"speciesId": "shellder",
 		"baseStats": {
 			"atk": 116,
@@ -1947,7 +1947,7 @@
 		}
 	}, {
 		"dex": 91,
-		"speciesName": "Cloyster",
+		"speciesName": "刺甲貝",
 		"speciesId": "cloyster",
 		"baseStats": {
 			"atk": 186,
@@ -1964,7 +1964,7 @@
 		}
 	}, {
 		"dex": 92,
-		"speciesName": "Gastly",
+		"speciesName": "鬼斯",
 		"speciesId": "gastly",
 		"baseStats": {
 			"atk": 186,
@@ -1981,7 +1981,7 @@
 		}
 	}, {
 		"dex": 93,
-		"speciesName": "Haunter",
+		"speciesName": "鬼斯通",
 		"speciesId": "haunter",
 		"baseStats": {
 			"atk": 223,
@@ -1998,7 +1998,7 @@
 		}
 	}, {
 		"dex": 94,
-		"speciesName": "Gengar",
+		"speciesName": "耿鬼",
 		"speciesId": "gengar",
 		"baseStats": {
 			"atk": 261,
@@ -2015,7 +2015,7 @@
 		}
 	}, {
 		"dex": 95,
-		"speciesName": "Onix",
+		"speciesName": "大岩蛇",
 		"speciesId": "onix",
 		"baseStats": {
 			"atk": 85,
@@ -2032,7 +2032,7 @@
 		}
 	}, {
 		"dex": 96,
-		"speciesName": "Drowzee",
+		"speciesName": "催眠貘",
 		"speciesId": "drowzee",
 		"baseStats": {
 			"atk": 89,
@@ -2049,7 +2049,7 @@
 		}
 	}, {
 		"dex": 97,
-		"speciesName": "Hypno",
+		"speciesName": "引夢貘人",
 		"speciesId": "hypno",
 		"baseStats": {
 			"atk": 144,
@@ -2066,7 +2066,7 @@
 		}
 	}, {
 		"dex": 98,
-		"speciesName": "Krabby",
+		"speciesName": "大鉗蟹",
 		"speciesId": "krabby",
 		"baseStats": {
 			"atk": 181,
@@ -2082,7 +2082,7 @@
 		}
 	}, {
 		"dex": 99,
-		"speciesName": "Kingler",
+		"speciesName": "巨鉗蟹",
 		"speciesId": "kingler",
 		"baseStats": {
 			"atk": 240,
@@ -2099,7 +2099,7 @@
 		}
 	}, {
 		"dex": 100,
-		"speciesName": "Voltorb",
+		"speciesName": "霹靂電球",
 		"speciesId": "voltorb",
 		"baseStats": {
 			"atk": 109,
@@ -2116,7 +2116,7 @@
 		}
 	}, {
 		"dex": 101,
-		"speciesName": "Electrode",
+		"speciesName": "頑皮雷彈",
 		"speciesId": "electrode",
 		"baseStats": {
 			"atk": 173,
@@ -2133,7 +2133,7 @@
 		}
 	}, {
 		"dex": 102,
-		"speciesName": "Exeggcute",
+		"speciesName": "蛋蛋",
 		"speciesId": "exeggcute",
 		"baseStats": {
 			"atk": 107,
@@ -2149,7 +2149,7 @@
 		}
 	}, {
 		"dex": 103,
-		"speciesName": "Exeggutor",
+		"speciesName": "椰蛋樹",
 		"speciesId": "exeggutor",
 		"baseStats": {
 			"atk": 233,
@@ -2166,7 +2166,7 @@
 		}
 	}, {
 		"dex": 103,
-		"speciesName": "Exeggutor (Alolan)",
+		"speciesName": "椰蛋樹 阿羅拉型態",
 		"speciesId": "exeggutor_alolan",
 		"baseStats": {
 			"atk": 230,
@@ -2183,7 +2183,7 @@
 		}
 	}, {
 		"dex": 104,
-		"speciesName": "Cubone",
+		"speciesName": "卡拉卡拉",
 		"speciesId": "cubone",
 		"baseStats": {
 			"atk": 90,
@@ -2200,7 +2200,7 @@
 		}
 	}, {
 		"dex": 105,
-		"speciesName": "Marowak",
+		"speciesName": "嘎啦嘎啦",
 		"speciesId": "marowak",
 		"baseStats": {
 			"atk": 144,
@@ -2217,7 +2217,7 @@
 		}
 	}, {
 		"dex": 105,
-		"speciesName": "Marowak (Alolan)",
+		"speciesName": "嘎啦嘎啦 阿羅拉型態",
 		"speciesId": "marowak_alolan",
 		"baseStats": {
 			"atk": 144,
@@ -2234,7 +2234,7 @@
 		}
 	}, {
 		"dex": 106,
-		"speciesName": "Hitmonlee",
+		"speciesName": "飛腿郎",
 		"speciesId": "hitmonlee",
 		"baseStats": {
 			"atk": 224,
@@ -2251,7 +2251,7 @@
 		}
 	}, {
 		"dex": 107,
-		"speciesName": "Hitmonchan",
+		"speciesName": "快拳郎",
 		"speciesId": "hitmonchan",
 		"baseStats": {
 			"atk": 193,
@@ -2268,7 +2268,7 @@
 		}
 	}, {
 		"dex": 108,
-		"speciesName": "Lickitung",
+		"speciesName": "大舌頭",
 		"speciesId": "lickitung",
 		"baseStats": {
 			"atk": 108,
@@ -2284,7 +2284,7 @@
 		}
 	}, {
 		"dex": 109,
-		"speciesName": "Koffing",
+		"speciesName": "瓦斯彈",
 		"speciesId": "koffing",
 		"baseStats": {
 			"atk": 119,
@@ -2301,7 +2301,7 @@
 		}
 	}, {
 		"dex": 110,
-		"speciesName": "Weezing",
+		"speciesName": "雙彈瓦斯",
 		"speciesId": "weezing",
 		"baseStats": {
 			"atk": 174,
@@ -2318,7 +2318,7 @@
 		}
 	}, {
 		"dex": 111,
-		"speciesName": "Rhyhorn",
+		"speciesName": "獨角犀牛",
 		"speciesId": "rhyhorn",
 		"baseStats": {
 			"atk": 140,
@@ -2334,7 +2334,7 @@
 		}
 	}, {
 		"dex": 112,
-		"speciesName": "Rhydon",
+		"speciesName": "鑽角犀獸",
 		"speciesId": "rhydon",
 		"baseStats": {
 			"atk": 222,
@@ -2351,7 +2351,7 @@
 		}
 	}, {
 		"dex": 113,
-		"speciesName": "Chansey",
+		"speciesName": "吉利蛋",
 		"speciesId": "chansey",
 		"baseStats": {
 			"atk": 60,
@@ -2368,7 +2368,7 @@
 		}
 	}, {
 		"dex": 114,
-		"speciesName": "Tangela",
+		"speciesName": "蔓藤怪",
 		"speciesId": "tangela",
 		"baseStats": {
 			"atk": 183,
@@ -2385,7 +2385,7 @@
 		}
 	}, {
 		"dex": 115,
-		"speciesName": "Kangaskhan",
+		"speciesName": "袋獸",
 		"speciesId": "kangaskhan",
 		"baseStats": {
 			"atk": 181,
@@ -2403,7 +2403,7 @@
 		}
 	}, {
 		"dex": 116,
-		"speciesName": "Horsea",
+		"speciesName": "墨海馬",
 		"speciesId": "horsea",
 		"baseStats": {
 			"atk": 129,
@@ -2419,7 +2419,7 @@
 		}
 	}, {
 		"dex": 117,
-		"speciesName": "Seadra",
+		"speciesName": "海刺龍",
 		"speciesId": "seadra",
 		"baseStats": {
 			"atk": 187,
@@ -2436,7 +2436,7 @@
 		}
 	}, {
 		"dex": 118,
-		"speciesName": "Goldeen",
+		"speciesName": "角金魚",
 		"speciesId": "goldeen",
 		"baseStats": {
 			"atk": 123,
@@ -2452,7 +2452,7 @@
 		}
 	}, {
 		"dex": 119,
-		"speciesName": "Seaking",
+		"speciesName": "金魚王",
 		"speciesId": "seaking",
 		"baseStats": {
 			"atk": 175,
@@ -2469,7 +2469,7 @@
 		}
 	}, {
 		"dex": 120,
-		"speciesName": "Staryu",
+		"speciesName": "海星星",
 		"speciesId": "staryu",
 		"baseStats": {
 			"atk": 137,
@@ -2486,7 +2486,7 @@
 		}
 	}, {
 		"dex": 121,
-		"speciesName": "Starmie",
+		"speciesName": "寶石海星",
 		"speciesId": "starmie",
 		"baseStats": {
 			"atk": 210,
@@ -2503,7 +2503,7 @@
 		}
 	}, {
 		"dex": 122,
-		"speciesName": "Mr. Mime",
+		"speciesName": "魔牆人偶",
 		"speciesId": "mr_mime",
 		"baseStats": {
 			"atk": 192,
@@ -2520,7 +2520,7 @@
 		}
 	}, {
 		"dex": 123,
-		"speciesName": "Scyther",
+		"speciesName": "飛天螳螂",
 		"speciesId": "scyther",
 		"baseStats": {
 			"atk": 218,
@@ -2537,7 +2537,7 @@
 		}
 	}, {
 		"dex": 124,
-		"speciesName": "Jynx",
+		"speciesName": "迷唇姐",
 		"speciesId": "jynx",
 		"baseStats": {
 			"atk": 223,
@@ -2554,7 +2554,7 @@
 		}
 	}, {
 		"dex": 125,
-		"speciesName": "Electabuzz",
+		"speciesName": "電擊獸",
 		"speciesId": "electabuzz",
 		"baseStats": {
 			"atk": 198,
@@ -2571,7 +2571,7 @@
 		}
 	}, {
 		"dex": 126,
-		"speciesName": "Magmar",
+		"speciesName": "鴨嘴火獸",
 		"speciesId": "magmar",
 		"baseStats": {
 			"atk": 206,
@@ -2588,7 +2588,7 @@
 		}
 	}, {
 		"dex": 127,
-		"speciesName": "Pinsir",
+		"speciesName": "凱羅斯",
 		"speciesId": "pinsir",
 		"baseStats": {
 			"atk": 238,
@@ -2605,7 +2605,7 @@
 		}
 	}, {
 		"dex": 128,
-		"speciesName": "Tauros",
+		"speciesName": "肯泰羅",
 		"speciesId": "tauros",
 		"baseStats": {
 			"atk": 198,
@@ -2622,7 +2622,7 @@
 		}
 	}, {
 		"dex": 129,
-		"speciesName": "Magikarp",
+		"speciesName": "鯉魚王",
 		"speciesId": "magikarp",
 		"baseStats": {
 			"atk": 29,
@@ -2639,7 +2639,7 @@
 		}
 	}, {
 		"dex": 130,
-		"speciesName": "Gyarados",
+		"speciesName": "暴鯉龍",
 		"speciesId": "gyarados",
 		"baseStats": {
 			"atk": 237,
@@ -2656,7 +2656,7 @@
 		}
 	}, {
 		"dex": 131,
-		"speciesName": "Lapras",
+		"speciesName": "拉普拉斯",
 		"speciesId": "lapras",
 		"baseStats": {
 			"atk": 165,
@@ -2673,7 +2673,7 @@
 		}
 	}, {
 		"dex": 132,
-		"speciesName": "Ditto",
+		"speciesName": "百變怪",
 		"speciesId": "ditto",
 		"baseStats": {
 			"atk": 91,
@@ -2689,7 +2689,7 @@
 		}
 	}, {
 		"dex": 133,
-		"speciesName": "Eevee",
+		"speciesName": "伊布",
 		"speciesId": "eevee",
 		"baseStats": {
 			"atk": 104,
@@ -2706,7 +2706,7 @@
 		}
 	}, {
 		"dex": 134,
-		"speciesName": "Vaporeon",
+		"speciesName": "水伊布",
 		"speciesId": "vaporeon",
 		"baseStats": {
 			"atk": 205,
@@ -2723,7 +2723,7 @@
 		}
 	}, {
 		"dex": 135,
-		"speciesName": "Jolteon",
+		"speciesName": "雷伊布",
 		"speciesId": "jolteon",
 		"baseStats": {
 			"atk": 232,
@@ -2740,7 +2740,7 @@
 		}
 	}, {
 		"dex": 136,
-		"speciesName": "Flareon",
+		"speciesName": "火伊布",
 		"speciesId": "flareon",
 		"baseStats": {
 			"atk": 246,
@@ -2757,7 +2757,7 @@
 		}
 	}, {
 		"dex": 137,
-		"speciesName": "Porygon",
+		"speciesName": "多邊獸",
 		"speciesId": "porygon",
 		"baseStats": {
 			"atk": 153,
@@ -2774,7 +2774,7 @@
 		}
 	}, {
 		"dex": 138,
-		"speciesName": "Omanyte",
+		"speciesName": "菊石獸",
 		"speciesId": "omanyte",
 		"baseStats": {
 			"atk": 155,
@@ -2791,7 +2791,7 @@
 		}
 	}, {
 		"dex": 139,
-		"speciesName": "Omastar",
+		"speciesName": "多刺菊石獸",
 		"speciesId": "omastar",
 		"baseStats": {
 			"atk": 207,
@@ -2808,7 +2808,7 @@
 		}
 	}, {
 		"dex": 140,
-		"speciesName": "Kabuto",
+		"speciesName": "化石盔",
 		"speciesId": "kabuto",
 		"baseStats": {
 			"atk": 148,
@@ -2824,7 +2824,7 @@
 		}
 	}, {
 		"dex": 141,
-		"speciesName": "Kabutops",
+		"speciesName": "鐮刀盔",
 		"speciesId": "kabutops",
 		"baseStats": {
 			"atk": 220,
@@ -2841,7 +2841,7 @@
 		}
 	}, {
 		"dex": 142,
-		"speciesName": "Aerodactyl",
+		"speciesName": "化石翼龍",
 		"speciesId": "aerodactyl",
 		"baseStats": {
 			"atk": 221,
@@ -2857,7 +2857,7 @@
 		}
 	}, {
 		"dex": 143,
-		"speciesName": "Snorlax",
+		"speciesName": "卡比獸",
 		"speciesId": "snorlax",
 		"baseStats": {
 			"atk": 190,
@@ -2874,7 +2874,7 @@
 		}
 	}, {
 		"dex": 144,
-		"speciesName": "Articuno",
+		"speciesName": "急凍鳥",
 		"speciesId": "articuno",
 		"baseStats": {
 			"atk": 192,
@@ -2892,7 +2892,7 @@
 		}
 	}, {
 		"dex": 145,
-		"speciesName": "Zapdos",
+		"speciesName": "閃電鳥",
 		"speciesId": "zapdos",
 		"baseStats": {
 			"atk": 253,
@@ -2910,7 +2910,7 @@
 		}
 	}, {
 		"dex": 146,
-		"speciesName": "Moltres",
+		"speciesName": "火焰鳥",
 		"speciesId": "moltres",
 		"baseStats": {
 			"atk": 251,
@@ -2928,7 +2928,7 @@
 		}
 	}, {
 		"dex": 147,
-		"speciesName": "Dratini",
+		"speciesName": "迷你龍",
 		"speciesId": "dratini",
 		"baseStats": {
 			"atk": 119,
@@ -2945,7 +2945,7 @@
 		}
 	}, {
 		"dex": 148,
-		"speciesName": "Dragonair",
+		"speciesName": "哈克龍",
 		"speciesId": "dragonair",
 		"baseStats": {
 			"atk": 163,
@@ -2962,7 +2962,7 @@
 		}
 	}, {
 		"dex": 149,
-		"speciesName": "Dragonite",
+		"speciesName": "快龍",
 		"speciesId": "dragonite",
 		"baseStats": {
 			"atk": 263,
@@ -2979,7 +2979,7 @@
 		}
 	}, {
 		"dex": 150,
-		"speciesName": "Mewtwo",
+		"speciesName": "超夢",
 		"speciesId": "mewtwo",
 		"baseStats": {
 			"atk": 300,
@@ -2997,7 +2997,7 @@
 		}
 	}, {
 		"dex": 150,
-		"speciesName": "Mewtwo (Armored)",
+		"speciesName": "超夢-裝甲型態",
 		"speciesId": "mewtwo_armored",
 		"baseStats": {
 			"atk": 182,
@@ -3014,7 +3014,7 @@
 		}
 	}, {
 		"dex": 151,
-		"speciesName": "Mew",
+		"speciesName": "夢幻",
 		"speciesId": "mew",
 		"baseStats": {
 			"atk": 210,
@@ -3031,7 +3031,7 @@
 		}
 	}, {
 		"dex": 152,
-		"speciesName": "Chikorita",
+		"speciesName": "菊草葉",
 		"speciesId": "chikorita",
 		"baseStats": {
 			"atk": 92,
@@ -3047,7 +3047,7 @@
 		}
 	}, {
 		"dex": 153,
-		"speciesName": "Bayleef",
+		"speciesName": "月桂葉",
 		"speciesId": "bayleef",
 		"baseStats": {
 			"atk": 122,
@@ -3063,7 +3063,7 @@
 		}
 	}, {
 		"dex": 154,
-		"speciesName": "Meganium",
+		"speciesName": "大竺葵",
 		"speciesId": "meganium",
 		"baseStats": {
 			"atk": 168,
@@ -3080,7 +3080,7 @@
 		}
 	}, {
 		"dex": 155,
-		"speciesName": "Cyndaquil",
+		"speciesName": "火球鼠",
 		"speciesId": "cyndaquil",
 		"baseStats": {
 			"atk": 116,
@@ -3096,7 +3096,7 @@
 		}
 	}, {
 		"dex": 156,
-		"speciesName": "Quilava",
+		"speciesName": "火岩鼠",
 		"speciesId": "quilava",
 		"baseStats": {
 			"atk": 158,
@@ -3112,7 +3112,7 @@
 		}
 	}, {
 		"dex": 157,
-		"speciesName": "Typhlosion",
+		"speciesName": "火爆獸",
 		"speciesId": "typhlosion",
 		"baseStats": {
 			"atk": 223,
@@ -3129,7 +3129,7 @@
 		}
 	}, {
 		"dex": 158,
-		"speciesName": "Totodile",
+		"speciesName": "小鋸鱷",
 		"speciesId": "totodile",
 		"baseStats": {
 			"atk": 117,
@@ -3145,7 +3145,7 @@
 		}
 	}, {
 		"dex": 159,
-		"speciesName": "Croconaw",
+		"speciesName": "藍鱷",
 		"speciesId": "croconaw",
 		"baseStats": {
 			"atk": 150,
@@ -3161,7 +3161,7 @@
 		}
 	}, {
 		"dex": 160,
-		"speciesName": "Feraligatr",
+		"speciesName": "大力鱷",
 		"speciesId": "feraligatr",
 		"baseStats": {
 			"atk": 205,
@@ -3178,7 +3178,7 @@
 		}
 	}, {
 		"dex": 161,
-		"speciesName": "Sentret",
+		"speciesName": "尾立",
 		"speciesId": "sentret",
 		"baseStats": {
 			"atk": 79,
@@ -3194,7 +3194,7 @@
 		}
 	}, {
 		"dex": 162,
-		"speciesName": "Furret",
+		"speciesName": "大尾立",
 		"speciesId": "furret",
 		"baseStats": {
 			"atk": 148,
@@ -3210,7 +3210,7 @@
 		}
 	}, {
 		"dex": 163,
-		"speciesName": "Hoothoot",
+		"speciesName": "咕咕",
 		"speciesId": "hoothoot",
 		"baseStats": {
 			"atk": 67,
@@ -3226,7 +3226,7 @@
 		}
 	}, {
 		"dex": 164,
-		"speciesName": "Noctowl",
+		"speciesName": "貓頭夜鷹",
 		"speciesId": "noctowl",
 		"baseStats": {
 			"atk": 145,
@@ -3242,7 +3242,7 @@
 		}
 	}, {
 		"dex": 165,
-		"speciesName": "Ledyba",
+		"speciesName": "芭瓢蟲",
 		"speciesId": "ledyba",
 		"baseStats": {
 			"atk": 72,
@@ -3258,7 +3258,7 @@
 		}
 	}, {
 		"dex": 166,
-		"speciesName": "Ledian",
+		"speciesName": "安瓢蟲",
 		"speciesId": "ledian",
 		"baseStats": {
 			"atk": 107,
@@ -3274,7 +3274,7 @@
 		}
 	}, {
 		"dex": 167,
-		"speciesName": "Spinarak",
+		"speciesName": "圓絲蛛",
 		"speciesId": "spinarak",
 		"baseStats": {
 			"atk": 105,
@@ -3290,7 +3290,7 @@
 		}
 	}, {
 		"dex": 168,
-		"speciesName": "Ariados",
+		"speciesName": "阿利多斯",
 		"speciesId": "ariados",
 		"baseStats": {
 			"atk": 161,
@@ -3306,7 +3306,7 @@
 		}
 	}, {
 		"dex": 169,
-		"speciesName": "Crobat",
+		"speciesName": "叉字蝠",
 		"speciesId": "crobat",
 		"baseStats": {
 			"atk": 194,
@@ -3323,7 +3323,7 @@
 		}
 	}, {
 		"dex": 170,
-		"speciesName": "Chinchou",
+		"speciesName": "燈籠魚",
 		"speciesId": "chinchou",
 		"baseStats": {
 			"atk": 106,
@@ -3339,7 +3339,7 @@
 		}
 	}, {
 		"dex": 171,
-		"speciesName": "Lanturn",
+		"speciesName": "電燈怪",
 		"speciesId": "lanturn",
 		"baseStats": {
 			"atk": 146,
@@ -3355,7 +3355,7 @@
 		}
 	}, {
 		"dex": 172,
-		"speciesName": "Pichu",
+		"speciesName": "皮丘",
 		"speciesId": "pichu",
 		"baseStats": {
 			"atk": 77,
@@ -3372,7 +3372,7 @@
 		}
 	}, {
 		"dex": 173,
-		"speciesName": "Cleffa",
+		"speciesName": "皮寶寶",
 		"speciesId": "cleffa",
 		"baseStats": {
 			"atk": 75,
@@ -3389,7 +3389,7 @@
 		}
 	}, {
 		"dex": 174,
-		"speciesName": "Igglybuff",
+		"speciesName": "寶寶丁",
 		"speciesId": "igglybuff",
 		"baseStats": {
 			"atk": 69,
@@ -3406,7 +3406,7 @@
 		}
 	}, {
 		"dex": 175,
-		"speciesName": "Togepi",
+		"speciesName": "波克比",
 		"speciesId": "togepi",
 		"baseStats": {
 			"atk": 67,
@@ -3423,7 +3423,7 @@
 		}
 	}, {
 		"dex": 176,
-		"speciesName": "Togetic",
+		"speciesName": "波克基古",
 		"speciesId": "togetic",
 		"baseStats": {
 			"atk": 139,
@@ -3440,7 +3440,7 @@
 		}
 	}, {
 		"dex": 177,
-		"speciesName": "Natu",
+		"speciesName": "天然雀",
 		"speciesId": "natu",
 		"baseStats": {
 			"atk": 134,
@@ -3456,7 +3456,7 @@
 		}
 	}, {
 		"dex": 178,
-		"speciesName": "Xatu",
+		"speciesName": "天然鳥",
 		"speciesId": "xatu",
 		"baseStats": {
 			"atk": 192,
@@ -3472,7 +3472,7 @@
 		}
 	}, {
 		"dex": 179,
-		"speciesName": "Mareep",
+		"speciesName": "咩利羊",
 		"speciesId": "mareep",
 		"baseStats": {
 			"atk": 114,
@@ -3489,7 +3489,7 @@
 		}
 	}, {
 		"dex": 180,
-		"speciesName": "Flaaffy",
+		"speciesName": "茸茸羊",
 		"speciesId": "flaaffy",
 		"baseStats": {
 			"atk": 145,
@@ -3506,7 +3506,7 @@
 		}
 	}, {
 		"dex": 181,
-		"speciesName": "Ampharos",
+		"speciesName": "電龍",
 		"speciesId": "ampharos",
 		"baseStats": {
 			"atk": 211,
@@ -3523,7 +3523,7 @@
 		}
 	}, {
 		"dex": 182,
-		"speciesName": "Bellossom",
+		"speciesName": "美麗花",
 		"speciesId": "bellossom",
 		"baseStats": {
 			"atk": 169,
@@ -3540,7 +3540,7 @@
 		}
 	}, {
 		"dex": 183,
-		"speciesName": "Marill",
+		"speciesName": "瑪力露",
 		"speciesId": "marill",
 		"baseStats": {
 			"atk": 37,
@@ -3556,7 +3556,7 @@
 		}
 	}, {
 		"dex": 184,
-		"speciesName": "Azumarill",
+		"speciesName": "瑪力露麗",
 		"speciesId": "azumarill",
 		"baseStats": {
 			"atk": 112,
@@ -3572,7 +3572,7 @@
 		}
 	}, {
 		"dex": 185,
-		"speciesName": "Sudowoodo",
+		"speciesName": "樹才怪",
 		"speciesId": "sudowoodo",
 		"baseStats": {
 			"atk": 167,
@@ -3588,7 +3588,7 @@
 		}
 	}, {
 		"dex": 186,
-		"speciesName": "Politoed",
+		"speciesName": "蚊香蛙皇",
 		"speciesId": "politoed",
 		"baseStats": {
 			"atk": 174,
@@ -3605,7 +3605,7 @@
 		}
 	}, {
 		"dex": 187,
-		"speciesName": "Hoppip",
+		"speciesName": "毽子草",
 		"speciesId": "hoppip",
 		"baseStats": {
 			"atk": 67,
@@ -3621,7 +3621,7 @@
 		}
 	}, {
 		"dex": 188,
-		"speciesName": "Skiploom",
+		"speciesName": "毽子花",
 		"speciesId": "skiploom",
 		"baseStats": {
 			"atk": 91,
@@ -3637,7 +3637,7 @@
 		}
 	}, {
 		"dex": 189,
-		"speciesName": "Jumpluff",
+		"speciesName": "毽子棉",
 		"speciesId": "jumpluff",
 		"baseStats": {
 			"atk": 118,
@@ -3653,7 +3653,7 @@
 		}
 	}, {
 		"dex": 190,
-		"speciesName": "Aipom",
+		"speciesName": "長尾怪手",
 		"speciesId": "aipom",
 		"baseStats": {
 			"atk": 136,
@@ -3669,7 +3669,7 @@
 		}
 	}, {
 		"dex": 191,
-		"speciesName": "Sunkern",
+		"speciesName": "向日種子",
 		"speciesId": "sunkern",
 		"baseStats": {
 			"atk": 55,
@@ -3685,7 +3685,7 @@
 		}
 	}, {
 		"dex": 192,
-		"speciesName": "Sunflora",
+		"speciesName": "向日花怪",
 		"speciesId": "sunflora",
 		"baseStats": {
 			"atk": 185,
@@ -3701,7 +3701,7 @@
 		}
 	}, {
 		"dex": 193,
-		"speciesName": "Yanma",
+		"speciesName": "蜻蜻蜓",
 		"speciesId": "yanma",
 		"baseStats": {
 			"atk": 154,
@@ -3717,7 +3717,7 @@
 		}
 	}, {
 		"dex": 194,
-		"speciesName": "Wooper",
+		"speciesName": "烏波",
 		"speciesId": "wooper",
 		"baseStats": {
 			"atk": 75,
@@ -3733,7 +3733,7 @@
 		}
 	}, {
 		"dex": 195,
-		"speciesName": "Quagsire",
+		"speciesName": "沼王",
 		"speciesId": "quagsire",
 		"baseStats": {
 			"atk": 152,
@@ -3749,7 +3749,7 @@
 		}
 	}, {
 		"dex": 196,
-		"speciesName": "Espeon",
+		"speciesName": "太陽伊布",
 		"speciesId": "espeon",
 		"baseStats": {
 			"atk": 261,
@@ -3766,7 +3766,7 @@
 		}
 	}, {
 		"dex": 197,
-		"speciesName": "Umbreon",
+		"speciesName": "月亮伊布",
 		"speciesId": "umbreon",
 		"baseStats": {
 			"atk": 126,
@@ -3783,7 +3783,7 @@
 		}
 	}, {
 		"dex": 198,
-		"speciesName": "Murkrow",
+		"speciesName": "黑暗鴉",
 		"speciesId": "murkrow",
 		"baseStats": {
 			"atk": 175,
@@ -3799,7 +3799,7 @@
 		}
 	}, {
 		"dex": 199,
-		"speciesName": "Slowking",
+		"speciesName": "呆呆王",
 		"speciesId": "slowking",
 		"baseStats": {
 			"atk": 177,
@@ -3815,7 +3815,7 @@
 		}
 	}, {
 		"dex": 200,
-		"speciesName": "Misdreavus",
+		"speciesName": "夢妖",
 		"speciesId": "misdreavus",
 		"baseStats": {
 			"atk": 167,
@@ -3831,7 +3831,7 @@
 		}
 	}, {
 		"dex": 201,
-		"speciesName": "Unown",
+		"speciesName": "未知圖騰",
 		"speciesId": "unown",
 		"baseStats": {
 			"atk": 136,
@@ -3847,7 +3847,7 @@
 		}
 	}, {
 		"dex": 202,
-		"speciesName": "Wobbuffet",
+		"speciesName": "果然翁",
 		"speciesId": "wobbuffet",
 		"baseStats": {
 			"atk": 60,
@@ -3863,7 +3863,7 @@
 		}
 	}, {
 		"dex": 203,
-		"speciesName": "Girafarig",
+		"speciesName": "麒麟奇",
 		"speciesId": "girafarig",
 		"baseStats": {
 			"atk": 182,
@@ -3879,7 +3879,7 @@
 		}
 	}, {
 		"dex": 204,
-		"speciesName": "Pineco",
+		"speciesName": "榛果球",
 		"speciesId": "pineco",
 		"baseStats": {
 			"atk": 108,
@@ -3895,7 +3895,7 @@
 		}
 	}, {
 		"dex": 205,
-		"speciesName": "Forretress",
+		"speciesName": "佛烈托斯",
 		"speciesId": "forretress",
 		"baseStats": {
 			"atk": 161,
@@ -3911,7 +3911,7 @@
 		}
 	}, {
 		"dex": 206,
-		"speciesName": "Dunsparce",
+		"speciesName": "土龍弟弟",
 		"speciesId": "dunsparce",
 		"baseStats": {
 			"atk": 131,
@@ -3927,7 +3927,7 @@
 		}
 	}, {
 		"dex": 207,
-		"speciesName": "Gligar",
+		"speciesName": "天蠍",
 		"speciesId": "gligar",
 		"baseStats": {
 			"atk": 143,
@@ -3943,7 +3943,7 @@
 		}
 	}, {
 		"dex": 208,
-		"speciesName": "Steelix",
+		"speciesName": "大鋼蛇",
 		"speciesId": "steelix",
 		"baseStats": {
 			"atk": 148,
@@ -3959,7 +3959,7 @@
 		}
 	}, {
 		"dex": 209,
-		"speciesName": "Snubbull",
+		"speciesName": "布魯",
 		"speciesId": "snubbull",
 		"baseStats": {
 			"atk": 137,
@@ -3975,7 +3975,7 @@
 		}
 	}, {
 		"dex": 210,
-		"speciesName": "Granbull",
+		"speciesName": "布魯皇",
 		"speciesId": "granbull",
 		"baseStats": {
 			"atk": 212,
@@ -3991,7 +3991,7 @@
 		}
 	}, {
 		"dex": 211,
-		"speciesName": "Qwilfish",
+		"speciesName": "千針魚",
 		"speciesId": "qwilfish",
 		"baseStats": {
 			"atk": 184,
@@ -4007,7 +4007,7 @@
 		}
 	}, {
 		"dex": 212,
-		"speciesName": "Scizor",
+		"speciesName": "巨鉗螳螂",
 		"speciesId": "scizor",
 		"baseStats": {
 			"atk": 236,
@@ -4024,7 +4024,7 @@
 		}
 	}, {
 		"dex": 213,
-		"speciesName": "Shuckle",
+		"speciesName": "壺壺",
 		"speciesId": "shuckle",
 		"baseStats": {
 			"atk": 17,
@@ -4040,7 +4040,7 @@
 		}
 	}, {
 		"dex": 214,
-		"speciesName": "Heracross",
+		"speciesName": "赫拉克羅斯",
 		"speciesId": "heracross",
 		"baseStats": {
 			"atk": 234,
@@ -4057,7 +4057,7 @@
 		}
 	}, {
 		"dex": 215,
-		"speciesName": "Sneasel",
+		"speciesName": "狃拉",
 		"speciesId": "sneasel",
 		"baseStats": {
 			"atk": 189,
@@ -4073,7 +4073,7 @@
 		}
 	}, {
 		"dex": 216,
-		"speciesName": "Teddiursa",
+		"speciesName": "熊寶寶",
 		"speciesId": "teddiursa",
 		"baseStats": {
 			"atk": 142,
@@ -4089,7 +4089,7 @@
 		}
 	}, {
 		"dex": 217,
-		"speciesName": "Ursaring",
+		"speciesName": "圈圈熊",
 		"speciesId": "ursaring",
 		"baseStats": {
 			"atk": 236,
@@ -4105,7 +4105,7 @@
 		}
 	}, {
 		"dex": 218,
-		"speciesName": "Slugma",
+		"speciesName": "熔岩蟲",
 		"speciesId": "slugma",
 		"baseStats": {
 			"atk": 118,
@@ -4121,7 +4121,7 @@
 		}
 	}, {
 		"dex": 219,
-		"speciesName": "Magcargo",
+		"speciesName": "熔岩蝸牛",
 		"speciesId": "magcargo",
 		"baseStats": {
 			"atk": 139,
@@ -4137,7 +4137,7 @@
 		}
 	}, {
 		"dex": 220,
-		"speciesName": "Swinub",
+		"speciesName": "小山豬",
 		"speciesId": "swinub",
 		"baseStats": {
 			"atk": 90,
@@ -4153,7 +4153,7 @@
 		}
 	}, {
 		"dex": 221,
-		"speciesName": "Piloswine",
+		"speciesName": "長毛豬",
 		"speciesId": "piloswine",
 		"baseStats": {
 			"atk": 181,
@@ -4169,7 +4169,7 @@
 		}
 	}, {
 		"dex": 222,
-		"speciesName": "Corsola",
+		"speciesName": "太陽珊瑚",
 		"speciesId": "corsola",
 		"baseStats": {
 			"atk": 118,
@@ -4186,7 +4186,7 @@
 		}
 	}, {
 		"dex": 223,
-		"speciesName": "Remoraid",
+		"speciesName": "鐵炮魚",
 		"speciesId": "remoraid",
 		"baseStats": {
 			"atk": 127,
@@ -4202,7 +4202,7 @@
 		}
 	}, {
 		"dex": 224,
-		"speciesName": "Octillery",
+		"speciesName": "章魚桶",
 		"speciesId": "octillery",
 		"baseStats": {
 			"atk": 197,
@@ -4218,7 +4218,7 @@
 		}
 	}, {
 		"dex": 225,
-		"speciesName": "Delibird",
+		"speciesName": "信使鳥",
 		"speciesId": "delibird",
 		"baseStats": {
 			"atk": 128,
@@ -4235,7 +4235,7 @@
 		}
 	}, {
 		"dex": 226,
-		"speciesName": "Mantine",
+		"speciesName": "巨翅飛魚",
 		"speciesId": "mantine",
 		"baseStats": {
 			"atk": 148,
@@ -4251,7 +4251,7 @@
 		}
 	}, {
 		"dex": 227,
-		"speciesName": "Skarmory",
+		"speciesName": "盔甲鳥",
 		"speciesId": "skarmory",
 		"baseStats": {
 			"atk": 148,
@@ -4267,7 +4267,7 @@
 		}
 	}, {
 		"dex": 228,
-		"speciesName": "Houndour",
+		"speciesName": "戴魯比",
 		"speciesId": "houndour",
 		"baseStats": {
 			"atk": 152,
@@ -4284,7 +4284,7 @@
 		}
 	}, {
 		"dex": 229,
-		"speciesName": "Houndoom",
+		"speciesName": "黑魯加",
 		"speciesId": "houndoom",
 		"baseStats": {
 			"atk": 224,
@@ -4301,7 +4301,7 @@
 		}
 	}, {
 		"dex": 230,
-		"speciesName": "Kingdra",
+		"speciesName": "刺龍王",
 		"speciesId": "kingdra",
 		"baseStats": {
 			"atk": 194,
@@ -4318,7 +4318,7 @@
 		}
 	}, {
 		"dex": 231,
-		"speciesName": "Phanpy",
+		"speciesName": "小小象",
 		"speciesId": "phanpy",
 		"baseStats": {
 			"atk": 107,
@@ -4334,7 +4334,7 @@
 		}
 	}, {
 		"dex": 232,
-		"speciesName": "Donphan",
+		"speciesName": "頓甲",
 		"speciesId": "donphan",
 		"baseStats": {
 			"atk": 214,
@@ -4350,7 +4350,7 @@
 		}
 	}, {
 		"dex": 233,
-		"speciesName": "Porygon2",
+		"speciesName": "多邊獸Ⅱ",
 		"speciesId": "porygon2",
 		"baseStats": {
 			"atk": 198,
@@ -4366,7 +4366,7 @@
 		}
 	}, {
 		"dex": 234,
-		"speciesName": "Stantler",
+		"speciesName": "驚角鹿",
 		"speciesId": "stantler",
 		"baseStats": {
 			"atk": 192,
@@ -4382,7 +4382,7 @@
 		}
 	}, {
 		"dex": 235,
-		"speciesName": "Smeargle",
+		"speciesName": "圖圖犬",
 		"speciesId": "smeargle",
 		"baseStats": {
 			"atk": 40,
@@ -4398,7 +4398,7 @@
 		}
 	}, {
 		"dex": 236,
-		"speciesName": "Tyrogue",
+		"speciesName": "無畏小子",
 		"speciesId": "tyrogue",
 		"baseStats": {
 			"atk": 64,
@@ -4414,7 +4414,7 @@
 		}
 	}, {
 		"dex": 237,
-		"speciesName": "Hitmontop",
+		"speciesName": "戰舞郎",
 		"speciesId": "hitmontop",
 		"baseStats": {
 			"atk": 173,
@@ -4430,7 +4430,7 @@
 		}
 	}, {
 		"dex": 238,
-		"speciesName": "Smoochum",
+		"speciesName": "迷唇娃",
 		"speciesId": "smoochum",
 		"baseStats": {
 			"atk": 153,
@@ -4447,7 +4447,7 @@
 		}
 	}, {
 		"dex": 239,
-		"speciesName": "Elekid",
+		"speciesName": "電擊怪",
 		"speciesId": "elekid",
 		"baseStats": {
 			"atk": 135,
@@ -4464,7 +4464,7 @@
 		}
 	}, {
 		"dex": 240,
-		"speciesName": "Magby",
+		"speciesName": "鴨嘴寶寶",
 		"speciesId": "magby",
 		"baseStats": {
 			"atk": 151,
@@ -4481,7 +4481,7 @@
 		}
 	}, {
 		"dex": 241,
-		"speciesName": "Miltank",
+		"speciesName": "大奶罐",
 		"speciesId": "miltank",
 		"baseStats": {
 			"atk": 157,
@@ -4497,7 +4497,7 @@
 		}
 	}, {
 		"dex": 242,
-		"speciesName": "Blissey",
+		"speciesName": "幸福蛋",
 		"speciesId": "blissey",
 		"baseStats": {
 			"atk": 129,
@@ -4513,7 +4513,7 @@
 		}
 	}, {
 		"dex": 243,
-		"speciesName": "Raikou",
+		"speciesName": "雷公",
 		"speciesId": "raikou",
 		"baseStats": {
 			"atk": 241,
@@ -4530,7 +4530,7 @@
 		}
 	}, {
 		"dex": 244,
-		"speciesName": "Entei",
+		"speciesName": "炎帝",
 		"speciesId": "entei",
 		"baseStats": {
 			"atk": 235,
@@ -4547,7 +4547,7 @@
 		}
 	}, {
 		"dex": 245,
-		"speciesName": "Suicune",
+		"speciesName": "水君",
 		"speciesId": "suicune",
 		"baseStats": {
 			"atk": 180,
@@ -4565,7 +4565,7 @@
 		}
 	}, {
 		"dex": 246,
-		"speciesName": "Larvitar",
+		"speciesName": "幼基拉斯",
 		"speciesId": "larvitar",
 		"baseStats": {
 			"atk": 115,
@@ -4582,7 +4582,7 @@
 		}
 	}, {
 		"dex": 247,
-		"speciesName": "Pupitar",
+		"speciesName": "沙基拉斯",
 		"speciesId": "pupitar",
 		"baseStats": {
 			"atk": 155,
@@ -4599,7 +4599,7 @@
 		}
 	}, {
 		"dex": 248,
-		"speciesName": "Tyranitar",
+		"speciesName": "班基拉斯",
 		"speciesId": "tyranitar",
 		"baseStats": {
 			"atk": 251,
@@ -4616,7 +4616,7 @@
 		}
 	}, {
 		"dex": 249,
-		"speciesName": "Lugia",
+		"speciesName": "洛奇亞",
 		"speciesId": "lugia",
 		"baseStats": {
 			"atk": 193,
@@ -4633,7 +4633,7 @@
 		}
 	}, {
 		"dex": 250,
-		"speciesName": "Ho-Oh",
+		"speciesName": "鳳王",
 		"speciesId": "ho_oh",
 		"baseStats": {
 			"atk": 239,
@@ -4650,7 +4650,7 @@
 		}
 	}, {
 		"dex": 251,
-		"speciesName": "Celebi",
+		"speciesName": "時拉比",
 		"speciesId": "celebi",
 		"baseStats": {
 			"atk": 210,
@@ -4667,7 +4667,7 @@
 		}
 	}, {
 		"dex": 252,
-		"speciesName": "Treecko",
+		"speciesName": "木守宮",
 		"speciesId": "treecko",
 		"baseStats": {
 			"atk": 124,
@@ -4683,7 +4683,7 @@
 		}
 	}, {
 		"dex": 253,
-		"speciesName": "Grovyle",
+		"speciesName": "森林蜥蜴",
 		"speciesId": "grovyle",
 		"baseStats": {
 			"atk": 172,
@@ -4699,7 +4699,7 @@
 		}
 	}, {
 		"dex": 254,
-		"speciesName": "Sceptile",
+		"speciesName": "蜥蜴王",
 		"speciesId": "sceptile",
 		"baseStats": {
 			"atk": 223,
@@ -4717,7 +4717,7 @@
 		}
 	}, {
 		"dex": 255,
-		"speciesName": "Torchic",
+		"speciesName": "火稚雞",
 		"speciesId": "torchic",
 		"baseStats": {
 			"atk": 130,
@@ -4733,7 +4733,7 @@
 		}
 	}, {
 		"dex": 256,
-		"speciesName": "Combusken",
+		"speciesName": "力壯雞",
 		"speciesId": "combusken",
 		"baseStats": {
 			"atk": 163,
@@ -4749,7 +4749,7 @@
 		}
 	}, {
 		"dex": 257,
-		"speciesName": "Blaziken",
+		"speciesName": "火焰雞",
 		"speciesId": "blaziken",
 		"baseStats": {
 			"atk": 240,
@@ -4766,7 +4766,7 @@
 		}
 	}, {
 		"dex": 258,
-		"speciesName": "Mudkip",
+		"speciesName": "水躍魚",
 		"speciesId": "mudkip",
 		"baseStats": {
 			"atk": 126,
@@ -4782,7 +4782,7 @@
 		}
 	}, {
 		"dex": 259,
-		"speciesName": "Marshtomp",
+		"speciesName": "沼躍魚",
 		"speciesId": "marshtomp",
 		"baseStats": {
 			"atk": 156,
@@ -4798,7 +4798,7 @@
 		}
 	}, {
 		"dex": 260,
-		"speciesName": "Swampert",
+		"speciesName": "巨沼怪",
 		"speciesId": "swampert",
 		"baseStats": {
 			"atk": 208,
@@ -4815,7 +4815,7 @@
 		}
 	}, {
 		"dex": 261,
-		"speciesName": "Poochyena",
+		"speciesName": "土狼犬",
 		"speciesId": "poochyena",
 		"baseStats": {
 			"atk": 96,
@@ -4831,7 +4831,7 @@
 		}
 	}, {
 		"dex": 262,
-		"speciesName": "Mightyena",
+		"speciesName": "大狼犬",
 		"speciesId": "mightyena",
 		"baseStats": {
 			"atk": 171,
@@ -4847,7 +4847,7 @@
 		}
 	}, {
 		"dex": 263,
-		"speciesName": "Zigzagoon",
+		"speciesName": "蛇紋熊",
 		"speciesId": "zigzagoon",
 		"baseStats": {
 			"atk": 58,
@@ -4863,7 +4863,7 @@
 		}
 	}, {
 		"dex": 264,
-		"speciesName": "Linoone",
+		"speciesName": "直衝熊",
 		"speciesId": "linoone",
 		"baseStats": {
 			"atk": 142,
@@ -4879,7 +4879,7 @@
 		}
 	}, {
 		"dex": 265,
-		"speciesName": "Wurmple",
+		"speciesName": "刺尾蟲",
 		"speciesId": "wurmple",
 		"baseStats": {
 			"atk": 75,
@@ -4895,7 +4895,7 @@
 		}
 	}, {
 		"dex": 266,
-		"speciesName": "Silcoon",
+		"speciesName": "甲殼繭",
 		"speciesId": "silcoon",
 		"baseStats": {
 			"atk": 60,
@@ -4911,7 +4911,7 @@
 		}
 	}, {
 		"dex": 267,
-		"speciesName": "Beautifly",
+		"speciesName": "狩獵鳳蝶",
 		"speciesId": "beautifly",
 		"baseStats": {
 			"atk": 189,
@@ -4927,7 +4927,7 @@
 		}
 	}, {
 		"dex": 268,
-		"speciesName": "Cascoon",
+		"speciesName": "盾甲繭",
 		"speciesId": "cascoon",
 		"baseStats": {
 			"atk": 60,
@@ -4943,7 +4943,7 @@
 		}
 	}, {
 		"dex": 269,
-		"speciesName": "Dustox",
+		"speciesName": "毒粉蛾",
 		"speciesId": "dustox",
 		"baseStats": {
 			"atk": 98,
@@ -4959,7 +4959,7 @@
 		}
 	}, {
 		"dex": 270,
-		"speciesName": "Lotad",
+		"speciesName": "蓮葉童子",
 		"speciesId": "lotad",
 		"baseStats": {
 			"atk": 71,
@@ -4975,7 +4975,7 @@
 		}
 	}, {
 		"dex": 271,
-		"speciesName": "Lombre",
+		"speciesName": "蓮帽小童",
 		"speciesId": "lombre",
 		"baseStats": {
 			"atk": 112,
@@ -4991,7 +4991,7 @@
 		}
 	}, {
 		"dex": 272,
-		"speciesName": "Ludicolo",
+		"speciesName": "樂天河童",
 		"speciesId": "ludicolo",
 		"baseStats": {
 			"atk": 173,
@@ -5007,7 +5007,7 @@
 		}
 	}, {
 		"dex": 273,
-		"speciesName": "Seedot",
+		"speciesName": "橡實果",
 		"speciesId": "seedot",
 		"baseStats": {
 			"atk": 71,
@@ -5024,7 +5024,7 @@
 		}
 	}, {
 		"dex": 274,
-		"speciesName": "Nuzleaf",
+		"speciesName": "長鼻葉",
 		"speciesId": "nuzleaf",
 		"baseStats": {
 			"atk": 134,
@@ -5041,7 +5041,7 @@
 		}
 	}, {
 		"dex": 275,
-		"speciesName": "Shiftry",
+		"speciesName": "狡猾天狗",
 		"speciesId": "shiftry",
 		"baseStats": {
 			"atk": 200,
@@ -5058,7 +5058,7 @@
 		}
 	}, {
 		"dex": 276,
-		"speciesName": "Taillow",
+		"speciesName": "傲骨燕",
 		"speciesId": "taillow",
 		"baseStats": {
 			"atk": 106,
@@ -5074,7 +5074,7 @@
 		}
 	}, {
 		"dex": 277,
-		"speciesName": "Swellow",
+		"speciesName": "大王燕",
 		"speciesId": "swellow",
 		"baseStats": {
 			"atk": 185,
@@ -5090,7 +5090,7 @@
 		}
 	}, {
 		"dex": 278,
-		"speciesName": "Wingull",
+		"speciesName": "長翅鷗",
 		"speciesId": "wingull",
 		"baseStats": {
 			"atk": 106,
@@ -5106,7 +5106,7 @@
 		}
 	}, {
 		"dex": 279,
-		"speciesName": "Pelipper",
+		"speciesName": "大嘴鷗",
 		"speciesId": "pelipper",
 		"baseStats": {
 			"atk": 175,
@@ -5122,7 +5122,7 @@
 		}
 	}, {
 		"dex": 280,
-		"speciesName": "Ralts",
+		"speciesName": "拉魯拉絲",
 		"speciesId": "ralts",
 		"baseStats": {
 			"atk": 79,
@@ -5139,7 +5139,7 @@
 		}
 	}, {
 		"dex": 281,
-		"speciesName": "Kirlia",
+		"speciesName": "奇魯莉安",
 		"speciesId": "kirlia",
 		"baseStats": {
 			"atk": 117,
@@ -5156,7 +5156,7 @@
 		}
 	}, {
 		"dex": 282,
-		"speciesName": "Gardevoir",
+		"speciesName": "沙奈朵",
 		"speciesId": "gardevoir",
 		"baseStats": {
 			"atk": 237,
@@ -5173,7 +5173,7 @@
 		}
 	}, {
 		"dex": 283,
-		"speciesName": "Surskit",
+		"speciesName": "溜溜糖球",
 		"speciesId": "surskit",
 		"baseStats": {
 			"atk": 93,
@@ -5189,7 +5189,7 @@
 		}
 	}, {
 		"dex": 284,
-		"speciesName": "Masquerain",
+		"speciesName": "雨翅蛾",
 		"speciesId": "masquerain",
 		"baseStats": {
 			"atk": 192,
@@ -5205,7 +5205,7 @@
 		}
 	}, {
 		"dex": 285,
-		"speciesName": "Shroomish",
+		"speciesName": "蘑蘑菇",
 		"speciesId": "shroomish",
 		"baseStats": {
 			"atk": 74,
@@ -5221,7 +5221,7 @@
 		}
 	}, {
 		"dex": 286,
-		"speciesName": "Breloom",
+		"speciesName": "斗笠菇",
 		"speciesId": "breloom",
 		"baseStats": {
 			"atk": 241,
@@ -5238,7 +5238,7 @@
 		}
 	}, {
 		"dex": 287,
-		"speciesName": "Slakoth",
+		"speciesName": "懶人獺",
 		"speciesId": "slakoth",
 		"baseStats": {
 			"atk": 104,
@@ -5254,7 +5254,7 @@
 		}
 	}, {
 		"dex": 288,
-		"speciesName": "Vigoroth",
+		"speciesName": "過動猿",
 		"speciesId": "vigoroth",
 		"baseStats": {
 			"atk": 159,
@@ -5270,7 +5270,7 @@
 		}
 	}, {
 		"dex": 289,
-		"speciesName": "Slaking",
+		"speciesName": "請假王",
 		"speciesId": "slaking",
 		"baseStats": {
 			"atk": 290,
@@ -5286,7 +5286,7 @@
 		}
 	}, {
 		"dex": 290,
-		"speciesName": "Nincada",
+		"speciesName": "土居忍士",
 		"speciesId": "nincada",
 		"baseStats": {
 			"atk": 80,
@@ -5302,7 +5302,7 @@
 		}
 	}, {
 		"dex": 291,
-		"speciesName": "Ninjask",
+		"speciesName": "鐵面忍者",
 		"speciesId": "ninjask",
 		"baseStats": {
 			"atk": 199,
@@ -5318,7 +5318,7 @@
 		}
 	}, {
 		"dex": 292,
-		"speciesName": "Shedinja",
+		"speciesName": "脫殼忍者",
 		"speciesId": "shedinja",
 		"baseStats": {
 			"atk": 153,
@@ -5334,7 +5334,7 @@
 		}
 	}, {
 		"dex": 293,
-		"speciesName": "Whismur",
+		"speciesName": "咕妞妞",
 		"speciesId": "whismur",
 		"baseStats": {
 			"atk": 92,
@@ -5350,7 +5350,7 @@
 		}
 	}, {
 		"dex": 294,
-		"speciesName": "Loudred",
+		"speciesName": "吼爆彈",
 		"speciesId": "loudred",
 		"baseStats": {
 			"atk": 134,
@@ -5367,7 +5367,7 @@
 		}
 	}, {
 		"dex": 295,
-		"speciesName": "Exploud",
+		"speciesName": "爆音怪",
 		"speciesId": "exploud",
 		"baseStats": {
 			"atk": 179,
@@ -5383,7 +5383,7 @@
 		}
 	}, {
 		"dex": 296,
-		"speciesName": "Makuhita",
+		"speciesName": "幕下力士",
 		"speciesId": "makuhita",
 		"baseStats": {
 			"atk": 99,
@@ -5399,7 +5399,7 @@
 		}
 	}, {
 		"dex": 297,
-		"speciesName": "Hariyama",
+		"speciesName": "鐵掌力士",
 		"speciesId": "hariyama",
 		"baseStats": {
 			"atk": 209,
@@ -5415,7 +5415,7 @@
 		}
 	}, {
 		"dex": 298,
-		"speciesName": "Azurill",
+		"speciesName": "露力麗",
 		"speciesId": "azurill",
 		"baseStats": {
 			"atk": 36,
@@ -5431,7 +5431,7 @@
 		}
 	}, {
 		"dex": 299,
-		"speciesName": "Nosepass",
+		"speciesName": "朝北鼻",
 		"speciesId": "nosepass",
 		"baseStats": {
 			"atk": 82,
@@ -5447,7 +5447,7 @@
 		}
 	}, {
 		"dex": 300,
-		"speciesName": "Skitty",
+		"speciesName": "向尾喵",
 		"speciesId": "skitty",
 		"baseStats": {
 			"atk": 84,
@@ -5463,7 +5463,7 @@
 		}
 	}, {
 		"dex": 301,
-		"speciesName": "Delcatty",
+		"speciesName": "優雅貓",
 		"speciesId": "delcatty",
 		"baseStats": {
 			"atk": 132,
@@ -5479,7 +5479,7 @@
 		}
 	}, {
 		"dex": 302,
-		"speciesName": "Sableye",
+		"speciesName": "勾魂眼",
 		"speciesId": "sableye",
 		"baseStats": {
 			"atk": 141,
@@ -5496,7 +5496,7 @@
 		}
 	}, {
 		"dex": 303,
-		"speciesName": "Mawile",
+		"speciesName": "大嘴娃",
 		"speciesId": "mawile",
 		"baseStats": {
 			"atk": 155,
@@ -5512,7 +5512,7 @@
 		}
 	}, {
 		"dex": 304,
-		"speciesName": "Aron",
+		"speciesName": "可可多拉",
 		"speciesId": "aron",
 		"baseStats": {
 			"atk": 121,
@@ -5528,7 +5528,7 @@
 		}
 	}, {
 		"dex": 305,
-		"speciesName": "Lairon",
+		"speciesName": "可多拉",
 		"speciesId": "lairon",
 		"baseStats": {
 			"atk": 158,
@@ -5544,7 +5544,7 @@
 		}
 	}, {
 		"dex": 306,
-		"speciesName": "Aggron",
+		"speciesName": "波士可多拉",
 		"speciesId": "aggron",
 		"baseStats": {
 			"atk": 198,
@@ -5560,7 +5560,7 @@
 		}
 	}, {
 		"dex": 307,
-		"speciesName": "Meditite",
+		"speciesName": "瑪沙那",
 		"speciesId": "meditite",
 		"baseStats": {
 			"atk": 78,
@@ -5576,7 +5576,7 @@
 		}
 	}, {
 		"dex": 308,
-		"speciesName": "Medicham",
+		"speciesName": "恰雷姆",
 		"speciesId": "medicham",
 		"baseStats": {
 			"atk": 121,
@@ -5592,7 +5592,7 @@
 		}
 	}, {
 		"dex": 309,
-		"speciesName": "Electrike",
+		"speciesName": "落雷獸",
 		"speciesId": "electrike",
 		"baseStats": {
 			"atk": 123,
@@ -5608,7 +5608,7 @@
 		}
 	}, {
 		"dex": 310,
-		"speciesName": "Manectric",
+		"speciesName": "雷電獸",
 		"speciesId": "manectric",
 		"baseStats": {
 			"atk": 215,
@@ -5624,7 +5624,7 @@
 		}
 	}, {
 		"dex": 311,
-		"speciesName": "Plusle",
+		"speciesName": "正電拍拍",
 		"speciesId": "plusle",
 		"baseStats": {
 			"atk": 167,
@@ -5640,7 +5640,7 @@
 		}
 	}, {
 		"dex": 312,
-		"speciesName": "Minun",
+		"speciesName": "負電拍拍",
 		"speciesId": "minun",
 		"baseStats": {
 			"atk": 147,
@@ -5656,7 +5656,7 @@
 		}
 	}, {
 		"dex": 313,
-		"speciesName": "Volbeat",
+		"speciesName": "電螢蟲",
 		"speciesId": "volbeat",
 		"baseStats": {
 			"atk": 143,
@@ -5672,7 +5672,7 @@
 		}
 	}, {
 		"dex": 314,
-		"speciesName": "Illumise",
+		"speciesName": "甜甜螢",
 		"speciesId": "illumise",
 		"baseStats": {
 			"atk": 143,
@@ -5688,7 +5688,7 @@
 		}
 	}, {
 		"dex": 315,
-		"speciesName": "Roselia",
+		"speciesName": "毒薔薇",
 		"speciesId": "roselia",
 		"baseStats": {
 			"atk": 186,
@@ -5704,7 +5704,7 @@
 		}
 	}, {
 		"dex": 316,
-		"speciesName": "Gulpin",
+		"speciesName": "溶食獸",
 		"speciesId": "gulpin",
 		"baseStats": {
 			"atk": 80,
@@ -5720,7 +5720,7 @@
 		}
 	}, {
 		"dex": 317,
-		"speciesName": "Swalot",
+		"speciesName": "吞食獸",
 		"speciesId": "swalot",
 		"baseStats": {
 			"atk": 140,
@@ -5736,7 +5736,7 @@
 		}
 	}, {
 		"dex": 318,
-		"speciesName": "Carvanha",
+		"speciesName": "利牙魚",
 		"speciesId": "carvanha",
 		"baseStats": {
 			"atk": 171,
@@ -5752,7 +5752,7 @@
 		}
 	}, {
 		"dex": 319,
-		"speciesName": "Sharpedo",
+		"speciesName": "巨牙鯊",
 		"speciesId": "sharpedo",
 		"baseStats": {
 			"atk": 243,
@@ -5768,7 +5768,7 @@
 		}
 	}, {
 		"dex": 320,
-		"speciesName": "Wailmer",
+		"speciesName": "吼吼鯨",
 		"speciesId": "wailmer",
 		"baseStats": {
 			"atk": 136,
@@ -5784,7 +5784,7 @@
 		}
 	}, {
 		"dex": 321,
-		"speciesName": "Wailord",
+		"speciesName": "吼鯨王",
 		"speciesId": "wailord",
 		"baseStats": {
 			"atk": 175,
@@ -5800,7 +5800,7 @@
 		}
 	}, {
 		"dex": 322,
-		"speciesName": "Numel",
+		"speciesName": "呆火駝",
 		"speciesId": "numel",
 		"baseStats": {
 			"atk": 119,
@@ -5816,7 +5816,7 @@
 		}
 	}, {
 		"dex": 323,
-		"speciesName": "Camerupt",
+		"speciesName": "噴火駝",
 		"speciesId": "camerupt",
 		"baseStats": {
 			"atk": 194,
@@ -5832,7 +5832,7 @@
 		}
 	}, {
 		"dex": 324,
-		"speciesName": "Torkoal",
+		"speciesName": "煤炭龜",
 		"speciesId": "torkoal",
 		"baseStats": {
 			"atk": 151,
@@ -5849,7 +5849,7 @@
 		}
 	}, {
 		"dex": 325,
-		"speciesName": "Spoink",
+		"speciesName": "跳跳豬",
 		"speciesId": "spoink",
 		"baseStats": {
 			"atk": 125,
@@ -5865,7 +5865,7 @@
 		}
 	}, {
 		"dex": 326,
-		"speciesName": "Grumpig",
+		"speciesName": "噗噗豬",
 		"speciesId": "grumpig",
 		"baseStats": {
 			"atk": 171,
@@ -5881,7 +5881,7 @@
 		}
 	}, {
 		"dex": 327,
-		"speciesName": "Spinda",
+		"speciesName": "晃晃斑",
 		"speciesId": "spinda",
 		"baseStats": {
 			"atk": 116,
@@ -5897,7 +5897,7 @@
 		}
 	}, {
 		"dex": 328,
-		"speciesName": "Trapinch",
+		"speciesName": "大顎蟻",
 		"speciesId": "trapinch",
 		"baseStats": {
 			"atk": 162,
@@ -5914,7 +5914,7 @@
 		}
 	}, {
 		"dex": 329,
-		"speciesName": "Vibrava",
+		"speciesName": "超音波幼蟲",
 		"speciesId": "vibrava",
 		"baseStats": {
 			"atk": 134,
@@ -5931,7 +5931,7 @@
 		}
 	}, {
 		"dex": 330,
-		"speciesName": "Flygon",
+		"speciesName": "沙漠蜻蜓",
 		"speciesId": "flygon",
 		"baseStats": {
 			"atk": 205,
@@ -5948,7 +5948,7 @@
 		}
 	}, {
 		"dex": 331,
-		"speciesName": "Cacnea",
+		"speciesName": "刺球仙人掌",
 		"speciesId": "cacnea",
 		"baseStats": {
 			"atk": 156,
@@ -5965,7 +5965,7 @@
 		}
 	}, {
 		"dex": 332,
-		"speciesName": "Cacturne",
+		"speciesName": "夢歌仙人掌",
 		"speciesId": "cacturne",
 		"baseStats": {
 			"atk": 221,
@@ -5982,7 +5982,7 @@
 		}
 	}, {
 		"dex": 333,
-		"speciesName": "Swablu",
+		"speciesName": "青綿鳥",
 		"speciesId": "swablu",
 		"baseStats": {
 			"atk": 76,
@@ -5998,7 +5998,7 @@
 		}
 	}, {
 		"dex": 334,
-		"speciesName": "Altaria",
+		"speciesName": "七夕青鳥",
 		"speciesId": "altaria",
 		"baseStats": {
 			"atk": 141,
@@ -6014,7 +6014,7 @@
 		}
 	}, {
 		"dex": 335,
-		"speciesName": "Zangoose",
+		"speciesName": "貓鼬斬",
 		"speciesId": "zangoose",
 		"baseStats": {
 			"atk": 222,
@@ -6030,7 +6030,7 @@
 		}
 	}, {
 		"dex": 336,
-		"speciesName": "Seviper",
+		"speciesName": "飯匙蛇",
 		"speciesId": "seviper",
 		"baseStats": {
 			"atk": 196,
@@ -6046,7 +6046,7 @@
 		}
 	}, {
 		"dex": 337,
-		"speciesName": "Lunatone",
+		"speciesName": "月石",
 		"speciesId": "lunatone",
 		"baseStats": {
 			"atk": 178,
@@ -6062,7 +6062,7 @@
 		}
 	}, {
 		"dex": 338,
-		"speciesName": "Solrock",
+		"speciesName": "太陽岩",
 		"speciesId": "solrock",
 		"baseStats": {
 			"atk": 178,
@@ -6078,7 +6078,7 @@
 		}
 	}, {
 		"dex": 339,
-		"speciesName": "Barboach",
+		"speciesName": "泥泥鰍",
 		"speciesId": "barboach",
 		"baseStats": {
 			"atk": 93,
@@ -6094,7 +6094,7 @@
 		}
 	}, {
 		"dex": 340,
-		"speciesName": "Whiscash",
+		"speciesName": "鯰魚王",
 		"speciesId": "whiscash",
 		"baseStats": {
 			"atk": 151,
@@ -6110,7 +6110,7 @@
 		}
 	}, {
 		"dex": 341,
-		"speciesName": "Corphish",
+		"speciesName": "龍蝦小兵",
 		"speciesId": "corphish",
 		"baseStats": {
 			"atk": 141,
@@ -6126,7 +6126,7 @@
 		}
 	}, {
 		"dex": 342,
-		"speciesName": "Crawdaunt",
+		"speciesName": "鐵螯龍蝦",
 		"speciesId": "crawdaunt",
 		"baseStats": {
 			"atk": 224,
@@ -6142,7 +6142,7 @@
 		}
 	}, {
 		"dex": 343,
-		"speciesName": "Baltoy",
+		"speciesName": "天秤偶",
 		"speciesId": "baltoy",
 		"baseStats": {
 			"atk": 77,
@@ -6158,7 +6158,7 @@
 		}
 	}, {
 		"dex": 344,
-		"speciesName": "Claydol",
+		"speciesName": "念力土偶",
 		"speciesId": "claydol",
 		"baseStats": {
 			"atk": 140,
@@ -6174,7 +6174,7 @@
 		}
 	}, {
 		"dex": 345,
-		"speciesName": "Lileep",
+		"speciesName": "觸手百合",
 		"speciesId": "lileep",
 		"baseStats": {
 			"atk": 105,
@@ -6190,7 +6190,7 @@
 		}
 	}, {
 		"dex": 346,
-		"speciesName": "Cradily",
+		"speciesName": "搖籃百合",
 		"speciesId": "cradily",
 		"baseStats": {
 			"atk": 152,
@@ -6206,7 +6206,7 @@
 		}
 	}, {
 		"dex": 347,
-		"speciesName": "Anorith",
+		"speciesName": "太古羽蟲",
 		"speciesId": "anorith",
 		"baseStats": {
 			"atk": 176,
@@ -6222,7 +6222,7 @@
 		}
 	}, {
 		"dex": 348,
-		"speciesName": "Armaldo",
+		"speciesName": "太古盔甲",
 		"speciesId": "armaldo",
 		"baseStats": {
 			"atk": 222,
@@ -6238,7 +6238,7 @@
 		}
 	}, {
 		"dex": 349,
-		"speciesName": "Feebas",
+		"speciesName": "醜醜魚",
 		"speciesId": "feebas",
 		"baseStats": {
 			"atk": 29,
@@ -6254,7 +6254,7 @@
 		}
 	}, {
 		"dex": 350,
-		"speciesName": "Milotic",
+		"speciesName": "美納斯",
 		"speciesId": "milotic",
 		"baseStats": {
 			"atk": 192,
@@ -6270,7 +6270,7 @@
 		}
 	}, {
 		"dex": 351,
-		"speciesName": "Castform",
+		"speciesName": "飄浮泡泡",
 		"speciesId": "castform",
 		"baseStats": {
 			"atk": 139,
@@ -6286,7 +6286,7 @@
 		}
 	}, {
 		"dex": 351,
-		"speciesName": "Castform (Rainy)",
+		"speciesName": "飄浮泡泡 雨天型態",
 		"speciesId": "castform_rainy",
 		"baseStats": {
 			"atk": 139,
@@ -6302,7 +6302,7 @@
 		}
 	}, {
 		"dex": 351,
-		"speciesName": "Castform (Snowy)",
+		"speciesName": "飄浮泡泡 雪型態",
 		"speciesId": "castform_snowy",
 		"baseStats": {
 			"atk": 139,
@@ -6318,7 +6318,7 @@
 		}
 	}, {
 		"dex": 351,
-		"speciesName": "Castform (Sunny)",
+		"speciesName": "飄浮泡泡 晴天型態",
 		"speciesId": "castform_sunny",
 		"baseStats": {
 			"atk": 139,
@@ -6334,7 +6334,7 @@
 		}
 	}, {
 		"dex": 352,
-		"speciesName": "Kecleon",
+		"speciesName": "變隱龍",
 		"speciesId": "kecleon",
 		"baseStats": {
 			"atk": 161,
@@ -6350,7 +6350,7 @@
 		}
 	}, {
 		"dex": 353,
-		"speciesName": "Shuppet",
+		"speciesName": "怨影娃娃",
 		"speciesId": "shuppet",
 		"baseStats": {
 			"atk": 138,
@@ -6367,7 +6367,7 @@
 		}
 	}, {
 		"dex": 354,
-		"speciesName": "Banette",
+		"speciesName": "詛咒娃娃",
 		"speciesId": "banette",
 		"baseStats": {
 			"atk": 218,
@@ -6384,7 +6384,7 @@
 		}
 	}, {
 		"dex": 355,
-		"speciesName": "Duskull",
+		"speciesName": "夜巡靈",
 		"speciesId": "duskull",
 		"baseStats": {
 			"atk": 70,
@@ -6401,7 +6401,7 @@
 		}
 	}, {
 		"dex": 356,
-		"speciesName": "Dusclops",
+		"speciesName": "彷徨夜靈",
 		"speciesId": "dusclops",
 		"baseStats": {
 			"atk": 124,
@@ -6418,7 +6418,7 @@
 		}
 	}, {
 		"dex": 357,
-		"speciesName": "Tropius",
+		"speciesName": "熱帶龍",
 		"speciesId": "tropius",
 		"baseStats": {
 			"atk": 136,
@@ -6435,7 +6435,7 @@
 		}
 	}, {
 		"dex": 358,
-		"speciesName": "Chimecho",
+		"speciesName": "風鈴鈴",
 		"speciesId": "chimecho",
 		"baseStats": {
 			"atk": 175,
@@ -6451,7 +6451,7 @@
 		}
 	}, {
 		"dex": 359,
-		"speciesName": "Absol",
+		"speciesName": "阿勃梭魯",
 		"speciesId": "absol",
 		"baseStats": {
 			"atk": 246,
@@ -6467,7 +6467,7 @@
 		}
 	}, {
 		"dex": 360,
-		"speciesName": "Wynaut",
+		"speciesName": "小果然",
 		"speciesId": "wynaut",
 		"baseStats": {
 			"atk": 41,
@@ -6483,7 +6483,7 @@
 		}
 	}, {
 		"dex": 361,
-		"speciesName": "Snorunt",
+		"speciesName": "雪童子",
 		"speciesId": "snorunt",
 		"baseStats": {
 			"atk": 95,
@@ -6499,7 +6499,7 @@
 		}
 	}, {
 		"dex": 362,
-		"speciesName": "Glalie",
+		"speciesName": "冰鬼護",
 		"speciesId": "glalie",
 		"baseStats": {
 			"atk": 162,
@@ -6515,7 +6515,7 @@
 		}
 	}, {
 		"dex": 363,
-		"speciesName": "Spheal",
+		"speciesName": "海豹球",
 		"speciesId": "spheal",
 		"baseStats": {
 			"atk": 95,
@@ -6531,7 +6531,7 @@
 		}
 	}, {
 		"dex": 364,
-		"speciesName": "Sealeo",
+		"speciesName": "海魔獅",
 		"speciesId": "sealeo",
 		"baseStats": {
 			"atk": 137,
@@ -6547,7 +6547,7 @@
 		}
 	}, {
 		"dex": 365,
-		"speciesName": "Walrein",
+		"speciesName": "帝牙海獅",
 		"speciesId": "walrein",
 		"baseStats": {
 			"atk": 182,
@@ -6563,7 +6563,7 @@
 		}
 	}, {
 		"dex": 366,
-		"speciesName": "Clamperl",
+		"speciesName": "珍珠貝",
 		"speciesId": "clamperl",
 		"baseStats": {
 			"atk": 133,
@@ -6579,7 +6579,7 @@
 		}
 	}, {
 		"dex": 367,
-		"speciesName": "Huntail",
+		"speciesName": "獵斑魚",
 		"speciesId": "huntail",
 		"baseStats": {
 			"atk": 197,
@@ -6595,7 +6595,7 @@
 		}
 	}, {
 		"dex": 368,
-		"speciesName": "Gorebyss",
+		"speciesName": "櫻花魚",
 		"speciesId": "gorebyss",
 		"baseStats": {
 			"atk": 211,
@@ -6611,7 +6611,7 @@
 		}
 	}, {
 		"dex": 369,
-		"speciesName": "Relicanth",
+		"speciesName": "古空棘魚",
 		"speciesId": "relicanth",
 		"baseStats": {
 			"atk": 162,
@@ -6628,7 +6628,7 @@
 		}
 	}, {
 		"dex": 370,
-		"speciesName": "Luvdisc",
+		"speciesName": "愛心魚",
 		"speciesId": "luvdisc",
 		"baseStats": {
 			"atk": 81,
@@ -6644,7 +6644,7 @@
 		}
 	}, {
 		"dex": 371,
-		"speciesName": "Bagon",
+		"speciesName": "寶貝龍",
 		"speciesId": "bagon",
 		"baseStats": {
 			"atk": 134,
@@ -6660,7 +6660,7 @@
 		}
 	}, {
 		"dex": 372,
-		"speciesName": "Shelgon",
+		"speciesName": "甲殼龍",
 		"speciesId": "shelgon",
 		"baseStats": {
 			"atk": 172,
@@ -6676,7 +6676,7 @@
 		}
 	}, {
 		"dex": 373,
-		"speciesName": "Salamence",
+		"speciesName": "暴飛龍",
 		"speciesId": "salamence",
 		"baseStats": {
 			"atk": 277,
@@ -6692,7 +6692,7 @@
 		}
 	}, {
 		"dex": 374,
-		"speciesName": "Beldum",
+		"speciesName": "鐵啞鈴",
 		"speciesId": "beldum",
 		"baseStats": {
 			"atk": 96,
@@ -6708,7 +6708,7 @@
 		}
 	}, {
 		"dex": 375,
-		"speciesName": "Metang",
+		"speciesName": "金屬怪",
 		"speciesId": "metang",
 		"baseStats": {
 			"atk": 138,
@@ -6724,7 +6724,7 @@
 		}
 	}, {
 		"dex": 376,
-		"speciesName": "Metagross",
+		"speciesName": "巨金怪",
 		"speciesId": "metagross",
 		"baseStats": {
 			"atk": 257,
@@ -6741,7 +6741,7 @@
 		}
 	}, {
 		"dex": 377,
-		"speciesName": "Regirock",
+		"speciesName": "雷吉洛克",
 		"speciesId": "regirock",
 		"baseStats": {
 			"atk": 179,
@@ -6749,7 +6749,7 @@
 			"hp": 190
 		},
 		"types": ["rock", "none"],
-		"fastMoves": ["ROCK_SMASH", "ROCK_THROW"],
+		"fastMoves": ["ROCK_SMASH", "ROCK_THROW", "LOCK_ON"],
 		"chargedMoves": ["FOCUS_BLAST", "STONE_EDGE", "ZAP_CANNON"],
 		"tags": ["legendary"],
 		"defaultIVs": {
@@ -6758,7 +6758,7 @@
 		}
 	}, {
 		"dex": 378,
-		"speciesName": "Regice",
+		"speciesName": "雷吉艾斯",
 		"speciesId": "regice",
 		"baseStats": {
 			"atk": 179,
@@ -6766,7 +6766,7 @@
 			"hp": 190
 		},
 		"types": ["ice", "none"],
-		"fastMoves": ["FROST_BREATH", "ROCK_SMASH"],
+		"fastMoves": ["FROST_BREATH", "ROCK_SMASH", "LOCK_ON"],
 		"chargedMoves": ["BLIZZARD", "EARTHQUAKE", "FOCUS_BLAST"],
 		"tags": ["legendary"],
 		"defaultIVs": {
@@ -6775,7 +6775,7 @@
 		}
 	}, {
 		"dex": 379,
-		"speciesName": "Registeel",
+		"speciesName": "雷吉斯奇魯",
 		"speciesId": "registeel",
 		"baseStats": {
 			"atk": 143,
@@ -6783,7 +6783,7 @@
 			"hp": 190
 		},
 		"types": ["steel", "none"],
-		"fastMoves": ["METAL_CLAW", "ROCK_SMASH"],
+		"fastMoves": ["METAL_CLAW", "ROCK_SMASH", "LOCK_ON"],
 		"chargedMoves": ["FLASH_CANNON", "FOCUS_BLAST", "HYPER_BEAM"],
 		"tags": ["legendary"],
 		"defaultIVs": {
@@ -6792,7 +6792,7 @@
 		}
 	}, {
 		"dex": 380,
-		"speciesName": "Latias",
+		"speciesName": "拉帝亞斯",
 		"speciesId": "latias",
 		"baseStats": {
 			"atk": 228,
@@ -6809,7 +6809,7 @@
 		}
 	}, {
 		"dex": 381,
-		"speciesName": "Latios",
+		"speciesName": "拉帝歐斯",
 		"speciesId": "latios",
 		"baseStats": {
 			"atk": 268,
@@ -6826,7 +6826,7 @@
 		}
 	}, {
 		"dex": 382,
-		"speciesName": "Kyogre",
+		"speciesName": "蓋歐卡",
 		"speciesId": "kyogre",
 		"baseStats": {
 			"atk": 270,
@@ -6843,7 +6843,7 @@
 		}
 	}, {
 		"dex": 383,
-		"speciesName": "Groudon",
+		"speciesName": "固拉多",
 		"speciesId": "groudon",
 		"baseStats": {
 			"atk": 270,
@@ -6860,7 +6860,7 @@
 		}
 	}, {
 		"dex": 384,
-		"speciesName": "Rayquaza",
+		"speciesName": "烈空坐",
 		"speciesId": "rayquaza",
 		"baseStats": {
 			"atk": 284,
@@ -6877,7 +6877,7 @@
 		}
 	}, {
 		"dex": 385,
-		"speciesName": "Jirachi",
+		"speciesName": "基拉祈",
 		"speciesId": "jirachi",
 		"baseStats": {
 			"atk": 210,
@@ -6894,7 +6894,7 @@
 		}
 	}, {
 		"dex": 386,
-		"speciesName": "Deoxys",
+		"speciesName": "代歐奇希斯",
 		"speciesId": "deoxys",
 		"baseStats": {
 			"atk": 345,
@@ -6911,7 +6911,7 @@
 		}
 	}, {
 		"dex": 386,
-		"speciesName": "Deoxys (Attack)",
+		"speciesName": "代歐奇希斯 攻擊型",
 		"speciesId": "deoxys_attack",
 		"baseStats": {
 			"atk": 414,
@@ -6928,7 +6928,7 @@
 		}
 	}, {
 		"dex": 386,
-		"speciesName": "Deoxys (Defense)",
+		"speciesName": "代歐奇希斯 防禦型",
 		"speciesId": "deoxys_defense",
 		"baseStats": {
 			"atk": 144,
@@ -6945,7 +6945,7 @@
 		}
 	}, {
 		"dex": 386,
-		"speciesName": "Deoxys (Speed)",
+		"speciesName": "代歐奇希斯 速度型",
 		"speciesId": "deoxys_speed",
 		"baseStats": {
 			"atk": 230,
@@ -6962,7 +6962,7 @@
 		}
 	}, {
 		"dex": 387,
-		"speciesName": "Turtwig",
+		"speciesName": "草苗龜",
 		"speciesId": "turtwig",
 		"baseStats": {
 			"atk": 119,
@@ -6979,7 +6979,7 @@
 		}
 	}, {
 		"dex": 388,
-		"speciesName": "Grotle",
+		"speciesName": "樹林龜",
 		"speciesId": "grotle",
 		"baseStats": {
 			"atk": 157,
@@ -6996,7 +6996,7 @@
 		}
 	}, {
 		"dex": 389,
-		"speciesName": "Torterra",
+		"speciesName": "土台龜",
 		"speciesId": "torterra",
 		"baseStats": {
 			"atk": 202,
@@ -7013,7 +7013,7 @@
 		}
 	}, {
 		"dex": 390,
-		"speciesName": "Chimchar",
+		"speciesName": "小火焰猴",
 		"speciesId": "chimchar",
 		"baseStats": {
 			"atk": 113,
@@ -7029,7 +7029,7 @@
 		}
 	}, {
 		"dex": 391,
-		"speciesName": "Monferno",
+		"speciesName": "猛火猴",
 		"speciesId": "monferno",
 		"baseStats": {
 			"atk": 158,
@@ -7045,7 +7045,7 @@
 		}
 	}, {
 		"dex": 392,
-		"speciesName": "Infernape",
+		"speciesName": "烈焰猴",
 		"speciesId": "infernape",
 		"baseStats": {
 			"atk": 222,
@@ -7061,7 +7061,7 @@
 		}
 	}, {
 		"dex": 393,
-		"speciesName": "Piplup",
+		"speciesName": "波加曼",
 		"speciesId": "piplup",
 		"baseStats": {
 			"atk": 112,
@@ -7077,7 +7077,7 @@
 		}
 	}, {
 		"dex": 394,
-		"speciesName": "Prinplup",
+		"speciesName": "波皇子",
 		"speciesId": "prinplup",
 		"baseStats": {
 			"atk": 150,
@@ -7093,7 +7093,7 @@
 		}
 	}, {
 		"dex": 395,
-		"speciesName": "Empoleon",
+		"speciesName": "帝王拿波",
 		"speciesId": "empoleon",
 		"baseStats": {
 			"atk": 210,
@@ -7109,7 +7109,7 @@
 		}
 	}, {
 		"dex": 396,
-		"speciesName": "Starly",
+		"speciesName": "姆克兒",
 		"speciesId": "starly",
 		"baseStats": {
 			"atk": 101,
@@ -7125,7 +7125,7 @@
 		}
 	}, {
 		"dex": 397,
-		"speciesName": "Staravia",
+		"speciesName": "姆克鳥",
 		"speciesId": "staravia",
 		"baseStats": {
 			"atk": 142,
@@ -7141,7 +7141,7 @@
 		}
 	}, {
 		"dex": 398,
-		"speciesName": "Staraptor",
+		"speciesName": "姆克鷹",
 		"speciesId": "staraptor",
 		"baseStats": {
 			"atk": 234,
@@ -7157,7 +7157,7 @@
 		}
 	}, {
 		"dex": 399,
-		"speciesName": "Bidoof",
+		"speciesName": "大牙狸",
 		"speciesId": "bidoof",
 		"baseStats": {
 			"atk": 80,
@@ -7173,7 +7173,7 @@
 		}
 	}, {
 		"dex": 400,
-		"speciesName": "Bibarel",
+		"speciesName": "大尾狸",
 		"speciesId": "bibarel",
 		"baseStats": {
 			"atk": 162,
@@ -7189,7 +7189,7 @@
 		}
 	}, {
 		"dex": 401,
-		"speciesName": "Kricketot",
+		"speciesName": "圓法師",
 		"speciesId": "kricketot",
 		"baseStats": {
 			"atk": 45,
@@ -7205,7 +7205,7 @@
 		}
 	}, {
 		"dex": 402,
-		"speciesName": "Kricketune",
+		"speciesName": "音箱蟀",
 		"speciesId": "kricketune",
 		"baseStats": {
 			"atk": 160,
@@ -7221,7 +7221,7 @@
 		}
 	}, {
 		"dex": 403,
-		"speciesName": "Shinx",
+		"speciesName": "小貓怪",
 		"speciesId": "shinx",
 		"baseStats": {
 			"atk": 117,
@@ -7237,7 +7237,7 @@
 		}
 	}, {
 		"dex": 404,
-		"speciesName": "Luxio",
+		"speciesName": "勒克貓",
 		"speciesId": "luxio",
 		"baseStats": {
 			"atk": 159,
@@ -7253,7 +7253,7 @@
 		}
 	}, {
 		"dex": 405,
-		"speciesName": "Luxray",
+		"speciesName": "倫琴貓",
 		"speciesId": "luxray",
 		"baseStats": {
 			"atk": 232,
@@ -7269,7 +7269,7 @@
 		}
 	}, {
 		"dex": 406,
-		"speciesName": "Budew",
+		"speciesName": "含羞苞",
 		"speciesId": "budew",
 		"baseStats": {
 			"atk": 91,
@@ -7285,7 +7285,7 @@
 		}
 	}, {
 		"dex": 407,
-		"speciesName": "Roserade",
+		"speciesName": "羅絲雷朵",
 		"speciesId": "roserade",
 		"baseStats": {
 			"atk": 243,
@@ -7301,7 +7301,7 @@
 		}
 	}, {
 		"dex": 408,
-		"speciesName": "Cranidos",
+		"speciesName": "頭蓋龍",
 		"speciesId": "cranidos",
 		"baseStats": {
 			"atk": 218,
@@ -7317,7 +7317,7 @@
 		}
 	}, {
 		"dex": 409,
-		"speciesName": "Rampardos",
+		"speciesName": "戰槌龍",
 		"speciesId": "rampardos",
 		"baseStats": {
 			"atk": 295,
@@ -7333,7 +7333,7 @@
 		}
 	}, {
 		"dex": 410,
-		"speciesName": "Shieldon",
+		"speciesName": "盾甲龍",
 		"speciesId": "shieldon",
 		"baseStats": {
 			"atk": 76,
@@ -7349,7 +7349,7 @@
 		}
 	}, {
 		"dex": 411,
-		"speciesName": "Bastiodon",
+		"speciesName": "護城龍",
 		"speciesId": "bastiodon",
 		"baseStats": {
 			"atk": 94,
@@ -7365,7 +7365,7 @@
 		}
 	}, {
 		"dex": 412,
-		"speciesName": "Burmy (Plant)",
+		"speciesName": "結草兒 草木蓑衣",
 		"speciesId": "burmy_plant",
 		"baseStats": {
 			"atk": 53,
@@ -7381,7 +7381,7 @@
 		}
 	}, {
 		"dex": 412,
-		"speciesName": "Burmy (Sandy)",
+		"speciesName": "結草兒 砂土蓑衣",
 		"speciesId": "burmy_sandy",
 		"baseStats": {
 			"atk": 53,
@@ -7397,7 +7397,7 @@
 		}
 	}, {
 		"dex": 412,
-		"speciesName": "Burmy (Trash)",
+		"speciesName": "結草兒 垃圾蓑衣",
 		"speciesId": "burmy_trash",
 		"baseStats": {
 			"atk": 53,
@@ -7413,7 +7413,7 @@
 		}
 	}, {
 		"dex": 413,
-		"speciesName": "Wormadam (Plant)",
+		"speciesName": "結草貴婦 草木蓑衣",
 		"speciesId": "wormadam_plant",
 		"baseStats": {
 			"atk": 141,
@@ -7429,7 +7429,7 @@
 		}
 	}, {
 		"dex": 413,
-		"speciesName": "Wormadam (Sandy)",
+		"speciesName": "結草貴婦 砂土蓑衣",
 		"speciesId": "wormadam_sandy",
 		"baseStats": {
 			"atk": 141,
@@ -7445,7 +7445,7 @@
 		}
 	}, {
 		"dex": 413,
-		"speciesName": "Wormadam (Trash)",
+		"speciesName": "結草貴婦 垃圾蓑衣",
 		"speciesId": "wormadam_trash",
 		"baseStats": {
 			"atk": 127,
@@ -7461,7 +7461,7 @@
 		}
 	}, {
 		"dex": 414,
-		"speciesName": "Mothim",
+		"speciesName": "紳士蛾",
 		"speciesId": "mothim",
 		"baseStats": {
 			"atk": 185,
@@ -7477,7 +7477,7 @@
 		}
 	}, {
 		"dex": 415,
-		"speciesName": "Combee",
+		"speciesName": "三蜜蜂",
 		"speciesId": "combee",
 		"baseStats": {
 			"atk": 59,
@@ -7493,7 +7493,7 @@
 		}
 	}, {
 		"dex": 416,
-		"speciesName": "Vespiquen",
+		"speciesName": "蜂女王",
 		"speciesId": "vespiquen",
 		"baseStats": {
 			"atk": 149,
@@ -7509,7 +7509,7 @@
 		}
 	}, {
 		"dex": 417,
-		"speciesName": "Pachirisu",
+		"speciesName": "帕奇利茲",
 		"speciesId": "pachirisu",
 		"baseStats": {
 			"atk": 94,
@@ -7526,7 +7526,7 @@
 		}
 	}, {
 		"dex": 418,
-		"speciesName": "Buizel",
+		"speciesName": "泳圈鼬",
 		"speciesId": "buizel",
 		"baseStats": {
 			"atk": 132,
@@ -7542,7 +7542,7 @@
 		}
 	}, {
 		"dex": 419,
-		"speciesName": "Floatzel",
+		"speciesName": "浮潛鼬",
 		"speciesId": "floatzel",
 		"baseStats": {
 			"atk": 221,
@@ -7558,7 +7558,7 @@
 		}
 	}, {
 		"dex": 420,
-		"speciesName": "Cherubi",
+		"speciesName": "櫻花寶",
 		"speciesId": "cherubi",
 		"baseStats": {
 			"atk": 108,
@@ -7575,7 +7575,7 @@
 		}
 	}, {
 		"dex": 421,
-		"speciesName": "Cherrim (Overcast)",
+		"speciesName": "櫻花兒 花苞型態",
 		"speciesId": "cherrim_overcast",
 		"baseStats": {
 			"atk": 170,
@@ -7592,7 +7592,7 @@
 		}
 	}, {
 		"dex": 421,
-		"speciesName": "Cherrim (Sunny)",
+		"speciesName": "櫻花兒 盛開型態",
 		"speciesId": "cherrim_sunny",
 		"baseStats": {
 			"atk": 170,
@@ -7609,7 +7609,7 @@
 		}
 	}, {
 		"dex": 422,
-		"speciesName": "Shellos (East)",
+		"speciesName": "無殼海兔 東海型態",
 		"speciesId": "shellos_east_sea",
 		"baseStats": {
 			"atk": 103,
@@ -7625,7 +7625,7 @@
 		}
 	}, {
 		"dex": 422,
-		"speciesName": "Shellos (West)",
+		"speciesName": "無殼海兔 西海型態",
 		"speciesId": "shellos_west_sea",
 		"baseStats": {
 			"atk": 103,
@@ -7641,7 +7641,7 @@
 		}
 	}, {
 		"dex": 423,
-		"speciesName": "Gastrodon (East)",
+		"speciesName": "海兔獸 東海型態",
 		"speciesId": "gastrodon_east_sea",
 		"baseStats": {
 			"atk": 169,
@@ -7658,7 +7658,7 @@
 		}
 	}, {
 		"dex": 423,
-		"speciesName": "Gastrodon (West)",
+		"speciesName": "海兔獸 西海型態",
 		"speciesId": "gastrodon_west_sea",
 		"baseStats": {
 			"atk": 169,
@@ -7675,7 +7675,7 @@
 		}
 	}, {
 		"dex": 424,
-		"speciesName": "Ambipom",
+		"speciesName": "雙尾怪手",
 		"speciesId": "ambipom",
 		"baseStats": {
 			"atk": 205,
@@ -7691,7 +7691,7 @@
 		}
 	}, {
 		"dex": 425,
-		"speciesName": "Drifloon",
+		"speciesName": "飄飄球",
 		"speciesId": "drifloon",
 		"baseStats": {
 			"atk": 117,
@@ -7707,7 +7707,7 @@
 		}
 	}, {
 		"dex": 426,
-		"speciesName": "Drifblim",
+		"speciesName": "隨風球",
 		"speciesId": "drifblim",
 		"baseStats": {
 			"atk": 180,
@@ -7723,7 +7723,7 @@
 		}
 	}, {
 		"dex": 427,
-		"speciesName": "Buneary",
+		"speciesName": "捲捲耳",
 		"speciesId": "buneary",
 		"baseStats": {
 			"atk": 130,
@@ -7739,7 +7739,7 @@
 		}
 	}, {
 		"dex": 428,
-		"speciesName": "Lopunny",
+		"speciesName": "長耳兔",
 		"speciesId": "lopunny",
 		"baseStats": {
 			"atk": 156,
@@ -7755,7 +7755,7 @@
 		}
 	}, {
 		"dex": 429,
-		"speciesName": "Mismagius",
+		"speciesName": "夢妖魔",
 		"speciesId": "mismagius",
 		"baseStats": {
 			"atk": 211,
@@ -7771,7 +7771,7 @@
 		}
 	}, {
 		"dex": 430,
-		"speciesName": "Honchkrow",
+		"speciesName": "烏鴉頭頭",
 		"speciesId": "honchkrow",
 		"baseStats": {
 			"atk": 243,
@@ -7787,7 +7787,7 @@
 		}
 	}, {
 		"dex": 431,
-		"speciesName": "Glameow",
+		"speciesName": "魅力喵",
 		"speciesId": "glameow",
 		"baseStats": {
 			"atk": 109,
@@ -7803,7 +7803,7 @@
 		}
 	}, {
 		"dex": 432,
-		"speciesName": "Purugly",
+		"speciesName": "東施喵",
 		"speciesId": "purugly",
 		"baseStats": {
 			"atk": 172,
@@ -7819,7 +7819,7 @@
 		}
 	}, {
 		"dex": 433,
-		"speciesName": "Chingling",
+		"speciesName": "鈴鐺響",
 		"speciesId": "chingling",
 		"baseStats": {
 			"atk": 114,
@@ -7835,7 +7835,7 @@
 		}
 	}, {
 		"dex": 434,
-		"speciesName": "Stunky",
+		"speciesName": "臭鼬噗",
 		"speciesId": "stunky",
 		"baseStats": {
 			"atk": 121,
@@ -7851,7 +7851,7 @@
 		}
 	}, {
 		"dex": 435,
-		"speciesName": "Skuntank",
+		"speciesName": "坦克臭鼬",
 		"speciesId": "skuntank",
 		"baseStats": {
 			"atk": 184,
@@ -7867,7 +7867,7 @@
 		}
 	}, {
 		"dex": 436,
-		"speciesName": "Bronzor",
+		"speciesName": "銅鏡怪",
 		"speciesId": "bronzor",
 		"baseStats": {
 			"atk": 43,
@@ -7883,7 +7883,7 @@
 		}
 	}, {
 		"dex": 437,
-		"speciesName": "Bronzong",
+		"speciesName": "青銅鐘",
 		"speciesId": "bronzong",
 		"baseStats": {
 			"atk": 161,
@@ -7899,7 +7899,7 @@
 		}
 	}, {
 		"dex": 438,
-		"speciesName": "Bonsly",
+		"speciesName": "盆才怪",
 		"speciesId": "bonsly",
 		"baseStats": {
 			"atk": 124,
@@ -7915,7 +7915,7 @@
 		}
 	}, {
 		"dex": 439,
-		"speciesName": "Mime (Jr)",
+		"speciesName": "魔尼尼",
 		"speciesId": "mime_jr",
 		"baseStats": {
 			"atk": 125,
@@ -7931,7 +7931,7 @@
 		}
 	}, {
 		"dex": 440,
-		"speciesName": "Happiny",
+		"speciesName": "小福蛋",
 		"speciesId": "happiny",
 		"baseStats": {
 			"atk": 25,
@@ -7947,7 +7947,7 @@
 		}
 	}, {
 		"dex": 441,
-		"speciesName": "Chatot",
+		"speciesName": "聒噪鳥",
 		"speciesId": "chatot",
 		"baseStats": {
 			"atk": 183,
@@ -7964,7 +7964,7 @@
 		}
 	}, {
 		"dex": 442,
-		"speciesName": "Spiritomb",
+		"speciesName": "花岩怪",
 		"speciesId": "spiritomb",
 		"baseStats": {
 			"atk": 169,
@@ -7980,7 +7980,7 @@
 		}
 	}, {
 		"dex": 443,
-		"speciesName": "Gible",
+		"speciesName": "圓陸鯊",
 		"speciesId": "gible",
 		"baseStats": {
 			"atk": 124,
@@ -7996,7 +7996,7 @@
 		}
 	}, {
 		"dex": 444,
-		"speciesName": "Gabite",
+		"speciesName": "尖牙陸鯊",
 		"speciesId": "gabite",
 		"baseStats": {
 			"atk": 172,
@@ -8012,7 +8012,7 @@
 		}
 	}, {
 		"dex": 445,
-		"speciesName": "Garchomp",
+		"speciesName": "烈咬陸鯊",
 		"speciesId": "garchomp",
 		"baseStats": {
 			"atk": 261,
@@ -8028,7 +8028,7 @@
 		}
 	}, {
 		"dex": 446,
-		"speciesName": "Munchlax",
+		"speciesName": "小卡比獸",
 		"speciesId": "munchlax",
 		"baseStats": {
 			"atk": 137,
@@ -8044,7 +8044,7 @@
 		}
 	}, {
 		"dex": 447,
-		"speciesName": "Riolu",
+		"speciesName": "利歐路",
 		"speciesId": "riolu",
 		"baseStats": {
 			"atk": 127,
@@ -8060,7 +8060,7 @@
 		}
 	}, {
 		"dex": 448,
-		"speciesName": "Lucario",
+		"speciesName": "路卡利歐",
 		"speciesId": "lucario",
 		"baseStats": {
 			"atk": 236,
@@ -8076,7 +8076,7 @@
 		}
 	}, {
 		"dex": 449,
-		"speciesName": "Hippopotas",
+		"speciesName": "沙河馬",
 		"speciesId": "hippopotas",
 		"baseStats": {
 			"atk": 124,
@@ -8092,7 +8092,7 @@
 		}
 	}, {
 		"dex": 450,
-		"speciesName": "Hippowdon",
+		"speciesName": "河馬獸",
 		"speciesId": "hippowdon",
 		"baseStats": {
 			"atk": 201,
@@ -8108,7 +8108,7 @@
 		}
 	}, {
 		"dex": 451,
-		"speciesName": "Skorupi",
+		"speciesName": "鉗尾蠍",
 		"speciesId": "skorupi",
 		"baseStats": {
 			"atk": 93,
@@ -8124,7 +8124,7 @@
 		}
 	}, {
 		"dex": 452,
-		"speciesName": "Drapion",
+		"speciesName": "龍王蠍",
 		"speciesId": "drapion",
 		"baseStats": {
 			"atk": 180,
@@ -8140,7 +8140,7 @@
 		}
 	}, {
 		"dex": 453,
-		"speciesName": "Croagunk",
+		"speciesName": "不良蛙",
 		"speciesId": "croagunk",
 		"baseStats": {
 			"atk": 116,
@@ -8156,7 +8156,7 @@
 		}
 	}, {
 		"dex": 454,
-		"speciesName": "Toxicroak",
+		"speciesName": "毒骷蛙",
 		"speciesId": "toxicroak",
 		"baseStats": {
 			"atk": 211,
@@ -8172,7 +8172,7 @@
 		}
 	}, {
 		"dex": 455,
-		"speciesName": "Carnivine",
+		"speciesName": "尖牙籠",
 		"speciesId": "carnivine",
 		"baseStats": {
 			"atk": 187,
@@ -8189,7 +8189,7 @@
 		}
 	}, {
 		"dex": 456,
-		"speciesName": "Finneon",
+		"speciesName": "螢光魚",
 		"speciesId": "finneon",
 		"baseStats": {
 			"atk": 96,
@@ -8205,7 +8205,7 @@
 		}
 	}, {
 		"dex": 457,
-		"speciesName": "Lumineon",
+		"speciesName": "霓虹魚",
 		"speciesId": "lumineon",
 		"baseStats": {
 			"atk": 142,
@@ -8221,7 +8221,7 @@
 		}
 	}, {
 		"dex": 458,
-		"speciesName": "Mantyke",
+		"speciesName": "小球飛魚",
 		"speciesId": "mantyke",
 		"baseStats": {
 			"atk": 105,
@@ -8237,7 +8237,7 @@
 		}
 	}, {
 		"dex": 459,
-		"speciesName": "Snover",
+		"speciesName": "雪笠怪",
 		"speciesId": "snover",
 		"baseStats": {
 			"atk": 115,
@@ -8253,7 +8253,7 @@
 		}
 	}, {
 		"dex": 460,
-		"speciesName": "Abomasnow",
+		"speciesName": "暴雪王",
 		"speciesId": "abomasnow",
 		"baseStats": {
 			"atk": 178,
@@ -8269,7 +8269,7 @@
 		}
 	}, {
 		"dex": 461,
-		"speciesName": "Weavile",
+		"speciesName": "瑪狃拉",
 		"speciesId": "weavile",
 		"baseStats": {
 			"atk": 243,
@@ -8285,7 +8285,7 @@
 		}
 	}, {
 		"dex": 462,
-		"speciesName": "Magnezone",
+		"speciesName": "自爆磁怪",
 		"speciesId": "magnezone",
 		"baseStats": {
 			"atk": 238,
@@ -8301,7 +8301,7 @@
 		}
 	}, {
 		"dex": 463,
-		"speciesName": "Lickilicky",
+		"speciesName": "大舌舔",
 		"speciesId": "lickilicky",
 		"baseStats": {
 			"atk": 161,
@@ -8317,7 +8317,7 @@
 		}
 	}, {
 		"dex": 464,
-		"speciesName": "Rhyperior",
+		"speciesName": "超甲狂犀",
 		"speciesId": "rhyperior",
 		"baseStats": {
 			"atk": 241,
@@ -8333,7 +8333,7 @@
 		}
 	}, {
 		"dex": 465,
-		"speciesName": "Tangrowth",
+		"speciesName": "巨蔓藤",
 		"speciesId": "tangrowth",
 		"baseStats": {
 			"atk": 207,
@@ -8349,7 +8349,7 @@
 		}
 	}, {
 		"dex": 466,
-		"speciesName": "Electivire",
+		"speciesName": "電擊魔獸",
 		"speciesId": "electivire",
 		"baseStats": {
 			"atk": 249,
@@ -8366,7 +8366,7 @@
 		}
 	}, {
 		"dex": 467,
-		"speciesName": "Magmortar",
+		"speciesName": "鴨嘴炎獸",
 		"speciesId": "magmortar",
 		"baseStats": {
 			"atk": 247,
@@ -8383,7 +8383,7 @@
 		}
 	}, {
 		"dex": 468,
-		"speciesName": "Togekiss",
+		"speciesName": "波克基斯",
 		"speciesId": "togekiss",
 		"baseStats": {
 			"atk": 225,
@@ -8399,7 +8399,7 @@
 		}
 	}, {
 		"dex": 469,
-		"speciesName": "Yanmega",
+		"speciesName": "遠古巨蜓",
 		"speciesId": "yanmega",
 		"baseStats": {
 			"atk": 231,
@@ -8415,7 +8415,7 @@
 		}
 	}, {
 		"dex": 470,
-		"speciesName": "Leafeon",
+		"speciesName": "葉伊布",
 		"speciesId": "leafeon",
 		"baseStats": {
 			"atk": 216,
@@ -8431,7 +8431,7 @@
 		}
 	}, {
 		"dex": 471,
-		"speciesName": "Glaceon",
+		"speciesName": "冰伊布",
 		"speciesId": "glaceon",
 		"baseStats": {
 			"atk": 238,
@@ -8447,7 +8447,7 @@
 		}
 	}, {
 		"dex": 472,
-		"speciesName": "Gliscor",
+		"speciesName": "天蠍王",
 		"speciesId": "gliscor",
 		"baseStats": {
 			"atk": 185,
@@ -8463,7 +8463,7 @@
 		}
 	}, {
 		"dex": 473,
-		"speciesName": "Mamoswine",
+		"speciesName": "象牙豬",
 		"speciesId": "mamoswine",
 		"baseStats": {
 			"atk": 247,
@@ -8480,7 +8480,7 @@
 		}
 	}, {
 		"dex": 474,
-		"speciesName": "Porygon-Z",
+		"speciesName": "多邊獸Ｚ",
 		"speciesId": "porygon_z",
 		"baseStats": {
 			"atk": 264,
@@ -8496,7 +8496,7 @@
 		}
 	}, {
 		"dex": 475,
-		"speciesName": "Gallade",
+		"speciesName": "艾路雷朵",
 		"speciesId": "gallade",
 		"baseStats": {
 			"atk": 237,
@@ -8513,7 +8513,7 @@
 		}
 	}, {
 		"dex": 476,
-		"speciesName": "Probopass",
+		"speciesName": "大朝北鼻",
 		"speciesId": "probopass",
 		"baseStats": {
 			"atk": 135,
@@ -8529,7 +8529,7 @@
 		}
 	}, {
 		"dex": 477,
-		"speciesName": "Dusknoir",
+		"speciesName": "黑夜魔靈",
 		"speciesId": "dusknoir",
 		"baseStats": {
 			"atk": 180,
@@ -8546,7 +8546,7 @@
 		}
 	}, {
 		"dex": 478,
-		"speciesName": "Froslass",
+		"speciesName": "雪妖女",
 		"speciesId": "froslass",
 		"baseStats": {
 			"atk": 171,
@@ -8562,7 +8562,7 @@
 		}
 	}, {
 		"dex": 479,
-		"speciesName": "Rotom",
+		"speciesName": "洛托姆 洛托姆的樣子",
 		"speciesId": "rotom",
 		"baseStats": {
 			"atk": 185,
@@ -8578,7 +8578,7 @@
 		}
 	}, {
 		"dex": 479,
-		"speciesName": "Rotom (Fan)",
+		"speciesName": "洛托姆 旋轉洛托姆",
 		"speciesId": "rotom_fan",
 		"baseStats": {
 			"atk": 204,
@@ -8594,7 +8594,7 @@
 		}
 	}, {
 		"dex": 479,
-		"speciesName": "Rotom (Frost)",
+		"speciesName": "洛托姆 結冰洛托姆",
 		"speciesId": "rotom_frost",
 		"baseStats": {
 			"atk": 204,
@@ -8610,7 +8610,7 @@
 		}
 	}, {
 		"dex": 479,
-		"speciesName": "Rotom (Heat)",
+		"speciesName": "洛托姆 加熱洛托姆",
 		"speciesId": "rotom_heat",
 		"baseStats": {
 			"atk": 204,
@@ -8626,7 +8626,7 @@
 		}
 	}, {
 		"dex": 479,
-		"speciesName": "Rotom (Mow)",
+		"speciesName": "洛托姆 切割洛托姆",
 		"speciesId": "rotom_mow",
 		"baseStats": {
 			"atk": 204,
@@ -8642,7 +8642,7 @@
 		}
 	}, {
 		"dex": 479,
-		"speciesName": "Rotom (Wash)",
+		"speciesName": "洛托姆 清洗洛托姆",
 		"speciesId": "rotom_wash",
 		"baseStats": {
 			"atk": 204,
@@ -8658,7 +8658,7 @@
 		}
 	}, {
 		"dex": 480,
-		"speciesName": "Uxie",
+		"speciesName": "由克希",
 		"speciesId": "uxie",
 		"baseStats": {
 			"atk": 156,
@@ -8675,7 +8675,7 @@
 		}
 	}, {
 		"dex": 481,
-		"speciesName": "Mesprit",
+		"speciesName": "艾姆利多",
 		"speciesId": "mesprit",
 		"baseStats": {
 			"atk": 212,
@@ -8692,7 +8692,7 @@
 		}
 	}, {
 		"dex": 482,
-		"speciesName": "Azelf",
+		"speciesName": "亞克諾姆",
 		"speciesId": "azelf",
 		"baseStats": {
 			"atk": 270,
@@ -8709,7 +8709,7 @@
 		}
 	}, {
 		"dex": 483,
-		"speciesName": "Dialga",
+		"speciesName": "帝牙盧卡",
 		"speciesId": "dialga",
 		"baseStats": {
 			"atk": 275,
@@ -8726,7 +8726,7 @@
 		}
 	}, {
 		"dex": 484,
-		"speciesName": "Palkia",
+		"speciesName": "帕路奇亞",
 		"speciesId": "palkia",
 		"baseStats": {
 			"atk": 280,
@@ -8743,7 +8743,7 @@
 		}
 	}, {
 		"dex": 485,
-		"speciesName": "Heatran",
+		"speciesName": "席多藍恩",
 		"speciesId": "heatran",
 		"baseStats": {
 			"atk": 251,
@@ -8760,7 +8760,7 @@
 		}
 	}, {
 		"dex": 486,
-		"speciesName": "Regigigas",
+		"speciesName": "雷吉奇卡斯",
 		"speciesId": "regigigas",
 		"baseStats": {
 			"atk": 287,
@@ -8768,8 +8768,8 @@
 			"hp": 221
 		},
 		"types": ["normal", "none"],
-		"fastMoves": ["ROCK_SMASH", "ZEN_HEADBUTT"],
-		"chargedMoves": ["AVALANCHE", "HEAVY_SLAM", "STONE_EDGE"],
+		"fastMoves": ["HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "ZEN_HEADBUTT"],
+		"chargedMoves": ["GIGA_IMPACT","FOCUS_BLAST","THUNDER"],
 		"tags": ["legendary"],
 		"defaultIVs": {
 			"cp1500": [12.5, 4, 14, 10],
@@ -8777,7 +8777,7 @@
 		}
 	}, {
 		"dex": 487,
-		"speciesName": "Giratina (Altered)",
+		"speciesName": "騎拉帝納 別種型態",
 		"speciesId": "giratina_altered",
 		"baseStats": {
 			"atk": 187,
@@ -8794,7 +8794,7 @@
 		}
 	}, {
 		"dex": 487,
-		"speciesName": "Giratina (Origin)",
+		"speciesName": "騎拉帝納 起源型態",
 		"speciesId": "giratina_origin",
 		"baseStats": {
 			"atk": 225,
@@ -8811,7 +8811,7 @@
 		}
 	}, {
 		"dex": 488,
-		"speciesName": "Cresselia",
+		"speciesName": "克雷色利亞",
 		"speciesId": "cresselia",
 		"baseStats": {
 			"atk": 152,
@@ -8828,7 +8828,7 @@
 		}
 	}, {
 		"dex": 489,
-		"speciesName": "Phione",
+		"speciesName": "霏歐納",
 		"speciesId": "phione",
 		"baseStats": {
 			"atk": 162,
@@ -8844,7 +8844,7 @@
 		}
 	}, {
 		"dex": 490,
-		"speciesName": "Manaphy",
+		"speciesName": "瑪納霏",
 		"speciesId": "manaphy",
 		"baseStats": {
 			"atk": 210,
@@ -8860,7 +8860,7 @@
 		}
 	}, {
 		"dex": 491,
-		"speciesName": "Darkrai",
+		"speciesName": "達克萊伊",
 		"speciesId": "darkrai",
 		"baseStats": {
 			"atk": 285,
@@ -8876,7 +8876,7 @@
 		}
 	}, {
 		"dex": 492,
-		"speciesName": "Shaymin (Land)",
+		"speciesName": "謝米 陸上型態",
 		"speciesId": "shaymin_land",
 		"baseStats": {
 			"atk": 210,
@@ -8892,7 +8892,7 @@
 		}
 	}, {
 		"dex": 492,
-		"speciesName": "Shaymin (Sky)",
+		"speciesName": "謝米 天空型態",
 		"speciesId": "shaymin_sky",
 		"baseStats": {
 			"atk": 261,
@@ -8908,7 +8908,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus",
+		"speciesName": "阿爾宙斯",
 		"speciesId": "arceus",
 		"baseStats": {
 			"atk": 238,
@@ -8924,7 +8924,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Bug)",
+		"speciesName": "阿爾宙斯 蟲屬性",
 		"speciesId": "arceus_bug",
 		"baseStats": {
 			"atk": 238,
@@ -8940,7 +8940,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Dark)",
+		"speciesName": "阿爾宙斯 惡屬性",
 		"speciesId": "arceus_dark",
 		"baseStats": {
 			"atk": 238,
@@ -8956,7 +8956,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Dragon)",
+		"speciesName": "阿爾宙斯 龍屬性",
 		"speciesId": "arceus_dragon",
 		"baseStats": {
 			"atk": 238,
@@ -8972,7 +8972,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Electric)",
+		"speciesName": "阿爾宙斯 電屬性",
 		"speciesId": "arceus_electric",
 		"baseStats": {
 			"atk": 238,
@@ -8988,7 +8988,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Fairy)",
+		"speciesName": "阿爾宙斯 妖精屬性",
 		"speciesId": "arceus_fairy",
 		"baseStats": {
 			"atk": 238,
@@ -9004,7 +9004,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Fighting)",
+		"speciesName": "阿爾宙斯 格鬥屬性",
 		"speciesId": "arceus_fighting",
 		"baseStats": {
 			"atk": 238,
@@ -9020,7 +9020,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Fire)",
+		"speciesName": "阿爾宙斯 火屬性",
 		"speciesId": "arceus_fire",
 		"baseStats": {
 			"atk": 238,
@@ -9036,7 +9036,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Flying)",
+		"speciesName": "阿爾宙斯 飛行屬性",
 		"speciesId": "arceus_flying",
 		"baseStats": {
 			"atk": 238,
@@ -9052,7 +9052,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Ghost)",
+		"speciesName": "阿爾宙斯 幽靈屬性",
 		"speciesId": "arceus_ghost",
 		"baseStats": {
 			"atk": 238,
@@ -9068,7 +9068,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Grass)",
+		"speciesName": "阿爾宙斯 草屬性",
 		"speciesId": "arceus_grass",
 		"baseStats": {
 			"atk": 238,
@@ -9084,7 +9084,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Ground)",
+		"speciesName": "阿爾宙斯 地面屬性",
 		"speciesId": "arceus_ground",
 		"baseStats": {
 			"atk": 238,
@@ -9100,7 +9100,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Ice)",
+		"speciesName": "阿爾宙斯 冰屬性",
 		"speciesId": "arceus_ice",
 		"baseStats": {
 			"atk": 238,
@@ -9116,7 +9116,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Poison)",
+		"speciesName": "阿爾宙斯 毒屬性",
 		"speciesId": "arceus_poison",
 		"baseStats": {
 			"atk": 238,
@@ -9132,7 +9132,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Psychic)",
+		"speciesName": "阿爾宙斯 超能力屬性",
 		"speciesId": "arceus_psychic",
 		"baseStats": {
 			"atk": 238,
@@ -9148,7 +9148,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Rock)",
+		"speciesName": "阿爾宙斯 岩石屬性",
 		"speciesId": "arceus_rock",
 		"baseStats": {
 			"atk": 238,
@@ -9164,7 +9164,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Steel)",
+		"speciesName": "阿爾宙斯 鋼屬性",
 		"speciesId": "arceus_steel",
 		"baseStats": {
 			"atk": 238,
@@ -9180,7 +9180,7 @@
 		}
 	}, {
 		"dex": 493,
-		"speciesName": "Arceus (Water)",
+		"speciesName": "阿爾宙斯 水屬性",
 		"speciesId": "arceus_water",
 		"baseStats": {
 			"atk": 238,
@@ -9197,7 +9197,7 @@
 	}, {
 		"dex": 494,
 		"speciesId": "victini",
-		"speciesName": "Victini",
+		"speciesName": "比克提尼",
 		"baseStats": {
 			"atk": 210,
 			"def": 210,
@@ -9213,7 +9213,7 @@
 	}, {
 		"dex": 495,
 		"speciesId": "snivy",
-		"speciesName": "Snivy",
+		"speciesName": "藤藤蛇",
 		"baseStats": {
 			"atk": 88,
 			"def": 107,
@@ -9229,7 +9229,7 @@
 	}, {
 		"dex": 496,
 		"speciesId": "servine",
-		"speciesName": "Servine",
+		"speciesName": "青藤蛇",
 		"baseStats": {
 			"atk": 122,
 			"def": 152,
@@ -9245,7 +9245,7 @@
 	}, {
 		"dex": 497,
 		"speciesId": "serperior",
-		"speciesName": "Serperior",
+		"speciesName": "君主蛇",
 		"baseStats": {
 			"atk": 161,
 			"def": 204,
@@ -9261,7 +9261,7 @@
 	}, {
 		"dex": 498,
 		"speciesId": "tepig",
-		"speciesName": "Tepig",
+		"speciesName": "暖暖豬",
 		"baseStats": {
 			"atk": 115,
 			"def": 85,
@@ -9277,7 +9277,7 @@
 	}, {
 		"dex": 499,
 		"speciesId": "pignite",
-		"speciesName": "Pignite",
+		"speciesName": "炒炒豬",
 		"baseStats": {
 			"atk": 173,
 			"def": 106,
@@ -9293,7 +9293,7 @@
 	}, {
 		"dex": 500,
 		"speciesId": "emboar",
-		"speciesName": "Emboar",
+		"speciesName": "炎武王",
 		"baseStats": {
 			"atk": 235,
 			"def": 127,
@@ -9309,7 +9309,7 @@
 	}, {
 		"dex": 501,
 		"speciesId": "oshawott",
-		"speciesName": "Oshawott",
+		"speciesName": "水水獺",
 		"baseStats": {
 			"atk": 117,
 			"def": 85,
@@ -9325,7 +9325,7 @@
 	}, {
 		"dex": 502,
 		"speciesId": "dewott",
-		"speciesName": "Dewott",
+		"speciesName": "雙刃丸",
 		"baseStats": {
 			"atk": 159,
 			"def": 116,
@@ -9341,7 +9341,7 @@
 	}, {
 		"dex": 503,
 		"speciesId": "samurott",
-		"speciesName": "Samurott",
+		"speciesName": "大劍鬼",
 		"baseStats": {
 			"atk": 212,
 			"def": 157,
@@ -9357,7 +9357,7 @@
 	}, {
 		"dex": 504,
 		"speciesId": "patrat",
-		"speciesName": "Patrat",
+		"speciesName": "探探鼠",
 		"baseStats": {
 			"atk": 98,
 			"def": 73,
@@ -9373,7 +9373,7 @@
 	}, {
 		"dex": 505,
 		"speciesId": "watchog",
-		"speciesName": "Watchog",
+		"speciesName": "步哨鼠",
 		"baseStats": {
 			"atk": 165,
 			"def": 139,
@@ -9389,7 +9389,7 @@
 	}, {
 		"dex": 506,
 		"speciesId": "lillipup",
-		"speciesName": "Lillipup",
+		"speciesName": "小約克",
 		"baseStats": {
 			"atk": 107,
 			"def": 86,
@@ -9405,7 +9405,7 @@
 	}, {
 		"dex": 507,
 		"speciesId": "herdier",
-		"speciesName": "Herdier",
+		"speciesName": "哈約克",
 		"baseStats": {
 			"atk": 145,
 			"def": 126,
@@ -9421,7 +9421,7 @@
 	}, {
 		"dex": 508,
 		"speciesId": "stoutland",
-		"speciesName": "Stoutland",
+		"speciesName": "長毛狗",
 		"baseStats": {
 			"atk": 206,
 			"def": 182,
@@ -9437,7 +9437,7 @@
 	}, {
 		"dex": 509,
 		"speciesId": "purrloin",
-		"speciesName": "Purrloin",
+		"speciesName": "扒手貓",
 		"baseStats": {
 			"atk": 98,
 			"def": 73,
@@ -9453,7 +9453,7 @@
 	}, {
 		"dex": 510,
 		"speciesId": "liepard",
-		"speciesName": "Liepard",
+		"speciesName": "酷豹",
 		"baseStats": {
 			"atk": 187,
 			"def": 106,
@@ -9469,7 +9469,7 @@
 	}, {
 		"dex": 511,
 		"speciesId": "pansage",
-		"speciesName": "Pansage",
+		"speciesName": "花椰猴",
 		"baseStats": {
 			"atk": 104,
 			"def": 94,
@@ -9485,7 +9485,7 @@
 	}, {
 		"dex": 512,
 		"speciesId": "simisage",
-		"speciesName": "Simisage",
+		"speciesName": "花椰猿",
 		"baseStats": {
 			"atk": 206,
 			"def": 133,
@@ -9501,7 +9501,7 @@
 	}, {
 		"dex": 513,
 		"speciesId": "pansear",
-		"speciesName": "Pansear",
+		"speciesName": "爆香猴",
 		"baseStats": {
 			"atk": 104,
 			"def": 94,
@@ -9517,7 +9517,7 @@
 	}, {
 		"dex": 514,
 		"speciesId": "simisear",
-		"speciesName": "Simisear",
+		"speciesName": "爆香猿",
 		"baseStats": {
 			"atk": 206,
 			"def": 133,
@@ -9533,7 +9533,7 @@
 	}, {
 		"dex": 515,
 		"speciesId": "panpour",
-		"speciesName": "Panpour",
+		"speciesName": "冷水猴",
 		"baseStats": {
 			"atk": 104,
 			"def": 94,
@@ -9549,7 +9549,7 @@
 	}, {
 		"dex": 516,
 		"speciesId": "simipour",
-		"speciesName": "Simipour",
+		"speciesName": "冷水猿",
 		"baseStats": {
 			"atk": 206,
 			"def": 133,
@@ -9565,7 +9565,7 @@
 	}, {
 		"dex": 517,
 		"speciesId": "munna",
-		"speciesName": "Munna",
+		"speciesName": "食夢夢",
 		"baseStats": {
 			"atk": 111,
 			"def": 92,
@@ -9581,7 +9581,7 @@
 	}, {
 		"dex": 518,
 		"speciesId": "musharna",
-		"speciesName": "Musharna",
+		"speciesName": "夢夢蝕",
 		"baseStats": {
 			"atk": 183,
 			"def": 166,
@@ -9597,7 +9597,7 @@
 	}, {
 		"dex": 519,
 		"speciesId": "pidove",
-		"speciesName": "Pidove",
+		"speciesName": "豆豆鴿",
 		"baseStats": {
 			"atk": 98,
 			"def": 80,
@@ -9613,7 +9613,7 @@
 	}, {
 		"dex": 520,
 		"speciesId": "tranquill",
-		"speciesName": "Tranquill",
+		"speciesName": "咕咕鴿",
 		"baseStats": {
 			"atk": 144,
 			"def": 107,
@@ -9629,7 +9629,7 @@
 	}, {
 		"dex": 521,
 		"speciesId": "unfezant",
-		"speciesName": "Unfezant",
+		"speciesName": "高傲雉雞",
 		"baseStats": {
 			"atk": 226,
 			"def": 146,
@@ -9645,7 +9645,7 @@
 	}, {
 		"dex": 522,
 		"speciesId": "blitzle",
-		"speciesName": "Blitzle",
+		"speciesName": "斑斑馬",
 		"baseStats": {
 			"atk": 118,
 			"def": 64,
@@ -9661,7 +9661,7 @@
 	}, {
 		"dex": 523,
 		"speciesId": "zebstrika",
-		"speciesName": "Zebstrika",
+		"speciesName": "雷電斑馬",
 		"baseStats": {
 			"atk": 211,
 			"def": 136,
@@ -9677,7 +9677,7 @@
 	}, {
 		"dex": 524,
 		"speciesId": "roggenrola",
-		"speciesName": "Roggenrola",
+		"speciesName": "石丸子",
 		"baseStats": {
 			"atk": 121,
 			"def": 110,
@@ -9693,7 +9693,7 @@
 	}, {
 		"dex": 525,
 		"speciesId": "boldore",
-		"speciesName": "Boldore",
+		"speciesName": "地幔岩",
 		"baseStats": {
 			"atk": 174,
 			"def": 143,
@@ -9709,7 +9709,7 @@
 	}, {
 		"dex": 526,
 		"speciesId": "gigalith",
-		"speciesName": "Gigalith",
+		"speciesName": "龐岩怪",
 		"baseStats": {
 			"atk": 226,
 			"def": 201,
@@ -9725,7 +9725,7 @@
 	}, {
 		"dex": 527,
 		"speciesId": "woobat",
-		"speciesName": "Woobat",
+		"speciesName": "滾滾蝙蝠",
 		"baseStats": {
 			"atk": 107,
 			"def": 85,
@@ -9741,7 +9741,7 @@
 	}, {
 		"dex": 528,
 		"speciesId": "swoobat",
-		"speciesName": "Swoobat",
+		"speciesName": "心蝙蝠",
 		"baseStats": {
 			"atk": 161,
 			"def": 119,
@@ -9757,7 +9757,7 @@
 	}, {
 		"dex": 529,
 		"speciesId": "drilbur",
-		"speciesName": "Drilbur",
+		"speciesName": "螺釘地鼠",
 		"baseStats": {
 			"atk": 154,
 			"def": 85,
@@ -9773,7 +9773,7 @@
 	}, {
 		"dex": 530,
 		"speciesId": "excadrill",
-		"speciesName": "Excadrill",
+		"speciesName": "龍頭地鼠",
 		"baseStats": {
 			"atk": 255,
 			"def": 129,
@@ -9789,7 +9789,7 @@
 	}, {
 		"dex": 531,
 		"speciesId": "audino",
-		"speciesName": "Audino",
+		"speciesName": "差不多娃娃",
 		"baseStats": {
 			"atk": 114,
 			"def": 163,
@@ -9805,7 +9805,7 @@
 	}, {
 		"dex": 532,
 		"speciesId": "timburr",
-		"speciesName": "Timburr",
+		"speciesName": "搬運小匠",
 		"baseStats": {
 			"atk": 134,
 			"def": 87,
@@ -9821,7 +9821,7 @@
 	}, {
 		"dex": 533,
 		"speciesId": "gurdurr",
-		"speciesName": "Gurdurr",
+		"speciesName": "鐵骨土人",
 		"baseStats": {
 			"atk": 180,
 			"def": 134,
@@ -9837,7 +9837,7 @@
 	}, {
 		"dex": 534,
 		"speciesId": "conkeldurr",
-		"speciesName": "Conkeldurr",
+		"speciesName": "修建老匠",
 		"baseStats": {
 			"atk": 243,
 			"def": 158,
@@ -9853,7 +9853,7 @@
 	}, {
 		"dex": 535,
 		"speciesId": "tympole",
-		"speciesName": "Tympole",
+		"speciesName": "圓蝌蚪",
 		"baseStats": {
 			"atk": 98,
 			"def": 78,
@@ -9869,7 +9869,7 @@
 	}, {
 		"dex": 536,
 		"speciesId": "palpitoad",
-		"speciesName": "Palpitoad",
+		"speciesName": "藍蟾蜍",
 		"baseStats": {
 			"atk": 128,
 			"def": 109,
@@ -9885,7 +9885,7 @@
 	}, {
 		"dex": 537,
 		"speciesId": "seismitoad",
-		"speciesName": "Seismitoad",
+		"speciesName": "蟾蜍王",
 		"baseStats": {
 			"atk": 188,
 			"def": 150,
@@ -9901,7 +9901,7 @@
 	}, {
 		"dex": 538,
 		"speciesId": "throh",
-		"speciesName": "Throh",
+		"speciesName": "投摔鬼",
 		"baseStats": {
 			"atk": 172,
 			"def": 160,
@@ -9917,7 +9917,7 @@
 	}, {
 		"dex": 539,
 		"speciesId": "sawk",
-		"speciesName": "Sawk",
+		"speciesName": "打擊鬼",
 		"baseStats": {
 			"atk": 231,
 			"def": 153,
@@ -9933,7 +9933,7 @@
 	}, {
 		"dex": 540,
 		"speciesId": "sewaddle",
-		"speciesName": "Sewaddle",
+		"speciesName": "蟲寶包",
 		"baseStats": {
 			"atk": 96,
 			"def": 124,
@@ -9949,7 +9949,7 @@
 	}, {
 		"dex": 541,
 		"speciesId": "swadloon",
-		"speciesName": "Swadloon",
+		"speciesName": "寶包繭",
 		"baseStats": {
 			"atk": 115,
 			"def": 162,
@@ -9965,7 +9965,7 @@
 	}, {
 		"dex": 542,
 		"speciesId": "leavanny",
-		"speciesName": "Leavanny",
+		"speciesName": "保母蟲",
 		"baseStats": {
 			"atk": 205,
 			"def": 165,
@@ -9981,7 +9981,7 @@
 	}, {
 		"dex": 543,
 		"speciesId": "venipede",
-		"speciesName": "Venipede",
+		"speciesName": "百足蜈蚣",
 		"baseStats": {
 			"atk": 83,
 			"def": 99,
@@ -9997,7 +9997,7 @@
 	}, {
 		"dex": 544,
 		"speciesId": "whirlipede",
-		"speciesName": "Whirlipede",
+		"speciesName": "車輪毬",
 		"baseStats": {
 			"atk": 100,
 			"def": 173,
@@ -10013,7 +10013,7 @@
 	}, {
 		"dex": 545,
 		"speciesId": "scolipede",
-		"speciesName": "Scolipede",
+		"speciesName": "蜈蚣王",
 		"baseStats": {
 			"atk": 203,
 			"def": 175,
@@ -10029,7 +10029,7 @@
 	}, {
 		"dex": 546,
 		"speciesId": "cottonee",
-		"speciesName": "Cottonee",
+		"speciesName": "木棉球",
 		"baseStats": {
 			"atk": 71,
 			"def": 111,
@@ -10045,7 +10045,7 @@
 	}, {
 		"dex": 547,
 		"speciesId": "whimsicott",
-		"speciesName": "Whimsicott",
+		"speciesName": "風妖精",
 		"baseStats": {
 			"atk": 164,
 			"def": 176,
@@ -10061,7 +10061,7 @@
 	}, {
 		"dex": 548,
 		"speciesId": "petilil",
-		"speciesName": "Petilil",
+		"speciesName": "百合根娃娃",
 		"baseStats": {
 			"atk": 119,
 			"def": 91,
@@ -10077,7 +10077,7 @@
 	}, {
 		"dex": 549,
 		"speciesId": "lilligant",
-		"speciesName": "Lilligant",
+		"speciesName": "裙兒小姐",
 		"baseStats": {
 			"atk": 214,
 			"def": 155,
@@ -10109,7 +10109,7 @@
 	}, {
 		"dex": 550,
 		"speciesId": "basculin_blue_striped",
-		"speciesName": "Basculin (Blue Striped)",
+		"speciesName": "野蠻鱸魚 藍條紋型態",
 		"baseStats": {
 			"atk": 189,
 			"def": 129,
@@ -10125,7 +10125,7 @@
 	}, {
 		"dex": 550,
 		"speciesId": "basculin_red_striped",
-		"speciesName": "Basculin (Red Striped)",
+		"speciesName": "野蠻鱸魚 紅條紋型態",
 		"baseStats": {
 			"atk": 189,
 			"def": 129,
@@ -10141,7 +10141,7 @@
 	}, {
 		"dex": 551,
 		"speciesId": "sandile",
-		"speciesName": "Sandile",
+		"speciesName": "黑眼鱷",
 		"baseStats": {
 			"atk": 132,
 			"def": 69,
@@ -10157,7 +10157,7 @@
 	}, {
 		"dex": 552,
 		"speciesId": "krokorok",
-		"speciesName": "Krokorok",
+		"speciesName": "混混鱷",
 		"baseStats": {
 			"atk": 155,
 			"def": 90,
@@ -10173,7 +10173,7 @@
 	}, {
 		"dex": 553,
 		"speciesId": "krookodile",
-		"speciesName": "Krookodile",
+		"speciesName": "流氓鱷",
 		"baseStats": {
 			"atk": 229,
 			"def": 158,
@@ -10189,7 +10189,7 @@
 	}, {
 		"dex": 554,
 		"speciesId": "darumaka",
-		"speciesName": "Darumaka",
+		"speciesName": "火紅不倒翁",
 		"baseStats": {
 			"atk": 153,
 			"def": 86,
@@ -10205,7 +10205,7 @@
 	}, {
 		"dex": 555,
 		"speciesId": "darmanitan_standard",
-		"speciesName": "Darmanitan (Standard)",
+		"speciesName": "達摩狒狒 普通型態",
 		"baseStats": {
 			"atk": 263,
 			"def": 114,
@@ -10221,7 +10221,7 @@
 	}, {
 		"dex": 555,
 		"speciesId": "darmanitan_zen",
-		"speciesName": "Darmanitan (Zen)",
+		"speciesName": "達摩狒狒 達摩型態",
 		"baseStats": {
 			"atk": 243,
 			"def": 202,
@@ -10237,7 +10237,7 @@
 	}, {
 		"dex": 556,
 		"speciesId": "maractus",
-		"speciesName": "Maractus",
+		"speciesName": "沙鈴仙人掌",
 		"baseStats": {
 			"atk": 201,
 			"def": 130,
@@ -10253,7 +10253,7 @@
 	}, {
 		"dex": 557,
 		"speciesId": "dwebble",
-		"speciesName": "Dwebble",
+		"speciesName": "石居蟹",
 		"baseStats": {
 			"atk": 118,
 			"def": 128,
@@ -10269,7 +10269,7 @@
 	}, {
 		"dex": 558,
 		"speciesId": "crustle",
-		"speciesName": "Crustle",
+		"speciesName": "岩殿居蟹",
 		"baseStats": {
 			"atk": 188,
 			"def": 200,
@@ -10285,7 +10285,7 @@
 	}, {
 		"dex": 559,
 		"speciesId": "scraggy",
-		"speciesName": "Scraggy",
+		"speciesName": "滑滑小子",
 		"baseStats": {
 			"atk": 132,
 			"def": 132,
@@ -10301,7 +10301,7 @@
 	}, {
 		"dex": 560,
 		"speciesId": "scrafty",
-		"speciesName": "Scrafty",
+		"speciesName": "頭巾混混",
 		"baseStats": {
 			"atk": 163,
 			"def": 222,
@@ -10317,7 +10317,7 @@
 	}, {
 		"dex": 561,
 		"speciesId": "sigilyph",
-		"speciesName": "Sigilyph",
+		"speciesName": "象徵鳥",
 		"baseStats": {
 			"atk": 204,
 			"def": 167,
@@ -10333,7 +10333,7 @@
 	}, {
 		"dex": 562,
 		"speciesId": "yamask",
-		"speciesName": "Yamask",
+		"speciesName": "哭哭面具",
 		"baseStats": {
 			"atk": 95,
 			"def": 141,
@@ -10349,7 +10349,7 @@
 	}, {
 		"dex": 563,
 		"speciesId": "cofagrigus",
-		"speciesName": "Cofagrigus",
+		"speciesName": "死神棺",
 		"baseStats": {
 			"atk": 163,
 			"def": 237,
@@ -10365,7 +10365,7 @@
 	}, {
 		"dex": 564,
 		"speciesId": "tirtouga",
-		"speciesName": "Tirtouga",
+		"speciesName": "原蓋海龜",
 		"baseStats": {
 			"atk": 134,
 			"def": 146,
@@ -10381,7 +10381,7 @@
 	}, {
 		"dex": 565,
 		"speciesId": "carracosta",
-		"speciesName": "Carracosta",
+		"speciesName": "肋骨海龜",
 		"baseStats": {
 			"atk": 192,
 			"def": 197,
@@ -10397,7 +10397,7 @@
 	}, {
 		"dex": 566,
 		"speciesId": "archen",
-		"speciesName": "Archen",
+		"speciesName": "始祖小鳥",
 		"baseStats": {
 			"atk": 213,
 			"def": 89,
@@ -10413,7 +10413,7 @@
 	}, {
 		"dex": 567,
 		"speciesId": "archeops",
-		"speciesName": "Archeops",
+		"speciesName": "始祖大鳥",
 		"baseStats": {
 			"atk": 292,
 			"def": 139,
@@ -10429,7 +10429,7 @@
 	}, {
 		"dex": 568,
 		"speciesId": "trubbish",
-		"speciesName": "Trubbish",
+		"speciesName": "破破袋",
 		"baseStats": {
 			"atk": 96,
 			"def": 122,
@@ -10445,7 +10445,7 @@
 	}, {
 		"dex": 569,
 		"speciesId": "garbodor",
-		"speciesName": "Garbodor",
+		"speciesName": "灰塵山",
 		"baseStats": {
 			"atk": 181,
 			"def": 164,
@@ -10461,7 +10461,7 @@
 	}, {
 		"dex": 570,
 		"speciesId": "zorua",
-		"speciesName": "Zorua",
+		"speciesName": "索羅亞",
 		"baseStats": {
 			"atk": 153,
 			"def": 78,
@@ -10477,7 +10477,7 @@
 	}, {
 		"dex": 571,
 		"speciesId": "zoroark",
-		"speciesName": "Zoroark",
+		"speciesName": "索羅亞克",
 		"baseStats": {
 			"atk": 250,
 			"def": 127,
@@ -10493,7 +10493,7 @@
 	}, {
 		"dex": 572,
 		"speciesId": "minccino",
-		"speciesName": "Minccino",
+		"speciesName": "泡沫栗鼠",
 		"baseStats": {
 			"atk": 98,
 			"def": 80,
@@ -10509,7 +10509,7 @@
 	}, {
 		"dex": 573,
 		"speciesId": "cinccino",
-		"speciesName": "Cinccino",
+		"speciesName": "奇諾栗鼠",
 		"baseStats": {
 			"atk": 198,
 			"def": 130,
@@ -10525,7 +10525,7 @@
 	}, {
 		"dex": 574,
 		"speciesId": "gothita",
-		"speciesName": "Gothita",
+		"speciesName": "哥德寶寶",
 		"baseStats": {
 			"atk": 98,
 			"def": 112,
@@ -10541,7 +10541,7 @@
 	}, {
 		"dex": 575,
 		"speciesId": "gothorita",
-		"speciesName": "Gothorita",
+		"speciesName": "哥德小童",
 		"baseStats": {
 			"atk": 137,
 			"def": 153,
@@ -10557,7 +10557,7 @@
 	}, {
 		"dex": 576,
 		"speciesId": "gothitelle",
-		"speciesName": "Gothitelle",
+		"speciesName": "哥德小姐",
 		"baseStats": {
 			"atk": 176,
 			"def": 205,
@@ -10573,7 +10573,7 @@
 	}, {
 		"dex": 577,
 		"speciesId": "solosis",
-		"speciesName": "Solosis",
+		"speciesName": "單卵細胞球",
 		"baseStats": {
 			"atk": 170,
 			"def": 83,
@@ -10589,7 +10589,7 @@
 	}, {
 		"dex": 578,
 		"speciesId": "duosion",
-		"speciesName": "Duosion",
+		"speciesName": "雙卵細胞球",
 		"baseStats": {
 			"atk": 208,
 			"def": 103,
@@ -10605,7 +10605,7 @@
 	}, {
 		"dex": 579,
 		"speciesId": "reuniclus",
-		"speciesName": "Reuniclus",
+		"speciesName": "人造細胞卵",
 		"baseStats": {
 			"atk": 214,
 			"def": 148,
@@ -10621,7 +10621,7 @@
 	}, {
 		"dex": 580,
 		"speciesId": "ducklett",
-		"speciesName": "Ducklett",
+		"speciesName": "鴨寶寶",
 		"baseStats": {
 			"atk": 84,
 			"def": 96,
@@ -10637,7 +10637,7 @@
 	}, {
 		"dex": 581,
 		"speciesId": "swanna",
-		"speciesName": "Swanna",
+		"speciesName": "舞天鵝",
 		"baseStats": {
 			"atk": 182,
 			"def": 132,
@@ -10653,7 +10653,7 @@
 	}, {
 		"dex": 582,
 		"speciesId": "vanillite",
-		"speciesName": "Vanillite",
+		"speciesName": "迷你冰",
 		"baseStats": {
 			"atk": 118,
 			"def": 106,
@@ -10669,7 +10669,7 @@
 	}, {
 		"dex": 583,
 		"speciesId": "vanillish",
-		"speciesName": "Vanillish",
+		"speciesName": "多多冰",
 		"baseStats": {
 			"atk": 151,
 			"def": 138,
@@ -10685,7 +10685,7 @@
 	}, {
 		"dex": 584,
 		"speciesId": "vanilluxe",
-		"speciesName": "Vanilluxe",
+		"speciesName": "雙倍多多冰",
 		"baseStats": {
 			"atk": 218,
 			"def": 184,
@@ -10701,7 +10701,7 @@
 	}, {
 		"dex": 585,
 		"speciesId": "deerling",
-		"speciesName": "Deerling",
+		"speciesName": "四季鹿",
 		"baseStats": {
 			"atk": 115,
 			"def": 100,
@@ -10717,7 +10717,7 @@
 	}, {
 		"dex": 585,
 		"speciesId": "deerling_autumn",
-		"speciesName": "Deerling_autumn",
+		"speciesName": "四季鹿 秋天型態",
 		"baseStats": {
 			"atk": 115,
 			"def": 100,
@@ -10733,7 +10733,7 @@
 	}, {
 		"dex": 585,
 		"speciesId": "deerling_spring",
-		"speciesName": "Deerling_spring",
+		"speciesName": "四季鹿 春天型態",
 		"baseStats": {
 			"atk": 115,
 			"def": 100,
@@ -10749,7 +10749,7 @@
 	}, {
 		"dex": 585,
 		"speciesId": "deerling_summer",
-		"speciesName": "Deerling_summer",
+		"speciesName": "四季鹿 夏天型態",
 		"baseStats": {
 			"atk": 115,
 			"def": 100,
@@ -10765,7 +10765,7 @@
 	}, {
 		"dex": 585,
 		"speciesId": "deerling_winter",
-		"speciesName": "Deerling_winter",
+		"speciesName": "四季鹿 冬天型態",
 		"baseStats": {
 			"atk": 115,
 			"def": 100,
@@ -10781,7 +10781,7 @@
 	}, {
 		"dex": 586,
 		"speciesId": "sawsbuck",
-		"speciesName": "Sawsbuck",
+		"speciesName": "萌芽鹿",
 		"baseStats": {
 			"atk": 198,
 			"def": 146,
@@ -10797,7 +10797,7 @@
 	}, {
 		"dex": 586,
 		"speciesId": "sawsbuck_autumn",
-		"speciesName": "Sawsbuck (Autumn)",
+		"speciesName": "萌芽鹿 秋天型態",
 		"baseStats": {
 			"atk": 198,
 			"def": 146,
@@ -10813,7 +10813,7 @@
 	}, {
 		"dex": 586,
 		"speciesId": "sawsbuck_spring",
-		"speciesName": "Sawsbuck (Spring)",
+		"speciesName": "萌芽鹿 春天型態",
 		"baseStats": {
 			"atk": 198,
 			"def": 146,
@@ -10829,7 +10829,7 @@
 	}, {
 		"dex": 586,
 		"speciesId": "sawsbuck_summer",
-		"speciesName": "Sawsbuck (Summer)",
+		"speciesName": "萌芽鹿 夏天型態",
 		"baseStats": {
 			"atk": 198,
 			"def": 146,
@@ -10845,7 +10845,7 @@
 	}, {
 		"dex": 586,
 		"speciesId": "sawsbuck_winter",
-		"speciesName": "Sawsbuck (Winter)",
+		"speciesName": "萌芽鹿 冬天型態",
 		"baseStats": {
 			"atk": 198,
 			"def": 146,
@@ -10861,7 +10861,7 @@
 	}, {
 		"dex": 587,
 		"speciesId": "emolga",
-		"speciesName": "Emolga",
+		"speciesName": "電飛鼠",
 		"baseStats": {
 			"atk": 158,
 			"def": 127,
@@ -10877,7 +10877,7 @@
 	}, {
 		"dex": 588,
 		"speciesId": "karrablast",
-		"speciesName": "Karrablast",
+		"speciesName": "蓋蓋蟲",
 		"baseStats": {
 			"atk": 137,
 			"def": 87,
@@ -10893,7 +10893,7 @@
 	}, {
 		"dex": 589,
 		"speciesId": "escavalier",
-		"speciesName": "Escavalier",
+		"speciesName": "騎士蝸牛",
 		"baseStats": {
 			"atk": 223,
 			"def": 187,
@@ -10909,7 +10909,7 @@
 	}, {
 		"dex": 590,
 		"speciesId": "foongus",
-		"speciesName": "Foongus",
+		"speciesName": "哎呀球菇",
 		"baseStats": {
 			"atk": 97,
 			"def": 91,
@@ -10925,7 +10925,7 @@
 	}, {
 		"dex": 591,
 		"speciesId": "amoonguss",
-		"speciesName": "Amoonguss",
+		"speciesName": "敗露球菇",
 		"baseStats": {
 			"atk": 155,
 			"def": 139,
@@ -10941,7 +10941,7 @@
 	}, {
 		"dex": 592,
 		"speciesId": "frillish",
-		"speciesName": "Frillish",
+		"speciesName": "輕飄飄",
 		"baseStats": {
 			"atk": 115,
 			"def": 134,
@@ -10957,7 +10957,7 @@
 	}, {
 		"dex": 593,
 		"speciesId": "jellicent",
-		"speciesName": "Jellicent",
+		"speciesName": "胖嘟嘟",
 		"baseStats": {
 			"atk": 159,
 			"def": 178,
@@ -10973,7 +10973,7 @@
 	}, {
 		"dex": 594,
 		"speciesId": "alomomola",
-		"speciesName": "Alomomola",
+		"speciesName": "保母曼波",
 		"baseStats": {
 			"atk": 138,
 			"def": 131,
@@ -10989,7 +10989,7 @@
 	}, {
 		"dex": 595,
 		"speciesId": "joltik",
-		"speciesName": "Joltik",
+		"speciesName": "電電蟲",
 		"baseStats": {
 			"atk": 110,
 			"def": 98,
@@ -11005,7 +11005,7 @@
 	}, {
 		"dex": 596,
 		"speciesId": "galvantula",
-		"speciesName": "Galvantula",
+		"speciesName": "電蜘蛛",
 		"baseStats": {
 			"atk": 201,
 			"def": 128,
@@ -11021,7 +11021,7 @@
 	}, {
 		"dex": 597,
 		"speciesId": "ferroseed",
-		"speciesName": "Ferroseed",
+		"speciesName": "種子鐵球",
 		"baseStats": {
 			"atk": 82,
 			"def": 155,
@@ -11037,7 +11037,7 @@
 	}, {
 		"dex": 598,
 		"speciesId": "ferrothorn",
-		"speciesName": "Ferrothorn",
+		"speciesName": "堅果啞鈴",
 		"baseStats": {
 			"atk": 158,
 			"def": 223,
@@ -11053,7 +11053,7 @@
 	}, {
 		"dex": 599,
 		"speciesId": "klink",
-		"speciesName": "Klink",
+		"speciesName": "齒輪兒",
 		"baseStats": {
 			"atk": 98,
 			"def": 121,
@@ -11069,7 +11069,7 @@
 	}, {
 		"dex": 600,
 		"speciesId": "klang",
-		"speciesName": "Klang",
+		"speciesName": "齒輪組",
 		"baseStats": {
 			"atk": 150,
 			"def": 174,
@@ -11085,7 +11085,7 @@
 	}, {
 		"dex": 601,
 		"speciesId": "klinklang",
-		"speciesName": "Klinklang",
+		"speciesName": "齒輪怪",
 		"baseStats": {
 			"atk": 199,
 			"def": 214,
@@ -11101,7 +11101,7 @@
 	}, {
 		"dex": 602,
 		"speciesId": "tynamo",
-		"speciesName": "Tynamo",
+		"speciesName": "麻麻小魚",
 		"baseStats": {
 			"atk": 105,
 			"def": 78,
@@ -11117,7 +11117,7 @@
 	}, {
 		"dex": 603,
 		"speciesId": "eelektrik",
-		"speciesName": "Eelektrik",
+		"speciesName": "麻麻鰻",
 		"baseStats": {
 			"atk": 156,
 			"def": 130,
@@ -11133,7 +11133,7 @@
 	}, {
 		"dex": 604,
 		"speciesId": "eelektross",
-		"speciesName": "Eelektross",
+		"speciesName": "麻麻鰻魚王",
 		"baseStats": {
 			"atk": 217,
 			"def": 152,
@@ -11149,7 +11149,7 @@
 	}, {
 		"dex": 605,
 		"speciesId": "elgyem",
-		"speciesName": "Elgyem",
+		"speciesName": "小灰怪",
 		"baseStats": {
 			"atk": 148,
 			"def": 100,
@@ -11165,7 +11165,7 @@
 	}, {
 		"dex": 606,
 		"speciesId": "beheeyem",
-		"speciesName": "Beheeyem",
+		"speciesName": "大宇怪",
 		"baseStats": {
 			"atk": 221,
 			"def": 163,
@@ -11181,7 +11181,7 @@
 	}, {
 		"dex": 607,
 		"speciesId": "litwick",
-		"speciesName": "Litwick",
+		"speciesName": "燭光靈",
 		"baseStats": {
 			"atk": 108,
 			"def": 98,
@@ -11197,7 +11197,7 @@
 	}, {
 		"dex": 608,
 		"speciesId": "lampent",
-		"speciesName": "Lampent",
+		"speciesName": "燈火幽靈",
 		"baseStats": {
 			"atk": 169,
 			"def": 115,
@@ -11213,7 +11213,7 @@
 	}, {
 		"dex": 609,
 		"speciesId": "chandelure",
-		"speciesName": "Chandelure",
+		"speciesName": "水晶燈火靈",
 		"baseStats": {
 			"atk": 271,
 			"def": 182,
@@ -11229,7 +11229,7 @@
 	}, {
 		"dex": 610,
 		"speciesId": "axew",
-		"speciesName": "Axew",
+		"speciesName": "牙牙",
 		"baseStats": {
 			"atk": 154,
 			"def": 101,
@@ -11245,7 +11245,7 @@
 	}, {
 		"dex": 611,
 		"speciesId": "fraxure",
-		"speciesName": "Fraxure",
+		"speciesName": "斧牙龍",
 		"baseStats": {
 			"atk": 212,
 			"def": 123,
@@ -11261,7 +11261,7 @@
 	}, {
 		"dex": 612,
 		"speciesId": "haxorus",
-		"speciesName": "Haxorus",
+		"speciesName": "雙斧戰龍",
 		"baseStats": {
 			"atk": 284,
 			"def": 172,
@@ -11277,7 +11277,7 @@
 	}, {
 		"dex": 613,
 		"speciesId": "cubchoo",
-		"speciesName": "Cubchoo",
+		"speciesName": "噴嚏熊",
 		"baseStats": {
 			"atk": 128,
 			"def": 74,
@@ -11293,7 +11293,7 @@
 	}, {
 		"dex": 614,
 		"speciesId": "beartic",
-		"speciesName": "Beartic",
+		"speciesName": "凍原熊",
 		"baseStats": {
 			"atk": 233,
 			"def": 152,
@@ -11309,7 +11309,7 @@
 	}, {
 		"dex": 615,
 		"speciesId": "cryogonal",
-		"speciesName": "Cryogonal",
+		"speciesName": "幾何雪花",
 		"baseStats": {
 			"atk": 190,
 			"def": 218,
@@ -11325,7 +11325,7 @@
 	}, {
 		"dex": 616,
 		"speciesId": "shelmet",
-		"speciesName": "Shelmet",
+		"speciesName": "小嘴蝸",
 		"baseStats": {
 			"atk": 72,
 			"def": 140,
@@ -11341,7 +11341,7 @@
 	}, {
 		"dex": 617,
 		"speciesId": "accelgor",
-		"speciesName": "Accelgor",
+		"speciesName": "敏捷蟲",
 		"baseStats": {
 			"atk": 220,
 			"def": 120,
@@ -11357,7 +11357,7 @@
 	}, {
 		"dex": 618,
 		"speciesId": "stunfisk",
-		"speciesName": "Stunfisk",
+		"speciesName": "泥巴魚",
 		"baseStats": {
 			"atk": 144,
 			"def": 171,
@@ -11373,7 +11373,7 @@
 	}, {
 		"dex": 619,
 		"speciesId": "mienfoo",
-		"speciesName": "Mienfoo",
+		"speciesName": "功夫鼬",
 		"baseStats": {
 			"atk": 160,
 			"def": 98,
@@ -11389,7 +11389,7 @@
 	}, {
 		"dex": 620,
 		"speciesId": "mienshao",
-		"speciesName": "Mienshao",
+		"speciesName": "師父鼬",
 		"baseStats": {
 			"atk": 258,
 			"def": 127,
@@ -11405,7 +11405,7 @@
 	}, {
 		"dex": 621,
 		"speciesId": "druddigon",
-		"speciesName": "Druddigon",
+		"speciesName": "赤面龍",
 		"baseStats": {
 			"atk": 213,
 			"def": 170,
@@ -11421,7 +11421,7 @@
 	}, {
 		"dex": 622,
 		"speciesId": "golett",
-		"speciesName": "Golett",
+		"speciesName": "泥偶小人",
 		"baseStats": {
 			"atk": 127,
 			"def": 92,
@@ -11437,7 +11437,7 @@
 	}, {
 		"dex": 623,
 		"speciesId": "golurk",
-		"speciesName": "Golurk",
+		"speciesName": "泥偶巨人",
 		"baseStats": {
 			"atk": 222,
 			"def": 154,
@@ -11453,7 +11453,7 @@
 	}, {
 		"dex": 624,
 		"speciesId": "pawniard",
-		"speciesName": "Pawniard",
+		"speciesName": "駒刀小兵",
 		"baseStats": {
 			"atk": 154,
 			"def": 114,
@@ -11469,7 +11469,7 @@
 	}, {
 		"dex": 625,
 		"speciesId": "bisharp",
-		"speciesName": "Bisharp",
+		"speciesName": "劈斬司令",
 		"baseStats": {
 			"atk": 232,
 			"def": 176,
@@ -11485,7 +11485,7 @@
 	}, {
 		"dex": 626,
 		"speciesId": "bouffalant",
-		"speciesName": "Bouffalant",
+		"speciesName": "爆炸頭水牛",
 		"baseStats": {
 			"atk": 195,
 			"def": 182,
@@ -11501,7 +11501,7 @@
 	}, {
 		"dex": 627,
 		"speciesId": "rufflet",
-		"speciesName": "Rufflet",
+		"speciesName": "毛頭小鷹",
 		"baseStats": {
 			"atk": 150,
 			"def": 97,
@@ -11517,7 +11517,7 @@
 	}, {
 		"dex": 628,
 		"speciesId": "braviary",
-		"speciesName": "Braviary",
+		"speciesName": "勇士雄鷹",
 		"baseStats": {
 			"atk": 232,
 			"def": 152,
@@ -11533,7 +11533,7 @@
 	}, {
 		"dex": 629,
 		"speciesId": "vullaby",
-		"speciesName": "Vullaby",
+		"speciesName": "禿鷹丫頭",
 		"baseStats": {
 			"atk": 105,
 			"def": 139,
@@ -11549,7 +11549,7 @@
 	}, {
 		"dex": 630,
 		"speciesId": "mandibuzz",
-		"speciesName": "Mandibuzz",
+		"speciesName": "禿鷹娜",
 		"baseStats": {
 			"atk": 129,
 			"def": 205,
@@ -11565,7 +11565,7 @@
 	}, {
 		"dex": 631,
 		"speciesId": "heatmor",
-		"speciesName": "Heatmor",
+		"speciesName": "熔蟻獸",
 		"baseStats": {
 			"atk": 204,
 			"def": 129,
@@ -11582,7 +11582,7 @@
 	}, {
 		"dex": 632,
 		"speciesId": "durant",
-		"speciesName": "Durant",
+		"speciesName": "鐵蟻",
 		"baseStats": {
 			"atk": 217,
 			"def": 188,
@@ -11599,7 +11599,7 @@
 	}, {
 		"dex": 633,
 		"speciesId": "deino",
-		"speciesName": "Deino",
+		"speciesName": "單首龍",
 		"baseStats": {
 			"atk": 116,
 			"def": 93,
@@ -11615,7 +11615,7 @@
 	}, {
 		"dex": 634,
 		"speciesId": "zweilous",
-		"speciesName": "Zweilous",
+		"speciesName": "雙首暴龍",
 		"baseStats": {
 			"atk": 159,
 			"def": 135,
@@ -11631,7 +11631,7 @@
 	}, {
 		"dex": 635,
 		"speciesId": "hydreigon",
-		"speciesName": "Hydreigon",
+		"speciesName": "三首惡龍",
 		"baseStats": {
 			"atk": 256,
 			"def": 188,
@@ -11647,7 +11647,7 @@
 	}, {
 		"dex": 636,
 		"speciesId": "larvesta",
-		"speciesName": "Larvesta",
+		"speciesName": "燃燒蟲",
 		"baseStats": {
 			"atk": 156,
 			"def": 107,
@@ -11663,7 +11663,7 @@
 	}, {
 		"dex": 637,
 		"speciesId": "volcarona",
-		"speciesName": "Volcarona",
+		"speciesName": "火神蛾",
 		"baseStats": {
 			"atk": 264,
 			"def": 189,
@@ -11679,7 +11679,7 @@
 	}, {
 		"dex": 638,
 		"speciesId": "cobalion",
-		"speciesName": "Cobalion",
+		"speciesName": "勾帕路翁",
 		"baseStats": {
 			"atk": 192,
 			"def": 229,
@@ -11695,7 +11695,7 @@
 	}, {
 		"dex": 639,
 		"speciesId": "terrakion",
-		"speciesName": "Terrakion",
+		"speciesName": "代拉基翁",
 		"baseStats": {
 			"atk": 260,
 			"def": 192,
@@ -11711,7 +11711,7 @@
 	}, {
 		"dex": 640,
 		"speciesId": "virizion",
-		"speciesName": "Virizion",
+		"speciesName": "畢力吉翁",
 		"baseStats": {
 			"atk": 192,
 			"def": 229,
@@ -11727,7 +11727,7 @@
 	}, {
 		"dex": 641,
 		"speciesId": "tornadus_incarnate",
-		"speciesName": "Tornadus_incarnate",
+		"speciesName": "龍捲雲 化身型態",
 		"baseStats": {
 			"atk": 266,
 			"def": 164,
@@ -11743,7 +11743,7 @@
 	}, {
 		"dex": 641,
 		"speciesId": "tornadus_incarnate",
-		"speciesName": "Tornadus_incarnate",
+		"speciesName": "龍捲雲 化身型態",
 		"baseStats": {
 			"atk": 266,
 			"def": 164,
@@ -11759,7 +11759,7 @@
 	}, {
 		"dex": 641,
 		"speciesId": "tornadus_therian",
-		"speciesName": "Tornadus_therian",
+		"speciesName": "龍捲雲 靈獸型態",
 		"baseStats": {
 			"atk": 238,
 			"def": 189,
@@ -11775,7 +11775,7 @@
 	}, {
 		"dex": 642,
 		"speciesId": "thundurus_incarnate",
-		"speciesName": "Thundurus_incarnate",
+		"speciesName": "雷電雲 化身型態",
 		"baseStats": {
 			"atk": 266,
 			"def": 164,
@@ -11791,7 +11791,7 @@
 	}, {
 		"dex": 642,
 		"speciesId": "thundurus_incarnate",
-		"speciesName": "Thundurus_incarnate",
+		"speciesName": "雷電雲 化身型態",
 		"baseStats": {
 			"atk": 266,
 			"def": 164,
@@ -11807,7 +11807,7 @@
 	}, {
 		"dex": 642,
 		"speciesId": "thundurus_therian",
-		"speciesName": "Thundurus_therian",
+		"speciesName": "雷電雲 靈獸型態",
 		"baseStats": {
 			"atk": 295,
 			"def": 161,
@@ -11823,7 +11823,7 @@
 	}, {
 		"dex": 643,
 		"speciesId": "reshiram",
-		"speciesName": "Reshiram",
+		"speciesName": "萊希拉姆",
 		"baseStats": {
 			"atk": 275,
 			"def": 211,
@@ -11839,7 +11839,7 @@
 	}, {
 		"dex": 644,
 		"speciesId": "zekrom",
-		"speciesName": "Zekrom",
+		"speciesName": "捷克羅姆",
 		"baseStats": {
 			"atk": 275,
 			"def": 211,
@@ -11855,7 +11855,7 @@
 	}, {
 		"dex": 645,
 		"speciesId": "landorus_incarnate",
-		"speciesName": "Landorus (Incarnate)",
+		"speciesName": "土地雲 化身型態",
 		"baseStats": {
 			"atk": 261,
 			"def": 182,
@@ -11871,7 +11871,7 @@
 	}, {
 		"dex": 645,
 		"speciesId": "landorus_therian",
-		"speciesName": "Landorus (Therian)",
+		"speciesName": "土地雲 靈獸型態",
 		"baseStats": {
 			"atk": 289,
 			"def": 179,
@@ -11887,7 +11887,7 @@
 	}, {
 		"dex": 646,
 		"speciesId": "kyurem_black",
-		"speciesName": "Kyurem (Black)",
+		"speciesName": "酋雷姆 闇黑型態",
 		"baseStats": {
 			"atk": 310,
 			"def": 183,
@@ -11903,7 +11903,7 @@
 	}, {
 		"dex": 646,
 		"speciesId": "kyurem_normal",
-		"speciesName": "Kyurem",
+		"speciesName": "酋雷姆 一般型態",
 		"baseStats": {
 			"atk": 246,
 			"def": 170,
@@ -11919,7 +11919,7 @@
 	}, {
 		"dex": 646,
 		"speciesId": "kyurem_white",
-		"speciesName": "Kyurem (White)",
+		"speciesName": "酋雷姆 焰白型態",
 		"baseStats": {
 			"atk": 310,
 			"def": 183,
@@ -11935,7 +11935,7 @@
 	}, {
 		"dex": 647,
 		"speciesId": "keldeo_ordinary",
-		"speciesName": "Keldeo (Ordinary)",
+		"speciesName": "凱路迪歐 平常型態",
 		"baseStats": {
 			"atk": 260,
 			"def": 192,
@@ -11951,7 +11951,7 @@
 	}, {
 		"dex": 647,
 		"speciesId": "keldeo_resolute",
-		"speciesName": "Keldeo (Resolute)",
+		"speciesName": "凱路迪歐 覺悟型態",
 		"baseStats": {
 			"atk": 260,
 			"def": 192,
@@ -11967,7 +11967,7 @@
 	}, {
 		"dex": 648,
 		"speciesId": "meloetta_aria",
-		"speciesName": "Meloetta (Aria)",
+		"speciesName": "美洛耶塔 歌聲型態",
 		"baseStats": {
 			"atk": 250,
 			"def": 225,
@@ -11983,7 +11983,7 @@
 	}, {
 		"dex": 648,
 		"speciesId": "meloetta_pirouette",
-		"speciesName": "Meloetta (Pirouette)",
+		"speciesName": "美洛耶塔 舞步型態",
 		"baseStats": {
 			"atk": 269,
 			"def": 188,
@@ -11999,7 +11999,7 @@
 	}, {
 		"dex": 649,
 		"speciesId": "genesect",
-		"speciesName": "Genesect",
+		"speciesName": "蓋諾賽克特",
 		"baseStats": {
 			"atk": 252,
 			"def": 199,
@@ -12015,7 +12015,7 @@
 	}, {
 		"dex": 649,
 		"speciesId": "genesect_burn",
-		"speciesName": "Genesect (Burn)",
+		"speciesName": "蓋諾賽克特 火焰卡帶",
 		"baseStats": {
 			"atk": 252,
 			"def": 199,
@@ -12031,7 +12031,7 @@
 	}, {
 		"dex": 649,
 		"speciesId": "genesect_chill",
-		"speciesName": "Genesect (Chill)",
+		"speciesName": "蓋諾賽克特 冰凍卡帶",
 		"baseStats": {
 			"atk": 252,
 			"def": 199,
@@ -12047,7 +12047,7 @@
 	}, {
 		"dex": 649,
 		"speciesId": "genesect_douse",
-		"speciesName": "Genesect (Douse)",
+		"speciesName": "蓋諾賽克特 水流卡帶",
 		"baseStats": {
 			"atk": 252,
 			"def": 199,
@@ -12063,7 +12063,7 @@
 	}, {
 		"dex": 649,
 		"speciesId": "genesect_shock",
-		"speciesName": "Genesect (Shock)",
+		"speciesName": "蓋諾賽克特 閃電卡帶",
 		"baseStats": {
 			"atk": 252,
 			"def": 199,
@@ -12078,7 +12078,7 @@
 		}
 	}, {
 		"dex": 808,
-		"speciesName": "Meltan",
+		"speciesName": "美錄坦",
 		"speciesId": "meltan",
 		"baseStats": {
 			"atk": 118,
@@ -12095,7 +12095,7 @@
 		"tags": ["mythical"]
 	}, {
 		"dex": 809,
-		"speciesName": "Melmetal",
+		"speciesName": "美錄梅塔",
 		"speciesId": "melmetal",
 		"baseStats": {
 			"atk": 226,
@@ -12113,7 +12113,7 @@
 	}],
 	"moves": [{
 		"moveId": "ACID",
-		"name": "Acid",
+		"name": "溶解液",
 		"type": "poison",
 		"power": 6,
 		"energy": 0,
@@ -12121,7 +12121,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "ACID_SPRAY",
-		"name": "Acid Spray",
+		"name": "酸液炸彈",
 		"type": "poison",
 		"power": 20,
 		"energy": 50,
@@ -12132,7 +12132,7 @@
 		"buffApplyChance": "1"
 	}, {
 		"moveId": "AERIAL_ACE",
-		"name": "Aerial Ace",
+		"name": "燕返",
 		"type": "flying",
 		"power": 55,
 		"energy": 45,
@@ -12140,7 +12140,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "AIR_CUTTER",
-		"name": "Air Cutter",
+		"name": "空氣利刃",
 		"type": "flying",
 		"power": 60,
 		"energy": 55,
@@ -12148,7 +12148,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "AIR_SLASH",
-		"name": "Air Slash",
+		"name": "空氣斬",
 		"type": "flying",
 		"power": 9,
 		"energy": 0,
@@ -12156,7 +12156,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "ANCIENT_POWER",
-		"name": "Ancient Power",
+		"name": "原始之力",
 		"type": "rock",
 		"power": 70,
 		"energy": 45,
@@ -12167,7 +12167,7 @@
 		"buffApplyChance": ".1"
 	}, {
 		"moveId": "AQUA_JET",
-		"name": "Aqua Jet",
+		"name": "水流噴射",
 		"type": "water",
 		"power": 45,
 		"energy": 45,
@@ -12175,7 +12175,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "AQUA_TAIL",
-		"name": "Aqua Tail",
+		"name": "水流尾",
 		"type": "water",
 		"power": 50,
 		"energy": 35,
@@ -12183,7 +12183,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "ASTONISH",
-		"name": "Astonish",
+		"name": "驚嚇",
 		"type": "ghost",
 		"power": 5,
 		"energy": 0,
@@ -12191,7 +12191,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "AURORA_BEAM",
-		"name": "Aurora Beam",
+		"name": "極光束",
 		"type": "ice",
 		"power": 80,
 		"energy": 60,
@@ -12199,7 +12199,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "AVALANCHE",
-		"name": "Avalanche",
+		"name": "雪崩",
 		"type": "ice",
 		"power": 90,
 		"energy": 45,
@@ -12207,7 +12207,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "BITE",
-		"name": "Bite",
+		"name": "咬住",
 		"type": "dark",
 		"power": 4,
 		"energy": 0,
@@ -12215,7 +12215,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "BLAST_BURN",
-		"name": "Blast Burn",
+		"name": "爆炸烈焰",
 		"type": "fire",
 		"power": 110,
 		"energy": 50,
@@ -12223,7 +12223,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "BLIZZARD",
-		"name": "Blizzard",
+		"name": "暴風雪",
 		"type": "ice",
 		"power": 130,
 		"energy": 75,
@@ -12231,7 +12231,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "BODY_SLAM",
-		"name": "Body Slam",
+		"name": "泰山壓頂",
 		"type": "normal",
 		"power": 60,
 		"energy": 35,
@@ -12239,7 +12239,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "BONE_CLUB",
-		"name": "Bone Club",
+		"name": "骨棒",
 		"type": "ground",
 		"power": 40,
 		"energy": 35,
@@ -12247,7 +12247,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "BRAVE_BIRD",
-		"name": "Brave Bird",
+		"name": "勇鳥猛攻",
 		"type": "flying",
 		"power": 90,
 		"energy": 55,
@@ -12255,7 +12255,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "BRICK_BREAK",
-		"name": "Brick Break",
+		"name": "劈瓦",
 		"type": "fighting",
 		"power": 40,
 		"energy": 35,
@@ -12263,7 +12263,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "BRINE",
-		"name": "Brine",
+		"name": "鹽水",
 		"type": "water",
 		"power": 60,
 		"energy": 50,
@@ -12271,7 +12271,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "BUBBLE",
-		"name": "Bubble",
+		"name": "泡沫",
 		"type": "water",
 		"power": 8,
 		"energy": 0,
@@ -12279,7 +12279,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "BUBBLE_BEAM",
-		"name": "Bubble Beam",
+		"name": "泡沫光線",
 		"type": "water",
 		"power": 25,
 		"energy": 40,
@@ -12290,7 +12290,7 @@
 		"buffApplyChance": "1"
 	}, {
 		"moveId": "BUG_BITE",
-		"name": "Bug Bite",
+		"name": "蟲咬",
 		"type": "bug",
 		"power": 3,
 		"energy": 0,
@@ -12298,7 +12298,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "BUG_BUZZ",
-		"name": "Bug Buzz",
+		"name": "蟲鳴",
 		"type": "bug",
 		"power": 90,
 		"energy": 60,
@@ -12306,7 +12306,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "BULLDOZE",
-		"name": "Bulldoze",
+		"name": "重踏",
 		"type": "ground",
 		"power": 80,
 		"energy": 60,
@@ -12314,7 +12314,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "BULLET_PUNCH",
-		"name": "Bullet Punch",
+		"name": "子彈拳",
 		"type": "steel",
 		"power": 6,
 		"energy": 0,
@@ -12322,7 +12322,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "BULLET_SEED",
-		"name": "Bullet Seed",
+		"name": "種子機關槍",
 		"type": "grass",
 		"power": 5,
 		"energy": 0,
@@ -12330,7 +12330,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "CHARGE_BEAM",
-		"name": "Charge Beam",
+		"name": "充電光束",
 		"type": "electric",
 		"power": 5,
 		"energy": 0,
@@ -12338,7 +12338,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "CHARM",
-		"name": "Charm",
+		"name": "撒嬌",
 		"type": "fairy",
 		"power": 16,
 		"energy": 0,
@@ -12346,7 +12346,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "CLOSE_COMBAT",
-		"name": "Close Combat",
+		"name": "近身戰",
 		"type": "fighting",
 		"power": 100,
 		"energy": 60,
@@ -12354,7 +12354,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "CONFUSION",
-		"name": "Confusion",
+		"name": "念力",
 		"type": "psychic",
 		"power": 16,
 		"energy": 0,
@@ -12362,7 +12362,7 @@
 		"cooldown": 2000
 	}, {
 		"moveId": "COUNTER",
-		"name": "Counter",
+		"name": "雙倍奉還",
 		"type": "fighting",
 		"power": 8,
 		"energy": 0,
@@ -12370,7 +12370,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "CRABHAMMER",
-		"name": "Crabhammer",
+		"name": "蟹鉗錘",
 		"type": "water",
 		"power": 75,
 		"energy": 50,
@@ -12381,7 +12381,7 @@
 		"buffApplyChance": ".125"
 	}, {
 		"moveId": "CROSS_CHOP",
-		"name": "Cross Chop",
+		"name": "十字劈",
 		"type": "fighting",
 		"power": 50,
 		"energy": 35,
@@ -12389,7 +12389,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "CROSS_POISON",
-		"name": "Cross Poison",
+		"name": "十字毒刃",
 		"type": "poison",
 		"power": 40,
 		"energy": 35,
@@ -12397,7 +12397,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "CRUNCH",
-		"name": "Crunch",
+		"name": "咬碎",
 		"type": "dark",
 		"power": 70,
 		"energy": 45,
@@ -12405,7 +12405,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "CUT",
-		"name": "Cut",
+		"name": "居合斬",
 		"type": "normal",
 		"power": 3,
 		"energy": 0,
@@ -12413,7 +12413,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "DARK_PULSE",
-		"name": "Dark Pulse",
+		"name": "惡之波動",
 		"type": "dark",
 		"power": 80,
 		"energy": 50,
@@ -12421,7 +12421,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "DAZZLING_GLEAM",
-		"name": "Dazzling Gleam",
+		"name": "魔法閃耀",
 		"type": "fairy",
 		"power": 110,
 		"energy": 70,
@@ -12429,7 +12429,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "DIG",
-		"name": "Dig",
+		"name": "挖洞",
 		"type": "ground",
 		"power": 100,
 		"energy": 80,
@@ -12437,7 +12437,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "DISARMING_VOICE",
-		"name": "Disarming Voice",
+		"name": "魅惑之聲",
 		"type": "fairy",
 		"power": 70,
 		"energy": 45,
@@ -12445,7 +12445,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "DISCHARGE",
-		"name": "Discharge",
+		"name": "放電",
 		"type": "electric",
 		"power": 65,
 		"energy": 45,
@@ -12453,7 +12453,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "DOOM_DESIRE",
-		"name": "Doom Desire",
+		"name": "破滅之願",
 		"type": "steel",
 		"power": 75,
 		"energy": 40,
@@ -12461,7 +12461,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "DRACO_METEOR",
-		"name": "Draco Meteor",
+		"name": "流星群",
 		"type": "dragon",
 		"power": 150,
 		"energy": 75,
@@ -12469,7 +12469,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "DRAGON_BREATH",
-		"name": "Dragon Breath",
+		"name": "龍息",
 		"type": "dragon",
 		"power": 4,
 		"energy": 0,
@@ -12477,7 +12477,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "DRAGON_CLAW",
-		"name": "Dragon Claw",
+		"name": "龍爪",
 		"type": "dragon",
 		"power": 50,
 		"energy": 35,
@@ -12485,7 +12485,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "DRAGON_PULSE",
-		"name": "Dragon Pulse",
+		"name": "龍之波動",
 		"type": "dragon",
 		"power": 90,
 		"energy": 60,
@@ -12493,7 +12493,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "DRAGON_TAIL",
-		"name": "Dragon Tail",
+		"name": "龍尾",
 		"type": "dragon",
 		"power": 9,
 		"energy": 0,
@@ -12501,7 +12501,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "DRAINING_KISS",
-		"name": "Draining Kiss",
+		"name": "吸取之吻",
 		"type": "fairy",
 		"power": 60,
 		"energy": 55,
@@ -12509,7 +12509,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "DRILL_PECK",
-		"name": "Drill Peck",
+		"name": "啄鑽",
 		"type": "flying",
 		"power": 60,
 		"energy": 40,
@@ -12517,7 +12517,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "DRILL_RUN",
-		"name": "Drill Run",
+		"name": "直衝鑽",
 		"type": "ground",
 		"power": 80,
 		"energy": 55,
@@ -12525,7 +12525,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "DYNAMIC_PUNCH",
-		"name": "Dynamic Punch",
+		"name": "爆裂拳",
 		"type": "fighting",
 		"power": 90,
 		"energy": 50,
@@ -12533,7 +12533,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "EARTHQUAKE",
-		"name": "Earthquake",
+		"name": "地震",
 		"type": "ground",
 		"power": 120,
 		"energy": 65,
@@ -12541,7 +12541,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "EARTH_POWER",
-		"name": "Earth Power",
+		"name": "大地之力",
 		"type": "ground",
 		"power": 90,
 		"energy": 55,
@@ -12552,7 +12552,7 @@
 		"buffApplyChance": ".1"
 	}, {
 		"moveId": "EMBER",
-		"name": "Ember",
+		"name": "火花",
 		"type": "fire",
 		"power": 6,
 		"energy": 0,
@@ -12560,7 +12560,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "ENERGY_BALL",
-		"name": "Energy Ball",
+		"name": "能量球",
 		"type": "grass",
 		"power": 90,
 		"energy": 60,
@@ -12568,7 +12568,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "EXTRASENSORY",
-		"name": "Extrasensory",
+		"name": "神通力",
 		"type": "psychic",
 		"power": 8,
 		"energy": 0,
@@ -12576,7 +12576,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "FEINT_ATTACK",
-		"name": "Feint Attack",
+		"name": "出奇一擊",
 		"type": "dark",
 		"power": 6,
 		"energy": 0,
@@ -12584,7 +12584,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "FIRE_BLAST",
-		"name": "Fire Blast",
+		"name": "大字爆炎",
 		"type": "fire",
 		"power": 140,
 		"energy": 80,
@@ -12592,7 +12592,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "FIRE_FANG",
-		"name": "Fire Fang",
+		"name": "火焰牙",
 		"type": "fire",
 		"power": 8,
 		"energy": 0,
@@ -12600,7 +12600,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "FIRE_PUNCH",
-		"name": "Fire Punch",
+		"name": "火焰拳",
 		"type": "fire",
 		"power": 55,
 		"energy": 40,
@@ -12608,7 +12608,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "BLAZE_KICK",
-		"name": "Blaze Kick",
+		"name": "火焰踢",
 		"type": "fire",
 		"power": 55,
 		"energy": 40,
@@ -12616,7 +12616,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "FIRE_SPIN",
-		"name": "Fire Spin",
+		"name": "火焰旋渦",
 		"type": "fire",
 		"power": 9,
 		"energy": 0,
@@ -12624,7 +12624,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "FLAME_BURST",
-		"name": "Flame Burst",
+		"name": "烈焰濺射",
 		"type": "fire",
 		"power": 70,
 		"energy": 55,
@@ -12632,7 +12632,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "FLAME_CHARGE",
-		"name": "Flame Charge",
+		"name": "蓄能焰襲",
 		"type": "fire",
 		"power": 70,
 		"energy": 50,
@@ -12640,7 +12640,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "FLAME_WHEEL",
-		"name": "Flame Wheel",
+		"name": "火焰輪",
 		"type": "fire",
 		"power": 60,
 		"energy": 55,
@@ -12648,7 +12648,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "FLAMETHROWER",
-		"name": "Flamethrower",
+		"name": "噴射火焰",
 		"type": "fire",
 		"power": 90,
 		"energy": 55,
@@ -12656,7 +12656,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "FLASH_CANNON",
-		"name": "Flash Cannon",
+		"name": "加農光炮",
 		"type": "steel",
 		"power": 110,
 		"energy": 65,
@@ -12664,7 +12664,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "FOCUS_BLAST",
-		"name": "Focus Blast",
+		"name": "真氣彈",
 		"type": "fighting",
 		"power": 150,
 		"energy": 75,
@@ -12672,7 +12672,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "FOUL_PLAY",
-		"name": "Foul Play",
+		"name": "欺詐",
 		"type": "dark",
 		"power": 70,
 		"energy": 45,
@@ -12680,7 +12680,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "FRENZY_PLANT",
-		"name": "Frenzy Plant",
+		"name": "瘋狂植物",
 		"type": "grass",
 		"power": 100,
 		"energy": 45,
@@ -12688,7 +12688,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "FROST_BREATH",
-		"name": "Frost Breath",
+		"name": "冰息",
 		"type": "ice",
 		"power": 7,
 		"energy": 0,
@@ -12696,7 +12696,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "FRUSTRATION",
-		"name": "Frustration",
+		"name": "遷怒",
 		"type": "normal",
 		"power": 10,
 		"energy": 40,
@@ -12704,7 +12704,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "FURY_CUTTER",
-		"name": "Fury Cutter",
+		"name": "連斬",
 		"type": "bug",
 		"power": 2,
 		"energy": 0,
@@ -12712,7 +12712,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "FUTURE_SIGHT",
-		"name": "Future Sight",
+		"name": "預知未來",
 		"type": "psychic",
 		"power": 120,
 		"energy": 65,
@@ -12720,15 +12720,23 @@
 		"cooldown": 500
 	}, {
 		"moveId": "GIGA_DRAIN",
-		"name": "Giga Drain",
+		"name": "終極吸取",
 		"type": "grass",
 		"power": 50,
 		"energy": 80,
 		"energyGain": 0,
 		"cooldown": 500
 	}, {
+		"moveId": "GIGA_IMPACT",
+		"name": "終極衝擊",
+		"type": "normal",
+		"power": 150,
+		"energy": 80,
+		"energyGain": 0,
+		"cooldown": 500
+	}, {
 		"moveId": "GRASS_KNOT",
-		"name": "Grass Knot",
+		"name": "打草結",
 		"type": "grass",
 		"power": 90,
 		"energy": 50,
@@ -12736,7 +12744,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "GUNK_SHOT",
-		"name": "Gunk Shot",
+		"name": "垃圾射擊",
 		"type": "poison",
 		"power": 130,
 		"energy": 75,
@@ -12744,7 +12752,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "GYRO_BALL",
-		"name": "Gyro Ball",
+		"name": "陀螺球",
 		"type": "steel",
 		"power": 80,
 		"energy": 60,
@@ -12752,7 +12760,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "HEART_STAMP",
-		"name": "Heart Stamp",
+		"name": "愛心印章",
 		"type": "psychic",
 		"power": 40,
 		"energy": 40,
@@ -12760,7 +12768,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "HEAT_WAVE",
-		"name": "Heat Wave",
+		"name": "熱風",
 		"type": "fire",
 		"power": 95,
 		"energy": 75,
@@ -12768,7 +12776,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "HEAVY_SLAM",
-		"name": "Heavy Slam",
+		"name": "重磅衝撞",
 		"type": "steel",
 		"power": 70,
 		"energy": 50,
@@ -12776,7 +12784,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "HEX",
-		"name": "Hex",
+		"name": "禍不單行",
 		"type": "ghost",
 		"power": 6,
 		"energy": 0,
@@ -12784,7 +12792,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_BUG",
-		"name": "Hidden Power (Bug)",
+		"name": "覺醒力量 蟲",
 		"type": "bug",
 		"power": 9,
 		"energy": 0,
@@ -12792,7 +12800,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_DARK",
-		"name": "Hidden Power (Dark)",
+		"name": "覺醒力量 惡",
 		"type": "dark",
 		"power": 9,
 		"energy": 0,
@@ -12800,7 +12808,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_DRAGON",
-		"name": "Hidden Power (Dragon)",
+		"name": "覺醒力量 龍",
 		"type": "dragon",
 		"power": 9,
 		"energy": 0,
@@ -12808,7 +12816,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_ELECTRIC",
-		"name": "Hidden Power (Electric)",
+		"name": "覺醒力量 電",
 		"type": "electric",
 		"power": 9,
 		"energy": 0,
@@ -12816,7 +12824,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_FIGHTING",
-		"name": "Hidden Power (Fighting)",
+		"name": "覺醒力量 格鬥",
 		"type": "fighting",
 		"power": 9,
 		"energy": 0,
@@ -12824,7 +12832,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_FIRE",
-		"name": "Hidden Power (Fire)",
+		"name": "覺醒力量 火",
 		"type": "fire",
 		"power": 9,
 		"energy": 0,
@@ -12832,7 +12840,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_FLYING",
-		"name": "Hidden Power (Flying)",
+		"name": "覺醒力量 飛行",
 		"type": "flying",
 		"power": 9,
 		"energy": 0,
@@ -12840,7 +12848,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_GHOST",
-		"name": "Hidden Power (Ghost)",
+		"name": "覺醒力量 幽靈",
 		"type": "ghost",
 		"power": 9,
 		"energy": 0,
@@ -12848,7 +12856,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_GRASS",
-		"name": "Hidden Power (Grass)",
+		"name": "覺醒力量 草",
 		"type": "grass",
 		"power": 9,
 		"energy": 0,
@@ -12856,7 +12864,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_GROUND",
-		"name": "Hidden Power (Ground)",
+		"name": "覺醒力量 地面",
 		"type": "ground",
 		"power": 9,
 		"energy": 0,
@@ -12864,7 +12872,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_ICE",
-		"name": "Hidden Power (Ice)",
+		"name": "覺醒力量 冰",
 		"type": "ice",
 		"power": 9,
 		"energy": 0,
@@ -12872,7 +12880,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_POISON",
-		"name": "Hidden Power (Poison)",
+		"name": "覺醒力量 毒",
 		"type": "poison",
 		"power": 9,
 		"energy": 0,
@@ -12880,7 +12888,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_PSYCHIC",
-		"name": "Hidden Power (Psychic)",
+		"name": "覺醒力量 超能力",
 		"type": "psychic",
 		"power": 9,
 		"energy": 0,
@@ -12888,7 +12896,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_ROCK",
-		"name": "Hidden Power (Rock)",
+		"name": "覺醒力量 岩石",
 		"type": "rock",
 		"power": 9,
 		"energy": 0,
@@ -12896,7 +12904,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_STEEL",
-		"name": "Hidden Power (Steel)",
+		"name": "覺醒力量 鋼",
 		"type": "steel",
 		"power": 9,
 		"energy": 0,
@@ -12904,7 +12912,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HIDDEN_POWER_WATER",
-		"name": "Hidden Power (Water)",
+		"name": "覺醒力量 水",
 		"type": "water",
 		"power": 9,
 		"energy": 0,
@@ -12912,7 +12920,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "HORN_ATTACK",
-		"name": "Horn Attack",
+		"name": "角撞",
 		"type": "normal",
 		"power": 40,
 		"energy": 35,
@@ -12920,7 +12928,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "HURRICANE",
-		"name": "Hurricane",
+		"name": "暴風",
 		"type": "flying",
 		"power": 110,
 		"energy": 65,
@@ -12928,7 +12936,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "HYDRO_CANNON",
-		"name": "Hydro Cannon",
+		"name": "加農水砲",
 		"type": "water",
 		"power": 90,
 		"energy": 40,
@@ -12936,7 +12944,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "HYDRO_PUMP",
-		"name": "Hydro Pump",
+		"name": "水炮",
 		"type": "water",
 		"power": 130,
 		"energy": 75,
@@ -12952,7 +12960,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "HYPER_BEAM",
-		"name": "Hyper Beam",
+		"name": "破壞光線",
 		"type": "normal",
 		"power": 150,
 		"energy": 80,
@@ -12960,7 +12968,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "HYPER_FANG",
-		"name": "Hyper Fang",
+		"name": "必殺門牙",
 		"type": "normal",
 		"power": 80,
 		"energy": 50,
@@ -12968,7 +12976,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "ICE_BEAM",
-		"name": "Ice Beam",
+		"name": "冰凍光束",
 		"type": "ice",
 		"power": 90,
 		"energy": 55,
@@ -12976,7 +12984,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "ICE_FANG",
-		"name": "Ice Fang",
+		"name": "冰凍牙",
 		"type": "ice",
 		"power": 8,
 		"energy": 0,
@@ -12984,7 +12992,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "ICE_PUNCH",
-		"name": "Ice Punch",
+		"name": "冰凍拳",
 		"type": "ice",
 		"power": 55,
 		"energy": 40,
@@ -12992,7 +13000,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "ICE_SHARD",
-		"name": "Ice Shard",
+		"name": "冰礫",
 		"type": "ice",
 		"power": 9,
 		"energy": 0,
@@ -13000,7 +13008,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "ICY_WIND",
-		"name": "Icy Wind",
+		"name": "冰凍之風",
 		"type": "ice",
 		"power": 60,
 		"energy": 45,
@@ -13008,7 +13016,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "INFESTATION",
-		"name": "Infestation",
+		"name": "死纏爛打",
 		"type": "bug",
 		"power": 6,
 		"energy": 0,
@@ -13016,7 +13024,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "IRON_HEAD",
-		"name": "Iron Head",
+		"name": "鐵頭",
 		"type": "steel",
 		"power": 70,
 		"energy": 50,
@@ -13024,7 +13032,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "IRON_TAIL",
-		"name": "Iron Tail",
+		"name": "鐵尾",
 		"type": "steel",
 		"power": 9,
 		"energy": 0,
@@ -13032,7 +13040,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "KARATE_CHOP",
-		"name": "Karate Chop",
+		"name": "空手劈",
 		"type": "fighting",
 		"power": 5,
 		"energy": 0,
@@ -13040,7 +13048,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "LAST_RESORT",
-		"name": "Last Resort",
+		"name": "珍藏",
 		"type": "normal",
 		"power": 90,
 		"energy": 55,
@@ -13048,7 +13056,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "LEAF_BLADE",
-		"name": "Leaf Blade",
+		"name": "葉刃",
 		"type": "grass",
 		"power": 70,
 		"energy": 35,
@@ -13056,7 +13064,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "LEAF_TORNADO",
-		"name": "Leaf Tornado",
+		"name": "青草攪拌器",
 		"type": "grass",
 		"power": 45,
 		"energy": 40,
@@ -13067,15 +13075,23 @@
 		"buffApplyChance": ".5"
 	}, {
 		"moveId": "LICK",
-		"name": "Lick",
+		"name": "舌舔",
 		"type": "ghost",
 		"power": 3,
 		"energy": 0,
 		"energyGain": 3,
 		"cooldown": 500
 	}, {
+		"moveId": "LOCK_ON",
+		"name": "鎖定",
+		"type": "normal",
+		"power": 1,
+		"energy": 0,
+		"energyGain": 5,
+		"cooldown": 500
+	}, {
 		"moveId": "LOW_KICK",
-		"name": "Low Kick",
+		"name": "踢倒",
 		"type": "fighting",
 		"power": 4,
 		"energy": 0,
@@ -13083,7 +13099,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "LOW_SWEEP",
-		"name": "Low Sweep",
+		"name": "下盤踢",
 		"type": "fighting",
 		"power": 40,
 		"energy": 40,
@@ -13091,7 +13107,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "MAGNET_BOMB",
-		"name": "Magnet Bomb",
+		"name": "磁鐵炸彈",
 		"type": "steel",
 		"power": 70,
 		"energy": 45,
@@ -13099,7 +13115,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "MEGA_DRAIN",
-		"name": "Mega Drain",
+		"name": "超級吸取",
 		"type": "grass",
 		"power": 25,
 		"energy": 55,
@@ -13107,7 +13123,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "MEGAHORN",
-		"name": "Megahorn",
+		"name": "超級角擊",
 		"type": "bug",
 		"power": 90,
 		"energy": 55,
@@ -13115,7 +13131,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "METAL_CLAW",
-		"name": "Metal Claw",
+		"name": "金屬爪",
 		"type": "steel",
 		"power": 5,
 		"energy": 0,
@@ -13123,7 +13139,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "METEOR_MASH",
-		"name": "Meteor Mash",
+		"name": "彗星拳",
 		"type": "steel",
 		"power": 100,
 		"energy": 50,
@@ -13131,7 +13147,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "MIRROR_COAT",
-		"name": "Mirror Coat",
+		"name": "鏡面反射",
 		"type": "psychic",
 		"power": 60,
 		"energy": 55,
@@ -13139,7 +13155,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "MOONBLAST",
-		"name": "Moonblast",
+		"name": "月亮之力",
 		"type": "fairy",
 		"power": 130,
 		"energy": 70,
@@ -13147,7 +13163,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "MUD_BOMB",
-		"name": "Mud Bomb",
+		"name": "泥巴炸彈",
 		"type": "ground",
 		"power": 55,
 		"energy": 40,
@@ -13155,7 +13171,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "MUDDY_WATER",
-		"name": "Muddy Water",
+		"name": "濁流",
 		"type": "water",
 		"power": 35,
 		"energy": 35,
@@ -13166,7 +13182,7 @@
 		"buffApplyChance": ".3"
 	}, {
 		"moveId": "MUD_SHOT",
-		"name": "Mud Shot",
+		"name": "泥巴射擊",
 		"type": "ground",
 		"power": 3,
 		"energy": 0,
@@ -13174,7 +13190,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "MUD_SLAP",
-		"name": "Mud Slap",
+		"name": "擲泥",
 		"type": "ground",
 		"power": 9,
 		"energy": 0,
@@ -13182,7 +13198,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "NIGHT_SHADE",
-		"name": "Night Shade",
+		"name": "黑夜魔影",
 		"type": "ghost",
 		"power": 60,
 		"energy": 55,
@@ -13190,7 +13206,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "NIGHT_SLASH",
-		"name": "Night Slash",
+		"name": "暗襲要害",
 		"type": "dark",
 		"power": 50,
 		"energy": 40,
@@ -13198,7 +13214,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "OMINOUS_WIND",
-		"name": "Ominous Wind",
+		"name": "奇異之風",
 		"type": "ghost",
 		"power": 50,
 		"energy": 40,
@@ -13209,7 +13225,7 @@
 		"buffApplyChance": ".1"
 	}, {
 		"moveId": "ORIGIN_PULSE",
-		"name": "Origin Pulse",
+		"name": "根源波動",
 		"type": "water",
 		"power": 130,
 		"energy": 60,
@@ -13217,7 +13233,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "OUTRAGE",
-		"name": "Outrage",
+		"name": "逆麟",
 		"type": "dragon",
 		"power": 110,
 		"energy": 60,
@@ -13225,7 +13241,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "OVERHEAT",
-		"name": "Overheat",
+		"name": "過熱",
 		"type": "fire",
 		"power": 150,
 		"energy": 80,
@@ -13233,7 +13249,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "PARABOLIC_CHARGE",
-		"name": "Parabolic Charge",
+		"name": "拋物面充電",
 		"type": "electric",
 		"power": 25,
 		"energy": 55,
@@ -13241,7 +13257,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "PECK",
-		"name": "Peck",
+		"name": "啄",
 		"type": "flying",
 		"power": 6,
 		"energy": 0,
@@ -13249,7 +13265,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "PETAL_BLIZZARD",
-		"name": "Petal Blizzard",
+		"name": "落英繽紛",
 		"type": "grass",
 		"power": 110,
 		"energy": 65,
@@ -13257,7 +13273,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "PLAY_ROUGH",
-		"name": "Play Rough",
+		"name": "嬉鬧",
 		"type": "fairy",
 		"power": 90,
 		"energy": 60,
@@ -13265,7 +13281,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "POISON_FANG",
-		"name": "Poison Fang",
+		"name": "劇毒牙",
 		"type": "poison",
 		"power": 40,
 		"energy": 35,
@@ -13273,7 +13289,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "POISON_JAB",
-		"name": "Poison Jab",
+		"name": "毒擊",
 		"type": "poison",
 		"power": 6,
 		"energy": 0,
@@ -13281,7 +13297,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "POISON_STING",
-		"name": "Poison Sting",
+		"name": "毒針",
 		"type": "poison",
 		"power": 3,
 		"energy": 0,
@@ -13289,7 +13305,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "POUND",
-		"name": "Pound",
+		"name": "拍擊",
 		"type": "normal",
 		"power": 5,
 		"energy": 0,
@@ -13297,7 +13313,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "POWDER_SNOW",
-		"name": "Powder Snow",
+		"name": "細雪",
 		"type": "ice",
 		"power": 4,
 		"energy": 0,
@@ -13305,7 +13321,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "POWER_GEM",
-		"name": "Power Gem",
+		"name": "力量寶石",
 		"type": "rock",
 		"power": 80,
 		"energy": 60,
@@ -13313,7 +13329,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "POWER_UP_PUNCH",
-		"name": "Power-Up Punch",
+		"name": "增強拳",
 		"type": "fighting",
 		"power": 20,
 		"energy": 35,
@@ -13324,7 +13340,7 @@
 		"buffApplyChance": "1"
 	}, {
 		"moveId": "POWER_WHIP",
-		"name": "Power Whip",
+		"name": "強力鞭打",
 		"type": "grass",
 		"power": 90,
 		"energy": 50,
@@ -13332,7 +13348,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "PRECIPICE_BLADES",
-		"name": "Precipice Blades",
+		"name": "斷崖之劍",
 		"type": "ground",
 		"power": 130,
 		"energy": 60,
@@ -13340,7 +13356,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "PRESENT",
-		"name": "Present",
+		"name": "禮物",
 		"type": "normal",
 		"power": 3,
 		"energy": 0,
@@ -13348,7 +13364,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "PSYBEAM",
-		"name": "Psybeam",
+		"name": "幻象光線",
 		"type": "psychic",
 		"power": 70,
 		"energy": 60,
@@ -13356,7 +13372,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "PSYCHIC",
-		"name": "Psychic",
+		"name": "精神強念",
 		"type": "psychic",
 		"power": 90,
 		"energy": 55,
@@ -13367,7 +13383,7 @@
 		"buffApplyChance": ".1"
 	}, {
 		"moveId": "PSYCHO_BOOST",
-		"name": "Psycho Boost",
+		"name": "精神突進",
 		"type": "psychic",
 		"power": 70,
 		"energy": 40,
@@ -13375,7 +13391,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "PSYCHO_CUT",
-		"name": "Psycho Cut",
+		"name": "精神利刃",
 		"type": "psychic",
 		"power": 3,
 		"energy": 0,
@@ -13383,7 +13399,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "PSYSHOCK",
-		"name": "Psyshock",
+		"name": "精神衝擊",
 		"type": "psychic",
 		"power": 70,
 		"energy": 45,
@@ -13391,7 +13407,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "PSYSTRIKE",
-		"name": "Psystrike",
+		"name": "精神擊破",
 		"type": "psychic",
 		"power": 90,
 		"energy": 45,
@@ -13399,7 +13415,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "QUICK_ATTACK",
-		"name": "Quick Attack",
+		"name": "電光一閃",
 		"type": "normal",
 		"power": 5,
 		"energy": 0,
@@ -13407,7 +13423,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "RAZOR_LEAF",
-		"name": "Razor Leaf",
+		"name": "飛葉快刀",
 		"type": "grass",
 		"power": 11,
 		"energy": 0,
@@ -13415,7 +13431,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "REST",
-		"name": "Rest",
+		"name": "睡覺",
 		"type": "normal",
 		"power": 50,
 		"energy": 35,
@@ -13423,7 +13439,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "RETURN",
-		"name": "Return",
+		"name": "報恩",
 		"type": "normal",
 		"power": 50,
 		"energy": 40,
@@ -13431,7 +13447,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "ROCK_BLAST",
-		"name": "Rock Blast",
+		"name": "岩石爆擊",
 		"type": "rock",
 		"power": 50,
 		"energy": 40,
@@ -13439,7 +13455,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "ROCK_SLIDE",
-		"name": "Rock Slide",
+		"name": "岩崩",
 		"type": "rock",
 		"power": 80,
 		"energy": 45,
@@ -13447,7 +13463,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "ROCK_SMASH",
-		"name": "Rock Smash",
+		"name": "碎岩",
 		"type": "fighting",
 		"power": 9,
 		"energy": 0,
@@ -13455,7 +13471,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "ROCK_THROW",
-		"name": "Rock Throw",
+		"name": "落石",
 		"type": "rock",
 		"power": 8,
 		"energy": 0,
@@ -13463,7 +13479,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "ROCK_TOMB",
-		"name": "Rock Tomb",
+		"name": "岩石封鎖",
 		"type": "rock",
 		"power": 70,
 		"energy": 60,
@@ -13471,7 +13487,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SAND_TOMB",
-		"name": "Sand Tomb",
+		"name": "流沙地獄",
 		"type": "ground",
 		"power": 80,
 		"energy": 60,
@@ -13479,7 +13495,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SCALD",
-		"name": "Scald",
+		"name": "熱水",
 		"type": "water",
 		"power": 80,
 		"energy": 60,
@@ -13495,7 +13511,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SCRATCH",
-		"name": "Scratch",
+		"name": "抓",
 		"type": "normal",
 		"power": 4,
 		"energy": 0,
@@ -13503,7 +13519,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SEED_BOMB",
-		"name": "Seed Bomb",
+		"name": "種子炸彈",
 		"type": "grass",
 		"power": 55,
 		"energy": 40,
@@ -13511,7 +13527,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SHADOW_BALL",
-		"name": "Shadow Ball",
+		"name": "暗影球",
 		"type": "ghost",
 		"power": 100,
 		"energy": 55,
@@ -13519,7 +13535,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SHADOW_CLAW",
-		"name": "Shadow Claw",
+		"name": "暗影爪",
 		"type": "ghost",
 		"power": 6,
 		"energy": 0,
@@ -13527,7 +13543,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "SHADOW_PUNCH",
-		"name": "Shadow Punch",
+		"name": "暗影拳",
 		"type": "ghost",
 		"power": 40,
 		"energy": 35,
@@ -13535,7 +13551,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SHADOW_SNEAK",
-		"name": "Shadow Sneak",
+		"name": "影子偷襲",
 		"type": "ghost",
 		"power": 50,
 		"energy": 45,
@@ -13543,7 +13559,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SIGNAL_BEAM",
-		"name": "Signal Beam",
+		"name": "信號光束",
 		"type": "bug",
 		"power": 75,
 		"energy": 55,
@@ -13551,7 +13567,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SILVER_WIND",
-		"name": "Silver Wind",
+		"name": "銀色旋風",
 		"type": "bug",
 		"power": 70,
 		"energy": 45,
@@ -13562,7 +13578,7 @@
 		"buffApplyChance": ".1"
 	}, {
 		"moveId": "SKULL_BASH",
-		"name": "Skull Bash",
+		"name": "火箭頭錘",
 		"type": "normal",
 		"power": 130,
 		"energy": 75,
@@ -13573,7 +13589,7 @@
 		"buffApplyChance": "1"
 	}, {
 		"moveId": "SKY_ATTACK",
-		"name": "Sky Attack",
+		"name": "神鳥猛擊",
 		"type": "flying",
 		"power": 80,
 		"energy": 45,
@@ -13581,7 +13597,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SLUDGE",
-		"name": "Sludge",
+		"name": "污泥攻擊",
 		"type": "poison",
 		"power": 50,
 		"energy": 40,
@@ -13589,7 +13605,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SLUDGE_BOMB",
-		"name": "Sludge Bomb",
+		"name": "污泥炸彈",
 		"type": "poison",
 		"power": 80,
 		"energy": 50,
@@ -13597,7 +13613,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SLUDGE_WAVE",
-		"name": "Sludge Wave",
+		"name": "污泥波",
 		"type": "poison",
 		"power": 110,
 		"energy": 65,
@@ -13605,7 +13621,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SMACK_DOWN",
-		"name": "Smack Down",
+		"name": "擊落",
 		"type": "rock",
 		"power": 12,
 		"energy": 0,
@@ -13613,7 +13629,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "SNARL",
-		"name": "Snarl",
+		"name": "大聲咆哮",
 		"type": "dark",
 		"power": 5,
 		"energy": 0,
@@ -13621,7 +13637,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "SOLAR_BEAM",
-		"name": "Solar Beam",
+		"name": "日光束",
 		"type": "grass",
 		"power": 150,
 		"energy": 80,
@@ -13629,7 +13645,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SPARK",
-		"name": "Spark",
+		"name": "電光",
 		"type": "electric",
 		"power": 4,
 		"energy": 0,
@@ -13637,7 +13653,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "SPLASH",
-		"name": "Splash",
+		"name": "躍起",
 		"type": "water",
 		"power": 0,
 		"energy": 0,
@@ -13645,7 +13661,7 @@
 		"cooldown": 2000
 	}, {
 		"moveId": "STEEL_WING",
-		"name": "Steel Wing",
+		"name": "鋼翼",
 		"type": "steel",
 		"power": 7,
 		"energy": 0,
@@ -13653,7 +13669,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "STOMP",
-		"name": "Stomp",
+		"name": "踩踏",
 		"type": "normal",
 		"power": 55,
 		"energy": 40,
@@ -13661,7 +13677,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "STONE_EDGE",
-		"name": "Stone Edge",
+		"name": "尖石攻擊",
 		"type": "rock",
 		"power": 100,
 		"energy": 55,
@@ -13669,7 +13685,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "STRUGGLE",
-		"name": "Struggle",
+		"name": "掙扎",
 		"type": "normal",
 		"power": 35,
 		"energy": 100,
@@ -13677,7 +13693,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "STRUGGLE_BUG",
-		"name": "Struggle Bug",
+		"name": "蟲之抵抗",
 		"type": "bug",
 		"power": 9,
 		"energy": 0,
@@ -13685,7 +13701,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "SUBMISSION",
-		"name": "Submission",
+		"name": "地獄翻滾",
 		"type": "fighting",
 		"power": 60,
 		"energy": 50,
@@ -13693,7 +13709,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SUCKER_PUNCH",
-		"name": "Sucker Punch",
+		"name": "突襲",
 		"type": "dark",
 		"power": 5,
 		"energy": 0,
@@ -13701,7 +13717,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "SURF",
-		"name": "Surf",
+		"name": "衝浪",
 		"type": "water",
 		"power": 65,
 		"energy": 40,
@@ -13709,7 +13725,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SWIFT",
-		"name": "Swift",
+		"name": "高速星星",
 		"type": "normal",
 		"power": 60,
 		"energy": 55,
@@ -13717,7 +13733,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "SYNCHRONOISE",
-		"name": "Synchronoise",
+		"name": "同步干擾",
 		"type": "psychic",
 		"power": 80,
 		"energy": 50,
@@ -13725,7 +13741,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "TACKLE",
-		"name": "Tackle",
+		"name": "撞擊",
 		"type": "normal",
 		"power": 3,
 		"energy": 0,
@@ -13733,7 +13749,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "TAKE_DOWN",
-		"name": "Take Down",
+		"name": "猛撞",
 		"type": "normal",
 		"power": 5,
 		"energy": 0,
@@ -13741,7 +13757,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "THUNDER",
-		"name": "Thunder",
+		"name": "打雷",
 		"type": "electric",
 		"power": 100,
 		"energy": 60,
@@ -13749,7 +13765,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "THUNDER_FANG",
-		"name": "Thunder Fang",
+		"name": "雷電牙",
 		"type": "electric",
 		"power": 8,
 		"energy": 0,
@@ -13757,7 +13773,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "THUNDER_PUNCH",
-		"name": "Thunder Punch",
+		"name": "雷電拳",
 		"type": "electric",
 		"power": 55,
 		"energy": 40,
@@ -13765,7 +13781,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "THUNDER_SHOCK",
-		"name": "Thunder Shock",
+		"name": "電擊",
 		"type": "electric",
 		"power": 3,
 		"energy": 0,
@@ -13773,7 +13789,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "THUNDERBOLT",
-		"name": "Thunderbolt",
+		"name": "十萬伏特",
 		"type": "electric",
 		"power": 90,
 		"energy": 55,
@@ -13781,7 +13797,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "TRANSFORM",
-		"name": "Transform",
+		"name": "變身",
 		"type": "normal",
 		"power": 0,
 		"energy": 0,
@@ -13789,7 +13805,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "TWISTER",
-		"name": "Twister",
+		"name": "龍捲風",
 		"type": "dragon",
 		"power": 45,
 		"energy": 45,
@@ -13797,7 +13813,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "VICE_GRIP",
-		"name": "Vice Grip",
+		"name": "夾住",
 		"type": "normal",
 		"power": 40,
 		"energy": 40,
@@ -13805,7 +13821,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "VINE_WHIP",
-		"name": "Vine Whip",
+		"name": "藤鞭",
 		"type": "grass",
 		"power": 5,
 		"energy": 0,
@@ -13813,7 +13829,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "VOLT_SWITCH",
-		"name": "Volt Switch",
+		"name": "伏特替換",
 		"type": "electric",
 		"power": 12,
 		"energy": 0,
@@ -13821,7 +13837,7 @@
 		"cooldown": 2500
 	}, {
 		"moveId": "WATER_GUN",
-		"name": "Water Gun",
+		"name": "水槍",
 		"type": "water",
 		"power": 3,
 		"energy": 0,
@@ -13837,7 +13853,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "WATER_PULSE",
-		"name": "Water Pulse",
+		"name": "水之波動",
 		"type": "water",
 		"power": 70,
 		"energy": 60,
@@ -13845,7 +13861,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "WATERFALL",
-		"name": "Waterfall",
+		"name": "攀瀑",
 		"type": "water",
 		"power": 12,
 		"energy": 0,
@@ -13853,7 +13869,7 @@
 		"cooldown": 1500
 	}, {
 		"moveId": "WEATHER_BALL_FIRE",
-		"name": "Weather Ball (Fire)",
+		"name": "氣象球 火",
 		"type": "fire",
 		"power": 60,
 		"energy": 35,
@@ -13861,7 +13877,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "WEATHER_BALL_ICE",
-		"name": "Weather Ball (Ice)",
+		"name": "氣象球 冰",
 		"type": "ice",
 		"power": 60,
 		"energy": 35,
@@ -13869,7 +13885,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "WEATHER_BALL_ROCK",
-		"name": "Weather Ball (Normal)",
+		"name": "氣象球 一般",
 		"type": "normal",
 		"power": 60,
 		"energy": 35,
@@ -13877,7 +13893,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "WEATHER_BALL_WATER",
-		"name": "Weather Ball (Water)",
+		"name": "氣象球 水",
 		"type": "water",
 		"power": 60,
 		"energy": 35,
@@ -13885,7 +13901,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "WILD_CHARGE",
-		"name": "Wild Charge",
+		"name": "瘋狂伏特",
 		"type": "electric",
 		"power": 90,
 		"energy": 50,
@@ -13893,7 +13909,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "WING_ATTACK",
-		"name": "Wing Attack",
+		"name": "翅膀攻擊",
 		"type": "flying",
 		"power": 5,
 		"energy": 0,
@@ -13901,7 +13917,7 @@
 		"cooldown": 1000
 	}, {
 		"moveId": "WRAP",
-		"name": "Wrap",
+		"name": "緊束",
 		"type": "normal",
 		"power": 60,
 		"energy": 45,
@@ -13925,7 +13941,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "X_SCISSOR",
-		"name": "X-Scissor",
+		"name": "十字剪",
 		"type": "bug",
 		"power": 45,
 		"energy": 35,
@@ -13933,7 +13949,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "YAWN",
-		"name": "Yawn",
+		"name": "哈欠",
 		"type": "normal",
 		"power": 0,
 		"energy": 0,
@@ -13941,7 +13957,7 @@
 		"cooldown": 2000
 	}, {
 		"moveId": "ZAP_CANNON",
-		"name": "Zap Cannon",
+		"name": "電磁炮",
 		"type": "electric",
 		"power": 150,
 		"energy": 80,
@@ -13949,7 +13965,7 @@
 		"cooldown": 500
 	}, {
 		"moveId": "ZEN_HEADBUTT",
-		"name": "Zen Headbutt",
+		"name": "意念頭錘",
 		"type": "psychic",
 		"power": 8,
 		"energy": 0,

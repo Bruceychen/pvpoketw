@@ -15,6 +15,7 @@ var InterfaceMaster = (function () {
 			var jumpToPoke = false;
 			var limitedPokemon = [];
 			var context = "rankings";
+			var battle = new Battle();
 
 			this.init = function(){
 				if(! get){
@@ -53,6 +54,8 @@ var InterfaceMaster = (function () {
 
 					$(".league-select option[value=\"1500\"]").prop("selected","selected");
 				}
+
+				battle.setCP(league);
 
 				/* This timeout allows the interface to display the loading message before
 				being thrown into the data loading loop */
@@ -104,8 +107,6 @@ var InterfaceMaster = (function () {
 
 					limitedPokemon = ["azumarill","deoxys_defense","medicham","wormadam_trash","forretress","sableye"];
 				}
-
-				var battle = new Battle();
 
 				$(".section.white > .rankings-container").html('');
 
@@ -385,7 +386,7 @@ var InterfaceMaster = (function () {
 				}
 
 				var r = data[index];
-				var pokemon = new Pokemon(r.speciesId);
+				var pokemon = new Pokemon(r.speciesId, 0, battle);
 
 				// If overall, display score for each category
 
@@ -438,6 +439,7 @@ var InterfaceMaster = (function () {
 				// Buckle up, this is gonna get messy. This is the main detail HTML.
 				// 以下這行介面翻譯
 				$details.append("<div class=\"detail-section float margin\"><div class=\"ranking-header\">一般招式</div><div class=\"ranking-header right\">使用頻率</div><div class=\"moveset fast clear\"></div></div><div class=\"detail-section float\"><div class=\"ranking-header\">特殊招式</div><div class=\"ranking-header right\">使用頻率</div><div class=\"moveset charged clear\"></div></div><div class=\"detail-section float margin\">  <div class=\"ranking-header\">最佳剋制對象</div><div class=\"ranking-header right\">模擬戰鬥得分</div><div class=\"matchups clear\"></div></div><div class=\"detail-section float\"><div class=\"ranking-header\">首要威脅來源</div><div class=\"ranking-header right\">模擬戰鬥得分</div><div class=\"counters clear\"></div></div><div class=\"clear\"></div><div class=\"share-link detail-section\"><input type=\"text\" readonly><div class=\"copy\">複製網址</div></div></div>");
+
 				// Need to calculate percentages
 
 				var totalFastUses = 0;
@@ -503,7 +505,7 @@ var InterfaceMaster = (function () {
 
 				for(var n = 0; n < r.matchups.length; n++){
 					var m = r.matchups[n];
-					var opponent = new Pokemon(m.opponent);
+					var opponent = new Pokemon(m.opponent, 1, battle);
 					var battleLink = host+"battle/"+cp+"/"+pokemon.speciesId+"/"+opponent.speciesId+"/"+shieldStrs[category]+"/"+r.moveStr+"/";
 
 					// Append opponent's move string
@@ -525,7 +527,7 @@ var InterfaceMaster = (function () {
 
 				for(var n = 0; n < r.counters.length; n++){
 					var c = r.counters[n];
-					var opponent = new Pokemon(c.opponent);
+					var opponent = new Pokemon(c.opponent, 1, battle);
 					var battleLink = host+"battle/"+cp+"/"+pokemon.speciesId+"/"+opponent.speciesId+"/"+shieldStrs[category]+"/"+r.moveStr+"/";
 
 					// Append opponent's move string

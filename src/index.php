@@ -27,6 +27,14 @@
 	<!--Update section for updates-->
 	<h3>更新紀錄</h3>
 
+	<h4>v1.12.6 (November 26th, 2019)</h4>
+    <ul>
+        <li>Adjusted Shadow Pokemon behind the scenes</li>
+        <ul>
+            <li>Shadow Pokemon will only have Return in their movepool when they are an eligible CP at level 25</li>
+        </ul>
+    </ul>
+
 	<h4>v1.12.5 (October 25th, 2019)</h4>
 	<ul>
 		<li>Pokemon search in the rankings and Multi-Battle results have been adjusted to be closer to in-game search terms:</li>
@@ -69,8 +77,8 @@
 <br>
 <h3>更新時間<h3>
 <ul>
-	<li>中文版最後更新時間：Tue Nov 5 13:41:28 2019 +0800</li>
-	<li>原版最後版本時間：Mon Nov 4 14:23:10 2019 -0600</li>
+	<li>中文版最後更新時間：Thu Nov 7 15:40:31 2019 +0800</li>
+	<li>原版最後版本時間：Wed Nov 6 21:17:11 2019 -0600</li>
 
 </ul>
 </div>

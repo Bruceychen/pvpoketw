@@ -115,6 +115,7 @@ require_once 'header.php'; ?>
 	</div>
 
 	<button class="simulate button">模擬排名開始</button>
+    <button class="button twPlagueCup">瘟疫盃快速模擬排名</button>
 	<button class="button twRainbowCup">發財盃快速模擬排名</button>
 
 	<div class="output"></div>
@@ -170,40 +171,42 @@ require_once 'header.php'; ?>
 </div>
 
 <div class="sandbox-search-strings hide">
-	<p>You can use the following search formats to filter Pokemon:</p>
-	<table>
-		<tr>
-			<td><strong>Pokemon Name</strong></td>
-			<td>"azumarill"</td>
-		</tr>
-		<tr>
-			<td><strong>Pokemon Type</strong></td>
-			<td>"water"</td>
-		</tr>
-		<tr>
-			<td><strong>Move Name</strong></td>
-			<td>"@counter"</td>
-		</tr>
-		<tr>
-			<td><strong>Move Type</strong></td>
-			<td>"@fighting"</td>
-		</tr>
-		<tr>
-			<td><strong>And</strong></td>
-			<td>"water&amp;@fighting"</td>
-		</tr>
-		<tr>
-			<td><strong>Or</strong></td>
-			<td>"water,fighting"</td>
-		</tr>
-		<tr>
-			<td><strong>Not</strong></td>
-			<td>"!water"</td>
-		</tr>
-	</table>
+    <p>使用以下格式可以用來過濾尋找特定條件寶可夢(均不含雙引號 " ")：</p>
+    <table>
+        <tr>
+            <td><strong>中文名稱 如：</strong></td>
+            <td>"瑪力露麗"</td>
+        </tr>
+        <tr>
+            <td><strong>英文屬性 如：</strong></td>
+            <td>"water"</td>
+        </tr>
+        <tr>
+            <td><strong>中文招式名稱 如：</strong></td>
+            <td>"@雙倍奉還"</td>
+        </tr>
+        <tr>
+            <td><strong>英文招式屬性 如：</strong></td>
+            <td>"@fighting"</td>
+        </tr>
+        <tr>
+            <td><strong>And(且)符號 如：</strong></td>
+            <td>"water&amp;@fighting"</td>
+        </tr>
+        <tr>
+            <td><strong>Or(或)符號 如：</strong></td>
+            <td>"water,fighting"</td>
+        </tr>
+        <tr>
+            <td><strong>Not(非)符號 如：</strong></td>
+            <td>"!water"</td>
+        </tr>
+    </table>
 </div>
 
+
 <script src="<?php echo $WEB_ROOT; ?>js/twRainbowCup.js"></script>
+<script src="<?php echo $WEB_ROOT; ?>js/twPlagueCup.js"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/pokemon/Pokemon.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/battle/TimelineEvent.js?v=<?php echo $SITE_VERSION; ?>"></script>

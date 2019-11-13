@@ -26,14 +26,18 @@ require_once 'header.php';
 	<select class="mode-select">
 		<option value="single">單場戰鬥</option>
 		<option value="multi">多重戰鬥</option>
+        <option value="matrix">隊伍戰鬥</option>
 	</select>
 	<p class="description single">挑選任意兩隻寶可夢，並指定聯盟、招式、等級、IV以及防禦網使用策略，來進行一場模擬戰鬥。</p>
 	<p class="description multi hide">挑選一隻寶可夢來迎戰指定聯盟或主題賽下的所有其他寶可夢，以獲得其戰鬥能力數值和表現。</p>
+    <p class="description matrix hide">以兩組寶可夢隊伍，交叉比對逐一進行模擬對戰計算，以比對出各寶可夢的對戰優劣勢、招式選擇以及最佳IV組合！</p>
+    <p class="description matrix hide"><i>小提醒：西爾佛聯盟的任何比賽中，現場去模擬計算對手的寶可夢是不被允許的！請記得及早準備並且按規定參賽！</i></p>
 </div>
 
 <div class="section poke-select-container single">
 	<?php require 'modules/pokeselect.php'; ?>
 	<?php require 'modules/pokeselect.php'; ?>
+    <?php require 'modules/pokemultiselect.php'; ?>
 	<?php require 'modules/pokemultiselect.php'; ?>
 	<div class="clear"></div>
 </div>
@@ -311,6 +315,18 @@ require_once 'header.php';
 			</div>
 		</div>
 	</div>
+
+    <div class="section white battle-results matrix article">
+        <a class="toggle active" href="#">Matchups <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+
+        <div class="toggle-content">
+            <div class="table-container">
+                <table class="matrix-table rating-table" cellspacing="0">
+                </table>
+            </div>
+            <a href="#" class="button download-csv">匯出CSV檔</a>
+        </div>
+    </div>
 </div>
 
 <!--Sandbox forms-->

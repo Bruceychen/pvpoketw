@@ -16,13 +16,33 @@ function PokeMultiSelect(element){
 	var selectedIndex = -1;
 	var pokeSelector;
 
-	var maxPokemonCount = 50;
+	var maxPokemonCount = 100;
 	var selectedGroup = "";
+	var selectedGroupType = "";
+
+	var settings = {
+		shields: 1,
+		ivs: "original",
+		bait: true
+	}
 
 	this.init = function(pokes, b){
 		pokemon = pokes;
 		battle = b;
 		interface = InterfaceMaster.getInstance();
+
+		// Load groups from local storage
+		var i = 0;
+
+		while(window.localStorage.key(i) !== null){
+			var key = window.localStorage.key(i);
+
+			if(key.indexOf("google") == -1){
+				$el.find(".quick-fill-select").append("<option value=\""+key+"\" type=\"custom\">"+key+"</option>");
+			}
+
+			i++;
+		}
 	}
 
 	// Open Pokemon select modal window to add or edit a Pokemon
@@ -31,7 +51,7 @@ function PokeMultiSelect(element){
 
 		selectedIndex = index;
 
-		modalWindow("Select Pokemon", $(".poke").first());
+		modalWindow("Select Pokemon", $(".poke.single").first());
 
 		pokeSelector = new PokeSelect($(".modal .poke"), 1);
 		pokeSelector.setContext("modal");
@@ -41,7 +61,7 @@ function PokeMultiSelect(element){
 			// New Pokemon
 
 			pokeSelector.clear();
-
+			//以下這行介面翻譯
 			$(".modal-content").append("<div class=\"center\"><div class=\"save-poke button\">加入寶可夢</div></div>");
 
 
@@ -51,7 +71,7 @@ function PokeMultiSelect(element){
 			// Edit existing Pokemon
 
 			pokeSelector.setSelectedPokemon(pokemonList[index]);
-
+			//以下這行介面翻譯
 			$(".modal-content").append("<div class=\"center\"><div class=\"save-poke button\">儲存變更</div></div>");
 		}
 
@@ -313,42 +333,27 @@ function PokeMultiSelect(element){
 
 	// Given a name, save current list to a cookie
 
-	this.saveListToCookie = function(name, isNew){
+	this.saveCustomList = function(name, isNew){
 		var csv = self.convertListToCSV();
 
 		if(name == ''){
 			return;
 		}
 
-		$.ajax({
+		window.localStorage.setItem(name, csv);
 
-			url : host+'data/groupCookie.php',
-			type : 'POST',
-			data : {
-				'name' : name,
-				'data' : csv
-			},
-			dataType:'json',
-			success : function(data) {
-				if(! isNew){
-					modalWindow("Custom Group Saved", $("<p><b>"+name+"</b> 資料已更新。</p>"))
-				} else{
-					// Add new group to all dropdowns
+		if(! isNew){
+			modalWindow("Custom Group Saved", $("<p><b>"+name+"</b> has been updated.</p>"))
+		} else{
+			// Add new group to all dropdowns
 
-					$(".quick-fill-select").append($("<option value=\"custom\" data=\""+csv+"\">"+name+"</option>"));
-					$el.find(".quick-fill-select option").last().prop("selected", "selected");
+			$(".quick-fill-select").append($("<option value=\""+name+"\" type=\"custom\">"+name+"</option>"));
+			$el.find(".quick-fill-select option").last().prop("selected", "selected");
 
-					$el.find(".save-as").hide();
-					$el.find(".save-custom").show();
-					$el.find(".delete-btn").show();
-				}
-			},
-			error : function(request,error)
-			{
-				console.log("Request: "+JSON.stringify(request));
-				console.log(error);
-			}
-		});
+			$el.find(".save-as").hide();
+			$el.find(".save-custom").show();
+			$el.find(".delete-btn").show();
+		}
 	}
 
 	// Set the maximum number of selectable pokemon
@@ -420,10 +425,11 @@ function PokeMultiSelect(element){
 
 	$el.find(".quick-fill-select").change(function(e){
 		var val = $(this).find("option:selected").val();
+		var type = $(this).find("option:selected").attr("type");
 
 		// Load a preset group from data files
 
-		if((val.indexOf("custom") == -1)&&(val != "new")){
+		if((type != "custom")&&(val != "new")){
 			gm.loadGroupData(self, val);
 
 			// Show the save as button
@@ -449,8 +455,9 @@ function PokeMultiSelect(element){
 
 		// Populate from a custom group
 
-		if(val.indexOf("custom") > -1){
-			self.quickFillCSV($(this).find("option:selected").attr("data"));
+		if(type == "custom"){
+			var data = window.localStorage.getItem(val);
+			self.quickFillCSV(data);
 
 			// Show the save and delete buttons
 
@@ -460,6 +467,7 @@ function PokeMultiSelect(element){
 		}
 
 		selectedGroup = val;
+		selectedGroupType = type;
 
 	});
 
@@ -503,13 +511,13 @@ function PokeMultiSelect(element){
 
 	$el.find(".save-btn").click(function(e){
 
-		if(selectedGroup.indexOf("custom") == -1){
+		var selectedGroupType = $(".quick-fill-select option[value='"+selectedGroup+"']").attr("type");
+
+		if(selectedGroupType != "custom"){
 			// Prompt to save a new group if a custom one isn't selected
 			modalWindow("Save Group", $(".save-list").eq(0));
 		} else{
-			var name = $el.find(".quick-fill-select option:selected").html();
-
-			self.saveListToCookie(name, false);
+			self.saveCustomList(selectedGroup, false);
 		}
 
 	});
@@ -518,7 +526,7 @@ function PokeMultiSelect(element){
 
 	$("body").on("click", ".modal .button.save", function(e){
 
-		self.saveListToCookie($(".modal input.list-name").val(), true);
+		self.saveCustomList($(".modal input.list-name").val(), true);
 
 		closeModalWindow();
 	});
@@ -537,49 +545,48 @@ function PokeMultiSelect(element){
 
 	$("body").on("click", ".modal .delete-list-confirm .button.yes", function(e){
 
-		var name = $el.find(".quick-fill-select option:selected").html();
-		var csv = self.convertListToCSV();
+		window.localStorage.removeItem(selectedGroup);
 
-		$.ajax({
+		closeModalWindow();
 
-			url : host+'data/groupCookie.php',
-			type : 'POST',
-			data : {
-				'name' : name,
-				'data' : csv,
-				'delete' : 1
-			},
-			dataType:'json',
-			success : function(data) {
-				closeModalWindow();
+		// Remove option from quick fill selects
 
-				// Remove option from quick fill selects
-
-				$(".quick-fill-select option[value='"+selectedGroup+"']").remove();
-				$el.find(".quick-fill-select option").first().prop("selected", "selected");
-				$el.find(".quick-fill-select").trigger("change");
-			},
-			error : function(request,error)
-			{
-				console.log("Request: "+JSON.stringify(request));
-				console.log(error);
-			}
-		});
+		$(".quick-fill-select option[value='"+selectedGroup+"']").remove();
+		$el.find(".quick-fill-select option").first().prop("selected", "selected");
+		$el.find(".quick-fill-select").trigger("change");
 	});
-	
+
+	// Change shield settings
+
+	$el.find(".shield-select").on("change", function(e){
+		settings.shields = parseInt($el.find(".shield-select option:selected").val());
+	});
+
+	// Change IV settings
+
+	$el.find(".default-iv-select").on("change", function(e){
+		settings.ivs = $el.find(".default-iv-select option:selected").val();
+	});
+
+	// Change bait toggle
+
+	$el.find(".check.shield-baiting").on("click", function(e){
+		settings.bait = (! settings.bait == true);
+	});
+
 	// Event handler for changing the format select
 
 	$el.find(".format-select").on("change",function(e){
 		self.changeFormatSelect();
 	});
-	
+
 	this.changeFormatSelect = function(){
 		var format = $(".format-select option:selected").val();
 		var cup = $(".format-select option:selected").attr("cup");
 
 		$(".cup-select option").hide();
 		$(".cup-select option[cat=\""+format+"\"]").show();
-		
+
 		if(cup){
 			$(".cup-select option[value=\""+cup+"\"]").prop("selected", true);
 		} else{
@@ -595,6 +602,10 @@ function PokeMultiSelect(element){
 		}
 	}
 
+	this.setBaitSetting = function(val){
+		settings.bait = val;
+	}
+
 	// Return the list of selected Pokemon
 
 	this.getPokemonList = function(){
@@ -605,6 +616,18 @@ function PokeMultiSelect(element){
 
 	this.getSelectedGroup = function(){
 		return selectedGroup;
+	}
+
+	// Return the type of the selected group
+
+	this.getSelectedGroupType = function(){
+		return selectedGroupType;
+	}
+
+	// Return the current option setings
+
+	this.getSettings = function(){
+		return settings;
 	}
 
 	// Force a group selection

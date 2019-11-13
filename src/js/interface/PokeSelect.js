@@ -25,7 +25,9 @@ function PokeSelect(element, i){
 	this.init = function(pokes, b){
 		pokemon = pokes;
 		battle = b;
+
 		$.each(pokemon, function(n, poke){
+
 			if(poke.fastMoves.length > 0){
 				pokeMonlistDex.push(poke);
 				pokeMonlistName.push(poke);
@@ -33,12 +35,11 @@ function PokeSelect(element, i){
 		});
 			//sorting by dex no.
 			pokeMonlistDex.sort((a, b) => (a.dex > b.dex) ? 1 : -1);
+
 			//use name sort as default
 			pokeMonlistName.forEach(function(poke, index) {
 			$pokeSelect.append("<option value=\""+poke.speciesId+"\" type-1=\""+poke.types[0]+"\" type-2=\""+poke.types[1]+"\">"+poke.speciesName+"</option");
 		});
-
-
 
 		interface = InterfaceMaster.getInstance();
 
@@ -381,6 +382,7 @@ function PokeSelect(element, i){
 			selectedPokemon.initialize(battle.getCP(), settings.defaultIVs);
 		}
 
+		selectedPokemon.selectRecommendedMoveset();
 
 		if($(".team-build").length == 0){
 			battle.setNewPokemon(selectedPokemon, index);
@@ -520,6 +522,8 @@ function PokeSelect(element, i){
 			selectedPokemon = new Pokemon(id, index, battle);
 			selectedPokemon.initialize(battle.getCP(), settings.defaultIVs);
 
+			selectedPokemon.selectRecommendedMoveset();
+
 			if($(".team-build").length == 0){
 				battle.setNewPokemon(selectedPokemon, index);
 			}
@@ -634,10 +638,10 @@ function PokeSelect(element, i){
 
         self.update();
 
-		$("input.level").eq(index).val(selectedPokemon.level);
-		$("input.iv[iv='atk']").eq(index).val(selectedPokemon.ivs.atk);
-		$("input.iv[iv='def']").eq(index).val(selectedPokemon.ivs.def);
-		$("input.iv[iv='hp']").eq(index).val(selectedPokemon.ivs.hp);
+		$el.find("input.level").val(selectedPokemon.level);
+		$el.find("input.iv[iv='atk']").val(selectedPokemon.ivs.atk);
+		$el.find("input.iv[iv='def']").val(selectedPokemon.ivs.def);
+		$el.find("input.iv[iv='hp']").val(selectedPokemon.ivs.hp);
 
 		if(interface.resetSelectedPokemon){
 			interface.resetSelectedPokemon();
@@ -659,10 +663,10 @@ function PokeSelect(element, i){
 
         self.update();
 
-		$("input.level").eq(index).val(selectedPokemon.level);
-		$("input.iv[iv='atk']").eq(index).val(selectedPokemon.ivs.atk);
-		$("input.iv[iv='def']").eq(index).val(selectedPokemon.ivs.def);
-		$("input.iv[iv='hp']").eq(index).val(selectedPokemon.ivs.hp);
+		$el.find("input.level").val(selectedPokemon.level);
+		$el.find("input.iv[iv='atk']").val(selectedPokemon.ivs.atk);
+		$el.find("input.iv[iv='def']").val(selectedPokemon.ivs.def);
+		$el.find("input.iv[iv='hp']").val(selectedPokemon.ivs.hp);
 
 		if(interface.resetSelectedPokemon){
 			interface.resetSelectedPokemon();
@@ -710,8 +714,6 @@ function PokeSelect(element, i){
 		if(interface.resetSelectedPokemon){
 			interface.resetSelectedPokemon();
 		}
-
-		console.log(selectedPokemon);
 	});
 
 	// Change stat modifier input

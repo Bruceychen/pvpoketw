@@ -2,23 +2,8 @@
 
 	<?php require_once 'cupselect.php'; ?>
 	<div class="poke-stats">
-		<div class="options">
-			<h3 class="section-title">其他選項</h3>
-			<select class="shield-select">
-				<option value="0">不使用防禦網</option>
-				<option value="1" selected>使用1次防禦網</option>
-				<option value="2">使用2次防禦網</option>
-			</select>
-			<select class="charged-count-select">
-				<option value="0">不使用特殊招式</option>
-				<option value="1">僅1個特殊招式</option>
-				<option value="2" selected>2個特殊招式</option>
-			</select>
-			<div class="check shield-baiting on"><span></span>用低能量需求招式引誘對手使用防禦網</div>
-		</div>
-
 		<div class="custom-options">
-			<h3 class="section-title">寶可夢 (<span class="poke-count">0</span> / <span class="poke-max-count">50</span>)</h3>
+			<h3 class="section-title">寶可夢 (<span class="poke-count">0</span> / <span class="poke-max-count">100</span>)</h3>
 			<p>選擇寶可夢組成隊伍，或選擇已儲存之隊伍。</p>
 			<div class="rankings-container clear"></div>
 			<button class="add-poke-btn button">+ 選擇寶可夢</button>
@@ -28,24 +13,11 @@
 			<h3 class="section-title">快速選擇</h3>
 			<select class="quick-fill-select">
 				<option value="new">建立新隊伍</option>
-				<option value="great" class="multi-battle">超級(1500)聯盟 Meta</option>
-				<option value="ultra" class="hide multi-battle">高級(2500)聯盟 Meta</option>
-				<option value="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
-				<option value="ferocious" class="multi-battle">Ferocious Cup Meta</option>
-				<option value="sinister" class="multi-battle">Sinister Cup Meta</option>
-
-				<?php
-				// Display custom groups
-
-				foreach($_COOKIE as $key=>$value){
-					if(strpos($key, 'custom_group') !== false){
-						$data = json_decode($value, true);
-
-						echo '<option value="'.$key.'" data="'.$data["data"].'">'.htmlspecialchars($data['name']).'</option>';
-					}
-				}
-
-				?>
+				<option value="great" type="great" class="multi-battle">超級(1500)聯盟 Meta</option>
+				<option value="ultra" type="ultra" class="hide multi-battle">高級(2500)聯盟 Meta</option>
+				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
+				<option value="ferocious" type="ferocious" class="multi-battle">猛獸盃 Meta</option>
+				<option value="sinister" type="sinister" class="multi-battle">魅靈盃 Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>
@@ -53,6 +25,28 @@
 				<button class="delete-btn hide">刪除</button>
 			</div>
 		</div>
+
+		<div class="options">
+			<h3 class="section-title">其他選項</h3>
+			<select class="shield-select">
+				<option value="0">不使用防禦網</option>
+                <option value="1" selected>使用1次防禦網</option>
+                <option value="2">使用2次防禦網</option>
+            </select>
+            <select class="charged-count-select">
+                <option value="0">不使用特殊招式</option>
+                <option value="1">僅1個特殊招式</option>
+                <option value="2" selected="">2個特殊招式</option>
+            </select>
+            <select class="default-iv-select">
+                <option value="original">使用標準IV</option>
+                <option value="gamemaster">使用精良IV(排名500內)</option>
+                <option value="overall">使用最佳IV(排名第1)</option>
+                <option value="atk">使用攻擊最大化IV</option>
+                <option value="def">使用防禦最大化IV</option>
+            </select>
+            <div class="check shield-baiting on"><span></span>用低能量需求招式引誘對手使用防禦網</div>
+        </div>
 	</div>
 </div>
 

@@ -6,9 +6,13 @@
 	<option value="tsa-1">西爾佛第一季主題</option>
 	<option value="tsa-2">西爾佛第二季主題</option>
 	<option value="community">Community Formats</option>
-	<option value="tw-cups">台灣本地賽事</option>
+
+    <?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
+        <option value="custom" cup="custom">瘟疫盃</option>
+    <?php endif; ?>
+
 	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
-		<option value="custom">發財盃_新</option>
+		<option value="custom" cup="custom">發財盃_新</option>
 	<?php endif; ?>
 
 	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
@@ -34,6 +38,5 @@
 	<option value="ferocious" cat="tsa-2">猛獸盃</option>
 	<option value="sinister" cat="tsa-2">魅靈盃</option>
 	<option value="custom" cat="custom">自訂排名</option>
-	<option value="rainbowtw" cat="tw-cups">發財盃_舊</option>
-    <option value="plaguetw" cat="tw-cups">瘟疫盃</option>
+
 </select>

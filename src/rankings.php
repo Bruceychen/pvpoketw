@@ -82,6 +82,10 @@ switch($cup){
 		$league = 'Ferocious Cup';
 		break;
 
+    case "timeless":
+        $league = 'Timeless Cup';
+        break;
+
 	case "rainbowtw":
         $league = 'Rainbow Cup Taiwan';
 		break;
@@ -149,7 +153,7 @@ require_once 'header.php';
 
 <div class="section about white">
 
-	<a class="toggle" href="#">關於排行 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+	<a class="toggle" href="#">About Rankings <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content">
 		<p>How do you know which Pokemon are the best for Trainer Battles? That question has countless answers, and below we'll go over how we arrived at ours, and how you can make the most of the rankings here.</p>
 		<p>在訓練家對戰中，要如何知道哪隻寶可夢能有較好的表現？這個問題其實有無數的答案，以下將說明我們的看法，以及您又能從這些排名中得到什麼訊息。</p>

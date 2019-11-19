@@ -1,8 +1,8 @@
 <select class="format-select">
 	<option value="all" cup="all">無屬性大亂鬥</option>
 	<option value="all" cup="gen-5">無屬性大亂鬥 (含第五世代寶可夢)</option>
-    <option value="tsa-2" cup="timeless">Timeless Cup</option>
-	<option value="tsa-2" cup="ferocious">猛獸盃</option>
+    <option value="tsa-2" cup="timeless">永伴盃-201912</option>
+	<option value="tsa-2" cup="ferocious">猛獸盃-201911</option>
 	<option value="tsa-1">西爾佛第一季主題</option>
 	<option value="tsa-2">西爾佛第二季主題</option>
 	<option value="community">Community Formats</option>
@@ -35,9 +35,9 @@
 	<option value="tempest" cat="tsa-1">風暴盃</option>
 	<option value="twilight" cat="tsa-1">暮光盃</option>
 	<option value="boulder" cat="tsa-1">巨石盃</option>
-    <option value="timeless" cat="tsa-2">Timeless Cup</option>
-	<option value="ferocious" cat="tsa-2">猛獸盃</option>
-	<option value="sinister" cat="tsa-2">魅靈盃</option>
+    <option value="timeless" cat="tsa-2">永伴盃-201912</option>
+	<option value="ferocious" cat="tsa-2">猛獸盃-201911</option>
+	<option value="sinister" cat="tsa-2">魅靈盃-201910</option>
 	<option value="custom" cat="custom">自訂排名</option>
 
 </select>

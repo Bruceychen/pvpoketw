@@ -30,7 +30,7 @@ require_once 'header.php';
 	</select>
 	<p class="description single">挑選任意兩隻寶可夢，並指定聯盟、招式、等級、IV以及防禦網使用策略，來進行一場模擬戰鬥。</p>
 	<p class="description multi hide">挑選一隻寶可夢來迎戰指定聯盟或主題賽下的所有其他寶可夢，以獲得其戰鬥能力數值和表現。</p>
-    <p class="description matrix hide">挑選任意數量寶可夢組成兩個隊伍，交叉比對逐一進行模擬對戰計算，以比對出各寶可夢的對戰優劣勢、招式選擇以及最佳IV組合！</p>
+    <p class="description matrix hide">挑選任意數量寶可夢組成兩個隊伍，交叉比對逐一進行模擬對戰計算，以比對出各寶可夢的對戰優劣勢、招式選擇以及最佳IV組合！你可以從<a href="<?php echo $WEB_ROOT; ?>settings/">設定頁面</a>調整計算結果的呈現方式。</p>
     <p class="description matrix hide"><i>小提醒：西爾佛聯盟的任何比賽中，現場模擬計算對手的寶可夢是不被允許的！請記得及早準備並且按規定參賽！</i></p>
 </div>
 

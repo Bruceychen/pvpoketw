@@ -6524,7 +6524,7 @@
 		"fastMoves": ["HEX", "TACKLE"],
 		"chargedMoves": ["ENERGY_BALL", "HURRICANE", "WEATHER_BALL_ROCK"],
 		"defaultIVs": {
-			"cp1500": [40, 1, 13, 12],
+			"cp1500": [40, 4, 13, 12],
 			"cp2500": [40, 15, 15, 15]
 		}
 	}, {
@@ -6540,7 +6540,7 @@
 		"fastMoves": ["TACKLE", "WATER_GUN"],
 		"chargedMoves": ["HYDRO_PUMP", "THUNDER", "WEATHER_BALL_WATER"],
 		"defaultIVs": {
-			"cp1500": [40, 1, 13, 12],
+			"cp1500": [40, 4, 13, 12],
 			"cp2500": [40, 15, 15, 15]
 		}
 	}, {
@@ -6556,7 +6556,7 @@
 		"fastMoves": ["POWDER_SNOW", "TACKLE"],
 		"chargedMoves": ["BLIZZARD", "ICE_BEAM", "WEATHER_BALL_ICE"],
 		"defaultIVs": {
-			"cp1500": [40, 1, 13, 12],
+			"cp1500": [40, 4, 13, 12],
 			"cp2500": [40, 15, 15, 15]
 		}
 	}, {
@@ -6572,7 +6572,7 @@
 		"fastMoves": ["EMBER", "TACKLE"],
 		"chargedMoves": ["FIRE_BLAST", "SOLAR_BEAM", "WEATHER_BALL_FIRE"],
 		"defaultIVs": {
-			"cp1500": [40, 1, 13, 12],
+			"cp1500": [40, 4, 13, 12],
 			"cp2500": [40, 15, 15, 15]
 		}
 	}, {

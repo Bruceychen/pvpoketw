@@ -46,7 +46,7 @@
 		<div class="clear"></div>
 
 		<div class="advanced-section">
-			<a class="advanced" href="#">進階設定 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+			<a class="advanced" href="#">進階狀態/IV設定 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 			<div class="fields">
 
 				<div class="ivs">

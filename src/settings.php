@@ -13,6 +13,7 @@ require_once 'header.php';
 <h1>設定</h1>
 <div class="section moves white">
 	<p>以下設定將會調整此網站的外觀。所有設定值會暫存在你本機端的cookie</p>
+	<p>(Adjust your site preferences below. These will be saved in a cookie to your device.)</p>
 
 	<div class="settings">
 		<h3>Default Pokemon Preferences</h3>
@@ -25,7 +26,12 @@ require_once 'header.php';
 		<h3>Battle Timeline</h3>
 		<div class="check animate-timeline <?php if($_SETTINGS->animateTimeline == 1) : ?>on<?php endif; ?>"><span></span> Animate after generating results</div>
 
-		<div class="save button">儲存設定</div>
+		<h3>Matrix &amp; Team Builder Results</h3>
+        <p>Select whether to display results for Pokemon in rows versus Pokemon in columns, or vice versa, in the Matrix Battle tool and Team Builder scorecards.</p>
+        <select class="input" id="matrix-direction">
+            <option value="row" <?php if((isset($_SETTINGS->matrixDirection))&&($_SETTINGS->matrixDirection == "row")) : ?>selected<?php endif; ?>>Row vs Column</option>
+			<option value="column" <?php if((isset($_SETTINGS->matrixDirection))&&($_SETTINGS->matrixDirection == "column")) : ?>selected<?php endif; ?>>Column vs Row</option>
+        </select>
 		
 		<h3>網站主題</h3>
 		<?php

@@ -61,6 +61,7 @@ function Pokemon(id, i, b){
 
 	this.baitShields = true; // Use low energy attacks to bait shields
 	this.farmEnergy = false; // use fast moves only
+	this.chargedMovesOnly = false; // Only allow Charged Move actions
 
 	// Training battle statistics
 
@@ -605,7 +606,8 @@ function Pokemon(id, i, b){
 
 	// Given a type string, move id, and charged move index, set a specific move
 
-	this.selectMove = function(type, id, index){
+	this.selectMove = function(type, id, index, disallowCustomAddition){
+		var moveFound = false;
 		var arr = this.fastMovePool;
 
 		if(type == "charged"){
@@ -624,10 +626,12 @@ function Pokemon(id, i, b){
 				if(type == "fast"){
 					move = arr[i];
 					this.fastMove = move;
+					moveFound = true;
 					break;
 				} else{
 					move = arr[i];
 					this.chargedMoves[index] = move;
+					moveFound = true;
 					break;
 				}
 			}
@@ -642,8 +646,6 @@ function Pokemon(id, i, b){
 		// If identical charged moves are selected, select first available
 
 		if((type == "charged") && (this.chargedMoves.length > 1)){
-
-
 			var nonIndex = 0;
 
 			if(index == 0){
@@ -658,6 +660,11 @@ function Pokemon(id, i, b){
 					}
 				}
 			}
+		}
+		
+		// If the move wasn't found, add it to the movepool
+		if((! disallowCustomAddition)&&(! moveFound)){
+			self.addNewMove(id, arr, true, type, index);
 		}
 	}
 
@@ -704,13 +711,16 @@ function Pokemon(id, i, b){
 
 	this.addNewMove = function(id, movepool, selectNewMove, moveType, index){
 		var move = gm.getMoveById(id);
+		
+		if(! move){
+			return false;
+		}
 
 		move.isCustom = true;
-
 		movepool.push(move);
 
 		if(selectNewMove){
-			self.selectMove(moveType, id, index)
+			self.selectMove(moveType, id, index, true)
 		}
 
 		var props = {

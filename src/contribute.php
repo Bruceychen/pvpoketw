@@ -43,7 +43,7 @@ require_once 'header.php'; ?>
 			<div class="supporter"><a href="https://www.youtube.com/channel/UCz0vZmmKHbGa1ZVNgJEw2bw" target="_blank">Elite Four TV</a></div>
 		</div>
 		<div class="supporter-container">
-		<img src="<?php echo $WEB_ROOT; ?>img/sponsors/gostadium.jpg" />
+			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/gostadium.jpg" />
 			<div class="supporter"><a href="https://discord.gg/fbczGXZ" target="_blank">GO Stadium Discord</a></div>
 		</div>
 
@@ -95,7 +95,11 @@ require_once 'header.php'; ?>
 		<div class="supporter-container">
 			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/themistervalor.jpg" />
 			<div class="supporter"><a href="https://twitter.com/TheMisterValor" target="_blank">TheMisterValor</a></div>
-		</div>
+        </div>
+        <div class="supporter-container">
+            <img src="<?php echo $WEB_ROOT; ?>img/sponsors/vergyverg.jpg" />
+            <div class="supporter"><a href="https://www.youtube.com/channel/UCOeIQWAJYD-zy7T5-IRZy7Q" target="_blank">Vergyverg</a></div>
+        </div>
 	</div>
 </div>
 

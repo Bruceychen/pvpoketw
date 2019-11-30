@@ -1395,6 +1395,15 @@
 				"chargedMoves": ["ACID_SPRAY","SLUDGE_BOMB"]
 			},
 			{
+				"speciesId": "weavile",
+				"chargedMoves": ["AVALANCHE","FOCUS_BLAST"]
+			},
+			{
+				"speciesId": "golduck",
+				"fastMove": "CONFUSION",
+				"chargedMoves": ["CROSS_CHOP","ICE_BEAM"]
+			},
+			{
 				"speciesId": "dusclops",
 				"fastMove":"HEX"
 			},

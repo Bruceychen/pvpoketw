@@ -98,6 +98,13 @@
 				"weight":6
 			},
 			{
+				"speciesId": "golduck",
+				"fastMove": "CONFUSION",
+				"chargedMoves": ["CROSS_CHOP","ICE_BEAM"],
+				"difficulty": 2,
+				"weight":3
+			},
+			{
 				"speciesId": "lanturn",
 				"fastMove": "WATER_GUN",
 				"chargedMoves": ["THUNDERBOLT","HYDRO_PUMP"],
@@ -674,7 +681,7 @@
 				"fastMove": "POWDER_SNOW",
 				"chargedMoves": ["BODY_SLAM","AURORA_BEAM"],
 				"difficulty": 2,
-				"weight":3
+				"weight":6
 			},
 			{
 				"speciesId": "sealeo",
@@ -693,9 +700,9 @@
 			{
 				"speciesId": "weavile",
 				"fastMove": "SNARL",
-				"chargedMoves": ["AVALANCHE","FOUL_PLAY"],
-				"difficulty": 1,
-				"weight":1
+				"chargedMoves": ["AVALANCHE","FOCUS_BLAST"],
+				"difficulty": 2,
+				"weight":3
 			},
 			{
 				"speciesId": "mamoswine",

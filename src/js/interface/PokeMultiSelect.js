@@ -209,7 +209,7 @@ function PokeMultiSelect(element){
 
 			var poke = arr[i].split(',');
 
-			var pokemon = new Pokemon(poke[0], 1, battle);
+			var pokemon = new Pokemon(poke[0].toLowerCase(), 1, battle);
 
 			pokemon.initialize(cp);
 

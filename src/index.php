@@ -27,6 +27,16 @@
 	<!--Update section for updates-->
 	<h3>更新紀錄</h3>
 
+	<h4>v1.12.12 (December 3, 2019)</h4>
+	<ul>
+		<li>In the default simulations, Pokemon will now shield more intelligently against Acid Spray. They won't fall for the bait if they can take the opponent's other Charged Move.</li>
+		<ul>
+			<li>This same logic was previously applied to Power-Up Punch and now extends to Acid Spray.</li>
+			<li>This drastically reduces the number of wins some Pokemon scored with Acid Spray. It also makes some losses appear harder than they would be without the Acid Spray baits.</li>
+		</ul>
+	</ul>
+
+
     <h4>v1.12.11 (December 1, 2019)</h4>
     <ul>
         <li>Custom group import now ignores upper and lower case. You can use this to quickly import a list of Pokemon (separated by line break).</li>
@@ -69,8 +79,8 @@
 <br>
 <h3>更新時間<h3>
 <ul>
-	<li>中文版最後更新時間：Tue Dec 3 09:56:26 2019 +0800</li>
-	<li>原版最後版本時間：Mon Dec 2 11:55:21 2019 -0600</li>
+	<li>中文版最後更新時間：Wed Dec 4 09:14:31 2019 +0800</li>
+	<li>原版最後版本時間：Tue Dec 3 17:55:58 2019 -0600</li>
 
 </ul>
 </div>

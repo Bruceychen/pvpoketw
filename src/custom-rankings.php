@@ -115,8 +115,8 @@ require_once 'header.php'; ?>
 	</div>
 
 	<button class="simulate button">模擬排名開始</button>
+	<button class="button twGrowingCup">成長盃快速模擬排名</button>
     <button class="button twPlagueCup">瘟疫盃快速模擬排名</button>
-	<button class="button twRainbowCup">發財盃快速模擬排名</button>
 
 	<div class="output"></div>
 </div>
@@ -205,7 +205,7 @@ require_once 'header.php'; ?>
 </div>
 
 
-<script src="<?php echo $WEB_ROOT; ?>js/twRainbowCup.js"></script>
+<script src="<?php echo $WEB_ROOT; ?>js/twGrowingCup.js"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/twPlagueCup.js"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/pokemon/Pokemon.js?v=<?php echo $SITE_VERSION; ?>"></script>

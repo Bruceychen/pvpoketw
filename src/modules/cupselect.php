@@ -7,13 +7,13 @@
 	<option value="tsa-2">西爾佛第二季主題</option>
 	<option value="community">Community Formats</option>
 
+	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
+		<option value="custom" cup="custom">成長盃</option>
+	<?php endif; ?>
+
     <?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
         <option value="custom" cup="custom">瘟疫盃</option>
     <?php endif; ?>
-
-	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
-		<option value="custom" cup="custom">發財盃_新</option>
-	<?php endif; ?>
 
 	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
 		<option value="custom" cup="custom">自訂排名</option>

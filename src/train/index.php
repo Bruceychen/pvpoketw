@@ -37,7 +37,6 @@ require_once '../header.php';
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>
                 <option value="1500 timeless">永伴盃</option>
-				<option value="1500 ferocious">猛獸盃</option>
 			</select>
 			<h3 class="section-title">AI 強度</h3>
 			<select class="difficulty-select">
@@ -65,6 +64,9 @@ require_once '../header.php';
 						<h3></h3>
 					</a>
 					<p></p>
+					<h5>Team Preview</h5>
+                    <div class="featured-team-preview">
+                    </div>
 				</div>
 			</div>
 		</div>
@@ -119,13 +121,10 @@ require_once '../header.php';
 <div class="section white updates">
 	<h3>更新紀錄</h3>
 
-    <h4>v1.12.11 (December 1, 2019)</h4>
+    <h4>v1.12.14 (December 5, 2019)</h4>
     <ul>
-        <li>Updated Training Battle interface to reflect current in-game behavior:</li>
-        <ul>
-            <li>Charged Move buttons disappear during switch-in periods</li>
-        </ul>
-        <li>The switch button is available again during Charged Moves</li>
+        <li>Added Timeless Cup featured teams to Training Battles, with teams from guan87, JayDevin, JimmaBanks, Kieng, KnightsOoofRen, and MattyFBaby!</li>
+        <li>Added a team preview when selecting featured teams to battle</li>
     </ul>
 </div>
 

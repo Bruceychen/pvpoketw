@@ -27,6 +27,12 @@
 	<!--Update section for updates-->
 	<h3>更新紀錄</h3>
 
+    <h4>v1.12.15 (December 6, 2019)</h4>
+    <ul>
+        <li>Multi-Battle results are now sorted from worst to best by default.</li>
+        <li>You can toggle Multi-Battle results to sort from best to worst instead.</li>
+    </ul>
+
     <h4>v1.12.14 (December 5, 2019)</h4>
     <ul>
         <li>Added Timeless Cup featured teams to Training Battles, with teams from guan87, JayDevin, JimmaBanks, Kieng, KnightsOoofRen, and MattyFBaby!</li>
@@ -37,15 +43,6 @@
     <ul>
         <li>Reverted previous changes to the switch button in Training Battles to match in-game update</li>
     </ul>
-
-    <h4>v1.12.12 (December 3, 2019)</h4>
-	<ul>
-		<li>In the default simulations, Pokemon will now shield more intelligently against Acid Spray. They won't fall for the bait if they can take the opponent's other Charged Move.</li>
-		<ul>
-			<li>This same logic was previously applied to Power-Up Punch and now extends to Acid Spray.</li>
-			<li>This drastically reduces the number of wins some Pokemon scored with Acid Spray. It also makes some losses appear harder than they would be without the Acid Spray baits.</li>
-		</ul>
-	</ul>
 
 	<p>追蹤原作者 <a href="https://twitter.com/pvpoke" target="_blank">推特</a> 以獲得第一手消息及更新快訊！</p>
 
@@ -79,8 +76,8 @@
 <br>
 <h3>更新時間<h3>
 <ul>
-	<li>中文版最後更新時間：Fri Dec 6 09:02:52 2019 +0800</li>
-	<li>原版最後版本時間：Thu Dec 5 15:20:04 2019 -0600</li>
+	<li>中文版最後更新時間：Mon Dec 9 00:04:27 2019 +0800</li>
+	<li>原版最後版本時間：Fri Dec 6 15:03:36 2019 -0600</li>
 
 </ul>
 </div>

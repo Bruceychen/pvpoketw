@@ -295,10 +295,12 @@ require_once 'header.php';
 		<a class="toggle active" href="#">各別戰鬥模擬結果<span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 
 		<div class="toggle-content">
-			<div class="poke-search-container">
-				<input class="poke-search" context="ranking-search" type="text" placeholder="Search Pokemon" />
-				<a href="#" class="search-info">i</a>
-			</div>
+            <div class="poke-search-container">
+                <input class="poke-search" context="ranking-search" type="text" placeholder="Search Pokemon" />
+                <a href="#" class="search-info">i</a>
+
+                <button class="multi-battle-sort">Sort: Worst to best &#9650;</button>
+            </div>
 			<div class="ranking-header">對手寶可夢</div>
 			<div class="ranking-header right">模擬戰鬥得分</div>
 			<div class="rankings-container clear"></div>

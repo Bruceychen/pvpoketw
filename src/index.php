@@ -33,6 +33,7 @@
         <li>Custom lists and Training Battle rosters will be updated in the coming days.</li>
     </ul>
 	<p>追蹤原作者 <a href="https://twitter.com/pvpoke" target="_blank">推特</a> 以獲得第一手消息及更新快訊！</p>
+    <p>追蹤中文版 <a href="https://twitter.com/pvpoketw" target="_blank">推特</a> 以獲得即時更新快訊！也可以回饋反映意見問題給管理員喔！</p>
 
 	<h3>Latest Article</h3>
 
@@ -64,8 +65,8 @@
 <br>
 <h3>更新時間<h3>
 <ul>
-	<li>中文版最後更新時間：Thu Dec 12 13:45:57 2019 +0800</li>
-	<li>原版最後版本時間：Wed Dec 11 22:45:41 2019 -0600</li>
+	<li>中文版最後更新時間：Fri Dec 13 09:08:45 2019 +0800</li>
+	<li>原版最後版本時間：Thu Dec 12 14:51:27 2019 -0600</li>
 
 </ul>
 </div>

@@ -54,18 +54,27 @@
 
 	<p>華文地區的訓練家們，歡迎！</p>
 
-<p>這個網除站主要是翻譯自http://pvpoke.com，並已獲得原作者的授權。</p>
-<p>在內容上，我僅針對招式、寶可夢的名稱以及部分功能介面進行翻譯，其他的部分如演算法、架構等則尊重原作者不進行更動。</p>
+<p>本站為非官方翻譯版 <a hre="pvpoke.com">pvpoke.com</a>，並已獲得原作者的授權許可，作為在官方未完成i18n之前，一個專屬華文地區pvp社群的暫時網站。</p>
+<p>在內容上，我僅針對招式、寶可夢的名稱以及部分功能介面進行翻譯，其他的部分如演算法、網站架構等則尊重原作者不進行更動。</p>
+    <p>資料與版本更新則追隨原作者github上的repository。更新時間差會盡量維持在24小時內。中文版網站也同樣開放原始碼在github上。</p>
 
-<p>不過也因為有中英文轉換問題，加上php不是我的專業(Orz)，部分功能目前還是需要改善除錯。如果你有發現相關問題，哪邊翻譯的很爛(汗)，或者哪邊也需要翻譯，又或者你也想出一份力協助中文網站的維護，歡迎與我聯絡。</p>
-
-<p>最後，祝各位訓練家PVP技術都能越來越強！我們石英高原見！</p>
+<p>雖然原網站是採用MIT License，但基於對原作者的敬意，本繁中版網站將不會掛載任何廣告、不收集任何使用者個資，也不會收受任何費用。</p>
+    <p>若你希望提供實質上的資助，我會建議您轉贊助給原作者或是你所在地區的當地寶可夢pvp社群！</p>
+<p>若有任何建議、網站資料錯誤回報，歡迎至本站 <a href="https://twitter.com/pvpoketw" target="_blank">推特</a> 留言！</p>
+<p>最後，祝各位訓練家PVP技術都能越來越強！</p>
 
 <p>Brucey</p>
 <br>
-<h3>更新時間<h3>
+    <h3>Disclaimer</h3>
+
+    <p>This is non-official, translated version of <a href="pvpoke.com">pvpoke.com</a>, with permission from original creator!</p>
+    <p>This website also follows MIT License. The source code can be found on github.</p>
+    <p>Feel free to contact us with opinion or error report on our <a href="https://twitter.com/pvpoketw" target="_blank">twitter</a></p>
+
+    <p>Brucey</p>
+<h3>最後更新時間<h3>
 <ul>
-	<li>中文版最後更新時間：Fri Dec 13 09:08:45 2019 +0800</li>
+	<li>中文版最後更新時間：Sat Dec 14 03:22:39 2019 +0800</li>
 	<li>原版最後版本時間：Thu Dec 12 14:51:27 2019 -0600</li>
 
 </ul>

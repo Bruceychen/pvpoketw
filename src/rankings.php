@@ -86,6 +86,10 @@ switch($cup){
         $league = 'Timeless Cup';
         break;
 
+	case "fusion":
+		$league = 'Fusion Cup';
+		break;
+
 	case "rainbowtw":
         $league = 'Rainbow Cup Taiwan';
 		break;

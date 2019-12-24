@@ -16,7 +16,8 @@
 				<option value="great" type="great" class="multi-battle">超級(1500)聯盟 Meta</option>
 				<option value="ultra" type="ultra" class="hide multi-battle">高級(2500)聯盟 Meta</option>
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
-                <option value="timeless" type="timeless" class="multi-battle">Timeless Cup Meta</option>
+                <option value="fusion" type="fusion" class="multi-battle">融合盃 Meta</option>
+                <option value="timeless" type="timeless" class="multi-battle">永伴盃 Meta</option>
 				<option value="ferocious" type="ferocious" class="multi-battle">猛獸盃 Meta</option>
 				<option value="sinister" type="sinister" class="multi-battle">魅靈盃 Meta</option>
 			</select>
@@ -45,6 +46,10 @@
                 <option value="overall">使用最佳IV(排名第1)</option>
                 <option value="atk">使用攻擊最大化IV</option>
                 <option value="def">使用防禦最大化IV</option>
+            </select>
+            <select class="pokemon-level-cap-select">
+                <option value="40">預設等級上限(40)</option>
+                <option value="45">夥伴等級上限(45)</option>
             </select>
             <div class="check shield-baiting on"><span></span>用低能量需求招式引誘對手使用防禦網</div>
         </div>

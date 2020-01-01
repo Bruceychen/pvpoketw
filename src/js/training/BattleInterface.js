@@ -172,14 +172,12 @@ var BattlerMaster = (function () {
 							break;
 
 						case "suspend_charged_no_shields":
-							// 介面翻譯
-							$(".battle-window .animate-message .text").html("沒有防禦網了！");
+							$(".battle-window .animate-message .text").html("No Protect shields remaining");
 							break;
 
 
 						case "animating":
-							// 介面翻譯
-							$(".animate-message .text").html(activePokemon[response.actor].speciesName + " 使出 " + response.moveName);
+							$(".animate-message .text").html(activePokemon[response.actor].speciesName + " used " + response.moveName);
 
 							// If we're transitioning from the Charged Move minigame, submit the damage
 							if(phase == "suspend_charged_attack"){
@@ -189,8 +187,7 @@ var BattlerMaster = (function () {
 							break;
 
 						case "suspend_switch":
-							// 介面翻譯
-							$(".animate-message .text").html("對手正在選擇寶可夢");
+							$(".animate-message .text").html("Opponent is selecting a Pokemon");
 
 							// Clear a previously buffered switch
 							bufferedSwitch = -1;
@@ -216,18 +213,17 @@ var BattlerMaster = (function () {
 
 							switch(response.result){
 								case "win":
-								// 介面翻譯
-									$(".battle-window .end-screen .result").html("勝利！")
-									$(".battle-window .end-screen .subtitle").html("做得好！")
+									$(".battle-window .end-screen .result").html("Victory!")
+									$(".battle-window .end-screen .subtitle").html("Way to go!")
 									break;
-								// 介面翻譯
+
 								case "loss":
-									$(".battle-window .end-screen .result").html("被打敗了...")
-									$(".battle-window .end-screen .subtitle").html("別氣餒！再接再厲！")
+									$(".battle-window .end-screen .result").html("Defeat")
+									$(".battle-window .end-screen .subtitle").html("Let's see what we can learn!")
 									break;
-								// 介面翻譯
+
 								case "tie":
-									$(".battle-window .end-screen .result").html("平手")
+									$(".battle-window .end-screen .result").html("Tie")
 									$(".battle-window .end-screen .subtitle").html("What? No way!")
 									break;
 							}
@@ -403,8 +399,7 @@ var BattlerMaster = (function () {
 					$(".battle-window .scene .pokemon-container").eq(message.index).find(".messages").append($messageItem);
 
 					// Animate an opponent's shield when they shield
-					// 介面翻譯
-					if((message.index == 1)&&(message.str == "擋下！")){
+					if((message.index == 1)&&(message.str == "Blocked!")){
 						$(".battle-window .pokemon-container.opponent .shield-sprite-container").addClass("active");
 					}
 				}
@@ -659,7 +654,7 @@ var BattlerMaster = (function () {
 				}
 
 
-				// Report each Pokemon
+				// Gather team and Pokemon data
 				var teamStrs = [];
 				var teamScores = [];
 
@@ -703,20 +698,8 @@ var BattlerMaster = (function () {
 
 						// Assign this Pokemon's score in battle, damage done plus shields broken
 
-						var score = Math.round(pokemon.battleStats.damage + (50 * pokemon.battleStats.shieldsBurned));
-						teamScore += score;
-
-						// Only report this Pokemon if it was used in battle
-						if(pokemon.hp < pokemon.stats.hp){
-							gtag('event', battleSummaryStr, {
-							  'event_category' : 'Training Pokemon',
-							  'event_label' : pokeStr,
-							  'value' : score+'',
-							  'player_type': playerType,
-							  'team_position': n+1
-							});
-						}
-
+						pokemon.battleStats.score = Math.round(pokemon.battleStats.damage + (50 * pokemon.battleStats.shieldsBurned));
+						teamScore += pokemon.battleStats.score;
 					}
 
 					// Alphabetize the last two Pokemon on the team and build the team string
@@ -732,6 +715,7 @@ var BattlerMaster = (function () {
 
 				// Report each team
 				for(var i = 0; i < players.length; i++){
+					var team = players[i].getTeam();
 					var score = teamScores[i];
 					var opponentIndex = (i == 0) ? 1 : 0;
 					var opponentScore = teamScores[opponentIndex];
@@ -742,7 +726,9 @@ var BattlerMaster = (function () {
 					}
 
 					var battleRating = Math.floor( (500 * ((maxScore - opponentScore) / maxScore)) + (500 * (score / maxScore)))
-
+					
+					// Report team stats
+					
 					gtag('event', battleSummaryStr, {
 					  'event_category' : 'Training Team',
 					  'event_label' : teamStrs[i],
@@ -783,13 +769,50 @@ var BattlerMaster = (function () {
 
 					var rosterStr = pokeStrArr.join(" ");
 
-
+					// Report roster stats
+					
 					gtag('event', battleSummaryStr, {
 					  'event_category' : 'Training Roster',
 					  'event_label' : rosterStr,
 					  'value' : battleRating+'',
 					  'player_type': playerType,
 					});
+					
+					// Report individual Pokemon with team ratings
+					
+					for(var n = 0; n < team.length; n++){
+						var pokemon = team[n];
+						var pokeStr = pokemon.speciesName + ' ' + pokemon.fastMove.abbreviation;
+						var chargedMoveAbbrevations = [];
+
+						for(var k = 0; k < pokemon.chargedMoves.length; k++){
+							chargedMoveAbbrevations.push(pokemon.chargedMoves[k].abbreviation);
+						}
+
+						// Sort alphabetically
+						chargedMoveAbbrevations.sort((a,b) => (a > b) ? 1 : ((b > a) ? -1 : 0));
+
+						for(var k = 0; k < chargedMoveAbbrevations.length; k++){
+							if(k == 0){
+								pokeStr += "+" + chargedMoveAbbrevations[k];
+							} else{
+								pokeStr += "/" + chargedMoveAbbrevations[k];
+							}
+						}
+
+						// Only report this Pokemon if it was used in battle
+						if(pokemon.hp < pokemon.stats.hp){
+							gtag('event', battleSummaryStr, {
+							  'event_category' : 'Training Pokemon',
+							  'event_label' : pokeStr,
+							  'value' : pokemon.battleStats.score+'',
+							  'player_type': playerType,
+							  'team_position': n+1,
+							  'team_rating': battleRating
+							});
+						}
+
+					}
 				}
 			}
 

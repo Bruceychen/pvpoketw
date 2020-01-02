@@ -67,7 +67,7 @@
                     <div class="level-cap-group">
                         <div>等級上限:</div>
                         <div class="check on" value="40"><span></span>40</div>
-                        <div class="check" value="45"><span></span>45</div>
+                        <div class="check" value="41"><span></span>41</div>
                     </div>
 					<button class="maximize-stats">最大值</button>
 					<button class="restore-default">預設值</button>

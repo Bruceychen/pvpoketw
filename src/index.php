@@ -27,28 +27,17 @@
     <!--Update section for updates-->
     <h3>更新紀錄</h3>
 
+    <h4>v1.12.20 (January 1, 2019)</h4>
+    <ul>
+        <li>Buddy Pokemon gain a 1 level increase. Level caps have been adjusted to Level 41 so you can simulate individual buddy Pokemon.</li>
+    </ul>
+
+
     <h4>v1.12.19 (December 20, 2019)</h4>
     <ul>
         <li>The <a href="<?php echo $WEB_ROOT; ?>moves/">Moves</a> page now lists stat buffs and debuffs for Charged Moves</li>
         <li>By default, Pokemon no longer bait shields with self-debuffing moves</li>
 	</ul>
-
-    <h4>v1.12.18 (December 18, 2019)</h4>
-    <ul>
-        <li>Pokemon can now be up to level 45! Experiment with Pokemon levels and see how they impact potential performance.</li>
-        <ul>
-            <li>This update isn't reflected in the rankings yet</li>
-        </ul>
-        <li>Fixed an issue where saving custom groups would result in additional "undefined" groups being listed</li>
-    </ul>
-
-    <h4>v1.12.16 (December 11, 2019)</h4>
-    <ul>
-        <li>The site is now updated with all new moves and movepool changes!</li>
-        <li>Custom lists and Training Battle rosters will be updated in the coming days.</li>
-    </ul>
-    <p>追蹤原作者 <a href="https://twitter.com/pvpoke" target="_blank">推特</a> 以獲得第一手消息及更新快訊！</p>
-    <p>追蹤中文版 <a href="https://twitter.com/tw_pvpokesite" target="_blank">推特</a> 以獲得即時更新快訊！也可以回饋反映意見問題給管理員喔！</p>
 
     <h3>Latest Article</h3>
 
@@ -64,6 +53,11 @@
             <p>GO Stadium has introduced an exciting new format called Cliffhanger! Learn how to spend your points and build your Cliffhanger team from the ground up.</p>
         </div>
     </div>
+
+
+    <p>追蹤原作者 <a href="https://twitter.com/pvpoke" target="_blank">推特</a> 以獲得第一手消息及更新快訊！</p>
+    <p>追蹤中文版 <a href="https://twitter.com/tw_pvpokesite" target="_blank">推特</a> 以獲得即時更新快訊！也可以回饋反映意見問題給管理員喔！</p>
+
 
     <h3>中文版譯者聲明</h3>
 
@@ -91,8 +85,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Wed Jan 01 16:00:16 2020 +0800</li>
-                <li>原版最後版本時間：Tue Dec 31 11:11:19 2019 -0600</li>
+                <li>中文版最後更新時間：Thr Jan 02 10:45:16 2020 +0800</li>
+                <li>原版最後版本時間：Wed Jan 1 09:58:40 2020 -0600</li>
 
             </ul>
 </div>

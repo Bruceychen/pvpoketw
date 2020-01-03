@@ -1,4 +1,10 @@
 <div class="controls">
+	<!--
+	<div class="move-labels">
+		<div class="label">Thunderbolt</div>
+		<div class="label">Magnet Bomb</div>
+	</div>
+	-->
 	<div class="move-bars">
 		<div class="move-bar">
 			<div class="label">T</div>
@@ -87,7 +93,7 @@
 </div>
 
 <div class="quit-confirm hide">
-	<p>是否結束對戰？如果目前是正式比賽(6v6)模式，此舉將回到隊伍選擇畫面。</p>
+	<p>是否結束對戰？如果目前是正式比賽(6v6)模式，結束將回到隊伍選擇畫面。</p>
 
 	<div class="center flex">
 		<div class="button yes">是的</div>

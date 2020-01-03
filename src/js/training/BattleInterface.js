@@ -172,12 +172,14 @@ var BattlerMaster = (function () {
 							break;
 
 						case "suspend_charged_no_shields":
-							$(".battle-window .animate-message .text").html("No Protect shields remaining");
+							// 介面翻譯
+							$(".battle-window .animate-message .text").html("沒有防禦網了！");
 							break;
 
 
 						case "animating":
-							$(".animate-message .text").html(activePokemon[response.actor].speciesName + " used " + response.moveName);
+							// 介面翻譯
+							$(".animate-message .text").html(activePokemon[response.actor].speciesName + " 使出 " + response.moveName);
 
 							// If we're transitioning from the Charged Move minigame, submit the damage
 							if(phase == "suspend_charged_attack"){
@@ -187,7 +189,8 @@ var BattlerMaster = (function () {
 							break;
 
 						case "suspend_switch":
-							$(".animate-message .text").html("Opponent is selecting a Pokemon");
+							// 介面翻譯
+							$(".animate-message .text").html("對手正在選擇寶可夢");
 
 							// Clear a previously buffered switch
 							bufferedSwitch = -1;
@@ -213,17 +216,18 @@ var BattlerMaster = (function () {
 
 							switch(response.result){
 								case "win":
-									$(".battle-window .end-screen .result").html("Victory!")
-									$(".battle-window .end-screen .subtitle").html("Way to go!")
+								// 介面翻譯
+									$(".battle-window .end-screen .result").html("勝利！")
+									$(".battle-window .end-screen .subtitle").html("做得好！")
 									break;
-
+								// 介面翻譯
 								case "loss":
-									$(".battle-window .end-screen .result").html("Defeat")
-									$(".battle-window .end-screen .subtitle").html("Let's see what we can learn!")
+									$(".battle-window .end-screen .result").html("被打敗了...")
+									$(".battle-window .end-screen .subtitle").html("別氣餒！再接再厲！")
 									break;
-
+								// 介面翻譯
 								case "tie":
-									$(".battle-window .end-screen .result").html("Tie")
+									$(".battle-window .end-screen .result").html("平手")
 									$(".battle-window .end-screen .subtitle").html("What? No way!")
 									break;
 							}
@@ -292,9 +296,9 @@ var BattlerMaster = (function () {
 
 								$bar.show();
 								$bar.find(".label").html(chargedMove.abbreviation);
-								//$bar.find(".bar").attr("class","bar " + chargedMove.type);
 								$bar.find(".bar").attr("type",chargedMove.type);
 								$bar.find(".bar-back").attr("class","bar-back " + chargedMove.type);
+								$(".battle-window .move-labels .label").eq(n).html(chargedMove.name);
 							}
 						}
 					}
@@ -313,8 +317,10 @@ var BattlerMaster = (function () {
 
 							if(chargePercent >= 1){
 								$bar.addClass("active");
+								$(".battle-window .move-labels .label").eq(n).addClass("active");
 							} else{
 								$bar.removeClass("active");
+								$(".battle-window .move-labels .label").eq(n).removeClass("active");
 							}
 						}
 					}
@@ -399,7 +405,8 @@ var BattlerMaster = (function () {
 					$(".battle-window .scene .pokemon-container").eq(message.index).find(".messages").append($messageItem);
 
 					// Animate an opponent's shield when they shield
-					if((message.index == 1)&&(message.str == "Blocked!")){
+					// 介面翻譯
+					if((message.index == 1)&&(message.str == "擋下！")){
 						$(".battle-window .pokemon-container.opponent .shield-sprite-container").addClass("active");
 					}
 				}
@@ -726,9 +733,9 @@ var BattlerMaster = (function () {
 					}
 
 					var battleRating = Math.floor( (500 * ((maxScore - opponentScore) / maxScore)) + (500 * (score / maxScore)))
-					
+
 					// Report team stats
-					
+
 					gtag('event', battleSummaryStr, {
 					  'event_category' : 'Training Team',
 					  'event_label' : teamStrs[i],
@@ -770,16 +777,16 @@ var BattlerMaster = (function () {
 					var rosterStr = pokeStrArr.join(" ");
 
 					// Report roster stats
-					
+
 					gtag('event', battleSummaryStr, {
 					  'event_category' : 'Training Roster',
 					  'event_label' : rosterStr,
 					  'value' : battleRating+'',
 					  'player_type': playerType,
 					});
-					
+
 					// Report individual Pokemon with team ratings
-					
+
 					for(var n = 0; n < team.length; n++){
 						var pokemon = team[n];
 						var pokeStr = pokemon.speciesName + ' ' + pokemon.fastMove.abbreviation;

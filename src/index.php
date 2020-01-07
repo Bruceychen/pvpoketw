@@ -49,7 +49,7 @@
         </div>
         <div class="col-9">
             <h4><a href="<?php echo $WEB_ROOT; ?>articles/cliffhanger-team-building/">Team Building for GO Stadium Cliffhanger</a></h4>
-            <div class="date"> December 11, 2019</div>
+            <div class="date"> January 4, 2020</div>
             <p>GO Stadium has introduced an exciting new format called Cliffhanger! Learn how to spend your points and build your Cliffhanger team from the ground up.</p>
         </div>
     </div>
@@ -85,8 +85,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Fri Jan 03 14:04:16 2020 +0800</li>
-                <li>原版最後版本時間：Thu Jan 2 21:23:27 2020 -0600</li>
+                <li>中文版最後更新時間：Tue Jan 7 11:50:17 2020 +0800</li>
+                <li>原版最後版本時間：Mon Jan 6 15:39:07 2020 -0600</li>
 
             </ul>
 </div>

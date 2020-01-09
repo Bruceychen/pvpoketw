@@ -113,11 +113,11 @@ require_once 'header.php';
 	<?php require 'modules/cupselect.php'; ?>
 
 	<div class="ranking-categories">
-    		<a class="selected" href="#" data="overall">總體評估(Overall)</a>
-    		<a href="#" data="leads">先鋒(Leads)</a>
-    		<a href="#" data="closers">終結者(Closers)</a>
-    		<a href="#" data="attackers">攻擊手(Attackers)</a>
-    		<a href="#" data="defenders">盾兵(Defenders)</a>
+    		<a class="selected" href="#" data="overall">Overall</a>
+    		<a href="#" data="leads">Leads</a>
+    		<a href="#" data="closers">Closers</a>
+    		<a href="#" data="attackers">Attackers</a>
+    		<a href="#" data="defenders">Defenders</a>
     	</div>
 
 	<div class="clear"></div>

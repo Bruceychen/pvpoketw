@@ -27,17 +27,16 @@
     <!--Update section for updates-->
     <h3>更新紀錄</h3>
 
-    <h4>v1.12.20 (January 1, 2019)</h4>
+    <h4>v1.12.21 (January 8, 2020)</h4>
     <ul>
-        <li>Buddy Pokemon gain a 1 level increase. Level caps have been adjusted to Level 41 so you can simulate individual buddy Pokemon.</li>
+        <li>Pokemon with moves that debuff their own Attack like Psycho Boost and Superpower will now bait shields with higher energy, non-debuffing moves.</li>
+        <ul>
+            <li>Pokemon will only bait with moves that are within 10 energy of the self debuffing move, and when the shield bait toggle is enabled.</li>
+            <li>The Consistency score formula has been adjusted to account for these movesets.</li>
+            <li>This greatly improves matches for Pokemon like Defense Deoxys and Melmetal. Because this behavior provides less consistency, the effect on the overall rankings isn't as drastic as the matchup changes may suggest.</li>
+
+        </ul>
     </ul>
-
-
-    <h4>v1.12.19 (December 20, 2019)</h4>
-    <ul>
-        <li>The <a href="<?php echo $WEB_ROOT; ?>moves/">Moves</a> page now lists stat buffs and debuffs for Charged Moves</li>
-        <li>By default, Pokemon no longer bait shields with self-debuffing moves</li>
-	</ul>
 
     <h3>Latest Article</h3>
 
@@ -85,8 +84,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Thr Jan 9 08:58:17 2020 +0800</li>
-                <li>原版最後版本時間：Wed Jan 8 14:18:43 2020 -0600</li>
+                <li>中文版最後更新時間：Thr Jan 9 12:16:17 2020 +0800</li>
+                <li>原版最後版本時間：Wed Jan 8 22:16:49 2020 -0600</li>
 
             </ul>
 </div>

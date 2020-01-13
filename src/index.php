@@ -1,11 +1,11 @@
 <?php require_once 'header.php'; ?>
 
 <div class="section home white">
-    <p>歡迎來到 PvPokeTW.com! 這是一個基於 <a href="pvpoke.com">pvpoke.com</a> 的中文翻譯版網站，並且繼承原版精神，為一個針對 Pokemon GO PVP(玩家間對戰) 的開源平台！</p>
+    <p>歡迎來到 PvPokeTW.com! 這是一個基於 <a href="pvpoke.com">pvpoke.com</a> 的非官方繁中翻譯版，針對 Pokemon GO PVP(玩家間對戰) 的開源平台。</p>
 
     <a href="<?php echo $WEB_ROOT; ?>battle/" class="button">
         <h2 class="icon-battle">戰鬥模擬計算</h2>
-        <p>指定兩隻寶可夢進行模擬戰鬥並計算各種數據</p>
+        <p>指定兩隻或多隻寶可夢進行模擬戰鬥並計算各種數據</p>
     </a>
     <a href="<?php echo $WEB_ROOT; ?>train/" class="button">
         <h2 class="icon-train">AI對戰訓練</h2>
@@ -84,8 +84,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sat Jan 11 14:18:17 2020 +0800</li>
-                <li>原版最後版本時間：Fri Jan 10 19:12:21 2020 -0600</li>
+                <li>中文版最後更新時間：Mon Jan 13 10:17:17 2020 +0800</li>
+                <li>原版最後版本時間：Sun Jan 12 11:46:56 2020 -0600</li>
 
             </ul>
 </div>

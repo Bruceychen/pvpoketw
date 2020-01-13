@@ -6,6 +6,7 @@ $(".poke-search[context='ranking-search']").on("keyup", function(e){
 
 	$(".rankings-container > .rank").each(function(index, value){
 		var id = $(this).attr("data");
+
 		if(list.indexOf(id) > -1){
 			$(this).show();
 		} else{

@@ -16,6 +16,7 @@
 				<option value="great" type="great" class="multi-battle">超級(1500)聯盟 Meta</option>
 				<option value="ultra" type="ultra" class="hide multi-battle">高級(2500)聯盟 Meta</option>
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
+                <option value="rose" type="rose" class="multi-battle">Rose Cup Meta</option>
                 <option value="fusion" type="fusion" class="multi-battle">融合盃 Meta</option>
                 <option value="timeless" type="timeless" class="multi-battle">永伴盃 Meta</option>
 				<option value="ferocious" type="ferocious" class="multi-battle">猛獸盃 Meta</option>
@@ -32,10 +33,10 @@
 			<h3 class="section-title">其他選項</h3>
 			<select class="shield-select">
 				<option value="0">不使用防禦網</option>
-                <option value="1" selected>使用1次防禦網</option>
-                <option value="2">使用2次防禦網</option>
-            </select>
-            <select class="charged-count-select">
+				<option value="1" selected>使用1次防禦網</option>
+				<option value="2">使用2次防禦網</option>
+			</select>
+			<select class="charged-count-select">
                 <option value="0">不使用特殊招式</option>
                 <option value="1">僅1個特殊招式</option>
                 <option value="2" selected="">2個特殊招式</option>

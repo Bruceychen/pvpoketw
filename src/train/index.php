@@ -36,6 +36,7 @@ require_once '../header.php';
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>
+                <option value="1500 rose">Rose Cup</option>
                 <option value="1500 fusion">融合盃</option>
 			</select>
 			<h3 class="section-title">AI 強度</h3>
@@ -125,6 +126,7 @@ require_once '../header.php';
     <ul>
         <li>Fusion Cup featured teams are now available, featuring teams from DarkMatterWolf, JayDevin, Kieng, KnightsOoofRen, and ValorAsh!</li>
     </ul>
+
     <h4>v1.12.22 (January 10, 2019)</h4>
     <ul>
         <li>Fixed an issue where the end-game window could cover the switch button on smaller screens</li>

@@ -27,31 +27,31 @@
     <!--Update section for updates-->
     <h3>更新紀錄</h3>
 
-    <h4>v1.12.21 (January 8, 2020)</h4>
-    <ul>
-        <li>Pokemon with moves that debuff their own Attack like Psycho Boost and Superpower will now bait shields with higher energy, non-debuffing moves.</li>
-        <ul>
-            <li>Pokemon will only bait with moves that are within 10 energy of the self debuffing move, and when the shield bait toggle is enabled.</li>
-            <li>The Consistency score formula has been adjusted to account for these movesets.</li>
-            <li>This greatly improves matches for Pokemon like Defense Deoxys and Melmetal. Because this behavior provides less consistency, the effect on the overall rankings isn't as drastic as the matchup changes may suggest.</li>
+	<h4>v1.12.24 (January 20, 2020)</h4>
+	<ul>
+        <li>Fixed an issue where damage displayed in Charged Move tooltips was sometimes incorrect.
+            <ul>
+                <li>If any stat changes were applied in battle, the tooltip would show the damage with these stat changes applied. The tooltip now shows the original damage value.</li>
+            </ul>
+        </li>
+        <li>Exact energy amount is now displayed next to the Charged Move meters.</li>
+        <li>Added a button in the "Options" section that adds energy from the selected Pokemon's Fast Move. This allows you to quickly check how a Pokemon performs with a few moves' headstart.</li>
+	</ul>
 
-        </ul>
-    </ul>
+	<h3>Latest Article</h3>
 
-    <h3>Latest Article</h3>
-
-    <div class="article-item flex">
-        <div class="col-3">
-            <a href="<?php echo $WEB_ROOT; ?>articles/cliffhanger-team-building/">
-                <img src="<?php echo $WEB_ROOT; ?>assets/articles/cliffhanger-thumb.jpg" />
-            </a>
-        </div>
-        <div class="col-9">
-            <h4><a href="<?php echo $WEB_ROOT; ?>articles/cliffhanger-team-building/">Team Building for GO Stadium Cliffhanger</a></h4>
-            <div class="date"> January 4, 2020</div>
-            <p>GO Stadium has introduced an exciting new format called Cliffhanger! Learn how to spend your points and build your Cliffhanger team from the ground up.</p>
-        </div>
-    </div>
+	<div class="article-item flex">
+		<div class="col-3">
+			<a href="<?php echo $WEB_ROOT; ?>articles/cliffhanger-team-building/">
+				<img src="<?php echo $WEB_ROOT; ?>assets/articles/cliffhanger-thumb.jpg" />
+			</a>
+		</div>
+		<div class="col-9">
+			<h4><a href="<?php echo $WEB_ROOT; ?>articles/cliffhanger-team-building/">Team Building for GO Stadium Cliffhanger</a></h4>
+			<div class="date"> January 4, 2020</div>
+			<p>GO Stadium has introduced an exciting new format called Cliffhanger! Learn how to spend your points and build your Cliffhanger team from the ground up.</p>
+		</div>
+	</div>
 
 
     <p>追蹤原作者 <a href="https://twitter.com/pvpoke" target="_blank">推特</a> 以獲得第一手消息及更新快訊！</p>
@@ -84,8 +84,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sun Jan 19 10:58:17 2020 +0800</li>
-                <li>原版最後版本時間：Sat Jan 18 20:29:14 2020 -0600</li>
+                <li>中文版最後更新時間：Tue Jan 21 09:08:17 2020 +0800</li>
+                <li>原版最後版本時間：Mon Jan 20 14:43:31 2020 -0600</li>
 
             </ul>
 </div>

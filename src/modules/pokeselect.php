@@ -64,11 +64,11 @@
 						<div class="check" value="atk"><span></span>攻擊優先</div>
 						<div class="check" value="def"><span></span>防禦優先</div>
 					</div>
-                    <div class="level-cap-group">
-                        <div>等級上限:</div>
-                        <div class="check on" value="40"><span></span>40</div>
-                        <div class="check" value="41"><span></span>41</div>
-                    </div>
+					<div class="level-cap-group">
+						<div>等級上限:</div>
+						<div class="check on" value="40"><span></span>40</div>
+						<div class="check" value="41"><span></span>41</div>
+					</div>
 					<button class="maximize-stats">最大值</button>
 					<button class="restore-default">預設值</button>
 				</div>
@@ -108,6 +108,7 @@
 				<div class="flex">
 					<div class="label">能量值:</div><input class="start-energy" type="number" min="0" max="100" placeholder="起始能量值" />
 				</div>
+				<button class="add-fast-move">+ Move</button>
 				<button class="pull-from-timeline">從時間軸擷取</button>
 				<div class="check shield-baiting on"><span></span>用低能量需求招式引誘對手使用防禦網</div>
 				<div class="check priority"><span></span>特殊招式優先使用</div>
@@ -127,6 +128,10 @@
 				<div class="bar"></div>
 				<div class="bar-back"></div>
 			</div>
+			<div class="energy-label">
+				<div class="num">0</div>
+				<div>能量值</div>
+			</div>
 			<div class="move-bar">
 				<div class="label">CM</div>
 				<div class="bar"></div>
@@ -140,7 +145,7 @@
 	</div>
 
 	<div class="clear-confirm hide">
-		<p>Clear <b><span class="name"></span></b> from the selection?</p>
+		<p>將 <b><span class="name"></span></b> 移除?</p>
 
 		<div class="center flex">
 			<div class="button yes">Yes</div>
@@ -153,7 +158,7 @@
 
 		<input class="poke-search" context="move-search" type="text" placeholder="Search move"/>
 		<select class="move-select">
-			<option selected disabled value="">Select a Move</option>
+			<option selected disabled value="">選擇招式</option>
 		</select>
 
 		<div class="center flex">

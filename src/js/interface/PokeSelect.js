@@ -143,6 +143,9 @@ function PokeSelect(element, i){
 			$fastSelect.find("option[value='"+selectedPokemon.fastMove.moveId+"']").prop("selected","selected");
 			$fastSelect.attr("class", "move-select fast " + selectedPokemon.fastMove.type);
 
+			$el.find(".add-fast-move").html("+ " + selectedPokemon.fastMove.name);
+			$el.find(".add-fast-move").attr("class","add-fast-move " + selectedPokemon.fastMove.type);
+
 			// Display charged moves
 
 			$el.find(".move-bar").hide();
@@ -216,6 +219,7 @@ function PokeSelect(element, i){
 		var $bar = $el.find(".move-bar").eq(index);
 
 		$bar.find(".bar").css("height", ((energy / selectedPokemon.chargedMoves[index].energy)*100)+"%");
+		$el.find(".energy-label .num").html(selectedPokemon.startEnergy + amount);
 
 		if(energy >= selectedPokemon.chargedMoves[index].energy){
 			$bar.addClass("active");
@@ -761,11 +765,19 @@ function PokeSelect(element, i){
 
 		var index = $el.find(".move-bar").index($(e.target).closest(".move-bar"));
 		var move = selectedPokemon.chargedMoves[index];
-		var dpe = Math.floor( (move.damage / move.energy) * 100) / 100;
+		var displayDamage = move.damage;
+		// If opponent exists, recalc damage using original stats
+		if(battle.getOpponent(self.index)){
+			var opponent = battle.getOpponent(selectedPokemon.index);
+			var effectiveness = opponent.typeEffectiveness[move.type];
+			displayDamage = battle.calculateDamageByStats(selectedPokemon.stats.atk, opponent.stats.def, effectiveness, move);
+		}
+
+		var dpe = Math.floor( (displayDamage / move.energy) * 100) / 100;
 
 		$tooltip.find(".name").html(move.name);
 		$tooltip.addClass(move.type);
-		$tooltip.find(".details").html(move.damage + ' damage<br>' + move.energy + ' energy<br>' + dpe + ' dpe');
+		$tooltip.find(".details").html(displayDamage + ' damage<br>' + move.energy + ' energy<br>' + dpe + ' dpe');
 
 		var width = $tooltip.width();
 		var left = (e.pageX - $(".section").first().offset().left) + 10;
@@ -813,6 +825,14 @@ function PokeSelect(element, i){
 		$el.find(".start-hp").val(currentHP);
 		$el.find(".start-energy").val(currentEnergy);
 		$el.find(".start-hp").trigger("keyup");
+		$el.find(".start-energy").trigger("keyup");
+	});
+
+	// Add one Fast Move worth of energy to the energy field
+
+	$el.find(".add-fast-move").on("click", function(e){
+		var startEnergy = Math.min(selectedPokemon.startEnergy + selectedPokemon.fastMove.energyGain, 100);
+		$el.find(".start-energy").val(startEnergy);
 		$el.find(".start-energy").trigger("keyup");
 	});
 

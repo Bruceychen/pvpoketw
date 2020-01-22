@@ -1,42 +1,42 @@
 <?php require_once 'header.php'; ?>
 
 <div class="section home white">
-    <p>歡迎來到 PvPokeTW.com! 這是一個基於 <a href="pvpoke.com">pvpoke.com</a> 的非官方繁中翻譯版，針對 Pokemon GO PVP(玩家間對戰) 的開源平台。</p>
+	<p>歡迎來到 PvPokeTW.com! 這是一個基於 <a href="pvpoke.com">pvpoke.com</a> 的非官方繁中翻譯版，針對 Pokemon GO PVP(玩家間對戰) 的開源平台。</p>
 
-    <a href="<?php echo $WEB_ROOT; ?>battle/" class="button">
-        <h2 class="icon-battle">戰鬥模擬計算</h2>
-        <p>指定兩隻或多隻寶可夢進行模擬戰鬥並計算各種數據</p>
-    </a>
-    <a href="<?php echo $WEB_ROOT; ?>train/" class="button">
-        <h2 class="icon-train">AI對戰訓練</h2>
-        <p>與AI進行模擬真實狀況的即時戰鬥訓練</p>
-    </a>
-    <a href="<?php echo $WEB_ROOT; ?>rankings/" class="button">
-        <h2 class="icon-rankings">寶可夢排名</h2>
-        <p>各聯盟、主題賽中所有寶可夢的招式與戰鬥能力排行</p>
-    </a>
-    <a href="<?php echo $WEB_ROOT; ?>team-builder/" class="button">
-        <h2 class="icon-team">隊伍組建模擬</h2>
-        <p>組建隊伍，並且找出屬性優劣勢與潛在威脅</p>
-    </a>
-    <a href="<?php echo $WEB_ROOT; ?>contribute/" class="button">
-        <h2 class="icon-contribute">貢獻一己之力</h2>
-        <p>網站原始程式碼位置以及贊助原作者(非譯者)</p>
-    </a>
+	<a href="<?php echo $WEB_ROOT; ?>battle/" class="button">
+		<h2 class="icon-battle">戰鬥模擬計算</h2>
+		<p>指定兩隻或多隻寶可夢進行模擬戰鬥並計算各種數據</p>
+	</a>
+	<a href="<?php echo $WEB_ROOT; ?>train/" class="button">
+		<h2 class="icon-train">AI對戰訓練</h2>
+		<p>與AI進行模擬真實狀況的即時戰鬥訓練</p>
+	</a>
+	<a href="<?php echo $WEB_ROOT; ?>rankings/" class="button">
+		<h2 class="icon-rankings">寶可夢排名</h2>
+		<p>各聯盟、主題賽中所有寶可夢的招式與戰鬥能力排行</p>
+	</a>
+	<a href="<?php echo $WEB_ROOT; ?>team-builder/" class="button">
+		<h2 class="icon-team">隊伍組建模擬</h2>
+		<p>組建隊伍，並且找出屬性優劣勢與潛在威脅</p>
+	</a>
+	<a href="<?php echo $WEB_ROOT; ?>contribute/" class="button">
+		<h2 class="icon-contribute">貢獻一己之力</h2>
+		<p>網站原始程式碼位置以及贊助原作者(非譯者)</p>
+	</a>
 
     <!--Update section for updates-->
     <h3>更新紀錄</h3>
 
-	<h4>v1.12.24 (January 20, 2020)</h4>
-	<ul>
-        <li>Fixed an issue where damage displayed in Charged Move tooltips was sometimes incorrect.
+    <h4>v1.12.25 (January 21, 2020)</h4>
+    <ul>
+        <li>Attack stat now determines Charged Move ties:
             <ul>
-                <li>If any stat changes were applied in battle, the tooltip would show the damage with these stat changes applied. The tooltip now shows the original damage value.</li>
+                <li>Ties are determined by the Pokemon's actual Attack stat, which factors in the base stat, Attack IV, and level.</li>
             </ul>
         </li>
-        <li>Exact energy amount is now displayed next to the Charged Move meters.</li>
-        <li>Added a button in the "Options" section that adds energy from the selected Pokemon's Fast Move. This allows you to quickly check how a Pokemon performs with a few moves' headstart.</li>
-	</ul>
+        <li>Sims, rankings, and Training Battles are updated with the new CMP tiebreaker.</li>
+        <li>Added a new Charged Move Ties section in the battle details that show the Attack values a Pokemon needs to hit to win Charged Move ties.</li>
+    </ul>
 
 	<h3>Latest Article</h3>
 
@@ -84,8 +84,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Wed Jan 22 11:30:17 2020 +0800</li>
-                <li>原版最後版本時間：Tue Jan 21 16:03:21 2020 -0600</li>
+                <li>中文版最後更新時間：Wed Jan 22 23:50:17 2020 +0800</li>
+                <li>原版最後版本時間：Tue Jan 21 21:45:23 2020 -0600</li>
 
             </ul>
 </div>

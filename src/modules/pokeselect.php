@@ -111,7 +111,6 @@
 				<button class="add-fast-move">+ Move</button>
 				<button class="pull-from-timeline">從時間軸擷取</button>
 				<div class="check shield-baiting on"><span></span>用低能量需求招式引誘對手使用防禦網</div>
-				<div class="check priority"><span></span>特殊招式優先使用</div>
 			</div>
 		</div>
 

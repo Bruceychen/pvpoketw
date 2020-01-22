@@ -36,8 +36,8 @@ require_once '../header.php';
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>
-                <option value="1500 rose">Rose Cup</option>
-                <option value="1500 fusion">融合盃</option>
+				<option value="1500 rose">Rose Cup</option>
+				<option value="1500 fusion">融合盃</option>
 			</select>
 			<h3 class="section-title">AI 強度</h3>
 			<select class="difficulty-select">
@@ -66,8 +66,8 @@ require_once '../header.php';
 					</a>
 					<p></p>
 					<h5>Team Preview</h5>
-                    <div class="featured-team-preview">
-                    </div>
+					<div class="featured-team-preview">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -122,15 +122,14 @@ require_once '../header.php';
 <div class="section white updates">
 	<h3>更新紀錄</h3>
 
-    <h4>v1.12.23 (January 12, 2019)</h4>
+    <h4>v1.12.25 (January 21, 2020)</h4>
     <ul>
-        <li>Fusion Cup featured teams are now available, featuring teams from DarkMatterWolf, JayDevin, Kieng, KnightsOoofRen, and ValorAsh!</li>
-    </ul>
-
-    <h4>v1.12.22 (January 10, 2019)</h4>
-    <ul>
-        <li>Fixed an issue where the end-game window could cover the switch button on smaller screens</li>
-        <li>Fixed an issue where move names would display incorrectly for Pokemon with only one Charged Move</li>
+        <li>Attack stat now determines Charged Move ties:
+            <ul>
+                <li>Ties are determined by the Pokemon's actual Attack stat, which factors in the base stat, Attack IV, and level.</li>
+            </ul>
+        </li>
+        <li>Sims, rankings, and Training Battles are updated with the new CMP tiebreaker.</li>
     </ul>
 </div>
 

@@ -24,9 +24,13 @@
 		<p>網站原始程式碼位置以及贊助原作者(非譯者)</p>
 	</a>
 
-    <!--Update section for updates-->
-    <h3>更新紀錄</h3>
+	<!--Update section for updates-->
+	<h3>更新紀錄</h3>
 
+	<h4>v1.12.26 (January 22, 2020)</h4>
+	<ul>
+        <li>Pokemon stat values are now listed in the rankings. They display the range of minimum to maximum possible values. Get set to study those Attack stats!</li>
+    </ul>
     <h4>v1.12.25 (January 21, 2020)</h4>
     <ul>
         <li>Attack stat now determines Charged Move ties:
@@ -84,8 +88,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Wed Jan 22 23:50:17 2020 +0800</li>
-                <li>原版最後版本時間：Tue Jan 21 21:45:23 2020 -0600</li>
+                <li>中文版最後更新時間：Thu Jan 23 10:57:17 2020 +0800</li>
+                <li>原版最後版本時間：Wed Jan 22 14:24:58 2020 -0600</li>
 
             </ul>
 </div>

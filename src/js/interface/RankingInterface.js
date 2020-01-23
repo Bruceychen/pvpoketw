@@ -397,6 +397,7 @@ var InterfaceMaster = (function () {
 
 				var r = data[index];
 				var pokemon = new Pokemon(r.speciesId, 0, battle);
+				pokemon.initialize();
 
 				// If overall, display score for each category
 
@@ -447,8 +448,8 @@ var InterfaceMaster = (function () {
 				chargedMoves.sort((a,b) => (a.uses > b.uses) ? -1 : ((b.uses > a.uses) ? 1 : 0));
 
 				// Buckle up, this is gonna get messy. This is the main detail HTML.
-				// 以下這行介面翻譯
-				$details.append("<div class=\"detail-section float margin\"><div class=\"ranking-header\">一般招式</div><div class=\"ranking-header right\">使用頻率</div><div class=\"moveset fast clear\"></div></div><div class=\"detail-section float\"><div class=\"ranking-header\">特殊招式</div><div class=\"ranking-header right\">使用頻率</div><div class=\"moveset charged clear\"></div></div><div class=\"detail-section float margin\">  <div class=\"ranking-header\">最佳剋制對象</div><div class=\"ranking-header right\">模擬戰鬥得分</div><div class=\"matchups clear\"></div></div><div class=\"detail-section float\"><div class=\"ranking-header\">首要威脅來源</div><div class=\"ranking-header right\">模擬戰鬥得分</div><div class=\"counters clear\"></div></div><div class=\"clear\"></div><div class=\"share-link detail-section\"><input type=\"text\" readonly><div class=\"copy\">複製網址</div></div></div>");
+
+				$details.append($(".details-template.hide").html());
 
 				// Need to calculate percentages
 
@@ -554,6 +555,30 @@ var InterfaceMaster = (function () {
 
 					$details.find(".counters").append($item);
 				}
+
+				// Display Pokemon's stat ranges
+
+				var statRanges = {
+					atk: {
+						min: pokemon.generateIVCombinations("atk", -1, 1)[0].atk,
+						max: pokemon.generateIVCombinations("atk", 1, 1)[0].atk,
+					},
+					def: {
+						min: pokemon.generateIVCombinations("def", -1, 1)[0].def,
+						max: pokemon.generateIVCombinations("def", 1, 1)[0].def,
+					},
+					hp: {
+						min: pokemon.generateIVCombinations("hp", -1, 1)[0].hp,
+						max: pokemon.generateIVCombinations("hp", 1, 1)[0].hp,
+					}
+				};
+
+				$details.find(".stats .rating").eq(0).html(Math.round(statRanges.atk.min * 10) / 10);
+				$details.find(".stats .rating").eq(1).html(Math.round(statRanges.atk.max * 10) / 10);
+				$details.find(".stats .rating").eq(2).html(Math.round(statRanges.def.min * 10) / 10);
+				$details.find(".stats .rating").eq(3).html(Math.round(statRanges.def.max * 10) / 10);
+				$details.find(".stats .rating").eq(4).html(Math.round(statRanges.hp.min * 10) / 10);
+				$details.find(".stats .rating").eq(5).html(Math.round(statRanges.hp.max * 10) / 10);
 
 				// Show share link
 				var cup = $(".cup-select option:selected").val();

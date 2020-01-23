@@ -160,7 +160,6 @@ require_once 'header.php';
 </div>
 
 <div class="section about white">
-
 	<a class="toggle" href="#">About Rankings <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content">
 		<p>How do you know which Pokemon are the best for Trainer Battles? That question has countless answers, and below we'll go over how we arrived at ours, and how you can make the most of the rankings here.</p>
@@ -252,6 +251,50 @@ require_once 'header.php';
 			<td>"!water"</td>
 		</tr>
 	</table>
+</div>
+
+<div class="details-template hide">
+    <div class="detail-section float margin">
+        <div class="ranking-header">Fast Moves</div>
+        <div class="ranking-header right">Usage</div>
+        <div class="moveset fast clear"></div>
+    </div>
+    <div class="detail-section float">
+        <div class="ranking-header">Charged Moves</div>
+        <div class="ranking-header right">Usage</div>
+        <div class="moveset charged clear"></div>
+    </div>
+    <div class="detail-section float margin">
+        <div class="ranking-header">Key Matchups</div>
+        <div class="ranking-header right">Battle Rating</div>
+        <div class="matchups clear"></div>
+    </div>
+    <div class="detail-section float">
+        <div class="ranking-header">Top Counters</div>
+        <div class="ranking-header right">Battle Rating</div>
+        <div class="counters clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div class="detail-section stats">
+        <div class="rating-container">
+            <div class="ranking-header">Attack</div>
+            <div class="rating"></div>&nbsp;-
+            <div class="rating"></div>
+        </div>
+        <div class="rating-container">
+            <div class="ranking-header">Defense</div>
+            <div class="rating"></div>&nbsp;-
+            <div class="rating"></div>
+        </div>
+        <div class="rating-container">
+            <div class="ranking-header">Stamina</div>
+            <div class="rating"></div>&nbsp;-
+            <div class="rating"></div>
+        </div>
+    </div>
+    <div class="share-link detail-section"><input type="text" readonly="">
+        <div class="copy">Copy</div>
+    </div>
 </div>
 
 <!--test 2-->

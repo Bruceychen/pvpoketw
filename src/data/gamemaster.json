@@ -12036,22 +12036,6 @@
 		"fastMoves": ["BITE", "AIR_SLASH"],
 		"chargedMoves": ["GRASS_KNOT", "DARK_PULSE", "HYPER_BEAM", "HURRICANE"],
 		"defaultIVs": {
-			"cp1500": [20, 15, 15, 15],
-			"cp2500": [20, 15, 15, 15]
-		}
-	}, {
-		"dex": 641,
-		"speciesId": "tornadus_incarnate",
-		"speciesName": "龍捲雲 化身型態",
-		"baseStats": {
-			"atk": 266,
-			"def": 164,
-			"hp": 188
-		},
-		"types": ["flying", "none"],
-		"fastMoves": ["BITE", "AIR_SLASH"],
-		"chargedMoves": ["GRASS_KNOT", "DARK_PULSE", "HYPER_BEAM", "HURRICANE"],
-		"defaultIVs": {
 			"cp1500": [17, 4, 10, 4],
 			"cp2500": [27.5, 1, 10, 15]
 		}
@@ -12070,22 +12054,6 @@
 		"defaultIVs": {
 			"cp1500": [17.5, 3, 5, 13],
 			"cp2500": [28, 11, 10, 15]
-		}
-	}, {
-		"dex": 642,
-		"speciesId": "thundurus_incarnate",
-		"speciesName": "雷電雲 化身型態",
-		"baseStats": {
-			"atk": 266,
-			"def": 164,
-			"hp": 188
-		},
-		"types": ["electric", "flying"],
-		"fastMoves": ["ASTONISH", "THUNDER_SHOCK"],
-		"chargedMoves": ["CRUNCH", "THUNDER", "BRICK_BREAK", "THUNDER_PUNCH"],
-		"defaultIVs": {
-			"cp1500": [20, 15, 15, 15],
-			"cp2500": [20, 15, 15, 15]
 		}
 	}, {
 		"dex": 642,

@@ -27,10 +27,17 @@
 	<!--Update section for updates-->
 	<h3>更新紀錄</h3>
 
-	<h4>v1.12.26 (January 22, 2020)</h4>
+
+    <h4>v1.12.27 (January 23, 2020)</h4>
+    <ul>
+        <li>Rankings and simulations are updated with the latest movepool changes and move rebalances! Explore Spark Lanturn or take a peek at the new and improved Megahorn!</li>
+    </ul>
+
+    <h4>v1.12.26 (January 22, 2020)</h4>
 	<ul>
         <li>Pokemon stat values are now listed in the rankings. They display the range of minimum to maximum possible values. Get set to study those Attack stats!</li>
     </ul>
+
     <h4>v1.12.25 (January 21, 2020)</h4>
     <ul>
         <li>Attack stat now determines Charged Move ties:
@@ -88,8 +95,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Thu Jan 23 10:57:17 2020 +0800</li>
-                <li>原版最後版本時間：Wed Jan 22 14:24:58 2020 -0600</li>
+                <li>中文版最後更新時間：Fri Jan 24 16:58:17 2020 +0800</li>
+                <li>原版最後版本時間：Thu Jan 23 03:24:58 2020 -0600</li>
 
             </ul>
 </div>

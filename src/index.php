@@ -27,6 +27,18 @@
 	<!--Update section for updates-->
 	<h3>更新紀錄</h3>
 
+    <h4>v1.12.28 (January 25, 2020)</h4>
+    <ul>
+        <li>Tweaked "near faint" checks to account for Attack-based CMP</li>
+        <ul>
+            <li>Pokemon would sometimes not fire off Charged Moves before fainting against Pokemon with higher Attack.</li>
+        </ul>
+        <li>Superpower is no longer treated like Power-Up Punch or Acid Spray when determining shields</li>
+        <ul>
+            <li>Attack decreases with Superpower, so it's optimal to shield the earlier attack.</li>
+        </ul>
+        <li>Best buddy level cap option in Multi-Battle is now properly set to level 41.</li>
+    </ul>
 
     <h4>v1.12.27 (January 23, 2020)</h4>
     <ul>
@@ -95,8 +107,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sat Jan 25 12:46:17 2020 +0800</li>
-                <li>原版最後版本時間：Fri Jan 24 10:26:33 2020 -0600</li>
+                <li>中文版最後更新時間：Sun Jan 26 10:46:17 2020 +0800</li>
+                <li>原版最後版本時間：Sat Jan 25 13:20:00 2020 -0600</li>
 
             </ul>
 </div>

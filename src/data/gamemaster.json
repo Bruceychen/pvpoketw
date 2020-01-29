@@ -137,23 +137,23 @@
 		"title": "Cliffhanger",
 		"include": [],
 		"exclude": []
+	}, {
+		"name": "sinister",
+		"title": "Sinister Cup",
+		"include": [{
+			"filterType": "type",
+			"values": ["ghost", "psychic", "fighting", "steel"]
+		}],
+		"exclude": [{
+			"filterType": "id",
+			"values": ["skarmory", "hypno"]
 		}, {
-			"name": "sinister",
-			"title": "Sinister Cup",
-			"include": [{
-				"filterType": "type",
-				"values": ["ghost", "psychic", "fighting", "steel"]
-			}],
-			"exclude": [{
-				"filterType": "id",
-				"values": ["skarmory", "hypno"]
-			}, {
-				"filterType": "tag",
-				"values": ["mythical"]
-			}, {
-				"filterType": "type",
-				"values": ["dark"]
-			}]
+			"filterType": "tag",
+			"values": ["mythical"]
+		}, {
+			"filterType": "type",
+			"values": ["dark"]
+		}]
 	}, {
 		"name": "ferocious",
 		"title": "Ferocious Cup",
@@ -163,13 +163,26 @@
 		}],
 		"exclude": []
 	},{
-		"name": "plaguetw",
+		"name": "plague",
 		"title": "Plague Cup",
+		"restrictedPicks": 2,
+		"restrictedPokemon": ["jirachi","swampert","drapion","ivysaur","venusaur","victreebel","skuntank","muk_alolan","mantine","azumarill","bronzong","deoxys_defense","mew","lugia"],
 		"include": [{
 			"filterType": "type",
-			"values": ["water", "psychic", "fighting", "poison"]
+			"values": ["fighting","poison","psychic","water"]
 		}],
 		"exclude": []
+	}, {
+		"name": "growing",
+		"title": "Growing Cup",
+		"include": [],
+		"exclude": [{
+				"filterType": "id",
+				"values": ["weezing_galarian","zigzagoon_galarian","linoone_galarian"]
+			}, {
+				"filterType": "tag",
+				"values": ["legendary", "mythical"]
+		}]
 	}, {
 		"name": "timeless",
 		"title": "Timeless Cup",

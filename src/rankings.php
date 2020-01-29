@@ -94,13 +94,13 @@ switch($cup){
 		$league = 'Rose Cup';
         break;
 
-	case "rainbowtw":
-        $league = 'Rainbow Cup Taiwan';
-		break;
-
-	case "plaguetw":
-            $league = 'Plague Cup Taiwan';
+	case "plague":
+            $league = 'Plague Cup';
     		break;
+
+    case "growing":
+        $league = 'Growing Cup';
+        break;
 
     case "llove":
             $league = 'LLove Cup';

@@ -9,14 +9,6 @@
     <option value="community">各地社群自創盃賽</option>
 
 	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
-		<option value="custom" cup="custom">成長盃</option>
-	<?php endif; ?>
-
-    <?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
-        <option value="custom" cup="custom">瘟疫盃</option>
-    <?php endif; ?>
-
-	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
 		<option value="custom" cup="custom">自訂排名</option>
 	<?php endif; ?>
 
@@ -28,6 +20,8 @@
 	<option value="safari" cat="community">Montreal Safari Cup</option>
 	<option value="fantasy" cat="community">GO LIVE Fantasy Cup</option>
     <option value="llove" cat="community">LLove Cup-高雄群</option>
+    <option value="growing" cat="community">成長盃-高雄群</option>
+    <option value="plague" cat="community">瘟疫盃-高雄群</option>
 	<option value="jungle"  cat="tsa-1">叢林盃</option>
 	<option value="rainbow" cat="tsa-1">彩虹盃</option>
 	<option value="championships-1" cat="tsa-1">第一季冠軍賽</option>

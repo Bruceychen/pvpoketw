@@ -34,6 +34,7 @@ require_once '../header.php';
 			<h3 class="section-title">聯盟 &amp; 主題盃賽</h3>
 			<select class="league-cup-select">
                 <option value="" selected disabled>選擇聯盟/主題盃賽</option>
+                <option value="1500 gobattleleague">GO 對戰聯盟(1500)</option>
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>
@@ -123,14 +124,12 @@ require_once '../header.php';
 <div class="section white updates">
 	<h3>更新紀錄</h3>
 
-    <h4>v1.12.25 (January 21, 2020)</h4>
+    <h4>v1.12.30 (January 29, 2020)</h4>
     <ul>
-        <li>Attack stat now determines Charged Move ties:
-            <ul>
-                <li>Ties are determined by the Pokemon's actual Attack stat, which factors in the base stat, Attack IV, and level.</li>
-            </ul>
-        </li>
-        <li>Sims, rankings, and Training Battles are updated with the new CMP tiebreaker.</li>
+        <li>GO 對戰聯盟(官方遊戲內建天梯聯盟)選項已加入至AI模擬對戰！</li>
+        <ul>
+            <li>此賽制僅限 3v3 且出場寶可夢池已有調整過。</li>
+        </ul>
     </ul>
 </div>
 

@@ -20,6 +20,11 @@
 		"include": [],
 		"exclude": []
 	}, {
+		"name": "gobattleleague",
+		"title": "GO Battle League",
+		"include": [],
+		"exclude": []
+	}, {
 		"name": "boulder",
 		"title": "Boulder Cup",
 		"include": [{
@@ -187,6 +192,13 @@
 			"filterType": "id",
 			"values": ["umbreon", "sableye"]
 		}]
+	}, {
+		"name": "llove",
+		"title": "LLove Cup",
+		"restrictedPicks": 1,
+		"restrictedPokemon": ["azumarill","skarmory","tropius","altaria","bastiodon","probopass","venusaur","sableye","bronzong","hypno","ivysaur","meganium","swampert","medicham","zweilous","umbreon","lanturn","mew","jirachi","meltan","melmetal","darkrai","deoxys","deoxys_attack","deoxys_defense","deoxys_speed","regirock","regice","registeel","regigigas"],
+		"include": [],
+		"exclude": []
 	}, {
 		"name": "fusion",
 		"title": "Fusion Cup",

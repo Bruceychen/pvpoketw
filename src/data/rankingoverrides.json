@@ -2530,6 +2530,16 @@
 	},
 	{
 		"league": 1500,
+		"cup": "llove",
+		"pokemon": [
+			{
+				"speciesId": "lanturn",
+				"fastMove": "SPARK"
+			}
+		]
+	},
+	{
+		"league": 1500,
 		"cup": "rose",
 		"pokemon": [
 			{

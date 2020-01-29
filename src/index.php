@@ -27,39 +27,13 @@
 	<!--Update section for updates-->
 	<h3>更新紀錄</h3>
 
-    <h4>v1.12.28 (January 25, 2020)</h4>
-    <ul>
-        <li>Tweaked "near faint" checks to account for Attack-based CMP</li>
-        <ul>
-            <li>Pokemon would sometimes not fire off Charged Moves before fainting against Pokemon with higher Attack.</li>
-        </ul>
-        <li>Superpower is no longer treated like Power-Up Punch or Acid Spray when determining shields</li>
-        <ul>
-            <li>Attack decreases with Superpower, so it's optimal to shield the earlier attack.</li>
-        </ul>
-        <li>Best buddy level cap option in Multi-Battle is now properly set to level 41.</li>
-    </ul>
-
-    <h4>v1.12.27 (January 23, 2020)</h4>
-    <ul>
-        <li>Rankings and simulations are updated with the latest movepool changes and move rebalances! Explore Spark Lanturn or take a peek at the new and improved Megahorn!</li>
-    </ul>
-
-    <h4>v1.12.26 (January 22, 2020)</h4>
+	<h4>v1.12.30 (January 29, 2020)</h4>
 	<ul>
-        <li>Pokemon stat values are now listed in the rankings. They display the range of minimum to maximum possible values. Get set to study those Attack stats!</li>
-    </ul>
-
-    <h4>v1.12.25 (January 21, 2020)</h4>
-    <ul>
-        <li>Attack stat now determines Charged Move ties:
-            <ul>
-                <li>Ties are determined by the Pokemon's actual Attack stat, which factors in the base stat, Attack IV, and level.</li>
-            </ul>
-        </li>
-        <li>Sims, rankings, and Training Battles are updated with the new CMP tiebreaker.</li>
-        <li>Added a new Charged Move Ties section in the battle details that show the Attack values a Pokemon needs to hit to win Charged Move ties.</li>
-    </ul>
+		<li>GO 對戰聯盟(官方遊戲內建天梯聯盟)選項已加入至AI模擬對戰！</li>
+		<ul>
+			<li>此賽制僅限 3v3 且出場寶可夢池已有調整過。</li>
+		</ul>
+	</ul>
 
 	<h3>Latest Article</h3>
 
@@ -107,8 +81,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sun Jan 26 10:46:17 2020 +0800</li>
-                <li>原版最後版本時間：Sat Jan 25 13:20:00 2020 -0600</li>
+                <li>中文版最後更新時間：Thu Jan 30 00:12:17 2020 +0800</li>
+                <li>原版最後版本時間：Wed Jan 29 08:14:43 2020 -0600</li>
 
             </ul>
 </div>

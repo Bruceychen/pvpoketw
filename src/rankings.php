@@ -82,9 +82,9 @@ switch($cup){
 		$league = 'Ferocious Cup';
 		break;
 
-    case "timeless":
-        $league = 'Timeless Cup';
-        break;
+	case "timeless":
+		$league = 'Timeless Cup';
+		break;
 
 	case "fusion":
 		$league = 'Fusion Cup';
@@ -92,7 +92,7 @@ switch($cup){
 
 	case "rose":
 		$league = 'Rose Cup';
-        break;
+		break;
 
 	case "plague":
             $league = 'Plague Cup';
@@ -121,12 +121,11 @@ require_once 'header.php';
 	<?php require 'modules/cupselect.php'; ?>
 
 	<div class="ranking-categories">
-    		<a class="selected" href="#" data="overall">Overall</a>
-    		<a href="#" data="leads">Leads</a>
-    		<a href="#" data="closers">Closers</a>
-    		<a href="#" data="attackers">Attackers</a>
-    		<a href="#" data="defenders">Defenders</a>
-    	</div>
+        <a class="selected" href="#" data="overall" scenario="leads">Overall</a>
+        <a href="#" data="leads" scenario="leads">Leads</a>
+        <a href="#" data="closers" scenario="closers">Closers</a>
+        <a href="#" data="switches" scenario="switches">Switches</a>
+    </div>
 
 	<div class="clear"></div>
 

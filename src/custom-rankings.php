@@ -27,7 +27,42 @@ require_once 'header.php'; ?>
 		<div class="filters" list-index="1">
 		</div>
 		<button class="add-filter" list-index="1">+ 增加篩選條件</button>
-	</div>
+    </div>
+
+    <a class="toggle" href="#">Advanced <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+    <div class="toggle-content advanced">
+        <div class="flex-section">
+            <div>
+                <h3 class="section-title">Subject Shields</h3>
+                <select class="subject-shield-select" index="0">
+                    <option value="0">No shields</option>
+                    <option value="1" selected>1 shield</option>
+                    <option value="2">2 shields</option>
+                </select>
+            </div>
+            <div>
+                <h3 class="section-title">Target Shields</h3>
+                <select class="target-shield-select" index="1">
+                    <option value="0">No shields</option>
+                    <option value="1" selected>1 shield</option>
+                    <option value="2">2 shields</option>
+                </select>
+            </div>
+        </div>
+        <div class="flex-section">
+            <div>
+                <h3 class="section-title">Subject Energy<br>Advantage</h3>
+                <input type="number" class="subject-turns" index="0" placeholder="Turns" />
+            </div>
+            <div>
+                <h3 class="section-title">Target Energy<br>Advantage</h3>
+                <input type="number" class="target-turns" index="1" placeholder="Turns" />
+            </div>
+        </div>
+        <h3 class="section-title">Import League or Cup</h3>
+        <?php require_once 'modules/cupselect.php'; ?>
+        <p>Import the rulesets and recommended moves from an existing format.</p>
+    </div>
 
 	<div class="filter clone hide">
 		<a class="toggle" href="#"><span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span> <span class="name">Filter Name</span></a>
@@ -143,7 +178,7 @@ require_once 'header.php'; ?>
 	<h3>匯入/匯出 設定</h3>
 
 	<p>複製底下代碼以分享或保存此排名設定。或是貼上其他排名之設定代碼以匯入。
-	
+
 	<textarea class="import"></textarea>
 	<div class="copy">複製</div>
 </div>

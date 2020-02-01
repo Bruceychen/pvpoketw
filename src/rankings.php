@@ -143,8 +143,10 @@ require_once 'header.php';
     <p class="description attackers hide"><b>在面對使用防禦網的對手時，即便自身不使用防禦網也能有出色戰果的寶可夢。</b>此類寶可夢有絕佳的個體、抗性以及強大的攻擊能力，能夠有效對抗具備優越防禦能力的對手。</p>
 	<p class="description attackers hide"><b>(The best Pokemon against shielded opponents, while unshielded.</b> Their natural bulk, resistances, and strong attacks allow them to succeed against sturdy defenses.)</p>
 
-	<p class="description defenders hide"><b>在面對沒有使用防禦網的對手時，只要自己使用，就能發揮優秀性能的寶可夢。</b>此類寶可夢先天具備能夠承受大量傷害的能力，在面對強大對手時更能看到勝利的機會。</p>
-	<p class="description defenders hide"><b>(The best Pokemon while shielded, against unshielded opponents.</b> Able to absorb incredible damage, they can emerge victorious against top opponents.)</p>
+    <p class="description switches hide"><b>原版尚未給出switches定義，但可參考這篇<a href="https://twitter.com/pvpoke/status/1222947368980688897?s=20" target="_blank">推特</a>討論。</b></p>
+
+    <p class="description consistency hide"><b>原版尚未給出consistency定義，但可參考這篇<a href="https://twitter.com/pvpoke/status/1185701419602497536?s=20" target="_blank">推特</a>討論。</b></p>
+
 
 	<p>點擊以下各寶可夢可獲得更詳細的資料。</p>
 
@@ -260,45 +262,45 @@ require_once 'header.php';
 
 <div class="details-template hide">
     <div class="detail-section float margin">
-        <div class="ranking-header">Fast Moves</div>
-        <div class="ranking-header right">Usage</div>
+        <div class="ranking-header">一般招式</div>
+        <div class="ranking-header right">使用率</div>
         <div class="moveset fast clear"></div>
     </div>
     <div class="detail-section float">
-        <div class="ranking-header">Charged Moves</div>
-        <div class="ranking-header right">Usage</div>
+        <div class="ranking-header">特殊招式</div>
+        <div class="ranking-header right">使用率</div>
         <div class="moveset charged clear"></div>
     </div>
     <div class="detail-section float margin">
-        <div class="ranking-header">Key Matchups</div>
+        <div class="ranking-header">最佳剋制對象</div>
         <div class="ranking-header right">Battle Rating</div>
         <div class="matchups clear"></div>
     </div>
     <div class="detail-section float">
-        <div class="ranking-header">Top Counters</div>
+        <div class="ranking-header">首要威脅來源</div>
         <div class="ranking-header right">Battle Rating</div>
         <div class="counters clear"></div>
     </div>
     <div class="clear"></div>
     <div class="detail-section stats">
         <div class="rating-container">
-            <div class="ranking-header">Attack</div>
+            <div class="ranking-header">攻擊力範圍</div>
             <div class="rating"></div>&nbsp;-
             <div class="rating"></div>
         </div>
         <div class="rating-container">
-            <div class="ranking-header">Defense</div>
+            <div class="ranking-header">防禦力範圍</div>
             <div class="rating"></div>&nbsp;-
             <div class="rating"></div>
         </div>
         <div class="rating-container">
-            <div class="ranking-header">Stamina</div>
+            <div class="ranking-header">體力(HP)範圍</div>
             <div class="rating"></div>&nbsp;-
             <div class="rating"></div>
         </div>
     </div>
     <div class="share-link detail-section"><input type="text" readonly="">
-        <div class="copy">Copy</div>
+        <div class="copy">複製</div>
     </div>
 </div>
 

@@ -9,7 +9,8 @@ require_once 'header.php'; ?>
 
 <h1>自訂排名</h1>
 <div class="section white custom-rankings">
-	<p>This tool will generate high-level rankings to help you develop a custom cup or tournament. Select your rulesets below for which Pokemon to include or exclude.</p>
+	<p>(This tool will generate high-level rankings to help you develop a custom cup or tournament. Select your rulesets below for which Pokemon to include or exclude.)</p>
+    <p>此工具可以產生任何自訂規則與條件的寶可夢排名，以利於您調整規劃任何主題盃賽。可由以下工具調整哪些條件寶可夢要包含/不包含進排名中。</p>
 
 	<?php require 'modules/leagueselect.php'; ?>
 
@@ -29,23 +30,23 @@ require_once 'header.php'; ?>
 		<button class="add-filter" list-index="1">+ 增加篩選條件</button>
     </div>
 
-    <a class="toggle" href="#">Advanced <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+    <a class="toggle" href="#">進階設定 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
     <div class="toggle-content advanced">
         <div class="flex-section">
             <div>
-                <h3 class="section-title">Subject Shields</h3>
+                <h3 class="section-title">我方防護網使用策略</h3>
                 <select class="subject-shield-select" index="0">
-                    <option value="0">No shields</option>
-                    <option value="1" selected>1 shield</option>
-                    <option value="2">2 shields</option>
+                    <option value="0">不使用</option>
+                    <option value="1" selected>使用1個防護網</option>
+                    <option value="2">使用2個防護網</option>
                 </select>
             </div>
             <div>
-                <h3 class="section-title">Target Shields</h3>
+                <h3 class="section-title">對方防護網使用策略</h3>
                 <select class="target-shield-select" index="1">
-                    <option value="0">No shields</option>
-                    <option value="1" selected>1 shield</option>
-                    <option value="2">2 shields</option>
+                    <option value="0">不使用</option>
+                    <option value="1" selected>使用1個防護網</option>
+                    <option value="2">使用2個防護網</option>
                 </select>
             </div>
         </div>
@@ -59,9 +60,9 @@ require_once 'header.php'; ?>
                 <input type="number" class="target-turns" index="1" placeholder="Turns" />
             </div>
         </div>
-        <h3 class="section-title">Import League or Cup</h3>
+        <h3 class="section-title">匯入聯盟或主題盃賽</h3>
         <?php require_once 'modules/cupselect.php'; ?>
-        <p>Import the rulesets and recommended moves from an existing format.</p>
+        <p>匯入既有聯盟或主題盃賽之規則及推薦的招式組合。</p>
     </div>
 
 	<div class="filter clone hide">
@@ -138,7 +139,10 @@ require_once 'header.php'; ?>
 					<li><strong>第一世代：</strong> 1-151</li>
 					<li><strong>第二世代：</strong> 152-251</li>
 					<li><strong>第三世代：</strong> 252-386</li>
-					<li><strong>第四世代：</strong> 387-488</li>
+					<li><strong>第四世代：</strong> 387-493</li>
+                    <li><strong>第五世代：</strong> 494-649</li>
+                    <li><strong>第七世代：</strong> 722-809</li>
+                    <li><strong>第八世代：</strong> 810-890</li>
 				</ul>
 				<div class="field-container">
 					<input class="start-range" placeholder="Start #" />
@@ -169,8 +173,8 @@ require_once 'header.php'; ?>
 </div>
 
 <div class="section white custom-rankings-list">
-	<h3>Pokemon List (<span class="pokemon-count">0</span>)</h3>
-	<p>This list below contains eligible Pokemon for this cup. Pokemon that don't meet certain stat requirements, such as low CP Pokemon, aren't included for ranking purposes.</p>
+	<h3>寶可夢清單 (<span class="pokemon-count">0</span>)</h3>
+	<p>下面清單將列出符合條件的寶可夢。但部分未達特定標準的寶可夢，如CP太低等，將不會包含在清單中。</p>
 	<textarea class="pokemon-list"></textarea>
 </div>
 
@@ -239,45 +243,45 @@ require_once 'header.php'; ?>
 
 <div class="details-template hide">
 	<div class="detail-section float margin">
-	    <div class="ranking-header">Fast Moves</div>
-	    <div class="ranking-header right">Usage</div>
+	    <div class="ranking-header">一般招式</div>
+	    <div class="ranking-header right">使用率</div>
 	    <div class="moveset fast clear"></div>
 	</div>
 	<div class="detail-section float">
-	    <div class="ranking-header">Charged Moves</div>
-	    <div class="ranking-header right">Usage</div>
+	    <div class="ranking-header">特殊招式</div>
+	    <div class="ranking-header right">使用率</div>
 	    <div class="moveset charged clear"></div>
 	</div>
 	<div class="detail-section float margin">
-	    <div class="ranking-header">Key Matchups</div>
+	    <div class="ranking-header">最佳剋制對象</div>
 	    <div class="ranking-header right">Battle Rating</div>
 	    <div class="matchups clear"></div>
 	</div>
 	<div class="detail-section float">
-	    <div class="ranking-header">Top Counters</div>
+	    <div class="ranking-header">首要威脅來源</div>
 	    <div class="ranking-header right">Battle Rating</div>
 	    <div class="counters clear"></div>
 	</div>
 	<div class="clear"></div>
 	<div class="detail-section stats">
 	    <div class="rating-container">
-	        <div class="ranking-header">Attack</div>
+	        <div class="ranking-header">攻擊力範圍</div>
 	        <div class="rating"></div>&nbsp;-
 	        <div class="rating"></div>
 	    </div>
 	    <div class="rating-container">
-	        <div class="ranking-header">Defense</div>
+	        <div class="ranking-header">防禦力範圍</div>
 	        <div class="rating"></div>&nbsp;-
 	        <div class="rating"></div>
 	    </div>
 	    <div class="rating-container">
-	        <div class="ranking-header">Stamina</div>
+	        <div class="ranking-header">體力(HP)範圍</div>
 	        <div class="rating"></div>&nbsp;-
 	        <div class="rating"></div>
 	    </div>
 	</div>
 	<div class="share-link detail-section"><input type="text" readonly="">
-		<div class="copy">Copy</div>
+		<div class="copy">複製</div>
 	</div>
 </div>
 

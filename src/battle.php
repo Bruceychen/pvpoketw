@@ -50,7 +50,7 @@ require_once 'header.php';
 	<div class="battle-results single">
 		<div class="sandbox-btn-container">
 			<div class="sandbox-btn" title="Manually edit the timeline">
-				<span>Sandbox Mode</span>
+				<span>點選啟動沙盒模式</span>
 				<div class="btn-background"></div>
 			</div>
 			<div class="sandbox clear-btn" title="Clear Timeline"></div>
@@ -63,7 +63,7 @@ require_once 'header.php';
 			<div class="tracker"></div>
 		</div>
 		<div class="tip automated">點擊或將鼠標移動到時間軸上任意位置以獲得更精確資訊。<a href="<?php echo $WEB_ROOT; ?>articles/guide-to-fast-move-registration/">Read more</a> about the timeline.</div>
-		<div class="tip sandbox">Click the circles to edit actions.</div>
+		<div class="tip sandbox">點選單個圓圈以修改寶可夢行動。</div>
 		<div class="playback section white">
 			<div class="flex">
 				<div class="playback-btn replay"></div>
@@ -95,11 +95,11 @@ require_once 'header.php';
 		</div>
 
 		<div class="section white battle-details">
-			<a class="toggle active" href="#">Matchup Details <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+			<a class="toggle active" href="#">對戰詳細資料<span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 
 			<div class="toggle-content active">
 				<div class="matchup-detail-section">
-					<h2 class="center"><span class="name-1">Pokemon</span>'s Matchups vs. <span class="name-2">Pokemon</span></h2>
+					<h2 class="center"><span class="name-1">Pokemon</span> vs. <span class="name-2">Pokemon</span>的詳細對戰資料</h2>
 					<table class="rating-table" cellspacing="0">
 						<tr>
 							<td></td>
@@ -133,7 +133,7 @@ require_once 'header.php';
 							<td><a href="#" class="rating star battle-2-2" shields="2,2">100</a></td>
 						</tr>
 					</table>
-					<p class="center">Click or tap to view battles.</p>
+					<p class="center">點選上述分數觀看不同條件之結果</p>
 				</div>
 
 				<h2 class="center">Breakpoints &amp; Bulkpoints</h2>

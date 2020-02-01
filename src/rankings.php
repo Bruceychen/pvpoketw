@@ -121,11 +121,13 @@ require_once 'header.php';
 	<?php require 'modules/cupselect.php'; ?>
 
 	<div class="ranking-categories">
-        <a class="selected" href="#" data="overall" scenario="leads">Overall</a>
-        <a href="#" data="leads" scenario="leads">Leads</a>
-        <a href="#" data="closers" scenario="closers">Closers</a>
-        <a href="#" data="switches" scenario="switches">Switches</a>
-    </div>
+		<a class="selected" href="#" data="overall" scenario="leads">Overall</a>
+		<a href="#" data="leads" scenario="leads">Leads</a>
+		<a href="#" data="closers" scenario="closers">Closers</a>
+		<a href="#" data="switches" scenario="switches">Switches</a>
+		<a href="#" data="attackers" scenario="attackers">Attackers</a>
+		<a href="#" data="consistency" scenario="leads">Consistency</a>
+	</div>
 
 	<div class="clear"></div>
 

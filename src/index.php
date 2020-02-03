@@ -27,11 +27,14 @@
 	<!--Update section for updates-->
 	<h3>更新紀錄</h3>
 
-	<h4>v1.12.30 (January 29, 2020)</h4>
+	<h4>v1.12.31 (February 2, 2020)</h4>
 	<ul>
-		<li>GO 對戰聯盟(官方遊戲內建天梯聯盟)選項已加入至AI模擬對戰！</li>
+		<li>加入新的排行類別與修訂整體表現的計算公式：</li>
 		<ul>
-			<li>此賽制僅限 3v3 且出場寶可夢池已有調整過。</li>
+			<li>Added new "Switches" and "Chargers" categories to rank Pokemon as safe switches and with an energy advantage, respectively. Consistency score now has its own listing as well.</li>
+			<li>Removed the Defender category (shield advantage) from the rankings. This category was somewhat redundant with the Closer category and inflated scores for some Pokemon like Hitmontop and Heracross.</li>
+			<li>Added advanced options to Custom Rankings that allow you to rank in varied shield and energy scenarios, or quickly import the rules and movesets from an existing format.</li>
+			<li>Legendary Pokemon now have an IV floor of 1.</li>
 		</ul>
 	</ul>
 
@@ -81,8 +84,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sun Feb 2 13:57:17 2020 +0800</li>
-                <li>原版最後版本時間：Sat Feb 1 18:57:19 2020 -0600</li>
+                <li>中文版最後更新時間：Mon Feb 3 09:23:17 2020 +0800</li>
+                <li>原版最後版本時間：Sun Feb 2 12:31:45 2020 -0600</li>
 
             </ul>
 </div>

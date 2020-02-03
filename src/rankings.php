@@ -125,6 +125,7 @@ require_once 'header.php';
 		<a href="#" data="leads" scenario="leads">Leads</a>
 		<a href="#" data="closers" scenario="closers">Closers</a>
 		<a href="#" data="switches" scenario="switches">Switches</a>
+		<a href="#" data="chargers" scenario="chargers">Chargers</a>
 		<a href="#" data="attackers" scenario="attackers">Attackers</a>
 		<a href="#" data="consistency" scenario="leads">Consistency</a>
 	</div>
@@ -143,10 +144,11 @@ require_once 'header.php';
     <p class="description attackers hide"><b>在面對使用防禦網的對手時，即便自身不使用防禦網也能有出色戰果的寶可夢。</b>此類寶可夢有絕佳的個體、抗性以及強大的攻擊能力，能夠有效對抗具備優越防禦能力的對手。</p>
 	<p class="description attackers hide"><b>(The best Pokemon against shielded opponents, while unshielded.</b> Their natural bulk, resistances, and strong attacks allow them to succeed against sturdy defenses.)</p>
 
-    <p class="description switches hide"><b>原版尚未給出switches定義，但可參考這篇<a href="https://twitter.com/pvpoke/status/1222947368980688897?s=20" target="_blank">推特</a>討論。</b></p>
+	<p class="description switches hide"><b>The best Pokemon to switch to from an unfavorable lead.</b> These Pokemon have safe matchups and can pressure shields or deal heavy damage even in their losses.</p>
 
-    <p class="description consistency hide"><b>原版尚未給出consistency定義，但可參考這篇<a href="https://twitter.com/pvpoke/status/1185701419602497536?s=20" target="_blank">推特</a>討論。</b></p>
+	<p class="description chargers hide"><b>The best Pokemon with an energy advantage.</b> Fast energy gain or powerful moves make them dangerous after building up energy.</p>
 
+	<p class="description consistency hide"><b>These Pokemon perform the most dependably.</b> They provide consistent damage and rely less on baiting shields than other Pokemon.</p>
 
 	<p>點擊以下各寶可夢可獲得更詳細的資料。</p>
 

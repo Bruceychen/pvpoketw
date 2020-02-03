@@ -1,6 +1,6 @@
 <select class="format-select">
 	<option value="all" cup="all">無屬性大亂鬥</option>
-	<option value="all" cup="gen-5">無屬性大亂鬥 (含第五世代寶可夢)</option>
+	<option value="all" cup="gen-5">無屬性大亂鬥 (含未開放五世代寶可夢)</option>
 	<option value="tsa-2" cup="rose">玫瑰盃-202002</option>
     <option value="community" cup="llove">LLove Cup-高雄群</option>
 	<option value="tsa-1">西爾佛第一季主題</option>
@@ -15,7 +15,7 @@
 
 <select class="cup-select">
 	<option value="all" cat="all">無屬性大亂鬥</option>
-	<option value="gen-5" cat="all">無屬性大亂鬥 (含第五世代寶可夢)</option>
+	<option value="gen-5" cat="all">無屬性大亂鬥 (含未開放五世代寶可夢)</option>
 	<option value="safari" cat="community">Montreal Safari Cup</option>
 	<option value="fantasy" cat="community">GO LIVE Fantasy Cup</option>
     <option value="llove" cat="community">LLove Cup-高雄群</option>

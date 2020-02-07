@@ -33,8 +33,9 @@ require_once '../header.php';
 			</select>
 			<h3 class="section-title">聯盟 &amp; 主題盃賽</h3>
 			<select class="league-cup-select">
-                <option value="" selected disabled>選擇聯盟/主題盃賽</option>
-                <option value="1500 gobattleleague">GO 對戰聯盟(1500)</option>
+				<option value="" selected disabled>選擇聯盟/主題盃賽</option>
+				<option value="1500 gobattleleague">GO 對戰聯盟(1500)</option>
+				<option value="2500 gobattleleague">GO 對戰聯盟(2500)</option>
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>
@@ -123,13 +124,10 @@ require_once '../header.php';
 <div class="section white updates">
 	<h3>更新紀錄</h3>
 
-    <h4>v1.12.30 (January 29, 2020)</h4>
-    <ul>
-        <li>GO 對戰聯盟(官方遊戲內建天梯聯盟)選項已加入至AI模擬對戰！</li>
-        <ul>
-            <li>此賽制僅限 3v3 且出場寶可夢池已有調整過。</li>
-        </ul>
-    </ul>
+	<h4>v1.12.30 (February 6, 2020)</h4>
+	<ul>
+		<li>AI模擬對戰現已開放 GO 對戰聯盟(天梯) - 高級聯盟(2500)！</li>
+	</ul>
 </div>
 
 <script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>

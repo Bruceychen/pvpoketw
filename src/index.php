@@ -25,17 +25,24 @@
 	</a>
 
 	<!--Update section for updates-->
-	<h3>更新紀錄</h3>
+	<h3>What's New</h3>
 
-	<h4>v1.12.31 (February 2, 2020)</h4>
+	<h4>v1.12.34 (February 14, 2020)</h4>
 	<ul>
-		<li>加入新的排行類別與修訂整體表現的計算公式：</li>
-		<ul>
-			<li>Added new "Switches" and "Chargers" categories to rank Pokemon as safe switches and with an energy advantage, respectively. Consistency score now has its own listing as well.</li>
-			<li>Removed the Defender category (shield advantage) from the rankings. This category was somewhat redundant with the Closer category and inflated scores for some Pokemon like Hitmontop and Heracross.</li>
-			<li>Added advanced options to Custom Rankings that allow you to rank in varied shield and energy scenarios, or quickly import the rules and movesets from an existing format.</li>
-			<li>Legendary Pokemon now have an IV floor of 1.</li>
-		</ul>
+		<li>Fixed an issue where custom groups would only appear available for Great League.</li>
+		<li>Fixed a visual bug in the Sandbox Mode where displayed energy and actual energy didn't match when building up to or past 100 energy.</li>
+	</ul>
+
+	<h4>v1.12.33 (February 13, 2020)</h4>
+	<ul>
+		<li>Adjusted move usage so it favors guaranteed buffs (ie Icy Wind vs Ancient Power on Articuno)</li>
+		<li>Pokemon will now go for lethal moves instead of attempting to build up stat boosts where applicable (ie Scrafty using Foul Play)</li>
+	</ul>
+
+	<h4>v1.12.32 (February 13, 2020)</h4>
+	<ul>
+		<li>Fixed a bug where battles in the Switch and Charger categories weren't linking to the correct energy settings.</li>
+		<li>Fixed an issue in the Team Builder where Threat Score was referencing the wrong ranking score instead of Consistency.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -84,8 +91,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Fri Feb 7 14:15:17 2020 +0800</li>
-                <li>原版最後版本時間：Thu Feb 6 11:26:20 2020 -0600</li>
+                <li>中文版最後更新時間：Sat Feb 15 01:03:17 2020 +0800</li>
+                <li>原版最後版本時間：Fri Feb 14 10:28:04 2020 -0600</li>
 
             </ul>
 </div>

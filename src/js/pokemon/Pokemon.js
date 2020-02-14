@@ -203,7 +203,6 @@ function Pokemon(id, i, b){
 
 		// Set moves if unset
 
-
 		if(! self.fastMove){
 			self.autoSelectMoves();
 		} else{
@@ -501,15 +500,22 @@ function Pokemon(id, i, b){
 			}
 
 			self.bestChargedMove = self.activeChargedMoves[0];
+			self.bestChargedMove.dpe = self.bestChargedMove.damage / self.bestChargedMove.energy;
 
 			for(var i = 0; i < self.activeChargedMoves.length; i++){
 				var move = self.activeChargedMoves[i];
-
+				move.dpe = move.damage / move.energy;
+				
+				// Use moves that have higher DPE
 				if(move.dpe - self.bestChargedMove.dpe > .03){
 					self.bestChargedMove = self.activeChargedMoves[i];
 				}
+				
+				// When DPE is close, favor moves with guaranteed buff effects
+				if((Math.abs(move.dpe - self.bestChargedMove.dpe) < .03)&&(self.bestChargedMove.buffs)&&(move.buffs)&&(move.buffApplyChance > self.bestChargedMove.buffApplyChance)&&(! move.selfDebuffing)){
+					self.bestChargedMove = self.activeChargedMoves[i];
+				}
 			}
-
 
 		} else{
 			self.bestChargedMove = null;
@@ -700,14 +706,16 @@ function Pokemon(id, i, b){
 
 	// Obtain a Pokemon's recommended moveset from the rankings and select them
 
-	this.selectRecommendedMoveset = function(){
+	this.selectRecommendedMoveset = function(category){
+		category = typeof category !== 'undefined' ? category : "overall";
+
 		var cupName = "all";
 
 		if(battle.getCup()){
 			cupName = battle.getCup().name;
 		}
 
-		var key = cupName + "overall" + battle.getCP();
+		var key = cupName + category + battle.getCP();
 
 		if(! gm.rankings[key]){
 			console.log("Ranking data not loaded yet");

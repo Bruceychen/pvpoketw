@@ -265,6 +265,7 @@ var InterfaceMaster = (function () {
 									$(".cup-select option[value=\""+val+"\"]").prop("selected","selected");
 								}
 
+								battle.setCup(val);
 								break;
 
 							case "p":
@@ -338,8 +339,9 @@ var InterfaceMaster = (function () {
 					var category = $(".ranking-categories a.selected").attr("data");
 					var cup = $(".cup-select option:selected").val();
 
-					self.displayRankings(category, cp, cup);
+					battle.setCup(cup);
 
+					self.displayRankings(category, cp, cup);
 					self.pushHistoryState(cup, cp, category, null);
 				}
 
@@ -387,6 +389,8 @@ var InterfaceMaster = (function () {
 				if(! cup){
 					cup = $(".cup-select option:selected").val();
 				}
+
+				battle.setCup(cup);
 
 				self.displayRankings(category, cp, cup);
 				self.pushHistoryState(cup, cp, category, null);
@@ -440,6 +444,7 @@ var InterfaceMaster = (function () {
 				}
 
 				var cup = $(".cup-select option:selected").val();
+				var category = $(".ranking-categories a.selected").attr("data");
 				var $rank = $(this).closest(".rank");
 
 
@@ -456,6 +461,7 @@ var InterfaceMaster = (function () {
 				var r = data[index];
 				var pokemon = new Pokemon(r.speciesId, 0, battle);
 				pokemon.initialize(battle.getCP(), "gamemaster");
+				pokemon.selectRecommendedMoveset(category);
 
 				// If overall, display score for each category
 
@@ -556,7 +562,6 @@ var InterfaceMaster = (function () {
 				// Helper variables for displaying matchups and link URL
 
 				var cp = $(".league-select option:selected").val();
-				var category = $(".ranking-categories a.selected").attr("data");
 
 				if(context == "custom"){
 					category = context;
@@ -568,6 +573,7 @@ var InterfaceMaster = (function () {
 					var m = r.matchups[n];
 					var opponent = new Pokemon(m.opponent, 1, battle);
 					opponent.initialize(battle.getCP(), "gamemaster");
+					opponent.selectRecommendedMoveset(category);
 
 					var battleLink = host+"battle/"+cp+"/"+pokemon.speciesId+"/"+opponent.speciesId+"/"+scenario.shields[0]+""+scenario.shields[1]+"/"+r.moveStr+"/";
 
@@ -611,6 +617,7 @@ var InterfaceMaster = (function () {
 					var c = r.counters[n];
 					var opponent = new Pokemon(c.opponent, 1, battle);
 					opponent.initialize(battle.getCP(), "gamemaster");
+					opponent.selectRecommendedMoveset(category);
 					var battleLink = host+"battle/"+cp+"/"+pokemon.speciesId+"/"+opponent.speciesId+"/"+scenario.shields[0]+""+scenario.shields[1]+"/"+r.moveStr+"/";
 
 					// Append opponent's move string

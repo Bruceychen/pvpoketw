@@ -3,9 +3,7 @@
 	<option value="all" cup="gen-5">無屬性大亂鬥 (含未開放五世代寶可夢)</option>
 	<option value="tsa-2" cup="rose">玫瑰盃-202002</option>
     <option value="community" cup="llove">LLove Cup-高雄群</option>
-	<option value="tsa-1">西爾佛第一季主題</option>
-	<option value="tsa-2">西爾佛第二季主題</option>
-    <option value="community">各地社群自創盃賽</option>
+    <option value="community">本地社群自創盃賽</option>
 
 	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
 		<option value="custom" cup="custom">自訂排名</option>
@@ -16,8 +14,6 @@
 <select class="cup-select">
 	<option value="all" cat="all">無屬性大亂鬥</option>
 	<option value="gen-5" cat="all">無屬性大亂鬥 (含未開放五世代寶可夢)</option>
-	<option value="safari" cat="community">Montreal Safari Cup</option>
-	<option value="fantasy" cat="community">GO LIVE Fantasy Cup</option>
     <option value="llove" cat="community">LLove Cup-高雄群</option>
     <option value="growing" cat="community">成長盃-高雄群</option>
     <option value="plague" cat="community">瘟疫盃-高雄群</option>

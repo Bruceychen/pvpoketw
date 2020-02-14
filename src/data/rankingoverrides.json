@@ -2704,7 +2704,7 @@
 			},
 			{
 				"speciesId": "medicham",
-				"chargedMoves": ["DYNAMIC_PUNCH","ICE_PUNCH"]
+				"chargedMoves": ["PSYCHIC","ICE_PUNCH"]
 			},
 			{
 				"speciesId": "aerodactyl",
@@ -2804,6 +2804,10 @@
 			{
 				"speciesId": "venomoth",
 				"fastMove": "CONFUSION"
+			},
+			{
+				"speciesId": "probopass",
+				"fastMove": "SPARK"
 			},
 			{
 				"speciesId": "magneton",

@@ -230,6 +230,34 @@
 			"filterType": "type",
 			"values": ["water"]
 		}]
+	}, {
+		"name": "plague",
+		"title": "Plague Cup",
+		"restrictedPicks": 2,
+		"restrictedPokemon": ["jirachi","swampert","drapion","ivysaur","venusaur","victreebel","skuntank","muk_alolan","mantine","azumarill","bronzong","deoxys_defense","mew","lugia"],
+		"include": [{
+			"filterType": "type",
+			"values": ["fighting","poison","psychic","water"]
+		}],
+		"exclude": []
+	}, {
+		"name": "growing",
+		"title": "Growing Cup",
+		"include": [],
+		"exclude": [{
+			"filterType": "id",
+			"values": ["weezing_galarian","zigzagoon_galarian","linoone_galarian"]
+		}, {
+			"filterType": "tag",
+			"values": ["legendary", "mythical"]
+		}]
+	}, {
+		"name": "llove",
+		"title": "LLove Cup",
+		"restrictedPicks": 1,
+		"restrictedPokemon": ["azumarill","skarmory","tropius","altaria","bastiodon","probopass","venusaur","sableye","bronzong","hypno","ivysaur","meganium","swampert","medicham","zweilous","umbreon","lanturn","mew","jirachi","meltan","melmetal","darkrai","deoxys","deoxys_attack","deoxys_defense","deoxys_speed","regirock","regice","registeel","regigigas"],
+		"include": [],
+		"exclude": []
 	}],
 	"shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "bellossom", "politoed", "scizor", "houndour", "houndoom", "larvitar", "pupitar", "tyranitar", "mudkip", "marshtomp", "swampert", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "trapinch", "vibrava", "flygon", "cacnea", "cacturne", "shuppet", "banette", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "ekans", "arbok", "koffing", "weezing", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "chimchar", "monferno", "infernape", "kangaskhan", "diglett", "dugtrio", "rhyhorn", "rhydon", "rhyperior", "murkrow", "honchkrow", "gible", "gabite", "garchomp", "shellder", "cloyster", "geodude", "graveler", "golem", "hippopotas", "hippowdon", "onix", "steelix", "sableye", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "snover", "abomasnow", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "pinsir", "mawile", "beldum", "metang", "metagross"],
 	"pokemon": [{

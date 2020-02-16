@@ -147,7 +147,7 @@ require_once 'header.php';
     <p class="description switches hide"><b>在面對開局先發弱勢(逆風或屬性遭剋制)的情況下，適合交換上場的寶可夢。</b>此類寶可夢除了可減少開局弱勢的情況之外，在被擊倒前仍能迫使對手使用防護網，或是提供可觀的傷害輸出。</p>
     <p class="description switches hide"><b>The best Pokemon to switch to from an unfavorable lead.</b> These Pokemon have safe matchups and can pressure shields or deal heavy damage even in their losses.</p>
 
-    <p class="description chargers hide"><b>擁有能量需求優勢的寶可夢。</b>能量蓄積速度快，或是招式威力強大的寶可夢類型。此類寶可夢的手上只要有能量，誰都沒有辦法殺牠(?)。</p>
+    <p class="description chargers hide"><b>擁有低能量需求優勢的寶可夢。</b>能量蓄積速度快，或是招式能量需求低且威力大的寶可夢類型。此類寶可夢只要有能量蓄積時，他們將變得非常有威脅性。</p>
     <p class="description chargers hide"><b>The best Pokemon with an energy advantage.</b> Fast energy gain or powerful moves make them dangerous after building up energy.</p>
 
     <p class="description consistency hide"><b>對戰表現較穩定的寶可夢。</b>此類寶可夢可提供持續性的傷害。相較於其他寶可夢，不需誘使對手使用防護網亦能有穩定的傷害輸出。</p>

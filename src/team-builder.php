@@ -10,11 +10,11 @@ require_once 'header.php';
 
 ?>
 
-<h1>Team Builder</h1>
+<h1>隊伍組建模擬</h1>
 
 <div class="section league-select-container white">
-	<p>Select your Pokemon and movesets below. You'll see how your team matches up against top Pokemon, which Pokemon pose a potential threat, and potential alternatives for your team. You can also use this tool to identify strong team cores and how to break them.</p>
-	<p>You can change how the scorecards results display on the <a href="<?php echo $WEB_ROOT; ?>settings/">Settings page</a>.</p>
+	<p>可選定最多六隻寶可夢及個別指定招式，系統將會以此隊伍和指定主題賽制中的各主流優勢寶可夢逐一進行模擬對戰，以找出此團隊可能的威脅、較佳的替換寶可夢，進而找出隊伍的核心成員以及其他主流寶可夢的弱點。</p>
+	<p>也可以由 <a href="<?php echo $WEB_ROOT; ?>settings/">設定頁面</a>修改分析結果的呈現方式。</p>
 	<?php require 'modules/leagueselect.php'; ?>
 	<?php require 'modules/cupselect.php'; ?>
 </div>
@@ -23,62 +23,63 @@ require_once 'header.php';
 	<?php require 'modules/pokemultiselect.php'; ?>
 </div>
 
-<button class="rate-btn button">Rate Team</button>
-<div class="section white error">Please select one or more Pokemon.</div>
+<button class="rate-btn button">進行隊伍分析</button>
+<div class="section white error">請選擇至少一隻寶可夢進行分析。</div>
 
 <div class="section typings white">
 	<a href="#" class="toggle active">Meta Scorecard <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content article">
-		<p>Explore how the top 20 ranked Pokemon match up against your team below. Print this scorecard or save a screenshot for reference as you practice. Remember to prepare beforehand and follow timely play in tournaments!</p>
+		<p>以下呈現當前主流(meta)前二十名寶可夢與你隊伍的對戰結果。可將此分析結果印出或是截圖並搭配練習使用。此外貼心提醒：不可於比賽期間進行分析，請提前完成準備！</p>
+        <p>以下圖表閱讀方式：左邊為主，交叉欄位圖示為"勝利"則代表左邊縱軸寶可夢 勝 上方橫軸寶可夢</p>
 		<div class="table-container">
 			<table class="meta-table rating-table" cellspacing="0">
 			</table>
 		</div>
 		<div class="results-buttons">
-			<a href="#" class="button print-scorecard">Print</a>
-			<a href="#" class="button download-csv">Export All Matchups to CSV</a>
+			<a href="#" class="button print-scorecard">列印結果</a>
+			<a href="#" class="button download-csv">匯出全部計算結果CSV檔</a>
 		</div>
 
 		<table class="rating-table legend" cellspacing="0">
 			<tbody>
 				<tr>
 					<td><a href="#" class="rating win" target="_blank"><span></span></a></td>
-					<td><b>Win:</b> This Pokemon wins decisively in most scenarios. It would take a big HP or energy difference to flip this matchup. This Pokemon can usually safely switch and win.</td>
+					<td><b>勝利:</b> 此寶可夢在大多數對戰狀況下具有壓倒性優勢。除非對手以大量能量值或是HP作為代價才有機會換取逆轉勝利。此寶可夢亦適合在逆風劣勢的狀況下替換上場，甚至能扭轉戰局。</td>
 				</tr>
 				<tr>
 					<td><a href="#" class="rating close-win" target="_blank"><span></span></a></td>
-					<td><b>Close Win:</b> This Pokemon is favored, but the matchup can flip depending on HP, energy, baits, or IV's. This Pokemon may not be able to safely switch and win.</td>
+					<td><b>險勝:</b> 此寶可夢具有部分優勢，但仍可能因HP, 能量值，誘騙防護網(騙盾)成功與否以及個體IV等因素而失去勝利契機。此寶可夢較不適合在劣勢逆風狀況下替換上場。</td>
 				</tr>
 				<tr>
 					<td><a href="#" class="rating tie" target="_blank"><span></span></a></td>
-					<td><b>Tie:</b> Neither Pokemon is favored. This matchup can flip depending on HP, energy, baits, IV's or, Charged Move priority.</td>
+					<td><b>平手:</b> 此寶可夢優勢與對手不相上下，且仍受HP, 能量值，誘騙防護網(騙盾)成功與否、個體IV以及特殊招式優先權(CMP,Charged Move priority)等因素影響而遭逆轉。</td>
 				</tr>
 				<tr>
 					<td><a href="#" class="rating close-loss" target="_blank"><span></span></a></td>
-					<td><b>Close Loss:</b> This Pokemon is usually at a disadvantage, but the matchup can flip depending on HP, energy, baits, or IV's.</td>
+					<td><b>Close Loss:</b> 此寶可夢在對戰中基本居於弱勢，但仍可能因HP, 能量值，誘騙防護網(騙盾)成功與否以及個體IV等因素而逆轉勝。</td>
 				</tr>
 				<tr>
 					<td><a href="#" class="rating loss" target="_blank"><span></span></a></td>
-					<td><b>Loss:</b> This Pokemon loses decisively in most scenarios. It would take a big HP or energy difference to flip this matchup.</td>
+					<td><b>戰敗:</b> 此寶可夢在大多數對戰狀況中均為絕對弱勢，除非以大量能量值或是HP作為代價才有機會換取逆轉勝利。</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 
-	<a href="#" class="toggle active">Potential Threats <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+	<a href="#" class="toggle active">具威脅寶可夢 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content article">
-		<p>The Pokemon below have the best overall matchups against this team. Results are taken from 0 and 1 shield simulations. Scores also factor in a Pokemon's overall strength and consistency.</p>
+		<p>以下寶可夢在面對此隊伍時均具有較大之優勢，亦即為此隊伍之剋星。分析結果乃考量使用 0 至 1 個防護網的情境，以及各寶可夢的戰鬥能力與傷害輸出。</p>
 		<div class="table-container">
 			<table class="threats-table rating-table" cellspacing="0">
 			</table>
 		</div>
-		<p class="center">This team has a threat score of <b class="threat-score"></b></p>
-		<p class="small"><strong>Threat score</strong> measures how vulnerable your team may be to specific Pokemon. The smaller the number, the better. It factors in how many Pokemon on your team can be threatened, how hard they're threatened, a threat's overall ranking (how likely you may be to encounter it), and how consistently it performs.</p>
+		<p class="center">此隊伍之威脅分數為 <b class="threat-score"></b></p>
+		<p class="small"><strong>威脅分數</strong> 衡量的是此隊伍在面對特定寶可夢時的脆弱程度。分數越低則代表此隊伍的強度與表現越佳。衡量因素包含了隊伍中每隻寶可夢遭對手克制的機率、對手可能的強度、對方寶可夢的排名以及其傷害輸出表現等等。</p>
 	</div>
 
-	<a href="#" class="toggle active">Potential Alternatives <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+	<a href="#" class="toggle active">替補寶可夢 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content article">
-		<p>The Pokemon below have the best overall matchups against this team's potential threats. Results are taken from 0 and 1 shield simulations. Scores also factor in a Pokemon's overall strength and consistency.</p>
+		<p>以下寶可夢均適合用來替換當前隊伍成員，以增加面對上述威脅時的優勢。分析結果乃考量使用 0 至 1 個防護網的情境，以及各寶可夢的戰鬥能力與傷害輸出。</p>
 		<div class="table-container">
 			<table class="alternatives-table rating-table" cellspacing="0">
 			</table>
@@ -87,7 +88,7 @@ require_once 'header.php';
 
 	<a href="#" class="toggle active">Battle Histograms <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content">
-		<p>The charts below show how many good or bad matchups each Pokemon has among all matchups possible. A Battle Rating below 500 is a loss, and a Battle Rating above 500 is a win. You can compare previous results to examine different Pokemon, movesets, or stats.</p>
+		<p>以下圖表顯示個別寶可夢在與其他賽制內寶可夢對戰時的優劣勢。評比分數(Battle Rating) 低於500以下為戰敗，高於500則是勝利。你可以嘗試搭配不同寶可夢成員、不同招式組以及不同個體狀態來找出較佳的隊伍。</p>
 		<div class="histograms">
 			<div class="histogram"></div>
 			<div class="histogram"></div>
@@ -98,23 +99,23 @@ require_once 'header.php';
 		</div>
 	</div>
 
-	<a href="#" class="toggle active">Defensive Typing <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+ 	<a href="#" class="toggle active">各屬性防禦分析<span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content">
 		<div class="summary defense-summary"></div>
 		<div class="defense"></div>
 	</div>
 
-	<a href="#" class="toggle active">Offensive Typing <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+	<a href="#" class="toggle active">招式屬性攻擊分析<span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content">
 		<div class="summary offense-summary"></div>
 		<div class="offense"></div>
 	</div>
 
 	<div class="share-link-container">
-		<p>Share this team:</p>
+		<p>分享此隊伍:</p>
 		<div class="share-link">
 			<input type="text" value="" readonly>
-			<div class="copy">Copy</div>
+			<div class="copy">複製</div>
 		</div>
 	</div>
 </div>

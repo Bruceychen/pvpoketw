@@ -39,6 +39,7 @@ require_once '../header.php';
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>
+                <option value="1500 toxic">劇毒盃</option>
 				<option value="1500 rose">玫瑰盃</option>
 			</select>
 			<h3 class="section-title">AI 強度</h3>

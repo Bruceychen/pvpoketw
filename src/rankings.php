@@ -94,6 +94,10 @@ switch($cup){
 		$league = 'Rose Cup';
 		break;
 
+	case "toxic":
+		$league = 'Toxic Cup';
+		break;
+
 	case "plague":
             $league = 'Plague Cup';
     		break;
@@ -175,13 +179,9 @@ require_once 'header.php';
 	<a class="toggle" href="#">About Rankings <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content">
 		<p>How do you know which Pokemon are the best for Trainer Battles? That question has countless answers, and below we'll go over how we arrived at ours, and how you can make the most of the rankings here.</p>
-		<p>在訓練家對戰中，要如何知道哪隻寶可夢能有較好的表現？這個問題其實有無數的答案，以下將說明我們的看法，以及您又能從這些排名中得到什麼訊息。</p>
 		<p>As we improve our simulator and ranking algorithms, please note that exact rankings may change. They aren't set-in-stone fact, but a best guess at which Pokemon might or might not be good for Trainer Battles. Ultimately we hope the rankings here are a helpful resource in their own way, and help you build toward succcess.</p>
-		<p>首先你需要知道的是，隨著我們不斷的改進、修正這個網站的模擬以及排名演算法，任何的排行資料都有可能會隨著時間更新改變。但同時這些排行資料也不代表著絕對的強弱，而是一個推測，推測哪些寶可夢在PVP中能有較佳戰果的排行。終極的目標則是希望這份資料能夠協助你在PVP中無往不利。</p>
-		<h2>如何解讀寶可夢排行資料</h2>
-		<p>點擊任一隻寶可夢所展開的排行資料中，你可以看到在上層會有一個分數。這個分數代表的是這隻寶可夢的總體表現。分數介於0-100之間，越高則代表這隻寶可夢在當前這個主題賽/聯盟賽中的表現越好。此分數的計算方式，是將這隻寶可夢配上最常使用的招式(也可能手動指定)，並與所有其他寶可夢加上其最常使用的招式組合，實施模擬對戰後所計算出來的結果。這個分數同時也能幫你了解不同主題賽/聯盟賽之間的差異性。</p>
+		<h2>Using the Pokemon Rankings</h2>
 		<p>In the top-level rankings, you'll see a score for each Pokemon. This score is an overall performance number from 0 to 100, where 100 is the best Pokemon in that league and category. It is derived from simulating every possible matchup, with each Pokemon's most used moveset (these may be manually adjusted). Use this score to compare overall performance between Pokemon; for example, the difference between the #1 and #50 Pokemon may not be the same as the difference between the #50 and #100 Pokemon. This score also allows you to see the parity in different leagues and categories.</p>
-		<p>訓練家間的PVP戰鬥存在著多種可能性與影響因素，特別是包含了防護網的使用與否。因此在排行中為了能有更全面的計算與考量，</p>
 		<p>Trainer Battles feature a wide variety of scenarios, especially involving shields. In order to give a fuller picture, our overall rankings are derived from additional sets of rankings, where battles are simulated with different roles in mind. You can explore rankings for each of the following categories:</p>
 		<ul>
 			<li><b>Overall - </b> Derived from a Pokemon's score in all other categories. Moves are ranked based on usage in every category. Key Counters and Top Matchups, however, are taken from the Leads category.</li>

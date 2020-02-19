@@ -231,6 +231,17 @@
 			"values": ["water"]
 		}]
 	}, {
+		"name": "toxic",
+		"title": "Toxic Cup",
+		"include": [{
+			"filterType": "type",
+			"values": ["bug","poison","normal","ground","grass"]
+		}],
+		"exclude": [{
+			"filterType": "id",
+			"values": ["noctowl","vigoroth","tropius","whiscash","swampert","quagsire","gastrodon_east_sea","gastrodon_west_sea","seismitoad","palpitoad","marshtomp"]
+		}]
+	}, {
 		"name": "plague",
 		"title": "Plague Cup",
 		"restrictedPicks": 2,

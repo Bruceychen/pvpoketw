@@ -30,7 +30,7 @@ require_once 'header.php';
 	<a href="#" class="toggle active">Meta Scorecard <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content article">
 		<p>以下呈現當前主流(meta)前二十名寶可夢與你隊伍的對戰結果。可將此分析結果印出或是截圖並搭配練習使用。此外貼心提醒：不可於比賽期間進行分析，請提前完成準備！</p>
-        <p>以下圖表閱讀方式：左邊為主，交叉欄位圖示為"勝利"則代表左邊縱軸寶可夢 勝 上方橫軸寶可夢</p>
+        <p>以下圖表預設閱讀方式：左邊縱軸為主，中間欄位圖示為"勝利"時則代表 左邊縱軸寶可夢 勝 上方橫軸寶可夢。</p>
 		<div class="table-container">
 			<table class="meta-table rating-table" cellspacing="0">
 			</table>
@@ -44,7 +44,7 @@ require_once 'header.php';
 			<tbody>
 				<tr>
 					<td><a href="#" class="rating win" target="_blank"><span></span></a></td>
-					<td><b>勝利:</b> 此寶可夢在大多數對戰狀況下具有壓倒性優勢。除非對手以大量能量值或是HP作為代價才有機會換取逆轉勝利。此寶可夢亦適合在逆風劣勢的狀況下替換上場，甚至能扭轉戰局。</td>
+					<td><b>勝利:</b> 此寶可夢在多數對戰狀況下具有壓倒性優勢。除非對手以大量能量值或是HP作為代價才有機會換取逆轉勝利。此寶可夢亦適合在逆風劣勢的狀況下替換上場，甚至能扭轉戰局。</td>
 				</tr>
 				<tr>
 					<td><a href="#" class="rating close-win" target="_blank"><span></span></a></td>
@@ -56,7 +56,7 @@ require_once 'header.php';
 				</tr>
 				<tr>
 					<td><a href="#" class="rating close-loss" target="_blank"><span></span></a></td>
-					<td><b>Close Loss:</b> 此寶可夢在對戰中基本居於弱勢，但仍可能因HP, 能量值，誘騙防護網(騙盾)成功與否以及個體IV等因素而逆轉勝。</td>
+					<td><b>惜敗:</b> 此寶可夢在對戰中基本居於弱勢，但仍可能因HP, 能量值，誘騙防護網(騙盾)成功與否以及個體IV等因素而逆轉勝。</td>
 				</tr>
 				<tr>
 					<td><a href="#" class="rating loss" target="_blank"><span></span></a></td>
@@ -68,18 +68,18 @@ require_once 'header.php';
 
 	<a href="#" class="toggle active">具威脅寶可夢 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content article">
-		<p>以下寶可夢在面對此隊伍時均具有較大之優勢，亦即為此隊伍之剋星。分析結果乃考量使用 0 至 1 個防護網的情境，以及各寶可夢的戰鬥能力與傷害輸出。</p>
+		<p>以下寶可夢均具有較大之威脅，亦即此隊伍之剋星。分析結果乃考量使用 0 至 1 個防護網的情境，以及各寶可夢的戰鬥能力與傷害輸出。</p>
 		<div class="table-container">
 			<table class="threats-table rating-table" cellspacing="0">
 			</table>
 		</div>
 		<p class="center">此隊伍之威脅分數為 <b class="threat-score"></b></p>
-		<p class="small"><strong>威脅分數</strong> 衡量的是此隊伍在面對特定寶可夢時的脆弱程度。分數越低則代表此隊伍的強度與表現越佳。衡量因素包含了隊伍中每隻寶可夢遭對手克制的機率、對手可能的強度、對方寶可夢的排名以及其傷害輸出表現等等。</p>
+		<p class="small"><strong>威脅分數</strong> 衡量的是此隊伍在面對特定寶可夢時的脆弱程度。分數越低則代表此隊伍的強度與表現越佳。衡量因素包含了隊伍中每隻寶可夢遭對手剋制的機率、對手可能的強度、對方寶可夢的排名以及其傷害輸出表現等等。</p>
 	</div>
 
 	<a href="#" class="toggle active">替補寶可夢 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content article">
-		<p>以下寶可夢均適合用來替換當前隊伍成員，以增加面對上述威脅時的優勢。分析結果乃考量使用 0 至 1 個防護網的情境，以及各寶可夢的戰鬥能力與傷害輸出。</p>
+		<p>以下寶可夢均適合用來替換當前隊伍成員，以增加面對上表威脅時的優勢。分析結果乃考量使用 0 至 1 個防護網的情境，以及各寶可夢的戰鬥能力與傷害輸出。</p>
 		<div class="table-container">
 			<table class="alternatives-table rating-table" cellspacing="0">
 			</table>

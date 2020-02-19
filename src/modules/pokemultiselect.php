@@ -16,7 +16,7 @@
 				<option value="great" type="great" class="multi-battle">超級(1500)聯盟 Meta</option>
 				<option value="ultra" type="ultra" class="hide multi-battle">高級(2500)聯盟 Meta</option>
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
-                <option value="toxic" type="toxic" class="multi-battle">劇毒盃 Meta</option>
+                <option value="toxic" type="toxic" class="multi-battle">猛毒盃 Meta</option>
 				<option value="rose" type="rose" class="multi-battle">玫瑰盃 Meta</option>
 				<option value="fusion" type="fusion" class="multi-battle">融合盃 Meta</option>
 				<option value="timeless" type="timeless" class="multi-battle">永伴盃 Meta</option>

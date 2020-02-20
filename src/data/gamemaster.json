@@ -13914,6 +13914,14 @@
 		"energyGain": 0,
 		"cooldown": 500
 	}, {
+		"moveId": "ROCK_WRECKER",
+		"name": "岩石炮",
+		"type": "rock",
+		"power": 110,
+		"energy": 50,
+		"energyGain": 0,
+		"cooldown": 500
+	}, {
 		"moveId": "SAND_TOMB",
 		"name": "流沙地獄",
 		"type": "ground",

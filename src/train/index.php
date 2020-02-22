@@ -34,8 +34,9 @@ require_once '../header.php';
 			<h3 class="section-title">聯盟 &amp; 主題盃賽</h3>
 			<select class="league-cup-select">
 				<option value="" selected disabled>選擇聯盟/主題盃賽</option>
-				<option value="1500 gobattleleague">GO 對戰聯盟(1500)</option>
-				<option value="2500 gobattleleague">GO 對戰聯盟(2500)</option>
+				<option value="1500 gobattleleague">GO 超級對戰聯盟(1500)</option>
+				<option value="2500 gobattleleague">GO 高級對戰聯盟(2500)</option>
+                <option value="10000 gobattleleague">GO 大師對戰聯盟(無上限)</option>
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>

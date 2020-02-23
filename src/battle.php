@@ -316,7 +316,7 @@ require_once 'header.php';
 				<input class="poke-search" context="ranking-search" type="text" placeholder="Search Pokemon" />
 				<a href="#" class="search-info">i</a>
 
-				<button class="multi-battle-sort">Sort: Worst to best &#9650;</button>
+				<button class="multi-battle-sort">排序:劣到優 &#9650;</button>
 			</div>
 			<div class="ranking-header">對手寶可夢</div>
 			<div class="ranking-header right">模擬戰鬥得分</div>
@@ -354,73 +354,41 @@ require_once 'header.php';
 	<select class="move-select"></select>
 
 	<div class="move-stats flex">
-		<div class="stat-dmg"><span class="stat"></span> damage</div>
-		<div class="stat-energy"><span class="stat"></span> energy</div>
-		<div class="stat-duration fast"><span class="stat"></span> turn(s)</div>
+		<div class="stat-dmg"><span class="stat"></span> 傷害</div>
+		<div class="stat-energy"><span class="stat"></span> 能量</div>
+		<div class="stat-duration fast"><span class="stat"></span> 回合(秒)</div>
 		<div class="stat-dpt fast"><span class="stat"></span> dpt</div>
 		<div class="stat-ept fast"><span class="stat"></span> ept</div>
 		<div class="stat-dpe charged"><span class="stat"></span> dpe</div>
 	</div>
-	<p class="wait hide">This Pokemon will take no action this turn.</p>
+	<p class="wait hide">此寶可夢本回合不採取任何行動。</p>
 
 	<select class="charge-select charged">
-		<option value="0">100% Charge</option>
-		<option value="1">95% Charge</option>
-		<option value="2">75% Charge</option>
-		<option value="3">50% Charge</option>
-		<option value="4">25% Charge</option>
+		<option value="0">100% 能量</option>
+		<option value="1">95% 能量</option>
+		<option value="2">75% 能量</option>
+		<option value="3">50% 能量</option>
+		<option value="4">25% 能量</option>
 	</select>
 
-	<div class="check shields charged"><span></span>Shield this attack</div>
-	<div class="check buffs charged"><span></span>Apply buffs/debuffs</div>
+	<div class="check shields charged"><span></span>使用防護網抵擋此次攻擊</div>
+	<div class="check buffs charged"><span></span>加上 buffs/debuffs</div>
 
 	<div class="center">
-		<div class="button apply">Apply Changes</div>
+		<div class="button apply">套用變更</div>
 	</div>
 </div>
 
 <div class="sandbox-clear-confirm hide">
-	<p>Clear all custom actions from the timeline? This will reset the battle to Fast Moves only so you can start from a clean slate.</p>
+    <p>清除時間軸上所有自訂行動? 這場戰鬥將重置成只有一般招式以方便你重新制定行動。</p>
 
 	<div class="center flex">
-		<div class="button yes">Yes</div>
-		<div class="button no">No</div>
+		<div class="button yes">是</div>
+		<div class="button no">否</div>
 	</div>
 </div>
 
-<div class="sandbox-search-strings hide">
-	<p>You can use the following search formats to filter Pokemon:</p>
-	<table>
-		<tr>
-			<td><strong>Pokemon Name</strong></td>
-			<td>"azumarill"</td>
-		</tr>
-		<tr>
-			<td><strong>Pokemon Type</strong></td>
-			<td>"water"</td>
-		</tr>
-		<tr>
-			<td><strong>Move Name</strong></td>
-			<td>"@counter"</td>
-		</tr>
-		<tr>
-			<td><strong>Move Type</strong></td>
-			<td>"@fighting"</td>
-		</tr>
-		<tr>
-			<td><strong>And</strong></td>
-			<td>"water&amp;@fighting"</td>
-		</tr>
-		<tr>
-			<td><strong>Or</strong></td>
-			<td>"water,fighting"</td>
-		</tr>
-		<tr>
-			<td><strong>Not</strong></td>
-			<td>"!water"</td>
-		</tr>
-	</table>
-</div>
+<?php require_once 'modules/search-string-help.php'; ?>
 
 <!--test 2-->
 <script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>

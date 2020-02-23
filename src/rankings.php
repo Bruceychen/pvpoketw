@@ -231,39 +231,7 @@ require_once 'header.php';
 	</div>
 </div>
 
-<div class="sandbox-search-strings hide">
-	<p>使用以下格式可以用來過濾尋找特定條件寶可夢(均不含雙引號 " ")：</p>
-	<table>
-		<tr>
-			<td><strong>中文名稱 如：</strong></td>
-			<td>"瑪力露麗"</td>
-		</tr>
-		<tr>
-			<td><strong>英文屬性 如：</strong></td>
-			<td>"water"</td>
-		</tr>
-		<tr>
-			<td><strong>中文招式名稱 如：</strong></td>
-			<td>"@雙倍奉還"</td>
-		</tr>
-		<tr>
-			<td><strong>英文招式屬性 如：</strong></td>
-			<td>"@fighting"</td>
-		</tr>
-		<tr>
-			<td><strong>And(且)符號 如：</strong></td>
-			<td>"water&amp;@fighting"</td>
-		</tr>
-		<tr>
-			<td><strong>Or(或)符號 如：</strong></td>
-			<td>"water,fighting"</td>
-		</tr>
-		<tr>
-			<td><strong>Not(非)符號 如：</strong></td>
-			<td>"!water"</td>
-		</tr>
-	</table>
-</div>
+<?php require_once 'modules/search-string-help.php'; ?>
 
 <div class="details-template hide">
     <div class="detail-section float margin">

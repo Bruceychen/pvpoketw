@@ -137,7 +137,7 @@ require_once 'header.php';
 	<div class="clear"></div>
 
 	<p class="description overall"><b>納入各種定位考量，整體表現最佳的寶可夢。</b>在各種狀況中皆能有較佳戰果，且自身屬性、招式以及個體數值皆較為突出的寶可夢。</p>
-    <p class="description overall"><b>(The best Pokemon overall across multiple roles.</b> They have the typing, moves, and stats to succeed as top contendors.)</p>
+    <p class="description overall"><b>(The best Pokemon overall across multiple roles.</b> They have the typing, moves, and stats to succeed as top contenders.)</p>
 
 	<p class="description closers hide"><b>對戰中不需使用防禦網就能有優秀表現的寶可夢。</b>擁有夠坦的體質或是較高傷害輸出的招式，使這類寶可夢往往能夠影響對戰結果。</p>
     <p class="description closers hide"><b>The best Pokemon with no shields in play.</b> Bulk or hard-hitting moves allow them to close out matchups.</p>

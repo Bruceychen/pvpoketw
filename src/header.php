@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.12.35.2';
+$SITE_VERSION = '1.12.35.4';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -148,14 +148,14 @@ if(! isset($OG_IMAGE)){
 				</div>
 				<a class="icon-team" href="<?php echo $WEB_ROOT; ?>team-builder/">隊伍組建模擬</a>
 				<div class="parent-menu">
-				<a class="more desktop" href="#"></a>
-				<div class="submenu">
-					<div class="submenu-wrap">
-						<a class="icon-moves" href="<?php echo $WEB_ROOT; ?>moves/">招式</a>
-						<a class="icon-articles" href="<?php echo $WEB_ROOT; ?>articles/">專欄文章</a>
-						<a class="icon-contribute" href="<?php echo $WEB_ROOT; ?>contribute/">貢獻一己之力</a>
-						<a class="icon-settings" href="<?php echo $WEB_ROOT; ?>settings/">設定</a>
-						<a class="icon-twitter" href="https://twitter.com/pvpoke" target="_blank">官方推特</a>
+					<a class="more desktop" href="#"></a>
+					<div class="submenu">
+						<div class="submenu-wrap">
+							<a class="icon-moves" href="<?php echo $WEB_ROOT; ?>moves/">招式</a>
+							<a class="icon-articles" href="<?php echo $WEB_ROOT; ?>articles/">專欄文章</a>
+							<a class="icon-contribute" href="<?php echo $WEB_ROOT; ?>contribute/">貢獻一己之力</a>
+							<a class="icon-settings" href="<?php echo $WEB_ROOT; ?>settings/">設定</a>
+							<a class="icon-twitter" href="https://twitter.com/pvpoke" target="_blank">官方推特</a>
 						</div>
 					</div>
 				</div>

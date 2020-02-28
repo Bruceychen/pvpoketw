@@ -1,13 +1,13 @@
 <div class="sandbox-search-strings article hide">
-    <p>使用以下格式可以用來過濾尋找特定條件寶可夢(均不含雙引號 " " 及後面的括號內容)：</p>
+	<p>使用以下格式可以用來過濾尋找特定條件寶可夢：</p>
 	<table cellspacing="0">
 		<tr>
-            <td><strong>輸入中文寶可夢名稱 如：</strong></td>
-            <td>"瑪力露麗"</td>
+			<td><strong>顯示特定寶可夢 如：</strong></td>
+			<td>瑪力露麗</td>
 		</tr>
 		<tr>
-            <td><strong>輸入英文屬性名稱 如：</strong></td>
-            <td>"water"</td>
+			<td><strong>輸入英文屬性名稱 如：</strong></td>
+			<td>water</td>
 		</tr>
 		<tr>
 			<td><strong>輸入英文寶可夢類別標籤，有以下選項:</strong></td>
@@ -23,13 +23,21 @@
 		</tr>
 		<tr>
             <td><strong>輸入中文招式名稱 如：</strong></td>
-            <td>"@雙倍奉還"</td>
+            <td>@雙倍奉還</td>
 		</tr>
 		<tr>
             <td><strong>輸入英文招式屬性名稱 如：</strong></td>
-            <td>"@fighting"</td>
+            <td>@fighting</td>
 		</tr>
 		<tr>
+            <td><strong>顯示絕版招式(不含 報恩) 如：</strong></td>
+            <td>@Legacy</td>
+        </tr>
+        <tr>
+            <td><strong>顯示所有特殊招式(包含 絕版技能、報恩) 如：</strong></td>
+            <td>@special</td>
+        </tr>
+        <tr>
 			<td><strong>And(且)符號 如：</strong></td>
 			<td>"water&amp;@fighting"</td>
 		</tr>

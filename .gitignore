@@ -1,11 +1,15 @@
-**/.DS_Store
+
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 
 .DS_Store
 src/.DS_Store
-src/main/.DS_Store
-
+src/data/.DS_Store
+src/data/all/.DS_Store
+src/data/gen-5/.DS_Store
+src/data/training/.DS_Store
+src/img/.DS_Store
+src/img/train/.DS_Store
 
 
 # Created by https://www.gitignore.io/api/eclipse,intellij,visualstudiocode

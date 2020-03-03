@@ -60,15 +60,15 @@ function PokeSelect(element, i){
 			$el.find(".defense .stat").html(Math.floor(selectedPokemon.getEffectiveStat(1)*10)/10);
 			$el.find(".stamina .stat").html(selectedPokemon.stats.hp);
 
-			if(selectedPokemon.statBuffs[0] > 0){
+			if(selectedPokemon.getEffectiveStat(0) > selectedPokemon.stats.atk){
 				$el.find(".attack .stat").addClass("buff");
-			} else if(selectedPokemon.statBuffs[0] < 0){
+			} else if(selectedPokemon.getEffectiveStat(0) < selectedPokemon.stats.atk){
 				$el.find(".attack .stat").addClass("debuff");
 			}
 
-			if(selectedPokemon.statBuffs[1] > 0){
+			if(selectedPokemon.getEffectiveStat(1) > selectedPokemon.stats.def){
 				$el.find(".defense .stat").addClass("buff");
-			} else if(selectedPokemon.statBuffs[1] < 0){
+			} else if(selectedPokemon.getEffectiveStat(1) < selectedPokemon.stats.def){
 				$el.find(".defense .stat").addClass("debuff");
 			}
 
@@ -193,6 +193,11 @@ function PokeSelect(element, i){
 			} else{
 				$el.find(".check.negate-fast-moves").addClass("on");
 			}
+
+			// Update the Shadow form radio buttons to display the currently selected setting
+
+			$el.find(".form-group .check").removeClass("on");
+			$el.find(".form-group .check[value=\""+selectedPokemon.shadowType+"\"]").addClass("on");
 		}
 	}
 
@@ -660,6 +665,21 @@ function PokeSelect(element, i){
 		$(e.target).closest(".check").parent().find(".check").removeClass("on");
 	});
 
+	// Select an option from the form section
+
+	$el.find(".form-group .check").on("click", function(e){
+		$(e.target).closest(".check").parent().find(".check").removeClass("on");
+	});
+
+	// Change a form option
+
+	$el.find(".form-group .check").on("change", function(e){
+		var formType = $(e.target).attr("value");
+		selectedPokemon.setShadowType(formType);
+
+		self.update();
+	});
+
 	// Restore default IV's
 
     $el.find(".restore-default").on("click", function(e){
@@ -771,7 +791,7 @@ function PokeSelect(element, i){
 		if(battle.getOpponent(self.index)){
 			var opponent = battle.getOpponent(selectedPokemon.index);
 			var effectiveness = opponent.typeEffectiveness[move.type];
-			displayDamage = battle.calculateDamageByStats(selectedPokemon.stats.atk, opponent.stats.def, effectiveness, move);
+			displayDamage = battle.calculateDamageByStats(selectedPokemon.stats.atk * opponent.shadowAtkMult, opponent.stats.def * selectedPokemon.shadowDefMult, effectiveness, move);
 		}
 
 		var dpe = Math.floor( (displayDamage / move.energy) * 100) / 100;

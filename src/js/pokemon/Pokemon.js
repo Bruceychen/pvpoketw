@@ -39,6 +39,10 @@ function Pokemon(id, i, b){
 	this.fastMovePool = [];
 	this.chargedMovePool = [];
 	this.legacyMoves = [];
+	this.shadowEligible = false;
+	this.shadowType = "normal"; // normal, shadow, or purified
+	this.shadowAtkMult = 1;
+	this.shadowDefMult = 1;
 
 	this.typeEffectiveness = getTypeEffectivenessArray(b);
 
@@ -109,6 +113,7 @@ function Pokemon(id, i, b){
 
 
 	if(data.shadow){
+		self.shadowEligible = true;
 
 		self.chargedMovePool.push(gm.getMoveById("FRUSTRATION"));
 
@@ -318,10 +323,14 @@ function Pokemon(id, i, b){
 					}
 
                     if (calcCP <= targetCP) {
-                        let atk = cpm * (self.baseStats.atk + atkIV);
-                        let def = cpm * (self.baseStats.def + defIV);
+                        let atk = cpm * (self.baseStats.atk + atkIV) * self.shadowAtkMult;
+                        let def = cpm * (self.baseStats.def + defIV) * self.shadowDefMult;
                         let hp = Math.floor(cpm * (self.baseStats.hp + hpIV));
                         overall = (hp * atk * def);
+
+						if(self.shadowType == "shadow"){
+
+						}
 
 						var combination = {
 							level: level,
@@ -390,14 +399,14 @@ function Pokemon(id, i, b){
 		var effectiveness = defender.typeEffectiveness[self.fastMove.type];
 		var minAttack = self.generateIVCombinations("atk", -1, 1)[0].atk;
 		var maxAttack = self.generateIVCombinations("atk", 1, 1)[0].atk;
-		var maxDefense = defender.generateIVCombinations("def", 1, 1)[0].def;
-		var minDamage = battle.calculateDamageByStats(minAttack, defender.stats.def, effectiveness, self.fastMove);
-		var maxDamage = battle.calculateDamageByStats(maxAttack, defender.stats.def, effectiveness, self.fastMove);
+		var maxDefense = defender.generateIVCombinations("def", 1, 1)[0].def * defender.shadowDefMult;
+		var minDamage = battle.calculateDamageByStats(minAttack, defender.stats.def * defender.shadowDefMult, effectiveness, self.fastMove);
+		var maxDamage = battle.calculateDamageByStats(maxAttack, defender.stats.def * defender.shadowDefMult, effectiveness, self.fastMove);
 
 		var breakpoints = [];
 
 		for(var i = minDamage; i <= maxDamage; i++){
-			var breakpoint = battle.calculateBreakpoint(i, defender.stats.def, effectiveness, self.fastMove);
+			var breakpoint = battle.calculateBreakpoint(i, defender.stats.def * defender.shadowDefMult, effectiveness, self.fastMove);
 			var maxDefenseBreakpoint = battle.calculateBreakpoint(i, maxDefense, effectiveness, self.fastMove);
 
 			if(maxDefenseBreakpoint > maxAttack){
@@ -420,14 +429,14 @@ function Pokemon(id, i, b){
 		var effectiveness = self.typeEffectiveness[attacker.fastMove.type];
 		var minDefense = self.generateIVCombinations("def", -1, 1)[0].def;
 		var maxDefense = self.generateIVCombinations("def", 1, 1)[0].def;
-		var maxAttack = attacker.generateIVCombinations("atk", 1, 1)[0].atk;
-		var minDamage = battle.calculateDamageByStats(attacker.stats.atk, maxDefense, effectiveness, attacker.fastMove);
-		var maxDamage = battle.calculateDamageByStats(attacker.stats.atk, minDefense, effectiveness, attacker.fastMove);
+		var maxAttack = attacker.generateIVCombinations("atk", 1, 1)[0].atk * attacker.shadowAtkMult;
+		var minDamage = battle.calculateDamageByStats(attacker.stats.atk * attacker.shadowAtkMult, maxDefense, effectiveness, attacker.fastMove);
+		var maxDamage = battle.calculateDamageByStats(attacker.stats.atk * attacker.shadowAtkMult, minDefense, effectiveness, attacker.fastMove);
 
 		var breakpoints = [];
 
 		for(var i = minDamage; i <= maxDamage; i++){
-			var bulkpoint = battle.calculateBulkpoint(i, attacker.stats.atk, effectiveness, attacker.fastMove);
+			var bulkpoint = battle.calculateBulkpoint(i, attacker.stats.atk * attacker.shadowAtkMult, effectiveness, attacker.fastMove);
 			var maxAttackBulkpoint = battle.calculateBulkpoint(i, maxAttack, effectiveness, attacker.fastMove);
 
 			if(maxAttackBulkpoint > maxDefense){
@@ -505,12 +514,12 @@ function Pokemon(id, i, b){
 			for(var i = 0; i < self.activeChargedMoves.length; i++){
 				var move = self.activeChargedMoves[i];
 				move.dpe = move.damage / move.energy;
-				
+
 				// Use moves that have higher DPE
 				if(move.dpe - self.bestChargedMove.dpe > .03){
 					self.bestChargedMove = self.activeChargedMoves[i];
 				}
-				
+
 				// When DPE is close, favor moves with guaranteed buff effects
 				if((Math.abs(move.dpe - self.bestChargedMove.dpe) < .03)&&(self.bestChargedMove.buffs)&&(move.buffs)&&(move.buffApplyChance > self.bestChargedMove.buffApplyChance)&&(! move.selfDebuffing)){
 					self.bestChargedMove = self.activeChargedMoves[i];
@@ -996,6 +1005,14 @@ function Pokemon(id, i, b){
 			multiplier = buffDivisor / (buffDivisor - self.statBuffs[index]);
 		}
 
+		if(self.shadowType == "shadow"){
+			if(index == 0){
+				multiplier *= self.shadowAtkMult;
+			} else if(index == 1){
+				multiplier *= self.shadowDefMult;
+			}
+		}
+
 		if(index == 0){
 			return self.stats.atk * multiplier;
 		} else if(index == 1){
@@ -1042,6 +1059,10 @@ function Pokemon(id, i, b){
 
 		if(self.priority != 0){
 			pokeStr += "-p";
+		}
+
+		if(self.shadowType != "normal"){
+			pokeStr += "-"+self.shadowType;
 		}
 
 		if(context == "team-builder"){
@@ -1092,5 +1113,27 @@ function Pokemon(id, i, b){
 		}
 
 		return moveAbbreviationStr;
+	}
+
+	// Change the value of this Pokemon's form type (normal, shadow, purified)
+
+	this.setShadowType = function(val){
+		self.shadowType = val;
+
+		if(self.shadowType == "shadow"){
+			self.shadowAtkMult = gm.data.settings.shadowAtkMult;
+			self.shadowDefMult = gm.data.settings.shadowDefMult;
+
+			if(self.speciesName.indexOf("Shadow") == -1){
+				self.speciesName = "Shadow " + self.speciesName;
+			}
+		} else{
+			self.shadowAtkMult = 1;
+			self.shadowDefMult = 1;
+
+			if(self.speciesName.indexOf("Shadow") > -1){
+				self.speciesName = self.speciesName.replace("Shadow","");
+			}
+		}
 	}
 }

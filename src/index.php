@@ -27,13 +27,12 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.12.35 (February 22, 2020)</h4>
+	<h4>v1.13.0 (March 2, 2020)</h4>
 	<ul>
-		<li>強化於排名及戰鬥模擬計算中的搜尋功能：</li>
+		<li>Settings now added for Shadow Pokemon.</li>
 		<ul>
-			<li>依世代搜尋</li>
-			<li>依特殊標籤搜尋(傳說的寶可夢, 幻之寶可夢...等等)</li>
-			<li>依全國圖鑑編號搜尋</li>
+			<li>Shadow Pokemon receive a x1.2 multiplier to Attack and a x0.83 multiplier to Defense.</li>
+			<li>Shadow Pokemon can be incorporated into custom groups.</li>
 		</ul>
 	</ul>
 
@@ -83,8 +82,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sat Feb 29 11:30:17 2020 +0800</li>
-                <li>原版最後版本時間：Fri Feb 28 16:54:28 2020 -0600</li>
+                <li>中文版最後更新時間：Tue Mar 3 09:16:17 2020 +0800</li>
+                <li>原版最後版本時間：Mon Mar 2 18:59:16 2020 -0600</li>
 
             </ul>
 </div>

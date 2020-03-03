@@ -1187,11 +1187,14 @@ var InterfaceMaster = (function () {
 										}
 									}
 
-									// Assign priority
+									// Check string for other parameters
 									for(var i = 0; i < arr.length; i++){
 										switch(arr[i]){
-											case "p":
-												pokemon.priority = 1;
+											case "shadow":
+											case "purified":
+												pokemon.setShadowType(arr[i]);
+												$(".poke.single .form-group").eq(index).find(".check").removeClass("on");
+												$(".poke.single .form-group").eq(index).find(".check[value=\""+arr[i]+"\"]").addClass("on");
 												break;
 										}
 									}
@@ -2267,6 +2270,7 @@ var InterfaceMaster = (function () {
 
 			function checkBox(e){
 				$(this).toggleClass("on");
+				$(this).trigger("change");
 			}
 
 		};

@@ -94,12 +94,21 @@
 		</div>
 
 		<div class="options">
-			<h3 class="section-title">防禦網使用策略</h3>
-			<select class="shield-select">
-				<option value="0">不使用防禦網</option>
-				<option value="1" selected>使用1次防禦網</option>
-				<option value="2">使用2次防禦網</option>
-			</select>
+			<div class="shield-section">
+				<h3 class="section-title">防禦網使用策略</h3>
+				<select class="shield-select">
+				    <option value="0">不使用防禦網</option>
+				    <option value="1" selected>使用1次防禦網</option>
+				    <option value="2">使用2次防禦網</option>
+				</select>
+			</div>
+			<div class="shadow-section">
+			    <h3 class="section-title">寶可夢個體</h3>
+			    <div class="form-group">
+			        <div class="check on" value="normal"><span></span>一般</div>
+			        <div class="check" value="shadow"><span></span>暗影</div>
+			    </div>
+			</div>
 			<a href="#" class="section-title toggle">其他選項 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 			<div class="toggle-content">
 				<div class="flex">
@@ -147,13 +156,13 @@
 		<p>將 <b><span class="name"></span></b> 移除?</p>
 
 		<div class="center flex">
-			<div class="button yes">Yes</div>
-			<div class="button no">No</div>
+			<div class="button yes">是</div>
+			<div class="button no">否</div>
 		</div>
 	</div>
 
 	<div class="custom-move hide">
-		<p>Add a custom move for <b><span class="name"></span></b>:</p>
+		<p>自訂 <b><span class="name"></span></b>的招式:</p>
 
 		<input class="poke-search" context="move-search" type="text" placeholder="Search move"/>
 		<select class="move-select">
@@ -161,7 +170,7 @@
 		</select>
 
 		<div class="center flex">
-			<div class="button add-move">Add move</div>
+			<div class="button add-move">加入招式</div>
 		</div>
 	</div>
 </div>

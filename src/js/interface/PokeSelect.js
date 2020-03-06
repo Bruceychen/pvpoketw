@@ -29,16 +29,18 @@ function PokeSelect(element, i){
 		$.each(pokemon, function(n, poke){
 
 			if(poke.fastMoves.length > 0){
-				pokeMonlistDex.push(poke);
-				pokeMonlistName.push(poke);
+				// 		pokeMonlistDex.push(poke);
+				// 		pokeMonlistName.push(poke);
+				// 	}
+				// });
+				// 	//sorting by dex no.
+				// 	pokeMonlistDex.sort((a, b) => (a.dex > b.dex) ? 1 : -1);
+				//
+				// 	//use name sort as default
+				// 	pokeMonlistName.forEach(function(poke, index) {
+				// 	$pokeSelect.append("<option value=\""+poke.speciesId+"\" type-1=\""+poke.types[0]+"\" type-2=\""+poke.types[1]+"\">"+poke.speciesName+"</option");
+				$pokeSelect.append("<option value=\"" + poke.speciesId + "\" type-1=\"" + poke.types[0] + "\" type-2=\"" + poke.types[1] + "\">" + poke.speciesName + "</option");
 			}
-		});
-			//sorting by dex no.
-			pokeMonlistDex.sort((a, b) => (a.dex > b.dex) ? 1 : -1);
-
-			//use name sort as default
-			pokeMonlistName.forEach(function(poke, index) {
-			$pokeSelect.append("<option value=\""+poke.speciesId+"\" type-1=\""+poke.types[0]+"\" type-2=\""+poke.types[1]+"\">"+poke.speciesName+"</option");
 		});
 
 		interface = InterfaceMaster.getInstance();
@@ -198,6 +200,12 @@ function PokeSelect(element, i){
 
 			$el.find(".form-group .check").removeClass("on");
 			$el.find(".form-group .check[value=\""+selectedPokemon.shadowType+"\"]").addClass("on");
+
+			if(selectedPokemon.hasTag("shadow")){
+				$el.find(".shadow-section").hide();
+			} else{
+				$el.find(".shadow-section").show();
+			}
 		}
 	}
 

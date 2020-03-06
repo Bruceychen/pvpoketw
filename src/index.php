@@ -27,6 +27,11 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
+	<h4>v1.14.0 (March 14, 2020)</h4>
+	<ul>
+	    <li>暗影寶可夢現在起將視同為不同寶可夢，並可於排名資料中搜尋及使用於對戰模擬中！</li>
+	</ul>
+
 	<h4>v1.13.0 (March 2, 2020)</h4>
 	<ul>
 		<li>Settings now added for Shadow Pokemon.</li>
@@ -82,8 +87,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Wed Mar 4 09:02:17 2020 +0800</li>
-                <li>原版最後版本時間：Tue Mar 3 12:14:02 2020 -0600</li>
+                <li>中文版最後更新時間：Fri Mar 6 09:29:17 2020 +0800</li>
+                <li>原版最後版本時間：Thu Mar 5 11:53:25 2020 -0600</li>
 
             </ul>
 </div>

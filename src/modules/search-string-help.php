@@ -11,7 +11,7 @@
 		</tr>
 		<tr>
 			<td><strong>輸入英文寶可夢類別標籤，有以下選項:</strong></td>
-			<td>legendary(傳說的寶可夢), mythical(幻之寶可夢), regional(所有地區型態), alolan(阿羅拉地區型態), galarian(伽勒爾地區型態), starter(最初拿到的寶可夢、御三家)</td>
+			<td>legendary(傳說的寶可夢), mythical(幻之寶可夢), regional(所有地區型態), alolan(阿羅拉地區型態), galarian(伽勒爾地區型態), starter(最初拿到的寶可夢、御三家), shadow(只顯示暗影寶可夢), shadoweligible(有暗影化寶可夢，但只顯示一般個體)</td>
 		</tr>
 		<tr>
 			<td><strong>輸入英文 世代 或 地區，有以下選項:</strong></td>

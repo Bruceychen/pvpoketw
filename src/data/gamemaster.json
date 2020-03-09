@@ -4546,7 +4546,7 @@
         }
     }, {
         "dex": 150,
-        "speciesName": "超夢-裝甲型態",
+        "speciesName": "超夢 裝甲型態",
         "speciesId": "mewtwo_armored",
         "baseStats": {
             "atk": 182,

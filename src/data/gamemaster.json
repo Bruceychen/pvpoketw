@@ -243,37 +243,6 @@
             "filterType": "id",
             "values": ["noctowl", "vigoroth", "tropius", "whiscash", "swampert", "quagsire", "gastrodon_east_sea", "gastrodon_west_sea", "seismitoad", "palpitoad", "marshtomp", "swampert_shadow", "marshtomp_shadow"]
         }]
-    }, {
-        "name": "plague",
-        "title": "Plague Cup",
-        "restrictedPicks": 2,
-        "restrictedPokemon": ["jirachi","swampert","drapion","ivysaur","venusaur","victreebel","skuntank","muk_alolan","mantine","azumarill","bronzong","deoxys_defense","mew","lugia"],
-        "include": [{
-            "filterType": "type",
-            "values": ["fighting","poison","psychic","water"]
-        }],
-        "exclude": []
-    }, {
-        "name": "growing",
-        "title": "Growing Cup",
-        "include": [],
-        "exclude": [{
-            "filterType": "id",
-            "values": ["weezing_galarian","zigzagoon_galarian","linoone_galarian"]
-        }, {
-            "filterType": "tag",
-            "values": ["legendary", "mythical"]
-        }]
-    }, {
-        "name": "llove",
-        "title": "LLove Cup",
-        "restrictedPicks": 1,
-        "restrictedPokemon": ["azumarill","skarmory","tropius","altaria","bastiodon","probopass","venusaur","sableye","bronzong","hypno","ivysaur","meganium","swampert","medicham","zweilous","umbreon","lanturn","mew","jirachi","meltan","melmetal","darkrai","deoxys","deoxys_attack","deoxys_defense","deoxys_speed","regirock","regice","registeel","regigigas"],
-        "include": [],
-        "exclude": [{
-            "filterType": "id",
-            "values": ["latios"]
-        }]
     }],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible"],
     "pokemonRegions": [{
@@ -1014,6 +983,22 @@
         "fastMoves": ["PRESENT", "QUICK_ATTACK", "THUNDER_SHOCK"],
         "chargedMoves": ["DISCHARGE", "SURF", "THUNDER", "THUNDERBOLT", "WILD_CHARGE"],
         "legacyMoves": ["PRESENT", "SURF", "THUNDER"],
+        "defaultIVs": {
+            "cp1500": [40, 15, 15, 15],
+            "cp2500": [40, 15, 15, 15]
+        }
+    }, {
+        "dex": 25,
+        "speciesName": "皮卡丘 面罩摔角手",
+        "speciesId": "pikachu_libre",
+        "baseStats": {
+            "atk": 112,
+            "def": 96,
+            "hp": 111
+        },
+        "types": ["electric", "none"],
+        "fastMoves": ["THUNDER_SHOCK","CHARM"],
+        "chargedMoves": ["FLYING_PRESS", "PLAY_ROUGH", "THUNDER_PUNCH"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
@@ -6540,8 +6525,9 @@
             "hp": 225
         },
         "types": ["rock", "dark"],
-        "fastMoves": ["BITE", "IRON_TAIL"],
+        "fastMoves": ["SMACK_DOWN", "BITE", "IRON_TAIL"],
         "chargedMoves": ["CRUNCH", "FIRE_BLAST", "STONE_EDGE"],
+		"legacyMoves": ["SMACK_DOWN"],
         "defaultIVs": {
             "cp1500": [14.5, 5, 14, 4],
             "cp2500": [24, 4, 10, 12]
@@ -15422,6 +15408,14 @@
         "type": "steel",
         "power": 110,
         "energy": 65,
+        "energyGain": 0,
+        "cooldown": 500
+    }, {
+        "moveId": "FLYING_PRESS",
+        "name": "飛身重壓",
+        "type": "fighting",
+        "power": 90,
+        "energy": 40,
         "energyGain": 0,
         "cooldown": 500
     }, {

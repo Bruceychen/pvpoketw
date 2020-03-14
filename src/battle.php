@@ -62,8 +62,6 @@ require_once 'header.php';
 			<div class="timeline"></div>
 			<div class="tracker"></div>
 		</div>
-		<div class="tip automated">點擊或將鼠標移動到時間軸上任意位置以獲得更精確資訊。<a href="<?php echo $WEB_ROOT; ?>articles/guide-to-fast-move-registration/">Read more</a> about the timeline.</div>
-		<div class="tip sandbox">點選單個圓圈以修改寶可夢行動。</div>
 		<div class="playback section white">
 			<div class="flex">
 				<div class="playback-btn replay"></div>
@@ -82,6 +80,8 @@ require_once 'header.php';
 			<div class="disclaimer">* 此模擬可能會因實際網路連線品質、使用裝置、玩家思考決策時間等諸多因素，而使模擬結果與真實狀況有所出入。</div>
 		</div>
 		<div class="summary section white"></div>
+        <div class="tip automated">點擊或將鼠標移動到時間軸上任意位置以獲得更精確資訊。<a href="<?php echo $WEB_ROOT; ?>articles/guide-to-fast-move-registration/">點此</a> 了解更多關於時間軸的機制(英文)。</div>
+        <div class="tip sandbox">點選單個圓圈以修改寶可夢行動。</div>
 		<div class="share-link-container">
 			<p>分享此戰鬥模擬數據</p>
 			<div class="share-link">

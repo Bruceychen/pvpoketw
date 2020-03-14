@@ -1,7 +1,7 @@
 <?php
 $META_TITLE='貢獻一己之力';
 
-$META_DESCRIPTION='贊助原本網站或是查閱原始碼';
+$META_DESCRIPTION='贊助原版網站或是查閱專案原始碼';
 
 require_once 'header.php'; ?>
 
@@ -18,7 +18,7 @@ require_once 'header.php'; ?>
 
 	<a href="https://www.patreon.com/user?u=16528512" class="button">
 		<h2 class="no-logo">Patreon</h2>
-		<p>抖內支持原作者團隊！</p>
+		<p>抖內支持原作者(非中文版)團隊！</p>
 	</a>
 
 	<h2 class="center">Ultra Supporters</h2>
@@ -36,8 +36,10 @@ require_once 'header.php'; ?>
 		<div class="supporter">JEngels21</div>
 		<div class="supporter">SparkSpencer</div>
 		<div class="supporter">Vexilus @PvPVexilus</div>
-
-
+		<div class="supporter">LindenRyu</div>
+		<div class="supporter">impoid</div>
+		<div class="supporter">t00fan</div>
+		<div class="supporter">TehPool</div>
 	</div>
 
 	<h2 class="center">Master Supporters</h2>
@@ -100,27 +102,27 @@ require_once 'header.php'; ?>
 		<div class="supporter-container">
 			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/themistervalor.jpg" />
 			<div class="supporter"><a href="https://twitter.com/TheMisterValor" target="_blank">TheMisterValor</a></div>
-        </div>
-        <div class="supporter-container">
-            <img src="<?php echo $WEB_ROOT; ?>img/sponsors/vergyverg.jpg" width="85" height="85" />
-            <div class="supporter"><a href="https://www.youtube.com/channel/UCOeIQWAJYD-zy7T5-IRZy7Q" target="_blank">Vergyverg</a></div>
-        </div>
-        <div class="supporter-container">
-            <div class="space"></div>
-            <div class="supporter"><a href="https://twitter.com/PirateUnicornNK" target="_blank">Mark Pain</a></div>
-        </div>
-        <div class="supporter-container">
-            <img src="<?php echo $WEB_ROOT; ?>img/sponsors/pirateunicornnk.jpg" width="85" height="85" />
-            <div class="supporter"><a href="https://twitter.com/PirateUnicornNK" target="_blank">PirateUnicornNK</a></div>
-        </div>
-        <div class="supporter-container">
-            <div class="space"></div>
-            <div class="supporter"><a href="http://twitch.tv/rickeybot" target="_blank">Rickeybot</a></div>
-        </div>
-        <div class="supporter-container">
-            <img src="<?php echo $WEB_ROOT; ?>img/sponsors/wizap.jpg"/>
-            <div class="supporter"><a href="https://www.youtube.com/channel/UC77QyviuffB5xGKtAkn1XtQ" target="_blank">Wizap 7</a></div>
-        </div>
+		</div>
+		<div class="supporter-container">
+			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/vergyverg.jpg" width="85" height="85" />
+			<div class="supporter"><a href="https://www.youtube.com/channel/UCOeIQWAJYD-zy7T5-IRZy7Q" target="_blank">Vergyverg</a></div>
+		</div>
+		<div class="supporter-container">
+			<div class="space"></div>
+			<div class="supporter"><a href="https://twitter.com/PirateUnicornNK" target="_blank">Mark Pain</a></div>
+		</div>
+		<div class="supporter-container">
+			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/pirateunicornnk.jpg" width="85" height="85" />
+			<div class="supporter"><a href="https://twitter.com/PirateUnicornNK" target="_blank">PirateUnicornNK</a></div>
+		</div>
+		<div class="supporter-container">
+			<div class="space"></div>
+			<div class="supporter"><a href="http://twitch.tv/rickeybot" target="_blank">Rickeybot</a></div>
+		</div>
+		<div class="supporter-container">
+			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/wizap.jpg"/>
+			<div class="supporter"><a href="https://www.youtube.com/channel/UC77QyviuffB5xGKtAkn1XtQ" target="_blank">Wizap 7</a></div>
+		</div>
 	</div>
 </div>
 

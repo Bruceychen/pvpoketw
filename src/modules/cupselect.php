@@ -1,5 +1,5 @@
 <select class="format-select">
-	<option value="all" cup="all">無限屬大亂鬥</option>
+	<option value="all" cup="all">全部寶可夢</option>
     <option value="tsa-2" cup="toxic">猛毒盃-202003</option>
     <option value="community">本地社群自創盃賽</option>
 
@@ -10,7 +10,7 @@
 </select>
 
 <select class="cup-select">
-	<option value="all" cat="all">無限屬大亂鬥</option>
+	<option value="all" cat="all">全部寶可夢</option>
 	<option value="gen-5" cat="all">無限屬大亂鬥 (含未開放五世代寶可夢)</option>
     <option value="llove" cat="community">LLove Cup-高雄群</option>
     <option value="growing" cat="community">成長盃-高雄群</option>

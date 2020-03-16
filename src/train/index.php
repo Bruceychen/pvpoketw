@@ -127,7 +127,7 @@ require_once '../header.php';
 
 	<h4>v1.14.2 (March 15, 2020)</h4>
 	<ul>
-		<li>加入國外網紅 RamblingRabbit 及 Gucc1G4ng69的精選猛毒盃隊伍!</li>
+		<li>加入國外網友 RamblingRabbit 及 Gucc1G4ng69的精選猛毒盃隊伍!</li>
 	</ul>
 </div>
 

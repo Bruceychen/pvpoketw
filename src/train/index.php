@@ -125,9 +125,9 @@ require_once '../header.php';
 <div class="section white updates">
 	<h3>更新紀錄</h3>
 
-	<h4>v1.12.30 (February 6, 2020)</h4>
+	<h4>v1.14.2 (March 15, 2020)</h4>
 	<ul>
-		<li>AI模擬對戰現已開放 GO 對戰聯盟(天梯) - 高級聯盟(2500)！</li>
+		<li>加入國外網紅 RamblingRabbit 及 Gucc1G4ng69的精選猛毒盃隊伍!</li>
 	</ul>
 </div>
 

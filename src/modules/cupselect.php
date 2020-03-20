@@ -1,6 +1,7 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
     <option value="tsa-2" cup="toxic">猛毒盃-202003</option>
+    <option value="tsa-2" cup="voyager">Voyager Cup-202004</option>
     <option value="community">本地社群自創盃賽</option>
 
 	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
@@ -24,6 +25,7 @@
 	<option value="tempest" cat="tsa-1">風暴盃</option>
 	<option value="twilight" cat="tsa-1">暮光盃</option>
 	<option value="boulder" cat="tsa-1">巨石盃</option>
+    <option value="voyager" cat="tsa-2">Voyager Cup</option>
     <option value="toxic" cat="tsa-2">猛毒盃</option>
     <option value="rose" cat="tsa-2">玫瑰盃</option>
     <option value="fusion" cat="tsa-2">融合盃</option>

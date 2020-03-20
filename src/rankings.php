@@ -109,6 +109,14 @@ switch($cup){
     case "llove":
             $league = 'LLove Cup';
             break;
+
+    case "voyager":
+        $league = 'Voyager Cup';
+        break;
+
+	case "voyager":
+		$league = 'Voyager Cup';
+		break;
 }
 
 $META_TITLE = $league . ' PvP Rankings';
@@ -161,6 +169,10 @@ require_once 'header.php';
 
 	<div class="check on limited hide"><span></span>顯示 <div class="limited-title">數量限制寶可夢</div>*</div>
 	<div class="asterisk limited hide">*本賽制規定，這些受標示寶可夢在每位參賽者六隻寶可夢隊伍中，有數量上之限制。詳情請見此賽制規則。</div>
+
+    <p class="limited hide">可輸入以下單字以搜尋特定遊戲內區域或世代的寶可夢："kanto", "johto"...等，或 "gen1", "gen2"... 等。</p>
+    <p class="limited hide">詳情請點選 搜尋格後方的驚嘆號。</p>
+
 
 	<div class="poke-search-container">
 		<input class="poke-search" context="ranking-search" type="text" placeholder="寶可夢中文名或英文屬性搜尋" />

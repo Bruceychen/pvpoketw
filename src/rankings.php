@@ -247,6 +247,16 @@ require_once 'header.php';
 
 <div class="details-template hide">
     <div class="detail-section float margin">
+        <div class="ranking-header">最佳剋制對象</div>
+        <div class="ranking-header right">Battle Rating</div>
+        <div class="matchups clear"></div>
+    </div>
+    <div class="detail-section float">
+        <div class="ranking-header">首要威脅來源</div>
+        <div class="ranking-header right">Battle Rating</div>
+        <div class="counters clear"></div>
+    </div>
+    <div class="detail-section float margin">
         <div class="ranking-header">一般招式</div>
         <div class="ranking-header right">使用率</div>
         <div class="moveset fast clear"></div>
@@ -256,15 +266,24 @@ require_once 'header.php';
         <div class="ranking-header right">使用率</div>
         <div class="moveset charged clear"></div>
     </div>
+    <div class="clear"></div>
+    <div class="detail-section typing">
+        <div class="rating-container">
+            <div class="ranking-header">第一屬性</div>
+            <div class="type"></div>
+        </div>
+        <div class="rating-container">
+            <div class="ranking-header">第二屬性</div>
+            <div class="type"></div>
+        </div>
+    </div>
     <div class="detail-section float margin">
-        <div class="ranking-header">最佳剋制對象</div>
-        <div class="ranking-header right">Battle Rating</div>
-        <div class="matchups clear"></div>
+        <div class="ranking-header">弱點屬性</div>
+        <div class="weaknesses clear"></div>
     </div>
     <div class="detail-section float">
-        <div class="ranking-header">首要威脅來源</div>
-        <div class="ranking-header right">Battle Rating</div>
-        <div class="counters clear"></div>
+        <div class="ranking-header">抵抗屬性</div>
+        <div class="resistances clear"></div>
     </div>
     <div class="clear"></div>
     <div class="detail-section stats">

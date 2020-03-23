@@ -30,40 +30,40 @@ require_once 'header.php'; ?>
 		<button class="add-filter" list-index="1">+ 增加篩選條件</button>
     </div>
 
-    <a class="toggle" href="#">進階設定 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
-    <div class="toggle-content advanced">
-        <div class="flex-section">
-            <div>
-                <h3 class="section-title">我方防護網使用策略</h3>
-                <select class="subject-shield-select" index="0">
-                    <option value="0">不使用</option>
-                    <option value="1" selected>使用1個防護網</option>
-                    <option value="2">使用2個防護網</option>
-                </select>
-            </div>
-            <div>
-                <h3 class="section-title">對方防護網使用策略</h3>
-                <select class="target-shield-select" index="1">
-                    <option value="0">不使用</option>
-                    <option value="1" selected>使用1個防護網</option>
-                    <option value="2">使用2個防護網</option>
-                </select>
-            </div>
-        </div>
-        <div class="flex-section">
-            <div>
-                <h3 class="section-title">Subject Energy<br>Advantage</h3>
-                <input type="number" class="subject-turns" index="0" placeholder="Turns" />
-            </div>
-            <div>
-                <h3 class="section-title">Target Energy<br>Advantage</h3>
-                <input type="number" class="target-turns" index="1" placeholder="Turns" />
-            </div>
-        </div>
-        <h3 class="section-title">匯入聯盟或主題盃賽</h3>
-        <?php require_once 'modules/cupselect.php'; ?>
-        <p>匯入既有聯盟或主題盃賽之規則及推薦的招式組合。</p>
-    </div>
+	<a class="toggle" href="#">進階設定 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+	<div class="toggle-content advanced">
+	    <div class="flex-section">
+	        <div>
+	            <h3 class="section-title">我方防護網使用策略</h3>
+	            <select class="subject-shield-select" index="0">
+	                <option value="0">不使用</option>
+	                <option value="1" selected>使用1個防護網</option>
+	                <option value="2">使用2個防護網</option>
+	            </select>
+	        </div>
+	        <div>
+	            <h3 class="section-title">對方防護網使用策略</h3>
+	            <select class="target-shield-select" index="1">
+	                <option value="0">不使用</option>
+	                <option value="1" selected>使用1個防護網</option>
+	                <option value="2">使用2個防護網</option>
+	            </select>
+	        </div>
+	    </div>
+	    <div class="flex-section">
+	        <div>
+	            <h3 class="section-title">Subject Energy<br>Advantage</h3>
+	            <input type="number" class="subject-turns" index="0" placeholder="Turns" />
+	        </div>
+	        <div>
+	            <h3 class="section-title">Target Energy<br>Advantage</h3>
+	            <input type="number" class="target-turns" index="1" placeholder="Turns" />
+	        </div>
+	    </div>
+	    <h3 class="section-title">匯入聯盟或主題盃賽</h3>
+	    <?php require_once 'modules/cupselect.php'; ?>
+	    <p>匯入既有聯盟或主題盃賽之規則及推薦的招式組合。</p>
+	</div>
 
 	<div class="filter clone hide">
 		<a class="toggle" href="#"><span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span> <span class="name">Filter Name</span></a>
@@ -113,6 +113,8 @@ require_once 'header.php'; ?>
 					<div class="check" value="mythical"><span></span> 幻之寶可夢</div>
 					<div class="check" value="alolan"><span></span> 阿羅拉型態</div>
 					<div class="check" value="regional"><span></span> 地區限定</div>
+                    <div class="check" value="shadow"><span></span>暗影化</div>
+                    <div class="check" value="shadoweligible"><span></span>另有暗影化型態</div>
 				</div>
 			</div>
 
@@ -243,6 +245,16 @@ require_once 'header.php'; ?>
 
 <div class="details-template hide">
 	<div class="detail-section float margin">
+        <div class="ranking-header">最佳克制對象</div>
+        <div class="ranking-header right">Battle Rating</div>
+        <div class="matchups clear"></div>
+    </div>
+    <div class="detail-section float">
+        <div class="ranking-header">首要威脅來源</div>
+        <div class="ranking-header right">Battle Rating</div>
+        <div class="counters clear"></div>
+    </div>
+    <div class="detail-section float margin">
 	    <div class="ranking-header">一般招式</div>
 	    <div class="ranking-header right">使用率</div>
 	    <div class="moveset fast clear"></div>
@@ -251,17 +263,26 @@ require_once 'header.php'; ?>
 	    <div class="ranking-header">特殊招式</div>
 	    <div class="ranking-header right">使用率</div>
 	    <div class="moveset charged clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div class="detail-section typing">
+        <div class="rating-container">
+            <div class="ranking-header">第一屬性</div>
+            <div class="type"></div>
+        </div>
+        <div class="rating-container">
+            <div class="ranking-header">第二屬性</div>
+            <div class="type"></div>
+        </div>
 	</div>
-	<div class="detail-section float margin">
-	    <div class="ranking-header">最佳剋制對象</div>
-	    <div class="ranking-header right">Battle Rating</div>
-	    <div class="matchups clear"></div>
-	</div>
-	<div class="detail-section float">
-	    <div class="ranking-header">首要威脅來源</div>
-	    <div class="ranking-header right">Battle Rating</div>
-	    <div class="counters clear"></div>
-	</div>
+    <div class="detail-section float margin">
+        <div class="ranking-header">弱點屬性</div>
+        <div class="weaknesses clear"></div>
+    </div>
+    <div class="detail-section float">
+        <div class="ranking-header">抵抗屬性</div>
+        <div class="resistances clear"></div>
+    </div>
 	<div class="clear"></div>
 	<div class="detail-section stats">
 	    <div class="rating-container">

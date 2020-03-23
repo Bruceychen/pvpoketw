@@ -27,16 +27,16 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.14.1 (March 13, 2020)</h4>
-	<ul>
-		<li>Shadow Pokemon have been removed from the Team Builder threats and alternatives lists for the time being.</li>
-		<ul>
-			<li>Shadow Pokemon are still listed in the CSV export.</li>
-		</ul>
-		<li>The Team Builder threats and alternative lists have been extended from 10 to 20 Pokemon.</li>
-		<li>Added an indicator in the battle timeline at 60 seconds to indicate when the switch button would be available after a switch.</li>
-		<li>Alolan Pokemon are no longer listed for "gen1"/"kanto" search.</li>
-		<li>Fixed an issue where entering Pokemon into custom groups (Matrix Battle, Team Builder, etc.) and then changing leagues would produce erroneous results. Changing league now adjusts the selected Pokemon to the appropriate CP.</li>
+    <h4>v1.14.3 (March 22, 2020)</h4>
+    <ul>
+        <li>Rankings now display Pokemon typing, weaknesses, and resistances.</li>
+        <li>Identified and fixed a rounding issue with type effectiveness in damage calculations for double- and triple-resisted moves.</li>
+        <ul>
+            <li>This issue had no impact in the majority of matchups but affected breakpoint and bulkpoint calculations for double- and triple-resisted moves. These breakpoints are reachable with 0.1-0.2 less Attack than previously shown.</li>
+        </ul>
+        <li>Fixed a breakpoint calculation issue for guaranteeing breakpoints against Shadow Pokemon.</li>
+        <li>Search bar processing on Rankings and Multi-Battle has been tweaked for smoother typing on mobile.</li>
+        <li>Added "Shadow" and "Shadow Eligible" tags to the Custom Rankings filters.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -85,8 +85,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Fri Mar 20 11:05:17 2020 +0800</li>
-                <li>原版最後版本時間：Thu Mar 19 20:50:42 2020 -0500</li>
+                <li>中文版最後更新時間：Tue Mar 24 01:52:17 2020 +0800</li>
+                <li>原版最後版本時間：Sun Mar 22 11:58:59 2020 -0500</li>
 
             </ul>
 </div>

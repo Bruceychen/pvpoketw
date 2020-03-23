@@ -134,7 +134,7 @@ require_once 'header.php';
 						</tr>
 					</table>
 					<p class="center">點選上述分數觀看不同條件之結果</p>
-                    <p>上表顯示 <span class="name-1">Pokemon</span>對上<span class="name-2">Pokemon</span> 的模擬計算結果。表格中的分數代表<span class="name-1">Pokemon</span>和<span class="name-2">Pokemon</span>在分別使用不同個數防護網時的評分。以左邊縱軸為主，高於500分越多則代表<span class="name-1">Pokemon</span>越佔優勢，低於500越多則是越難戰勝<span class="name-2">Pokemon</span>。</p>
+                    <p>上表顯示 <span class="name-1">Pokemon</span>對上<span class="name-2">Pokemon</span> 的模擬計算結果。表格中的分數代表這兩隻寶可夢於對戰中分別使用不同個數防護網時的評分。以左邊縱軸為主，高於500分越多則代表<span class="name-1">Pokemon</span>越佔優勢，低於500分越多則是越難戰勝<span class="name-2">Pokemon</span>。</p>
 				</div>
 
 				<h2 class="center">Breakpoints &amp; Bulkpoints</h2>

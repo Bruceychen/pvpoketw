@@ -655,11 +655,13 @@ var InterfaceMaster = (function () {
 				// Display Pokemon's type information
 
 				$details.find(".typing .type").eq(0).addClass(pokemon.types[0]);
-				$details.find(".typing .type").eq(0).html(pokemon.types[0]);
+				//顯示屬性中文翻譯function 使用
+				$details.find(".typing .type").eq(0).html(typeTranslate(pokemon.types[0]));
 
 				if(pokemon.types[1] != "none"){
 					$details.find(".typing .type").eq(1).addClass(pokemon.types[1]);
-					$details.find(".typing .type").eq(1).html(pokemon.types[1]);
+				//顯示屬性中文翻譯function 使用
+					$details.find(".typing .type").eq(1).html(typeTranslate(pokemon.types[1]));
 				} else{
 					$details.find(".typing .rating-container").eq(1).hide();
 				}
@@ -676,18 +678,19 @@ var InterfaceMaster = (function () {
 				}
 
 				effectivenessArr.sort((a,b) => (a.val > b.val) ? -1 : ((b.val > a.val) ? 1 : 0));
-
 				for(var i = 0; i < effectivenessArr.length; i++){
 					var num = Math.floor(effectivenessArr[i].val * 1000) / 1000;
 					if(effectivenessArr[i].val > 1){
-						$details.find(".detail-section .weaknesses").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+effectivenessArr[i].type+"</div></div>");
+				// 顯示屬性翻譯function 使用
+						$details.find(".detail-section .weaknesses").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+typeTranslate(effectivenessArr[i].type)+"</div></div>");
 					}
 				}
 
 				for(var i = effectivenessArr.length - 1; i >= 0; i--){
 					var num = Math.floor(effectivenessArr[i].val * 1000) / 1000;
 					if(effectivenessArr[i].val < 1){
-						$details.find(".detail-section .resistances").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+effectivenessArr[i].type+"</div></div>");
+				//顯示屬性翻譯function 使用
+						$details.find(".detail-section .resistances").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+typeTranslate(effectivenessArr[i].type)+"</div></div>");
 					}
 				}
 
@@ -765,6 +768,67 @@ var InterfaceMaster = (function () {
 			function toggleLimitedPokemon(e){
 				for(var i = 0; i < limitedPokemon.length; i++){
 					$(".rank[data='"+limitedPokemon[i]+"']").toggleClass("hide");
+				}
+			}
+
+			// pvpoketw version 屬性轉換
+			function typeTranslate(type){
+				switch (type.toLowerCase()) {
+					case "bug":
+						return "蟲";
+						break;
+					case "dark":
+						return "惡";
+						break;
+					case "dragon":
+						return "龍";
+						break;
+					case "electric":
+						return "電";
+						break;
+					case "fairy":
+						return "妖精";
+						break;
+					case "fighting":
+						return "格鬥";
+						break;
+					case "fire":
+						return "火";
+						break;
+					case "flying":
+						return "飛行";
+						break;
+					case "ghost":
+						return "幽靈";
+						break;
+					case "grass":
+						return "草";
+						break;
+					case "ground":
+						return "地面";
+						break;
+					case "ice":
+						return "冰";
+						break;
+					case "normal":
+						return "一般";
+						break;
+					case "poison":
+						return "毒";
+						break;
+					case "psychic":
+						return "超能力";
+						break;
+					case "rock":
+						return "岩石";
+						break;
+					case "steel":
+						return "鋼";
+						break;
+					case "water":
+						return "水";
+						break;
+					default:;
 				}
 			}
 		};

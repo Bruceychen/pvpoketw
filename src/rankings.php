@@ -172,6 +172,8 @@ require_once 'header.php';
 
     <p class="limited hide">可輸入以下單字以搜尋特定遊戲內區域或世代的寶可夢："kanto", "johto"...等，或 "gen1", "gen2"... 等。</p>
     <p class="limited hide">詳情請點選 搜尋格後方的驚嘆號。</p>
+    <p class="limited hide"><a href="https://silph.gg/cup/voyager?lang=zh-TW">Silph官網 啟成盃規則</a></p>
+
 
 
 	<div class="poke-search-container">

@@ -16,9 +16,9 @@ require_once 'header.php';
 
 	<p>Sort or filter the moves below, or experiment with a custom moveset.</p>
 
-	<h2 class="loading">Loading data...</h2>
+	<h2 class="loading">資料讀取中...</h2>
 	<div class="poke-table-container">
-		<input class="poke-search" context="poke-search" type="text" placeholder="Search Move or Type" />
+		<input class="poke-search" context="poke-search" type="text" placeholder="搜尋中文招式名或英文屬性名" />
 		<table class="sortable-table stats-table pokemon" cellpadding="0" cellspacing="0"></table>
 	</div>
 </div>

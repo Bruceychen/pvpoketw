@@ -57,9 +57,7 @@ require_once 'header.php';
 			</tr>
 		</table>
 		<input class="poke-search" context="move-search" type="text" placeholder="Search Move or Type" />
-		<div class="table-container">
-			<table class="sortable-table stats-table moves" cellpadding="0" cellspacing="0"></table>
-		</div>
+		<table class="sortable-table stats-table moves" cellpadding="0" cellspacing="0"></table>
 	</div>
 
 	<div class="move-explore-container explore hide">
@@ -117,5 +115,6 @@ require_once 'header.php';
 <script src="<?php echo $WEB_ROOT; ?>js/battle/TimelineEvent.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/battle/Battle.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/RankingMain.js?v=<?php echo $SITE_VERSION; ?>"></script>
-
+<!--pvpoketw tools-->
+<script src="<?php echo $WEB_ROOT; ?>js/interface/TWTools.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <?php require_once 'footer.php'; ?>

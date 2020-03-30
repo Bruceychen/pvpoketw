@@ -97,7 +97,8 @@ var InterfaceMaster = (function () {
 
 					if(move.moveId.indexOf("HIDDEN_POWER") > -1){
 						if(move.moveId == "HIDDEN_POWER_BUG"){
-							obj.name = "Hidden Power"
+							//pvpoketw: edge value 翻譯
+							obj.name = "覺醒力量"
 							obj.type = "normal";
 						} else{
 							valid = false;

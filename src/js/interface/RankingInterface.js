@@ -770,67 +770,6 @@ var InterfaceMaster = (function () {
 					$(".rank[data='"+limitedPokemon[i]+"']").toggleClass("hide");
 				}
 			}
-
-			// pvpoketw version 屬性轉換
-			function typeTranslate(type){
-				switch (type.toLowerCase()) {
-					case "bug":
-						return "蟲";
-						break;
-					case "dark":
-						return "惡";
-						break;
-					case "dragon":
-						return "龍";
-						break;
-					case "electric":
-						return "電";
-						break;
-					case "fairy":
-						return "妖精";
-						break;
-					case "fighting":
-						return "格鬥";
-						break;
-					case "fire":
-						return "火";
-						break;
-					case "flying":
-						return "飛行";
-						break;
-					case "ghost":
-						return "幽靈";
-						break;
-					case "grass":
-						return "草";
-						break;
-					case "ground":
-						return "地面";
-						break;
-					case "ice":
-						return "冰";
-						break;
-					case "normal":
-						return "一般";
-						break;
-					case "poison":
-						return "毒";
-						break;
-					case "psychic":
-						return "超能力";
-						break;
-					case "rock":
-						return "岩石";
-						break;
-					case "steel":
-						return "鋼";
-						break;
-					case "water":
-						return "水";
-						break;
-					default:;
-				}
-			}
 		};
 
         return object;

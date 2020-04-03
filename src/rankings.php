@@ -110,12 +110,12 @@ switch($cup){
             $league = 'LLove Cup';
             break;
 
-    case "voyager":
-        $league = 'Voyager Cup';
-        break;
-
 	case "voyager":
 		$league = 'Voyager Cup';
+		break;
+
+	case "beam":
+		$league = 'Get Beamed';
 		break;
 }
 
@@ -165,6 +165,23 @@ require_once 'header.php';
     <p class="description consistency hide"><b>對戰表現較穩定的寶可夢。</b>此類寶可夢可提供持續性的傷害。相較於其他寶可夢，不需誘使對手使用防護網亦能有穩定的傷害輸出。</p>
 	<p class="description consistency hide"><b>These Pokemon perform the most dependably.</b> They provide consistent damage and rely less on baiting shields than other Pokemon.</p>
 
+	<p class="description beaminess hide"><b>Are you ready to Get Beamed?</b> Beam it up with this twist on Trainer Battles:</p>
+
+	<ul class="description beaminess hide">
+		<li>1 point for a Solar Beam or Hyper Beam KO</li>
+		<li>First to 3 points wins the set!</li>
+		<li>Show 6, bring 3, no duplicates</li>
+		<li>Any Pokemon can be on your team for support with the exceptions below, but remember only beams get you points!</li>
+		<ul>
+			<li>No Steel types. Resisting both beams is a jerk move.</li>
+			<li>No Shadow Pokemon. Pure beams, pure hearts!</li>
+		</ul>
+	</ul>
+
+	<p class="description beaminess hide">Battle until one player reaches 3 points and is declared the winner. Winning or losing the actual battles doesn't matter, so do what you can to get your beams or deny your opponent!</p>
+
+	<p class="description beaminess hide">The rankings below evaluate Pokemon based on their matchups and a very official Beaminess metric that measures the speediness, bait ability, and power of their beams:</p>
+
 	<p>點擊以下各寶可夢可獲得更詳細的資料。</p>
 
 	<div class="check on limited hide"><span></span>顯示 <div class="limited-title">數量限制寶可夢</div>*</div>
@@ -173,8 +190,6 @@ require_once 'header.php';
     <p class="limited hide">可輸入以下單字以搜尋特定遊戲內區域或世代的寶可夢："kanto", "johto"...等，或 "gen1", "gen2"... 等。</p>
     <p class="limited hide">詳情請點選 搜尋格後方的驚嘆號。</p>
     <p class="limited hide"><a href="https://silph.gg/cup/voyager?lang=zh-TW">Silph官網 啟成盃規則</a></p>
-
-
 
 	<div class="poke-search-container">
 		<input class="poke-search" context="ranking-search" type="text" placeholder="寶可夢中文名或英文屬性搜尋" />

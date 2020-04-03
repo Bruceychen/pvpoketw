@@ -70,6 +70,12 @@ var InterfaceMaster = (function () {
 
 				battle.setCP(league);
 
+				if(cup == "beam"){
+					category = "beaminess";
+					$(".description").hide();
+					$(".description."+category).show();
+				}
+
 				/* This timeout allows the interface to display the loading message before
 				being thrown into the data loading loop */
 
@@ -678,6 +684,7 @@ var InterfaceMaster = (function () {
 				}
 
 				effectivenessArr.sort((a,b) => (a.val > b.val) ? -1 : ((b.val > a.val) ? 1 : 0));
+
 				for(var i = 0; i < effectivenessArr.length; i++){
 					var num = Math.floor(effectivenessArr[i].val * 1000) / 1000;
 					if(effectivenessArr[i].val > 1){

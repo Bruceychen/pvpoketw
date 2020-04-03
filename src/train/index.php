@@ -124,11 +124,11 @@ require_once '../header.php';
 </div>
 
 <div class="section white updates">
-	<h3>更新紀錄</h3>
+	<h3>What's New</h3>
 
-	<h4>v1.14.2 (March 15, 2020)</h4>
+	<h4>v1.14.7 (April 3, 2020)</h4>
 	<ul>
-		<li>加入國外網友 RamblingRabbit 及 Gucc1G4ng69的精選猛毒盃隊伍!</li>
+		<li>Random Voyager teams are now available to fight in Training Battles!</li>
 	</ul>
 </div>
 

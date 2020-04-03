@@ -3,7 +3,6 @@
     <option value="tsa-2" cup="toxic">猛毒盃-202003</option>
     <option value="tsa-2" cup="voyager">啟成盃/S2區域賽-202004</option>
 	<option value="community" cup="beam">Get Beamed</option>
-	<option value="community" cup="safari">Safari Cup Flash Tournament</option>
     <option value="community">本地社群自創盃賽</option>
 
 	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>

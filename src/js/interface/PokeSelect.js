@@ -29,17 +29,7 @@ function PokeSelect(element, i){
 		$.each(pokemon, function(n, poke){
 
 			if(poke.fastMoves.length > 0){
-				// 		pokeMonlistDex.push(poke);
-				// 		pokeMonlistName.push(poke);
-				// 	}
-				// });
-				// 	//sorting by dex no.
-				// 	pokeMonlistDex.sort((a, b) => (a.dex > b.dex) ? 1 : -1);
-				//
-				// 	//use name sort as default
-				// 	pokeMonlistName.forEach(function(poke, index) {
-				// 	$pokeSelect.append("<option value=\""+poke.speciesId+"\" type-1=\""+poke.types[0]+"\" type-2=\""+poke.types[1]+"\">"+poke.speciesName+"</option");
-				$pokeSelect.append("<option value=\"" + poke.speciesId + "\" type-1=\"" + poke.types[0] + "\" type-2=\"" + poke.types[1] + "\">" + poke.speciesName + "</option");
+				$pokeSelect.append("<option value=\""+poke.speciesId+"\" type-1=\""+poke.types[0]+"\" type-2=\""+poke.types[1]+"\">"+poke.speciesName+"</option");
 			}
 		});
 
@@ -796,7 +786,7 @@ function PokeSelect(element, i){
 		var move = selectedPokemon.chargedMoves[index];
 		var displayDamage = move.damage;
 		// If opponent exists, recalc damage using original stats
-		if(battle.getOpponent(self.index)){
+		if(battle.getOpponent(selectedPokemon.index)){
 			var opponent = battle.getOpponent(selectedPokemon.index);
 			var effectiveness = opponent.typeEffectiveness[move.type];
 			displayDamage = battle.calculateDamageByStats(selectedPokemon.stats.atk * opponent.shadowAtkMult, opponent.stats.def * selectedPokemon.shadowDefMult, effectiveness, move);

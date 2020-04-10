@@ -27,6 +27,17 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
+	<h4>v1.14.8 (April 3, 2020)</h4>
+	<ul>
+		<li>Fixed some battle logic issues in the simulations:</li>
+		<ul>
+			<li>Pokemon more accurately take into account unregistered Fast Move damage when firing off Charged Moves before fainting.</li>
+			<li>Pokemon more consistently fire stored Charged Moves ahead of Charged Move ties they will lose. This issue resulted in Pokemon sometimes not firing Charged Moves at all, especially while building up self-debuffing moves like Superpower.</li>
+			<li>Fixed an issue where "hooking" couldn't occur on the same turn a Pokemon gained enough energy for a Charged Move. Hooking is when you queue a Charged Move in the middle of your Fast Move, and it fires immediately after your opponent uses a Charged Move during that time (in-game this appears like a "false" Charged Move tie).</li>
+		</ul>
+		<li>Rankings have been updated with the above changes. For the most part these changes don't significantly change matchups but make bad matchups less extreme for certain Pokemon.</li>
+	</ul>
+
 	<h4>v1.14.7 (April 3, 2020)</h4>
 	<ul>
 		<li>Random Voyager teams are now available to fight in Training Battles!</li>
@@ -83,8 +94,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sat Apr 4 01:35:17 2020 +0800</li>
-                <li>原版最後版本時間：Fri Apr 3 12:00:53 2020 -0500</li>
+                <li>中文版最後更新時間：Fri Apr 10 09:15:17 2020 +0800</li>
+                <li>原版最後版本時間：Thu Apr 9 09:54:57 2020 -0500</li>
 
             </ul>
 </div>

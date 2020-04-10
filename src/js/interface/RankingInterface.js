@@ -565,6 +565,14 @@ var InterfaceMaster = (function () {
 					$details.find(".moveset.charged").append("<div class=\"rank " + chargedMoves[n].type + "\"><div class=\"name-container\"><span class=\"number\">#"+(n+1)+"</span><span class=\"name\">"+chargedMoves[n].name+(chargedMoves[n].legacy === false ? "" : " *")+"</span></div><div class=\"rating-container\"><div class=\"rating\" style=\"width:"+displayWidth+"\">"+percentStr+"</span></div><div class=\"clear\"></div></div>");
 				}
 
+				// Display moveset override notice where applicable
+
+				if( (pokemon.fastMove.moveId != fastMoves[0].moveId)
+					|| ((pokemon.chargedMoves[0].moveId != chargedMoves[0].moveId)&&(pokemon.chargedMoves[0].moveId != chargedMoves[1].moveId))
+				 	|| ((pokemon.chargedMoves[1].moveId != chargedMoves[0].moveId)&&(pokemon.chargedMoves[1].moveId != chargedMoves[1].moveId))){
+					$details.find(".detail-section.moveset-override").show();
+				}
+
 				// Helper variables for displaying matchups and link URL
 
 				var cp = $(".league-select option:selected").val();

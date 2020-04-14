@@ -285,7 +285,7 @@ require_once 'header.php';
         <div class="moveset charged clear"></div>
     </div>
     <div class="clear"></div>
-	<div class="detail-section moveset-override">This Pokemon's recommended moveset has been manually set over the generated move usage data. This may be to prevent an impossible moveset or take advantage of specific matchups.</div>
+	<div class="detail-section moveset-override">此寶可夢最終的建議招式組將與計算出的使用率數據不同。主要目的在於避免不可能出現的招式匹配(比如不同時期絕版技)或是為了在特定對戰條件下更有優勢。</div>
     <div class="detail-section typing">
         <div class="rating-container">
             <div class="ranking-header">第一屬性</div>

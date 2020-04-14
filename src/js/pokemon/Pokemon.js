@@ -1142,15 +1142,15 @@ function Pokemon(id, i, b){
 			self.shadowAtkMult = gm.data.settings.shadowAtkMult;
 			self.shadowDefMult = gm.data.settings.shadowDefMult;
 
-			if(self.speciesName.indexOf("Shadow") == -1){
-				self.speciesName = self.speciesName + " (Shadow)";
+			if(self.speciesName.indexOf("暗影化") == -1){
+				self.speciesName = self.speciesName + " 暗影化";
 			}
 		} else{
 			self.shadowAtkMult = 1;
 			self.shadowDefMult = 1;
 
-			if(self.speciesName.indexOf(" (Shadow)") > -1){
-				self.speciesName = self.speciesName.replace(" (Shadow)","");
+			if(self.speciesName.indexOf(" 暗影化") > -1){
+				self.speciesName = self.speciesName.replace(" 暗影化","");
 			}
 		}
 	}

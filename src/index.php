@@ -27,25 +27,21 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.14.8 (April 3, 2020)</h4>
+	<h4>v1.14.10 (April 17, 2020)</h4>
 	<ul>
-		<li>Fixed some battle logic issues in the simulations:</li>
+		<li>Training Battles have been updated to reflect recent interface changes in-game along with a few QOL updates:</li>
 		<ul>
-			<li>Pokemon more accurately take into account unregistered Fast Move damage when firing off Charged Moves before fainting.</li>
-			<li>Pokemon more consistently fire stored Charged Moves ahead of Charged Move ties they will lose. This issue resulted in Pokemon sometimes not firing Charged Moves at all, especially while building up self-debuffing moves like Superpower.</li>
-			<li>Fixed an issue where "hooking" couldn't occur on the same turn a Pokemon gained enough energy for a Charged Move. Hooking is when you queue a Charged Move in the middle of your Fast Move, and it fires immediately after your opponent uses a Charged Move during that time (in-game this appears like a "false" Charged Move tie).</li>
+			<li>Type icons appear for each Pokemon at the top of the screen. These icons change immediately on switches.</li>
+			<li>The HP bar flashes red, orange, or blue based on damage effectiveness.</li>
+			<li>Added a "Return to Team Select" button to the 6v6 view in Tournament Mode.</li>
+			<li>Added a master autotap toggle that will enable autotapping automatically between games.</li>
+			<li>"Champion" is now the default difficulty.</li>
 		</ul>
-		<li>Rankings have been updated with the above changes. For the most part these changes don't significantly change matchups but make bad matchups less extreme for certain Pokemon.</li>
 	</ul>
 
-	<h4>v1.14.7 (April 3, 2020)</h4>
+	<h4>v1.14.9 (April 17, 2020)</h4>
 	<ul>
-		<li>Random Voyager teams are now available to fight in Training Battles!</li>
-	</ul>
-
-	<h4>v1.14.6 (April 2, 2020)</h4>
-	<ul>
-		<li>Simulations and rankings have been updated with the April balance changes including a buff to Bullet Seed and nerfs to Ancient Power, Ominous Wind, and Silver Wind!</li>
+		<li>Additional fixes for battle logic related to near faint situations which caused Pokemon to throw erroneous Charged Moves.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -95,8 +91,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Fri Apr 17 09:24:17 2020 +0800</li>
-                <li>原版最後版本時間：Thu Apr 16 12:26:47 2020 -0500</li>
+                <li>中文版最後更新時間：Fri Apr 19 17:10:17 2020 +0800</li>
+                <li>原版最後版本時間：Fri Apr 17 17:57:16 2020 -0500</li>
 
             </ul>
 </div>

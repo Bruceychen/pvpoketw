@@ -741,7 +741,11 @@ function Battle(){
 					self.forceSwitch();
 				}
 
+				// Reset cooldowns for active Pokemon
 
+				for(var i = 0; i < pokemon.length; i++){
+					pokemon[i].cooldown = 0;
+				}
 
 				// AI switch
 				if(phaseProps.actors.indexOf(1) > -1){
@@ -756,8 +760,6 @@ function Battle(){
 					setTimeout(function(){
 						self.queueAction(1, "switch", switchChoice);
 					}, waitTime);
-
-
 				}
 			} else{
 				var result = "tie";
@@ -1257,17 +1259,11 @@ function Battle(){
 					// Can this Pokemon be knocked out by future Fast Moves?
 
 					var availableTime = poke.fastMove.cooldown - opponent.cooldown;
-
-					// If this Pokemon has already acted, anticipate unregistered Fast Moves
-					if((opponent.cooldown > 0)&&(poke.fastMove.cooldown > 500)){
-						availableTime += (opponent.fastMove.cooldown - opponent.cooldown + 500);
-					}
-
 					var futureActions = Math.ceil(availableTime / opponent.fastMove.cooldown);
 
 					// If this Pokemon would lose a CMP tie to the opponent, consider the opponent an action ahead
 
-					if((((opponent.cooldown == 0)&&(opponent.fastMove.cooldown == poke.fastMove.cooldown))||(opponent.cooldown == poke.fastMove.cooldown))&&(opponent.stats.atk > poke.stats.atk)){
+					if((((opponent.cooldown == 0)&&(opponent.fastMove.cooldown == poke.fastMove.cooldown))||(opponent.cooldown == poke.fastMove.cooldown)||(opponent.fastMove.cooldown == 500))&&(opponent.stats.atk > poke.stats.atk)){
 						futureActions++;
 					}
 
@@ -1286,7 +1282,7 @@ function Battle(){
 						var futureEffectiveEnergy = opponent.energy + (opponent.fastMove.energyGain * (futureActions-1));
 						var futureEffectiveHP = poke.hp - ((futureActions-1) * opponent.fastMove.damage);
 
-						if(opponent.cooldown == 500){
+						if((opponent.cooldown > 0)&&(opponent.cooldown <= poke.fastMove.cooldown)){
 							futureEffectiveEnergy += opponent.fastMove.energyGain;
 							futureEffectiveHP -= opponent.fastMove.damage;
 						}
@@ -1309,6 +1305,16 @@ function Battle(){
 					nearDeath = false;
 
 					self.logDecision(turns, poke, " doesn't use " + move.name + " because opponent has shields and will faint from a fast move this turn");
+				}
+
+				// Don't use a Charged Move early if close to a move that will KO
+
+				for(var j = 0; j < poke.chargedMoves.length; j++){
+					if((opponent.hp <= poke.chargedMoves[j].damage)&&(poke.chargedMoves[j].energy - poke.energy <= poke.fastMove.energyGain)){
+						nearDeath = false;
+
+						self.logDecision(turns, poke, " doesn't use " + move.name + " because it's close to a KO with " + poke.chargedMoves[j].name);
+					}
 				}
 
 				// Don't use this Charged Move if a better one is available
@@ -1693,10 +1699,14 @@ function Battle(){
 		if(mode == "emulate"){
 			attacker.battleStats.damage += (Math.min(damage, defender.hp) / defender.stats.hp) * 100;
 
-
 			if(attacker.battleStats.shieldsUsed > 0){
 				attacker.battleStats.damageFromShields += (Math.min(damage, defender.hp) / defender.stats.hp) * 100;
 			}
+
+			// Enter health bar animations
+			var effectiveness = defender.typeEffectiveness[move.type];
+
+			self.pushAnimation(defender.index, "damage", effectiveness);
 		}
 
 		// Inflict damage

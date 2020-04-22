@@ -27,6 +27,16 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
+	<h4>v1.15.0 (April 21, 2020)</h4>
+	<ul>
+		<li>Pokemon default IV's have been tweaked:</li>
+		<ul>
+			<li>Most Pokemon are now rank 64 with an IV floor of 5 (were previously rank 500 with an IV floor of 0). This generally improves their stat product from the old defaults and gets them closer to the CP limit, while maintaining some distance between default and rank 1.</li>
+			<li>Pokemon that reach the CP limit above level 35 default to rank 16 with an IV floor of 12 (lucky trades).</li>
+			<li>Untradeable Pokemon like Mew default to rank 54 with an IV floor of 10.</li>
+		</ul>
+	</ul>
+
 	<h4>v1.14.10 (April 17, 2020)</h4>
 	<ul>
 		<li>Training Battles have been updated to reflect recent interface changes in-game along with a few QOL updates:</li>
@@ -37,11 +47,6 @@
 			<li>Added a master autotap toggle that will enable autotapping automatically between games.</li>
 			<li>"Champion" is now the default difficulty.</li>
 		</ul>
-	</ul>
-
-	<h4>v1.14.9 (April 17, 2020)</h4>
-	<ul>
-		<li>Additional fixes for battle logic related to near faint situations which caused Pokemon to throw erroneous Charged Moves.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -91,8 +96,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Fri Apr 19 17:10:17 2020 +0800</li>
-                <li>原版最後版本時間：Fri Apr 17 17:57:16 2020 -0500</li>
+                <li>中文版最後更新時間：Wed Apr 22 09:35:17 2020 +0800</li>
+                <li>原版最後版本時間：Tue Apr 21 12:54:26 2020 -0500</li>
 
             </ul>
 </div>

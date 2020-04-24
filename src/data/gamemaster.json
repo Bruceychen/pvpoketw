@@ -293,19 +293,19 @@
             "filterType": "tag",
             "values": ["shadow"]
         }]
-    }, {
+    },{
         "name": "forest",
         "title": "Forest Cup",
         "include": [{
             "filterType": "type",
-            "values": ["grass", "water", "fire", "electric", "bug"]
+            "values": ["grass","water","fire","electric","bug"]
         }, {
             "filterType": "dex",
-            "values": [152, 649]
+            "values": [152,649]
         }],
         "exclude": [{
             "filterType": "id",
-            "values": ["tropius", "genesect"]
+            "values": ["tropius","genesect"]
         }, {
             "filterType": "tag",
             "values": ["shadow"]
@@ -338,7 +338,7 @@
         "dexStart": 494,
         "dexEnd": 649
     }],
-    "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "bellossom", "politoed", "scizor", "houndour", "houndoom", "larvitar", "pupitar", "tyranitar", "mudkip", "marshtomp", "swampert", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "trapinch", "vibrava", "flygon", "cacnea", "cacturne", "shuppet", "banette", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "shellder", "cloyster", "sableye", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "snover", "abomasnow", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "pinsir", "mawile", "beldum", "metang", "metagross", "entei"],
+    "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "bellossom", "politoed", "scizor", "houndour", "houndoom", "larvitar", "pupitar", "tyranitar", "mudkip", "marshtomp", "swampert", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "trapinch", "vibrava", "flygon", "cacnea", "cacturne", "shuppet", "banette", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "shellder", "cloyster", "geodude", "graveler", "golem", "sableye", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "snover", "abomasnow", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "pinsir", "mawile", "beldum", "metang", "metagross", "entei"],
     "pokemon": [{
         "dex": 1,
         "speciesName": "妙蛙種子",
@@ -421,13 +421,13 @@
         "types": ["grass", "poison"],
         "fastMoves": ["RAZOR_LEAF", "VINE_WHIP"],
         "chargedMoves": ["FRENZY_PLANT", "PETAL_BLIZZARD", "SLUDGE_BOMB", "SOLAR_BEAM"],
+        "legacyMoves": ["FRENZY_PLANT"],
         "tags": ["starter", "shadoweligible"],
         "defaultIVs": {
             "cp1500": [20.5, 6, 14, 8],
             "cp2500": [39, 5, 9, 12]
         },
-        "level25CP": 1673,
-        "eliteMoves": ["FRENZY_PLANT"]
+        "level25CP": 1673
     }, {
         "dex": 3,
         "speciesName": "妙蛙花 暗影化",
@@ -439,13 +439,12 @@
         },
         "types": ["grass", "poison"],
         "fastMoves": ["RAZOR_LEAF", "VINE_WHIP"],
-        "chargedMoves": ["FRENZY_PLANT", "PETAL_BLIZZARD", "SLUDGE_BOMB", "SOLAR_BEAM"],
+        "chargedMoves": ["PETAL_BLIZZARD", "SLUDGE_BOMB", "SOLAR_BEAM"],
         "tags": ["starter", "shadow"],
         "defaultIVs": {
             "cp1500": [20.5, 6, 14, 8],
             "cp2500": [39, 5, 9, 12]
-        },
-        "eliteMoves": ["FRENZY_PLANT"]
+        }
     }, {
         "dex": 4,
         "speciesName": "小火龍",
@@ -493,13 +492,13 @@
         "types": ["fire", "none"],
         "fastMoves": ["EMBER", "FIRE_FANG", "SCRATCH"],
         "chargedMoves": ["FIRE_PUNCH", "FLAME_BURST", "FLAMETHROWER"],
+        "legacyMoves": ["SCRATCH", "RETURN"],
         "tags": ["starter", "shadoweligible"],
         "defaultIVs": {
             "cp1500": [40, 5, 9, 10],
             "cp2500": [40, 15, 15, 15]
         },
-        "level25CP": 972,
-        "eliteMoves": ["SCRATCH"]
+        "level25CP": 972
     }, {
         "dex": 5,
         "speciesName": "火恐龍 暗影化",
@@ -510,14 +509,13 @@
             "hp": 151
         },
         "types": ["fire", "none"],
-        "fastMoves": ["EMBER", "FIRE_FANG", "SCRATCH"],
+        "fastMoves": ["EMBER", "FIRE_FANG"],
         "chargedMoves": ["FIRE_PUNCH", "FLAME_BURST", "FLAMETHROWER"],
         "tags": ["starter", "shadow"],
         "defaultIVs": {
             "cp1500": [40, 5, 9, 10],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["SCRATCH"]
+        }
     }, {
         "dex": 6,
         "speciesName": "噴火龍",
@@ -530,13 +528,13 @@
         "types": ["fire", "flying"],
         "fastMoves": ["AIR_SLASH", "EMBER", "FIRE_SPIN", "WING_ATTACK"],
         "chargedMoves": ["BLAST_BURN", "DRAGON_CLAW", "FIRE_BLAST", "FLAMETHROWER", "OVERHEAT"],
+        "legacyMoves": ["BLAST_BURN", "EMBER", "FLAMETHROWER", "WING_ATTACK"],
         "tags": ["starter", "shadoweligible"],
         "defaultIVs": {
             "cp1500": [19.5, 6, 8, 10],
             "cp2500": [35, 5, 13, 6]
         },
-        "level25CP": 1784,
-        "eliteMoves": ["EMBER", "WING_ATTACK", "BLAST_BURN", "FLAMETHROWER"]
+        "level25CP": 1784
     }, {
         "dex": 6,
         "speciesName": "噴火龍 暗影化",
@@ -547,14 +545,13 @@
             "hp": 186
         },
         "types": ["fire", "flying"],
-        "fastMoves": ["AIR_SLASH", "EMBER", "FIRE_SPIN", "WING_ATTACK"],
-        "chargedMoves": ["BLAST_BURN", "DRAGON_CLAW", "FIRE_BLAST", "FLAMETHROWER", "OVERHEAT"],
+        "fastMoves": ["AIR_SLASH", "FIRE_SPIN"],
+        "chargedMoves": ["DRAGON_CLAW", "FIRE_BLAST", "OVERHEAT"],
         "tags": ["starter", "shadow"],
         "defaultIVs": {
             "cp1500": [19.5, 6, 8, 10],
             "cp2500": [35, 5, 13, 6]
-        },
-        "eliteMoves": ["EMBER", "WING_ATTACK", "BLAST_BURN", "FLAMETHROWER"]
+        }
     }, {
         "dex": 7,
         "speciesName": "傑尼龜",
@@ -637,13 +634,13 @@
         "types": ["water", "none"],
         "fastMoves": ["BITE", "WATER_GUN"],
         "chargedMoves": ["FLASH_CANNON", "HYDRO_CANNON", "HYDRO_PUMP", "ICE_BEAM", "SKULL_BASH"],
+        "legacyMoves": ["HYDRO_CANNON"],
         "tags": ["starter", "shadoweligible"],
         "defaultIVs": {
             "cp1500": [22, 9, 13, 15],
             "cp2500": [40, 15, 15, 15]
         },
-        "level25CP": 1504,
-        "eliteMoves": ["HYDRO_CANNON"]
+        "level25CP": 1504
     }, {
         "dex": 9,
         "speciesName": "水箭龜 暗影化",
@@ -655,13 +652,12 @@
         },
         "types": ["water", "none"],
         "fastMoves": ["BITE", "WATER_GUN"],
-        "chargedMoves": ["FLASH_CANNON", "HYDRO_CANNON", "HYDRO_PUMP", "ICE_BEAM", "SKULL_BASH"],
+        "chargedMoves": ["FLASH_CANNON", "HYDRO_PUMP", "ICE_BEAM", "SKULL_BASH"],
         "tags": ["starter", "shadow"],
         "defaultIVs": {
             "cp1500": [22, 9, 13, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["HYDRO_CANNON"]
+        }
     }, {
         "dex": 10,
         "speciesName": "綠毛蟲",
@@ -706,11 +702,11 @@
         "types": ["bug", "flying"],
         "fastMoves": ["BUG_BITE", "CONFUSION", "STRUGGLE_BUG"],
         "chargedMoves": ["BUG_BUZZ", "PSYCHIC", "SIGNAL_BEAM"],
+        "legacyMoves": ["BUG_BITE"],
         "defaultIVs": {
             "cp1500": [31, 5, 13, 14],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["BUG_BITE"]
+        }
     }, {
         "dex": 13,
         "speciesName": "獨角蟲",
@@ -793,13 +789,13 @@
         "types": ["bug", "poison"],
         "fastMoves": ["BUG_BITE", "INFESTATION", "POISON_JAB"],
         "chargedMoves": ["AERIAL_ACE", "SLUDGE_BOMB", "X_SCISSOR", "FELL_STINGER"],
+        "legacyMoves": ["BUG_BITE", "RETURN"],
         "defaultIVs": {
             "cp1500": [30.5, 6, 11, 15],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 1097,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["BUG_BITE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 15,
         "speciesName": "大針蜂 暗影化",
@@ -810,14 +806,13 @@
             "hp": 163
         },
         "types": ["bug", "poison"],
-        "fastMoves": ["BUG_BITE", "INFESTATION", "POISON_JAB"],
+        "fastMoves": ["INFESTATION", "POISON_JAB"],
         "chargedMoves": ["AERIAL_ACE", "SLUDGE_BOMB", "X_SCISSOR", "FELL_STINGER"],
         "defaultIVs": {
             "cp1500": [30.5, 6, 11, 15],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["BUG_BITE"]
+        "tags": ["shadow"]
     }, {
         "dex": 16,
         "speciesName": "波波",
@@ -862,11 +857,11 @@
         "types": ["normal", "flying"],
         "fastMoves": ["AIR_SLASH", "STEEL_WING", "WING_ATTACK"],
         "chargedMoves": ["AERIAL_ACE", "AIR_CUTTER", "BRAVE_BIRD", "HURRICANE"],
+        "legacyMoves": ["AIR_CUTTER", "WING_ATTACK"],
         "defaultIVs": {
             "cp1500": [25.5, 9, 14, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["WING_ATTACK", "AIR_CUTTER"]
+        }
     }, {
         "dex": 19,
         "speciesName": "小拉達",
@@ -983,11 +978,11 @@
         "types": ["normal", "flying"],
         "fastMoves": ["PECK", "QUICK_ATTACK"],
         "chargedMoves": ["AERIAL_ACE", "DRILL_PECK", "SKY_ATTACK", "TWISTER"],
+        "legacyMoves": ["TWISTER"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["TWISTER"]
+        }
     }, {
         "dex": 22,
         "speciesName": "大嘴雀",
@@ -1000,11 +995,11 @@
         "types": ["normal", "flying"],
         "fastMoves": ["PECK", "STEEL_WING"],
         "chargedMoves": ["AERIAL_ACE", "DRILL_RUN", "SKY_ATTACK", "TWISTER"],
+        "legacyMoves": ["TWISTER"],
         "defaultIVs": {
             "cp1500": [28.5, 6, 8, 11],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["TWISTER"]
+        }
     }, {
         "dex": 23,
         "speciesName": "阿柏蛇",
@@ -1017,13 +1012,13 @@
         "types": ["poison", "none"],
         "fastMoves": ["ACID", "POISON_STING"],
         "chargedMoves": ["GUNK_SHOT", "POISON_FANG", "SLUDGE_BOMB", "WRAP"],
+        "legacyMoves": ["GUNK_SHOT"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 509,
-        "tags": [],
-        "eliteMoves": ["GUNK_SHOT"]
+        "tags": []
     }, {
         "dex": 24,
         "speciesName": "阿柏怪",
@@ -1054,11 +1049,11 @@
         "types": ["electric", "none"],
         "fastMoves": ["PRESENT", "QUICK_ATTACK", "THUNDER_SHOCK"],
         "chargedMoves": ["DISCHARGE", "SURF", "THUNDER", "THUNDERBOLT", "WILD_CHARGE"],
+        "legacyMoves": ["PRESENT", "SURF", "THUNDER"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["PRESENT", "SURF", "THUNDER"]
+        }
     }, {
         "dex": 25,
         "speciesName": "皮卡丘 面罩摔角手",
@@ -1087,11 +1082,11 @@
         "types": ["electric", "none"],
         "fastMoves": ["SPARK", "THUNDER_SHOCK", "VOLT_SWITCH", "CHARM"],
         "chargedMoves": ["BRICK_BREAK", "THUNDER", "THUNDER_PUNCH", "WILD_CHARGE", "SKULL_BASH"],
+        "legacyMoves": ["THUNDER"],
         "defaultIVs": {
             "cp1500": [25, 10, 12, 13],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["THUNDER"]
+        }
     }, {
         "dex": 26,
         "speciesName": "雷丘 阿羅拉型態",
@@ -1121,13 +1116,13 @@
         "types": ["ground", "none"],
         "fastMoves": ["MUD_SHOT", "SCRATCH"],
         "chargedMoves": ["DIG", "ROCK_SLIDE", "ROCK_TOMB", "SAND_TOMB"],
+        "legacyMoves": ["ROCK_TOMB", "RETURN"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 720,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["ROCK_TOMB"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 27,
         "speciesName": "穿山鼠 阿羅拉型態",
@@ -1156,13 +1151,12 @@
         },
         "types": ["ground", "none"],
         "fastMoves": ["MUD_SHOT", "SCRATCH"],
-        "chargedMoves": ["DIG", "ROCK_SLIDE", "ROCK_TOMB", "SAND_TOMB"],
+        "chargedMoves": ["DIG", "ROCK_SLIDE", "SAND_TOMB"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["ROCK_TOMB"]
+        "tags": ["shadow"]
     }, {
         "dex": 28,
         "speciesName": "穿山王",
@@ -1307,11 +1301,11 @@
         "types": ["poison", "ground"],
         "fastMoves": ["FURY_CUTTER", "IRON_TAIL", "POISON_JAB"],
         "chargedMoves": ["EARTHQUAKE", "MEGAHORN", "SLUDGE_WAVE", "EARTH_POWER"],
+        "legacyMoves": ["FURY_CUTTER"],
         "defaultIVs": {
             "cp1500": [21.5, 7, 15, 8],
             "cp2500": [38.5, 15, 13, 15]
-        },
-        "eliteMoves": ["FURY_CUTTER"]
+        }
     }, {
         "dex": 35,
         "speciesName": "皮皮",
@@ -1340,11 +1334,11 @@
         "types": ["fairy", "none"],
         "fastMoves": ["CHARGE_BEAM", "POUND", "ZEN_HEADBUTT", "CHARM"],
         "chargedMoves": ["DAZZLING_GLEAM", "METEOR_MASH", "MOONBLAST", "PSYCHIC"],
+        "legacyMoves": ["POUND"],
         "defaultIVs": {
             "cp1500": [23, 5, 14, 8],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["POUND"]
+        }
     }, {
         "dex": 37,
         "speciesName": "六尾",
@@ -1409,13 +1403,13 @@
         "types": ["fire", "none"],
         "fastMoves": ["EMBER", "FEINT_ATTACK", "FIRE_SPIN"],
         "chargedMoves": ["FIRE_BLAST", "FLAMETHROWER", "HEAT_WAVE", "OVERHEAT", "PSYSHOCK", "SOLAR_BEAM"],
+        "legacyMoves": ["EMBER", "FIRE_BLAST", "FLAMETHROWER", "RETURN"],
         "defaultIVs": {
             "cp1500": [25, 5, 6, 13],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 1382,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["EMBER", "FIRE_BLAST", "FLAMETHROWER"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 38,
         "speciesName": "九尾 阿羅拉型態",
@@ -1443,14 +1437,13 @@
             "hp": 177
         },
         "types": ["fire", "none"],
-        "fastMoves": ["EMBER", "FEINT_ATTACK", "FIRE_SPIN"],
-        "chargedMoves": ["FIRE_BLAST", "FLAMETHROWER", "HEAT_WAVE", "OVERHEAT", "PSYSHOCK", "SOLAR_BEAM"],
+        "fastMoves": ["FEINT_ATTACK", "FIRE_SPIN"],
+        "chargedMoves": ["HEAT_WAVE", "OVERHEAT", "PSYSHOCK", "SOLAR_BEAM"],
         "defaultIVs": {
             "cp1500": [25, 5, 6, 13],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["EMBER", "FIRE_BLAST", "FLAMETHROWER"]
+        "tags": ["shadow"]
     }, {
         "dex": 39,
         "speciesName": "胖丁",
@@ -1463,11 +1456,11 @@
         "types": ["normal", "fairy"],
         "fastMoves": ["FEINT_ATTACK", "POUND"],
         "chargedMoves": ["BODY_SLAM", "DAZZLING_GLEAM", "DISARMING_VOICE", "GYRO_BALL", "PLAY_ROUGH"],
+        "legacyMoves": ["BODY_SLAM", "PLAY_ROUGH"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["PLAY_ROUGH", "BODY_SLAM"]
+        }
     }, {
         "dex": 40,
         "speciesName": "胖可丁",
@@ -1496,13 +1489,13 @@
         "types": ["poison", "flying"],
         "fastMoves": ["BITE", "QUICK_ATTACK"],
         "chargedMoves": ["AIR_CUTTER", "POISON_FANG", "SLUDGE_BOMB", "SWIFT"],
+        "legacyMoves": ["SLUDGE_BOMB", "RETURN"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 346,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["SLUDGE_BOMB"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 41,
         "speciesName": "超音蝠 暗影化",
@@ -1514,13 +1507,12 @@
         },
         "types": ["poison", "flying"],
         "fastMoves": ["BITE", "QUICK_ATTACK"],
-        "chargedMoves": ["AIR_CUTTER", "POISON_FANG", "SLUDGE_BOMB", "SWIFT"],
+        "chargedMoves": ["AIR_CUTTER", "POISON_FANG", "SWIFT"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["SLUDGE_BOMB"]
+        "tags": ["shadow"]
     }, {
         "dex": 42,
         "speciesName": "大嘴蝠",
@@ -1533,13 +1525,13 @@
         "types": ["poison", "flying"],
         "fastMoves": ["BITE", "WING_ATTACK"],
         "chargedMoves": ["AIR_CUTTER", "OMINOUS_WIND", "POISON_FANG", "SHADOW_BALL"],
+        "legacyMoves": ["OMINOUS_WIND", "RETURN"],
         "defaultIVs": {
             "cp1500": [28, 8, 13, 12],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 1183,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["OMINOUS_WIND"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 42,
         "speciesName": "大嘴蝠 暗影化",
@@ -1551,13 +1543,12 @@
         },
         "types": ["poison", "flying"],
         "fastMoves": ["BITE", "WING_ATTACK"],
-        "chargedMoves": ["AIR_CUTTER", "OMINOUS_WIND", "POISON_FANG", "SHADOW_BALL"],
+        "chargedMoves": ["AIR_CUTTER", "POISON_FANG", "SHADOW_BALL"],
         "defaultIVs": {
             "cp1500": [28, 8, 13, 12],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["OMINOUS_WIND"]
+        "tags": ["shadow"]
     }, {
         "dex": 43,
         "speciesName": "走路草",
@@ -1691,11 +1682,11 @@
         "types": ["bug", "grass"],
         "fastMoves": ["BUG_BITE", "FURY_CUTTER", "STRUGGLE_BUG"],
         "chargedMoves": ["CROSS_POISON", "SOLAR_BEAM", "X_SCISSOR"],
+        "legacyMoves": ["BUG_BITE"],
         "defaultIVs": {
             "cp1500": [31, 5, 10, 12],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["BUG_BITE"]
+        }
     }, {
         "dex": 48,
         "speciesName": "毛球",
@@ -1743,13 +1734,13 @@
         "types": ["bug", "poison"],
         "fastMoves": ["BUG_BITE", "CONFUSION", "INFESTATION"],
         "chargedMoves": ["BUG_BUZZ", "POISON_FANG", "PSYCHIC", "SILVER_WIND"],
+        "legacyMoves": ["BUG_BITE", "RETURN"],
         "defaultIVs": {
             "cp1500": [27.5, 5, 6, 13],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 1252,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["BUG_BITE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 49,
         "speciesName": "摩魯蛾 暗影化",
@@ -1760,14 +1751,13 @@
             "hp": 172
         },
         "types": ["bug", "poison"],
-        "fastMoves": ["BUG_BITE", "CONFUSION", "INFESTATION"],
+        "fastMoves": ["CONFUSION", "INFESTATION"],
         "chargedMoves": ["BUG_BUZZ", "POISON_FANG", "PSYCHIC", "SILVER_WIND"],
         "defaultIVs": {
             "cp1500": [27.5, 5, 6, 13],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["BUG_BITE"]
+        "tags": ["shadow"]
     }, {
         "dex": 50,
         "speciesName": "地鼠",
@@ -1780,13 +1770,13 @@
         "types": ["ground", "none"],
         "fastMoves": ["MUD_SHOT", "MUD_SLAP", "SCRATCH"],
         "chargedMoves": ["DIG", "MUD_BOMB", "ROCK_TOMB"],
+        "legacyMoves": ["MUD_SHOT"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 351,
-        "tags": [],
-        "eliteMoves": ["MUD_SHOT"]
+        "tags": []
     }, {
         "dex": 50,
         "speciesName": "地鼠 阿羅拉型態",
@@ -1852,13 +1842,13 @@
         "types": ["normal", "none"],
         "fastMoves": ["BITE", "SCRATCH"],
         "chargedMoves": ["BODY_SLAM", "DARK_PULSE", "FOUL_PLAY", "NIGHT_SLASH"],
+        "legacyMoves": ["BODY_SLAM", "RETURN"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 397,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["BODY_SLAM"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 52,
         "speciesName": "喵喵 阿羅拉型態",
@@ -1887,13 +1877,12 @@
         },
         "types": ["normal", "none"],
         "fastMoves": ["BITE", "SCRATCH"],
-        "chargedMoves": ["BODY_SLAM", "DARK_PULSE", "FOUL_PLAY", "NIGHT_SLASH"],
+        "chargedMoves": ["DARK_PULSE", "FOUL_PLAY", "NIGHT_SLASH"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["BODY_SLAM"]
+        "tags": ["shadow"]
     }, {
         "dex": 53,
         "speciesName": "貓老大",
@@ -1906,13 +1895,13 @@
         "types": ["normal", "none"],
         "fastMoves": ["FEINT_ATTACK", "SCRATCH"],
         "chargedMoves": ["FOUL_PLAY", "NIGHT_SLASH", "PLAY_ROUGH", "POWER_GEM"],
+        "legacyMoves": ["NIGHT_SLASH", "RETURN"],
         "defaultIVs": {
             "cp1500": [38.5, 5, 8, 11],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 996,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["NIGHT_SLASH"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 53,
         "speciesName": "貓老大 阿羅拉型態",
@@ -1941,13 +1930,12 @@
         },
         "types": ["normal", "none"],
         "fastMoves": ["FEINT_ATTACK", "SCRATCH"],
-        "chargedMoves": ["FOUL_PLAY", "NIGHT_SLASH", "PLAY_ROUGH", "POWER_GEM"],
+        "chargedMoves": ["FOUL_PLAY", "PLAY_ROUGH", "POWER_GEM"],
         "defaultIVs": {
             "cp1500": [38.5, 5, 8, 11],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["NIGHT_SLASH"]
+        "tags": ["shadow"]
     }, {
         "dex": 54,
         "speciesName": "可達鴨",
@@ -2046,11 +2034,11 @@
         "types": ["fighting", "none"],
         "fastMoves": ["COUNTER", "KARATE_CHOP", "LOW_KICK"],
         "chargedMoves": ["CLOSE_COMBAT", "CROSS_CHOP", "LOW_SWEEP", "NIGHT_SLASH"],
+        "legacyMoves": ["CROSS_CHOP", "KARATE_CHOP"],
         "defaultIVs": {
             "cp1500": [23.5, 12, 12, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["KARATE_CHOP", "CROSS_CHOP"]
+        }
     }, {
         "dex": 58,
         "speciesName": "卡蒂狗",
@@ -2098,13 +2086,13 @@
         "types": ["fire", "none"],
         "fastMoves": ["BITE", "FIRE_FANG", "SNARL", "THUNDER_FANG"],
         "chargedMoves": ["BULLDOZE", "CRUNCH", "FIRE_BLAST", "FLAMETHROWER", "WILD_CHARGE"],
+        "legacyMoves": ["BITE", "BULLDOZE"],
         "defaultIVs": {
             "cp1500": [18, 8, 11, 15],
             "cp2500": [30.5, 7, 14, 10]
         },
         "level25CP": 1877,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["BITE", "BULLDOZE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 59,
         "speciesName": "風速狗 暗影化",
@@ -2115,14 +2103,13 @@
             "hp": 207
         },
         "types": ["fire", "none"],
-        "fastMoves": ["BITE", "FIRE_FANG", "SNARL", "THUNDER_FANG"],
-        "chargedMoves": ["BULLDOZE", "CRUNCH", "FIRE_BLAST", "FLAMETHROWER", "WILD_CHARGE"],
+        "fastMoves": ["FIRE_FANG", "SNARL", "THUNDER_FANG"],
+        "chargedMoves": ["CRUNCH", "FIRE_BLAST", "FLAMETHROWER", "WILD_CHARGE"],
         "defaultIVs": {
             "cp1500": [18, 8, 11, 15],
             "cp2500": [30.5, 7, 14, 10]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["BITE", "BULLDOZE"]
+        "tags": ["shadow"]
     }, {
         "dex": 60,
         "speciesName": "蚊香蝌蚪",
@@ -2170,13 +2157,13 @@
         "types": ["water", "none"],
         "fastMoves": ["BUBBLE", "MUD_SHOT"],
         "chargedMoves": ["BUBBLE_BEAM", "MUD_BOMB", "SCALD", "WATER_PULSE"],
+        "legacyMoves": ["SCALD", "RETURN"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 821,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["SCALD"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 61,
         "speciesName": "蚊香君 暗影化",
@@ -2188,13 +2175,12 @@
         },
         "types": ["water", "none"],
         "fastMoves": ["BUBBLE", "MUD_SHOT"],
-        "chargedMoves": ["BUBBLE_BEAM", "MUD_BOMB", "SCALD", "WATER_PULSE"],
+        "chargedMoves": ["BUBBLE_BEAM", "MUD_BOMB", "WATER_PULSE"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["SCALD"]
+        "tags": ["shadow"]
     }, {
         "dex": 62,
         "speciesName": "蚊香泳士",
@@ -2207,13 +2193,13 @@
         "types": ["water", "fighting"],
         "fastMoves": ["BUBBLE", "MUD_SHOT", "ROCK_SMASH"],
         "chargedMoves": ["DYNAMIC_PUNCH", "HYDRO_PUMP", "ICE_PUNCH", "SUBMISSION", "POWER_UP_PUNCH"],
+        "legacyMoves": ["SUBMISSION"],
         "defaultIVs": {
             "cp1500": [21.5, 8, 11, 10],
             "cp2500": [39, 12, 14, 13]
         },
         "level25CP": 1584,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["SUBMISSION"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 62,
         "speciesName": "蚊香泳士 暗影化",
@@ -2225,13 +2211,12 @@
         },
         "types": ["water", "fighting"],
         "fastMoves": ["BUBBLE", "MUD_SHOT", "ROCK_SMASH"],
-        "chargedMoves": ["DYNAMIC_PUNCH", "HYDRO_PUMP", "ICE_PUNCH", "SUBMISSION", "POWER_UP_PUNCH"],
+        "chargedMoves": ["DYNAMIC_PUNCH", "HYDRO_PUMP", "ICE_PUNCH", "POWER_UP_PUNCH"],
         "defaultIVs": {
             "cp1500": [21.5, 8, 11, 10],
             "cp2500": [39, 12, 14, 13]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["SUBMISSION"]
+        "tags": ["shadow"]
     }, {
         "dex": 63,
         "speciesName": "凱西",
@@ -2314,13 +2299,13 @@
         "types": ["psychic", "none"],
         "fastMoves": ["CONFUSION", "PSYCHO_CUT", "COUNTER"],
         "chargedMoves": ["DAZZLING_GLEAM", "FIRE_PUNCH", "FOCUS_BLAST", "FUTURE_SIGHT", "PSYCHIC", "SHADOW_BALL"],
+        "legacyMoves": ["DAZZLING_GLEAM", "PSYCHIC", "COUNTER"],
         "defaultIVs": {
             "cp1500": [18, 8, 6, 15],
             "cp2500": [30, 7, 13, 10]
         },
         "level25CP": 1887,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["COUNTER", "DAZZLING_GLEAM", "PSYCHIC"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 65,
         "speciesName": "胡地 暗影化",
@@ -2332,13 +2317,13 @@
         },
         "types": ["psychic", "none"],
         "fastMoves": ["CONFUSION", "PSYCHO_CUT", "COUNTER"],
-        "chargedMoves": ["DAZZLING_GLEAM", "FIRE_PUNCH", "FOCUS_BLAST", "FUTURE_SIGHT", "PSYCHIC", "SHADOW_BALL"],
+        "chargedMoves": ["FIRE_PUNCH", "FOCUS_BLAST", "FUTURE_SIGHT", "SHADOW_BALL"],
+        "legacyMoves": ["COUNTER", "FRUSTRATION"],
         "defaultIVs": {
             "cp1500": [18, 8, 6, 15],
             "cp2500": [30, 7, 13, 10]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["COUNTER", "DAZZLING_GLEAM", "PSYCHIC"]
+        "tags": ["shadow"]
     }, {
         "dex": 66,
         "speciesName": "腕力",
@@ -2351,11 +2336,11 @@
         "types": ["fighting", "none"],
         "fastMoves": ["KARATE_CHOP", "LOW_KICK", "ROCK_SMASH"],
         "chargedMoves": ["BRICK_BREAK", "CROSS_CHOP", "LOW_SWEEP"],
+        "legacyMoves": ["LOW_KICK"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["LOW_KICK"]
+        }
     }, {
         "dex": 67,
         "speciesName": "豪力",
@@ -2368,11 +2353,11 @@
         "types": ["fighting", "none"],
         "fastMoves": ["KARATE_CHOP", "LOW_KICK"],
         "chargedMoves": ["BRICK_BREAK", "CROSS_CHOP", "DYNAMIC_PUNCH", "SUBMISSION"],
+        "legacyMoves": ["CROSS_CHOP"],
         "defaultIVs": {
             "cp1500": [27.5, 7, 15, 6],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["CROSS_CHOP"]
+        }
     }, {
         "dex": 68,
         "speciesName": "怪力",
@@ -2385,11 +2370,11 @@
         "types": ["fighting", "none"],
         "fastMoves": ["BULLET_PUNCH", "COUNTER", "KARATE_CHOP"],
         "chargedMoves": ["CLOSE_COMBAT", "CROSS_CHOP", "DYNAMIC_PUNCH", "HEAVY_SLAM", "ROCK_SLIDE", "STONE_EDGE", "SUBMISSION"],
+        "legacyMoves": ["KARATE_CHOP", "STONE_EDGE", "SUBMISSION"],
         "defaultIVs": {
             "cp1500": [18, 6, 10, 15],
             "cp2500": [30, 5, 12, 14]
-        },
-        "eliteMoves": ["KARATE_CHOP", "STONE_EDGE", "SUBMISSION"]
+        }
     }, {
         "dex": 69,
         "speciesName": "喇叭芽",
@@ -2437,13 +2422,13 @@
         "types": ["grass", "poison"],
         "fastMoves": ["ACID", "BULLET_SEED", "RAZOR_LEAF"],
         "chargedMoves": ["POWER_WHIP", "SEED_BOMB", "SLUDGE_BOMB"],
+        "legacyMoves": ["RAZOR_LEAF", "RETURN"],
         "defaultIVs": {
             "cp1500": [35.5, 14, 15, 14],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 939,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["RAZOR_LEAF"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 70,
         "speciesName": "口呆花 暗影化",
@@ -2454,14 +2439,13 @@
             "hp": 163
         },
         "types": ["grass", "poison"],
-        "fastMoves": ["ACID", "BULLET_SEED", "RAZOR_LEAF"],
+        "fastMoves": ["ACID", "BULLET_SEED"],
         "chargedMoves": ["POWER_WHIP", "SEED_BOMB", "SLUDGE_BOMB"],
         "defaultIVs": {
             "cp1500": [35.5, 14, 15, 14],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["RAZOR_LEAF"]
+        "tags": ["shadow"]
     }, {
         "dex": 71,
         "speciesName": "大食花",
@@ -2565,6 +2549,23 @@
             "cp2500": [40, 15, 15, 15]
         }
     }, {
+        "dex": 74,
+        "speciesName": "小拳石 暗影化",
+        "speciesId": "geodude_shadow",
+        "baseStats": {
+            "atk": 132,
+            "def": 132,
+            "hp": 120
+        },
+        "types": ["rock", "ground"],
+        "fastMoves": ["ROCK_THROW", "TACKLE"],
+        "chargedMoves": ["DIG", "ROCK_SLIDE", "ROCK_TOMB"],
+        "defaultIVs": {
+            "cp1500": [40, 15, 15, 15],
+            "cp2500": [40, 15, 15, 15]
+        },
+        "tags": ["shadow"]
+    }, {
         "dex": 75,
         "speciesName": "隆隆石",
         "speciesId": "graveler",
@@ -2576,14 +2577,13 @@
         "types": ["rock", "ground"],
         "fastMoves": ["MUD_SHOT", "MUD_SLAP", "ROCK_THROW"],
         "chargedMoves": ["DIG", "ROCK_BLAST", "ROCK_SLIDE", "STONE_EDGE"],
-        "legacyMoves": ["MUD_SHOT"],
+        "legacyMoves": ["MUD_SHOT", "ROCK_SLIDE", "RETURN"],
         "defaultIVs": {
             "cp1500": [29, 5, 15, 14],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 1132,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["ROCK_SLIDE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 75,
         "speciesName": "隆隆石 阿羅拉型態",
@@ -2601,6 +2601,23 @@
             "cp1500": [29, 5, 15, 14],
             "cp2500": [40, 15, 15, 15]
         }
+    }, {
+        "dex": 75,
+        "speciesName": "隆隆石 暗影化",
+        "speciesId": "graveler_shadow",
+        "baseStats": {
+            "atk": 164,
+            "def": 164,
+            "hp": 146
+        },
+        "types": ["rock", "ground"],
+        "fastMoves": ["MUD_SLAP", "ROCK_THROW"],
+        "chargedMoves": ["DIG", "ROCK_BLAST", "STONE_EDGE"],
+        "defaultIVs": {
+            "cp1500": [29, 5, 15, 14],
+            "cp2500": [40, 15, 15, 15]
+        },
+        "tags": ["shadow"]
     }, {
         "dex": 76,
         "speciesName": "隆隆岩",
@@ -2638,6 +2655,23 @@
             "cp2500": [32.5, 5, 11, 14]
         }
     }, {
+        "dex": 76,
+        "speciesName": "隆隆岩 暗影化",
+        "speciesId": "golem_shadow",
+        "baseStats": {
+            "atk": 211,
+            "def": 198,
+            "hp": 190
+        },
+        "types": ["rock", "ground"],
+        "fastMoves": ["MUD_SLAP", "ROCK_THROW"],
+        "chargedMoves": ["ANCIENT_POWER", "EARTHQUAKE", "ROCK_BLAST", "STONE_EDGE"],
+        "defaultIVs": {
+            "cp1500": [18.5, 9, 12, 13],
+            "cp2500": [32.5, 5, 11, 14]
+        },
+        "tags": ["shadow"]
+    }, {
         "dex": 77,
         "speciesName": "小火馬",
         "speciesId": "ponyta",
@@ -2649,11 +2683,11 @@
         "types": ["fire", "none"],
         "fastMoves": ["EMBER", "TACKLE"],
         "chargedMoves": ["FIRE_BLAST", "FLAME_CHARGE", "FLAME_WHEEL", "STOMP"],
+        "legacyMoves": ["FIRE_BLAST"],
         "defaultIVs": {
             "cp1500": [35.5, 6, 15, 11],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["FIRE_BLAST"]
+        }
     }, {
         "dex": 78,
         "speciesName": "烈焰馬",
@@ -2666,11 +2700,11 @@
         "types": ["fire", "none"],
         "fastMoves": ["EMBER", "FIRE_SPIN", "LOW_KICK"],
         "chargedMoves": ["DRILL_RUN", "FIRE_BLAST", "HEAT_WAVE"],
+        "legacyMoves": ["EMBER"],
         "defaultIVs": {
             "cp1500": [21.5, 13, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["EMBER"]
+        }
     }, {
         "dex": 79,
         "speciesName": "呆呆獸",
@@ -2786,11 +2820,11 @@
         "fastMoves": ["AIR_SLASH", "CUT", "FURY_CUTTER"],
         "chargedMoves": ["AERIAL_ACE", "AIR_CUTTER", "LEAF_BLADE"],
         "tags": ["regional"],
+        "legacyMoves": ["CUT"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["CUT"]
+        }
     }, {
         "dex": 84,
         "speciesName": "嘟嘟",
@@ -2803,11 +2837,11 @@
         "types": ["normal", "flying"],
         "fastMoves": ["PECK", "QUICK_ATTACK"],
         "chargedMoves": ["AERIAL_ACE", "BRAVE_BIRD", "DRILL_PECK", "SWIFT"],
+        "legacyMoves": ["SWIFT"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["SWIFT"]
+        }
     }, {
         "dex": 85,
         "speciesName": "嘟嘟利",
@@ -2820,11 +2854,11 @@
         "types": ["normal", "flying"],
         "fastMoves": ["FEINT_ATTACK", "STEEL_WING"],
         "chargedMoves": ["AERIAL_ACE", "AIR_CUTTER", "BRAVE_BIRD", "DRILL_PECK"],
+        "legacyMoves": ["AIR_CUTTER"],
         "defaultIVs": {
             "cp1500": [23, 9, 15, 11],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["AIR_CUTTER"]
+        }
     }, {
         "dex": 86,
         "speciesName": "小海獅",
@@ -2837,11 +2871,11 @@
         "types": ["water", "none"],
         "fastMoves": ["ICE_SHARD", "LICK", "WATER_GUN"],
         "chargedMoves": ["AQUA_JET", "AQUA_TAIL", "AURORA_BEAM", "ICY_WIND"],
+        "legacyMoves": ["AQUA_JET", "WATER_GUN"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["WATER_GUN", "AQUA_JET"]
+        }
     }, {
         "dex": 87,
         "speciesName": "白海獅",
@@ -2854,11 +2888,11 @@
         "types": ["water", "ice"],
         "fastMoves": ["FROST_BREATH", "ICE_SHARD", "IRON_TAIL"],
         "chargedMoves": ["AQUA_JET", "AURORA_BEAM", "BLIZZARD", "ICY_WIND", "WATER_PULSE"],
+        "legacyMoves": ["AQUA_JET", "ICE_SHARD", "ICY_WIND"],
         "defaultIVs": {
             "cp1500": [28.5, 5, 14, 10],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["ICE_SHARD", "AQUA_JET", "ICY_WIND"]
+        }
     }, {
         "dex": 88,
         "speciesName": "臭泥",
@@ -2871,7 +2905,7 @@
         "types": ["poison", "none"],
         "fastMoves": ["ACID", "MUD_SLAP", "POISON_JAB"],
         "chargedMoves": ["MUD_BOMB", "SLUDGE", "SLUDGE_BOMB"],
-        "legacyMoves": ["ACID"],
+        "legacyMoves": ["ACID", "RETURN"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
@@ -2925,14 +2959,13 @@
         "types": ["poison", "none"],
         "fastMoves": ["ACID", "INFESTATION", "LICK", "POISON_JAB"],
         "chargedMoves": ["DARK_PULSE", "GUNK_SHOT", "SLUDGE_WAVE", "THUNDER_PUNCH", "ACID_SPRAY"],
-        "legacyMoves": ["ACID"],
+        "legacyMoves": ["ACID", "LICK"],
         "defaultIVs": {
             "cp1500": [20, 8, 15, 7],
             "cp2500": [38, 5, 11, 10]
         },
         "level25CP": 1696,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["LICK"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 89,
         "speciesName": "臭臭泥 阿羅拉型態",
@@ -2960,14 +2993,13 @@
             "hp": 233
         },
         "types": ["poison", "none"],
-        "fastMoves": ["INFESTATION", "LICK", "POISON_JAB"],
+        "fastMoves": ["INFESTATION", "POISON_JAB"],
         "chargedMoves": ["DARK_PULSE", "GUNK_SHOT", "SLUDGE_WAVE", "THUNDER_PUNCH", "ACID_SPRAY"],
         "defaultIVs": {
             "cp1500": [20, 8, 15, 7],
             "cp2500": [38, 5, 11, 10]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["LICK"]
+        "tags": ["shadow"]
     }, {
         "dex": 90,
         "speciesName": "大舌貝",
@@ -3015,13 +3047,13 @@
         "types": ["water", "ice"],
         "fastMoves": ["FROST_BREATH", "ICE_SHARD"],
         "chargedMoves": ["AURORA_BEAM", "AVALANCHE", "BLIZZARD", "HYDRO_PUMP", "ICY_WIND"],
+        "legacyMoves": ["BLIZZARD"],
         "defaultIVs": {
             "cp1500": [21, 12, 15, 14],
             "cp2500": [39.5, 13, 15, 13]
         },
         "level25CP": 1554,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["BLIZZARD"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 91,
         "speciesName": "刺甲貝 暗影化",
@@ -3033,13 +3065,12 @@
         },
         "types": ["water", "ice"],
         "fastMoves": ["FROST_BREATH", "ICE_SHARD"],
-        "chargedMoves": ["AURORA_BEAM", "AVALANCHE", "BLIZZARD", "HYDRO_PUMP", "ICY_WIND"],
+        "chargedMoves": ["AURORA_BEAM", "AVALANCHE", "HYDRO_PUMP", "ICY_WIND"],
         "defaultIVs": {
             "cp1500": [21, 12, 15, 14],
             "cp2500": [39.5, 13, 15, 13]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["BLIZZARD"]
+        "tags": ["shadow"]
     }, {
         "dex": 92,
         "speciesName": "鬼斯",
@@ -3052,11 +3083,11 @@
         "types": ["ghost", "poison"],
         "fastMoves": ["ASTONISH", "LICK", "SUCKER_PUNCH"],
         "chargedMoves": ["DARK_PULSE", "NIGHT_SHADE", "OMINOUS_WIND", "SLUDGE_BOMB"],
+        "legacyMoves": ["OMINOUS_WIND", "SUCKER_PUNCH"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["SUCKER_PUNCH", "OMINOUS_WIND"]
+        }
     }, {
         "dex": 93,
         "speciesName": "鬼斯通",
@@ -3069,11 +3100,11 @@
         "types": ["ghost", "poison"],
         "fastMoves": ["ASTONISH", "LICK", "SHADOW_CLAW"],
         "chargedMoves": ["DARK_PULSE", "SHADOW_BALL", "SHADOW_PUNCH", "SLUDGE_BOMB"],
+        "legacyMoves": ["LICK"],
         "defaultIVs": {
             "cp1500": [28.5, 6, 15, 8],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["LICK"]
+        }
     }, {
         "dex": 94,
         "speciesName": "耿鬼",
@@ -3086,11 +3117,11 @@
         "types": ["ghost", "poison"],
         "fastMoves": ["HEX", "LICK", "SHADOW_CLAW", "SUCKER_PUNCH"],
         "chargedMoves": ["DARK_PULSE", "FOCUS_BLAST", "PSYCHIC", "SHADOW_BALL", "SLUDGE_BOMB", "SLUDGE_WAVE"],
+        "legacyMoves": ["DARK_PULSE", "LICK", "PSYCHIC", "SLUDGE_WAVE"],
         "defaultIVs": {
             "cp1500": [19, 8, 15, 9],
             "cp2500": [34, 7, 8, 15]
-        },
-        "eliteMoves": ["LICK", "SLUDGE_WAVE", "DARK_PULSE", "PSYCHIC"]
+        }
     }, {
         "dex": 95,
         "speciesName": "大岩蛇",
@@ -3103,13 +3134,13 @@
         "types": ["rock", "ground"],
         "fastMoves": ["ROCK_THROW", "TACKLE"],
         "chargedMoves": ["HEAVY_SLAM", "IRON_HEAD", "ROCK_SLIDE", "SAND_TOMB", "STONE_EDGE"],
+        "legacyMoves": ["IRON_HEAD", "ROCK_SLIDE", "RETURN"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 608,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["IRON_HEAD", "ROCK_SLIDE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 96,
         "speciesName": "催眠貘",
@@ -3157,13 +3188,13 @@
         "types": ["psychic", "none"],
         "fastMoves": ["CONFUSION", "ZEN_HEADBUTT"],
         "chargedMoves": ["FOCUS_BLAST", "FUTURE_SIGHT", "PSYCHIC", "PSYSHOCK", "SHADOW_BALL", "FIRE_PUNCH", "ICE_PUNCH", "THUNDER_PUNCH"],
+        "legacyMoves": ["PSYSHOCK", "RETURN"],
         "defaultIVs": {
             "cp1500": [27, 7, 14, 7],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 1255,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["PSYSHOCK"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 97,
         "speciesName": "引夢貘人 暗影化",
@@ -3175,13 +3206,12 @@
         },
         "types": ["psychic", "none"],
         "fastMoves": ["CONFUSION", "ZEN_HEADBUTT"],
-        "chargedMoves": ["FOCUS_BLAST", "FUTURE_SIGHT", "PSYCHIC", "PSYSHOCK", "SHADOW_BALL", "FIRE_PUNCH", "ICE_PUNCH", "THUNDER_PUNCH"],
+        "chargedMoves": ["FOCUS_BLAST", "FUTURE_SIGHT", "PSYCHIC", "SHADOW_BALL", "FIRE_PUNCH", "ICE_PUNCH", "THUNDER_PUNCH"],
         "defaultIVs": {
             "cp1500": [27, 7, 14, 7],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["PSYSHOCK"]
+        "tags": ["shadow"]
     }, {
         "dex": 98,
         "speciesName": "大鉗蟹",
@@ -3210,11 +3240,11 @@
         "types": ["water", "none"],
         "fastMoves": ["BUBBLE", "METAL_CLAW", "MUD_SHOT"],
         "chargedMoves": ["VICE_GRIP", "WATER_PULSE", "X_SCISSOR", "CRABHAMMER"],
+        "legacyMoves": ["MUD_SHOT"],
         "defaultIVs": {
             "cp1500": [19.5, 7, 8, 15],
             "cp2500": [36, 5, 7, 13]
-        },
-        "eliteMoves": ["MUD_SHOT"]
+        }
     }, {
         "dex": 100,
         "speciesName": "霹靂電球",
@@ -3227,11 +3257,11 @@
         "types": ["electric", "none"],
         "fastMoves": ["SPARK", "TACKLE"],
         "chargedMoves": ["DISCHARGE", "GYRO_BALL", "SIGNAL_BEAM", "THUNDERBOLT"],
+        "legacyMoves": ["SIGNAL_BEAM"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["SIGNAL_BEAM"]
+        }
     }, {
         "dex": 101,
         "speciesName": "頑皮雷彈",
@@ -3244,11 +3274,11 @@
         "types": ["electric", "none"],
         "fastMoves": ["SPARK", "TACKLE", "VOLT_SWITCH"],
         "chargedMoves": ["DISCHARGE", "HYPER_BEAM", "THUNDERBOLT", "FOUL_PLAY"],
+        "legacyMoves": ["TACKLE"],
         "defaultIVs": {
             "cp1500": [26, 10, 13, 13],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["TACKLE"]
+        }
     }, {
         "dex": 102,
         "speciesName": "蛋蛋",
@@ -3296,13 +3326,13 @@
         "types": ["grass", "psychic"],
         "fastMoves": ["BULLET_SEED", "CONFUSION", "EXTRASENSORY", "ZEN_HEADBUTT"],
         "chargedMoves": ["PSYCHIC", "SEED_BOMB", "SOLAR_BEAM"],
+        "legacyMoves": ["ZEN_HEADBUTT"],
         "defaultIVs": {
             "cp1500": [18, 8, 15, 10],
             "cp2500": [31, 6, 12, 12]
         },
         "level25CP": 1864,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["ZEN_HEADBUTT"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 103,
         "speciesName": "椰蛋樹 阿羅拉型態",
@@ -3330,14 +3360,13 @@
             "hp": 216
         },
         "types": ["grass", "psychic"],
-        "fastMoves": ["BULLET_SEED", "CONFUSION", "EXTRASENSORY", "ZEN_HEADBUTT"],
+        "fastMoves": ["BULLET_SEED", "CONFUSION", "EXTRASENSORY"],
         "chargedMoves": ["PSYCHIC", "SEED_BOMB", "SOLAR_BEAM"],
         "defaultIVs": {
             "cp1500": [18, 8, 15, 10],
             "cp2500": [31, 6, 12, 12]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["ZEN_HEADBUTT"]
+        "tags": ["shadow"]
     }, {
         "dex": 104,
         "speciesName": "卡拉卡拉",
@@ -3437,13 +3466,13 @@
         "types": ["fighting", "none"],
         "fastMoves": ["LOW_KICK", "ROCK_SMASH"],
         "chargedMoves": ["BRICK_BREAK", "CLOSE_COMBAT", "LOW_SWEEP", "STOMP", "STONE_EDGE"],
+        "legacyMoves": ["BRICK_BREAK", "STOMP"],
         "defaultIVs": {
             "cp1500": [21.5, 7, 8, 14],
             "cp2500": [38.5, 12, 15, 15]
         },
         "level25CP": 1573,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["STOMP", "BRICK_BREAK"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 106,
         "speciesName": "飛腿郎 暗影化",
@@ -3455,13 +3484,12 @@
         },
         "types": ["fighting", "none"],
         "fastMoves": ["LOW_KICK", "ROCK_SMASH"],
-        "chargedMoves": ["BRICK_BREAK", "CLOSE_COMBAT", "LOW_SWEEP", "STOMP", "STONE_EDGE"],
+        "chargedMoves": ["CLOSE_COMBAT", "LOW_SWEEP", "STONE_EDGE"],
         "defaultIVs": {
             "cp1500": [21.5, 7, 8, 14],
             "cp2500": [38.5, 12, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["STOMP", "BRICK_BREAK"]
+        "tags": ["shadow"]
     }, {
         "dex": 107,
         "speciesName": "快拳郎",
@@ -3474,13 +3502,13 @@
         "types": ["fighting", "none"],
         "fastMoves": ["BULLET_PUNCH", "COUNTER", "ROCK_SMASH"],
         "chargedMoves": ["BRICK_BREAK", "CLOSE_COMBAT", "FIRE_PUNCH", "ICE_PUNCH", "THUNDER_PUNCH", "POWER_UP_PUNCH"],
+        "legacyMoves": ["BRICK_BREAK", "ROCK_SMASH", "RETURN"],
         "defaultIVs": {
             "cp1500": [23.5, 8, 12, 13],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 1414,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["ROCK_SMASH", "BRICK_BREAK"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 107,
         "speciesName": "快拳郎 暗影化",
@@ -3491,14 +3519,13 @@
             "hp": 137
         },
         "types": ["fighting", "none"],
-        "fastMoves": ["BULLET_PUNCH", "COUNTER", "ROCK_SMASH"],
-        "chargedMoves": ["BRICK_BREAK", "CLOSE_COMBAT", "FIRE_PUNCH", "ICE_PUNCH", "THUNDER_PUNCH", "POWER_UP_PUNCH"],
+        "fastMoves": ["BULLET_PUNCH", "COUNTER"],
+        "chargedMoves": ["CLOSE_COMBAT", "FIRE_PUNCH", "ICE_PUNCH", "THUNDER_PUNCH", "POWER_UP_PUNCH"],
         "defaultIVs": {
             "cp1500": [23.5, 8, 12, 13],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["ROCK_SMASH", "BRICK_BREAK"]
+        "tags": ["shadow"]
     }, {
         "dex": 108,
         "speciesName": "大舌頭",
@@ -3511,11 +3538,11 @@
         "types": ["normal", "none"],
         "fastMoves": ["LICK", "ZEN_HEADBUTT"],
         "chargedMoves": ["HYPER_BEAM", "POWER_WHIP", "STOMP", "BODY_SLAM"],
+        "legacyMoves": ["BODY_SLAM"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["BODY_SLAM"]
+        }
     }, {
         "dex": 109,
         "speciesName": "瓦斯彈",
@@ -3601,13 +3628,13 @@
         "types": ["ground", "rock"],
         "fastMoves": ["MUD_SLAP", "ROCK_SMASH"],
         "chargedMoves": ["EARTHQUAKE", "MEGAHORN", "STONE_EDGE", "SURF"],
+        "legacyMoves": ["MEGAHORN"],
         "defaultIVs": {
             "cp1500": [17.5, 6, 7, 15],
             "cp2500": [29, 7, 11, 11]
         },
         "level25CP": 1976,
-        "tags": [],
-        "eliteMoves": ["MEGAHORN"]
+        "tags": []
     }, {
         "dex": 113,
         "speciesName": "吉利蛋",
@@ -3620,11 +3647,11 @@
         "types": ["normal", "none"],
         "fastMoves": ["POUND", "ZEN_HEADBUTT"],
         "chargedMoves": ["DAZZLING_GLEAM", "HYPER_BEAM", "PSYBEAM", "PSYCHIC"],
+        "legacyMoves": ["PSYBEAM"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["PSYBEAM"]
+        }
     }, {
         "dex": 114,
         "speciesName": "蔓藤怪",
@@ -3637,11 +3664,11 @@
         "types": ["grass", "none"],
         "fastMoves": ["INFESTATION", "VINE_WHIP"],
         "chargedMoves": ["GRASS_KNOT", "POWER_WHIP", "SLUDGE_BOMB", "SOLAR_BEAM"],
+        "legacyMoves": ["POWER_WHIP"],
         "defaultIVs": {
             "cp1500": [24.5, 8, 13, 13],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["POWER_WHIP"]
+        }
     }, {
         "dex": 115,
         "speciesName": "袋獸",
@@ -3654,13 +3681,13 @@
         "types": ["normal", "none"],
         "fastMoves": ["LOW_KICK", "MUD_SLAP"],
         "chargedMoves": ["BRICK_BREAK", "CRUNCH", "EARTHQUAKE", "OUTRAGE", "STOMP", "POWER_UP_PUNCH"],
+        "legacyMoves": ["BRICK_BREAK", "STOMP"],
         "tags": ["regional"],
         "defaultIVs": {
             "cp1500": [21.5, 7, 11, 12],
             "cp2500": [38, 13, 15, 15]
         },
-        "level25CP": 1583,
-        "eliteMoves": ["BRICK_BREAK", "STOMP"]
+        "level25CP": 1583
     }, {
         "dex": 116,
         "speciesName": "墨海馬",
@@ -3689,11 +3716,11 @@
         "types": ["water", "none"],
         "fastMoves": ["DRAGON_BREATH", "WATER_GUN"],
         "chargedMoves": ["AURORA_BEAM", "BLIZZARD", "DRAGON_PULSE", "HYDRO_PUMP"],
+        "legacyMoves": ["BLIZZARD"],
         "defaultIVs": {
             "cp1500": [27, 6, 10, 10],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["BLIZZARD"]
+        }
     }, {
         "dex": 118,
         "speciesName": "角金魚",
@@ -3722,11 +3749,11 @@
         "types": ["water", "none"],
         "fastMoves": ["PECK", "POISON_JAB", "WATERFALL"],
         "chargedMoves": ["DRILL_RUN", "ICE_BEAM", "ICY_WIND", "MEGAHORN", "WATER_PULSE"],
+        "legacyMoves": ["DRILL_RUN", "ICY_WIND", "POISON_JAB"],
         "defaultIVs": {
             "cp1500": [26, 7, 7, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["POISON_JAB", "ICY_WIND", "DRILL_RUN"]
+        }
     }, {
         "dex": 120,
         "speciesName": "海星星",
@@ -3756,12 +3783,11 @@
         "types": ["water", "psychic"],
         "fastMoves": ["HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "QUICK_ATTACK", "TACKLE", "WATER_GUN"],
         "chargedMoves": ["HYDRO_PUMP", "ICE_BEAM", "POWER_GEM", "PSYBEAM", "PSYCHIC", "THUNDER"],
-        "legacyMoves": ["QUICK_ATTACK"],
+        "legacyMoves": ["PSYBEAM", "QUICK_ATTACK", "TACKLE"],
         "defaultIVs": {
             "cp1500": [22, 5, 9, 8],
             "cp2500": [39.5, 12, 13, 12]
-        },
-        "eliteMoves": ["TACKLE", "PSYBEAM"]
+        }
     }, {
         "dex": 122,
         "speciesName": "魔牆人偶",
@@ -3791,13 +3817,13 @@
         "types": ["bug", "flying"],
         "fastMoves": ["AIR_SLASH", "FURY_CUTTER", "STEEL_WING"],
         "chargedMoves": ["AERIAL_ACE", "BUG_BUZZ", "NIGHT_SLASH", "X_SCISSOR"],
+        "legacyMoves": ["BUG_BUZZ", "STEEL_WING"],
         "defaultIVs": {
             "cp1500": [20.5, 8, 12, 9],
             "cp2500": [37.5, 5, 15, 13]
         },
         "level25CP": 1663,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["STEEL_WING", "BUG_BUZZ"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 123,
         "speciesName": "飛天螳螂 暗影化",
@@ -3808,14 +3834,13 @@
             "hp": 172
         },
         "types": ["bug", "flying"],
-        "fastMoves": ["AIR_SLASH", "FURY_CUTTER", "STEEL_WING"],
-        "chargedMoves": ["AERIAL_ACE", "BUG_BUZZ", "NIGHT_SLASH", "X_SCISSOR"],
+        "fastMoves": ["AIR_SLASH", "FURY_CUTTER"],
+        "chargedMoves": ["AERIAL_ACE", "NIGHT_SLASH", "X_SCISSOR"],
         "defaultIVs": {
             "cp1500": [20.5, 8, 12, 9],
             "cp2500": [37.5, 5, 15, 13]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["STEEL_WING", "BUG_BUZZ"]
+        "tags": ["shadow"]
     }, {
         "dex": 124,
         "speciesName": "迷唇姐",
@@ -3828,11 +3853,11 @@
         "types": ["ice", "psychic"],
         "fastMoves": ["CONFUSION", "FROST_BREATH", "POUND"],
         "chargedMoves": ["AVALANCHE", "DRAINING_KISS", "FOCUS_BLAST", "ICE_PUNCH", "PSYSHOCK"],
+        "legacyMoves": ["ICE_PUNCH", "POUND"],
         "defaultIVs": {
             "cp1500": [21.5, 5, 14, 12],
             "cp2500": [40, 13, 12, 13]
-        },
-        "eliteMoves": ["POUND", "ICE_PUNCH"]
+        }
     }, {
         "dex": 125,
         "speciesName": "電擊獸",
@@ -3915,13 +3940,13 @@
         "types": ["bug", "none"],
         "fastMoves": ["BUG_BITE", "FURY_CUTTER", "ROCK_SMASH"],
         "chargedMoves": ["CLOSE_COMBAT", "SUBMISSION", "VICE_GRIP", "X_SCISSOR", "SUPER_POWER"],
+        "legacyMoves": ["SUBMISSION"],
         "defaultIVs": {
             "cp1500": [18.5, 9, 15, 9],
             "cp2500": [32.5, 6, 8, 14]
         },
         "level25CP": 1828,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["SUBMISSION"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 127,
         "speciesName": "凱羅斯 暗影化",
@@ -3933,13 +3958,12 @@
         },
         "types": ["bug", "none"],
         "fastMoves": ["BUG_BITE", "FURY_CUTTER", "ROCK_SMASH"],
-        "chargedMoves": ["CLOSE_COMBAT", "SUBMISSION", "VICE_GRIP", "X_SCISSOR", "SUPER_POWER"],
+        "chargedMoves": ["CLOSE_COMBAT", "VICE_GRIP", "X_SCISSOR", "SUPER_POWER"],
         "defaultIVs": {
             "cp1500": [18.5, 9, 15, 9],
             "cp2500": [32.5, 6, 8, 14]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["SUBMISSION"]
+        "tags": ["shadow"]
     }, {
         "dex": 128,
         "speciesName": "肯泰羅",
@@ -4004,13 +4028,13 @@
         "types": ["water", "flying"],
         "fastMoves": ["BITE", "DRAGON_BREATH", "DRAGON_TAIL", "WATERFALL"],
         "chargedMoves": ["CRUNCH", "DRAGON_PULSE", "HYDRO_PUMP", "OUTRAGE", "TWISTER"],
+        "legacyMoves": ["DRAGON_PULSE", "DRAGON_TAIL"],
         "defaultIVs": {
             "cp1500": [16, 10, 11, 13],
             "cp2500": [27.5, 6, 7, 11]
         },
         "level25CP": 2119,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["DRAGON_TAIL", "DRAGON_PULSE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 130,
         "speciesName": "暴鯉龍 暗影化",
@@ -4021,14 +4045,13 @@
             "hp": 216
         },
         "types": ["water", "flying"],
-        "fastMoves": ["BITE", "DRAGON_BREATH", "DRAGON_TAIL", "WATERFALL"],
-        "chargedMoves": ["CRUNCH", "DRAGON_PULSE", "HYDRO_PUMP", "OUTRAGE", "TWISTER"],
+        "fastMoves": ["BITE", "DRAGON_BREATH", "WATERFALL"],
+        "chargedMoves": ["CRUNCH", "HYDRO_PUMP", "OUTRAGE", "TWISTER"],
         "defaultIVs": {
             "cp1500": [16, 10, 11, 13],
             "cp2500": [27.5, 6, 7, 11]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["DRAGON_TAIL", "DRAGON_PULSE"]
+        "tags": ["shadow"]
     }, {
         "dex": 131,
         "speciesName": "拉普拉斯",
@@ -4041,13 +4064,13 @@
         "types": ["water", "ice"],
         "fastMoves": ["FROST_BREATH", "ICE_SHARD", "WATER_GUN"],
         "chargedMoves": ["BLIZZARD", "DRAGON_PULSE", "HYDRO_PUMP", "ICE_BEAM", "SURF", "SKULL_BASH"],
+        "legacyMoves": ["DRAGON_PULSE", "ICE_BEAM", "ICE_SHARD"],
         "defaultIVs": {
             "cp1500": [21.5, 7, 5, 12],
             "cp2500": [37.5, 12, 13, 15]
         },
         "level25CP": 1616,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["ICE_SHARD", "DRAGON_PULSE", "ICE_BEAM"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 131,
         "speciesName": "拉普拉斯 暗影化",
@@ -4058,14 +4081,13 @@
             "hp": 277
         },
         "types": ["water", "ice"],
-        "fastMoves": ["FROST_BREATH", "ICE_SHARD", "WATER_GUN"],
-        "chargedMoves": ["BLIZZARD", "DRAGON_PULSE", "HYDRO_PUMP", "ICE_BEAM", "SURF", "SKULL_BASH"],
+        "fastMoves": ["FROST_BREATH", "WATER_GUN"],
+        "chargedMoves": ["BLIZZARD", "HYDRO_PUMP", "SURF", "SKULL_BASH"],
         "defaultIVs": {
             "cp1500": [21.5, 7, 5, 12],
             "cp2500": [37.5, 12, 13, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["ICE_SHARD", "DRAGON_PULSE", "ICE_BEAM"]
+        "tags": ["shadow"]
     }, {
         "dex": 132,
         "speciesName": "百變怪",
@@ -4094,11 +4116,11 @@
         "types": ["normal", "none"],
         "fastMoves": ["QUICK_ATTACK", "TACKLE"],
         "chargedMoves": ["BODY_SLAM", "DIG", "LAST_RESORT", "SWIFT"],
+        "legacyMoves": ["BODY_SLAM", "LAST_RESORT"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["LAST_RESORT", "BODY_SLAM"]
+        }
     }, {
         "dex": 134,
         "speciesName": "水伊布",
@@ -4111,11 +4133,11 @@
         "types": ["water", "none"],
         "fastMoves": ["WATER_GUN"],
         "chargedMoves": ["AQUA_TAIL", "HYDRO_PUMP", "LAST_RESORT", "WATER_PULSE"],
+        "legacyMoves": ["LAST_RESORT"],
         "defaultIVs": {
             "cp1500": [17.5, 6, 14, 13],
             "cp2500": [29, 9, 15, 12]
-        },
-        "eliteMoves": ["LAST_RESORT"]
+        }
     }, {
         "dex": 135,
         "speciesName": "雷伊布",
@@ -4128,11 +4150,11 @@
         "types": ["electric", "none"],
         "fastMoves": ["THUNDER_SHOCK", "VOLT_SWITCH"],
         "chargedMoves": ["DISCHARGE", "LAST_RESORT", "THUNDER", "THUNDERBOLT"],
+        "legacyMoves": ["LAST_RESORT"],
         "defaultIVs": {
             "cp1500": [19, 7, 15, 10],
             "cp2500": [34.5, 5, 7, 14]
-        },
-        "eliteMoves": ["LAST_RESORT"]
+        }
     }, {
         "dex": 136,
         "speciesName": "火伊布",
@@ -4145,11 +4167,11 @@
         "types": ["fire", "none"],
         "fastMoves": ["EMBER", "FIRE_SPIN"],
         "chargedMoves": ["FIRE_BLAST", "FLAMETHROWER", "HEAT_WAVE", "LAST_RESORT", "OVERHEAT"],
+        "legacyMoves": ["HEAT_WAVE", "LAST_RESORT"],
         "defaultIVs": {
             "cp1500": [18, 7, 11, 15],
             "cp2500": [30.5, 6, 10, 15]
-        },
-        "eliteMoves": ["LAST_RESORT", "HEAT_WAVE"]
+        }
     }, {
         "dex": 137,
         "speciesName": "多邊獸",
@@ -4162,14 +4184,13 @@
         "types": ["normal", "none"],
         "fastMoves": ["CHARGE_BEAM", "HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "QUICK_ATTACK", "TACKLE", "ZEN_HEADBUTT"],
         "chargedMoves": ["DISCHARGE", "HYPER_BEAM", "PSYBEAM", "SIGNAL_BEAM", "SOLAR_BEAM", "ZAP_CANNON"],
-        "legacyMoves": ["QUICK_ATTACK"],
+        "legacyMoves": ["DISCHARGE", "PSYBEAM", "QUICK_ATTACK", "SIGNAL_BEAM", "TACKLE", "ZEN_HEADBUTT", "RETURN"],
         "defaultIVs": {
             "cp1500": [34.5, 6, 15, 13],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 1016,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["TACKLE", "ZEN_HEADBUTT", "SIGNAL_BEAM", "PSYBEAM", "DISCHARGE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 137,
         "speciesName": "多邊獸 暗影化",
@@ -4180,14 +4201,13 @@
             "hp": 163
         },
         "types": ["normal", "none"],
-        "fastMoves": ["CHARGE_BEAM", "HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "TACKLE", "ZEN_HEADBUTT"],
-        "chargedMoves": ["DISCHARGE", "HYPER_BEAM", "PSYBEAM", "SIGNAL_BEAM", "SOLAR_BEAM", "ZAP_CANNON"],
+        "fastMoves": ["CHARGE_BEAM", "HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER"],
+        "chargedMoves": ["HYPER_BEAM", "SOLAR_BEAM", "ZAP_CANNON"],
         "defaultIVs": {
             "cp1500": [34.5, 6, 15, 13],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["TACKLE", "ZEN_HEADBUTT", "SIGNAL_BEAM", "PSYBEAM", "DISCHARGE"]
+        "tags": ["shadow"]
     }, {
         "dex": 138,
         "speciesName": "菊石獸",
@@ -4200,13 +4220,13 @@
         "types": ["rock", "water"],
         "fastMoves": ["MUD_SHOT", "WATER_GUN"],
         "chargedMoves": ["ANCIENT_POWER", "BRINE", "BUBBLE_BEAM", "ROCK_BLAST", "ROCK_TOMB"],
+        "legacyMoves": ["BRINE", "ROCK_TOMB", "RETURN"],
         "defaultIVs": {
             "cp1500": [40, 13, 13, 12],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 901,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["ROCK_TOMB", "BRINE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 138,
         "speciesName": "菊石獸 暗影化",
@@ -4218,13 +4238,12 @@
         },
         "types": ["rock", "water"],
         "fastMoves": ["MUD_SHOT", "WATER_GUN"],
-        "chargedMoves": ["ANCIENT_POWER", "BRINE", "BUBBLE_BEAM", "ROCK_BLAST", "ROCK_TOMB"],
+        "chargedMoves": ["ANCIENT_POWER", "BUBBLE_BEAM", "ROCK_BLAST"],
         "defaultIVs": {
             "cp1500": [40, 13, 13, 12],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["ROCK_TOMB", "BRINE"]
+        "tags": ["shadow"]
     }, {
         "dex": 139,
         "speciesName": "多刺菊石獸",
@@ -4237,13 +4256,13 @@
         "types": ["rock", "water"],
         "fastMoves": ["MUD_SHOT", "ROCK_THROW", "WATER_GUN"],
         "chargedMoves": ["ANCIENT_POWER", "HYDRO_PUMP", "ROCK_BLAST", "ROCK_SLIDE"],
+        "legacyMoves": ["ROCK_SLIDE", "ROCK_THROW"],
         "defaultIVs": {
             "cp1500": [20, 8, 10, 9],
             "cp2500": [34.5, 9, 15, 15]
         },
         "level25CP": 1717,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["ROCK_THROW", "ROCK_SLIDE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 139,
         "speciesName": "多刺菊石獸 暗影化",
@@ -4254,14 +4273,13 @@
             "hp": 172
         },
         "types": ["rock", "water"],
-        "fastMoves": ["MUD_SHOT", "ROCK_THROW", "WATER_GUN"],
-        "chargedMoves": ["ANCIENT_POWER", "HYDRO_PUMP", "ROCK_BLAST", "ROCK_SLIDE"],
+        "fastMoves": ["MUD_SHOT", "WATER_GUN"],
+        "chargedMoves": ["ANCIENT_POWER", "HYDRO_PUMP", "ROCK_BLAST"],
         "defaultIVs": {
             "cp1500": [20, 8, 10, 9],
             "cp2500": [34.5, 9, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["ROCK_THROW", "ROCK_SLIDE"]
+        "tags": ["shadow"]
     }, {
         "dex": 140,
         "speciesName": "化石盔",
@@ -4290,11 +4308,11 @@
         "types": ["rock", "water"],
         "fastMoves": ["FURY_CUTTER", "MUD_SHOT", "ROCK_SMASH", "WATERFALL"],
         "chargedMoves": ["ANCIENT_POWER", "STONE_EDGE", "WATER_PULSE"],
+        "legacyMoves": ["FURY_CUTTER"],
         "defaultIVs": {
             "cp1500": [20.5, 7, 8, 13],
             "cp2500": [38.5, 5, 8, 14]
-        },
-        "eliteMoves": ["FURY_CUTTER"]
+        }
     }, {
         "dex": 142,
         "speciesName": "化石翼龍",
@@ -4323,13 +4341,13 @@
         "types": ["normal", "none"],
         "fastMoves": ["LICK", "ZEN_HEADBUTT", "YAWN"],
         "chargedMoves": ["BODY_SLAM", "EARTHQUAKE", "HEAVY_SLAM", "HYPER_BEAM", "OUTRAGE", "SKULL_BASH", "SUPER_POWER"],
+        "legacyMoves": ["YAWN"],
         "defaultIVs": {
             "cp1500": [17, 5, 13, 15],
             "cp2500": [28.5, 8, 10, 14]
         },
         "level25CP": 2001,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["YAWN"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 143,
         "speciesName": "卡比獸 暗影化",
@@ -4340,14 +4358,13 @@
             "hp": 330
         },
         "types": ["normal", "none"],
-        "fastMoves": ["LICK", "ZEN_HEADBUTT", "YAWN"],
+        "fastMoves": ["LICK", "ZEN_HEADBUTT"],
         "chargedMoves": ["BODY_SLAM", "EARTHQUAKE", "HEAVY_SLAM", "HYPER_BEAM", "OUTRAGE", "SKULL_BASH", "SUPER_POWER"],
         "defaultIVs": {
             "cp1500": [17, 5, 13, 15],
             "cp2500": [28.5, 8, 10, 14]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["YAWN"]
+        "tags": ["shadow"]
     }, {
         "dex": 144,
         "speciesName": "急凍鳥",
@@ -4360,13 +4377,13 @@
         "types": ["ice", "flying"],
         "fastMoves": ["FROST_BREATH", "ICE_SHARD"],
         "chargedMoves": ["BLIZZARD", "HURRICANE", "ICE_BEAM", "ICY_WIND", "ANCIENT_POWER"],
+        "legacyMoves": ["HURRICANE"],
         "tags": ["legendary", "shadoweligible"],
         "defaultIVs": {
             "cp1500": [18.5, 5, 12, 6],
             "cp2500": [31.5, 5, 15, 6]
         },
-        "level25CP": 1893,
-        "eliteMoves": ["HURRICANE"]
+        "level25CP": 1893
     }, {
         "dex": 144,
         "speciesName": "急凍鳥 暗影化",
@@ -4378,13 +4395,12 @@
         },
         "types": ["ice", "flying"],
         "fastMoves": ["FROST_BREATH", "ICE_SHARD"],
-        "chargedMoves": ["BLIZZARD", "HURRICANE", "ICE_BEAM", "ICY_WIND", "ANCIENT_POWER"],
+        "chargedMoves": ["BLIZZARD", "ICE_BEAM", "ICY_WIND", "ANCIENT_POWER"],
         "tags": ["legendary", "shadow"],
         "defaultIVs": {
             "cp1500": [18.5, 5, 12, 6],
             "cp2500": [31.5, 5, 15, 6]
-        },
-        "eliteMoves": ["HURRICANE"]
+        }
     }, {
         "dex": 145,
         "speciesName": "閃電鳥",
@@ -4396,14 +4412,14 @@
         },
         "types": ["electric", "flying"],
         "fastMoves": ["CHARGE_BEAM", "THUNDER_SHOCK"],
-        "chargedMoves": ["THUNDER", "THUNDERBOLT", "ZAP_CANNON", "ANCIENT_POWER", "DRILL_PECK", "DISCHARGE"],
+        "chargedMoves": ["THUNDER", "THUNDERBOLT", "ZAP_CANNON", "ANCIENT_POWER", "DRILL_PECK"],
+        "legacyMoves": ["THUNDER_SHOCK"],
         "tags": ["legendary", "shadoweligible"],
         "defaultIVs": {
             "cp1500": [15.5, 8, 14, 8],
             "cp2500": [26.5, 6, 7, 10]
         },
-        "level25CP": 2208,
-        "eliteMoves": ["THUNDER_SHOCK", "DISCHARGE"]
+        "level25CP": 2208
     }, {
         "dex": 145,
         "speciesName": "閃電鳥 暗影化",
@@ -4414,14 +4430,13 @@
             "hp": 207
         },
         "types": ["electric", "flying"],
-        "fastMoves": ["CHARGE_BEAM", "THUNDER_SHOCK"],
-        "chargedMoves": ["THUNDER", "THUNDERBOLT", "ZAP_CANNON", "ANCIENT_POWER", "DRILL_PECK", "DISCHARGE"],
+        "fastMoves": ["CHARGE_BEAM"],
+        "chargedMoves": ["THUNDER", "THUNDERBOLT", "ZAP_CANNON", "ANCIENT_POWER", "DRILL_PECK"],
         "tags": ["legendary", "shadow"],
         "defaultIVs": {
             "cp1500": [15.5, 8, 14, 8],
             "cp2500": [26.5, 6, 7, 10]
-        },
-        "eliteMoves": ["THUNDER_SHOCK", "DISCHARGE"]
+        }
     }, {
         "dex": 146,
         "speciesName": "火焰鳥",
@@ -4434,13 +4449,13 @@
         "types": ["fire", "flying"],
         "fastMoves": ["EMBER", "FIRE_SPIN", "WING_ATTACK"],
         "chargedMoves": ["FIRE_BLAST", "HEAT_WAVE", "OVERHEAT", "SKY_ATTACK", "ANCIENT_POWER"],
+        "legacyMoves": ["EMBER", "SKY_ATTACK"],
         "tags": ["legendary", "shadoweligible"],
         "defaultIVs": {
             "cp1500": [16, 8, 13, 5],
             "cp2500": [26.5, 5, 13, 11]
         },
-        "level25CP": 2167,
-        "eliteMoves": ["EMBER", "SKY_ATTACK"]
+        "level25CP": 2167
     }, {
         "dex": 146,
         "speciesName": "火焰鳥 暗影化",
@@ -4451,14 +4466,13 @@
             "hp": 207
         },
         "types": ["fire", "flying"],
-        "fastMoves": ["EMBER", "FIRE_SPIN", "WING_ATTACK"],
-        "chargedMoves": ["FIRE_BLAST", "HEAT_WAVE", "OVERHEAT", "SKY_ATTACK", "ANCIENT_POWER"],
+        "fastMoves": ["FIRE_SPIN", "WING_ATTACK"],
+        "chargedMoves": ["FIRE_BLAST", "HEAT_WAVE", "OVERHEAT", "ANCIENT_POWER"],
         "tags": ["legendary", "shadow"],
         "defaultIVs": {
             "cp1500": [16, 8, 13, 5],
             "cp2500": [26.5, 5, 13, 11]
-        },
-        "eliteMoves": ["EMBER", "SKY_ATTACK"]
+        }
     }, {
         "dex": 147,
         "speciesName": "迷你龍",
@@ -4541,13 +4555,13 @@
         "types": ["dragon", "flying"],
         "fastMoves": ["DRAGON_BREATH", "DRAGON_TAIL", "STEEL_WING"],
         "chargedMoves": ["DRACO_METEOR", "DRAGON_CLAW", "DRAGON_PULSE", "HURRICANE", "HYPER_BEAM", "OUTRAGE"],
+        "legacyMoves": ["DRACO_METEOR", "DRAGON_PULSE"],
         "defaultIVs": {
             "cp1500": [14.5, 7, 9, 12],
             "cp2500": [24.5, 5, 8, 11]
         },
         "level25CP": 2386,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["DRACO_METEOR", "DRAGON_PULSE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 149,
         "speciesName": "快龍 暗影化",
@@ -4559,13 +4573,12 @@
         },
         "types": ["dragon", "flying"],
         "fastMoves": ["DRAGON_BREATH", "DRAGON_TAIL", "STEEL_WING"],
-        "chargedMoves": ["DRACO_METEOR", "DRAGON_CLAW", "DRAGON_PULSE", "HURRICANE", "HYPER_BEAM", "OUTRAGE"],
+        "chargedMoves": ["DRAGON_CLAW", "HURRICANE", "HYPER_BEAM", "OUTRAGE"],
         "defaultIVs": {
             "cp1500": [14.5, 7, 9, 12],
             "cp2500": [24.5, 5, 8, 11]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["DRACO_METEOR", "DRAGON_PULSE"]
+        "tags": ["shadow"]
     }, {
         "dex": 150,
         "speciesName": "超夢",
@@ -4578,12 +4591,12 @@
         "types": ["psychic", "none"],
         "fastMoves": ["CONFUSION", "PSYCHO_CUT"],
         "chargedMoves": ["FLAMETHROWER", "FOCUS_BLAST", "HYPER_BEAM", "ICE_BEAM", "PSYCHIC", "SHADOW_BALL", "THUNDERBOLT", "PSYSTRIKE"],
+        "legacyMoves": ["HYPER_BEAM", "SHADOW_BALL", "PSYSTRIKE"],
         "tags": ["legendary"],
         "defaultIVs": {
             "cp1500": [13, 5, 14, 11],
             "cp2500": [21.5, 11, 13, 11]
-        },
-        "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"]
+        }
     }, {
         "dex": 150,
         "speciesName": "超夢 裝甲型態",
@@ -4665,12 +4678,12 @@
         "types": ["grass", "none"],
         "fastMoves": ["RAZOR_LEAF", "VINE_WHIP"],
         "chargedMoves": ["EARTHQUAKE", "FRENZY_PLANT", "PETAL_BLIZZARD", "SOLAR_BEAM"],
+        "legacyMoves": ["FRENZY_PLANT"],
         "tags": ["starter"],
         "defaultIVs": {
             "cp1500": [23, 7, 9, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["FRENZY_PLANT"]
+        }
     }, {
         "dex": 155,
         "speciesName": "火球鼠",
@@ -4717,12 +4730,12 @@
         "types": ["fire", "none"],
         "fastMoves": ["EMBER", "SHADOW_CLAW"],
         "chargedMoves": ["BLAST_BURN", "FIRE_BLAST", "OVERHEAT", "SOLAR_BEAM"],
+        "legacyMoves": ["BLAST_BURN"],
         "tags": ["starter"],
         "defaultIVs": {
             "cp1500": [19.5, 6, 8, 10],
             "cp2500": [35, 5, 13, 6]
-        },
-        "eliteMoves": ["BLAST_BURN"]
+        }
     }, {
         "dex": 158,
         "speciesName": "小鋸鱷",
@@ -4769,12 +4782,12 @@
         "types": ["water", "none"],
         "fastMoves": ["BITE", "WATER_GUN", "WATERFALL", "ICE_FANG"],
         "chargedMoves": ["CRUNCH", "HYDRO_CANNON", "HYDRO_PUMP", "ICE_BEAM"],
+        "legacyMoves": ["HYDRO_CANNON", "WATER_GUN"],
         "tags": ["starter"],
         "defaultIVs": {
             "cp1500": [19.5, 6, 15, 6],
             "cp2500": [34.5, 6, 15, 10]
-        },
-        "eliteMoves": ["WATER_GUN", "HYDRO_CANNON"]
+        }
     }, {
         "dex": 161,
         "speciesName": "尾立",
@@ -5000,11 +5013,11 @@
         "types": ["fairy", "none"],
         "fastMoves": ["POUND", "ZEN_HEADBUTT"],
         "chargedMoves": ["BODY_SLAM", "GRASS_KNOT", "PSYCHIC", "PSYSHOCK", "SIGNAL_BEAM"],
+        "legacyMoves": ["BODY_SLAM", "PSYCHIC"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["PSYCHIC", "BODY_SLAM"]
+        }
     }, {
         "dex": 174,
         "speciesName": "寶寶丁",
@@ -5017,11 +5030,11 @@
         "types": ["normal", "fairy"],
         "fastMoves": ["FEINT_ATTACK", "POUND"],
         "chargedMoves": ["BODY_SLAM", "PSYCHIC", "SHADOW_BALL", "WILD_CHARGE"],
+        "legacyMoves": ["BODY_SLAM"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["BODY_SLAM"]
+        }
     }, {
         "dex": 175,
         "speciesName": "波克比",
@@ -5034,11 +5047,11 @@
         "types": ["fairy", "none"],
         "fastMoves": ["HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "PECK", "ZEN_HEADBUTT"],
         "chargedMoves": ["ANCIENT_POWER", "DAZZLING_GLEAM", "PSYSHOCK"],
+        "legacyMoves": ["ZEN_HEADBUTT"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["ZEN_HEADBUTT"]
+        }
     }, {
         "dex": 176,
         "speciesName": "波克基古",
@@ -5051,11 +5064,11 @@
         "types": ["fairy", "flying"],
         "fastMoves": ["EXTRASENSORY", "HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "STEEL_WING", "ZEN_HEADBUTT"],
         "chargedMoves": ["AERIAL_ACE", "ANCIENT_POWER", "DAZZLING_GLEAM"],
+        "legacyMoves": ["STEEL_WING", "ZEN_HEADBUTT"],
         "defaultIVs": {
             "cp1500": [37.5, 5, 10, 10],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["STEEL_WING", "ZEN_HEADBUTT"]
+        }
     }, {
         "dex": 177,
         "speciesName": "天然雀",
@@ -5170,13 +5183,13 @@
         "types": ["electric", "none"],
         "fastMoves": ["CHARGE_BEAM", "VOLT_SWITCH"],
         "chargedMoves": ["DRAGON_PULSE", "FOCUS_BLAST", "POWER_GEM", "THUNDER", "ZAP_CANNON", "THUNDER_PUNCH"],
+        "legacyMoves": ["DRAGON_PULSE"],
         "defaultIVs": {
             "cp1500": [19, 5, 15, 15],
             "cp2500": [34, 7, 12, 15]
         },
         "level25CP": 1760,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["DRAGON_PULSE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 181,
         "speciesName": "電龍 暗影化",
@@ -5188,13 +5201,12 @@
         },
         "types": ["electric", "none"],
         "fastMoves": ["CHARGE_BEAM", "VOLT_SWITCH"],
-        "chargedMoves": ["DRAGON_PULSE", "FOCUS_BLAST", "POWER_GEM", "THUNDER", "ZAP_CANNON", "THUNDER_PUNCH"],
+        "chargedMoves": ["FOCUS_BLAST", "POWER_GEM", "THUNDER", "ZAP_CANNON", "THUNDER_PUNCH"],
         "defaultIVs": {
             "cp1500": [19, 5, 15, 15],
             "cp2500": [34, 7, 12, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["DRAGON_PULSE"]
+        "tags": ["shadow"]
     }, {
         "dex": 182,
         "speciesName": "美麗花",
@@ -5290,13 +5302,13 @@
         "types": ["water", "none"],
         "fastMoves": ["BUBBLE", "MUD_SHOT"],
         "chargedMoves": ["BLIZZARD", "EARTHQUAKE", "HYDRO_PUMP", "SURF"],
+        "legacyMoves": ["EARTHQUAKE", "RETURN"],
         "defaultIVs": {
             "cp1500": [22.5, 9, 12, 11],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 1494,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["EARTHQUAKE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 186,
         "speciesName": "蚊香蛙皇 暗影化",
@@ -5308,13 +5320,12 @@
         },
         "types": ["water", "none"],
         "fastMoves": ["BUBBLE", "MUD_SHOT"],
-        "chargedMoves": ["BLIZZARD", "EARTHQUAKE", "HYDRO_PUMP", "SURF"],
+        "chargedMoves": ["BLIZZARD", "HYDRO_PUMP", "SURF"],
         "defaultIVs": {
             "cp1500": [22.5, 9, 12, 11],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["EARTHQUAKE"]
+        "tags": ["shadow"]
     }, {
         "dex": 187,
         "speciesName": "毽子草",
@@ -5471,11 +5482,11 @@
         "types": ["psychic", "none"],
         "fastMoves": ["CONFUSION", "ZEN_HEADBUTT"],
         "chargedMoves": ["FUTURE_SIGHT", "LAST_RESORT", "PSYBEAM", "PSYCHIC"],
+        "legacyMoves": ["LAST_RESORT"],
         "defaultIVs": {
             "cp1500": [17.5, 7, 7, 13],
             "cp2500": [28.5, 5, 14, 14]
-        },
-        "eliteMoves": ["LAST_RESORT"]
+        }
     }, {
         "dex": 197,
         "speciesName": "月亮伊布",
@@ -5488,11 +5499,11 @@
         "types": ["dark", "none"],
         "fastMoves": ["FEINT_ATTACK", "SNARL"],
         "chargedMoves": ["DARK_PULSE", "FOUL_PLAY", "LAST_RESORT"],
+        "legacyMoves": ["LAST_RESORT"],
         "defaultIVs": {
             "cp1500": [26, 7, 13, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["LAST_RESORT"]
+        }
     }, {
         "dex": 198,
         "speciesName": "黑暗鴉",
@@ -6019,13 +6030,13 @@
         "types": ["ice", "flying"],
         "fastMoves": ["ICE_SHARD", "PRESENT", "QUICK_ATTACK"],
         "chargedMoves": ["AERIAL_ACE", "ICE_PUNCH", "ICY_WIND"],
+        "legacyMoves": ["ICE_SHARD", "QUICK_ATTACK", "RETURN"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 612,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["ICE_SHARD", "QUICK_ATTACK"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 225,
         "speciesName": "信使鳥 暗影化",
@@ -6036,14 +6047,13 @@
             "hp": 128
         },
         "types": ["ice", "flying"],
-        "fastMoves": ["ICE_SHARD", "PRESENT", "QUICK_ATTACK"],
+        "fastMoves": ["PRESENT"],
         "chargedMoves": ["AERIAL_ACE", "ICE_PUNCH", "ICY_WIND"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["ICE_SHARD", "QUICK_ATTACK"]
+        "tags": ["shadow"]
     }, {
         "dex": 226,
         "speciesName": "巨翅飛魚",
@@ -6158,11 +6168,11 @@
         "types": ["water", "dragon"],
         "fastMoves": ["DRAGON_BREATH", "WATER_GUN", "WATERFALL"],
         "chargedMoves": ["BLIZZARD", "HYDRO_PUMP", "OUTRAGE", "OCTAZOOKA"],
+        "legacyMoves": ["WATER_GUN"],
         "defaultIVs": {
             "cp1500": [21, 6, 9, 14],
             "cp2500": [36.5, 15, 14, 14]
-        },
-        "eliteMoves": ["WATER_GUN"]
+        }
     }, {
         "dex": 231,
         "speciesName": "小小象",
@@ -6325,11 +6335,11 @@
         "types": ["ice", "psychic"],
         "fastMoves": ["FROST_BREATH", "POUND", "POWDER_SNOW"],
         "chargedMoves": ["ICE_BEAM", "ICE_PUNCH", "PSYSHOCK"],
+        "legacyMoves": ["FROST_BREATH"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["FROST_BREATH"]
+        }
     }, {
         "dex": 239,
         "speciesName": "電擊怪",
@@ -6342,11 +6352,11 @@
         "types": ["electric", "none"],
         "fastMoves": ["LOW_KICK", "THUNDER_SHOCK"],
         "chargedMoves": ["BRICK_BREAK", "DISCHARGE", "THUNDER_PUNCH", "THUNDERBOLT"],
+        "legacyMoves": ["THUNDERBOLT"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["THUNDERBOLT"]
+        }
     }, {
         "dex": 240,
         "speciesName": "鴨嘴寶寶",
@@ -6359,11 +6369,11 @@
         "types": ["fire", "none"],
         "fastMoves": ["EMBER", "KARATE_CHOP"],
         "chargedMoves": ["BRICK_BREAK", "FIRE_PUNCH", "FLAME_BURST", "FLAMETHROWER"],
+        "legacyMoves": ["FLAMETHROWER"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["FLAMETHROWER"]
+        }
     }, {
         "dex": 241,
         "speciesName": "大奶罐",
@@ -6476,15 +6486,14 @@
             "hp": 225
         },
         "types": ["water", "none"],
-        "fastMoves": ["EXTRASENSORY", "HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "ICE_FANG", "SNARL", "HIDDEN_POWER"],
+        "fastMoves": ["EXTRASENSORY", "HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "ICE_FANG", "SNARL"],
         "chargedMoves": ["BUBBLE_BEAM", "HYDRO_PUMP", "ICE_BEAM", "WATER_PULSE"],
         "legacyMoves": ["HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER"],
         "tags": ["legendary"],
         "defaultIVs": {
             "cp1500": [18.5, 6, 11, 15],
             "cp2500": [33.5, 5, 8, 9]
-        },
-        "eliteMoves": ["HIDDEN_POWER"]
+        }
     }, {
         "dex": 246,
         "speciesName": "幼基拉斯",
@@ -6567,13 +6576,13 @@
         "types": ["rock", "dark"],
         "fastMoves": ["BITE", "IRON_TAIL", "SMACK_DOWN"],
         "chargedMoves": ["CRUNCH", "FIRE_BLAST", "STONE_EDGE"],
+        "legacyMoves": ["SMACK_DOWN"],
         "defaultIVs": {
             "cp1500": [14.5, 8, 7, 9],
             "cp2500": [23.5, 6, 15, 13]
         },
         "level25CP": 2416,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["SMACK_DOWN"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 248,
         "speciesName": "班基拉斯 暗影化",
@@ -6584,14 +6593,14 @@
             "hp": 225
         },
         "types": ["rock", "dark"],
-        "fastMoves": ["BITE", "IRON_TAIL", "SMACK_DOWN"],
+        "fastMoves": ["SMACK_DOWN", "BITE", "IRON_TAIL"],
         "chargedMoves": ["CRUNCH", "FIRE_BLAST", "STONE_EDGE"],
+        "legacyMoves": ["SMACK_DOWN", "FRUSTRATION"],
         "defaultIVs": {
             "cp1500": [14.5, 8, 7, 9],
             "cp2500": [23.5, 6, 15, 13]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["SMACK_DOWN"]
+        "tags": ["shadow"]
     }, {
         "dex": 249,
         "speciesName": "洛奇亞",
@@ -6689,12 +6698,12 @@
         "types": ["grass", "none"],
         "fastMoves": ["BULLET_SEED", "FURY_CUTTER"],
         "chargedMoves": ["AERIAL_ACE", "EARTHQUAKE", "LEAF_BLADE", "FRENZY_PLANT", "DRAGON_CLAW"],
+        "legacyMoves": ["FRENZY_PLANT"],
         "tags": ["starter"],
         "defaultIVs": {
             "cp1500": [20.5, 6, 10, 7],
             "cp2500": [36, 9, 13, 12]
-        },
-        "eliteMoves": ["FRENZY_PLANT"]
+        }
     }, {
         "dex": 255,
         "speciesName": "火稚雞",
@@ -6741,12 +6750,12 @@
         "types": ["fire", "fighting"],
         "fastMoves": ["COUNTER", "FIRE_SPIN"],
         "chargedMoves": ["BRAVE_BIRD", "FOCUS_BLAST", "OVERHEAT", "STONE_EDGE", "BLAST_BURN", "BLAZE_KICK"],
+        "legacyMoves": ["STONE_EDGE", "BLAST_BURN"],
         "tags": ["starter"],
         "defaultIVs": {
             "cp1500": [19, 9, 13, 14],
             "cp2500": [34.5, 5, 12, 14]
-        },
-        "eliteMoves": ["BLAST_BURN", "STONE_EDGE"]
+        }
     }, {
         "dex": 258,
         "speciesName": "水躍魚",
@@ -6829,13 +6838,13 @@
         "types": ["water", "ground"],
         "fastMoves": ["MUD_SHOT", "WATER_GUN"],
         "chargedMoves": ["EARTHQUAKE", "SLUDGE_WAVE", "SURF", "HYDRO_CANNON", "MUDDY_WATER"],
+        "legacyMoves": ["HYDRO_CANNON"],
         "tags": ["starter", "shadoweligible"],
         "defaultIVs": {
             "cp1500": [19, 5, 7, 11],
             "cp2500": [32, 6, 11, 14]
         },
-        "level25CP": 1841,
-        "eliteMoves": ["HYDRO_CANNON"]
+        "level25CP": 1841
     }, {
         "dex": 260,
         "speciesName": "巨沼怪 暗影化",
@@ -6847,13 +6856,12 @@
         },
         "types": ["water", "ground"],
         "fastMoves": ["MUD_SHOT", "WATER_GUN"],
-        "chargedMoves": ["EARTHQUAKE", "SLUDGE_WAVE", "SURF", "HYDRO_CANNON", "MUDDY_WATER"],
+        "chargedMoves": ["EARTHQUAKE", "SLUDGE_WAVE", "SURF", "MUDDY_WATER"],
         "tags": ["starter", "shadow"],
         "defaultIVs": {
             "cp1500": [19, 5, 7, 11],
             "cp2500": [32, 6, 11, 14]
-        },
-        "eliteMoves": ["HYDRO_CANNON"]
+        }
     }, {
         "dex": 261,
         "speciesName": "土狼犬",
@@ -7331,13 +7339,13 @@
         "types": ["psychic", "fairy"],
         "fastMoves": ["CHARGE_BEAM", "CONFUSION", "CHARM"],
         "chargedMoves": ["DAZZLING_GLEAM", "PSYCHIC", "SHADOW_BALL", "SYNCHRONOISE"],
+        "legacyMoves": ["SYNCHRONOISE"],
         "defaultIVs": {
             "cp1500": [18, 5, 9, 12],
             "cp2500": [29.5, 9, 11, 12]
         },
         "level25CP": 1919,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["SYNCHRONOISE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 282,
         "speciesName": "沙奈朵 暗影化",
@@ -7349,13 +7357,12 @@
         },
         "types": ["psychic", "fairy"],
         "fastMoves": ["CHARGE_BEAM", "CONFUSION", "CHARM"],
-        "chargedMoves": ["DAZZLING_GLEAM", "PSYCHIC", "SHADOW_BALL", "SYNCHRONOISE"],
+        "chargedMoves": ["DAZZLING_GLEAM", "PSYCHIC", "SHADOW_BALL"],
         "defaultIVs": {
             "cp1500": [18, 5, 9, 12],
             "cp2500": [29.5, 9, 11, 12]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["SYNCHRONOISE"]
+        "tags": ["shadow"]
     }, {
         "dex": 283,
         "speciesName": "溜溜糖球",
@@ -7416,11 +7423,11 @@
         "types": ["grass", "fighting"],
         "fastMoves": ["BULLET_SEED", "COUNTER"],
         "chargedMoves": ["DYNAMIC_PUNCH", "GRASS_KNOT", "SEED_BOMB", "SLUDGE_BOMB"],
+        "legacyMoves": ["GRASS_KNOT"],
         "defaultIVs": {
             "cp1500": [21, 6, 13, 11],
             "cp2500": [37.5, 13, 13, 14]
-        },
-        "eliteMoves": ["GRASS_KNOT"]
+        }
     }, {
         "dex": 287,
         "speciesName": "懶人獺",
@@ -7468,8 +7475,7 @@
         "defaultIVs": {
             "cp1500": [12, 11, 13, 15],
             "cp2500": [20.5, 9, 10, 12]
-        },
-        "eliteMoves": ["BODY_SLAM"]
+        }
     }, {
         "dex": 290,
         "speciesName": "土居忍士",
@@ -7512,13 +7518,12 @@
             "hp": 1
         },
         "types": ["bug", "ghost"],
-        "fastMoves": ["BUG_BITE", "SHADOW_CLAW", "STRUGGLE_BUG"],
+        "fastMoves": ["BUG_BITE", "SHADOW_CLAW"],
         "chargedMoves": ["AERIAL_ACE", "DIG", "SHADOW_SNEAK"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["STRUGGLE_BUG"]
+        }
     }, {
         "dex": 293,
         "speciesName": "咕妞妞",
@@ -8239,13 +8244,13 @@
         "types": ["ground", "dragon"],
         "fastMoves": ["DRAGON_TAIL", "MUD_SHOT"],
         "chargedMoves": ["DRAGON_CLAW", "EARTHQUAKE", "STONE_EDGE", "EARTH_POWER"],
+        "legacyMoves": ["EARTH_POWER"],
         "defaultIVs": {
             "cp1500": [20.5, 8, 12, 15],
             "cp2500": [36.5, 14, 14, 13]
         },
         "level25CP": 1634,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["EARTH_POWER"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 330,
         "speciesName": "沙漠蜻蜓 暗影化",
@@ -8257,13 +8262,12 @@
         },
         "types": ["ground", "dragon"],
         "fastMoves": ["DRAGON_TAIL", "MUD_SHOT"],
-        "chargedMoves": ["DRAGON_CLAW", "EARTHQUAKE", "STONE_EDGE", "EARTH_POWER"],
+        "chargedMoves": ["DRAGON_CLAW", "EARTHQUAKE", "STONE_EDGE"],
         "defaultIVs": {
             "cp1500": [20.5, 8, 12, 15],
             "cp2500": [36.5, 14, 14, 13]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["EARTH_POWER"]
+        "tags": ["shadow"]
     }, {
         "dex": 331,
         "speciesName": "刺球仙人掌",
@@ -8538,7 +8542,7 @@
         "types": ["rock", "grass"],
         "fastMoves": ["ACID", "INFESTATION", "BULLET_SEED"],
         "chargedMoves": ["ANCIENT_POWER", "GRASS_KNOT", "MIRROR_COAT"],
-        "legacyMoves": ["BULLET_SEED"],
+		"legacyMoves": ["BULLET_SEED"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
@@ -9170,13 +9174,13 @@
         "types": ["dragon", "flying"],
         "fastMoves": ["BITE", "DRAGON_TAIL", "FIRE_FANG"],
         "chargedMoves": ["DRACO_METEOR", "FIRE_BLAST", "HYDRO_PUMP", "OUTRAGE"],
+        "legacyMoves": ["OUTRAGE"],
         "defaultIVs": {
             "cp1500": [14.5, 9, 9, 15],
             "cp2500": [24.5, 5, 11, 12]
         },
         "level25CP": 2354,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["OUTRAGE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 373,
         "speciesName": "暴飛龍 暗影化",
@@ -9193,8 +9197,7 @@
             "cp1500": [14.5, 9, 9, 15],
             "cp2500": [24.5, 5, 11, 12]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["OUTRAGE"]
+        "tags": ["shadow"]
     }, {
         "dex": 374,
         "speciesName": "鐵啞鈴",
@@ -9277,13 +9280,13 @@
         "types": ["steel", "psychic"],
         "fastMoves": ["BULLET_PUNCH", "ZEN_HEADBUTT"],
         "chargedMoves": ["EARTHQUAKE", "FLASH_CANNON", "METEOR_MASH", "PSYCHIC"],
+        "legacyMoves": ["METEOR_MASH"],
         "defaultIVs": {
             "cp1500": [14, 13, 13, 15],
             "cp2500": [23.5, 11, 15, 13]
         },
         "level25CP": 2386,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["METEOR_MASH"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 376,
         "speciesName": "巨金怪 暗影化",
@@ -9295,13 +9298,12 @@
         },
         "types": ["steel", "psychic"],
         "fastMoves": ["BULLET_PUNCH", "ZEN_HEADBUTT"],
-        "chargedMoves": ["EARTHQUAKE", "FLASH_CANNON", "METEOR_MASH", "PSYCHIC"],
+        "chargedMoves": ["EARTHQUAKE", "FLASH_CANNON", "PSYCHIC"],
         "defaultIVs": {
             "cp1500": [14, 13, 13, 15],
             "cp2500": [23.5, 11, 15, 13]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["METEOR_MASH"]
+        "tags": ["shadow"]
     }, {
         "dex": 377,
         "speciesName": "雷吉洛克",
@@ -9605,13 +9607,13 @@
         "types": ["grass", "ground"],
         "fastMoves": ["BITE", "RAZOR_LEAF"],
         "chargedMoves": ["EARTHQUAKE", "SOLAR_BEAM", "SAND_TOMB", "STONE_EDGE", "FRENZY_PLANT"],
+        "legacyMoves": ["FRENZY_PLANT"],
         "tags": ["starter", "shadoweligible"],
         "defaultIVs": {
             "cp1500": [19, 6, 11, 9],
             "cp2500": [33, 6, 10, 14]
         },
-        "level25CP": 1816,
-        "eliteMoves": ["FRENZY_PLANT"]
+        "level25CP": 1816
     }, {
         "dex": 389,
         "speciesName": "土台龜 暗影化",
@@ -9623,13 +9625,12 @@
         },
         "types": ["grass", "ground"],
         "fastMoves": ["BITE", "RAZOR_LEAF"],
-        "chargedMoves": ["EARTHQUAKE", "SOLAR_BEAM", "SAND_TOMB", "STONE_EDGE", "FRENZY_PLANT"],
+        "chargedMoves": ["EARTHQUAKE", "SOLAR_BEAM", "SAND_TOMB", "STONE_EDGE"],
         "tags": ["starter", "shadow"],
         "defaultIVs": {
             "cp1500": [19, 6, 11, 9],
             "cp2500": [33, 6, 10, 14]
-        },
-        "eliteMoves": ["FRENZY_PLANT"]
+        }
     }, {
         "dex": 390,
         "speciesName": "小火焰猴",
@@ -9678,13 +9679,13 @@
         "types": ["fire", "fighting"],
         "fastMoves": ["FIRE_SPIN", "ROCK_SMASH"],
         "chargedMoves": ["CLOSE_COMBAT", "FLAMETHROWER", "SOLAR_BEAM", "BLAST_BURN"],
+        "legacyMoves": ["BLAST_BURN"],
         "tags": ["starter"],
         "defaultIVs": {
             "cp1500": [20, 9, 14, 15],
             "cp2500": [35.5, 14, 15, 14]
         },
-        "level25CP": 1646,
-        "eliteMoves": ["BLAST_BURN"]
+        "level25CP": 1646
     }, {
         "dex": 393,
         "speciesName": "波加曼",
@@ -9731,12 +9732,12 @@
         "types": ["water", "steel"],
         "fastMoves": ["METAL_CLAW", "WATERFALL"],
         "chargedMoves": ["BLIZZARD", "FLASH_CANNON", "HYDRO_PUMP", "HYDRO_CANNON"],
+        "legacyMoves": ["HYDRO_CANNON"],
         "tags": ["starter"],
         "defaultIVs": {
             "cp1500": [19, 6, 11, 14],
             "cp2500": [33.5, 7, 14, 9]
-        },
-        "eliteMoves": ["HYDRO_CANNON"]
+        }
     }, {
         "dex": 396,
         "speciesName": "姆克兒",
@@ -10412,7 +10413,7 @@
         "fastMoves": ["HEX", "SUCKER_PUNCH"],
         "chargedMoves": ["DARK_PULSE", "DAZZLING_GLEAM", "SHADOW_BALL"],
         "defaultIVs": {
-            "cp1500": [21.5, 6, 15, 5],
+            "cp1500": [21.5, 6, 11, 9],
             "cp2500": [37.5, 12, 15, 15]
         },
         "tags": ["shadow"]
@@ -11036,11 +11037,11 @@
         "types": ["normal", "none"],
         "fastMoves": ["LICK", "ZEN_HEADBUTT"],
         "chargedMoves": ["EARTHQUAKE", "HYPER_BEAM", "SOLAR_BEAM", "SHADOW_BALL", "BODY_SLAM"],
+        "legacyMoves": ["BODY_SLAM"],
         "defaultIVs": {
             "cp1500": [22, 9, 15, 14],
             "cp2500": [40, 15, 15, 15]
-        },
-        "eliteMoves": ["BODY_SLAM"]
+        }
     }, {
         "dex": 464,
         "speciesName": "超甲狂犀",
@@ -11053,13 +11054,13 @@
         "types": ["ground", "rock"],
         "fastMoves": ["MUD_SLAP", "SMACK_DOWN"],
         "chargedMoves": ["EARTHQUAKE", "STONE_EDGE", "SURF", "SKULL_BASH", "SUPER_POWER", "ROCK_WRECKER"],
+        "legacyMoves": ["ROCK_WRECKER"],
         "defaultIVs": {
             "cp1500": [14.5, 9, 12, 14],
             "cp2500": [24.5, 6, 10, 14]
         },
         "level25CP": 2347,
-        "tags": [],
-        "eliteMoves": ["ROCK_WRECKER"]
+        "tags": []
     }, {
         "dex": 465,
         "speciesName": "巨蔓藤",
@@ -11190,11 +11191,11 @@
         "types": ["grass", "none"],
         "fastMoves": ["QUICK_ATTACK", "RAZOR_LEAF"],
         "chargedMoves": ["ENERGY_BALL", "LEAF_BLADE", "SOLAR_BEAM", "LAST_RESORT"],
+        "legacyMoves": ["LAST_RESORT"],
         "defaultIVs": {
             "cp1500": [19, 5, 9, 12],
             "cp2500": [33, 6, 6, 15]
-        },
-        "eliteMoves": ["LAST_RESORT"]
+        }
     }, {
         "dex": 471,
         "speciesName": "冰伊布",
@@ -11207,11 +11208,11 @@
         "types": ["ice", "none"],
         "fastMoves": ["FROST_BREATH", "ICE_SHARD"],
         "chargedMoves": ["AVALANCHE", "ICE_BEAM", "ICY_WIND", "LAST_RESORT"],
+        "legacyMoves": ["LAST_RESORT"],
         "defaultIVs": {
             "cp1500": [18, 5, 9, 9],
             "cp2500": [29.5, 5, 12, 12]
-        },
-        "eliteMoves": ["LAST_RESORT"]
+        }
     }, {
         "dex": 472,
         "speciesName": "天蠍王",
@@ -11240,11 +11241,11 @@
         "types": ["ice", "ground"],
         "fastMoves": ["MUD_SLAP", "POWDER_SNOW"],
         "chargedMoves": ["AVALANCHE", "BULLDOZE", "STONE_EDGE", "ANCIENT_POWER"],
+        "legacyMoves": ["ANCIENT_POWER"],
         "defaultIVs": {
             "cp1500": [16, 11, 14, 15],
             "cp2500": [27.5, 8, 15, 5]
-        },
-        "eliteMoves": ["ANCIENT_POWER"]
+        }
     }, {
         "dex": 474,
         "speciesName": "多邊獸Ｚ",
@@ -11292,13 +11293,13 @@
         "types": ["psychic", "fighting"],
         "fastMoves": ["CONFUSION", "LOW_KICK", "CHARM"],
         "chargedMoves": ["CLOSE_COMBAT", "LEAF_BLADE", "PSYCHIC", "SYNCHRONOISE"],
+        "legacyMoves": ["SYNCHRONOISE"],
         "defaultIVs": {
             "cp1500": [18, 5, 9, 12],
             "cp2500": [29.5, 9, 11, 12]
         },
         "level25CP": 1919,
-        "tags": ["shadoweligible"],
-        "eliteMoves": ["SYNCHRONOISE"]
+        "tags": ["shadoweligible"]
     }, {
         "dex": 475,
         "speciesName": "艾路雷朵 暗影化",
@@ -11310,13 +11311,12 @@
         },
         "types": ["psychic", "fighting"],
         "fastMoves": ["CONFUSION", "LOW_KICK", "CHARM"],
-        "chargedMoves": ["CLOSE_COMBAT", "LEAF_BLADE", "PSYCHIC", "SYNCHRONOISE"],
+        "chargedMoves": ["CLOSE_COMBAT", "LEAF_BLADE", "PSYCHIC"],
         "defaultIVs": {
             "cp1500": [18, 5, 9, 12],
             "cp2500": [29.5, 9, 11, 12]
         },
-        "tags": ["shadow"],
-        "eliteMoves": ["SYNCHRONOISE"]
+        "tags": ["shadow"]
     }, {
         "dex": 476,
         "speciesName": "大朝北鼻",
@@ -14499,12 +14499,12 @@
         "types": ["steel", "fighting"],
         "fastMoves": ["METAL_CLAW", "ZEN_HEADBUTT"],
         "chargedMoves": ["CLOSE_COMBAT", "IRON_HEAD", "STONE_EDGE", "SACRED_SWORD"],
+        "legacyMoves": ["SACRED_SWORD"],
         "defaultIVs": {
             "cp1500": [18.5, 6, 5, 15],
             "cp2500": [30, 8, 14, 14]
         },
-        "tags": ["legendary"],
-        "eliteMoves": ["SACRED_SWORD"]
+        "tags": ["legendary"]
     }, {
         "dex": 639,
         "speciesId": "terrakion",

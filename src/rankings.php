@@ -282,6 +282,10 @@ require_once 'header.php';
         <div class="ranking-header">一般招式</div>
         <div class="ranking-header right">使用率</div>
         <div class="moveset fast clear"></div>
+        <div class="footnote">
+            *：活動、社群日或絕版招式<br>
+            <sup>†</sup>：無法透過任何招式機習得
+        </div>
     </div>
     <div class="detail-section float">
         <div class="ranking-header">特殊招式</div>

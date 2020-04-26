@@ -16,7 +16,7 @@
 				<option value="great" type="great" class="multi-battle">超級(1500)聯盟 Meta</option>
 				<option value="ultra" type="ultra" class="hide multi-battle">高級(2500)聯盟 Meta</option>
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
-                <option value="forest" type="forest" class="multi-battle">Forest Cup Meta</option>
+                <option value="forest" type="forest" class="multi-battle">森林盃 Meta</option>
                 <option value="voyager" type="voyager" class="multi-battle">啟成盃/S2區域賽 Meta</option>
                 <option value="toxic" type="toxic" class="multi-battle">猛毒盃 Meta</option>
 			</select>

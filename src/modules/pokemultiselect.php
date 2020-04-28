@@ -41,7 +41,7 @@
             </select>
             <select class="default-iv-select">
                 <option value="original">使用標準IV</option>
-                <option value="gamemaster">使用精良IV(排名500內)</option>
+                <option value="gamemaster">使用預設IV</option>
                 <option value="overall">使用最佳IV(排名第1)</option>
                 <option value="atk">使用攻擊最大化IV</option>
                 <option value="def">使用防禦最大化IV</option>

@@ -53,7 +53,7 @@
 		</div>
 		<div class="col-9">
 			<h4><a href="<?php echo $WEB_ROOT; ?>articles/best-elite-tm-candidates-pvp/">Best Elite TM Candidates for PvP</a></h4>
-            <div class="date">April 24, 2020</div>
+            <div class="date">April 28, 2020</div>
             <p>Elite TM's are now available! Which exclusive moves and Pokemon are the best for your PvP team?</p>
 		</div>
 
@@ -90,8 +90,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sun Apr 26 21:30:17 2020 +0800</li>
-                <li>原版最後版本時間：Fri Apr 24 19:36:29 2020 -0500</li>
+                <li>中文版最後更新時間：Sun Apr 29 09:30:17 2020 +0800</li>
+                <li>原版最後版本時間：Tue Apr 28 15:44:45 2020 -0500</li>
 
             </ul>
 </div>

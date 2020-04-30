@@ -3,6 +3,7 @@
     <option value="official" cup="premier">Premier Cup</option>
     <option value="tsa-2" cup="forest">Silph 森林盃-202005</option>
     <option value="tsa-2" cup="voyager">Silph 啟成盃/S2區域賽-202004</option>
+    <option value="tsa-2" cup="toxic">Silph 猛毒盃-202003</option>
 
 	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
 		<option value="custom" cup="custom">自訂排名</option>

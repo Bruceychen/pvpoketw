@@ -414,6 +414,11 @@ var RankerMaster = (function () {
 				if(cup.name == "rose"){
 					iterations = 1;
 				}
+				
+
+				if((cup.name == "all")&&(battle.getCP() == 10000)){
+					iterations = 1;
+				}
 
 				if((cup.name == "all")&&(battle.getCP() == 2500)){
 					iterations = 1;
@@ -428,6 +433,10 @@ var RankerMaster = (function () {
 				}
 
 				if((cup.name == "forest")&&(battle.getCP() == 1500)){
+					iterations = 1;
+				}
+
+				if((cup.name == "premier")&&(battle.getCP() == 10000)){
 					iterations = 1;
 				}
 

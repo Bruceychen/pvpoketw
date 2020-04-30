@@ -27,13 +27,13 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-    <h4>v1.14.12 (April 24, 2020)</h4>
-    <ul>
-        <li>Movepools and rankings have been updated with newly available Elite TM moves.</li>
-        <li>Added new indicators for legacy moves that are available via Elite TM and moves that aren't.</li>
-    </ul>
+	<h4>v1.14.13 (April 24, 2020)</h4>
+	<ul>
+		<li>Added rankings for Premier League</li>
+		<li>Updated rankings with new move updates</li>
+	</ul>
 
-    <h4>v1.14.11 (April 22, 2020)</h4>
+	<h4>v1.14.11 (April 22, 2020)</h4>
 	<ul>
 		<li>Pokemon default IV's have been tweaked:</li>
 		<ul>
@@ -53,8 +53,8 @@
 		</div>
 		<div class="col-9">
 			<h4><a href="<?php echo $WEB_ROOT; ?>articles/best-elite-tm-candidates-pvp/">Best Elite TM Candidates for PvP</a></h4>
-            <div class="date">April 28, 2020</div>
-            <p>Elite TM's are now available! Which exclusive moves and Pokemon are the best for your PvP team?</p>
+			<div class="date">April 28, 2020</div>
+			<p>Elite TM's are now available! Which exclusive moves and Pokemon are the best for your PvP team?</p>
 		</div>
 
 	</div>
@@ -90,8 +90,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Wed Apr 29 09:30:17 2020 +0800</li>
-                <li>原版最後版本時間：Tue Apr 28 15:44:45 2020 -0500</li>
+                <li>中文版最後更新時間：Thu Apr 30 09:30:17 2020 +0800</li>
+                <li>原版最後版本時間：Wed Apr 29 17:10:35 2020 -0500</li>
 
             </ul>
 </div>

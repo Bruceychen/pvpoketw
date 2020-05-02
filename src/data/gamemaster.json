@@ -15351,6 +15351,14 @@
         "energyGain": 0,
         "cooldown": 500
     }, {
+        "moveId": "DRILL_RUN_UPDATED",
+        "name": "直衝鑽 (更新版)",
+        "type": "ground",
+        "power": 80,
+        "energy": 45,
+        "energyGain": 0,
+        "cooldown": 500
+    }, {
         "moveId": "DYNAMIC_PUNCH",
         "name": "爆裂拳",
         "type": "fighting",
@@ -16024,6 +16032,17 @@
         "energy": 70,
         "energyGain": 0,
         "cooldown": 500
+    },  {
+        "moveId": "MOONBLAST_UPDATED",
+        "name": "月亮之力 (更新版)",
+        "type": "fairy",
+		"power": 110,
+        "energy": 60,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [-1, 0],
+        "buffTarget": "opponent",
+        "buffApplyChance": ".3"
     }, {
         "moveId": "MUD_BOMB",
         "name": "泥巴炸彈",
@@ -16820,6 +16839,17 @@
         "energy": 50,
         "energyGain": 0,
         "cooldown": 500
+    }, {
+        "moveId": "WILD_CHARGE_UPDATED",
+        "name": "瘋狂伏特 (更新版)",
+        "type": "electric",
+		"power": 100,
+        "energy": 45,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [0, -2],
+        "buffTarget": "self",
+        "buffApplyChance": "1"
     }, {
         "moveId": "WING_ATTACK",
         "name": "翅膀攻擊",

@@ -27,7 +27,14 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.14.15 (May 1, 2020)</h4>
+    <h4>v1.14.16 (May 2, 2020)</h4>
+    <ul>
+        <li>Move balance changes have been rolled back until the delayed Season 2 start</li>
+        <li>Note that the Premier Cup rankings use the current (old) move stats and will change once they're reimplemented.</li>
+        <li>Updated versions of Moonblast, Wild Charge, and Drill Run are available to add as custom moves.</li>
+    </ul>
+
+    <h4>v1.14.15 (May 1, 2020)</h4>
 	<ul>
 	    <li>Move balance changes have been rolled back until the delayed Season 2 start</li>
 	    <li>Note that the Premier Cup rankings use the current (old) move stats and will change once they're reimplemented.</li>
@@ -88,8 +95,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sat May 2 14:35:17 2020 +0800</li>
-                <li>原版最後版本時間：Fri May 1 16:53:08 2020 -0500</li>
+                <li>中文版最後更新時間：Sun May 3 02:20:17 2020 +0800</li>
+                <li>原版最後版本時間：Sat May 2 09:39:55 2020 -0500</li>
 
             </ul>
 </div>

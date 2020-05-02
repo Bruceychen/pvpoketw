@@ -126,7 +126,7 @@ function PokeSelect(element, i){
 					}
 
 					if(context != "modalcustomrankings"){
-						$(this).append("<option value=\"custom\">Other ...</option");
+						$(this).append("<option value=\"custom\">自訂招式 ...</option>");
 					}
 
 				});

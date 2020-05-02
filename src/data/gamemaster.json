@@ -347,7 +347,7 @@
         "dexEnd": 649
     }],
     "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "bellossom", "politoed", "scizor", "houndour", "houndoom", "larvitar", "pupitar", "tyranitar", "mudkip", "marshtomp", "swampert", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "trapinch", "vibrava", "flygon", "cacnea", "cacturne", "shuppet", "banette", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "shellder", "cloyster", "sableye", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "snover", "abomasnow", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "pinsir", "mawile", "beldum", "metang", "metagross", "entei"],
-    "pokemon": [{
+  "pokemon": [{
         "dex": 1,
         "speciesName": "妙蛙種子",
         "speciesId": "bulbasaur",
@@ -476,6 +476,7 @@
         "dex": 4,
         "speciesName": "小火龍 暗影化",
         "speciesId": "charmander_shadow",
+
         "baseStats": {
             "atk": 116,
             "def": 93,
@@ -4604,7 +4605,7 @@
         "types": ["psychic", "none"],
         "fastMoves": ["CONFUSION", "IRON_TAIL"],
         "chargedMoves": ["DYNAMIC_PUNCH", "ROCK_SLIDE", "EARTHQUAKE", "FUTURE_SIGHT", "PSYSTRIKE"],
-        "legacyMoves": ["PSYSTRIKE"],
+        "eliteMoves": ["PSYSTRIKE"],
         "tags": ["legendary"],
         "defaultIVs": {
             "cp1500": [17.5, 6, 6, 15],
@@ -5191,6 +5192,7 @@
         "speciesId": "ampharos_shadow",
         "baseStats": {
             "atk": 211,
+
             "def": 169,
             "hp": 207
         },
@@ -7562,6 +7564,7 @@
         }
     }, {
         "dex": 295,
+
         "speciesName": "爆音怪",
         "speciesId": "exploud",
         "baseStats": {
@@ -8099,6 +8102,7 @@
         "defaultIVs": {
             "cp1500": [25.5, 6, 9, 14],
             "cp2500": [40, 15, 15, 15]
+
         }
     }, {
         "dex": 324,
@@ -10315,6 +10319,7 @@
         "speciesId": "ambipom",
         "baseStats": {
             "atk": 205,
+
             "def": 143,
             "hp": 181
         },
@@ -11567,7 +11572,7 @@
         },
         "types": ["water", "dragon"],
         "fastMoves": ["DRAGON_BREATH", "DRAGON_TAIL"],
-        "chargedMoves": ["DRACO_METEOR", "FIRE_BLAST", "HYDRO_PUMP", "AQUA_TAIL"],
+        "chargedMoves": ["DRACO_METEOR", "FIRE_BLAST", "HYDRO_PUMP"],
         "tags": ["legendary"],
         "defaultIVs": {
             "cp1500": [13.5, 11, 15, 10],
@@ -12922,6 +12927,7 @@
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
         }
+
     }, {
         "dex": 549,
         "speciesId": "lilligant",
@@ -15341,7 +15347,7 @@
         "name": "直衝鑽",
         "type": "ground",
         "power": 80,
-        "energy": 45,
+        "energy": 55,
         "energyGain": 0,
         "cooldown": 500
     }, {
@@ -16014,13 +16020,10 @@
         "moveId": "MOONBLAST",
         "name": "月亮之力",
         "type": "fairy",
-		"power": 110,
-        "energy": 60,
+        "power": 130,
+        "energy": 70,
         "energyGain": 0,
-        "cooldown": 500,
-        "buffs": [-1, 0],
-        "buffTarget": "opponent",
-        "buffApplyChance": ".3"
+        "cooldown": 500
     }, {
         "moveId": "MUD_BOMB",
         "name": "泥巴炸彈",
@@ -16813,13 +16816,10 @@
         "moveId": "WILD_CHARGE",
         "name": "瘋狂伏特",
         "type": "electric",
-		"power": 100,
-        "energy": 45,
+        "power": 90,
+        "energy": 50,
         "energyGain": 0,
-        "cooldown": 500,
-        "buffs": [0, -2],
-        "buffTarget": "self",
-        "buffApplyChance": "1"
+        "cooldown": 500
     }, {
         "moveId": "WING_ATTACK",
         "name": "翅膀攻擊",

@@ -108,9 +108,9 @@ function Pokemon(id, i, b){
 			move.displayName = move.name;
 
 			if(move.legacy){
-				move.displayName = move.name + " <sup>†</sup>";
+				move.displayName = move.name + "<sup>†</sup>";
 			} else if(move.elite){
-				move.displayName = move.name + " *";
+				move.displayName = move.name + "*";
 			}
 
 			this.fastMovePool.push(move);
@@ -131,9 +131,9 @@ function Pokemon(id, i, b){
 			move.displayName = move.name;
 
 			if(move.legacy){
-				move.displayName = move.name + " <sup>†</sup>";
+				move.displayName = move.name + "<sup>†</sup>";
 			} else if(move.elite){
-				move.displayName = move.name + " *";
+				move.displayName = move.name + "*";
 			}
 
 			this.chargedMovePool.push(move);

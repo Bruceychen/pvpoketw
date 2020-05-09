@@ -1,7 +1,14 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
-    <option value="official" cup="premier">Premier Cup</option>
-    <option value="tsa-2" cup="forest">Silph 森林盃-202005</option>
+	<option value="official" cup="premier">Premier Cup</option>
+	<option value="tsa-2" cup="forest">Silph 森林盃</option>
+	<option value="tsa-2" cup="voyager">Silph 啟成盃/S2區域賽</option>
+	<option value="tsa-2" cup="toxic">Silph 猛毒盃</option>
+	<option value="tsa-2" cup="rose">Silph 玫瑰盃</option>
+	<option value="tsa-2" cup="fusion">Silph 融合盃</option>
+	<option value="tsa-2" cup="timeless">Silph 永伴盃</option>
+	<option value="tsa-2" cup="ferocious">Silph 猛獸盃</option>
+	<option value="tsa-2" cup="sinister">Silph 魅靈盃</option>
 
 	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
 		<option value="custom" cup="custom">自訂排名</option>
@@ -28,8 +35,8 @@
 	<option value="tempest" cat="tsa-1">風暴盃</option>
 	<option value="twilight" cat="tsa-1">暮光盃</option>
 	<option value="boulder" cat="tsa-1">巨石盃</option>
-    <option value="forest" cat="tsa-2">森林盃</option>
-    <option value="voyager" cat="tsa-2">啟成盃/S2區域賽</option>
+    <option value="forest" cat="tsa-2">森林盃-202005</option>
+    <option value="voyager" cat="tsa-2">啟成盃/S2區域賽-202004</option>
     <option value="toxic" cat="tsa-2">猛毒盃</option>
     <option value="rose" cat="tsa-2">玫瑰盃</option>
     <option value="fusion" cat="tsa-2">融合盃</option>

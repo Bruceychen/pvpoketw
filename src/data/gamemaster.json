@@ -11573,7 +11573,7 @@
         },
         "types": ["water", "dragon"],
         "fastMoves": ["DRAGON_BREATH", "DRAGON_TAIL"],
-        "chargedMoves": ["DRACO_METEOR", "FIRE_BLAST", "HYDRO_PUMP"],
+        "chargedMoves": ["DRACO_METEOR", "FIRE_BLAST", "HYDRO_PUMP", "AQUA_TAIL"],
         "tags": ["legendary"],
         "defaultIVs": {
             "cp1500": [13.5, 11, 15, 10],
@@ -15348,14 +15348,6 @@
         "name": "直衝鑽",
         "type": "ground",
         "power": 80,
-        "energy": 55,
-        "energyGain": 0,
-        "cooldown": 500
-    }, {
-        "moveId": "DRILL_RUN_UPDATED",
-        "name": "直衝鑽 (更新版)",
-        "type": "ground",
-        "power": 80,
         "energy": 45,
         "energyGain": 0,
         "cooldown": 500
@@ -16028,14 +16020,6 @@
     }, {
         "moveId": "MOONBLAST",
         "name": "月亮之力",
-        "type": "fairy",
-        "power": 130,
-        "energy": 70,
-        "energyGain": 0,
-        "cooldown": 500
-    },  {
-        "moveId": "MOONBLAST_UPDATED",
-        "name": "月亮之力 (更新版)",
         "type": "fairy",
 		"power": 110,
         "energy": 60,
@@ -16835,14 +16819,6 @@
     }, {
         "moveId": "WILD_CHARGE",
         "name": "瘋狂伏特",
-        "type": "electric",
-        "power": 90,
-        "energy": 50,
-        "energyGain": 0,
-        "cooldown": 500
-    }, {
-        "moveId": "WILD_CHARGE_UPDATED",
-        "name": "瘋狂伏特 (更新版)",
         "type": "electric",
 		"power": 100,
         "energy": 45,

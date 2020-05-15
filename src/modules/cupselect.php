@@ -15,15 +15,15 @@
 	<?php endif; ?>
 
     <!--限時開放，Silph第一賽季-->
-    <option value="tsa-1" cup="jungle"  >Silph-1 叢林盃</option>
-    <option value="tsa-1" cup="rainbow" >Silph-1 彩虹盃</option>
-    <option value="tsa-1" cup="championships-1" >Silph-1 第一季冠軍賽</option>
-    <option value="tsa-1" cup="regionals-1" >Silph-1 第一季區域邀請賽</option>
-    <option value="tsa-1" cup="nightmare" >Silph-1 惡夢盃</option>
-    <option value="tsa-1" cup="kingdom" >Silph-1 王權盃</option>
-    <option value="tsa-1" cup="tempest" >Silph-1 風暴盃</option>
-    <option value="tsa-1" cup="twilight" >Silph-1 暮光盃</option>
-    <option value="tsa-1" cup="boulder" >Silph-1 巨石盃</option>
+<!--    <option value="tsa-1" cup="jungle"  >Silph-1 叢林盃</option>-->
+<!--    <option value="tsa-1" cup="rainbow" >Silph-1 彩虹盃</option>-->
+<!--    <option value="tsa-1" cup="championships-1" >Silph-1 第一季冠軍賽</option>-->
+<!--    <option value="tsa-1" cup="regionals-1" >Silph-1 第一季區域邀請賽</option>-->
+<!--    <option value="tsa-1" cup="nightmare" >Silph-1 惡夢盃</option>-->
+<!--    <option value="tsa-1" cup="kingdom" >Silph-1 王權盃</option>-->
+<!--    <option value="tsa-1" cup="tempest" >Silph-1 風暴盃</option>-->
+<!--    <option value="tsa-1" cup="twilight" >Silph-1 暮光盃</option>-->
+<!--    <option value="tsa-1" cup="boulder" >Silph-1 巨石盃</option>-->
 
 
 </select>

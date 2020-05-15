@@ -1,18 +1,30 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">Premier Cup</option>
-	<option value="tsa-2" cup="forest">Silph 森林盃</option>
-	<option value="tsa-2" cup="voyager">Silph 啟成盃/S2區域賽</option>
-	<option value="tsa-2" cup="toxic">Silph 猛毒盃</option>
-	<option value="tsa-2" cup="rose">Silph 玫瑰盃</option>
-	<option value="tsa-2" cup="fusion">Silph 融合盃</option>
-	<option value="tsa-2" cup="timeless">Silph 永伴盃</option>
-	<option value="tsa-2" cup="ferocious">Silph 猛獸盃</option>
-	<option value="tsa-2" cup="sinister">Silph 魅靈盃</option>
+	<option value="tsa-2" cup="forest">Silph-2 森林盃</option>
+	<option value="tsa-2" cup="voyager">Silph-2 啟成盃/S2區域賽</option>
+	<option value="tsa-2" cup="toxic">Silph-2 猛毒盃</option>
+	<option value="tsa-2" cup="rose">Silph-2 玫瑰盃</option>
+	<option value="tsa-2" cup="fusion">Silph-2 融合盃</option>
+	<option value="tsa-2" cup="timeless">Silph-2 永伴盃</option>
+	<option value="tsa-2" cup="ferocious">Silph-2 猛獸盃</option>
+	<option value="tsa-2" cup="sinister">Silph-2 魅靈盃</option>
 
 	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
 		<option value="custom" cup="custom">自訂排名</option>
 	<?php endif; ?>
+
+    <!--限時開放，Silph第一賽季-->
+    <option value="tsa-1" cup="jungle"  >Silph-1 叢林盃</option>
+    <option value="tsa-1" cup="rainbow" >Silph-1 彩虹盃</option>
+    <option value="tsa-1" cup="championships-1" >Silph-1 第一季冠軍賽</option>
+    <option value="tsa-1" cup="regionals-1" >Silph-1 第一季區域邀請賽</option>
+    <option value="tsa-1" cup="nightmare" >Silph-1 惡夢盃</option>
+    <option value="tsa-1" cup="kingdom" >Silph-1 王權盃</option>
+    <option value="tsa-1" cup="tempest" >Silph-1 風暴盃</option>
+    <option value="tsa-1" cup="twilight" >Silph-1 暮光盃</option>
+    <option value="tsa-1" cup="boulder" >Silph-1 巨石盃</option>
+
 
 </select>
 

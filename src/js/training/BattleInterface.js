@@ -169,6 +169,7 @@ var BattlerMaster = (function () {
 
 						case "suspend_charged_shield":
 							$(".shield-window").removeClass("closed");
+							$(".switch-window").removeClass("active");
 							phaseTimer = chargeTime;
 							phaseInterval = setInterval(phaseStep, 1000 / 60);
 							interfaceLockout = 750;
@@ -180,6 +181,7 @@ var BattlerMaster = (function () {
 						case "suspend_charged_no_shields":
 							// 介面翻譯
 							$(".battle-window .animate-message .text").html("沒有防禦網了！");
+							$(".switch-window").removeClass("active");
 							break;
 
 

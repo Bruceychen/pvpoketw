@@ -27,6 +27,16 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
+    <h4>v1.14.20 (May 17, 2020)</h4>
+    <ul>
+        <li>Updates to Training Battles:</li>
+        <ul>
+            <li>Tweaked AI switching behavior to favor soft counters over hard counters when it can be counter-switched.</li>
+            <li>The switch window now closes during Charged Moves to prevent overlap with the shield screen.</li>
+            <li>Fixed an issue where Pokemon would be locked into their Fast Move cooldown after fainting an opponent with a Fast Move.</li>
+        </ul>
+    </ul>
+
     <h4>v1.14.19 (May 11, 2020)</h4>
     <ul>
         <li>Simulations, rankings, meta groups, and Training Battles have been updated with the latest move balance updates for Wild Charge, Moonblast, and Drill Run.</li>
@@ -80,7 +90,7 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Fri May 15 09:14:17 2020 +0800</li>
+                <li>中文版最後更新時間：Tue May 19 09:14:17 2020 +0800</li>
                 <li>原版最後版本時間：Wed May 13 17:43:53 2020 -0500</li>
 
             </ul>

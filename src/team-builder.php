@@ -12,14 +12,55 @@ require_once 'header.php';
 
 <h1>隊伍組建模擬</h1>
 
-<div class="section league-select-container white">
+<div class="section league-select-container team-content white">
 	<p>可選定最多六隻寶可夢及個別指定招式，系統將會以此隊伍和指定主題賽制中的各主流優勢寶可夢逐一進行模擬對戰，以找出此團隊可能的威脅、較佳的替換寶可夢，進而找出隊伍的核心成員以及其他主流寶可夢的弱點。</p>
 	<p>也可以由 <a href="<?php echo $WEB_ROOT; ?>settings/">設定頁面</a>修改分析結果的呈現方式。</p>
 	<?php require 'modules/leagueselect.php'; ?>
 	<?php require 'modules/cupselect.php'; ?>
+
+	<a class="toggle" href="#">Advanced <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+	<div class="toggle-content team-advanced">
+		<div class="flex">
+			<div class="flex-section">
+				<h3 class="section-title">Custom Threats</h3>
+				<p>Enter a custom group of Pokemon to evaluate threats. These Pokemon will also make up the meta scorecard.</p>
+				<div class="team-build custom-threats">
+					<?php require 'modules/pokemultiselect.php'; ?>
+				</div>
+			</div>
+			<div class="flex-section">
+			    <h3 class="section-title">Custom Alternatives</h3>
+			    <p>Enter a custom group of Pokemon to evaluate alternatives. These will appear as suggestions for your team.</p>
+			    <div class="team-build custom-alternatives">
+			        <?php require 'modules/pokemultiselect.php'; ?>
+			    </div>
+			</div>
+		</div>
+		<h3 class="section-title">Options</h3>
+		<div class="flex poke">
+		    <div class="team-option">
+		        <h3>Scorecard Length</h3>
+		        <select class="scorecard-length-select">
+		            <option value="10">10</option>
+		            <option value="20" selected>20</option>
+		            <option value="30">30</option>
+		            <option value="40">40</option>
+		        </select>
+		    </div>
+		    <div class="team-option">
+		        <h3>Shadow Pokemon</h3>
+		        <div class="check allow-shadows"><span></span>Show Shadow Pokemon in results</div>
+		    </div>
+		    <div class="team-option">
+		        <h3>Shield Baiting</h3>
+		        <div class="check shield-baiting on"><span></span>Bait shields with low-energy moves</div>
+		    </div>
+		</div>
+		<p>Note that links will not currently preserve these advanced settings.</p>
+	</div>
 </div>
 
-<div class="section team-build poke-select-container">
+<div class="section team-build team poke-select-container">
 	<?php require 'modules/pokemultiselect.php'; ?>
 </div>
 
@@ -27,9 +68,65 @@ require_once 'header.php';
 <div class="section white error">請選擇至少一隻寶可夢進行分析。</div>
 
 <div class="section typings white">
+    <a href="#" class="toggle active">Overview <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+    <div class="toggle-content article">
+        <p>Below is a high-level evaluation of your team. Use this as a general guideline for any adjustments you may want to make. Some unique strategies can score lower marks.</p>
+        <div class="overview-section coverage">
+            <div class="flex">
+                <h3>Coverage</h3>
+                <div class="grade"></div>
+            </div>
+            <div class="notes">
+                <div grade="A">This team has excellent coverage against top meta threats. It has few or no major vulnerabilities.</div>
+                <div grade="B">This team covers most top meta threats. There may be a few vulnerabilities to look out for.</div>
+                <div grade="C">This team has coverage gaps and may be vulnerable to certain threats. Consider alternative picks or movesets to shore up your weaknesses.</div>
+                <div grade="D">This team is highly vulnerable to certain threats. Consider alternative picks to avoid doubling up on weaknesses or look for Pokemon that perform well against the top meta.</div>
+                <div grade="F">This team has extremely poor coverage against multiple threats. Consider strong meta alternatives to anchor this team.</div>
+            </div>
+        </div>
+        <div class="overview-section bulk">
+            <div class="flex">
+                <h3>Bulk</h3>
+                <div class="grade"></div>
+            </div>
+            <div class="notes">
+                <div grade="A">This team has excellent average bulk. It will help manage shields and overcome difficult scenarios.</div>
+                <div grade="B">This team has good average bulk. Make sure to save shields for your more fragile teammates.</div>
+                <div grade="C">This team has moderate average bulk. You may be pressured to shield more often. Consider a bulky alternative to absorb damage.</div>
+                <div grade="D">This team has low average bulk. You will be pressured to shield often. Consider bulkier alternatives to ease shield pressure.</div>
+                <div grade="F">This team is extremely fragile and will have a hard time climbing out of bad situations. Use bulkier Pokemon to make this team more forgiving.</div>
+            </div>
+        </div>
+        <div class="overview-section safety">
+            <div class="flex">
+                <h3>Safety</h3>
+                <div class="grade"></div>
+            </div>
+            <div class="notes">
+                <div grade="A">This team has extremely safe matchups. It's flexible and can easily pivot to regain advantage.</div>
+                <div grade="B">This team has mostly safe matchups. It can work back from lost leads and has options to escape disadvantageous scenarios.</div>
+                <div grade="C">This team has only somewhat safe matchups. It may have limited safe switch options or struggle without switch advantage. Consider alternatives with good bulk or coverage to provide more flexibility. Otherwise, be prepared to spend shields to line up your Pokemon in the right matchups.</div>
+                <div grade="D">This team has generally unsafe matchups. It may rely on winning the lead and maintaining switch advantage. Consider safer alternatives with broader coverage.</div>
+                <div grade="F">This team has very unsafe matchups. It relies heavily on winning the lead and lining up perfect counters. Consider more flexible alternatives to make your matchups safer.</div>
+            </div>
+        </div>
+        <div class="overview-section consistency">
+            <div class="flex">
+                <h3>Consistency</h3>
+                <div class="grade"></div>
+            </div>
+            <div class="notes">
+                <div grade="A">This team has extremely consistent movesets. It will have dependable damage output.</div>
+                <div grade="B">This team has mostly consistent movesets. It won't depend on baits often.</div>
+                <div grade="C">This team has movesets with mixed consistency. You might depend on baits every now and then.</div>
+                <div grade="D">This team has movesets with low consistency. You'll depend on baits or stat boosts often. Consider alternatives with more consistent Fast or Charged Move damage.</div>
+                <div grade="F">This team has many movesets with poor consistency. You'll be highly dependent on landing baits or triggering stat boosts. Consider alternatives that have more dependable movesets.</div>
+            </div>
+        </div>
+    </div>
 	<a href="#" class="toggle active">Meta Scorecard <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content article">
-		<p>以下呈現當前主流(meta)前二十名寶可夢與你隊伍的對戰結果。可將此分析結果印出或是截圖並搭配練習使用。此外貼心提醒：不可於比賽期間進行分析，請提前完成準備！</p>
+		<p>以下呈現當前主流(meta)寶可夢與你隊伍的對戰結果。可將此分析結果印出或是截圖並搭配練習使用。此外貼心提醒：不可於比賽期間進行分析，請提前完成準備！</p>
         <p>以下圖表預設閱讀方式：左邊縱軸為主，中間欄位圖示為"勝利"時則代表 左邊縱軸寶可夢 勝 上方橫軸寶可夢。</p>
 		<div class="table-container">
 			<table class="meta-table rating-table" cellspacing="0">
@@ -79,7 +176,7 @@ require_once 'header.php';
 
 	<a href="#" class="toggle active">替補寶可夢 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content article">
-		<p>以下寶可夢均適合用來替換當前隊伍成員，以增加面對上表威脅時的優勢。分析結果乃考量使用 0 至 1 個防護網的情境，以及各寶可夢的戰鬥能力與傷害輸出。</p>
+		<p>以下寶可夢均適合用來替換當前隊伍成員，以增加面對上表威脅時的優勢。分析結果乃考量使用 0 至 1 個防護網的情境，以及各寶可夢的戰鬥能力與傷害輸出。See the team's Coverage grade for more on its potential threats.</p>
 		<div class="table-container">
 			<table class="alternatives-table rating-table" cellspacing="0">
 			</table>

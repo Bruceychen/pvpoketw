@@ -16,8 +16,9 @@
 				<option value="great" type="great" class="multi-battle">超級(1500)聯盟 Meta</option>
 				<option value="ultra" type="ultra" class="hide multi-battle">高級(2500)聯盟 Meta</option>
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
-                <option value="premier" type="master" class="hide multi-battle">Premier Cup Meta</option>
-                <option value="forest" type="forest" class="multi-battle">Silph 森林盃 Meta</option>
+				<option value="premier" type="master" class="hide multi-battle">Premier Cup Meta</option>
+				<option value="sorcerous" type="great" class="multi-battle">Silph Sorcerous Cup Meta</option>
+				<option value="forest" type="forest" class="multi-battle">Silph 森林盃 Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

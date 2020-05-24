@@ -1103,11 +1103,11 @@ var InterfaceMaster = (function () {
 
 				if(direction == "defense"){
 					//以下兩行中文翻譯
-					sumArr.push("此隊伍對 " + typesResisted + "種屬性(全部" + allTypes.length + "種)具有抗性能減少受到之傷害");
-					sumArr.push("此隊伍具有" + typesWeak + "種(全部" + allTypes.length + "種)弱點屬性會遭受到較大傷害");
+					sumArr.push("此隊伍對 " + typesResisted + " 種屬性(全 " + allTypes.length + " 種)具有抗性優勢。");
+					sumArr.push("此隊伍有 " + typesWeak + " 種(全 " + allTypes.length + " 種)弱點屬性。");
 				} else if(direction == "offense"){
 					//下行中文翻譯
-					sumArr.push("此隊伍之招式共可對 " + typesWeak + "種屬性(全部" + allTypes.length + "種)造成 效果絕佳 之傷害");
+					sumArr.push("此隊伍之招式可對 " + typesWeak + " 種屬性(全 " + allTypes.length + " 種)造成 效果絕佳 之傷害");
 				}
 
 				var str;
@@ -1117,10 +1117,10 @@ var InterfaceMaster = (function () {
 				if(overallStrengths.length > 0){
 					if(direction=="defense"){
 						//下行中文翻譯
-						str = this.generateTypeSummaryList(overallStrengths, "對以下屬性具有抗性，受到傷害減少：","");
+						str = this.generateTypeSummaryList(overallStrengths, "對以下屬性具抗性優勢(受到傷害減少)：","");
 					} else if(direction=="offense"){
 						//下行中文翻譯
-						str = this.generateTypeSummaryList(overallWeaknesses, "對以下幾種屬性，能造成 效果絕佳 之傷害：","");
+						str = this.generateTypeSummaryList(overallWeaknesses, "對以下幾種屬性能造成 效果絕佳 之傷害：","");
 					}
 
 					sumArr.push(str);

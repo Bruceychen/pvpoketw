@@ -18,28 +18,30 @@ require_once 'header.php';
 	<?php require 'modules/leagueselect.php'; ?>
 	<?php require 'modules/cupselect.php'; ?>
 
-	<a class="toggle" href="#">Advanced <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+	<a class="toggle" href="#">進階設定 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content team-advanced">
 		<div class="flex">
 			<div class="flex-section">
-				<h3 class="section-title">Custom Threats</h3>
-				<p>Enter a custom group of Pokemon to evaluate threats. These Pokemon will also make up the meta scorecard.</p>
+				<h3 class="section-title">自訂具威脅寶可夢</h3>
+				<p>自行指定1到多個對此隊伍具有威脅之寶可夢清單以進行評估。</p>
+                <p>注意：此處之自訂清單將會作為最後meta scorecard的項目，而不會包含、計算指定主題賽中其他非清單羅列之寶可夢的威脅程度。</p>
 				<div class="team-build custom-threats">
 					<?php require 'modules/pokemultiselect.php'; ?>
 				</div>
 			</div>
 			<div class="flex-section">
-			    <h3 class="section-title">Custom Alternatives</h3>
-			    <p>Enter a custom group of Pokemon to evaluate alternatives. These will appear as suggestions for your team.</p>
+			    <h3 class="section-title">自訂替補寶可夢</h3>
+                <p>自行指定1到多個替補候選寶可夢清單進行評估。</p>
+                <p>注意：此處之自訂清單將會作為最後meta scorecard的項目，而不會包含、計算指定主題賽中其他非清單羅列之寶可夢作為推薦替補。</p>
 			    <div class="team-build custom-alternatives">
 			        <?php require 'modules/pokemultiselect.php'; ?>
 			    </div>
 			</div>
 		</div>
-		<h3 class="section-title">Options</h3>
+		<h3 class="section-title">選項設定</h3>
 		<div class="flex poke">
 		    <div class="team-option">
-		        <h3>Scorecard Length</h3>
+		        <h3>Scorecard 顯示長度/寶可夢數</h3>
 		        <select class="scorecard-length-select">
 		            <option value="10">10</option>
 		            <option value="20" selected>20</option>
@@ -48,15 +50,15 @@ require_once 'header.php';
 		        </select>
 		    </div>
 		    <div class="team-option">
-		        <h3>Shadow Pokemon</h3>
-		        <div class="check allow-shadows"><span></span>Show Shadow Pokemon in results</div>
+		        <h3>暗影化寶可夢</h3>
+		        <div class="check allow-shadows"><span></span>計算結果顯示暗影化寶可夢</div>
 		    </div>
 		    <div class="team-option">
-		        <h3>Shield Baiting</h3>
-		        <div class="check shield-baiting on"><span></span>Bait shields with low-energy moves</div>
+		        <h3>誘騙防護網</h3>
+		        <div class="check shield-baiting on"><span></span>計算時使用低耗能特殊招式誘使對手使用防護網之戰術。</div>
 		    </div>
 		</div>
-		<p>Note that links will not currently preserve these advanced settings.</p>
+		<p>注意：上述進階設定，目前無法紀錄於 "分享此隊伍" 的連結(URL)中！</p>
 	</div>
 </div>
 
@@ -73,7 +75,7 @@ require_once 'header.php';
         <p>Below is a high-level evaluation of your team. Use this as a general guideline for any adjustments you may want to make. Some unique strategies can score lower marks.</p>
         <div class="overview-section coverage">
             <div class="flex">
-                <h3>Coverage</h3>
+                <h3>涵蓋度(Coverage)</h3>
                 <div class="grade"></div>
             </div>
             <div class="notes">
@@ -86,7 +88,7 @@ require_once 'header.php';
         </div>
         <div class="overview-section bulk">
             <div class="flex">
-                <h3>Bulk</h3>
+                <h3>坦度(Bulk)</h3>
                 <div class="grade"></div>
             </div>
             <div class="notes">
@@ -99,7 +101,7 @@ require_once 'header.php';
         </div>
         <div class="overview-section safety">
             <div class="flex">
-                <h3>Safety</h3>
+                <h3>安全度(Safety)</h3>
                 <div class="grade"></div>
             </div>
             <div class="notes">
@@ -112,7 +114,7 @@ require_once 'header.php';
         </div>
         <div class="overview-section consistency">
             <div class="flex">
-                <h3>Consistency</h3>
+                <h3>輸出密集度(Consistency)</h3>
                 <div class="grade"></div>
             </div>
             <div class="notes">
@@ -234,5 +236,7 @@ require_once 'header.php';
 <script src="<?php echo $WEB_ROOT; ?>js/battle/Battle.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/battle/TeamRanker.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/Main.js?v=3"></script>
+<!--pvpoketw tools-->
+<script src="<?php echo $WEB_ROOT; ?>js/interface/TWTools.js?v=<?php echo $SITE_VERSION; ?>"></script>
 
 <?php require_once 'footer.php'; ?>

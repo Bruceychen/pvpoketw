@@ -339,7 +339,7 @@
             "values": ["legendary", "mythical", "shadow"]
         }, {
             "filterType": "id",
-            "values": ["drapion", "mawile", "metang", "metagross", "lapras", "dewgong", "snorlax", "vigoroth", "slaking", "castform", "audino", "rufflet", "braviary", "chansey", "blissey", "mr_mime", "jynx", "eevee", "espeon", "delibird", "miltank", "gardevoir", "gallade", "chimecho", "chatot", "skorupi", "sigilyph", "cryogonal", "glaceon", "castform_snowy", "raichu_alolan"]
+            "values": ["drapion", "mawile", "metang", "metagross", "lapras", "dewgong", "snorlax", "vigoroth", "slaking", "castform", "rufflet", "braviary", "chansey", "blissey", "mr_mime", "jynx", "eevee", "espeon", "delibird", "miltank", "gardevoir", "gallade", "chimecho", "chatot", "skorupi", "sigilyph", "cryogonal", "glaceon", "castform_snowy", "raichu_alolan"]
         }]
     }],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable"],
@@ -7194,14 +7194,15 @@
             "hp": 207
         },
         "types": ["grass", "dark"],
-        "fastMoves": ["FEINT_ATTACK", "RAZOR_LEAF", "SNARL"],
+        "fastMoves": ["FEINT_ATTACK", "RAZOR_LEAF", "SNARL", "BULLET_SEED"],
         "chargedMoves": ["FOUL_PLAY", "HURRICANE", "LEAF_BLADE", "LEAF_TORNADO"],
         "defaultIVs": {
             "cp1500": [24, 5, 9, 15],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 1412,
-        "tags": ["shadoweligible"]
+        "tags": ["shadoweligible"],
+		"eliteMoves": ["BULLET_SEED"]
     }, {
         "dex": 275,
         "speciesName": "狡猾天狗 暗影化",
@@ -7212,13 +7213,14 @@
             "hp": 207
         },
         "types": ["grass", "dark"],
-        "fastMoves": ["FEINT_ATTACK", "RAZOR_LEAF", "SNARL"],
+        "fastMoves": ["FEINT_ATTACK", "RAZOR_LEAF", "SNARL", "BULLET_SEED"],
         "chargedMoves": ["FOUL_PLAY", "HURRICANE", "LEAF_BLADE", "LEAF_TORNADO"],
         "defaultIVs": {
             "cp1500": [24, 5, 9, 15],
             "cp2500": [40, 15, 15, 15]
         },
-        "tags": ["shadow"]
+        "tags": ["shadow"],
+		"eliteMoves": ["BULLET_SEED"]
     }, {
         "dex": 276,
         "speciesName": "傲骨燕",

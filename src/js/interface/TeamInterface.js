@@ -204,6 +204,10 @@ var InterfaceMaster = (function () {
 								}
 
 								var cup = $(".cup-select option:selected").val();
+
+								if(cup == "sorcerous"){
+									$("#main h1").html("Team Wizard");
+								}
 								battle.setCup(cup);
 								break;
 
@@ -949,7 +953,8 @@ var InterfaceMaster = (function () {
 				var $tr = $("<tr><td></td></tr>");
 
 				for(var i = 0; i < allTypes.length; i++){
-					$tr.append("<td class=\""+allTypes[i].toLowerCase()+" heading\">"+allTypes[i]+"</td>");
+					//以下這行對屬性表格欄位進行中文翻譯
+					$tr.append("<td class=\""+allTypes[i].toLowerCase()+" heading\">"+typeTranslate(allTypes[i].toLowerCase())+"</td>");
 				}
 
 				$table.append($tr);
@@ -1097,10 +1102,12 @@ var InterfaceMaster = (function () {
 				}
 
 				if(direction == "defense"){
-					sumArr.push("This team resists " + typesResisted + " of " + allTypes.length + " types.");
-					sumArr.push("This team is weak to " + typesWeak + " of " + allTypes.length + " types.");
+					//以下兩行中文翻譯
+					sumArr.push("此隊伍對 " + typesResisted + "種屬性(全部" + allTypes.length + "種)具有抗性能減少受到之傷害");
+					sumArr.push("此隊伍具有" + typesWeak + "種(全部" + allTypes.length + "種)弱點屬性會遭受到較大傷害");
 				} else if(direction == "offense"){
-					sumArr.push("This team can hit " + typesWeak + " of " + allTypes.length + " types super effectively.");
+					//下行中文翻譯
+					sumArr.push("此隊伍之招式共可對 " + typesWeak + "種屬性(全部" + allTypes.length + "種)造成 效果絕佳 之傷害");
 				}
 
 				var str;
@@ -1109,9 +1116,11 @@ var InterfaceMaster = (function () {
 
 				if(overallStrengths.length > 0){
 					if(direction=="defense"){
-						str = this.generateTypeSummaryList(overallStrengths, "Overall, strong against","");
+						//下行中文翻譯
+						str = this.generateTypeSummaryList(overallStrengths, "對以下屬性具有抗性，受到傷害減少：","");
 					} else if(direction=="offense"){
-						str = this.generateTypeSummaryList(overallWeaknesses, "Overall, most effective against","");
+						//下行中文翻譯
+						str = this.generateTypeSummaryList(overallWeaknesses, "對以下幾種屬性，能造成 效果絕佳 之傷害：","");
 					}
 
 					sumArr.push(str);
@@ -1120,7 +1129,8 @@ var InterfaceMaster = (function () {
 				// On defense, show list of types that hit this team most effectively
 
 				if((overallWeaknesses.length > 0) && (direction == "defense")){
-					str = this.generateTypeSummaryList(overallWeaknesses, "Overall, weak to","");
+					//下行中文翻譯
+					str = this.generateTypeSummaryList(overallWeaknesses, "有以下弱點屬性：","");
 
 					sumArr.push(str);
 				}
@@ -1150,8 +1160,8 @@ var InterfaceMaster = (function () {
 							str += " and";
 						}
 					}
-
-					str += " <span class=\"" + arr[i].toLowerCase() + "\">" + arr[i] + "</span>";
+					//以下這行對結論文字屬性翻譯
+					str += " <span class=\"" + arr[i].toLowerCase() + "\">" + typeTranslate(arr[i].toLowerCase()) + "</span>";
 				}
 
 				str += afterStr;
@@ -1198,6 +1208,11 @@ var InterfaceMaster = (function () {
 					pokeSelectors[i].filterByTypes(cupTypes);
 				}
 
+				if(cup.name == "sorcerous"){
+					$("#main h1").html("Team Wizard");
+				} else{
+					$("#main h1").html("Team Builder");
+				}
 
 				// Load ranking data for movesets
 				var key = battle.getCup().name + "overall" + battle.getCP();

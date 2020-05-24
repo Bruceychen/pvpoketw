@@ -62,7 +62,8 @@ function BattleHistogram($element){
 		// Bucket individual battle ratings into the histogram segments
 		
 		var stats = [0,0,0];
-		var statLabels = ["Wins","Losses","Draws"];
+		//以下這行中文翻譯
+		var statLabels = ["勝","敗","平手"];
 
 		for(var n = 0; n < ratings.length; n++){
 			var division = Math.ceil(ratings[n] / increment) - 1; // Ensures a range of 0 to the number of divisions

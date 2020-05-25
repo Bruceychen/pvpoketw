@@ -70,59 +70,79 @@ require_once 'header.php';
 <div class="section white error">請選擇至少一隻寶可夢進行分析。</div>
 
 <div class="section typings white">
-    <a href="#" class="toggle active">Overview <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+    <a href="#" class="toggle active">總覽 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
     <div class="toggle-content article">
-        <p>Below is a high-level evaluation of your team. Use this as a general guideline for any adjustments you may want to make. Some unique strategies can score lower marks.</p>
+        <p>以下針對你的隊伍做更進一步的整體分析，以便讓訓練家們在調校隊伍時能有更全面的了解與方向。需注意到一些較獨特的戰術或組隊考量可能會導致評估分數被拉低。</p>
         <div class="overview-section coverage">
             <div class="flex">
-                <h3>涵蓋度(Coverage)</h3>
+                <h3>涵蓋度(Coverage)：對各種屬性或特定寶可夢的優勢程度。</h3>
                 <div class="grade"></div>
             </div>
             <div class="notes">
-                <div grade="A">This team has excellent coverage against top meta threats. It has few or no major vulnerabilities.</div>
-                <div grade="B">This team covers most top meta threats. There may be a few vulnerabilities to look out for.</div>
-                <div grade="C">This team has coverage gaps and may be vulnerable to certain threats. Consider alternative picks or movesets to shore up your weaknesses.</div>
-                <div grade="D">This team is highly vulnerable to certain threats. Consider alternative picks to avoid doubling up on weaknesses or look for Pokemon that perform well against the top meta.</div>
-                <div grade="F">This team has extremely poor coverage against multiple threats. Consider strong meta alternatives to anchor this team.</div>
+                <div grade="A">此隊伍在面對指定盃賽中的頂尖meta寶可夢時有絕佳的涵蓋度，可以彈性的對應各種戰況，且隊伍本身很少甚至沒有重大的弱點與突破口。</div>
+                <div grade="A">(This team has excellent coverage against top meta threats. It has few or no major vulnerabilities.)</div>
+                <div grade="B">此隊伍在面對指定盃賽中大多數的meta寶可夢時有較佳的優勢，且隊伍本身僅有很少的弱點與突破口需要留意。</div>
+                <div grade="B">(This team covers most top meta threats. There may be a few vulnerabilities to look out for.)</div>
+                <div grade="C">此隊伍在面對部分狀況或對手特定組隊時容易落入劣勢局面，建議考量更換部分隊伍成員或是招式。</div>
+                <div grade="C">(This team has coverage gaps and may be vulnerable to certain threats. Consider alternative picks or movesets to shore up your weaknesses.)</div>
+                <div grade="D">此隊伍在面對部分狀況或對手特定組隊時有著極大的弱點與突破口，建議更換部分隊伍成員或替補更強勢的meta寶可夢以避免被對手壓在地上摩擦。</div>
+                <div grade="D">(This team is highly vulnerable to certain threats. Consider alternative picks to avoid doubling up on weaknesses or look for Pokemon that perform well against the top meta.)</div>
+                <div grade="F">此隊伍在大多數對戰狀況下均處於弱勢，建議替補更強勢的meta寶可夢以強化隊伍戰力。</div>
+                <div grade="F">(This team has extremely poor coverage against multiple threats. Consider strong meta alternatives to anchor this team.)</div>
             </div>
         </div>
         <div class="overview-section bulk">
             <div class="flex">
-                <h3>坦度(Bulk)</h3>
+                <h3>坦度(Bulk)：隊伍自身傷害耐受能力(防禦力、生命值)強度</h3>
                 <div class="grade"></div>
             </div>
             <div class="notes">
-                <div grade="A">This team has excellent average bulk. It will help manage shields and overcome difficult scenarios.</div>
-                <div grade="B">This team has good average bulk. Make sure to save shields for your more fragile teammates.</div>
-                <div grade="C">This team has moderate average bulk. You may be pressured to shield more often. Consider a bulky alternative to absorb damage.</div>
-                <div grade="D">This team has low average bulk. You will be pressured to shield often. Consider bulkier alternatives to ease shield pressure.</div>
-                <div grade="F">This team is extremely fragile and will have a hard time climbing out of bad situations. Use bulkier Pokemon to make this team more forgiving.</div>
+                <div grade="A">此隊伍有著絕佳的傷害抗受能力，這將有助於減少防護網的使用壓力與克服各種艱難戰況。</div>
+                <div grade="A">(This team has excellent average bulk. It will help manage shields and overcome difficult scenarios.)</div>
+                <div grade="B">此隊伍有較佳的傷害抗受能力，在防護網的使用上建議可轉用給較脆弱的隊伍成員。</div>
+                <div grade="B">(This team has good average bulk. Make sure to save shields for your more fragile teammates.)</div>
+                <div grade="C">此隊伍具有一般程度的傷害抗受能力，你可能會面臨防護網使用取捨的狀況。建議替補具有較佳坦度的寶可夢。</div>
+                <div grade="C">(This team has moderate average bulk. You may be pressured to shield more often. Consider a bulky alternative to absorb damage.)</div>
+                <div grade="D">此隊伍具有低於水平程度的傷害抗受能力，你可能會更頻繁面臨防護網使用取捨的狀況及壓力。建議替補具有較佳坦度的寶可夢。</div>
+                <div grade="D">(This team has low average bulk. You will be pressured to shield often. Consider bulkier alternatives to ease shield pressure.)</div>
+                <div grade="F">此隊伍的傷害抗受能力極度不足，你將很難在逆風劣勢中扭轉戰局。建議替補具有較佳坦度的寶可夢以增強隊伍坦度。</div>
+                <div grade="F">(This team is extremely fragile and will have a hard time climbing out of bad situations. Use bulkier Pokemon to make this team more forgiving.)</div>
             </div>
         </div>
         <div class="overview-section safety">
             <div class="flex">
-                <h3>安全度(Safety)</h3>
+                <h3>安全度(Safety)：隊伍的對戰存活率與失誤容忍度。</h3>
                 <div class="grade"></div>
             </div>
             <div class="notes">
-                <div grade="A">This team has extremely safe matchups. It's flexible and can easily pivot to regain advantage.</div>
-                <div grade="B">This team has mostly safe matchups. It can work back from lost leads and has options to escape disadvantageous scenarios.</div>
-                <div grade="C">This team has only somewhat safe matchups. It may have limited safe switch options or struggle without switch advantage. Consider alternatives with good bulk or coverage to provide more flexibility. Otherwise, be prepared to spend shields to line up your Pokemon in the right matchups.</div>
-                <div grade="D">This team has generally unsafe matchups. It may rely on winning the lead and maintaining switch advantage. Consider safer alternatives with broader coverage.</div>
-                <div grade="F">This team has very unsafe matchups. It relies heavily on winning the lead and lining up perfect counters. Consider more flexible alternatives to make your matchups safer.</div>
+                <div grade="A">此隊伍有較佳的安全性與穩定度。其具備的彈性亦可在逆境劣勢中輕易扭轉戰況。</div>
+                <div grade="A">(This team has extremely safe matchups. It's flexible and can easily pivot to regain advantage.)</div>
+                <div grade="B">此隊伍在大多對戰中有良好的安全性與穩定度。在逆風劣勢開局狀況下也較有機會取回優勢或是擺脫困境。</div>
+                <div grade="B">(This team has mostly safe matchups. It can work back from lost leads and has options to escape disadvantageous scenarios.)</div>
+                <div grade="C">此隊伍僅在部分條件下有較佳的安全性與穩定度。這將減少你能夠使用safe switch(逆風開局替補)的機會或是形成根本無法逆轉的狀況。請考慮替補上較佳坦度或是具廣泛屬性優勢的寶可夢以增進隊伍彈性，或是以防護網為代價換取可能逆轉的機會。</div>
+                <div grade="C">(This team has only somewhat safe matchups. It may have limited safe switch options or struggle without switch advantage. Consider alternatives with good bulk or coverage to provide more flexibility. Otherwise, be prepared to spend shields to line up your Pokemon in the right matchups.)</div>
+                <div grade="D">此隊伍在多數對戰中之安全性與穩定性偏低。隊伍必須依靠開局順風優勢與寶可夢交換優勢來贏取勝利。建議替補有廣泛屬性優勢與涵蓋度的寶可夢成員。</div>
+                <div grade="D">(This team has generally unsafe matchups. It may rely on winning the lead and maintaining switch advantage. Consider safer alternatives with broader coverage.)</div>
+                <div grade="F">此隊伍不利於大多數對戰，且極度依賴開局順風優勢與寶可夢交換之後的屬性剋制優勢來取勝。請考慮替補更具有彈性的寶可夢以提高隊伍存活率。</div>
+                <div grade="F">(This team has very unsafe matchups. It relies heavily on winning the lead and lining up perfect counters. Consider more flexible alternatives to make your matchups safer.)</div>
             </div>
         </div>
         <div class="overview-section consistency">
             <div class="flex">
-                <h3>輸出密集度(Consistency)</h3>
+                <h3>輸出密集度(Consistency)：短時間內輸出大量傷害或是攻擊次數的程度</h3>
                 <div class="grade"></div>
             </div>
             <div class="notes">
-                <div grade="A">This team has extremely consistent movesets. It will have dependable damage output.</div>
-                <div grade="B">This team has mostly consistent movesets. It won't depend on baits often.</div>
-                <div grade="C">This team has movesets with mixed consistency. You might depend on baits every now and then.</div>
-                <div grade="D">This team has movesets with low consistency. You'll depend on baits or stat boosts often. Consider alternatives with more consistent Fast or Charged Move damage.</div>
-                <div grade="F">This team has many movesets with poor consistency. You'll be highly dependent on landing baits or triggering stat boosts. Consider alternatives that have more dependable movesets.</div>
+                <div grade="A">此隊伍具備極佳的招式組合與輸出密集度，可持續性對對手輸出可觀傷害。</div>
+                <div grade="A">(This team has extremely consistent movesets. It will have dependable damage output.)</div>
+                <div grade="B">此隊伍具備良好的招式組合與輸出密集度，在大多數情況下不需仰賴誘騙對手防護網的手段來取得優勢。</div>
+                <div grade="B">(This team has mostly consistent movesets. It won't depend on baits often.)</div>
+                <div grade="C">此隊伍的部分招式輸出密集度不足，某些情況下需要誘使對手使用防護網來取得優勢。</div>
+                <div grade="C">(This team has movesets with mixed consistency. You might depend on baits every now and then.)</div>
+                <div grade="D">此隊伍具有較多輸出密集度低的招式，你將需要經常的誘使對手使用防護網或是透過招式的增幅能力取得優勢。建議替補具有較佳輸出密集度一般招式或特殊招式的寶可夢成員。</div>
+                <div grade="D">(This team has movesets with low consistency. You'll depend on baits or stat boosts often. Consider alternatives with more consistent Fast or Charged Move damage.)</div>
+                <div grade="F">此隊伍大多數的招式輸出密集度均偏低，你將需要更頻繁的誘使對手使用防護網或是高度仰賴招式的增幅能力來取得優勢。建議替補上有較佳輸出密集度一般招式或特殊招式的寶可夢成員。</div>
+                <div grade="F">(This team has many movesets with poor consistency. You'll be highly dependent on landing baits or triggering stat boosts. Consider alternatives that have more dependable movesets.)</div>
             </div>
         </div>
     </div>

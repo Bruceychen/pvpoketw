@@ -198,7 +198,7 @@ require_once 'header.php';
 
 	<a href="#" class="toggle active">替補寶可夢 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content article">
-		<p>以下寶可夢均適合用來替換當前隊伍成員，以增加面對上表威脅時的優勢。分析結果乃考量使用 0 至 1 個防護網的情境，以及各寶可夢的戰鬥能力與傷害輸出。See the team's Coverage grade for more on its potential threats.</p>
+		<p>以下寶可夢均適合用來替換當前隊伍成員，以增加面對上表威脅時的優勢。分析結果乃考量使用 0 至 1 個防護網的情境，以及各寶可夢的戰鬥能力與傷害輸出。可參照上方進階功能的隊伍涵蓋度分析，以進一步針對可能的威脅做出應對。</p>
 		<div class="table-container">
 			<table class="alternatives-table rating-table" cellspacing="0">
 			</table>

@@ -89,8 +89,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Mon May 25 23:45:17 2020 +0800</li>
-                <li>原版最後版本時間：Wed May 20 15:57:29 2020 -0500(github commit time)</li>
+                <li>中文版最後更新時間：Mon May 30 14:25:17 2020 +0800</li>
+                <li>原版最後版本時間：Mon May 30 05:30:00 2020 +0800(branch merge time)</li>
             </ul>
 </div>
 

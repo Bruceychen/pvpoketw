@@ -341,6 +341,10 @@ require_once 'header.php';
             <div class="rating"></div>&nbsp;-
             <div class="rating"></div>
         </div>
+        <div class="rating-container">
+            <div class="ranking-header">最佳IV組合 &amp; 等級</div>
+            <div class="rating"></div>
+        </div>
     </div>
     <div class="share-link detail-section"><input type="text" readonly="">
         <div class="copy">複製</div>

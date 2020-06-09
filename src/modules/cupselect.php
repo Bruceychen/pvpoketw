@@ -2,6 +2,7 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">Premier Cup</option>
 	<option value="tsa-2" cup="sorcerous">Silph-2 魔幻盃</option>
+	<option value="community" cup="goteamup">Go Stadium GOTeamUp</option>
 
 	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
 		<option value="custom" cup="custom">自訂排名</option>
@@ -17,6 +18,7 @@
 	<option value="fantasy" cat="community">GO LIVE Fantasy Cup</option>
 	<option value="beam" cat="community">Get Beamed</option>
 	<option value="grunt-4" cat="community">Grunt Cup Season 4</option>
+	<option value="goteamup" cat="community">Go Stadium GOTeamUp</option>
     <option value="llove" cat="community">LLove Cup-高雄群</option>
     <option value="growing" cat="community">成長盃-高雄群</option>
     <option value="plague" cat="community">瘟疫盃-高雄群</option>

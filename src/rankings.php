@@ -126,13 +126,17 @@ switch($cup){
 		$league = 'Premier';
 		break;
 
-    case "grunt-4":
-        $league = 'Grunt Cup 4';
-        break;
+	case "grunt-4":
+		$league = 'Grunt Cup 4';
+		break;
 
-    case "sorcerous":
-        $league = 'Sorcerous Cup';
-        break;
+	case "sorcerous":
+		$league = 'Sorcerous Cup';
+		break;
+
+	case "goteamup":
+		$league = 'GOTeamUp';
+		break;
 }
 
 $META_TITLE = $league . ' PvP Rankings';

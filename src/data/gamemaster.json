@@ -242,37 +242,6 @@
             "values": ["noctowl", "vigoroth", "tropius", "whiscash", "swampert", "quagsire", "gastrodon_east_sea", "gastrodon_west_sea", "seismitoad", "palpitoad", "marshtomp", "swampert_shadow", "marshtomp_shadow", "genesect"]
         }]
     }, {
-        "name": "plague",
-        "title": "Plague Cup",
-        "restrictedPicks": 2,
-        "restrictedPokemon": ["jirachi","swampert","drapion","ivysaur","venusaur","victreebel","skuntank","muk_alolan","mantine","azumarill","bronzong","deoxys_defense","mew","lugia"],
-        "include": [{
-            "filterType": "type",
-            "values": ["fighting","poison","psychic","water"]
-        }],
-        "exclude": []
-    }, {
-        "name": "growing",
-        "title": "Growing Cup",
-        "include": [],
-        "exclude": [{
-            "filterType": "id",
-            "values": ["weezing_galarian","zigzagoon_galarian","linoone_galarian"]
-        }, {
-            "filterType": "tag",
-            "values": ["legendary", "mythical"]
-        }]
-    }, {
-        "name": "llove",
-        "title": "LLove Cup",
-        "restrictedPicks": 1,
-        "restrictedPokemon": ["azumarill","skarmory","tropius","altaria","bastiodon","probopass","venusaur","sableye","bronzong","hypno","ivysaur","meganium","swampert","medicham","zweilous","umbreon","lanturn","mew","jirachi","meltan","melmetal","darkrai","deoxys","deoxys_attack","deoxys_defense","deoxys_speed","regirock","regice","registeel","regigigas"],
-        "include": [],
-        "exclude": [{
-            "filterType": "id",
-            "values": ["latios"]
-        }]
-    }, {
         "name": "voyager",
         "title": "Voyager Cup",
         "restrictedPicks": 1,
@@ -378,6 +347,26 @@
         "dexEnd": 649
     }],
     "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "bellossom", "politoed", "scizor", "houndour", "houndoom", "larvitar", "pupitar", "tyranitar", "mudkip", "marshtomp", "swampert", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "trapinch", "vibrava", "flygon", "cacnea", "cacturne", "shuppet", "banette", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "shellder", "cloyster", "sableye", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "snover", "abomasnow", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "pinsir", "mawile", "beldum", "metang", "metagross", "entei"],
+	"cliffhangerTiers": [
+		{
+			"league": 1500,
+			"max": 17,
+			"tiers": [
+				{
+					"points": 9,
+					"pokemon": ["altaria","azumarill","skarmory","deoxys_defense","registeel","stunfisk_galarian","tropius"]
+				},
+				{
+					"points": 5,
+					"pokemon": ["bastiodon","bronzong","cresselia","ferrothorn","hypno","ivysaur","jirachi","marowak_alolan","medicham","meganium","melmetal","probopass","regice","regirock","sableye","scrafty","swampert","umbreon","venusaur","zweilous"]
+				},
+				{
+					"points": 1,
+					"pokemon": ["cherrim_sunny","clefable","dewgong","forretress","gardevoir","gliscor","golbat","haunter","jumpluff","lanturn","lapras","lugia","mantine","mew","muk_alolan","noctowl","obstagoon","perrserker","quagsire","raichu","raichu_alolan","raikou","shiftry","stunfisk","togekiss","toxicroak","uxie","victreebel","vigoroth","whiscash","wigglytuff","zapdos"]
+				}
+			]
+		}
+	],
   "pokemon": [{
         "dex": 1,
         "speciesName": "妙蛙種子",

@@ -27,23 +27,20 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.15.0 (May 20, 2020)</h4>
-	<ul>
-		<li>The Team Builder has been updated with new advanced options:</li>
-		<ul>
-			<li>Custom groups for the Team Builder's threats and alternatives lists. This will allow you to evaluate specific Pokemon or build a custom meta scorecard for your team.</li>
-			<li>Option for the number of threats and alternatives to show.</li>
-			<li>Toggle for Shadow Pokemon in the results.</li>
-			<li>Toggle for shield baiting in the Team Builder's simulations.</li>
-		</ul>
-		<li>The Team Builder includes new letter grades for your team to provide general feedback on coverage and composition.</li>
-	</ul>
+    <h4>v1.15.2 (June 10, 2020)</h4>
+    <ul>
+        <li>GO Stadium Cliffhanger support added to Team Builder:</li>
+        <ul>
+            <li>Display for team and Pokemon points</li>
+            <li>Alternatives are filtered based on your remaining points</li>
+        </ul>
+    </ul>
 
-	<h4>v1.14.19 (May 11, 2020)</h4>
-	<ul>
-	    <li>Simulations, rankings, meta groups, and Training Battles have been updated with the latest move balance updates for Wild Charge, Moonblast, and Drill Run.</li>
-	    <li>Premier Cup is now available in Training Battles.</li>
-	</ul>
+    <h4>v1.14.19 (May 11, 2020)</h4>
+    <ul>
+        <li>Simulations, rankings, meta groups, and Training Battles have been updated with the latest move balance updates for Wild Charge, Moonblast, and Drill Run.</li>
+        <li>Premier Cup is now available in Training Battles.</li>
+    </ul>
 
 	<h3>Latest Article</h3>
 
@@ -89,8 +86,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Tue Jun 9 09:05:17 2020 +0800</li>
-                <li>原版最後版本時間：Mon Jun 8 17:16:49 2020 -0500</li>
+                <li>中文版最後更新時間：Thu Jun 11 19:55:17 2020 +0800</li>
+                <li>原版最後版本時間：Wed Jun 10 18:35:22 2020 -0500</li>
             </ul>
 </div>
 

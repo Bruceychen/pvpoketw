@@ -949,7 +949,7 @@ function Battle(){
 					// Reset all cooldowns
 					if((opponent.cooldown > 0)&&(! opponent.hasActed)){
 						action.settings.priority += 4;
-						if(opponent.cooldown > 0){
+						/* if(opponent.cooldown > 0){
 							opponent.chargedMovesOnly = true;
 						}
 
@@ -972,11 +972,11 @@ function Battle(){
 
 						if((a)&&(a.type == "charged")){
 							queuedActions.push(a);
-						}
-
+						} */
 
 					}
-					poke.cooldown = 0;
+
+					//poke.cooldown = 0;
 					action.settings.priority += 10;
 
 					// Set additional priority by attack stat
@@ -2023,6 +2023,39 @@ function Battle(){
 		}
 
 		return actions;
+	}
+	
+	// Calculate number of turns it would take to flip the matchup
+	
+	this.calculateTurnMargin = function(){
+		var turnMargin = 0;
+		var target = pokemon[0]; // The Pokemon that won the battle
+		var subject = pokemon[1]; // The Pokemon that lost the battle
+		var turnArr = [];
+		
+		if(subject.hp > target.hp){
+			target = pokemon[1];
+			subject = pokemon[0];
+		}
+		
+		// Calculate turns away from fainting with Fast Moves
+		
+		var fastMoveTurns = Math.ceil(target.hp / subject.fastMove.damage) * (subject.fastMove.cooldown / 500);
+		
+		for(var i = 0; i < subject.chargedMoves.length; i++){
+			var chargedMove = subject.chargedMoves[0];
+			var chargedMoveTurns = 0
+			var fastMovesFromChargedMove = Math.ceil((chargedMove.energy - subject.energy) / subject.fastMove.energyGain);
+			
+			if(chargedMove.damage + (fastMovesFromChargedMove * subject.fastMove.damage) >= target.hp){
+				chargedMoveTurns = 1 + (fastMovesFromChargedMove * (subject.fastMove.cooldown / 500));
+			}
+			
+		}
+		
+		turnMargin = fastMoveTurns;
+		
+		return turnMargin;
 	}
 
 	// Set an array of user-defined actions to be processed by the simulator

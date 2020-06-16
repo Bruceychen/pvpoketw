@@ -123,21 +123,6 @@ var InterfaceMaster = (function () {
 					limitedPokemon = ["medicham","lucario","venusaur","meganium","skarmory","altaria","bastiodon","probopass","tropius","azumarill"];
 				}
 
-				if(cup == "plaguetw"){
-					$(".limited").show();
-					$(".check.limited").addClass("on");
-
-					limitedPokemon = ["mantine","swampert","azumarill","muk_alolan","drapion","skuntank","ivysaur","venusaur","victreebel","jirachi","bronzong","mew","deoxys_defense","lugia"];
-				}
-
-
-				if(cup == "safari"){
-					$(".limited").show();
-					$(".check.limited").addClass("on");
-
-					limitedPokemon = ["venusaur","meganium","skarmory","altaria","bastiodon","probopass","tropius","azumarill","wormadam_trash","forretress","vigoroth","swampert"];
-				}
-
 				if(cup == "fantasy"){
 					$(".limited").show();
 					$(".check.limited").addClass("on");
@@ -601,17 +586,7 @@ var InterfaceMaster = (function () {
 					opponent.initialize(battle.getCP(), "gamemaster");
 					opponent.selectRecommendedMoveset(category);
 
-					var battleLink = host+"battle/"+cp+"/"+pokemon.speciesId+"/"+opponent.speciesId+"/"+scenario.shields[0]+""+scenario.shields[1]+"/"+pokeMoveStr+"/";
-
-					// Append opponent's move string
-
-					for(var j = 0; j < data.length; j++){
-
-						if(data[j].speciesId == opponent.speciesId){
-							battleLink += data[j].moveStr + '/';
-							break;
-						}
-					}
+					var battleLink = host+"battle/"+cp+"/"+pokemon.speciesId+"/"+opponent.speciesId+"/"+scenario.shields[0]+""+scenario.shields[1]+"/"+pokeMoveStr+"/"+opponent.generateURLMoveStr()+"/";
 
 					// Append energy settings
 					battleLink += pokemon.stats.hp + "-" + opponent.stats.hp + "/";
@@ -644,17 +619,7 @@ var InterfaceMaster = (function () {
 					var opponent = new Pokemon(c.opponent, 1, battle);
 					opponent.initialize(battle.getCP(), "gamemaster");
 					opponent.selectRecommendedMoveset(category);
-					var battleLink = host+"battle/"+cp+"/"+pokemon.speciesId+"/"+opponent.speciesId+"/"+scenario.shields[0]+""+scenario.shields[1]+"/"+pokeMoveStr+"/";
-
-					// Append opponent's move string
-
-					for(var j = 0; j < data.length; j++){
-
-						if(data[j].speciesId == opponent.speciesId){
-							battleLink += data[j].moveStr + '/';
-							break;
-						}
-					}
+					var battleLink = host+"battle/"+cp+"/"+pokemon.speciesId+"/"+opponent.speciesId+"/"+scenario.shields[0]+""+scenario.shields[1]+"/"+pokeMoveStr+"/"+opponent.generateURLMoveStr()+"/";
 
 					// Append energy settings
 					battleLink += pokemon.stats.hp + "-" + opponent.stats.hp + "/";
@@ -681,13 +646,11 @@ var InterfaceMaster = (function () {
 				// Display Pokemon's type information
 
 				$details.find(".typing .type").eq(0).addClass(pokemon.types[0]);
-				//顯示屬性中文翻譯function 使用
-				$details.find(".typing .type").eq(0).html(typeTranslate(pokemon.types[0]));
+				$details.find(".typing .type").eq(0).html(pokemon.types[0]);
 
 				if(pokemon.types[1] != "none"){
 					$details.find(".typing .type").eq(1).addClass(pokemon.types[1]);
-				//顯示屬性中文翻譯function 使用
-					$details.find(".typing .type").eq(1).html(typeTranslate(pokemon.types[1]));
+					$details.find(".typing .type").eq(1).html(pokemon.types[1]);
 				} else{
 					$details.find(".typing .rating-container").eq(1).hide();
 				}
@@ -708,16 +671,14 @@ var InterfaceMaster = (function () {
 				for(var i = 0; i < effectivenessArr.length; i++){
 					var num = Math.floor(effectivenessArr[i].val * 1000) / 1000;
 					if(effectivenessArr[i].val > 1){
-				// 顯示屬性翻譯function 使用
-						$details.find(".detail-section .weaknesses").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+typeTranslate(effectivenessArr[i].type)+"</div></div>");
+						$details.find(".detail-section .weaknesses").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+effectivenessArr[i].type+"</div></div>");
 					}
 				}
 
 				for(var i = effectivenessArr.length - 1; i >= 0; i--){
 					var num = Math.floor(effectivenessArr[i].val * 1000) / 1000;
 					if(effectivenessArr[i].val < 1){
-				//顯示屬性翻譯function 使用
-						$details.find(".detail-section .resistances").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+typeTranslate(effectivenessArr[i].type)+"</div></div>");
+						$details.find(".detail-section .resistances").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+effectivenessArr[i].type+"</div></div>");
 					}
 				}
 
@@ -772,8 +733,8 @@ var InterfaceMaster = (function () {
 					}
 
 					multiBattleLink += "/";
-					//以下這行介面翻譯
-					$details.find(".share-link").before($("<div class=\"multi-battle-link\"><p>查看 <b>" + pokemon.speciesName + "</b> 的所有模擬戰鬥計算結果：</p><a target=\"_blank\" class=\"button\" href=\""+multiBattleLink+"\">"+pokemon.speciesName+" vs. " + cupName +"</a></div>"));
+
+					$details.find(".detail-section.float").eq(2).before($("<div class=\"multi-battle-link\"><p>See all of <b>" + pokemon.speciesName + "'s</b> matchups:</p><a target=\"_blank\" class=\"button\" href=\""+multiBattleLink+"\">"+pokemon.speciesName+" vs. " + cupName +"</a></div>"));
 				} else{
 					$details.find(".share-link").remove();
 				}

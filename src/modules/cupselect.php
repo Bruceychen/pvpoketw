@@ -25,9 +25,6 @@
 	<option value="grunt-4" cat="community">Grunt Cup Season 4</option>
 	<option value="goteamup" cat="community">GO Stadium GOTeamUp</option>
 	<option value="cliffhanger" cat="community">GO Stadium Cliffhanger</option>
-    <option value="llove" cat="community">LLove Cup-高雄群</option>
-    <option value="growing" cat="community">成長盃-高雄群</option>
-    <option value="plague" cat="community">瘟疫盃-高雄群</option>
 	<option value="jungle"  cat="tsa-1">叢林盃</option>
 	<option value="rainbow" cat="tsa-1">彩虹盃</option>
 	<option value="championships-1" cat="tsa-1">第一季冠軍賽</option>

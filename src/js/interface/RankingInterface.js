@@ -44,6 +44,7 @@ var InterfaceMaster = (function () {
 				$(".ranking-categories a").on("click", selectCategory);
 				$("body").on("click", ".check", checkBox);
 				$("body").on("click", ".check.limited", toggleLimitedPokemon);
+				$("body").on("click", ".continentals .check", toggleContinentalsSlots);
 
 				window.addEventListener('popstate', function(e) {
 					get = e.state;
@@ -262,6 +263,12 @@ var InterfaceMaster = (function () {
 									$(".cup-select option[value=\""+val+"\"]").prop("selected","selected");
 								}
 
+								if(val == "continentals-2"){
+									$(".continentals").removeClass("hide");
+								} else{
+									$(".continentals").addClass("hide");
+								}
+
 								battle.setCup(val);
 								break;
 
@@ -360,6 +367,12 @@ var InterfaceMaster = (function () {
 					category = "overall";
 				}
 
+				if(cup == "continentals-2"){
+					$(".continentals").removeClass("hide");
+				} else{
+					$(".continentals").addClass("hide");
+				}
+
 				self.displayRankings(category, cp, cup);
 				self.pushHistoryState(cup, cp, category, null);
 			}
@@ -395,6 +408,12 @@ var InterfaceMaster = (function () {
 
 				self.displayRankings(category, cp, cup);
 				self.pushHistoryState(cup, cp, category, null);
+
+				if(cup == "continentals-2"){
+					$(".continentals").removeClass("hide");
+				} else{
+					$(".continentals").addClass("hide");
+				}
 
 				if(format == "custom"){
 					// Redirect to the custom rankings page
@@ -646,11 +665,13 @@ var InterfaceMaster = (function () {
 				// Display Pokemon's type information
 
 				$details.find(".typing .type").eq(0).addClass(pokemon.types[0]);
-				$details.find(".typing .type").eq(0).html(pokemon.types[0]);
+				//顯示屬性中文翻譯function 使用
+				$details.find(".typing .type").eq(0).html(typeTranslate(pokemon.types[0]));
 
 				if(pokemon.types[1] != "none"){
 					$details.find(".typing .type").eq(1).addClass(pokemon.types[1]);
-					$details.find(".typing .type").eq(1).html(pokemon.types[1]);
+				//顯示屬性中文翻譯function 使用
+					$details.find(".typing .type").eq(1).html(typeTranslate(pokemon.types[1]));
 				} else{
 					$details.find(".typing .rating-container").eq(1).hide();
 				}
@@ -671,14 +692,16 @@ var InterfaceMaster = (function () {
 				for(var i = 0; i < effectivenessArr.length; i++){
 					var num = Math.floor(effectivenessArr[i].val * 1000) / 1000;
 					if(effectivenessArr[i].val > 1){
-						$details.find(".detail-section .weaknesses").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+effectivenessArr[i].type+"</div></div>");
+				// 顯示屬性翻譯function 使用
+						$details.find(".detail-section .weaknesses").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+typeTranslate(effectivenessArr[i].type)+"</div></div>");
 					}
 				}
 
 				for(var i = effectivenessArr.length - 1; i >= 0; i--){
 					var num = Math.floor(effectivenessArr[i].val * 1000) / 1000;
 					if(effectivenessArr[i].val < 1){
-						$details.find(".detail-section .resistances").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+effectivenessArr[i].type+"</div></div>");
+				//顯示屬性翻譯function 使用
+						$details.find(".detail-section .resistances").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+typeTranslate(effectivenessArr[i].type)+"</div></div>");
 					}
 				}
 
@@ -733,8 +756,8 @@ var InterfaceMaster = (function () {
 					}
 
 					multiBattleLink += "/";
-
-					$details.find(".detail-section.float").eq(2).before($("<div class=\"multi-battle-link\"><p>See all of <b>" + pokemon.speciesName + "'s</b> matchups:</p><a target=\"_blank\" class=\"button\" href=\""+multiBattleLink+"\">"+pokemon.speciesName+" vs. " + cupName +"</a></div>"));
+					//以下這行介面翻譯
+					$details.find(".share-link").before($("<div class=\"multi-battle-link\"><p>查看 <b>" + pokemon.speciesName + "</b> 的所有模擬戰鬥計算結果：</p><a target=\"_blank\" class=\"button\" href=\""+multiBattleLink+"\">"+pokemon.speciesName+" vs. " + cupName +"</a></div>"));
 				} else{
 					$details.find(".share-link").remove();
 				}
@@ -761,6 +784,36 @@ var InterfaceMaster = (function () {
 			function toggleLimitedPokemon(e){
 				for(var i = 0; i < limitedPokemon.length; i++){
 					$(".rank[data='"+limitedPokemon[i]+"']").toggleClass("hide");
+				}
+			}
+
+			// Show or hide Continentals slots
+
+			function toggleContinentalsSlots(e){
+				var selectedSlots = [];
+
+				$(".continentals .check").each(function(index, value){
+					if($(this).hasClass("on")){
+						selectedSlots.push(index);
+					}
+				});
+
+				var slots = battle.getCup().slots;
+
+				for(var i = 0; i < slots.length; i++){
+					if(selectedSlots.indexOf(i) > -1){
+						for(var n = 0; n < slots[i].pokemon.length; n++){
+							$(".rank[data='"+slots[i].pokemon[n]+"']").removeClass("hide");
+						}
+					} else{
+						for(var n = 0; n < slots[i].pokemon.length; n++){
+							$(".rank[data='"+slots[i].pokemon[n]+"']").addClass("hide");
+						}
+					}
+				}
+
+				if(selectedSlots.length == 0){
+					$(".rank").removeClass("hide");
 				}
 			}
 		};

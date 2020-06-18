@@ -98,18 +98,6 @@ switch($cup){
 		$league = 'Toxic Cup';
 		break;
 
-	case "plague":
-            $league = 'Plague Cup';
-    		break;
-
-    case "growing":
-        $league = 'Growing Cup';
-        break;
-
-    case "llove":
-            $league = 'LLove Cup';
-            break;
-
 	case "voyager":
 		$league = 'Voyager Cup';
 		break;
@@ -217,8 +205,17 @@ require_once 'header.php';
 
     <p class="limited hide">可輸入以下單字以搜尋特定遊戲內區域或世代的寶可夢："kanto", "johto"...等，或 "gen1", "gen2"... 等。</p>
     <p class="limited hide">詳情請點選 搜尋格後方的驚嘆號。</p>
-    <p class="limited hide"><a href="https://silph.gg/cup/voyager?lang=zh-TW">Silph官網 啟成盃規則</a></p>
 
+	<div class="continentals hide">
+		<div class="flex">
+			<div class="check" value="0"><span></span>Slot 1</div>
+			<div class="check" value="1"><span></span>Slot 2</div>
+			<div class="check" value="2"><span></span>Slot 3</div>
+			<div class="check" value="3"><span></span>Slot 4</div>
+			<div class="check" value="4"><span></span>Slot 5</div>
+			<div class="check" value="5"><span></span>Slot 6</div>
+		</div>
+	</div>
 	<div class="poke-search-container">
 		<input class="poke-search" context="ranking-search" type="text" placeholder="寶可夢中文名或英文屬性搜尋" />
 		<a href="#" class="search-info">i</a>

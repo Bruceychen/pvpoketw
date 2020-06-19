@@ -112,6 +112,7 @@ require_once 'header.php'; ?>
 					<div class="check" value="legendary"><span></span> 傳說的寶可夢</div>
 					<div class="check" value="mythical"><span></span> 幻之寶可夢</div>
 					<div class="check" value="alolan"><span></span> 阿羅拉型態</div>
+                    <div class="check" value="galarian"><span></span> 伽勒爾型態</div>
 					<div class="check" value="regional"><span></span> 地區限定</div>
                     <div class="check" value="shadow"><span></span>暗影化</div>
                     <div class="check" value="shadoweligible"><span></span>另有暗影化型態</div>

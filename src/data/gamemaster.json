@@ -337,7 +337,7 @@
         "title": "Season 2 continentals",
         "include": [{
             "filterType": "id",
-            "values": ["charizard", "blaziken", "typhlosion", "castform_sunny", "ninetales", "torkoal", "heatmor", "moltres", "bellossom", "tangrowth", "ludicolo", "sceptile", "cherrim_sunny", "serperior", "breloom", "exeggutor", "grotle", "tangela", "carnivine", "parasect", "castform_rainy", "blastoise", "alomomola", "seaking", "empoleon", "milotic", "wailord", "prinplup", "bibarel", "gyarados", "feraligatr", "golduck", "kingler", "suicune", "entei", "crawdaunt", "sharpedo", "cloyster", "vaporeon", "marowak_alolan", "sableye", "froslass", "drifblim", "banette", "dusclops", "golurk", "munchlax", "snorlax", "lickitung", "lickilicky", "zangoose", "linoone", "raticate_alolan", "noctowl", "pidgeot", "dunsparce", "ursaring", "castform", "furret", "porygon", "porygon2", "porygon_z", "delcatty", "girafarig", "machamp", "hitmontop", "primeape", "lucario", "poliwrath", "gallade", "hitmonchan", "perrserker", "chansey", "blissey", "azumarill", "altaria", "skarmory", "zweilous", "dragonair", "shelgon", "wigglytuff", "clefable", "granbull", "mawile", "registeel", "melmetal", "klang", "klinklang", "muk_alolan", "haunter", "gengar", "golbat", "skuntank", "drapion", "muk", "nidoqueen", "nidoking", "amoonguss", "qwilfish", "tentacruel", "lapras", "ninetales_alolan", "abomasnow", "walrein", "glalie", "piloswine", "mamoswine", "cryogonal", "glaceon", "beartic", "regice", "relicanth", "regirock", "carracosta", "corsola", "cradily", "graveler_alolan", "golem_alolan", "sudowoodo", "aggron", "lairon", "magcargo", "bonsly", "aerodactyl", "archen", "archeops", "victreebel", "vileplume", "gloom", "seviper", "swalot", "rhyperior", "lunatone", "solrock", "probopass", "mantine", "zapdos", "dragonite", "gliscor", "gligar", "togekiss", "honckrow", "electivire", "raikou", "lanturn", "magneton", "magnezone", "raichu", "raichu_alolan", "electrode", "zebstrika", "minun", "plusle", "ampharos", "stunfisk", "pachirisu", "marshtomp", "quagsire", "seismitoad", "palpitoad", "flygon", "torterra", "steelix", "claydol", "excadrill", "garchomp", "gastrodon_east_sea", "gastrodon_west_sea", "hippowdon", "camerupt", "donphan", "jirachi", "bronzong", "lugia", "wobbuffet", "celebi", "latios", "latias", "slowbro", "slowking", "alakazam", "gothitelle", "metagross", "sneasel", "weavile", "tyranitar", "shiftry", "escavalier", "forretress", "heracross", "galvantula", "crustle", "scizor", "beedrill", "vespiquen", "scolipede", "ninjask", "venomoth", "dustox", "linoone_galarian", "obstagoon", "wormadam_trash", "wormadam_plant", "wormadam_sandy", "durant", "hydreigon", "mr_mime", "metang", "pinsir", "kricketune", "masquerain", "yanma", "yanmega"]
+            "values": ["charizard", "blaziken", "typhlosion", "castform_sunny", "ninetales", "torkoal", "heatmor", "moltres", "bellossom", "tangrowth", "ludicolo", "sceptile", "cherrim_sunny", "serperior", "breloom", "exeggutor", "grotle", "tangela", "carnivine", "parasect", "castform_rainy", "blastoise", "alomomola", "seaking", "empoleon", "milotic", "wailord", "prinplup", "bibarel", "gyarados", "feraligatr", "golduck", "kingler", "suicune", "entei", "crawdaunt", "sharpedo", "cloyster", "vaporeon", "marowak_alolan", "sableye", "froslass", "drifblim", "banette", "dusclops", "golurk", "munchlax", "snorlax", "lickitung", "lickilicky", "zangoose", "linoone", "raticate_alolan", "noctowl", "pidgeot", "dunsparce", "ursaring", "castform", "furret", "porygon", "porygon2", "porygon_z", "delcatty", "girafarig", "machamp", "hitmontop", "primeape", "lucario", "poliwrath", "gallade", "hitmonchan", "perrserker", "chansey", "blissey", "azumarill", "altaria", "skarmory", "zweilous", "dragonair", "shelgon", "wigglytuff", "clefable", "granbull", "mawile", "registeel", "melmetal", "klang", "klinklang", "muk_alolan", "haunter", "gengar", "golbat", "skuntank", "drapion", "muk", "nidoqueen", "nidoking", "amoonguss", "qwilfish", "tentacruel", "lapras", "ninetales_alolan", "abomasnow", "walrein", "piloswine", "mamoswine", "cryogonal", "glaceon", "beartic", "regice", "relicanth", "regirock", "carracosta", "corsola", "cradily", "graveler_alolan", "golem_alolan", "sudowoodo", "aggron", "lairon", "magcargo", "bonsly", "aerodactyl", "archen", "archeops", "victreebel", "vileplume", "gloom", "seviper", "swalot", "rhyperior", "lunatone", "solrock", "probopass", "mantine", "zapdos", "dragonite", "gliscor", "gligar", "togekiss", "honchkrow", "electivire", "raikou", "lanturn", "magneton", "magnezone", "raichu", "raichu_alolan", "electrode", "zebstrika", "minun", "plusle", "ampharos", "stunfisk", "pachirisu", "marshtomp", "quagsire", "seismitoad", "palpitoad", "flygon", "torterra", "steelix", "claydol", "excadrill", "garchomp", "gastrodon_east_sea", "gastrodon_west_sea", "hippowdon", "camerupt", "donphan", "jirachi", "bronzong", "lugia", "wobbuffet", "celebi", "latios", "latias", "slowbro", "slowking", "alakazam", "gothitelle", "metagross", "sneasel", "weavile", "tyranitar", "shiftry", "escavalier", "forretress", "heracross", "galvantula", "crustle", "scizor", "beedrill", "vespiquen", "scolipede", "ninjask", "venomoth", "dustox", "obstagoon", "wormadam_trash", "wormadam_plant", "wormadam_sandy", "durant", "hydreigon", "mr_mime", "metang", "pinsir", "kricketune", "masquerain", "yanma", "yanmega"]
         }],
         "exclude": [],
 		"slots": [
@@ -7051,14 +7051,13 @@
 	        "hp": 186
 	    },
 	    "types": ["dark", "normal"],
-	    "fastMoves": ["SNARL", "LICK", "TACKLE", "SHADOW_CLAW"],
-	    "chargedMoves": ["DIG", "BODY_SLAM", "GUNK_SHOT", "GRASS_KNOT", "THUNDER"],
+	    "fastMoves": ["SNARL", "LICK"],
+	    "chargedMoves": ["DIG", "BODY_SLAM", "GUNK_SHOT"],
 		"tags": ["galarian"],
 	    "defaultIVs": {
 			"cp1500": [38.5, 5, 12, 11],
             "cp2500": [40, 15, 15, 15]
-	    },
-		"legacyMoves": ["TACKLE", "SHADOW_CLAW", "GRASS_KNOT", "THUNDER"]
+	    }
 	}, {
         "dex": 265,
         "speciesName": "刺尾蟲",
@@ -8003,7 +8002,8 @@
         "defaultIVs": {
             "cp1500": [35.5, 5, 8, 10],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"tags": ["regional"]
     }, {
         "dex": 314,
         "speciesName": "甜甜螢",
@@ -8019,7 +8019,8 @@
         "defaultIVs": {
             "cp1500": [35.5, 5, 8, 10],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"tags": ["regional"]
     }, {
         "dex": 315,
         "speciesName": "毒薔薇",
@@ -8492,7 +8493,8 @@
         "defaultIVs": {
             "cp1500": [22.5, 9, 14, 11],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"tags": ["regional"]
     }, {
         "dex": 336,
         "speciesName": "飯匙蛇",
@@ -8508,7 +8510,8 @@
         "defaultIVs": {
             "cp1500": [26.5, 6, 9, 15],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"tags": ["regional"]
     }, {
         "dex": 337,
         "speciesName": "月石",
@@ -8524,7 +8527,8 @@
         "defaultIVs": {
             "cp1500": [24, 5, 13, 10],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"tags": ["regional"]
     }, {
         "dex": 338,
         "speciesName": "太陽岩",
@@ -8540,7 +8544,8 @@
         "defaultIVs": {
             "cp1500": [24, 5, 13, 10],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"tags": ["regional"]
     }, {
         "dex": 339,
         "speciesName": "泥泥鰍",

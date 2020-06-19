@@ -18,7 +18,7 @@
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
 				<option value="premier" type="master" class="hide multi-battle">Premier Cup Meta</option>
 				<option value="sorcerous" type="great" class="multi-battle">Silph 魔幻盃 Meta</option>
-                <option value="continentals-2" type="great" class="multi-battle">Silph-2 洲際賽 Meta</option>
+                <option value="continentals" type="great" class="multi-battle">Silph-2 洲際賽 Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

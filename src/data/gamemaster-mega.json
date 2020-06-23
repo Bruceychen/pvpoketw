@@ -311,6 +311,20 @@
             "values": ["drapion", "mawile", "metang", "metagross", "lapras", "dewgong", "snorlax", "vigoroth", "slaking", "castform", "rufflet", "braviary", "chansey", "blissey", "mr_mime", "jynx", "eevee", "espeon", "delibird", "miltank", "gardevoir", "gallade", "chimecho", "chatot", "skorupi", "sigilyph", "cryogonal", "glaceon", "castform_snowy", "raichu_alolan", "linoone_galarian", "obstagoon"]
         }]
     }, {
+        "name": "sorcerous-bee",
+        "title": "Sorcerous Cup",
+        "include": [{
+            "filterType": "type",
+            "values": ["ice","poison","fairy","psychic","normal"]
+        }],
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["legendary", "mythical", "shadow"]
+        }, {
+            "filterType": "id",
+            "values": ["drapion", "mawile", "metang", "metagross", "lapras", "dewgong", "snorlax", "vigoroth", "slaking", "castform", "rufflet", "braviary", "chansey", "blissey", "mr_mime", "jynx", "eevee", "espeon", "delibird", "miltank", "gardevoir", "gallade", "chimecho", "chatot", "skorupi", "sigilyph", "cryogonal", "glaceon", "castform_snowy", "raichu_alolan", "linoone_galarian", "obstagoon"]
+        }]
+    }, {
         "name": "goteamup",
         "title": "GOTeamUp",
         "include": [],
@@ -467,6 +481,25 @@
         }
     }, {
         "dex": 3,
+        "speciesName": "妙蛙花 (Mega)",
+        "speciesId": "venusaur_mega",
+        "baseStats": {
+            "atk": 241,
+            "def": 246,
+            "hp": 190
+        },
+        "types": ["grass", "poison"],
+        "fastMoves": ["RAZOR_LEAF", "VINE_WHIP"],
+        "chargedMoves": ["FRENZY_PLANT", "PETAL_BLIZZARD", "SLUDGE_BOMB", "SOLAR_BEAM"],
+        "tags": ["starter", "shadoweligible"],
+        "defaultIVs": {
+            "cp1500": [15, 1, 15, 15],
+            "cp2500": [25.5, 0, 15, 9]
+        },
+        "level25CP": 1673,
+		"eliteMoves": ["FRENZY_PLANT"]
+    }, {
+        "dex": 3,
         "speciesName": "妙蛙花",
         "speciesId": "venusaur",
         "baseStats": {
@@ -594,6 +627,44 @@
         },
         "level25CP": 1784,
         "eliteMoves": ["EMBER", "WING_ATTACK", "BLAST_BURN", "FLAMETHROWER"]
+ }, {
+        "dex": 6,
+        "speciesName": "噴火龍 (Mega X)",
+        "speciesId": "charizard_mega_x",
+        "baseStats": {
+            "atk": 273,
+            "def": 213,
+            "hp": 186
+        },
+        "types": ["fire", "dragon"],
+        "fastMoves": ["AIR_SLASH", "EMBER", "FIRE_SPIN", "WING_ATTACK"],
+        "chargedMoves": ["BLAST_BURN", "DRAGON_CLAW", "FIRE_BLAST", "FLAMETHROWER", "OVERHEAT"],
+        "tags": ["starter", "shadoweligible"],
+        "defaultIVs": {
+            "cp1500": [14.5, 0, 11, 15],
+            "cp2500": [24, 1, 15, 13]
+        },
+        "level25CP": 1784,
+        "eliteMoves": ["EMBER", "WING_ATTACK", "BLAST_BURN", "FLAMETHROWER"]
+ }, {
+        "dex": 6,
+        "speciesName": "噴火龍 (Mega Y)",
+        "speciesId": "charizard_mega_y",
+        "baseStats": {
+            "atk": 290,
+            "def": 193,
+            "hp": 169
+        },
+        "types": ["fire", "flying"],
+        "fastMoves": ["AIR_SLASH", "EMBER", "FIRE_SPIN", "WING_ATTACK"],
+        "chargedMoves": ["BLAST_BURN", "DRAGON_CLAW", "FIRE_BLAST", "FLAMETHROWER", "OVERHEAT"],
+        "tags": ["starter", "shadoweligible"],
+        "defaultIVs": {
+            "cp1500": [15, 0, 10, 15],
+            "cp2500": [24.5, 3, 15, 14]
+        },
+        "level25CP": 1784,
+        "eliteMoves": ["EMBER", "WING_ATTACK", "BLAST_BURN", "FLAMETHROWER"]
     }, {
         "dex": 6,
         "speciesName": "噴火龍 暗影化",
@@ -698,6 +769,25 @@
         "defaultIVs": {
             "cp1500": [22, 9, 13, 15],
             "cp2500": [40, 15, 15, 15]
+        },
+        "level25CP": 1504,
+        "eliteMoves": ["HYDRO_CANNON"]
+    }, {
+        "dex": 9,
+        "speciesName": "水箭龜 (Mega)",
+        "speciesId": "blastoise_mega",
+        "baseStats": {
+            "atk": 264,
+            "def": 237,
+            "hp": 188
+        },
+        "types": ["water", "none"],
+        "fastMoves": ["BITE", "WATER_GUN"],
+        "chargedMoves": ["FLASH_CANNON", "HYDRO_CANNON", "HYDRO_PUMP", "ICE_BEAM", "SKULL_BASH"],
+        "tags": ["starter", "shadoweligible"],
+        "defaultIVs": {
+            "cp1500": [14, 1, 15, 15],
+            "cp2500": [23.5, 0, 14, 15]
         },
         "level25CP": 1504,
         "eliteMoves": ["HYDRO_CANNON"]
@@ -859,6 +949,25 @@
         "eliteMoves": ["BUG_BITE", "DRILL_RUN"]
     }, {
         "dex": 15,
+        "speciesName": "大針蜂 (Mega)",
+        "speciesId": "beedrill_mega",
+        "baseStats": {
+            "atk": 303,
+            "def": 148,
+            "hp": 163
+        },
+        "types": ["bug", "poison"],
+        "fastMoves": ["BUG_BITE", "INFESTATION", "POISON_JAB"],
+        "chargedMoves": ["AERIAL_ACE", "SLUDGE_BOMB", "X_SCISSOR", "FELL_STINGER", "DRILL_RUN"],
+        "defaultIVs": {
+            "cp1500": [16.5, 0, 11, 15],
+            "cp2500": [27, 1, 15, 15]
+        },
+        "level25CP": 1097,
+        "tags": ["shadoweligible"],
+        "eliteMoves": ["BUG_BITE", "DRILL_RUN"]
+    }, {
+        "dex": 15,
         "speciesName": "大針蜂 暗影化",
         "speciesId": "beedrill_shadow",
         "baseStats": {
@@ -922,6 +1031,23 @@
         "defaultIVs": {
             "cp1500": [25.5, 9, 14, 15],
             "cp2500": [40, 15, 15, 15]
+        },
+        "eliteMoves": ["WING_ATTACK", "AIR_CUTTER"]
+    }, {
+        "dex": 18,
+        "speciesName": "大比鳥 (Mega)",
+        "speciesId": "pidgeot_mega",
+        "baseStats": {
+            "atk": 280,
+            "def": 175,
+            "hp": 195
+        },
+        "types": ["normal", "flying"],
+        "fastMoves": ["AIR_SLASH", "STEEL_WING", "WING_ATTACK"],
+        "chargedMoves": ["AERIAL_ACE", "AIR_CUTTER", "BRAVE_BIRD", "HURRICANE"],
+        "defaultIVs": {
+            "cp1500": [15, 1, 15, 14],
+            "cp2500": [25, 0, 15, 15]
         },
         "eliteMoves": ["WING_ATTACK", "AIR_CUTTER"]
     }, {
@@ -2396,6 +2522,25 @@
         "eliteMoves": ["COUNTER", "DAZZLING_GLEAM", "PSYCHIC"]
     }, {
         "dex": 65,
+        "speciesName": "胡地 (Mega)",
+        "speciesId": "alakazam_mega",
+        "baseStats": {
+            "atk": 334,
+            "def": 176,
+            "hp": 133
+        },
+        "types": ["psychic", "none"],
+        "fastMoves": ["CONFUSION", "PSYCHO_CUT", "COUNTER"],
+        "chargedMoves": ["DAZZLING_GLEAM", "FIRE_PUNCH", "FOCUS_BLAST", "FUTURE_SIGHT", "PSYCHIC", "SHADOW_BALL"],
+        "defaultIVs": {
+            "cp1500": [15, 0, 15, 14],
+            "cp2500": [25, 0, 15, 14]
+        },
+        "level25CP": 1887,
+        "tags": ["shadoweligible"],
+        "eliteMoves": ["COUNTER", "DAZZLING_GLEAM", "PSYCHIC"]
+    }, {
+        "dex": 65,
         "speciesName": "胡地 暗影化",
         "speciesId": "alakazam_shadow",
         "baseStats": {
@@ -2775,6 +2920,22 @@
         "defaultIVs": {
             "cp1500": [22, 7, 12, 8],
             "cp2500": [39.5, 12, 15, 15]
+        }
+    }, {
+        "dex": 80,
+        "speciesName": "呆殼獸 (Mega)",
+        "speciesId": "slowbro_mega",
+        "baseStats": {
+            "atk": 224,
+            "def": 259,
+            "hp": 216
+        },
+        "types": ["water", "psychic"],
+        "fastMoves": ["CONFUSION", "WATER_GUN"],
+        "chargedMoves": ["ICE_BEAM", "PSYCHIC", "WATER_PULSE"],
+        "defaultIVs": {
+            "cp1500": [15, 0, 13, 14],
+            "cp2500": [25, 0, 12, 15]
         }
     }, {
         "dex": 81,
@@ -3179,6 +3340,23 @@
         "defaultIVs": {
             "cp1500": [19, 8, 15, 9],
             "cp2500": [34, 7, 8, 15]
+        },
+        "eliteMoves": ["LICK", "SLUDGE_WAVE", "DARK_PULSE", "PSYCHIC"]
+    }, {
+        "dex": 94,
+        "speciesName": "耿鬼 (Mega)",
+        "speciesId": "gengar_mega",
+        "baseStats": {
+            "atk": 318,
+            "def": 181,
+            "hp": 141
+        },
+        "types": ["ghost", "poison"],
+        "fastMoves": ["HEX", "LICK", "SHADOW_CLAW", "SUCKER_PUNCH"],
+        "chargedMoves": ["DARK_PULSE", "FOCUS_BLAST", "PSYCHIC", "SHADOW_BALL", "SLUDGE_BOMB", "SLUDGE_WAVE", "SHADOW_PUNCH"],
+        "defaultIVs": {
+            "cp1500": [15, 3, 15, 14],
+            "cp2500": [25, 2, 15, 15]
         },
         "eliteMoves": ["LICK", "SLUDGE_WAVE", "DARK_PULSE", "PSYCHIC"]
     }, {
@@ -3752,6 +3930,25 @@
         "level25CP": 1583,
         "eliteMoves": ["BRICK_BREAK", "STOMP"]
     }, {
+        "dex": 115,
+        "speciesName": "袋獸 (Mega)",
+        "speciesId": "kangaskhan_mega",
+        "baseStats": {
+            "atk": 246,
+            "def": 210,
+            "hp": 233
+        },
+        "types": ["normal", "none"],
+        "fastMoves": ["LOW_KICK", "MUD_SLAP"],
+        "chargedMoves": ["BRICK_BREAK", "CRUNCH", "EARTHQUAKE", "OUTRAGE", "STOMP", "POWER_UP_PUNCH"],
+        "tags": ["regional"],
+        "defaultIVs": {
+            "cp1500": [14.5, 0, 14, 15],
+            "cp2500": [24, 1, 15, 15]
+        },
+        "level25CP": 1583,
+        "eliteMoves": ["BRICK_BREAK", "STOMP"]
+    }, {
         "dex": 116,
         "speciesName": "墨海馬",
         "speciesId": "horsea",
@@ -4014,6 +4211,25 @@
         "eliteMoves": ["SUBMISSION"]
     }, {
         "dex": 127,
+        "speciesName": "凱羅斯 (Mega)",
+        "speciesId": "pinsir_mega",
+        "baseStats": {
+            "atk": 278,
+            "def": 210,
+            "hp": 148
+        },
+        "types": ["bug", "flying"],
+        "fastMoves": ["BUG_BITE", "FURY_CUTTER", "ROCK_SMASH"],
+        "chargedMoves": ["CLOSE_COMBAT", "SUBMISSION", "VICE_GRIP", "X_SCISSOR", "SUPER_POWER"],
+        "defaultIVs": {
+            "cp1500": [16, 0, 12, 13],
+            "cp2500": [26.5, 0, 12, 15]
+        },
+        "level25CP": 1828,
+        "tags": ["shadoweligible"],
+        "eliteMoves": ["SUBMISSION"]
+    }, {
+        "dex": 127,
         "speciesName": "凱羅斯 暗影化",
         "speciesId": "pinsir_shadow",
         "baseStats": {
@@ -4097,6 +4313,25 @@
         "defaultIVs": {
             "cp1500": [16, 10, 11, 13],
             "cp2500": [27.5, 6, 7, 11]
+        },
+        "level25CP": 2119,
+        "tags": ["shadoweligible"],
+        "eliteMoves": ["DRAGON_TAIL", "DRAGON_PULSE"]
+    }, {
+        "dex": 130,
+        "speciesName": "暴鯉龍 (Mega)",
+        "speciesId": "gyarados_mega",
+        "baseStats": {
+            "atk": 266,
+            "def": 225,
+            "hp": 197
+        },
+        "types": ["water", "dark"],
+        "fastMoves": ["BITE", "DRAGON_BREATH", "DRAGON_TAIL", "WATERFALL"],
+        "chargedMoves": ["CRUNCH", "DRAGON_PULSE", "HYDRO_PUMP", "OUTRAGE", "TWISTER"],
+        "defaultIVs": {
+            "cp1500": [14, 0, 15, 15],
+            "cp2500": [23.5, 0, 12, 15]
         },
         "level25CP": 2119,
         "tags": ["shadoweligible"],
@@ -4402,6 +4637,22 @@
             "cp2500": [36.5, 5, 11, 13]
         }
     }, {
+        "dex": 142,
+        "speciesName": "化石翼龍 (Mega)",
+        "speciesId": "aerodactyl_mega",
+        "baseStats": {
+            "atk": 266,
+            "def": 191,
+            "hp": 173
+        },
+        "types": ["rock", "flying"],
+        "fastMoves": ["BITE", "STEEL_WING", "ROCK_THROW"],
+        "chargedMoves": ["ANCIENT_POWER", "HYPER_BEAM", "IRON_HEAD", "ROCK_SLIDE", "EARTH_POWER"],
+        "defaultIVs": {
+            "cp1500": [16, 1, 15, 15],
+            "cp2500": [27, 0, 13, 13]
+        }
+    }, {
         "dex": 143,
         "speciesName": "卡比獸",
         "speciesId": "snorlax",
@@ -4672,6 +4923,42 @@
         "defaultIVs": {
             "cp1500": [13, 5, 14, 11],
             "cp2500": [21.5, 11, 13, 11]
+        },
+        "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"]
+    }, {
+        "dex": 150,
+        "speciesName": "超夢 (Mega X)",
+        "speciesId": "mewtwo_mega_x",
+        "baseStats": {
+            "atk": 375,
+            "def": 202,
+            "hp": 214
+        },
+        "types": ["psychic", "fighting"],
+        "fastMoves": ["CONFUSION", "PSYCHO_CUT"],
+        "chargedMoves": ["FLAMETHROWER", "FOCUS_BLAST", "HYPER_BEAM", "ICE_BEAM", "PSYCHIC", "SHADOW_BALL", "THUNDERBOLT", "PSYSTRIKE"],
+        "tags": ["legendary"],
+        "defaultIVs": {
+            "cp1500": [10, 3, 15, 14],
+            "cp2500": [16.5, 6, 15, 15]
+        },
+        "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"]
+    }, {
+        "dex": 150,
+        "speciesName": "超夢 (Mega Y)",
+        "speciesId": "mewtwo_mega_y",
+        "baseStats": {
+            "atk": 388,
+            "def": 208,
+            "hp": 214
+        },
+        "types": ["psychic", "none"],
+        "fastMoves": ["CONFUSION", "PSYCHO_CUT"],
+        "chargedMoves": ["FLAMETHROWER", "FOCUS_BLAST", "HYPER_BEAM", "ICE_BEAM", "PSYCHIC", "SHADOW_BALL", "THUNDERBOLT", "PSYSTRIKE"],
+        "tags": ["legendary"],
+        "defaultIVs": {
+            "cp1500": [9.5, 4, 15, 14],
+            "cp2500": [16, 1, 15, 13]
         },
         "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"]
     }, {
@@ -5269,6 +5556,25 @@
         "eliteMoves": ["DRAGON_PULSE"]
     }, {
         "dex": 181,
+        "speciesName": "電龍 (Mega)",
+        "speciesId": "ampharos_mega",
+        "baseStats": {
+            "atk": 268,
+            "def": 185,
+            "hp": 188
+        },
+        "types": ["electric", "dragon"],
+        "fastMoves": ["CHARGE_BEAM", "VOLT_SWITCH"],
+        "chargedMoves": ["DRAGON_PULSE", "FOCUS_BLAST", "POWER_GEM", "THUNDER", "ZAP_CANNON", "THUNDER_PUNCH"],
+        "defaultIVs": {
+            "cp1500": [15.5, 1, 15, 15],
+            "cp2500": [26, 0, 14, 15]
+        },
+        "level25CP": 1760,
+        "tags": ["shadoweligible"],
+        "eliteMoves": ["DRAGON_PULSE"]
+    }, {
+        "dex": 181,
         "speciesName": "電龍 暗影化",
         "speciesId": "ampharos_shadow",
         "baseStats": {
@@ -5786,6 +6092,22 @@
         }
     }, {
         "dex": 208,
+        "speciesName": "大鋼蛇 (Mega)",
+        "speciesId": "steelix_mega",
+        "baseStats": {
+            "atk": 212,
+            "def": 327,
+            "hp": 181
+        },
+        "types": ["steel", "ground"],
+        "fastMoves": ["DRAGON_TAIL", "IRON_TAIL", "THUNDER_FANG"],
+        "chargedMoves": ["CRUNCH", "EARTHQUAKE", "HEAVY_SLAM"],
+        "defaultIVs": {
+            "cp1500": [15.5, 0, 7, 15],
+            "cp2500": [25.5, 0, 15, 15]
+        }
+    }, {
+        "dex": 208,
         "speciesName": "大鋼蛇",
         "speciesId": "steelix",
         "baseStats": {
@@ -5870,6 +6192,24 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 212,
+        "speciesName": "巨鉗螳螂 (Mega)",
+        "speciesId": "scizor_mega",
+        "baseStats": {
+            "atk": 254,
+            "def": 228,
+            "hp": 157
+        },
+        "types": ["bug", "steel"],
+        "fastMoves": ["BULLET_PUNCH", "FURY_CUTTER"],
+        "chargedMoves": ["IRON_HEAD", "NIGHT_SLASH", "X_SCISSOR"],
+        "defaultIVs": {
+            "cp1500": [16.5, 0, 14, 9],
+            "cp2500": [27, 0, 14, 15]
+        },
+        "level25CP": 1857,
+        "tags": ["shadoweligible"]
+    }, {
+        "dex": 212,
         "speciesName": "巨鉗螳螂 暗影化",
         "speciesId": "scizor_shadow",
         "baseStats": {
@@ -5917,6 +6257,23 @@
         "defaultIVs": {
             "cp1500": [17.5, 8, 15, 11],
             "cp2500": [29, 9, 14, 14]
+        }
+    }, {
+        "dex": 214,
+        "speciesName": "赫拉克羅斯 (Mega)",
+        "speciesId": "heracross_mega",
+        "baseStats": {
+            "atk": 304,
+            "def": 203,
+            "hp": 173
+        },
+        "types": ["bug", "fighting"],
+        "fastMoves": ["COUNTER", "STRUGGLE_BUG"],
+        "chargedMoves": ["CLOSE_COMBAT", "EARTHQUAKE", "MEGAHORN"],
+        "tags": ["regional"],
+        "defaultIVs": {
+            "cp1500": [13.5, 3, 15, 15],
+            "cp2500": [23, 0, 13, 13]
         }
     }, {
         "dex": 215,
@@ -6217,6 +6574,24 @@
         "defaultIVs": {
             "cp1500": [21, 7, 9, 14],
             "cp2500": [38, 12, 12, 13]
+        },
+        "level25CP": 1613,
+        "tags": ["shadoweligible"]
+    }, {
+        "dex": 229,
+        "speciesName": "黑魯加 (Mega)",
+        "speciesId": "houndoom_mega",
+        "baseStats": {
+            "atk": 289,
+            "def": 194,
+            "hp": 181
+        },
+        "types": ["dark", "fire"],
+        "fastMoves": ["FIRE_FANG", "SNARL"],
+        "chargedMoves": ["CRUNCH", "FIRE_BLAST", "FLAMETHROWER", "FOUL_PLAY"],
+        "defaultIVs": {
+            "cp1500": [14.5, 0, 12, 14],
+            "cp2500": [24, 0, 14, 15]
         },
         "level25CP": 1613,
         "tags": ["shadoweligible"]
@@ -6667,6 +7042,25 @@
         "eliteMoves": ["SMACK_DOWN"]
     }, {
         "dex": 248,
+        "speciesName": "班基拉斯 (Mega)",
+        "speciesId": "tyranitar_mega",
+        "baseStats": {
+            "atk": 281,
+            "def": 251,
+            "hp": 205
+        },
+        "types": ["rock", "dark"],
+        "fastMoves": ["BITE", "IRON_TAIL", "SMACK_DOWN"],
+        "chargedMoves": ["CRUNCH", "FIRE_BLAST", "STONE_EDGE"],
+        "defaultIVs": {
+            "cp1500": [12.5, 0, 14, 11],
+            "cp2500": [20.5, 1, 15, 15]
+        },
+        "level25CP": 2416,
+        "tags": ["shadoweligible"],
+        "eliteMoves": ["SMACK_DOWN"]
+    }, {
+        "dex": 248,
         "speciesName": "班基拉斯 暗影化",
         "speciesId": "tyranitar_shadow",
         "baseStats": {
@@ -6788,6 +7182,24 @@
         },
         "eliteMoves": ["FRENZY_PLANT"]
     }, {
+        "dex": 254,
+        "speciesName": "蜥蜴王 (Mega)",
+        "speciesId": "sceptile_mega",
+        "baseStats": {
+            "atk": 291,
+            "def": 169,
+            "hp": 157
+        },
+        "types": ["grass", "dragon"],
+        "fastMoves": ["BULLET_SEED", "FURY_CUTTER"],
+        "chargedMoves": ["AERIAL_ACE", "EARTHQUAKE", "LEAF_BLADE", "FRENZY_PLANT", "DRAGON_CLAW"],
+        "tags": ["starter"],
+        "defaultIVs": {
+            "cp1500": [16.5, 0, 13, 11],
+            "cp2500": [27, 0, 15, 15]
+        },
+        "eliteMoves": ["FRENZY_PLANT"]
+    }, {
         "dex": 255,
         "speciesName": "火稚雞",
         "speciesId": "torchic",
@@ -6837,6 +7249,24 @@
         "defaultIVs": {
             "cp1500": [19, 9, 13, 14],
             "cp2500": [34.5, 5, 12, 14]
+        },
+        "eliteMoves": ["BLAST_BURN", "STONE_EDGE"]
+    }, {
+        "dex": 257,
+        "speciesName": "火焰雞 (Mega)",
+        "speciesId": "blaziken_mega",
+        "baseStats": {
+            "atk": 299,
+            "def": 153,
+            "hp": 173
+        },
+        "types": ["fire", "fighting"],
+        "fastMoves": ["COUNTER", "FIRE_SPIN"],
+        "chargedMoves": ["BRAVE_BIRD", "FOCUS_BLAST", "OVERHEAT", "STONE_EDGE", "BLAST_BURN", "BLAZE_KICK"],
+        "tags": ["starter"],
+        "defaultIVs": {
+            "cp1500": [16, 0, 13, 13],
+            "cp2500": [26.5, 0, 13, 15]
         },
         "eliteMoves": ["BLAST_BURN", "STONE_EDGE"]
     }, {
@@ -6925,6 +7355,25 @@
         "defaultIVs": {
             "cp1500": [19, 5, 7, 10],
             "cp2500": [32, 6, 11, 14]
+        },
+        "level25CP": 1841,
+        "eliteMoves": ["HYDRO_CANNON"]
+    }, {
+        "dex": 260,
+        "speciesName": "巨沼怪 (Mega)",
+        "speciesId": "swampert_mega",
+        "baseStats": {
+            "atk": 258,
+            "def": 198,
+            "hp": 205
+        },
+        "types": ["water", "ground"],
+        "fastMoves": ["MUD_SHOT", "WATER_GUN"],
+        "chargedMoves": ["EARTHQUAKE", "SLUDGE_WAVE", "SURF", "HYDRO_CANNON", "MUDDY_WATER"],
+        "tags": ["starter", "shadoweligible"],
+        "defaultIVs": {
+            "cp1500": [15, 1, 15, 15],
+            "cp2500": [25, 1, 15, 14]
         },
         "level25CP": 1841,
         "eliteMoves": ["HYDRO_CANNON"]
@@ -7037,13 +7486,14 @@
 	        "hp": 186
 	    },
 	    "types": ["dark", "normal"],
-	    "fastMoves": ["SNARL", "LICK"],
-	    "chargedMoves": ["DIG", "BODY_SLAM", "GUNK_SHOT"],
+	    "fastMoves": ["SNARL", "LICK", "TACKLE", "SHADOW_CLAW"],
+	    "chargedMoves": ["DIG", "BODY_SLAM", "GUNK_SHOT", "GRASS_KNOT", "THUNDER"],
 		"tags": ["galarian"],
 	    "defaultIVs": {
 			"cp1500": [38.5, 5, 12, 11],
             "cp2500": [40, 15, 15, 15]
-	    }
+	    },
+		"legacyMoves": ["TACKLE", "SHADOW_CLAW", "GRASS_KNOT", "THUNDER"]
 	}, {
         "dex": 265,
         "speciesName": "刺尾蟲",
@@ -7434,6 +7884,25 @@
         "eliteMoves": ["SYNCHRONOISE"]
     }, {
         "dex": 282,
+        "speciesName": "沙奈朵 (Mega)",
+        "speciesId": "gardevoir_mega",
+        "baseStats": {
+            "atk": 297,
+            "def": 208,
+            "hp": 154
+        },
+        "types": ["psychic", "fairy"],
+        "fastMoves": ["CHARGE_BEAM", "CONFUSION", "CHARM"],
+        "chargedMoves": ["DAZZLING_GLEAM", "PSYCHIC", "SHADOW_BALL", "SYNCHRONOISE"],
+        "defaultIVs": {
+            "cp1500": [14.5, 2, 15, 14],
+            "cp2500": [24.5, 0, 12, 14]
+        },
+        "level25CP": 1919,
+        "tags": ["shadoweligible"],
+        "eliteMoves": ["SYNCHRONOISE"]
+    }, {
+        "dex": 282,
         "speciesName": "沙奈朵 暗影化",
         "speciesId": "gardevoir_shadow",
         "baseStats": {
@@ -7779,6 +8248,24 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 302,
+        "speciesName": "勾魂眼 (Mega)",
+        "speciesId": "sableye_mega",
+        "baseStats": {
+            "atk": 151,
+            "def": 216,
+            "hp": 137
+        },
+        "types": ["dark", "ghost"],
+        "fastMoves": ["FEINT_ATTACK", "SHADOW_CLAW"],
+        "chargedMoves": ["FOUL_PLAY", "POWER_GEM", "SHADOW_SNEAK"],
+        "defaultIVs": {
+            "cp1500": [30, 0, 15, 12],
+            "cp2500": [40, 15, 15, 15]
+        },
+        "level25CP": 858,
+        "tags": ["shadoweligible"]
+    }, {
+        "dex": 302,
         "speciesName": "勾魂眼 暗影化",
         "speciesId": "sableye_shadow",
         "baseStats": {
@@ -7808,6 +8295,24 @@
         "chargedMoves": ["IRON_HEAD", "PLAY_ROUGH", "VICE_GRIP", "POWER_UP_PUNCH"],
         "defaultIVs": {
             "cp1500": [39, 6, 14, 10],
+            "cp2500": [40, 15, 15, 15]
+        },
+        "level25CP": 961,
+        "tags": ["shadoweligible"]
+    }, {
+        "dex": 303,
+        "speciesName": "大嘴娃 (Mega)",
+        "speciesId": "mawile_mega",
+        "baseStats": {
+            "atk": 188,
+            "def": 217,
+            "hp": 137
+        },
+        "types": ["steel", "fairy"],
+        "fastMoves": ["ASTONISH", "BITE", "FIRE_FANG", "ICE_FANG"],
+        "chargedMoves": ["IRON_HEAD", "PLAY_ROUGH", "VICE_GRIP", "POWER_UP_PUNCH"],
+        "defaultIVs": {
+            "cp1500": [24, 0, 14, 13],
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 961,
@@ -7878,6 +8383,22 @@
             "cp2500": [31.5, 7, 15, 9]
         }
     }, {
+        "dex": 306,
+        "speciesName": "波士可多拉 (Mega)",
+        "speciesId": "aggron_mega",
+        "baseStats": {
+            "atk": 225,
+            "def": 301,
+            "hp": 157
+        },
+        "types": ["steel", "none"],
+        "fastMoves": ["DRAGON_TAIL", "IRON_TAIL", "SMACK_DOWN"],
+        "chargedMoves": ["HEAVY_SLAM", "STONE_EDGE", "THUNDER"],
+        "defaultIVs": {
+            "cp1500": [16, 1, 15, 14],
+            "cp2500": [27, 0, 12, 13]
+        }
+    }, {
         "dex": 307,
         "speciesName": "瑪沙那",
         "speciesId": "meditite",
@@ -7907,6 +8428,22 @@
         "chargedMoves": ["DYNAMIC_PUNCH", "ICE_PUNCH", "PSYCHIC", "POWER_UP_PUNCH"],
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
+            "cp2500": [40, 15, 15, 15]
+        }
+    }, {
+        "dex": 308,
+        "speciesName": "恰雷姆 (Mega)",
+        "speciesId": "medicham_mega",
+        "baseStats": {
+            "atk": 205,
+            "def": 179,
+            "hp": 155
+        },
+        "types": ["fighting", "psychic"],
+        "fastMoves": ["COUNTER", "PSYCHO_CUT"],
+        "chargedMoves": ["DYNAMIC_PUNCH", "ICE_PUNCH", "PSYCHIC", "POWER_UP_PUNCH"],
+        "defaultIVs": {
+            "cp1500": [22.5, 1, 15, 14],
             "cp2500": [40, 15, 15, 15]
         }
     }, {
@@ -7940,6 +8477,22 @@
         "defaultIVs": {
             "cp1500": [23.5, 5, 15, 11],
             "cp2500": [40, 15, 15, 15]
+        }
+    }, {
+        "dex": 310,
+        "speciesName": "雷電獸 (Mega)",
+        "speciesId": "manectric_mega",
+        "baseStats": {
+            "atk": 286,
+            "def": 179,
+            "hp": 172
+        },
+        "types": ["electric", "none"],
+        "fastMoves": ["CHARGE_BEAM", "SNARL"],
+        "chargedMoves": ["FLAME_BURST", "THUNDER", "WILD_CHARGE"],
+        "defaultIVs": {
+            "cp1500": [15.5, 0, 15, 13],
+            "cp2500": [26, 0, 13, 13]
         }
     }, {
         "dex": 311,
@@ -8110,6 +8663,24 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 319,
+        "speciesName": "巨牙鯊 (Mega)",
+        "speciesId": "sharpedo_mega",
+        "baseStats": {
+            "atk": 289,
+            "def": 144,
+            "hp": 172
+        },
+        "types": ["water", "dark"],
+        "fastMoves": ["BITE", "WATERFALL"],
+        "chargedMoves": ["CRUNCH", "HYDRO_PUMP", "POISON_FANG"],
+        "defaultIVs": {
+            "cp1500": [17, 0, 15, 12],
+            "cp2500": [28, 1, 15, 15]
+        },
+        "level25CP": 1295,
+        "tags": ["shadoweligible"]
+    }, {
+        "dex": 319,
         "speciesName": "巨牙鯊 暗影化",
         "speciesId": "sharpedo_shadow",
         "baseStats": {
@@ -8188,7 +8759,22 @@
         "defaultIVs": {
             "cp1500": [25.5, 6, 9, 14],
             "cp2500": [40, 15, 15, 15]
-
+        }
+    }, {
+        "dex": 323,
+        "speciesName": "噴火駝 (Mega)",
+        "speciesId": "camerupt_mega",
+        "baseStats": {
+            "atk": 253,
+            "def": 183,
+            "hp": 172
+        },
+        "types": ["fire", "ground"],
+        "fastMoves": ["EMBER", "ROCK_SMASH"],
+        "chargedMoves": ["EARTHQUAKE", "OVERHEAT", "SOLAR_BEAM", "EARTH_POWER"],
+        "defaultIVs": {
+            "cp1500": [17.5, 0, 14, 11],
+            "cp2500": [29, 0, 14, 13]
         }
     }, {
         "dex": 324,
@@ -8463,6 +9049,22 @@
         "defaultIVs": {
             "cp1500": [28.5, 5, 9, 12],
             "cp2500": [40, 15, 15, 15]
+        }
+    }, {
+        "dex": 334,
+        "speciesName": "七夕青鳥 (Mega)",
+        "speciesId": "altaria_mega",
+        "baseStats": {
+            "atk": 222,
+            "def": 218,
+            "hp": 181
+        },
+        "types": ["dragon", "fairy"],
+        "fastMoves": ["DRAGON_BREATH", "PECK"],
+        "chargedMoves": ["DAZZLING_GLEAM", "DRAGON_PULSE", "SKY_ATTACK"],
+        "defaultIVs": {
+            "cp1500": [18, 0, 8, 15],
+            "cp2500": [29.5, 0, 15, 15]
         }
     }, {
         "dex": 335,
@@ -8860,6 +9462,24 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 354,
+        "speciesName": "詛咒娃娃 (Mega)",
+        "speciesId": "banette_mega",
+        "baseStats": {
+            "atk": 312,
+            "def": 160,
+            "hp": 162
+        },
+        "types": ["ghost", "none"],
+        "fastMoves": ["HEX", "SHADOW_CLAW"],
+        "chargedMoves": ["DAZZLING_GLEAM", "SHADOW_BALL", "THUNDER"],
+        "defaultIVs": {
+            "cp1500": [15.5, 0, 12, 13],
+            "cp2500": [25.5, 0, 15, 15]
+        },
+        "level25CP": 1389,
+        "tags": ["shadoweligible"]
+    }, {
+        "dex": 354,
         "speciesName": "詛咒娃娃 暗影化",
         "speciesId": "banette_shadow",
         "baseStats": {
@@ -8998,6 +9618,24 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 359,
+        "speciesName": "阿勃梭魯 (Mega)",
+        "speciesId": "absol_mega",
+        "baseStats": {
+            "atk": 314,
+            "def": 130,
+            "hp": 163
+        },
+        "types": ["dark", "none"],
+        "fastMoves": ["PSYCHO_CUT", "SNARL"],
+        "chargedMoves": ["DARK_PULSE", "MEGAHORN", "THUNDER"],
+        "defaultIVs": {
+            "cp1500": [16.5, 4, 15, 14],
+            "cp2500": [28, 0, 13, 14]
+        },
+        "level25CP": 1534,
+        "tags": ["shadoweligible"]
+    }, {
+        "dex": 359,
         "speciesName": "阿勃梭魯 暗影化",
         "speciesId": "absol_shadow",
         "baseStats": {
@@ -9060,6 +9698,22 @@
         "defaultIVs": {
             "cp1500": [26.5, 7, 12, 11],
             "cp2500": [40, 15, 15, 15]
+        }
+    }, {
+        "dex": 362,
+        "speciesName": "冰鬼護 (Mega)",
+        "speciesId": "glalie_mega",
+        "baseStats": {
+            "atk": 252,
+            "def": 168,
+            "hp": 190
+        },
+        "types": ["ice", "none"],
+        "fastMoves": ["FROST_BREATH", "ICE_SHARD"],
+        "chargedMoves": ["AVALANCHE", "GYRO_BALL", "SHADOW_BALL"],
+        "defaultIVs": {
+            "cp1500": [17.5, 0, 10, 14],
+            "cp2500": [29, 0, 13, 13]
         }
     }, {
         "dex": 363,
@@ -9281,6 +9935,25 @@
         "eliteMoves": ["OUTRAGE"]
     }, {
         "dex": 373,
+        "speciesName": "暴飛龍 (Mega)",
+        "speciesId": "salamence_mega",
+        "baseStats": {
+            "atk": 282,
+            "def": 228,
+            "hp": 197
+        },
+        "types": ["dragon", "flying"],
+        "fastMoves": ["BITE", "DRAGON_TAIL", "FIRE_FANG"],
+        "chargedMoves": ["DRACO_METEOR", "FIRE_BLAST", "HYDRO_PUMP", "OUTRAGE"],
+        "defaultIVs": {
+            "cp1500": [13, 3, 15, 15],
+            "cp2500": [22, 0, 15, 13]
+        },
+        "level25CP": 2354,
+        "tags": ["shadoweligible"],
+        "eliteMoves": ["OUTRAGE"]
+    }, {
+        "dex": 373,
         "speciesName": "暴飛龍 暗影化",
         "speciesId": "salamence_shadow",
         "baseStats": {
@@ -9388,6 +10061,25 @@
         "eliteMoves": ["METEOR_MASH"]
     }, {
         "dex": 376,
+        "speciesName": "巨金怪 (Mega)",
+        "speciesId": "metagross_mega",
+        "baseStats": {
+            "atk": 273,
+            "def": 263,
+            "hp": 173
+        },
+        "types": ["steel", "psychic"],
+        "fastMoves": ["BULLET_PUNCH", "ZEN_HEADBUTT"],
+        "chargedMoves": ["EARTHQUAKE", "FLASH_CANNON", "METEOR_MASH", "PSYCHIC"],
+        "defaultIVs": {
+            "cp1500": [13.5, 0, 13, 15],
+            "cp2500": [22.5, 0, 13, 15]
+        },
+        "level25CP": 2386,
+        "tags": ["shadoweligible"],
+        "eliteMoves": ["METEOR_MASH"]
+    }, {
+        "dex": 376,
         "speciesName": "巨金怪 暗影化",
         "speciesId": "metagross_shadow",
         "baseStats": {
@@ -9473,6 +10165,23 @@
             "cp2500": [26, 6, 10, 15]
         }
     }, {
+        "dex": 380,
+        "speciesName": "拉帝亞斯 (Mega)",
+        "speciesId": "latias_mega",
+        "baseStats": {
+            "atk": 263,
+            "def": 270,
+            "hp": 173
+        },
+        "types": ["dragon", "psychic"],
+        "fastMoves": ["DRAGON_BREATH", "ZEN_HEADBUTT", "CHARM"],
+        "chargedMoves": ["OUTRAGE", "PSYCHIC", "THUNDER"],
+        "tags": ["legendary"],
+        "defaultIVs": {
+            "cp1500": [13.5, 6, 15, 15],
+            "cp2500": [23, 1, 13, 15]
+        }
+    }, {
         "dex": 381,
         "speciesName": "拉帝歐斯",
         "speciesId": "latios",
@@ -9488,6 +10197,23 @@
         "defaultIVs": {
             "cp1500": [14, 13, 13, 13],
             "cp2500": [24, 7, 13, 9]
+        }
+    }, {
+        "dex": 381,
+        "speciesName": "拉帝歐斯 (Mega)",
+        "speciesId": "latios_mega",
+        "baseStats": {
+            "atk": 305,
+            "def": 219,
+            "hp": 173
+        },
+        "types": ["dragon", "psychic"],
+        "fastMoves": ["DRAGON_BREATH", "ZEN_HEADBUTT"],
+        "chargedMoves": ["DRAGON_CLAW", "PSYCHIC", "SOLAR_BEAM"],
+        "tags": ["legendary"],
+        "defaultIVs": {
+            "cp1500": [13, 4, 15, 14],
+            "cp2500": [22, 1, 14, 13]
         }
     }, {
         "dex": 382,
@@ -9540,6 +10266,23 @@
         "defaultIVs": {
             "cp1500": [14.5, 6, 13, 5],
             "cp2500": [23.5, 9, 11, 14]
+        }
+    }, {
+        "dex": 384,
+        "speciesName": "烈空坐 (Mega)",
+        "speciesId": "rayquaza_mega",
+        "baseStats": {
+            "atk": 354,
+            "def": 197,
+            "hp": 212
+        },
+        "types": ["dragon", "flying"],
+        "fastMoves": ["AIR_SLASH", "DRAGON_TAIL"],
+        "chargedMoves": ["AERIAL_ACE", "ANCIENT_POWER", "OUTRAGE"],
+        "tags": ["legendary"],
+        "defaultIVs": {
+            "cp1500": [11, 1, 8, 14],
+            "cp2500": [18, 1, 15, 14]
         }
     }, {
         "dex": 385,
@@ -10486,6 +11229,22 @@
             "cp2500": [40, 15, 15, 15]
         }
     }, {
+        "dex": 428,
+        "speciesName": "長耳兔 (Mega)",
+        "speciesId": "lopunny_mega",
+        "baseStats": {
+            "atk": 282,
+            "def": 214,
+            "hp": 163
+        },
+        "types": ["normal", "fighting"],
+        "fastMoves": ["LOW_KICK", "POUND"],
+        "chargedMoves": ["FIRE_PUNCH", "FOCUS_BLAST", "HYPER_BEAM"],
+        "defaultIVs": {
+            "cp1500": [15, 0, 13, 11],
+            "cp2500": [24.5, 2, 15, 14]
+        }
+    }, {
         "dex": 429,
         "speciesName": "夢妖魔",
         "speciesId": "mismagius",
@@ -10780,6 +11539,22 @@
             "cp2500": [23, 8, 15, 7]
         }
     }, {
+        "dex": 445,
+        "speciesName": "烈咬陸鯊 (Mega)",
+        "speciesId": "garchomp_mega",
+        "baseStats": {
+            "atk": 308,
+            "def": 202,
+            "hp": 217
+        },
+        "types": ["dragon", "ground"],
+        "fastMoves": ["DRAGON_TAIL", "MUD_SHOT"],
+        "chargedMoves": ["EARTHQUAKE", "FIRE_BLAST", "OUTRAGE", "SAND_TOMB"],
+        "defaultIVs": {
+            "cp1500": [12, 4, 15, 15],
+            "cp2500": [20.5, 0, 12, 13]
+        }
+    }, {
         "dex": 446,
         "speciesName": "小卡比獸",
         "speciesId": "munchlax",
@@ -10826,6 +11601,22 @@
         "defaultIVs": {
             "cp1500": [20.5, 9, 10, 10],
             "cp2500": [38.5, 5, 11, 13]
+        }
+    }, {
+        "dex": 448,
+        "speciesName": "路卡利歐 (Mega)",
+        "speciesId": "lucario_mega",
+        "baseStats": {
+            "atk": 310,
+            "def": 175,
+            "hp": 172
+        },
+        "types": ["fighting", "steel"],
+        "fastMoves": ["BULLET_PUNCH", "COUNTER"],
+        "chargedMoves": ["CLOSE_COMBAT", "FLASH_CANNON", "SHADOW_BALL", "POWER_UP_PUNCH", "AURA_SPHERE"],
+        "defaultIVs": {
+            "cp1500": [14.5, 0, 14, 13],
+            "cp2500": [24, 1, 15, 13]
         }
     }, {
         "dex": 449,
@@ -11038,6 +11829,24 @@
         "defaultIVs": {
             "cp1500": [23.5, 5, 14, 11],
             "cp2500": [40, 15, 15, 15]
+        },
+        "level25CP": 1436,
+        "tags": ["shadoweligible"]
+    }, {
+        "dex": 460,
+        "speciesName": "暴雪王 (Mega)",
+        "speciesId": "abomasnow_mega",
+        "baseStats": {
+            "atk": 240,
+            "def": 191,
+            "hp": 207
+        },
+        "types": ["grass", "ice"],
+        "fastMoves": ["POWDER_SNOW", "RAZOR_LEAF"],
+        "chargedMoves": ["BLIZZARD", "ENERGY_BALL", "OUTRAGE"],
+        "defaultIVs": {
+            "cp1500": [16.5, 0, 14, 13],
+            "cp2500": [27.5, 0, 12, 15]
         },
         "level25CP": 1436,
         "tags": ["shadoweligible"]
@@ -11399,6 +12208,25 @@
         "defaultIVs": {
             "cp1500": [18, 5, 9, 12],
             "cp2500": [29.5, 9, 11, 12]
+        },
+        "level25CP": 1919,
+        "tags": ["shadoweligible"],
+        "eliteMoves": ["SYNCHRONOISE"]
+    }, {
+        "dex": 475,
+        "speciesName": "艾路雷朵 (Mega)",
+        "speciesId": "gallade_mega",
+        "baseStats": {
+            "atk": 297,
+            "def": 209,
+            "hp": 154
+        },
+        "types": ["psychic", "fighting"],
+        "fastMoves": ["CONFUSION", "LOW_KICK", "CHARM"],
+        "chargedMoves": ["CLOSE_COMBAT", "LEAF_BLADE", "PSYCHIC", "SYNCHRONOISE"],
+        "defaultIVs": {
+            "cp1500": [14.5, 2, 15, 14],
+            "cp2500": [24.5, 0, 11, 14]
         },
         "level25CP": 1919,
         "tags": ["shadoweligible"],
@@ -12746,6 +13574,22 @@
         "defaultIVs": {
             "cp1500": [37, 7, 14, 12],
             "cp2500": [40, 15, 15, 15]
+        }
+    }, {
+        "dex": 531,
+        "speciesId": "audino_mega",
+        "speciesName": "差不多娃娃 (Mega)",
+        "baseStats": {
+            "atk": 147,
+            "def": 239,
+            "hp": 230
+        },
+        "types": ["normal", "fairy"],
+        "fastMoves": ["POUND", "ZEN_HEADBUTT"],
+        "chargedMoves": ["DISARMING_VOICE", "DAZZLING_GLEAM", "HYPER_BEAM"],
+        "defaultIVs": {
+            "cp1500": [23, 0, 14, 14],
+            "cp2500": [40, 14, 15, 13]
         }
     }, {
         "dex": 532,
@@ -15251,6 +16095,14 @@
         "type": "fire",
         "power": 110,
         "energy": 50,
+        "energyGain": 0,
+        "cooldown": 500
+    }, {
+        "moveId": "SWAG_LAZER",
+        "name": "Swag Lazer",
+        "type": "psychic",
+        "power": 9000,
+        "energy": 35,
         "energyGain": 0,
         "cooldown": 500
     }, {

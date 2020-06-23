@@ -27,14 +27,12 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-    <h4>v1.15.6 (June 15, 2020)</h4>
+    <h4>v1.15.7 (June 15, 2020)</h4>
     <ul>
-        <li>Removed same-turn "hooking" from Charged Move interactions.</li>
+        <li>Speculative stats for Mega Pokemon are now available under special site settings:</li>
         <ul>
-            <li>Previously, Charged Moves queued in the middle of your Fast Move would "hook" into the same turn as an opponent firing their Charged Move. This no longer appears to be how Charged Moves interact.</li>
+            <li>Head to the <a href="<?php echo $WEB_ROOT; ?>settings/">Settings page</a> and select the "Mega Evolutions" version of the game master to enable Mega Evolutions. These will be available on the Battle page simulations, Custom Rankings, and Training Battles. (They won't appear in the default rankings.)</li>
         </ul>
-        <li>"Key Matchups" and "Top Counters" sections in the rankings have now been renamed "Key Wins" and "Key Losses". The Key Losses section now has weighting applied to highlight meta-relevant matchups.</li>
-        <li>Added a temporary Sorcerous Cup listing that includes Drill Run Beedrill.</li>
     </ul>
 
 	<h3>Latest Article</h3>
@@ -81,8 +79,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Fri Jun 19 12:45:17 2020 +0800</li>
-                <li>原版最後版本時間：Thu Jun 18 14:05:51 2020 -0500</li>
+                <li>中文版最後更新時間：Sun Jun 21 22:30:17 2020 +0800</li>
+                <li>原版最後版本時間：Fri Jun 19 22:08:55 2020 -0500</li>
             </ul>
 </div>
 

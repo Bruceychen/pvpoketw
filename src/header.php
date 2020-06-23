@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.15.7.1.2';
+$SITE_VERSION = '1.15.7.1.3';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -188,5 +188,5 @@ if(! isset($OG_IMAGE)){
 	<div class="main-wrap">
 		<div id="main">
 			<?php if((isset($_SETTINGS->gamemaster)) && ($_SETTINGS->gamemaster == 'gamemaster-mega')): ?>
-				<div class="section white"><b>Information for Mega Evolutions is speculative! It may not be accurate to how Mega Evolution stats and mechanics are implemented. Don't make any investments based on the speculation below.</b></div>
+				<div class="section white"><b>特別聲明：當前所有Mega相關的數據資料均來自於本傳遊戲的推算估算，並非Pokemon GO的最後正式版。請千萬不要依照此資料培育任何寶可夢。</b></div>
 			<?php endif; ?>

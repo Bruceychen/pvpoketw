@@ -40,9 +40,10 @@ require_once '../header.php';
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>
-                <option value="10000 premier">Premier Cup</option>
-                <option value="1500 sorcerous">Silph 魔幻盃</option>
-                <option value="1500 continentals-2">Silph-2 洲際賽</option>
+				<option value="10000 premier">Premier Cup</option>
+				<option value="1500 catacomb">Silph Catacomb Cup</option>
+				<option value="1500 sorcerous">Silph 魔幻盃</option>
+				<option value="1500 continentals-2">Silph-2 洲際賽</option>
 			</select>
 			<h3 class="section-title">AI 強度</h3>
 			<select class="difficulty-select">

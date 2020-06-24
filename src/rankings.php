@@ -133,6 +133,10 @@ switch($cup){
 	case "continentals-2":
 		$league = 'Season 2 Continentals';
 		break;
+
+	case "catacomb":
+		$league = 'Catacomb';
+		break;
 }
 
 $META_TITLE = $league . ' PvP Rankings';
@@ -216,6 +220,7 @@ require_once 'header.php';
 			<div class="check" value="5"><span></span>Slot 6</div>
 		</div>
 	</div>
+
 	<div class="poke-search-container">
 		<input class="poke-search" context="ranking-search" type="text" placeholder="寶可夢中文名或英文屬性搜尋" />
 		<a href="#" class="search-info">i</a>

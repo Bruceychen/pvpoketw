@@ -1,8 +1,9 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">Premier Cup</option>
-	<option value="tsa-2" cup="sorcerous">Silph-2 魔幻盃</option>
-    <option value="tsa-2" cup="continentals-2">Silph-2 洲際賽</option>
+    <option value="tsa-2" cup="catacomb">Silph Catacomb Cup(七月)</option>
+	<option value="tsa-2" cup="sorcerous">Silph 魔幻盃(六月)</option>
+    <option value="tsa-2" cup="continentals-2">Silph 洲際賽</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>
@@ -33,14 +34,15 @@
 	<option value="tempest" cat="tsa-1">風暴盃</option>
 	<option value="twilight" cat="tsa-1">暮光盃</option>
 	<option value="boulder" cat="tsa-1">巨石盃</option>
-    <option value="continentals-2" cat="tsa-2">Silph-2 洲際賽</option>
-    <option value="sorcerous" cat="tsa-2">Silph 魔幻盃</option>
-    <option value="forest" cat="tsa-2">森林盃-202005</option>
-    <option value="voyager" cat="tsa-2">啟成盃/S2區域賽-202004</option>
-    <option value="toxic" cat="tsa-2">猛毒盃</option>
-    <option value="rose" cat="tsa-2">玫瑰盃</option>
-    <option value="fusion" cat="tsa-2">融合盃</option>
-    <option value="timeless" cat="tsa-2">永伴盃</option>
+	<option value="catacomb" cat="tsa-2">Silph Catacomb Cup</option>
+	<option value="continentals-2" cat="tsa-2">Silph-2 洲際賽</option>
+	<option value="sorcerous" cat="tsa-2">Silph 魔幻盃</option>
+	<option value="forest" cat="tsa-2">森林盃-202005</option>
+	<option value="voyager" cat="tsa-2">啟成盃/S2區域賽-202004</option>
+	<option value="toxic" cat="tsa-2">猛毒盃</option>
+	<option value="rose" cat="tsa-2">玫瑰盃</option>
+	<option value="fusion" cat="tsa-2">融合盃</option>
+	<option value="timeless" cat="tsa-2">永伴盃</option>
 	<option value="ferocious" cat="tsa-2">猛獸盃</option>
 	<option value="sinister" cat="tsa-2">魅靈盃</option>
 	<option value="custom" cat="custom">自訂排名</option>

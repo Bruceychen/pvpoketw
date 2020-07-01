@@ -1,7 +1,7 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">Premier Cup</option>
-    <option value="tsa-2" cup="catacomb">Silph Catacomb Cup(七月)</option>
+    <option value="tsa-2" cup="catacomb">Silph 深淵盃(七月)</option>
 	<option value="tsa-2" cup="sorcerous">Silph 魔幻盃(六月)</option>
     <option value="tsa-2" cup="continentals-2">Silph 洲際賽</option>
 
@@ -34,7 +34,7 @@
 	<option value="tempest" cat="tsa-1">風暴盃</option>
 	<option value="twilight" cat="tsa-1">暮光盃</option>
 	<option value="boulder" cat="tsa-1">巨石盃</option>
-	<option value="catacomb" cat="tsa-2">Silph Catacomb Cup</option>
+	<option value="catacomb" cat="tsa-2">Silph-2 深淵盃</option>
 	<option value="continentals-2" cat="tsa-2">Silph-2 洲際賽</option>
 	<option value="sorcerous" cat="tsa-2">Silph 魔幻盃</option>
 	<option value="forest" cat="tsa-2">森林盃-202005</option>

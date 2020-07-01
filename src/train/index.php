@@ -41,7 +41,7 @@ require_once '../header.php';
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>
 				<option value="10000 premier">Premier Cup</option>
-				<option value="1500 catacomb">Silph Catacomb Cup</option>
+				<option value="1500 catacomb">Silph 深淵盃</option>
 				<option value="1500 sorcerous">Silph 魔幻盃</option>
 				<option value="1500 continentals-2">Silph-2 洲際賽</option>
 			</select>

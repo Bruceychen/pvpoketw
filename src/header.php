@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.15.8.1';
+$SITE_VERSION = '1.15.9.0';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -21,7 +21,7 @@ if(isset($_COOKIE['settings'])){
 	}
 
 	// Validate the gamemaster setting, only allow these options
-	$gamemasters = ["gamemaster", "gamemaster-mega", "gamemaster-jp", "gamemaster-jp-mega"];
+	$gamemasters = ["gamemaster", "gamemaster-mega"];
 
 	if(! in_array($_SETTINGS->gamemaster, $gamemasters)){
 		$_SETTINGS->gamemaster = "gamemaster";
@@ -82,10 +82,10 @@ if(! isset($OG_IMAGE)){
 <link rel="manifest" href="<?php echo $WEB_ROOT; ?>data/manifest.json?v=2">
 
 <link rel="icon" href="<?php echo $WEB_ROOT; ?>img/favicon.png">
-<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=82">
+<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=83">
 
 <?php if(strpos($META_TITLE, 'Train') !== false): ?>
-	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/train.css?v=12">
+	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/train.css?v=13">
 <?php endif; ?>
 
 <?php if((isset($_SETTINGS->theme))&&($_SETTINGS->theme != "default")): ?>

@@ -165,22 +165,22 @@ require_once 'header.php';
 	<div class="clear"></div>
 
 	<p class="description overall"><b>納入各種定位考量，整體表現最佳的寶可夢。</b>在各種狀況中皆能有較佳戰果，且自身屬性、招式以及個體數值皆較為突出的寶可夢。</p>
-    <p class="description overall"><b>(The best Pokemon overall across multiple roles.</b> They have the typing, moves, and stats to succeed as top contenders.)</p>
+	<p class="description overall"><b>(The best Pokemon overall across multiple roles.</b> They have the typing, moves, and stats to succeed as top contenders.)</p>
 
 	<p class="description closers hide"><b>對戰中不需使用防禦網就能有優秀表現的寶可夢。</b>擁有夠坦的體質或是較高傷害輸出的招式，使這類寶可夢往往能夠影響對戰結果。</p>
-    <p class="description closers hide"><b>The best Pokemon with no shields in play.</b> Bulk or hard-hitting moves allow them to close out matchups.</p>
+	<p class="description closers hide"><b>The best Pokemon with no shields in play.</b> Bulk or hard-hitting moves allow them to close out matchups.</p>
 
 	<p class="description leads hide"><b>搭配使用防禦網就能有絕佳表現的寶可夢。</b>能夠給對手造成壓力或是具備長時間對戰優勢的寶可夢。適合作為對戰隊伍先發。</p>
-    <p class="description leads hide"><b>The best Pokemon with shields in play.</b> Capable of applying pressure or winning extended fights, they're ideal leads in battle.</p>
+	<p class="description leads hide"><b>The best Pokemon with shields in play.</b> Capable of applying pressure or winning extended fights, they're ideal leads in battle.</p>
 
     <p class="description attackers hide"><b>在面對使用防禦網的對手時，即便自身不使用防禦網也能有出色戰果的寶可夢。</b>此類寶可夢有較佳的個體、抗性以及強大的攻擊能力，能夠針對對手的弱點強力突穿。</p>
-    <p class="description attackers hide"><b>The best Pokemon against shielded opponents, while unshielded.</b> Their natural bulk, resistances, and strong attacks allow them to power through a disadvantage.</p>
+	<p class="description attackers hide"><b>The best Pokemon against shielded opponents, while unshielded.</b> Their natural bulk, resistances, and strong attacks allow them to power through a disadvantage.</p>
 
     <p class="description switches hide"><b>在面對開局先發弱勢(逆風或屬性遭剋制)的情況下，適合交換上場的寶可夢。</b>此類寶可夢除了可減少開局弱勢的情況之外，在被擊倒前仍能迫使對手使用防護網，或是提供可觀的傷害輸出。</p>
-    <p class="description switches hide"><b>The best Pokemon to switch to from an unfavorable lead.</b> These Pokemon have safe matchups and can pressure shields or deal heavy damage even in their losses.</p>
+	<p class="description switches hide"><b>The best Pokemon to switch to from an unfavorable lead.</b> These Pokemon have safe matchups and can pressure shields or deal heavy damage even in their losses.</p>
 
     <p class="description chargers hide"><b>擁有低能量需求優勢的寶可夢。</b>能量蓄積速度快，或是招式能量需求低且威力大的寶可夢類型。此類寶可夢只要有能量蓄積時，他們將變得非常有威脅性。</p>
-    <p class="description chargers hide"><b>The best Pokemon with an energy advantage.</b> Fast energy gain or powerful moves make them dangerous after building up energy.</p>
+	<p class="description chargers hide"><b>The best Pokemon with an energy advantage.</b> Fast energy gain or powerful moves make them dangerous after building up energy.</p>
 
     <p class="description consistency hide"><b>對戰表現較穩定的寶可夢。</b>此類寶可夢可提供持續性的傷害。相較於其他寶可夢，不需誘使對手使用防護網亦能有穩定的傷害輸出。</p>
 	<p class="description consistency hide"><b>These Pokemon perform the most dependably.</b> They provide consistent damage and rely less on baiting shields than other Pokemon.</p>
@@ -243,7 +243,7 @@ require_once 'header.php';
 		<p>In the top-level rankings, you'll see a score for each Pokemon. This score is an overall performance number from 0 to 100, where 100 is the best Pokemon in that league and category. It is derived from simulating every possible matchup, with each Pokemon's most used moveset (these may be manually adjusted). Use this score to compare overall performance between Pokemon; for example, the difference between the #1 and #50 Pokemon may not be the same as the difference between the #50 and #100 Pokemon. This score also allows you to see the parity in different leagues and categories.</p>
 		<p>Trainer Battles feature a wide variety of scenarios, especially involving shields. In order to give a fuller picture, our overall rankings are derived from additional sets of rankings, where battles are simulated with different roles in mind. You can explore rankings for each of the following categories:</p>
 		<ul>
-			<li><b>Overall - </b> Derived from a Pokemon's score in all other categories. Moves are ranked based on usage in every category. Key Counters and Top Matchups, however, are taken from the Leads category.</li>
+			<li><b>Overall - </b> Derived from a Pokemon's score in all other categories. Moves are ranked based on calculations across all opponents. Key Counters and Top Matchups, however, are taken from the Leads category.</li>
 			<li><b>Leads - </b> Ranking battles simulated with 2 shields vs. 2 shields.</li>
 			<li><b>Closers - </b> Ranking battles simulated with no shields vs. no shields.</li>
 			<li><b>Switches - </b> Ranking battles simulated with 6 turns of energy advantage and scored to favor safe matches.</li>
@@ -262,12 +262,7 @@ require_once 'header.php';
 		<p>Use these to see even more information about a Pokemon, which matchups it might be useful in, and what you can use to counter it.</p>
 		<h2>Using the Move Rankings</h2>
 		<p>Each Pokemon has a pool of Fast Moves and a pool of Charged Moves. Some moves might be better in one battle, and other moves might be better in another. For Trainer Battles, you'll want know which moves will be the best ones to have in the most matchups. You might also want to know which Pokemon are the best candidates for a second Charged Move. The move details within each Pokemon ranking can help you determine that.</p>
-		<p>Each move is sorted by usage percentage—the percentage of battles where that move was used during the simulation, not just where it was selected. The distinction is that, in practice, an often selected move might be used infrequently, or conversely, an infrequently selected move might see more use in the matches where it's selected. Here are a few of examples to illustrate the difference:</p>
-		<ul>
-			<li>Kyogre's best Charged Move in terms of DPE (damage per energy) is Hydro Pump. However, Hydro Pump takes so long to charge and Kyogre's Fast Move, Waterfall, hits so hard that Kyogre ends up using the faster-charging move Thunder to knock out its opponents much more often than it uses Hydro Pump. In other words, there are very few Pokemon that would survive Kyogre's Thunder by the time it has Hydro Pump charged. As a result, Thunder has a higher usage percentage than Hydro Pump.</li>
-			<li>On paper, Meganium's second best Charged Move is Solar Beam, and is selected in a large number of matchups. However, there are no situations in the current battle algorithm where Solar Beam is more optimal than Frenzy Plant, so it sees no usage. Alternatively, Earthquake is selected in fewer matchups but sees widespread use in the matchups where it's selected, making it a better secondary Charged Move than Solar Beam.</li>
-			<li>Raticate and Alolan Raticate both know Hyper Beam and the faster but less efficient Hyper Fang. Raticate is less bulky than its Alolan counterpart, and that reflects in its move usage. It often doesn't survive long enough to use Hyper Beam, and ends up using Hyper Fang instead. Alolan Raticate, by comparison, survives to use Hyper Beam with more regular frequency, and so sees more balanced usage between Hyper Beam and Hyper Fang.</li>
-		</ul>
+		<p>Moves are ranked using calculations primarily based on their damage and energy cost. Stat changes are also factored in. These calculations are run for each matchup, and then totaled across the format. Matchup weighting affects these numbers as well, so moves that would be used against significant meta targets will rank higher.</p>
 		<p>When looking at potential moves, keep an eye out for Pokemon that have a strong tendency toward a single Fast Move and a single Charged Move. These Pokemon will have their optimal moveset in the most matchups. On the other hand, some Pokemon see more balanced usage in their Charged Moves. This is where having a second Charged Move comes into play.</p>
 		<p>If you're investing in a second Charged Move, you want a pair that would be optimal in the most number of matchups. Two moves that would be used in 90% of matchups are better than two moves that would be used in 60% of matchups. You also want a move that adds the most value to those matchups. A second Charged Move that is used in 40% of matchups will give you more value than one that's used in 5% of matchups.</p>
 		<p>However, not all matchups are equal. When your opponent switches in a Pokemon, it isn't just random; they're likely to send out something that's strong against you. Because of this, a Charged Move that counters your counters might be more valuable than the rankings indicate. Blastoise, for example, doesn't use Ice Beam often in simulated head-to-head matchups (premier Grass-types like Meganium and Venusaur will knock it out before it can). However, Ice Beam can still be valuable when your opponent sends out these Pokemon while Blastoise has Ice Beam near or fully charged, or if you have shields while they don't.</p>
@@ -306,7 +301,7 @@ require_once 'header.php';
     </div>
     <div class="detail-section float margin">
         <div class="ranking-header">一般招式</div>
-        <div class="ranking-header right">使用率</div>
+        <div class="ranking-header right">實用度</div>
         <div class="moveset fast clear"></div>
         <div class="footnote">
             *：活動、社群日或絕版招式<br>
@@ -315,11 +310,11 @@ require_once 'header.php';
     </div>
     <div class="detail-section float">
         <div class="ranking-header">特殊招式</div>
-        <div class="ranking-header right">使用率</div>
+        <div class="ranking-header right">實用度</div>
         <div class="moveset charged clear"></div>
     </div>
     <div class="clear"></div>
-	<div class="detail-section moveset-override">此寶可夢最終的建議招式組將與計算出的使用率數據不同。主要目的在於避免不可能出現的招式匹配(比如不同時期絕版技)或是為了在特定對戰條件下更有優勢。</div>
+	<div class="detail-section moveset-override">此寶可夢最終的建議招式組將與計算出的實用度數據不同。主要目的在於避免不可能出現的招式匹配(比如不同時期絕版技)或是為了在特定對戰條件下更有優勢。</div>
     <div class="detail-section typing">
         <div class="rating-container">
             <div class="ranking-header">第一屬性</div>

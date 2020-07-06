@@ -2,7 +2,6 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">Premier Cup</option>
     <option value="tsa-2" cup="catacomb">Silph 深淵盃(七月)</option>
-	<option value="tsa-2" cup="sorcerous">Silph 魔幻盃(六月)</option>
     <option value="tsa-2" cup="continentals-2">Silph 洲際賽</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>

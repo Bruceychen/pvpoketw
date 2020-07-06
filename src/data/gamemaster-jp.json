@@ -500,7 +500,8 @@
             "cp2500": [39, 5, 9, 12]
         },
         "level25CP": 1673,
-		"eliteMoves": ["FRENZY_PLANT"]
+		"eliteMoves": ["FRENZY_PLANT"],
+		"searchPriority": 13
     }, {
         "dex": 3,
         "speciesName": "フシギバナ (シャドウ)",
@@ -610,7 +611,8 @@
             "cp2500": [35, 5, 13, 6]
         },
         "level25CP": 1784,
-        "eliteMoves": ["EMBER", "WING_ATTACK", "BLAST_BURN", "FLAMETHROWER"]
+        "eliteMoves": ["EMBER", "WING_ATTACK", "BLAST_BURN", "FLAMETHROWER"],
+		"searchPriority": 10
     }, {
         "dex": 6,
         "speciesName": "リザードン (シャドウ)",
@@ -873,7 +875,8 @@
         },
         "level25CP": 1097,
         "tags": ["shadoweligible"],
-        "eliteMoves": ["BUG_BITE", "DRILL_RUN"]
+        "eliteMoves": ["BUG_BITE", "DRILL_RUN"],
+		"searchPriority": 4
     }, {
         "dex": 15,
         "speciesName": "スピアー (シャドウ)",
@@ -1027,7 +1030,8 @@
         "defaultIVs": {
             "cp1500": [36, 7, 10, 15],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 2
     }, {
         "dex": 20,
         "speciesName": "ラッタ (シャドウ)",
@@ -1150,6 +1154,22 @@
             "cp2500": [40, 15, 15, 15]
         }
     }, {
+        "dex": 25,
+        "speciesName": "ピカチュウ (そらをとぶ)",
+        "speciesId": "pikachu_flying",
+        "baseStats": {
+            "atk": 112,
+            "def": 96,
+            "hp": 111
+        },
+        "types": ["electric", "none"],
+        "fastMoves": ["QUICK_ATTACK", "THUNDER_SHOCK"],
+        "chargedMoves": ["DISCHARGE", "THUNDERBOLT", "WILD_CHARGE", "FLY"],
+        "defaultIVs": {
+            "cp1500": [40, 15, 15, 15],
+            "cp2500": [40, 15, 15, 15]
+        }
+    }, {
         "dex": 26,
         "speciesName": "ライチュウ",
         "speciesId": "raichu",
@@ -1182,7 +1202,8 @@
         "defaultIVs": {
             "cp1500": [24.5, 5, 15, 8],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 5
     }, {
         "dex": 27,
         "speciesName": "サンド",
@@ -1418,7 +1439,8 @@
             "cp1500": [23, 5, 14, 8],
             "cp2500": [40, 15, 15, 15]
         },
-        "eliteMoves": ["POUND"]
+        "eliteMoves": ["POUND"],
+		"searchPriority": 8
     }, {
         "dex": 37,
         "speciesName": "ロコン",
@@ -1557,7 +1579,8 @@
         "defaultIVs": {
             "cp1500": [29, 7, 15, 5],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 7
     }, {
         "dex": 41,
         "speciesName": "ズバット",
@@ -2303,7 +2326,8 @@
         },
         "level25CP": 1584,
         "tags": ["shadoweligible"],
-        "eliteMoves": ["SUBMISSION"]
+        "eliteMoves": ["SUBMISSION"],
+		"searchPriority": 6
     }, {
         "dex": 62,
         "speciesName": "ニョロボン (シャドウ)",
@@ -2479,7 +2503,8 @@
             "cp1500": [18, 6, 10, 15],
             "cp2500": [30, 5, 12, 14]
         },
-        "eliteMoves": ["KARATE_CHOP", "STONE_EDGE", "SUBMISSION"]
+        "eliteMoves": ["KARATE_CHOP", "STONE_EDGE", "SUBMISSION"],
+		"searchPriority": 5
     }, {
         "dex": 69,
         "speciesName": "マダツボミ",
@@ -2569,7 +2594,8 @@
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 1479,
-        "tags": ["shadoweligible"]
+        "tags": ["shadoweligible"],
+		"searchPriority": 3
     }, {
         "dex": 71,
         "speciesName": "ウツボット (シャドウ)",
@@ -2690,7 +2716,8 @@
         "defaultIVs": {
             "cp1500": [29, 5, 15, 14],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 3
     }, {
         "dex": 76,
         "speciesName": "ゴローニャ",
@@ -3056,7 +3083,8 @@
         "defaultIVs": {
             "cp1500": [20, 8, 15, 7],
             "cp2500": [38, 5, 11, 10]
-        }
+        },
+		"searchPriority": 17
     }, {
         "dex": 89,
         "speciesName": "ベトベトン (シャドウ)",
@@ -3180,7 +3208,8 @@
             "cp1500": [28.5, 6, 15, 8],
             "cp2500": [40, 15, 15, 15]
         },
-        "eliteMoves": ["LICK"]
+        "eliteMoves": ["LICK"],
+		"searchPriority": 7
     }, {
         "dex": 94,
         "speciesName": "ゲンガー",
@@ -3197,7 +3226,8 @@
             "cp1500": [19, 8, 15, 9],
             "cp2500": [34, 7, 8, 15]
         },
-        "eliteMoves": ["LICK", "SLUDGE_WAVE", "DARK_PULSE", "PSYCHIC"]
+        "eliteMoves": ["LICK", "SLUDGE_WAVE", "DARK_PULSE", "PSYCHIC"],
+		"searchPriority": 14
     }, {
         "dex": 95,
         "speciesName": "イワーク",
@@ -3270,7 +3300,8 @@
         },
         "level25CP": 1255,
         "tags": ["shadoweligible"],
-        "eliteMoves": ["PSYSHOCK"]
+        "eliteMoves": ["PSYSHOCK"],
+		"searchPriority": 14
     }, {
         "dex": 97,
         "speciesName": "スリーパー (シャドウ)",
@@ -3514,7 +3545,8 @@
         "defaultIVs": {
             "cp1500": [31, 7, 11, 14],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 8
     }, {
         "dex": 105,
         "speciesName": "ガラガラ (シャドウ)",
@@ -4028,7 +4060,8 @@
         },
         "level25CP": 1828,
         "tags": ["shadoweligible"],
-        "eliteMoves": ["SUBMISSION"]
+        "eliteMoves": ["SUBMISSION"],
+		"searchPriority": 2
     }, {
         "dex": 127,
         "speciesName": "カイロス (シャドウ)",
@@ -4117,7 +4150,8 @@
         },
         "level25CP": 2119,
         "tags": ["shadoweligible"],
-        "eliteMoves": ["DRAGON_TAIL", "DRAGON_PULSE"]
+        "eliteMoves": ["DRAGON_TAIL", "DRAGON_PULSE"],
+		"searchPriority": 4
     }, {
         "dex": 130,
         "speciesName": "ギャラドス (シャドウ)",
@@ -4154,7 +4188,8 @@
         },
         "level25CP": 1616,
         "tags": ["shadoweligible"],
-        "eliteMoves": ["ICE_SHARD", "DRAGON_PULSE", "ICE_BEAM"]
+        "eliteMoves": ["ICE_SHARD", "DRAGON_PULSE", "ICE_BEAM"],
+		"searchPriority": 10
     }, {
         "dex": 131,
         "speciesName": "ラプラス (シャドウ)",
@@ -4436,7 +4471,8 @@
         },
         "level25CP": 2001,
         "tags": ["shadoweligible"],
-        "eliteMoves": ["YAWN"]
+        "eliteMoves": ["YAWN"],
+		"searchPriority": 6
     }, {
         "dex": 143,
         "speciesName": "カビゴン (シャドウ)",
@@ -4473,7 +4509,8 @@
             "cp2500": [31.5, 5, 15, 6]
         },
         "level25CP": 1893,
-        "eliteMoves": ["HURRICANE"]
+        "eliteMoves": ["HURRICANE"],
+		"searchPriority": 6
     }, {
         "dex": 144,
         "speciesName": "フリーザー (シャドウ)",
@@ -4654,7 +4691,8 @@
         },
         "level25CP": 2386,
         "tags": ["shadoweligible"],
-        "eliteMoves": ["DRACO_METEOR", "DRAGON_PULSE"]
+        "eliteMoves": ["DRACO_METEOR", "DRAGON_PULSE"],
+		"searchPriority": 10
     }, {
         "dex": 149,
         "speciesName": "カイリュー (シャドウ)",
@@ -4690,7 +4728,8 @@
             "cp1500": [13, 5, 14, 11],
             "cp2500": [21.5, 11, 13, 11]
         },
-        "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"]
+        "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"],
+		"searchPriority": 7
     }, {
         "dex": 150,
         "speciesName": "ミュウツー (アーマード)",
@@ -4777,7 +4816,8 @@
             "cp1500": [23, 7, 9, 15],
             "cp2500": [40, 15, 15, 15]
         },
-        "eliteMoves": ["FRENZY_PLANT"]
+        "eliteMoves": ["FRENZY_PLANT"],
+		"searchPriority": 16
     }, {
         "dex": 155,
         "speciesName": "ヒノアラシ",
@@ -4829,7 +4869,8 @@
             "cp1500": [19.5, 6, 8, 10],
             "cp2500": [35, 5, 13, 6]
         },
-        "eliteMoves": ["BLAST_BURN"]
+        "eliteMoves": ["BLAST_BURN"],
+		"searchPriority": 4
     }, {
         "dex": 158,
         "speciesName": "ワニノコ",
@@ -4946,7 +4987,8 @@
         "defaultIVs": {
             "cp1500": [28, 6, 13, 8],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 3
     }, {
         "dex": 165,
         "speciesName": "レディバ",
@@ -5077,7 +5119,8 @@
         "defaultIVs": {
             "cp1500": [27, 5, 14, 9],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 3
     }, {
         "dex": 172,
         "speciesName": "ピチュー",
@@ -5369,7 +5412,8 @@
         "defaultIVs": {
             "cp1500": [38, 13, 13, 12],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 48
     }, {
         "dex": 185,
         "speciesName": "ウソッキー",
@@ -5385,7 +5429,8 @@
         "defaultIVs": {
             "cp1500": [25.5, 6, 14, 15],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 8
     }, {
         "dex": 186,
         "speciesName": "ニョロトノ",
@@ -5470,7 +5515,8 @@
         "defaultIVs": {
             "cp1500": [38.5, 7, 12, 15],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 5
     }, {
         "dex": 190,
         "speciesName": "エイパム",
@@ -5600,7 +5646,8 @@
             "cp1500": [26, 7, 13, 15],
             "cp2500": [40, 15, 15, 15]
         },
-        "eliteMoves": ["LAST_RESORT"]
+        "eliteMoves": ["LAST_RESORT"],
+		"searchPriority": 13
     }, {
         "dex": 198,
         "speciesName": "ヤミカラス",
@@ -5884,7 +5931,8 @@
             "cp2500": [31, 6, 11, 14]
         },
         "level25CP": 1857,
-        "tags": ["shadoweligible"]
+        "tags": ["shadoweligible"],
+		"searchPriority": 6
     }, {
         "dex": 212,
         "speciesName": "ハッサム (シャドウ)",
@@ -6167,7 +6215,8 @@
         "defaultIVs": {
             "cp1500": [27, 6, 9, 10],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 13
     }, {
         "dex": 227,
         "speciesName": "エアームド",
@@ -6183,7 +6232,8 @@
         "defaultIVs": {
             "cp1500": [26.5, 5, 15, 12],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 16
     }, {
         "dex": 228,
         "speciesName": "デルビル",
@@ -6270,7 +6320,8 @@
             "cp1500": [21, 6, 9, 14],
             "cp2500": [36.5, 15, 14, 14]
         },
-        "eliteMoves": ["WATER_GUN"]
+        "eliteMoves": ["WATER_GUN"],
+		"searchPriority": 5
     }, {
         "dex": 231,
         "speciesName": "ゴマゾウ",
@@ -6681,7 +6732,8 @@
         },
         "level25CP": 2416,
         "tags": ["shadoweligible"],
-        "eliteMoves": ["SMACK_DOWN"]
+        "eliteMoves": ["SMACK_DOWN"],
+		"searchPriority": 4
     }, {
         "dex": 248,
         "speciesName": "バンギラス (シャドウ)",
@@ -6803,7 +6855,8 @@
             "cp1500": [20.5, 6, 10, 7],
             "cp2500": [36, 9, 13, 12]
         },
-        "eliteMoves": ["FRENZY_PLANT"]
+        "eliteMoves": ["FRENZY_PLANT"],
+		"searchPriority": 2
     }, {
         "dex": 255,
         "speciesName": "アチャモ",
@@ -6944,7 +6997,8 @@
             "cp2500": [32, 6, 11, 14]
         },
         "level25CP": 1841,
-        "eliteMoves": ["HYDRO_CANNON"]
+        "eliteMoves": ["HYDRO_CANNON"],
+		"searchPriority": 31
     }, {
         "dex": 260,
         "speciesName": "ラグラージ (シャドウ)",
@@ -7277,7 +7331,8 @@
         },
         "level25CP": 1412,
         "tags": ["shadoweligible"],
-		"eliteMoves": ["BULLET_SEED"]
+		"eliteMoves": ["BULLET_SEED"],
+		"searchPriority": 10
     }, {
         "dex": 275,
         "speciesName": "ダーテング (シャドウ)",
@@ -7563,7 +7618,8 @@
         "defaultIVs": {
             "cp1500": [28, 5, 15, 14],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 4
     }, {
         "dex": 289,
         "speciesName": "ケッキング",
@@ -7793,7 +7849,8 @@
             "cp2500": [40, 15, 15, 15]
         },
         "level25CP": 858,
-        "tags": ["shadoweligible"]
+        "tags": ["shadoweligible"],
+		"searchPriority": 10
     }, {
         "dex": 302,
         "speciesName": "ヤミラミ (シャドウ)",
@@ -7925,7 +7982,8 @@
         "defaultIVs": {
             "cp1500": [40, 15, 15, 15],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 5
     }, {
         "dex": 309,
         "speciesName": "ラクライ",
@@ -8480,7 +8538,8 @@
         "defaultIVs": {
             "cp1500": [28.5, 5, 9, 12],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 21
     }, {
         "dex": 335,
         "speciesName": "ザングース",
@@ -8580,7 +8639,8 @@
         "defaultIVs": {
             "cp1500": [27, 5, 14, 11],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 8
     }, {
         "dex": 341,
         "speciesName": "ヘイガニ",
@@ -8677,7 +8737,8 @@
         "defaultIVs": {
             "cp1500": [25.5, 5, 15, 8],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 2
     }, {
         "dex": 347,
         "speciesName": "アノプス",
@@ -8978,7 +9039,8 @@
         "defaultIVs": {
             "cp1500": [29, 6, 12, 13],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 4
     }, {
         "dex": 358,
         "speciesName": "チリーン",
@@ -9402,7 +9464,8 @@
         },
         "level25CP": 2386,
         "tags": ["shadoweligible"],
-        "eliteMoves": ["METEOR_MASH"]
+        "eliteMoves": ["METEOR_MASH"],
+		"searchPriority": 20
     }, {
         "dex": 376,
         "speciesName": "メタグロス (シャドウ)",
@@ -9471,7 +9534,8 @@
         "defaultIVs": {
             "cp1500": [22.5, 8, 15, 13],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 40
     }, {
         "dex": 380,
         "speciesName": "ラティアス",
@@ -9522,7 +9586,8 @@
         "defaultIVs": {
             "cp1500": [13, 11, 15, 12],
             "cp2500": [22.5, 5, 14, 6]
-        }
+        },
+		"searchPriority": 10
     }, {
         "dex": 383,
         "speciesName": "グラードン",
@@ -9540,7 +9605,8 @@
             "cp1500": [13, 11, 15, 12],
             "cp2500": [22.5, 5, 14, 6]
         },
-		"eliteMoves": ["FIRE_PUNCH"]
+		"eliteMoves": ["FIRE_PUNCH"],
+		"searchPriority": 20
     }, {
         "dex": 384,
         "speciesName": "レックウザ",
@@ -9625,7 +9691,8 @@
         "defaultIVs": {
             "cp1500": [23.5, 13, 12, 13],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 15
     }, {
         "dex": 386,
         "speciesName": "デオキシス (スピード)",
@@ -9856,7 +9923,8 @@
             "cp1500": [19, 6, 11, 14],
             "cp2500": [33.5, 7, 14, 9]
         },
-        "eliteMoves": ["HYDRO_CANNON"]
+        "eliteMoves": ["HYDRO_CANNON"],
+		"searchPriority": 4
     }, {
         "dex": 396,
         "speciesName": "ムックル",
@@ -10112,7 +10180,8 @@
         "defaultIVs": {
             "cp1500": [38.5, 15, 14, 14],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 25
     }, {
         "dex": 412,
         "speciesName": "ミノムッチ(くさきのミノ)",
@@ -10354,7 +10423,8 @@
         "defaultIVs": {
             "cp1500": [27, 7, 14, 11],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 7
     }, {
         "dex": 422,
         "speciesName": "カラナクシ (ひがしのうみ)",
@@ -10634,7 +10704,8 @@
         "defaultIVs": {
             "cp1500": [23.5, 6, 13, 11],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 5
     }, {
         "dex": 436,
         "speciesName": "ドーミラー",
@@ -10666,7 +10737,8 @@
         "defaultIVs": {
             "cp1500": [24.5, 9, 14, 12],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 2
     }, {
         "dex": 438,
         "speciesName": "ウソハチ",
@@ -10795,7 +10867,8 @@
         "defaultIVs": {
             "cp1500": [14, 6, 12, 6],
             "cp2500": [23, 8, 15, 7]
-        }
+        },
+		"searchPriority": 8
     }, {
         "dex": 446,
         "speciesName": "ゴンベ",
@@ -10811,7 +10884,8 @@
         "defaultIVs": {
             "cp1500": [30, 6, 11, 12],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 4
     }, {
         "dex": 447,
         "speciesName": "リオル",
@@ -10907,7 +10981,8 @@
         "defaultIVs": {
             "cp1500": [22.5, 8, 14, 10],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 2
     }, {
         "dex": 453,
         "speciesName": "グレッグル",
@@ -10939,7 +11014,8 @@
         "defaultIVs": {
             "cp1500": [22, 7, 14, 12],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 20
     }, {
         "dex": 455,
         "speciesName": "マスキッパ",
@@ -11127,7 +11203,8 @@
             "cp2500": [29, 5, 15, 6]
         },
         "level25CP": 1993,
-        "tags": ["shadoweligible"]
+        "tags": ["shadoweligible"],
+		"searchPriority": 4
     }, {
         "dex": 462,
         "speciesName": "ジバコイル (シャドウ)",
@@ -11180,7 +11257,8 @@
         },
         "level25CP": 2347,
         "tags": [],
-        "eliteMoves": ["ROCK_WRECKER"]
+        "eliteMoves": ["ROCK_WRECKER"],
+		"searchPriority": 5
     }, {
         "dex": 465,
         "speciesName": "モジャンボ",
@@ -11282,7 +11360,8 @@
         "defaultIVs": {
             "cp1500": [16.5, 8, 15, 7],
             "cp2500": [27.5, 7, 14, 10]
-        }
+        },
+		"searchPriority": 14
     }, {
         "dex": 469,
         "speciesName": "メガヤンマ",
@@ -11365,7 +11444,8 @@
             "cp1500": [16, 11, 14, 15],
             "cp2500": [27.5, 8, 15, 5]
         },
-        "eliteMoves": ["ANCIENT_POWER"]
+        "eliteMoves": ["ANCIENT_POWER"],
+		"searchPriority": 2
     }, {
         "dex": 474,
         "speciesName": "ポリゴンＺ",
@@ -11504,7 +11584,8 @@
         "defaultIVs": {
             "cp1500": [27.5, 8, 6, 15],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 7
     }, {
         "dex": 479,
         "speciesName": "ロトム (ノーマル)",
@@ -11668,7 +11749,8 @@
         "defaultIVs": {
             "cp1500": [13.5, 7, 14, 9],
             "cp2500": [22.5, 5, 12, 14]
-        }
+        },
+		"searchPriority": 20
     }, {
         "dex": 484,
         "speciesName": "パルキア",
@@ -11736,7 +11818,8 @@
         "defaultIVs": {
             "cp1500": [16.5, 5, 13, 9],
             "cp2500": [27.5, 7, 10, 9]
-        }
+        },
+		"searchPriority": 32
     }, {
         "dex": 487,
         "speciesName": "ギラティナ (オリジン)",
@@ -11771,7 +11854,8 @@
             "cp1500": [19.5, 7, 9, 14],
             "cp2500": [35, 7, 13, 11]
         },
-		"eliteMoves": ["GRASS_KNOT"]
+		"eliteMoves": ["GRASS_KNOT"],
+		"searchPriority": 32
     }, {
         "dex": 489,
         "speciesName": "フィオネ",
@@ -13056,7 +13140,7 @@
     }, {
         "dex": 550,
         "speciesId": "basculin",
-        "speciesName": "Basculin",
+        "speciesName": "バスラオ",
         "baseStats": {
             "atk": 189,
             "def": 129,
@@ -13378,7 +13462,8 @@
         "defaultIVs": {
             "cp1500": [21, 6, 13, 13],
             "cp2500": [37, 15, 14, 14]
-        }
+        },
+		"searchPriority": 2
     }, {
         "dex": 566,
         "speciesId": "archen",
@@ -13686,7 +13771,7 @@
     }, {
         "dex": 585,
         "speciesId": "deerling",
-        "speciesName": "Deerling",
+        "speciesName": "シキジカ",
         "baseStats": {
             "atk": 115,
             "def": 100,
@@ -13702,7 +13787,7 @@
     }, {
         "dex": 585,
         "speciesId": "deerling_autumn",
-        "speciesName": "Deerling_autumn",
+        "speciesName": "シキジカ (あきのすがた)",
         "baseStats": {
             "atk": 115,
             "def": 100,
@@ -13718,7 +13803,7 @@
     }, {
         "dex": 585,
         "speciesId": "deerling_spring",
-        "speciesName": "Deerling_spring",
+        "speciesName": "シキジカ (はるのすがた)",
         "baseStats": {
             "atk": 115,
             "def": 100,
@@ -13734,7 +13819,7 @@
     }, {
         "dex": 585,
         "speciesId": "deerling_summer",
-        "speciesName": "Deerling_summer",
+        "speciesName": "シキジカ (なつのすがた)",
         "baseStats": {
             "atk": 115,
             "def": 100,
@@ -13750,7 +13835,7 @@
     }, {
         "dex": 585,
         "speciesId": "deerling_winter",
-        "speciesName": "Deerling_winter",
+        "speciesName": "シキジカ (ふゆのすがた)",
         "baseStats": {
             "atk": 115,
             "def": 100,
@@ -13890,7 +13975,8 @@
         "defaultIVs": {
             "cp1500": [19.5, 6, 13, 5],
             "cp2500": [34, 5, 10, 14]
-        }
+        },
+		"searchPriority": 7
     }, {
         "dex": 590,
         "speciesId": "foongus",
@@ -14034,7 +14120,8 @@
         "defaultIVs": {
             "cp1500": [23.5, 10, 15, 11],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 13
     }, {
         "dex": 599,
         "speciesId": "klink",
@@ -14354,7 +14441,8 @@
         "defaultIVs": {
             "cp1500": [26, 7, 15, 6],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 10
     }, {
 	    "dex": 618,
 	    "speciesName": "マッギョ (ガラル)",
@@ -14371,7 +14459,8 @@
 	    "defaultIVs": {
 			"cp1500": [26, 7, 15, 6],
             "cp2500": [40, 15, 15, 15]
-	    }
+	    },
+		"searchPriority": 10
 	}, {
         "dex": 619,
         "speciesId": "mienfoo",
@@ -14629,7 +14718,8 @@
         "defaultIVs": {
             "cp1500": [31, 7, 13, 10],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 3
     }, {
         "dex": 635,
         "speciesId": "hydreigon",
@@ -14814,7 +14904,8 @@
             "cp1500": [13.5, 7, 14, 9],
             "cp2500": [22.5, 5, 12, 14]
         },
-        "tags": ["legendary"]
+        "tags": ["legendary"],
+		"searchPriority": 4
     }, {
         "dex": 644,
         "speciesId": "zekrom",
@@ -14831,7 +14922,8 @@
             "cp1500": [13.5, 7, 14, 9],
             "cp2500": [22.5, 5, 12, 14]
         },
-        "tags": ["legendary"]
+        "tags": ["legendary"],
+		"searchPriority": 2
     }, {
         "dex": 645,
         "speciesId": "landorus_incarnate",
@@ -14848,7 +14940,8 @@
             "cp1500": [15, 8, 15, 13],
             "cp2500": [25, 10, 15, 11]
         },
-        "tags": ["legendary"]
+        "tags": ["legendary"],
+		"searchPriority": 4
     }, {
         "dex": 645,
         "speciesId": "landorus_therian",
@@ -14869,7 +14962,7 @@
     }, {
         "dex": 646,
         "speciesId": "kyurem",
-        "speciesName": "Kyurem",
+        "speciesName": "キュレム",
         "baseStats": {
             "atk": 246,
             "def": 170,
@@ -14886,7 +14979,7 @@
     }, {
         "dex": 646,
         "speciesId": "kyurem_black",
-        "speciesName": "Kyurem (Black)",
+        "speciesName": "キュレム (ブラック)",
         "baseStats": {
             "atk": 310,
             "def": 183,
@@ -14903,7 +14996,7 @@
     }, {
         "dex": 646,
         "speciesId": "kyurem_white",
-        "speciesName": "Kyurem (White)",
+        "speciesName": "キュレム (ホワイト)",
         "baseStats": {
             "atk": 310,
             "def": 183,
@@ -14920,7 +15013,7 @@
     }, {
         "dex": 647,
         "speciesId": "keldeo_ordinary",
-        "speciesName": "Keldeo (Ordinary)",
+        "speciesName": "ケルディオ (いつも)",
         "baseStats": {
             "atk": 260,
             "def": 192,
@@ -14936,7 +15029,7 @@
     }, {
         "dex": 647,
         "speciesId": "keldeo_resolute",
-        "speciesName": "Keldeo (Resolute)",
+        "speciesName": "ケルディオ (かくご)",
         "baseStats": {
             "atk": 260,
             "def": 192,
@@ -15001,7 +15094,7 @@
     }, {
         "dex": 649,
         "speciesId": "genesect_burn",
-        "speciesName": "Genesect (Burn)",
+        "speciesName": "ゲノセクト (ブレイズカセット)",
         "baseStats": {
             "atk": 252,
             "def": 199,
@@ -15018,7 +15111,7 @@
     }, {
         "dex": 649,
         "speciesId": "genesect_chill",
-        "speciesName": "Genesect (Chill)",
+        "speciesName": "ゲノセクト (フリーズカセット)",
         "baseStats": {
             "atk": 252,
             "def": 199,
@@ -15035,7 +15128,7 @@
     }, {
         "dex": 649,
         "speciesId": "genesect_douse",
-        "speciesName": "Genesect (Douse)",
+        "speciesName": "ゲノセクト (アクアカセット)",
         "baseStats": {
             "atk": 252,
             "def": 199,
@@ -15052,7 +15145,7 @@
     }, {
         "dex": 649,
         "speciesId": "genesect_shock",
-        "speciesName": "Genesect (Shock)",
+        "speciesName": "ゲノセクト (イナズマ)",
         "baseStats": {
             "atk": 252,
             "def": 199,
@@ -15099,7 +15192,8 @@
             "cp1500": [15, 10, 14, 11],
             "cp2500": [26, 5, 6, 12]
         },
-        "tags": ["mythical"]
+        "tags": ["mythical"],
+		"searchPriority": 18
     }, {
 	    "dex": 862,
 	    "speciesName": "タチフサグマ",
@@ -15133,7 +15227,8 @@
 			"cp1500": [23.5, 7, 8, 12],
             "cp2500": [40, 15, 15, 15]
 	    },
-		"tags": ["galarian"]
+		"tags": ["galarian"],
+		"searchPriority": 3
 	}, {
 	    "dex": 865,
 	    "speciesName": "ネギガナイト",
@@ -15733,7 +15828,7 @@
         "cooldown": 500
     }, {
         "moveId": "FLY",
-        "name": "Fly",
+        "name": "そらをとぶ",
         "type": "flying",
         "power": 80,
         "energy": 45,

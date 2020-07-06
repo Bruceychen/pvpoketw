@@ -27,7 +27,22 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.15.8 (July 1, 2020)</h4>
+	<h4>v1.15.11 (July 4, 2020)</h4>
+	<ul>
+		<li>New algorithm to generate move usage/preference stats in the rankings that should provide more realistic numbers:</li>
+		<ul>
+			<li>Previous algorithm auto-selected moves in each matchup and counted move usage in simulated battles. This method was time-consuming and would result in low or no usage for moves the algorithm didn't favor,
+			such as Volt Switch or Blaze Kick.</li>
+			<li>New algorithm ranks moves based on damage, energy, stat change, and TDO calculations. It produces more realistic movesets and makes it easier to compare potential performance between moves.</li>
+		</ul>
+	</ul>
+
+    <h4>v1.15.10 (July 2, 2020)</h4>
+    <ul>
+        <li>Implemented a search priority to Pokemon selection so popular Pokemon like Azumarill and Giratina will appear first without needing to type most of the name.</li>
+    </ul>
+
+    <h4>v1.15.9 (July 1, 2020)</h4>
 	<ul>
 		<li>Updated interface for Charged Move buttons/meters to show overflow energy like in-game.</li>
 		<li>Hovering over a Pokemon's selected Charged Moves shows damage in percentage and highlights the damage amount on the opponent's health bar.</li>
@@ -77,8 +92,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Thu Jul 2 00:50:17 2020 +0800</li>
-                <li>原版最後版本時間：Wed Jul 1 01:38:50 2020 -0500</li>
+                <li>中文版最後更新時間：Thu Jul 7 00:30:17 2020 +0800</li>
+                <li>原版最後版本時間：Sun Jul 5 22:30:54 2020 -0500</li>
             </ul>
 </div>
 

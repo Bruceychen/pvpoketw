@@ -19,6 +19,7 @@
 				<option value="premier" type="master" class="hide multi-battle">紀念盃 Meta</option>
 				<option value="catacomb" type="great" class="multi-battle">Silph 深淵盃</option>
 				<option value="continentals" type="great" class="multi-battle">Silph-2 洲際賽 Meta</option>
+                <option value="continentals" type="great" class="multi-battle">Scoville Cup</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

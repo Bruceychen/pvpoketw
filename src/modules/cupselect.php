@@ -1,8 +1,10 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
-    <option value="tsa-2" cup="catacomb">Silph 深淵盃(七月)</option>
-    <option value="tsa-2" cup="continentals-2">Silph 洲際賽</option>
+	<option value="tsa-2" cup="catacomb">Silph 深淵盃(七月)</option>
+	<option value="tsa-2" cup="continentals-2">Silph 洲際賽</option>
+	<option value="community" cup="scoville">Scoville Cup</option>
+	<option value="community" cup="grunt-6">Grunt Cup Season 6</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>
@@ -22,8 +24,10 @@
 	<option value="fantasy" cat="community">GO LIVE Fantasy Cup</option>
 	<option value="beam" cat="community">Get Beamed</option>
 	<option value="grunt-4" cat="community">Grunt Cup Season 4</option>
+    <option value="grunt-6" cat="community">Grunt Cup Season 6</option>
 	<option value="goteamup" cat="community">GO Stadium GOTeamUp</option>
 	<option value="cliffhanger" cat="community">GO Stadium Cliffhanger</option>
+    <option value="scoville" cat="community">Scoville Cup</option>
 	<option value="jungle"  cat="tsa-1">叢林盃</option>
 	<option value="rainbow" cat="tsa-1">彩虹盃</option>
 	<option value="championships-1" cat="tsa-1">第一季冠軍賽</option>

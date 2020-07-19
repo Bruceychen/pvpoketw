@@ -36,13 +36,12 @@ require_once '../header.php';
 				<option value="" selected disabled>選擇聯盟/主題盃賽</option>
 				<option value="1500 gobattleleague">GO 超級對戰聯盟(1500)</option>
 				<option value="2500 gobattleleague">GO 高級對戰聯盟(2500)</option>
-                <option value="10000 gobattleleague">GO 大師對戰聯盟(無上限)</option>
+				<option value="10000 gobattleleague">GO 大師對戰聯盟(無上限)</option>
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>
 				<option value="10000 premier">紀念盃</option>
 				<option value="1500 catacomb">Silph 深淵盃</option>
-				<option value="1500 continentals-2">Silph-2 洲際賽</option>
 			</select>
 			<h3 class="section-title">AI 強度</h3>
 			<select class="difficulty-select">

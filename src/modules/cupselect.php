@@ -2,7 +2,6 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
 	<option value="tsa-2" cup="catacomb">Silph 深淵盃(七月)</option>
-	<option value="tsa-2" cup="continentals-2">Silph 洲際賽</option>
 	<option value="community" cup="scoville">Scoville Cup</option>
 	<option value="community" cup="grunt-6">Grunt Cup Season 6</option>
 

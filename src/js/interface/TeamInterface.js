@@ -850,6 +850,8 @@ var InterfaceMaster = (function () {
 					count++;
 				}
 
+
+
 				if(team.length == 6){
 					$(".alternatives-table .button.add").hide();
 				}
@@ -1268,6 +1270,7 @@ var InterfaceMaster = (function () {
 
 				}
 
+				gm.loadRankingData(self, "overall", parseInt($(".league-select option:selected").val()), "all");
 			}
 
 			// Event handler for changing the cup select

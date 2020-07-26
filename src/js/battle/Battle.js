@@ -2041,19 +2041,31 @@ function Battle(){
 		// Calculate turns away from fainting with Fast Moves
 
 		var fastMoveTurns = Math.ceil(target.hp / subject.fastMove.damage) * (subject.fastMove.cooldown / 500);
+		var fastestChargedMoveTurns = 100;
 
 		for(var i = 0; i < subject.chargedMoves.length; i++){
-			var chargedMove = subject.chargedMoves[0];
+			var chargedMove = subject.chargedMoves[i];
 			var chargedMoveTurns = 0
 			var fastMovesFromChargedMove = Math.ceil((chargedMove.energy - subject.energy) / subject.fastMove.energyGain);
+			var sequenceDamage = chargedMove.damage + (fastMovesFromChargedMove * subject.fastMove.damage);
 
-			if(chargedMove.damage + (fastMovesFromChargedMove * subject.fastMove.damage) >= target.hp){
+			if(fastMovesFromChargedMove < 0){
+				fastMovesFromChargedMove = 0;
+			}
+
+			if(sequenceDamage >= target.hp){
 				chargedMoveTurns = 1 + (fastMovesFromChargedMove * (subject.fastMove.cooldown / 500));
+			} else{
+				chargedMoveTurns = 1 + (fastMovesFromChargedMove * (subject.fastMove.cooldown / 500)) + (Math.ceil((target.hp-sequenceDamage) / subject.fastMove.damage) * (subject.fastMove.cooldown / 500));
+			}
+
+			if(chargedMoveTurns < fastestChargedMoveTurns){
+				fastestChargedMoveTurns = chargedMoveTurns;
 			}
 
 		}
 
-		turnMargin = fastMoveTurns;
+		turnMargin = Math.min(fastMoveTurns, fastestChargedMoveTurns);
 
 		return turnMargin;
 	}

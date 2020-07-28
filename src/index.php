@@ -27,6 +27,11 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
+	<h4>v1.15.13 (July 27, 2020)</h4>
+	<ul>
+		<li>The site has been updated with the latest move changes! Rankings and simulations are updated, but updates to Training Battle teams and custom meta groups are to come.</li>
+	</ul>
+
 	<h4>v1.15.12 (July 24, 2020)</h4>
 	<ul>
 		<li>For Single Battle results, added number of turns it would take to flip the current scenario. This indicates how impacted a scenario is by lag, IV's, and other factors.</li>
@@ -77,8 +82,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sun Jul 26 14:15:17 2020 +0800</li>
-                <li>原版最後版本時間：Sat Jul 25 01:12:08 2020 -0500</li>
+                <li>中文版最後更新時間：Mon Jul 28 10:20:17 2020 +0800</li>
+                <li>原版最後版本時間：Mon Jul 27 11:24:25 2020 -0500</li>
             </ul>
 </div>
 

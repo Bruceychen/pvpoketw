@@ -300,11 +300,12 @@ function PokeMultiSelect(element){
 
 			case 2500:
 				$el.find(".quick-fill-select option[value='ultra']").show();
+				$el.find(".quick-fill-select option[type='ultra']").show();
 				break;
 
 			case 10000:
 				$el.find(".quick-fill-select option[value='master']").show();
-				$el.find(".quick-fill-select option[value='premier']").show();
+				$el.find(".quick-fill-select option[type='master']").show();
 				break;
 		}
 

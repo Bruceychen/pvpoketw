@@ -16,10 +16,9 @@
 				<option value="great" type="great" class="multi-battle">超級(1500)聯盟 Meta</option>
 				<option value="ultra" type="ultra" class="hide multi-battle">高級(2500)聯盟 Meta</option>
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
+				<option value="premierultra" type="ultra" class="hide multi-battle">紀念盃 Meta</option>
 				<option value="premier" type="master" class="hide multi-battle">紀念盃 Meta</option>
 				<option value="catacomb" type="great" class="multi-battle">Silph 深淵盃</option>
-				<option value="continentals" type="great" class="multi-battle">Silph-2 洲際賽 Meta</option>
-                <option value="continentals" type="great" class="multi-battle">Scoville Cup</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

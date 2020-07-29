@@ -2342,7 +2342,6 @@
 			},
 			{
 				"speciesId": "gyarados",
-				"chargedMoves": ["CRUNCH","HYDRO_PUMP"],
 				"weight": 12
 			},
 			{
@@ -2587,10 +2586,6 @@
 				"weight": 4
 			},
 			{
-				"speciesId": "gyarados",
-				"chargedMoves": ["CRUNCH", "HYDRO_PUMP"]
-			},
-			{
 				"speciesId": "mamoswine",
 				"chargedMoves": ["AVALANCHE","BULLDOZE"]
 			},
@@ -2777,8 +2772,11 @@
 			{
 				"speciesId": "gyarados",
 				"fastMove": ["DRAGON_BREATH"],
-				"chargedMoves": ["CRUNCH","HYDRO_PUMP"],
 				"weight": 10
+			},
+			{
+				"speciesId": "gyarados_shadow",
+				"fastMove": ["DRAGON_BREATH"]
 			},
 			{
 				"speciesId": "swampert",
@@ -2808,12 +2806,12 @@
 			},
 			{
 				"speciesId": "swampert",
-				"chargedMoves": ["HYDRO_CANNON", "SLUDGE_WAVE"],
+				"chargedMoves": ["HYDRO_CANNON", "EARTHQUAKE"],
 				"weight": 35
 			},
 			{
 				"speciesId": "swampert_shadow",
-				"chargedMoves": ["HYDRO_CANNON", "SLUDGE_WAVE"],
+				"chargedMoves": ["HYDRO_CANNON", "EARTHQUAKE"],
 				"weight": 2
 			},
 			{
@@ -2874,6 +2872,7 @@
 			},
 			{
 				"speciesId": "gliscor_shadow",
+				"fastMove": "WING_ATTACK",
 				"chargedMoves": ["NIGHT_SLASH", "EARTHQUAKE"]
 			},
 			{
@@ -2891,6 +2890,10 @@
 			{
 				"speciesId": "tentacruel",
 				"chargedMoves": ["ACID_SPRAY", "HYDRO_PUMP"]
+			},
+			{
+				"speciesId": "blaziken",
+				"chargedMoves": ["BLAZE_KICK", "BRAVE_BIRD"]
 			},
 			{
 				"speciesId": "feraligatr",

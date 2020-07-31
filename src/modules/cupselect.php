@@ -2,6 +2,7 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
 	<option value="tsa-2" cup="catacomb">Silph 深淵盃(七月)</option>
+	<option value="community" cup="goteamup">GO Stadium GOTeamUp</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>

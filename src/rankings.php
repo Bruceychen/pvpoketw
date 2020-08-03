@@ -75,14 +75,17 @@ switch($cup){
 		break;
 
 	case "sinister":
+	    case "sinister-mirror":
 		$league = 'Sinister Cup';
 		break;
 
 	case "ferocious":
+	    case "ferocious-mirror":
 		$league = 'Ferocious Cup';
 		break;
 
 	case "timeless":
+	    case "timeless-mirror":
 		$league = 'Timeless Cup';
 		break;
 
@@ -123,6 +126,7 @@ switch($cup){
         break;
 
     case "sorcerous":
+    case "sorcerous-mirror":
 		$league = 'Sorcerous Cup';
 		break;
 
@@ -241,6 +245,8 @@ require_once 'header.php';
 	<h2 class="loading">資料讀取中...</h2>
 	<div class="rankings-container clear"></div>
 </div>
+
+<a href="#" class="button download-csv">匯出成CSV檔</a>
 
 <div class="section about white">
 	<a class="toggle" href="#">About Rankings <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>

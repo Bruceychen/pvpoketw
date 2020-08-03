@@ -2,6 +2,10 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
 	<option value="tsa-2" cup="catacomb">Silph 深淵盃(七月)</option>
+	<option value="tsa-2" cup="sinister-mirror">Silph 魅靈盃</option>
+	<option value="tsa-2" cup="ferocious-mirror">Silph 猛獸盃</option>
+	<option value="tsa-2" cup="timeless-mirror">Silph 永伴盃</option>
+	<option value="tsa-2" cup="sorcerous-mirror">Silph 魔幻盃</option>
 	<option value="community" cup="goteamup">GO Stadium GOTeamUp</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
@@ -38,13 +42,17 @@
 	<option value="catacomb" cat="tsa-2">Silph-2 深淵盃</option>
 	<option value="continentals-2" cat="tsa-2">Silph-2 洲際賽</option>
 	<option value="sorcerous" cat="tsa-2">Silph 魔幻盃</option>
+    <option value="sorcerous-mirror" cat="tsa-2">Silph 魔幻盃 (Mirror)</option>
 	<option value="forest" cat="tsa-2">森林盃-202005</option>
 	<option value="voyager" cat="tsa-2">啟成盃/S2區域賽-202004</option>
 	<option value="toxic" cat="tsa-2">猛毒盃</option>
 	<option value="rose" cat="tsa-2">玫瑰盃</option>
 	<option value="fusion" cat="tsa-2">融合盃</option>
 	<option value="timeless" cat="tsa-2">永伴盃</option>
+    <option value="timeless-mirror" cat="tsa-2">永伴盃 (Mirror)</option>
 	<option value="ferocious" cat="tsa-2">猛獸盃</option>
+    <option value="ferocious-mirror" cat="tsa-2">猛獸盃 (Mirror)</option>
 	<option value="sinister" cat="tsa-2">魅靈盃</option>
+    <option value="sinister-mirror" cat="tsa-2">魅靈盃 (Mirror)</option>
 	<option value="custom" cat="custom">自訂排名</option>
 </select>

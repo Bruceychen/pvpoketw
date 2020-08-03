@@ -173,6 +173,8 @@ require_once 'header.php'; ?>
 	<div class="ranking-header right">模擬分數</div>
 
 	<div class="rankings-container clear"></div>
+
+	<a href="#" class="button download-csv">Export to CSV</a>
 </div>
 
 <div class="section white custom-rankings-list">

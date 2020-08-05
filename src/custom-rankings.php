@@ -177,19 +177,26 @@ require_once 'header.php'; ?>
 	<a href="#" class="button download-csv">Export to CSV</a>
 </div>
 
+<div class="section white custom-rankings-import">
+    <h3>匯入/匯出 設定</h3>
+
+    <p>複製以下文字以匯出你專屬的設定，或是貼上設定文字以匯入。</p>
+
+    <textarea class="import"></textarea>
+    <div class="copy">複製</div>
+</div>
+
 <div class="section white custom-rankings-list">
 	<h3>寶可夢清單 (<span class="pokemon-count">0</span>)</h3>
 	<p>下面清單將列出符合條件的寶可夢。但部分未達特定標準的寶可夢，如CP太低等，將不會包含在清單中。</p>
 	<textarea class="pokemon-list"></textarea>
 </div>
 
-<div class="section white custom-rankings-import">
-	<h3>匯入/匯出 設定</h3>
-
-	<p>複製底下代碼以分享或保存此排名設定。或是貼上其他排名之設定代碼以匯入。
-
-	<textarea class="import"></textarea>
-	<div class="copy">複製</div>
+<div class="section white custom-rankings-meta-group">
+    <h3>自訂群組</h3>
+    <p>以下列出上方產生的前一百名寶可夢資料。可將此清單資料保留或複製後匯入到<a href="<?php echo $WEB_ROOT; ?>battle/" target="_blank">戰鬥模擬計算</a> 或 <a href="<?php echo $WEB_ROOT; ?>team-builder/" target="_blank">隊伍組建模擬</a>中使用。</p>
+    <p>注意：直接點連結"不會"保留資料，記得要手動複製/保留。</p>
+    <?php require 'modules/pokemultiselect.php'; ?>
 </div>
 
 <div class="hide">

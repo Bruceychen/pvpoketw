@@ -27,6 +27,11 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
+	<h4>v1.15.15 (August 4, 2020)</h4>
+	<ul>
+		<li>Custom Rankings now output a custom meta group. You can save or copy this to use for Multi-Battle or the Team Builder.</li>
+	</ul>
+
 	<h4>v1.15.14 (August 1, 2020)</h4>
 	<ul>
 		<li>Training Battles are now available for Ultra League Premier Cup.</li>
@@ -78,8 +83,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Tue Aug 4 13:30:17 2020 +0800</li>
-                <li>原版最後版本時間：Mon Aug 3 11:21:55 2020 -0500</li>
+                <li>中文版最後更新時間：Tue Aug 5 23:35:17 2020 +0800</li>
+                <li>原版最後版本時間：Tue Aug 4 07:19:46 2020 -0500</li>
             </ul>
 </div>
 

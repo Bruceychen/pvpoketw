@@ -42,7 +42,10 @@ require_once '../header.php';
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>
-				<option value="1500 catacomb">Silph 深淵盃</option>
+				<option value="1500 sinister">Silph 魅靈盃</option>
+				<option value="1500 ferocious">Silph 猛獸盃</option>
+				<option value="1500 timeless">Silph 永伴盃</option>
+				<option value="1500 sorcerous">Silph 魔幻盃</option>
 			</select>
 			<h3 class="section-title">AI 強度</h3>
 			<select class="difficulty-select">
@@ -129,14 +132,9 @@ require_once '../header.php';
 <div class="section white updates">
 	<h3>What's New</h3>
 
-    <h4>v1.14.20 (May 17, 2020)</h4>
-    <ul>
-        <li>Updates to Training Battles:</li>
-        <ul>
-            <li>Tweaked AI switching behavior to favor soft counters over hard counters when it can be counter-switched.</li>
-            <li>The switch window now closes during Charged Moves to prevent overlap with the shield screen.</li>
-            <li>Fixed an issue where Pokemon would be locked into their Fast Move cooldown after fainting an opponent with a Fast Move.</li>
-        </ul>
+	<h4>v1.15.15 (August 10, 2020)</h4>
+	<ul>
+		<li>Sinister, Ferocious, Timeless, and Sorcerous Silph Arena formats are now available in Training Battles.</li>
 	</ul>
 </div>
 

@@ -6,6 +6,7 @@
 	<option value="tsa-2" cup="timeless-mirror">Silph 永伴盃</option>
 	<option value="tsa-2" cup="sorcerous-mirror">Silph 魔幻盃</option>
 	<option value="community" cup="mexico">México Cup</option>
+	<option value="community" cup="kaiser">Kaiser Invitational</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>
@@ -30,6 +31,7 @@
 	<option value="cliffhanger" cat="community">GO Stadium Cliffhanger</option>
     <option value="scoville" cat="community">Scoville Cup</option>
 	<option value="mexico" cat="community">México Cup</option>
+	<option value="kaiser" cat="community">Kaiser Invitational</option>
 	<option value="jungle"  cat="tsa-1">叢林盃</option>
 	<option value="rainbow" cat="tsa-1">彩虹盃</option>
 	<option value="championships-1" cat="tsa-1">第一季冠軍賽</option>

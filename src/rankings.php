@@ -117,12 +117,8 @@ switch($cup){
 		$league = 'Premier';
 		break;
 
-	case "grunt-4":
-		$league = 'Grunt Cup 4';
-		break;
-
-    case "grunt-6":
-        $league = 'Grunt Cup 6';
+    case "grunt":
+        $league = 'Grunt Cup 4';
         break;
 
     case "sorcerous":

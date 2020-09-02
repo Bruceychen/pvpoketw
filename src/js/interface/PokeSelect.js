@@ -23,7 +23,6 @@ function PokeSelect(element, i){
 	//此method配合中文修改顯示排序方式; this method will used for mandarin name sorting and dex no sorting
 	var pokeMonlistDex = [];
 	var pokeMonlistName = [];
-
 	this.init = function(pokes, b){
 		pokemon = pokes;
 		battle = b;
@@ -230,7 +229,8 @@ function PokeSelect(element, i){
 				basePokemon.setIV("hp", selectedPokemon.ivs.hp);
 				basePokemon.setLevel(selectedPokemon.level);
 
-				$el.find(".mega-cp-container .base-name").html("Base " + basePokemon.speciesName);
+				//以下這行UI翻譯
+				$el.find(".mega-cp-container .base-name").html("進化前 " + basePokemon.speciesName);
 				$el.find(".mega-cp-container .mega-cp .stat").html(basePokemon.cp);
 				$el.find(".mega-cp-container").show();
 

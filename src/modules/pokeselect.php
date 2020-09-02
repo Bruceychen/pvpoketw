@@ -45,6 +45,11 @@
 		</div>
 		<div class="clear"></div>
 
+		<div class="mega-cp-container">
+			<h3 class="base-name section-title">Pokemon</h3>
+			<h3 class="mega-cp">cp <span class="stat"></span></h3>
+		</div>
+
 		<div class="advanced-section">
 			<a class="advanced" href="#">進階狀態/IV設定 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 			<div class="fields">
@@ -69,6 +74,7 @@
 						<div class="check on" value="40"><span></span>40</div>
 						<div class="check" value="41"><span></span>41</div>
 					</div>
+					<div class="check auto-level on"><span></span>等級自動調整</div>
 					<button class="maximize-stats">最大值</button>
 					<button class="restore-default">預設值</button>
 				</div>

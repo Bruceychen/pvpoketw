@@ -27,20 +27,12 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.15.15 (August 10, 2020)</h4>
+	<h4>v1.16.0 (September 1, 2020)</h4>
 	<ul>
-		<li>Sinister, Ferocious, Timeless, and Sorcerous Silph Arena formats are now available in Training Battles.</li>
-	</ul>
-	<h4>v1.15.15 (August 4, 2020)</h4>
-	<ul>
-		<li>Custom Rankings now output a custom meta group. You can save or copy this to use for Multi-Battle or the Team Builder.</li>
-	</ul>
-
-	<h4>v1.15.14 (August 1, 2020)</h4>
-	<ul>
-		<li>Training Battles are now available for Ultra League Premier Cup.</li>
-		<li>Added CSV export for Rankings and Custom Rankings.</li>
-		<li>Fixed an issue where deleting a custom group could result in a different group being deleted in Matrix Battle.</li>
+		<li>Released Mega Evolutions are now listed on the main version of the site. You can view unreleased Mega Evolutions by setting your Gamemaster version on the <a href="<?php echo $WEB_ROOT; ?>settings/">Settings page</a>.</li>
+		<li>Please note that Mega Evolution performance in PvP is currently unknown and potentially bugged. Any battle simulations involving Mega Evolutions, breakpoints, etc. should be disregarded until more information is known.</li>
+		<li>Mega Evolutions display the CP of their base form.</li>
+		<li>When adjusting a Pokemon's IVs, its level will automatically adjust to the CP limit.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -87,8 +79,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Tue Sep 1 17:45:17 2020 +0800</li>
-                <li>原版最後版本時間：Mon Aug 31 22:59:23 2020 -0500</li>
+                <li>中文版最後更新時間：Wed Sep 2 09:30:17 2020 +0800</li>
+                <li>原版最後版本時間：Tue Sep 1 01:24:49 2020 -0500</li>
             </ul>
 </div>
 

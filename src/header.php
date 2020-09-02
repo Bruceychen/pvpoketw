@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.15.16';
+$SITE_VERSION = '1.16.0';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -83,7 +83,7 @@ if(! isset($OG_IMAGE)){
 <link rel="manifest" href="<?php echo $WEB_ROOT; ?>data/manifest.json?v=2">
 
 <link rel="icon" href="<?php echo $WEB_ROOT; ?>img/favicon.png">
-<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=88">
+<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=89">
 
 <?php if(strpos($META_TITLE, 'Train') !== false): ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/train.css?v=14">
@@ -188,6 +188,4 @@ if(! isset($OG_IMAGE)){
 	</header>
 	<div class="main-wrap">
 		<div id="main">
-			<?php if((isset($_SETTINGS->gamemaster)) && ($_SETTINGS->gamemaster == 'gamemaster-mega')): ?>
-				<div class="section white"><b>特別聲明：當前所有Mega相關的數據資料均來自於本傳遊戲的推算估算，並非Pokemon GO的最後正式版。請千萬不要依照此資料培育任何寶可夢。</b></div>
-			<?php endif; ?>
+			<div class="section white hide mega-warning"><b>提醒：已開放的Mega個體已修改為官方數值，但目前PVP戰鬥能力仍未知。本站所有mega模擬結果僅供參考並依後續發佈消息調整。未開放的Mega個體採用網友推估的非官方數值。</b></div>

@@ -18,11 +18,8 @@
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
 				<option value="premierultra" type="ultra" class="hide multi-battle">紀念盃 Meta</option>
 				<option value="premier" type="master" class="hide multi-battle">紀念盃 Meta</option>
-				<option value="catacomb" type="great" class="multi-battle">Silph 深淵盃</option>
-				<option value="sinister" type="great" class="multi-battle">Silph 魅靈盃</option>
-				<option value="ferocious" type="great" class="multi-battle">Silph 猛獸盃</option>
-				<option value="timeless" type="great" class="multi-battle">Silph 永伴盃</option>
-				<option value="sorcerous" type="great" class="multi-battle">Silph 魔幻盃</option>
+                <option value="flying" type="great" class="multi-battle">飛行盃 Meta</option>
+                <option value="halloween" type="great" class="multi-battle">Halloween Cup Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

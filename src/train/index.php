@@ -42,10 +42,8 @@ require_once '../header.php';
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>
-				<option value="1500 sinister">Silph 魅靈盃</option>
-				<option value="1500 ferocious">Silph 猛獸盃</option>
-				<option value="1500 timeless">Silph 永伴盃</option>
-				<option value="1500 sorcerous">Silph 魔幻盃</option>
+				<option value="1500 flying">飛行盃</option>
+				<option value="1500 halloween">萬聖節盃</option>
 			</select>
 			<h3 class="section-title">AI 強度</h3>
 			<select class="difficulty-select">
@@ -59,7 +57,6 @@ require_once '../header.php';
 			<select class="team-method-select">
 				<option value="random">隨機產生</option>
 				<option value="manual">手動指定</option>
-				<option value="featured">精選隊伍</option>
 			</select>
 			<?php require '../modules/pokemultiselect.php'; ?>
 			<div class="featured-team-section">

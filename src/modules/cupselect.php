@@ -2,7 +2,7 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
 	<option value="official" cup="flying">飛行盃</option>
-	<option value="official" cup="halloween">Halloween Cup</option>
+	<option value="official" cup="halloween">萬聖節盃</option>
 	<option value="community" cup="mexico">México Cup</option>
 	<option value="community" cup="shadow">Shadow Cup</option>
 
@@ -21,7 +21,7 @@
 	<option value="gen-5" cat="all">全部寶可夢 (含未開放五世代寶可夢)</option>
 	<option value="premier" cat="official">紀念盃</option>
 	<option value="flying" cat="official">飛行盃</option>
-	<option value="halloween" cat="official">Halloween Cup</option>
+	<option value="halloween" cat="official">萬聖節盃</option>
 	<option value="safari" cat="community">Montreal Safari Cup</option>
 	<option value="fantasy" cat="community">GO LIVE Fantasy Cup</option>
 	<option value="beam" cat="community">Get Beamed</option>

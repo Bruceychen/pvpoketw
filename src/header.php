@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.16.1.4';
+$SITE_VERSION = '1.16.1.5';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -188,4 +188,4 @@ if(! isset($OG_IMAGE)){
 	</header>
 	<div class="main-wrap">
 		<div id="main">
-			<div class="section white hide mega-warning"><b>提醒：已開放的Mega個體已修改為官方數值，但目前PVP戰鬥能力仍未知。本站所有mega模擬結果僅供參考並依後續發佈消息調整。未開放的Mega個體採用網友推估的非官方數值。</b></div>
+			<div class="hide mega-warning"><b>Stats for released Mega Evolutions are official but PvP performance is currently unknown. Simulation results should be disregarded until more info is available. Stats for unreleased Mega Evolutions are speculative and unofficial.</b></div>

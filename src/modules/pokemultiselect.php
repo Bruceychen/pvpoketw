@@ -20,6 +20,7 @@
 				<option value="premier" type="master" class="hide multi-battle">紀念盃 Meta</option>
                 <option value="flying" type="great" class="multi-battle">飛行盃 Meta</option>
                 <option value="halloween" type="great" class="multi-battle">萬聖節盃 Meta</option>
+				<option value="circus" type="great" class="multi-battle">Circus Cup Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

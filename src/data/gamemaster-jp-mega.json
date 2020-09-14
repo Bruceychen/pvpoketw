@@ -17689,6 +17689,17 @@
            "energyGain": 0,
            "cooldown": 500
        }, {
+           "moveId": "LUNGE",
+           "name": "とびかかる",
+           "type": "bug",
+           "power": 60,
+           "energy": 45,
+           "energyGain": 0,
+           "cooldown": 500,
+           "buffs": [-1, 0],
+           "buffTarget": "opponent",
+           "buffApplyChance": "1"
+       }, {
            "moveId": "MAGNET_BOMB",
            "name": "マグネットボム",
            "type": "steel",

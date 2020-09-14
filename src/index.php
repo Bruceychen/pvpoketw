@@ -27,12 +27,9 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.16.0 (September 1, 2020)</h4>
-	<ul>
-		<li>Released Mega Evolutions are now listed on the main version of the site. You can view unreleased Mega Evolutions by setting your Gamemaster version on the <a href="<?php echo $WEB_ROOT; ?>settings/">Settings page</a>.</li>
-		<li>Please note that Mega Evolution performance in PvP is currently unknown and potentially bugged. Any battle simulations involving Mega Evolutions, breakpoints, etc. should be disregarded until more information is known.</li>
-		<li>Mega Evolutions display the CP of their base form.</li>
-		<li>When adjusting a Pokemon's IVs, its level will automatically adjust to the CP limit.</li>
+    <h4>v1.16.2 (九月 14, 2020)</h4>
+    <ul>
+        <li>本站資訊進入到官方天梯聯盟第四季！已新增招式猛撲，蓄能焰襲、信號光束、以及蟲鳴之狀態影響也更新！</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -79,8 +76,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Tue Sep 15 01:25:17 2020 +0800</li>
-                <li>原版最後版本時間：Sun Sep 13 22:53:19 2020 -0500</li>
+                <li>中文版最後更新時間：Tue Sep 15 07:55:17 2020 +0800</li>
+                <li>原版最後版本時間：Mon Sep 14 01:52:55 2020 -0500</li>
             </ul>
 </div>
 

@@ -55,6 +55,9 @@
     <option value="ferocious-mirror" cat="tsa-2">猛獸盃 (Mirror)</option>
 	<option value="sinister" cat="tsa-2">魅靈盃</option>
     <option value="sinister-mirror" cat="tsa-2">魅靈盃 (Mirror)</option>
-    <option value="circus" cat="tsa-2">Circus Cup</option>
+	<option value="circus" cat="tsa-2">Circus Cup</option>
+	<option value="maelstrom" cat="tsa-2">Maelstrom Cup</option>
+	<option value="origin" cat="tsa-2">Origin Cup</option>
+	<option value="duet" cat="tsa-2">Duet Cup</option>
 	<option value="custom" cat="custom">自訂排名</option>
 </select>

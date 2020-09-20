@@ -27,9 +27,11 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-    <h4>v1.16.2 (九月 14, 2020)</h4>
+    <h4>v1.16.3 (September 19, 2020)</h4>
     <ul>
-        <li>本站資訊進入到官方天梯聯盟第四季！已新增招式猛撲，蓄能焰襲、信號光束、以及蟲鳴之狀態影響也更新！</li>
+        <li>The "Switches" rankings now rank Pokemon with 4 turns of energy advantage instead of 6.</li>
+        <li>Fixed an issue in Sandbox Mode that caused stat-changing moves to reroll each update.</li>
+        <li>Custom group import/export text no longer highlights so you can edit the text directly.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -76,8 +78,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sat Sep 19 11:05:17 2020 +0800</li>
-                <li>原版最後版本時間：Fri Sep 18 18:58:18 2020 -0500</li>
+                <li>中文版最後更新時間：Sun Sep 20 11:05:17 2020 +0800</li>
+                <li>原版最後版本時間：Sat Sep 19 18:36:19 2020 -0500</li>
             </ul>
 </div>
 

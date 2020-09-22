@@ -3,7 +3,8 @@
 	<option value="official" cup="premier">紀念盃</option>
 	<option value="official" cup="flying">飛行盃</option>
 	<option value="official" cup="halloween">萬聖節盃</option>
-    <option value="tsa-2" cup="circus">Circus Cup</option>
+	<option value="tsa-2" cup="circus">Circus Cup</option>
+	<option value="tsa-3" cup="sunrise">Silph Sunrise Cup</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>
@@ -59,5 +60,6 @@
 	<option value="maelstrom" cat="tsa-2">Maelstrom Cup</option>
 	<option value="origin" cat="tsa-2">Origin Cup</option>
 	<option value="duet" cat="tsa-2">Duet Cup</option>
+	<option value="sunrise" cat="tsa-3">Sunrise Cup</option>
 	<option value="custom" cat="custom">自訂排名</option>
 </select>

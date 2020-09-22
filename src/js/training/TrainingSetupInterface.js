@@ -190,7 +190,8 @@ var InterfaceMaster = (function () {
 				var val = $(".league-cup-select option:selected").val();
 
 				if(val == ""){
-					modalWindow("Select League", $("<p>Please select a league or cup.</p>"));
+					//以下這行介面翻譯
+					modalWindow("選擇聯盟/主題", $("<p>請選擇對戰聯盟 或 主題盃賽。</p>"));
 
 					return false;
 				}

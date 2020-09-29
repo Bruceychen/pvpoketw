@@ -91,6 +91,7 @@ require_once '../header.php';
 <p>
     超級聯盟(CP1500)中推薦用打草結，但在一般情況下月亮之力和預知未來通常是標配。
 </p>
+    <img src="<?php echo $WEB_ROOT;?>assets/articles/tbc.png" />
   </div>
 
   <a name="dewgong"></a>

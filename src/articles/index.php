@@ -31,9 +31,9 @@ require_once '../header.php';
 			</a>
 		</div>
 		<div class="col-9">
-			<h4><a href="<?php echo $WEB_ROOT; ?>articles/best-elite-tm-candidates-pvp/">Best Elite TM Candidates for PvP</a></h4>
-			<div class="date">April 28, 2020</div>
-			<p>Elite TM's are now available! Which exclusive moves and Pokemon are the best for your PvP team?</p>
+			<h4><a href="<?php echo $WEB_ROOT; ?>articles/best-elite-tm-candidates-pvp/">菁英招式機使用取捨與考量建議</a></h4>
+			<div class="date">原文：April 28, 2020; 翻譯：Sep 29, 2020 By 格雷南波萬</div>
+			<p>菁英招式機實裝！該如何選擇限定絕版招式與寶可夢呢？</p>
 		</div>
 
 	</div>

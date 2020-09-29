@@ -15933,7 +15933,7 @@
         "eliteMoves": ["WING_ATTACK", "AIR_CUTTER"]
     },{
         "dex": 229,
-        "speciesName": "Houndoom (Mega)",
+        "speciesName": "ヘルガー (メガ)",
         "speciesId": "houndoom_mega",
         "baseStats": {
             "atk": 289,

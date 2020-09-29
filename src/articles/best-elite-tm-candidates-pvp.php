@@ -70,26 +70,26 @@ require_once '../header.php';
   </div>
 
   <a name="cresselia"></a>
-  <h3 class="article-header">Cresselia</h3>
+  <h3 class="article-header">克雷色利亞 (Cresselia)</h3>
 <div class="article-section">
 <p>
-  <strong>Moveset: </strong>
-  Psycho Cut or Confusion
-  + <em>Grass Knot</em> &amp; Moonblast
+  <strong>推薦招式：</strong>
+    精神利刃 或 念力
+  + <em>打草結</em> &amp; 月亮之力
   <em>
 	  <br/>
   </em>
-  <strong>Formats: </strong>
-  Great League
+  <strong>適用於：</strong>
+    超級聯盟(CP1500)
 </p>
 <p>
-  Great League is rife with Water-type Pokemon like Azumarill and Swampert that form the backbone of many teams. Grass Knot Cresselia can take its amazing bulk and apply super effective pressure against these Pokemon. <b>Head to head, it beats Azumarill, Whiscash, Swampert, and Dewgong.</b> Outside of Grass Knot, it great general matchups.
+    超級聯盟充斥者許多水寶可夢，常見如瑪力露麗和巨沼怪，它們是隊伍中的中堅力量。學習到打草結的克雷色利亞能有效在戰鬥中，<b>壓制並擊敗瑪力露麗、鯰魚王、巨沼怪,和白海獅。</b>他還可以擊敗許多草系寶可盟，例如妙蛙花和熱帶龍等，以及格鬥系的寶可夢，如毒骷蛙、恰雷姆等和偽格鬥寶可夢，如防禦型代歐奇希斯和過動猿等。
 </p>
 <p>
-  Grass Knot is typically paired with Moonblast which covers Cresselia from Dark-type counters like Umbreon or Scrafty. Confusion versus Psycho Cut is a tougher debate and depends on how you want to use Cresselia. Confusion is generally better in head-on matchups while Psycho Cut gives Cresselia a bigger advantage when switching in or protecting it from Dark type counters. Which you choose may depend on your team.
+    打草結通常與月亮之力搭配使用，他使克雷色利亞可以對抗惡屬性寶可夢例如月亮伊布、頭巾混混。對於快速招式精神利刃和念力的選擇，取決於你想如何的使用克雷色利亞。念力傷害量高(尤其對付帶有毒屬性及格鬥屬性的寶可夢更是如此)，而精神利刃給予了克雷色利亞在擋切及蓄能上更大的靈活度。對於精神利刃和念力選擇可能取決於你的團隊組成，如果你是否需要使用克雷色利亞對抗惡屬性寶可夢。
 </p>
 <p>
-	Grass Knot can be used in Ultra League, but Moonblast and Future Sight are generally preferred there.
+    超級聯盟(CP1500)中推薦用打草結，但在一般情況下月亮之力和預知未來通常是標配。
 </p>
   </div>
 

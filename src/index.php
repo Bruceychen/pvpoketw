@@ -27,12 +27,15 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-    <h4>v1.16.3 (September 19, 2020)</h4>
+    <h4>v1.17.0 (September 28, 2020)</h4>
     <ul>
-        <li>The "Switches" rankings now rank Pokemon with 4 turns of energy advantage instead of 6.</li>
-        <li>Fixed an issue in Sandbox Mode that caused stat-changing moves to reroll each update.</li>
-        <li>Custom group import/export text no longer highlights so you can edit the text directly.</li>
-	</ul>
+        <li>Decision algorithm overhauled for simulations:</li>
+        <ul>
+            <li>Move usage is now based on fastest sequence to KO (was formerly based on move damage per energy).</li>
+            <li>This should significantly improve optimal play in default matchups.</li>
+            <li>Huge thanks to <a href="https://twitter.com/Brandon50619618" target="_blank">Brandon/BananaBread</a> for contributing the code for this update!</li>
+        </ul>
+    </ul>
 
 	<h3>Latest Article</h3>
 
@@ -78,8 +81,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sat Sep 26 12:20:17 2020 +0800</li>
-                <li>原版最後版本時間：Fri Sep 25 02:35:56 2020 -0500</li>
+                <li>中文版最後更新時間：Tue Sep 26 18:20:17 2020 +0800</li>
+                <li>原版最後版本時間：Mon Sep 28 20:44:15 2020 -0500</li>
             </ul>
 </div>
 

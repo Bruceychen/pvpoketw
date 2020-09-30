@@ -13,7 +13,7 @@ require_once '../header.php';
 
 <div class="section article white">
 	<h1>PVP 厲害招式學習器使用取捨與考量建議</h1>
-	<div class="date">最後更新 2020 年 9 月 25 日</div>
+	<div class="date">最後更新 2020 年 9 月 30 日</div>
     <div class="translator">特別感謝世界級訓練家：格雷南波萬 協助翻譯。原文請見 <a href="https://pvpoke.com/articles/best-elite-tm-candidates-pvp/">原版網站</a></div>
 	<img src="<?php echo $WEB_ROOT;?>assets/articles/elite-tm-banner.jpg" />
 <p>
@@ -94,60 +94,46 @@ require_once '../header.php';
   </div>
 
   <a name="dewgong"></a>
-  <h3 class="article-header">Dewgong</h3>
+  <h3 class="article-header">白海獅 (Dewgong)</h3>
   <div class="article-section">
   <p>
-  <strong>Moveset: </strong>
-  <em>Ice Shard</em>
-  + <em>Icy Wind</em> &amp; Water Pulse
+  <strong>推薦招式：</strong>
+  <em>冰礫</em>
+  + <em>冰凍之風</em> &amp; 水之波動
   <em>
   	<br/>
   </em>
-  <strong>Formats: </strong>
-  Great League
+  <strong>適用於：</strong>
+    超級聯盟(CP1500)
   </p>
   <p>
-  If you’ve been playing Great League or in The Silph Arena for a while,
-  you’ve probably heard myths about this rare creature. You’ve maybe even
-  glimpsed one for 4 whole minutes before the game timed out. The fabled
-  double legacy Dewgong is available via Elite TM, but comes at the steep
-  cost of two TM's if you don’t have one of the legacy moves already.
+      如果你在超級聯盟、西爾佛(Silph)聯盟或天梯(Go Battle League)投注了不少時間，你可能聽過他的神話。他可以單槍匹馬就耗了你整整近四分鐘的遊戲時間直到對戰時間結束。白海獅的絕版招皆可使用厲害招式學習器獲得，但如果你兩個絕版招都沒有，你可能就需要耗費可觀的資源-兩個厲害招式學習器來獲得這隻白海獅。
   </p>
   <p>
-  Make no mistake,    <strong>double legacy Dewgong is a top tier Great League Pokemon </strong>
-  that combines great bulk with a stat-lowering move that is both spammable
-  and powerful. Unlike comparable moves like Bubble Beam and Sand Tomb, Icy
-  Wind boasts decent damage. Even in losing matchups, Icy Wind draws
-  opponents into extended fights where they may lose the battle as well as
-  their cool.
+      毫無疑問的，<strong>雙絕版招的白海獅在超級聯盟中屬於頂級的寶可夢。</strong>他可以持續降低對手攻擊力，但又與泡沫光線和流沙地獄不同，冰凍之風同時具備不錯的傷害能力。即使白海獅遇上逆風/屬性不利的對戰，對手也有可能因為冰凍之風導致戰鬥時間被延長，進而被白海獅逆轉/打敗。
   </p>
   <p>
-  One challenge is <strong>Dewgong can be difficult to build a team around</strong>, especially in GO Battle League. Dewgong is vulnerable to Counter users, Rock Slide from Galarian Stunfisk, Bastiodon, Electric types like Galvantula, and bulky Grass-types like Ferrothorn. One successful example of a Dewgong team is Dewgong/Medicham/Munchlax run by <a href="https://twitter.com/TheAsianMilkMan" target="_blank">TheAsianMilkMan</a>.
+      在超級聯盟中，<strong>編組包含白海獅的隊伍是非常具有挑戰性的。</strong>因為岩石系(伽勒爾泥巴魚的岩崩、護城龍)電系(電蜘蛛)和草系(堅果啞鈴)都可以剋制白海獅。國外訓練家<a href="https://twitter.com/TheAsianMilkMan" target="_blank">TheAsianMilkMan</a>的白海獅+恰雷姆+小卡比獸 就是白海獅隊伍組成的一個成功例子。
   </p>
   <p>
-  Yes, Dewgong does need both Ice Shard and Icy Wind to reach its full
-  potential. Frost Breath + Icy Wind is surprisingly playable but faster Icy
-  Winds are essential for Dewgong’s effectiveness.
+      確實，白海獅需要冰礫 + 冰凍之風來充分發揮他的潛力。但冰息+ 冰凍之風的組合卻也可以大幅增加白海獅對戰中的靈活性。
   </p>
   <p>
-  A word of caution: Dewgong could potentially have its removed moves
-  returned in a future update, or Icy Wind could be nerfed following the fate
-  of similar moves like Power-Up Punch and Ancient Power. This goes for the other Pokemon in this article, but only use Elite TM’s
-  on Dewgong now if you want to win with it now.
+      但這邊也提醒各位訓練家：白海獅冰凍之風的附加效果或攻擊力，很可能會隨著遊戲更動而像增強拳和原始之力一樣被削弱，也可能官方突然又解除絕版，使用普通的特殊招式學習器就能學會...而這些潛在風險也同樣適用於本篇文章中其他寶可夢的絕版招式。但如果你現在就想贏，現在就想和絕版招白海獅共同戰鬥，那就使用厲害招式學習器吧！
   </p>
   </div>
 
   <a name="lapras"></a>
-  <h3 class="article-header">Lapras</h3>
+  <h3 class="article-header">拉普拉斯 (Lapras)</h3>
   <div class="article-section">
   <p>
-  <strong>Moveset: </strong>
-  <em>Ice Shard</em>
+  <strong>推薦招式：</strong>
+  <em>冰礫</em>
   + Surf & Skull Bash or <em>Ice Beam</em>
   <em>
 	  <br/>
   </em>
-  <strong>Formats: </strong>
+  <strong>適用於：</strong>
   Great League, Ultra League, Premier Cup, Silph Arena
   </p>
   <p>
@@ -158,16 +144,16 @@ require_once '../header.php';
   </div>
 
 	<a name="zapdos"></a>
-	<h3 class="article-header">Zapdos</h3>
+	<h3 class="article-header">閃電鳥 (Zapdos)</h3>
   <div class="article-section">
 <p>
-    <strong>Moveset: </strong>
+    <strong>推薦招式：</strong>
     <em>Thunder Shock</em>
     + Drill Peck &amp; Thunderbolt or Thunder
     <em>
         <br/>
     </em>
-    <strong>Formats: </strong>
+    <strong>適用於：</strong>
     Great League, Ultra League
 </p>
 <p>
@@ -213,15 +199,15 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
 	</div>
 
 	<a name="charizard"></a>
-	<h3 class="article-header">Charizard</h3>
+	<h3 class="article-header">噴火龍 (Charizard)</h3>
 	<div class="article-section">
 <p>
-    <strong>Moveset: </strong>
+    <strong>推薦招式：</strong>
     <em>Wing Attack</em>
     + <em>Blast Burn</em> &amp; Dragon Claw, or<br>
 	<em>Dragon Breath</em>
 	+ <em>Blast Burn</em> &amp; Dragon Claw<br>
-    <strong>Formats: </strong>
+    <strong>適用於：</strong>
     Great League, Ultra League, Premier Cup, Silph Arena
 </p>
 <p>Charizard has a slew of exclusive moves, including the October Community day move Dragon Breath. Blast Burn and Dragon Claw are almost always its preferred Charged Moves, but you might need an Elite TM to tie a bow on Charizard's moveset. Overheat is playable if you can't get Blast Burn but comes with a -2 Attack drop.</p>
@@ -365,16 +351,16 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
   </div>
 
   <a name="blaziken"></a>
-  <h3 class="article-header">Blaziken</h3>
+  <h3 class="article-header">火焰雞 (Blaziken)</h3>
   <div class="article-section">
 <p>
-  <strong>Moveset: </strong>
+  <strong>推薦招式：</strong>
   Counter
   + Blaze Kick &amp; <em>Stone Edge</em>
   <em>
 	  <br/>
   </em>
-  <strong>Formats: </strong>
+  <strong>適用於：</strong>
   Great League, Silph Arena
 </p>
 <p>
@@ -388,16 +374,16 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
 </div>
 
 	<a name="mewtwo"></a>
-	<h3 class="article-header">Mewtwo</h3>
+	<h3 class="article-header">超夢 (Mewtwo)</h3>
 <div class="article-section">
 <p>
-    <strong>Moveset: </strong>
+    <strong>推薦招式：</strong>
     Psycho Cut + <em>Psystrike </em>&amp; Focus Blast or
     <em>
         Shadow Ball
         <br/>
     </em>
-    <strong>Formats: </strong>
+    <strong>適用於：</strong>
     Master League
 </p>
 <p>
@@ -416,11 +402,11 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
 	</div>
 
 	<a name="mew"></a>
-	<h3 class="article-header">Mew</h3>
+	<h3 class="article-header">夢幻 (Mew)</h3>
 	<div class="article-section">
 <p>
-	<strong>Moveset:</strong> Shadow Claw + Wild Charge & Surf or Flame Charge<br>
-    <strong>Formats: </strong>
+	<strong>推薦招式：</strong> Shadow Claw + Wild Charge & Surf or Flame Charge<br>
+    <strong>適用於：</strong>
     Great League
 </p>
 <p>
@@ -438,7 +424,7 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
 	</div>
 
 	<a name="event-shadow"></a>
-	<h3 class="article-header">Event Moves &amp; Shadow Pokemon</h3>
+	<h3 class="article-header">活動限定/社群日招式 及 暗影寶可夢</h3>
 	<div class="article-section">
 <p>
     Longtime PvP players probably have all the essential Community Day moves in
@@ -542,7 +528,7 @@ Dialga. Top neutral damage generalist for the raiders in the room.        <stron
 	</div>
 
 	<a name="removed"></a>
-	<h3 class="article-header">Other Removed Moves</h3>
+	<h3 class="article-header">其他絕版招式</h3>
 	<div class="article-section">
 <p>
     There are a lot of Pokemon worth considering with their legacy movesets. Here are a few more that could be worth an Elite TM:

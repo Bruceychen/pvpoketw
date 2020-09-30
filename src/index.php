@@ -1,6 +1,7 @@
 <?php require_once 'header.php'; ?>
 
 <div class="section home white">
+
 	<p>歡迎來到 PvPokeTW.com! 這是一個基於 <a href="pvpoke.com">pvpoke.com</a> 的非官方繁中翻譯版，針對 Pokemon GO PVP(玩家間對戰) 的開源平台。</p>
 
 	<a href="<?php echo $WEB_ROOT; ?>battle/" class="button">
@@ -81,8 +82,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Tue Sep 26 19:55:17 2020 +0800</li>
-                <li>原版最後版本時間：Mon Sep 28 20:44:15 2020 -0500</li>
+                <li>中文版最後更新時間：Wed Sep 30 23:30:17 2020 +0800</li>
+                <li>原版最後版本時間：Tue Sep 29 00:48:36 2020 -0500</li>
             </ul>
 </div>
 

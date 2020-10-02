@@ -999,6 +999,12 @@ function Battle(){
 		var oppFastDamage = self.calculateDamage(opponent, poke, opponent.fastMove);
 		var hasNonDebuff = false;
 
+		// If no Charged Moves at all, return
+		if(poke.activeChargedMoves.length < 1){
+			useChargedMove = false;
+			return;
+		}
+
 		// If no charged move ready, always throw fast move or farm energy is on
 		if (poke.energy < poke.fastestChargedMove.energy || poke.farmEnergy) {
 			useChargedMove = false;
@@ -1113,7 +1119,11 @@ function Battle(){
 
 		// If you can't throw a fast move and live, throw whatever move you can with the most damage
 		if (turnsToLive != -1) {
-			if (turnsToLive * 500 < poke.fastMove.cooldown || (turnsToLive * 500 == poke.fastMove.cooldown && !winsCMP)) {
+			if(opponent.fastMove.cooldown == 500){
+				turnsToLive--;
+			}
+
+			if (turnsToLive * 500 < poke.fastMove.cooldown || (turnsToLive * 500 == poke.fastMove.cooldown && !winsCMP) || (turnsToLive * 500 == poke.fastMove.cooldown && poke.hp <= opponent.fastMove.damage)) {
 
 				var maxDamageMoveIndex = 0;
 				var prevMoveDamage = -1;
@@ -1149,6 +1159,33 @@ function Battle(){
 
 					chargedMoveUsed = true;
 					return action;
+				}
+			}
+		}
+
+		// Throw a lethal Charged Move if it will faint the opponent
+
+		if(! poke.farmEnergy){
+			for(var n = 0; n < poke.activeChargedMoves.length; n++) {
+				var move = poke.activeChargedMoves[n];
+				var moveIndex = poke.chargedMoves.indexOf(poke.activeChargedMoves[n]);
+
+				if(poke.energy >= move.energy){
+					var moveDamage = self.calculateDamage(poke, opponent, poke.activeChargedMoves[n]);
+
+					// Don't throw self debuffing moves at this point, or if the opponent will faint from Fast Move damage
+					if(opponent.hp <= moveDamage && (! move.selfDebuffing) && (n == 0 || (n == 1 && ! poke.baitShields)) && opponent.hp > poke.fastMove.damage){
+
+						action = new TimelineAction(
+							"charged",
+							poke.index,
+							turns,
+							moveIndex,
+							{shielded: false, buffs: false, priority: poke.priority});
+
+						chargedMoveUsed = true;
+						return action;
+					}
 				}
 			}
 		}
@@ -1376,8 +1413,8 @@ function Battle(){
 					// If move will debuff attack, calculate values when you stack two of them then throw
 					if (poke.activeChargedMoves[n].selfDebuffing && poke.activeChargedMoves[n].buffs[0] < 0 && poke.activeChargedMoves[n].energy * 2 <= 100) {
 
-						var newTurn = Math.ceil((poke.chargedMoves[n].energy * 2 - currState.energy) / poke.fastMove.energyGain) * poke.fastMove.cooldown / 500;
-						newEnergy = Math.floor(newTurn / (poke.fastMove.cooldown / 500)) * poke.fastMove.energyGain + currState.energy - poke.chargedMoves[n].energy;
+						var newTurn = Math.ceil((poke.activeChargedMoves[n].energy * 2 - currState.energy) / poke.fastMove.energyGain) * poke.fastMove.cooldown / 500;
+						newEnergy = Math.floor(newTurn / (poke.fastMove.cooldown / 500)) * poke.fastMove.energyGain + currState.energy - poke.activeChargedMoves[n].energy;
 
 						if (newTurn != 0) {
 							// Calculate new health
@@ -1472,8 +1509,8 @@ function Battle(){
 					// If move will debuff attack, calculate values when you stack two of them then throw
 					if (poke.activeChargedMoves[n].selfDebuffing && poke.activeChargedMoves[n].buffs[0] < 0 && poke.activeChargedMoves[n].energy * 2 <= 100) {
 
-						newTurn = Math.ceil((poke.chargedMoves[n].energy * 2 - currState.energy) / poke.fastMove.energyGain) * poke.fastMove.cooldown / 500;
-						newEnergy = Math.floor(newTurn / (poke.fastMove.cooldown / 500)) * poke.fastMove.energyGain + currState.energy - poke.chargedMoves[n].energy;
+						newTurn = Math.ceil((poke.activeChargedMoves[n].energy * 2 - currState.energy) / poke.fastMove.energyGain) * poke.fastMove.cooldown / 500;
+						newEnergy = Math.floor(newTurn / (poke.fastMove.cooldown / 500)) * poke.fastMove.energyGain + currState.energy - poke.activeChargedMoves[n].energy;
 
 						// Calculate new health
 						newOppHealth = currState.oppHealth - fastSimulatedDamage * (newTurn / (poke.fastMove.cooldown / 500));
@@ -1522,7 +1559,13 @@ function Battle(){
 		// Evaluate throwing strategy after finding optimal plan
 
 		// Set our turnsToKO to our guaranteed KO turn
-		poke.turnsToKO = turns + stateList[stateList.length - 1].turn;
+		if(stateList.length > 0){
+			poke.turnsToKO = turns + stateList[stateList.length - 1].turn;
+		} else{
+			useChargedMove = false;
+			return;
+		}
+
 
 		// If opponent KOs before our guaranteed KO, go for the least risky plan that still KOs before opponent KOs us.
 		var needsBoost = false;
@@ -1596,6 +1639,11 @@ function Battle(){
 					}
 				}
 			}
+		}
+
+		// If shields are up, prefer low energy moves that are more efficient
+		if (opponent.shields > 0 && poke.activeChargedMoves.length > 1 && poke.activeChargedMoves[0].energy <= finalState.moves[0].energy && poke.activeChargedMoves[0].dpe > finalState.moves[0].dpe && (! poke.activeChargedMoves[0].selfDebuffing)) {
+			finalState.moves[0] = poke.activeChargedMoves[0];
 		}
 
 		if (poke.energy >= finalState.moves[0].energy) {

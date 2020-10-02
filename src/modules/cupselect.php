@@ -3,7 +3,6 @@
 	<option value="official" cup="premier">紀念盃</option>
 	<option value="official" cup="flying">飛行盃</option>
 	<option value="official" cup="halloween">萬聖節盃</option>
-	<option value="tsa-2" cup="circus">Circus Cup</option>
 	<option value="tsa-3" cup="sunrise">Silph 晨曦盃</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>

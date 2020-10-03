@@ -993,7 +993,7 @@ function Battle(){
 	this.decideAction = function(poke, opponent){
 
 		var chargedMoveReady = [];
-		var winsCMP = opponent.stats.atk < poke.stats.atk;
+		var winsCMP = poke.stats.atk >= opponent.stats.atk;
 
 		var fastDamage = self.calculateDamage(poke, opponent, poke.fastMove);
 		var oppFastDamage = self.calculateDamage(opponent, poke, opponent.fastMove);
@@ -1101,7 +1101,7 @@ function Battle(){
 						moveDamage = self.calculateDamage(opponent, poke, opponent.activeChargedMoves[n]);
 						if (moveDamage >= currState.hp) {
 							turnsToLive = Math.min(currState.turn, turnsToLive);
-							self.logDecision(turns, poke, " opponent has energy to use " + opponent.activeChargedMoves[n].name + " and it would do " + moveDamage + " damage. I have " + turnsToLive + " turn(s) to live");
+							self.logDecision(turns, poke, " opponent has energy to use " + opponent.activeChargedMoves[n].name + " and it would do " + moveDamage + " damage. I have " + turnsToLive + " turn(s) to live, opponent has " + currState.opEnergy);
 							break;
 						}
 						queue.unshift(
@@ -1643,6 +1643,11 @@ function Battle(){
 
 		// If shields are up, prefer low energy moves that are more efficient
 		if (opponent.shields > 0 && poke.activeChargedMoves.length > 1 && poke.activeChargedMoves[0].energy <= finalState.moves[0].energy && poke.activeChargedMoves[0].dpe > finalState.moves[0].dpe && (! poke.activeChargedMoves[0].selfDebuffing)) {
+			finalState.moves[0] = poke.activeChargedMoves[0];
+		}
+
+		// Bandaid to force more efficient move of the same energy
+		if (poke.activeChargedMoves.length > 1 && poke.activeChargedMoves[0].energy == finalState.moves[0].energy && poke.activeChargedMoves[0].dpe > finalState.moves[0].dpe && (! poke.activeChargedMoves[0].selfDebuffing)) {
 			finalState.moves[0] = poke.activeChargedMoves[0];
 		}
 

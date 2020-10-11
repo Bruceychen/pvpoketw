@@ -356,7 +356,7 @@ require_once 'header.php';
         <div class="moveset fast clear"></div>
         <div class="footnote">
             *：活動、社群日或絕版招式<br>
-            <sup>†</sup>：無法透過任何招式機習得
+            <sup>†</sup>：無法透過任何招式學習器習得
         </div>
     </div>
     <div class="detail-section float">

@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.17.5.3';
+$SITE_VERSION = '1.17.7.1';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -187,4 +187,4 @@ if(! isset($OG_IMAGE)){
 	</header>
 	<div class="main-wrap">
 		<div id="main">
-			<div class="hide mega-warning"><b>Stats for released Mega Evolutions are official but PvP performance is currently unknown. Simulation results should be disregarded until more info is available. Stats for unreleased Mega Evolutions are speculative and unofficial.</b></div>
+            <div class="hide mega-warning"><b>提醒：未實裝之Mega寶可夢的數值為網友推估，於正式實裝前請不要投入任何資源培育！</b></div>

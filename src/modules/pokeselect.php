@@ -96,7 +96,7 @@
 			<select class="move-select charged"></select>
 			<select class="move-select charged"></select>
 			<button class="auto-select">自動選擇招式</button>
-            <div class="legacy">*：絕版招式<br><sup>†</sup>：無法透過任何招式機習得</div>
+            <div class="legacy">*：絕版招式<br><sup>†</sup>：無法透過任何招式學習器習得</div>
 		</div>
 
 		<div class="options">

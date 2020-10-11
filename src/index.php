@@ -28,15 +28,16 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-    <h4>v1.17.0 (September 28, 2020)</h4>
-    <ul>
-        <li>Decision algorithm overhauled for simulations:</li>
-        <ul>
-            <li>Move usage is now based on fastest sequence to KO (was formerly based on move damage per energy).</li>
-            <li>This should significantly improve optimal play in default matchups.</li>
-            <li>Huge thanks to <a href="https://twitter.com/Brandon50619618" target="_blank">Brandon/BananaBread</a> for contributing the code for this update!</li>
-        </ul>
-    </ul>
+	<h4>v1.17.7 (October 10, 2020)</h4>
+	<ul>
+		<li>Mega Evolutions are now listed in the rankings. Note that Mega Evolutions are still not allowed in GO Battle League.</li>
+	</ul>
+
+	<h4>v1.17.6 (October 10, 2020)</h4>
+	<ul>
+		<li>In Sandbox Mode, moves with guaranteed stat changes will have those changes applied by default.</li>
+		<li>Training Battles for GO Battle League can now utilize preset teams to help you prepare for and recognize common teams of 3.</li>
+	</ul>
 
 	<h3>Latest Article</h3>
 
@@ -82,8 +83,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sat Oct 10 20:55:17 2020 +0800</li>
-                <li>原版最後版本時間：Fri Oct 9 08:03:51 2020 -0500</li>
+                <li>中文版最後更新時間：Sun Oct 11 10:40:17 2020 +0800</li>
+                <li>原版最後版本時間：Sat Oct 10 17:38:31 2020 -0500</li>
             </ul>
 </div>
 

@@ -233,8 +233,6 @@ function PokeSelect(element, i){
 				$el.find(".mega-cp-container .base-name").html("進化前 " + basePokemon.speciesName);
 				$el.find(".mega-cp-container .mega-cp .stat").html(basePokemon.cp);
 				$el.find(".mega-cp-container").show();
-
-				$(".mega-warning").show();
 			} else{
 				$el.find(".mega-cp-container").hide();
 			}

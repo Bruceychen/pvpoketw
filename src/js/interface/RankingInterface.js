@@ -562,7 +562,7 @@ var InterfaceMaster = (function () {
 				}
 				// 以下這行介面翻譯
 				if(pokemon.hasTag("mega")){
-					$details.append("<div class=\"detail-section\"><b>提醒：Mega 進化目前尚無法於Go 對戰聯盟(天梯)使用。這些資料僅供您作為未來開放對戰使用時的預先準備。再開放使用前請先不要投資任何Mega能量或任何招式學習器在這些寶可夢身上。</b></div>");
+					$details.append("<div class=\"detail-section\"><b>提醒：Mega 進化目前尚無法於Go 對戰聯盟(天梯)使用。這些資料僅供您作為未來開放對戰使用時的預先準備。在開放使用前請先不要投資任何Mega能量或任何招式學習器在這些寶可夢身上。</b></div>");
 				}
 
 				// Display move data

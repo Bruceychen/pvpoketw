@@ -28,16 +28,15 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.17.7 (October 10, 2020)</h4>
-	<ul>
-		<li>Mega Evolutions are now listed in the rankings. Note that Mega Evolutions are still not allowed in GO Battle League.</li>
-	</ul>
+    <h4>v1.17.8 (October 10, 2020)</h4>
+    <ul>
+        <li>Moves now have unique abbreviations (listed in Matrix Battle results). Matrix Battle results also list IV's.</li>
+    </ul>
 
-	<h4>v1.17.6 (October 10, 2020)</h4>
-	<ul>
-		<li>In Sandbox Mode, moves with guaranteed stat changes will have those changes applied by default.</li>
-		<li>Training Battles for GO Battle League can now utilize preset teams to help you prepare for and recognize common teams of 3.</li>
-	</ul>
+    <h4>v1.17.7 (October 10, 2020)</h4>
+    <ul>
+        <li>Mega Evolutions are now listed in the rankings. Note that Mega Evolutions are still not allowed in GO Battle League.</li>
+    </ul>
 
 	<h3>Latest Article</h3>
 
@@ -83,8 +82,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Tue Oct 20 00:15:17 2020 +0800</li>
-                <li>原版最後版本時間：Sun Oct 18 20:00:46 2020 -0500</li>
+                <li>中文版最後更新時間：Tue Oct 20 10:00:17 2020 +0800</li>
+                <li>原版最後版本時間：Mon Oct 19 17:28:39 2020 -0500</li>
             </ul>
 </div>
 

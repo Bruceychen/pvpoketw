@@ -21,6 +21,7 @@
                 <option value="flying" type="great" class="multi-battle">飛行盃 Meta</option>
                 <option value="halloween" type="great" class="multi-battle">萬聖節盃 Meta</option>
 				<option value="sunrise" type="great" class="multi-battle">Silph 晨曦盃 Meta</option>
+                <option value="marsh" type="great" class="multi-battle">Silph Marsh Cup Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

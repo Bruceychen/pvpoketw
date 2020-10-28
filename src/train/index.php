@@ -45,6 +45,7 @@ require_once '../header.php';
 				<option value="1500 flying">飛行盃</option>
 				<option value="1500 halloween">萬聖節盃</option>
 				<option value="1500 sunrise">Silph 晨曦盃</option>
+				<option value="1500 marsh">Silph 沼澤盃</option>
 			</select>
 			<h3 class="section-title">AI 強度</h3>
 			<select class="difficulty-select">

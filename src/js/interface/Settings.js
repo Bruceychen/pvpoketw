@@ -24,18 +24,20 @@ var InterfaceMaster = (function () {
 				var theme = $("#theme-select option:selected").val();
 				var matrixDirection = $("#matrix-direction option:selected").val();
 				var gamemaster = $("#gm-select option:selected").val();
+				var pokeboxId = $("#pokebox-id").val();
 
 				$.ajax({
 
-					// url : host+'data/settingsCookie.php',
-					url : '../data/settingsCookie.php',
+					url : host+'data/settingsCookie.php',
 					type : 'POST',
 					data : {
 						'defaultIVs' : defaultIVs,
 						'animateTimeline' : animateTimeline,
 						'theme': theme,
 						'matrixDirection': matrixDirection,
-						'gamemaster': gamemaster
+						'gamemaster': gamemaster,
+						'pokeboxId': pokeboxId,
+						'pokeboxLastDateTime': settings.pokeboxLastDateTime
 					},
 					dataType:'json',
 					success : function(data) {

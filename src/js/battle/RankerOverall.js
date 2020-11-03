@@ -19,7 +19,7 @@ var RankerMaster = (function () {
 			var rankings = [];
 			var rankingCombinations = [];
 
-			var moveUsageMode = "overall";
+			var moveUsageMode = "single";
 
 			var self = this;
 
@@ -30,6 +30,8 @@ var RankerMaster = (function () {
 
 				battle.setCup(cup.name);
 				battle.setCP(cp);
+
+				console.log(cp);
 
 				var leagues = [cp];
 

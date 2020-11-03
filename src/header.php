@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.17.8.12';
+$SITE_VERSION = '1.18.4.1';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -20,7 +20,15 @@ if(isset($_COOKIE['settings'])){
 		$_SETTINGS->gamemaster = "gamemaster";
 	}
 
-	// Validate the gamemaster setting, only allow these options
+    if(! isset($_SETTINGS->pokeboxId)){
+        $_SETTINGS->pokeboxId = false;
+    }
+
+    if(! isset($_SETTINGS->pokeboxLastDateTime)){
+        $_SETTINGS->pokeboxLastDateTime = 0;
+    }
+
+    // Validate the gamemaster setting, only allow these options
 	$gamemasters = ["gamemaster", "gamemaster-mega"];
 
 	if(! in_array($_SETTINGS->gamemaster, $gamemasters)){
@@ -31,7 +39,8 @@ if(isset($_COOKIE['settings'])){
 		'defaultIVs' => "gamemaster",
 		'animateTimeline' => 1,
 		'theme' => 'default',
-		'gamemaster' => 'gamemaster'
+		'gamemaster' => 'gamemaster',
+		'pokeboxId' => 0
 	];
 }
 
@@ -83,14 +92,14 @@ if(! isset($OG_IMAGE)){
 <link rel="manifest" href="<?php echo $WEB_ROOT; ?>data/manifest.json?v=2">
 
 <link rel="icon" href="<?php echo $WEB_ROOT; ?>img/favicon.png">
-<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=91">
+<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=93">
 
 <?php if(strpos($META_TITLE, 'Train') !== false): ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/train.css?v=14">
 <?php endif; ?>
 
 <?php if((isset($_SETTINGS->theme))&&($_SETTINGS->theme != "default")): ?>
-	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/themes/<?php echo $_SETTINGS->theme; ?>.css?v=9">
+	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/themes/<?php echo $_SETTINGS->theme; ?>.css?v=11">
 <?php endif; ?>
 
 <script src="<?php echo $WEB_ROOT; ?>js/libs/jquery-3.3.1.min.js"></script>
@@ -109,7 +118,9 @@ if(! isset($OG_IMAGE)){
 			defaultIVs: "<?php echo htmlspecialchars($_SETTINGS->defaultIVs); ?>",
 			animateTimeline: <?php echo htmlspecialchars($_SETTINGS->animateTimeline); ?>,
 			matrixDirection: "<?php echo htmlspecialchars($_SETTINGS->matrixDirection); ?>",
-			gamemaster: "<?php echo htmlspecialchars($_SETTINGS->gamemaster); ?>"
+			gamemaster: "<?php echo htmlspecialchars($_SETTINGS->gamemaster); ?>",
+			pokeboxId: "<?php echo intval($_SETTINGS->pokeboxId); ?>",
+			pokeboxLastDateTime: "<?php echo intval($_SETTINGS->pokeboxLastDateTime); ?>"
 		};
 	<?php else: ?>
 
@@ -117,7 +128,9 @@ if(! isset($OG_IMAGE)){
 			defaultIVs: "gamemaster",
 			animateTimeline: 1,
 			matrixDirection: "row",
-			gamemaster: "gamemaster"
+			gamemaster: "gamemaster",
+			pokeboxId: 0,
+			pokeboxLastDateTime: 0
 		};
 
 	<?php endif; ?>

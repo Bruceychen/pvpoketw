@@ -25,6 +25,10 @@ require_once 'header.php';
 		<p>目前此設定參數將會影響到你於"戰鬥模擬計算"與"隊伍組建模擬"中，我方寶可夢的預設IV。但所有對手方寶可夢的IV都只會採用標準IV。</p>
 		<p>(Currently, this will choose which IV's to set for Pokemon you select in Single Battle, Multi-Battle, and the Team Builder. Opponents in Multi-Battle and the Team Builder will still use the "typical" IV's.)</p>
 
+        <h3>Pokebox</h3>
+        <p>PvPoke 已跟<a target="_blank" href="https://www.pokebattler.com/" class="pokebattler">Pokebattler</a>進行整合。於下方輸入你的Pokebattler id，便能將你於Pokebattlers 網站上所登載的寶可夢資料引入本站：</p>
+        <input type="text" class="input" id="pokebox-id" <?php if(isset($_SETTINGS->pokeboxId)) : ?>value="<?php echo intval($_SETTINGS->pokeboxId); ?>"<?php endif; ?> />
+
 		<h3>戰鬥模擬計算時間軸</h3>
 		<h3>(Battle Timeline)</h3>
 		<div class="check animate-timeline <?php if($_SETTINGS->animateTimeline == 1) : ?>on<?php endif; ?>"><span></span> 於計算結果產生後顯示時間軸動畫。(Animate after generating results)</div>
@@ -35,7 +39,7 @@ require_once 'header.php';
             <option value="row" <?php if((isset($_SETTINGS->matrixDirection))&&($_SETTINGS->matrixDirection == "row")) : ?>selected<?php endif; ?>>Row vs Column</option>
 			<option value="column" <?php if((isset($_SETTINGS->matrixDirection))&&($_SETTINGS->matrixDirection == "column")) : ?>selected<?php endif; ?>>Column vs Row</option>
         </select>
-		
+
 		<h3>網站主題</h3>
 		<?php
 		$theme = "default";

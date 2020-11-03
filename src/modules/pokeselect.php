@@ -6,6 +6,8 @@
 		<option disabled selected value="">選擇寶可夢</option>
 	</select>
 
+	<?php include 'pokebox.php'; ?>
+
 	<div class="poke-stats">
 		<h3 class="cp">cp <span class="stat"></span></h3>
 		<div class="types"></div>

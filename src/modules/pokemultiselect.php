@@ -8,6 +8,8 @@
 			<div class="rankings-container clear"></div>
 			<button class="add-poke-btn button">+ 選擇寶可夢</button>
 
+			<?php include 'pokebox.php'; ?>
+
 			<button class="export-btn">匯入/匯出</button>
 
 			<h3 class="section-title">快速選擇</h3>
@@ -21,7 +23,7 @@
                 <option value="flying" type="great" class="multi-battle">飛行盃 Meta</option>
                 <option value="halloween" type="great" class="multi-battle">萬聖節盃 Meta</option>
 				<option value="sunrise" type="great" class="multi-battle">Silph 晨曦盃 Meta</option>
-                <option value="marsh" type="great" class="multi-battle">Silph 沼澤盃 Meta</option>
+				<option value="marsh" type="great" class="multi-battle">Silph 沼澤盃 Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

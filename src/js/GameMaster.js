@@ -201,7 +201,7 @@ var GameMaster = (function () {
 		object.generateDefaultIVs = function(){
 
 			$.each(object.data.pokemon, function(index, poke){
-				var leagues = [1500,2500];
+				var leagues = [500,1500,2500];
 				var battle = new Battle();
 
 				var pokemon = new Pokemon(poke.speciesId, 0, battle);
@@ -209,6 +209,7 @@ var GameMaster = (function () {
 				battle.setNewPokemon(pokemon, 0, false);
 
 				var defaultIVs = {
+					cp500: [],
 					cp1500: [],
 					cp2500: []
 				};
@@ -433,7 +434,9 @@ var GameMaster = (function () {
 
 			var minStats = 3500; // You must be this tall to ride this ride
 
-			if(battle.getCP() == 1500){
+			if(battle.getCP() == 500){
+				minStats = 0;
+			} else if(battle.getCP() == 1500){
 				minStats = 1250;
 			} else if(battle.getCP() == 2500){
 				minStats = 2800;

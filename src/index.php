@@ -28,15 +28,19 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-    <h4>v1.17.8 (October 10, 2020)</h4>
-    <ul>
-        <li>Moves now have unique abbreviations (listed in Matrix Battle results). Matrix Battle results also list IV's.</li>
-    </ul>
+	<h4>v1.18.4 (November 2, 2020)</h4>
+	<ul>
+		<li>Rankings added for Kanto Cup and Little Cup!</li>
+	</ul>
 
-    <h4>v1.17.7 (October 10, 2020)</h4>
-    <ul>
-        <li>Mega Evolutions are now listed in the rankings. Note that Mega Evolutions are still not allowed in GO Battle League.</li>
-    </ul>
+	<h4>v1.18.0 (November 2, 2020)</h4>
+	<ul>
+		<li>PvPoke now integrates with <a href="https://www.pokebattler.com/pokebox" class="pokebox-edit" target="_blank">Pokebattler's Pokebox</a>!</li>
+		<ul>
+			<li>Store your Pokemon on Pokebattler and use them in PvPoke simulations.</li>
+			<li>Import them anywhere you can add a Pokemon, including battle simulations, the Team Builder, and Training Battles.</li>
+		</ul>
+	</ul>
 
 	<h3>Latest Article</h3>
 
@@ -82,8 +86,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sun Nov 1 02:00:29 2020 -0500</li>
-                <li>原版最後版本時間：Fri Oct 30 22:31:03 2020 -0500</li>
+                <li>中文版最後更新時間：Wed Nov 4 02:00:29 2020 -0500</li>
+                <li>原版最後版本時間：Mon Nov 2 17:18:34 2020 -0600</li>
             </ul>
 </div>
 

@@ -670,10 +670,12 @@ var InterfaceMaster = (function () {
 
 				// Display moveset override notice where applicable
 
-				if( (pokemon.fastMove.moveId != fastMoves[0].moveId)
-					|| ((pokemon.chargedMoves[0].moveId != chargedMoves[0].moveId)&&(pokemon.chargedMoves[0].moveId != chargedMoves[1].moveId))
-				 	|| ((pokemon.chargedMoves[1].moveId != chargedMoves[0].moveId)&&(pokemon.chargedMoves[1].moveId != chargedMoves[1].moveId))){
-					$details.find(".detail-section.moveset-override").show();
+				if(pokemon.chargedMoves.length > 1){
+					if( (pokemon.fastMove.moveId != fastMoves[0].moveId)
+						|| ((pokemon.chargedMoves[0].moveId != chargedMoves[0].moveId)&&(pokemon.chargedMoves[0].moveId != chargedMoves[1].moveId))
+					 	|| ((pokemon.chargedMoves[1].moveId != chargedMoves[0].moveId)&&(pokemon.chargedMoves[1].moveId != chargedMoves[1].moveId))){
+						$details.find(".detail-section.moveset-override").show();
+					}
 				}
 
 				// Helper variables for displaying matchups and link URL
@@ -844,7 +846,7 @@ var InterfaceMaster = (function () {
 
 					multiBattleLink += "/";
 					//以下這行介面翻譯
-					$details.find(".share-link").before($("<div class=\"multi-battle-link\"><p>查看 <b>" + pokemon.speciesName + "</b> 的所有模擬戰鬥計算結果：</p><a target=\"_blank\" class=\"button\" href=\""+multiBattleLink+"\">"+pokemon.speciesName+" vs. " + cupName +"</a></div>"));
+					$details.find(".detail-section.float").eq(2).before($("<div class=\"multi-battle-link\"><p>查看 <b>" + pokemon.speciesName + "</b> 的所有模擬戰鬥計算結果:</p><a target=\"_blank\" class=\"button\" href=\""+multiBattleLink+"\">"+pokemon.speciesName+" vs. " + cupName +"</a></div>"));
 				} else{
 					$details.find(".share-link").remove();
 				}

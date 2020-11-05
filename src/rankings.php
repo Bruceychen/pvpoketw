@@ -31,37 +31,37 @@ switch($cp){
 
 switch($cup){
 
-    case "premier":
-        $league = 'Premier';
-        break;
+	case "premier":
+		$league = 'Premier';
+		break;
 
-    case "flying":
-        $league = 'Flying Cup';
-        break;
+	case "flying":
+		$league = 'Flying Cup';
+		break;
 
-    case "halloween":
-        $league = 'Halloween Cup';
-        break;
+	case "halloween":
+		$league = 'Halloween Cup';
+		break;
 
-    case "sunrise":
-        $league = 'Silph Sunrise Cup';
-        break;
+	case "sunrise":
+		$league = 'Silph Sunrise Cup';
+		break;
 
-    case "marsh":
-        $league = 'Silph Marsh Cup';
-        break;
+	case "marsh":
+		$league = 'Silph Marsh Cup';
+		break;
 
-    case "uber":
-        $league = 'Uber Tier Cup';
-        break;
+	case "uber":
+		$league = 'Uber Tier Cup';
+		break;
 
-    case "little":
-        $league = 'Little Cup';
-        break;
+	case "little":
+		$league = 'Little Cup';
+		break;
 
-    case "kanto":
-        $league = 'Kanto Cup';
-        break;
+	case "kanto":
+		$league = 'Kanto Cup';
+		break;
 
 }
 

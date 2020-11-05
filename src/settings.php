@@ -55,22 +55,20 @@ require_once 'header.php';
             </select>
         </div>
 
-        <h3>Gamemaster 版本設定</h3>
-        <p>選擇網站使用之寶可夢資料庫。</p>
-        <p>(Select the current Pokemon and move values, either the default values or an alternative set.)</p>
-        <?php
-        $gamemaster = "gamemaster";
+		<h3>Gamemaster 版本設定</h3>
+		<p>選擇網站使用之寶可夢資料庫。</p>
+		<p>(Select the current Pokemon and move values, either the default values or an alternative set.)</p>
+		<?php
+		$gamemaster = "gamemaster";
 
-        if(isset($_SETTINGS->gamemaster)){
-            $gamemaster = $_SETTINGS->gamemaster;
-        }
-        ?>
-        <div>
-            <select class="input" id="gm-select">
-                <option value="gamemaster" <?php if($gamemaster == "gamemaster") : ?>selected<?php endif; ?>>預設資料庫</option>
-                <option value="gamemaster-mega" <?php if($gamemaster == "gamemaster-mega") : ?>selected<?php endif; ?>>含Mega 進化資料(非官方預測)</option>
-                <option value="gamemaster-jp" <?php if($gamemaster == "gamemaster-jp") : ?>selected<?php endif; ?>>(beta)預設日文版標準資料庫</option>
-                <option value="gamemaster-jp-mega" <?php if($gamemaster == "gamemaster-jp-mega") : ?>selected<?php endif; ?>>(beta)日文版含Mega 進化資料(非官方預測)</option>
+		if(isset($_SETTINGS->gamemaster)){
+		    $gamemaster = $_SETTINGS->gamemaster;
+		}
+		?>
+		<div>
+		    <select class="input" id="gm-select">
+		        <option value="gamemaster" <?php if($gamemaster == "gamemaster") : ?>selected<?php endif; ?>>預設資料庫</option>
+		        <option value="gamemaster-mega" <?php if($gamemaster == "gamemaster-mega") : ?>selected<?php endif; ?>>含Mega 進化資料(非官方預測)</option>
 			</select>
 		</div>
 

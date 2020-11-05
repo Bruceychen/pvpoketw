@@ -28,7 +28,7 @@ var InterfaceMaster = (function () {
 
 				$.ajax({
 
-					url : '../data/settingsCookie.php',
+					url : host+'data/settingsCookie.php',
 					// url :'http://pvpoketw.com/data/settingsCookie.php',
 					type : 'POST',
 					data : {

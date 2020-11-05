@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.18.4.3.1';
+$SITE_VERSION = '1.18.4.5';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -20,15 +20,15 @@ if(isset($_COOKIE['settings'])){
 		$_SETTINGS->gamemaster = "gamemaster";
 	}
 
-    if(! isset($_SETTINGS->pokeboxId)){
-        $_SETTINGS->pokeboxId = false;
-    }
+	if(! isset($_SETTINGS->pokeboxId)){
+		$_SETTINGS->pokeboxId = false;
+	}
 
-    if(! isset($_SETTINGS->pokeboxLastDateTime)){
-        $_SETTINGS->pokeboxLastDateTime = 0;
-    }
+	if(! isset($_SETTINGS->pokeboxLastDateTime)){
+		$_SETTINGS->pokeboxLastDateTime = 0;
+	}
 
-    // Validate the gamemaster setting, only allow these options
+	// Validate the gamemaster setting, only allow these options
 	$gamemasters = ["gamemaster", "gamemaster-mega"];
 
 	if(! in_array($_SETTINGS->gamemaster, $gamemasters)){

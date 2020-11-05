@@ -1,12 +1,10 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
-	<option value="official" cup="halloween">萬聖節盃</option>
 	<option value="official" cup="flying">飛行盃</option>
-	<option value="official" cup="kanto">Kanto Cup</option>
+	<option value="official" cup="kanto">關都盃(暫)</option>
 	<option value="official" cup="little">Little Cup</option>
 	<option value="tsa-3" cup="marsh">Silph 沼澤盃</option>
-	<option value="community" cup="goteamup">GoStadium GOTeamUp</option>
 	<option value="community" cup="uber">Uber Tier Cup</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>

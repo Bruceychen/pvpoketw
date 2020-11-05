@@ -8,9 +8,9 @@
 				<span class="poke-count">0</span> / <span class="poke-max-count">100</span>
 			</div>
 			<div class="pokebox-options">
-				<a href="#" class="pokebox-refresh">重新整理</a>
-				<a href="https://www.pokebattler.com/pokebox" class="pokebox-edit" target="_blank">編輯 寶可夢盒子</a>
-				<a href="https://www.pokebattler.com/user/sponsor/pvpoke" class="pvpoke-sponsor" target="_blank">抖內原版PvPoke</a>
+				<a href="#" class="pokebox-refresh">更新</a>
+				<a href="https://www.pokebattler.com/pokebox" class="pokebox-edit" target="_blank">編輯寶可夢盒子</a>
+				<a href="https://www.pokebattler.com/user/sponsor/pvpoke" class="pvpoke-sponsor" target="_blank">贊助原版PvPoke</a>
 			</div>
 			<input class="poke-search" context="ranking-search" type="text" placeholder="Search Pokemon" />
 
@@ -18,7 +18,7 @@
 				讀取 寶可夢盒子...
 			</div>
 			<div class="error hide">
-				讀取寶可夢盒子時發生錯誤。 請確認你的 <a href="<?php echo $WEB_ROOT; ?>settings/" target="_blank">設定</a> 頁面，或是重新整理此頁面。</a>
+				讀取寶可夢盒子發生錯誤。請確認你的 <a href="<?php echo $WEB_ROOT; ?>settings/" target="_blank">設定</a>頁面，或是重新整理此畫面。
 			</div>
 			<div class="center multi">
 				<div class="button select">選擇寶可夢</div>
@@ -29,9 +29,9 @@
 			<ol>
 				<li><a href="https://www.pokebattler.com/user" target="_blank">創建帳號或登入</a> Pokebattler 。</li>
 				<li>在寶可夢盒子中加入寶可夢。</li>
-				<li>輸入你的 Pokebattler 帳號ID (畫面右上角，請輸入"數字"):<input type="text" class="pokebox-id" placeholder="Pokebattler ID" /></li>
+				<li>輸入Pokebattler帳號ID(畫面右上角"數字"):<input type="text" class="pokebox-id" placeholder="Pokebattler ID" /></li>
 			</ol>
-			<p>如果訂閱 Pokebattler ，你就能儲存更多的寶可夢，同時也能夠同時資助原版<a href="https://www.pokebattler.com/user/sponsor/pvpoke" target="_blank"> PvPoke!</a></p>
+			<p>如果訂閱 Pokebattler ，你就能儲存更多的寶可夢，同時也能夠贊助原版<a href="https://www.pokebattler.com/user/sponsor/pvpoke" target="_blank"> PvPoke!</a></p>
 			<div class="center">
 				<div class="button save">儲存設定</div>
 			</div>

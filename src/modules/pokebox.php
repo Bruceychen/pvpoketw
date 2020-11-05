@@ -1,5 +1,5 @@
 <div class="pokebox">
-	<a href="#" class="open-pokebox"><span>匯入</span><span>寶可夢盒子</span></a>
+	<a href="#" class="open-pokebox"><span>匯入</span><span>寶可夢盒子<span></a>
 
 	<div class="pokebox-import hide">
 		<div class="pokebox-on hide">
@@ -15,7 +15,7 @@
 			<input class="poke-search" context="ranking-search" type="text" placeholder="Search Pokemon" />
 
 			<div class="pokebox-list rankings-container">
-				讀取 寶可夢盒子...
+				讀取寶可夢盒子...
 			</div>
 			<div class="error hide">
 				讀取寶可夢盒子發生錯誤。請確認你的 <a href="<?php echo $WEB_ROOT; ?>settings/" target="_blank">設定</a>頁面，或是重新整理此畫面。

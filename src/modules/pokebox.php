@@ -1,39 +1,39 @@
 <div class="pokebox">
-	<a href="#" class="open-pokebox"><span>Import from</span><span>Pokebox<span></a>
+	<a href="#" class="open-pokebox"><span>匯入</span><span>寶可夢盒子</span></a>
 
 	<div class="pokebox-import hide">
 		<div class="pokebox-on hide">
-			<p>Select Pokemon below to import.</p>
+			<p>選擇寶可夢以匯入</p>
 			<div class="poke-count-container multi">
 				<span class="poke-count">0</span> / <span class="poke-max-count">100</span>
 			</div>
 			<div class="pokebox-options">
-				<a href="#" class="pokebox-refresh">Refresh</a>
-				<a href="https://www.pokebattler.com/pokebox" class="pokebox-edit" target="_blank">Edit Pokebox</a>
-				<a href="https://www.pokebattler.com/user/sponsor/pvpoke" class="pvpoke-sponsor" target="_blank">Sponsor PvPoke</a>
+				<a href="#" class="pokebox-refresh">重新整理</a>
+				<a href="https://www.pokebattler.com/pokebox" class="pokebox-edit" target="_blank">編輯 寶可夢盒子</a>
+				<a href="https://www.pokebattler.com/user/sponsor/pvpoke" class="pvpoke-sponsor" target="_blank">抖內原版PvPoke</a>
 			</div>
 			<input class="poke-search" context="ranking-search" type="text" placeholder="Search Pokemon" />
 
 			<div class="pokebox-list rankings-container">
-				Loading Pokebox...
+				讀取 寶可夢盒子...
 			</div>
 			<div class="error hide">
-				There was an error loading your Pokebox. Check your <a href="<?php echo $WEB_ROOT; ?>settings/" target="_blank">settings</a> to ensure they're correct and refresh this page.</a>
+				讀取寶可夢盒子時發生錯誤。 請確認你的 <a href="<?php echo $WEB_ROOT; ?>settings/" target="_blank">設定</a> 頁面，或是重新整理此頁面。</a>
 			</div>
 			<div class="center multi">
-				<div class="button select">Select Pokemon</div>
+				<div class="button select">選擇寶可夢</div>
 			</div>
 		</div>
 		<div class="pokebox-off hide">
-			<p>PvPoke integrates with <a href="https://www.pokebattler.com/" class="pokebattler">Pokebattler</a> so you can permanently store your Pokemon and import them on any device:</p>
+			<p>PvPokeTW 與 <a href="https://www.pokebattler.com/" class="pokebattler">Pokebattler</a> 網站整合！現在起你可以預先儲存寶可夢資料，並且在任何裝置上匯入本站使用：</p>
 			<ol>
-				<li><a href="https://www.pokebattler.com/user" target="_blank">Create or log in</a> to your Pokebattler account.</li>
-				<li>Add Pokemon to your Pokebox.</li>
-				<li>Enter your Pokebattler ID (top right corner):<input type="text" class="pokebox-id" placeholder="Pokebattler ID" /></li>
+				<li><a href="https://www.pokebattler.com/user" target="_blank">創建帳號或登入</a> Pokebattler 。</li>
+				<li>在寶可夢盒子中加入寶可夢。</li>
+				<li>輸入你的 Pokebattler 帳號ID (畫面右上角，請輸入"數字"):<input type="text" class="pokebox-id" placeholder="Pokebattler ID" /></li>
 			</ol>
-			<p>With a Pokebattler subscription, you can store even more Pokemon and <a href="https://www.pokebattler.com/user/sponsor/pvpoke" target="_blank">sponsor PvPoke!</a></p>
+			<p>如果訂閱 Pokebattler ，你就能儲存更多的寶可夢，同時也能夠同時資助原版<a href="https://www.pokebattler.com/user/sponsor/pvpoke" target="_blank"> PvPoke!</a></p>
 			<div class="center">
-				<div class="button save">Save Settings</div>
+				<div class="button save">儲存設定</div>
 			</div>
 		</div>
 	</div>

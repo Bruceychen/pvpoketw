@@ -89,7 +89,8 @@ function Pokebox(element, selector, selectMode, b){
 
 				$.ajax({
 
-					url : host+'data/settingsCookie.php',
+					url : '../data/settingsCookie.php',
+					// url : host+'data/settingsCookie.php',
 					type : 'POST',
 					data : settings,
 					dataType:'json',
@@ -255,7 +256,8 @@ function Pokebox(element, selector, selectMode, b){
 
 		$.ajax({
 
-			url : host+'data/settingsCookie.php',
+			url : '../data/settingsCookie.php',
+			// url : host+'data/settingsCookie.php',
 			type : 'POST',
 			data : {
 				'defaultIVs' : settings.defaultIVs,

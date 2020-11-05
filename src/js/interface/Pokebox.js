@@ -169,7 +169,7 @@ function Pokebox(element, selector, selectMode, b){
 	function openPokebox(e){
 		e.preventDefault();
 
-		modalWindow("Import Pokemon", $el.find(".pokebox-import"));
+		modalWindow("匯入寶可夢", $el.find(".pokebox-import"));
 
 		if((settings.pokeboxId)&&(settings.pokeboxId > 0)){
 			$(".modal .pokebox-on").show();
@@ -241,7 +241,7 @@ function Pokebox(element, selector, selectMode, b){
 	function refreshPokebox(e){
 		e.preventDefault();
 
-		$(".modal .pokebox-list").html("Loading Pokemon...");
+		$(".modal .pokebox-list").html("讀取寶可夢資料...");
 
 		setTimeout(function(){
 			self.loadPokebox(true);

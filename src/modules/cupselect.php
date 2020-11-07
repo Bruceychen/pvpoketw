@@ -21,7 +21,6 @@
 	<option value="all" cat="all">全部寶可夢</option>
 	<option value="gen-5" cat="all">全部寶可夢 (含未開放五世代寶可夢)</option>
 	<option value="premier" cat="official">紀念盃</option>
-	<option value="flying" cat="official">飛行盃</option>
 	<option value="halloween" cat="official">萬聖節盃</option>
 	<option value="kanto" cat="official">關都盃</option>
 	<option value="little" cat="official">小小盃</option>

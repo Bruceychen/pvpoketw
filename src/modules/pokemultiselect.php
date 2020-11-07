@@ -20,7 +20,6 @@
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
 				<option value="premierultra" type="ultra" class="hide multi-battle">紀念盃 Meta</option>
 				<option value="premier" type="master" class="hide multi-battle">紀念盃 Meta</option>
-                <option value="flying" type="great" class="multi-battle">飛行盃 Meta</option>
 				<option value="marsh" type="great" class="multi-battle">Silph 沼澤盃 Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">

@@ -28,10 +28,14 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-    <h4>v1.18.6 (November 13, 2020)</h4>
+    <h4>v1.18.8 (November 18, 2020)</h4>
     <ul>
-        <li>Pokemon now use moves like Brave Bird more effectively to avoid taking extra damage.</li>
-        <li>Fast Move duration now factors into consistency score. Pokemon with shorter Fast Moves have higher consistency.</li>
+        <li>Select Pokemon from Generation VI are now available in simulations! Enable them by selecting the "Kalos" Gamemaster Version on the <a href="<?php echo $WEB_ROOT; ?>settings/">Settings page</a>.</li>
+    </ul>
+
+    <h4>v1.18.7 (November 18, 2020)</h4>
+    <ul>
+        <li>The site now supports Pokemon levels up to 50. Note that the current values are speculative and should not be used to determine investments at this time.</li>
     </ul>
 
 	<h3>Latest Article</h3>
@@ -78,8 +82,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Wed Nov 18 11:50:29 2020 +0800</li>
-                <li>原版最後版本時間：Tue Nov 17 19:00:34 2020 -0600</li>
+                <li>中文版最後更新時間：Thu Nov 19 18:30:29 2020 +0800</li>
+                <li>原版最後版本時間：Wed Nov 18 17:34:52 2020 -0600</li>
             </ul>
 </div>
 

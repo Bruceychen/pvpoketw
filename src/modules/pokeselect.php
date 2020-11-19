@@ -52,6 +52,8 @@
 			<h3 class="mega-cp">cp <span class="stat"></span></h3>
 		</div>
 
+		<div class="fifty-warning">等級 45.5-50 的數值目前僅為"推估參考"，非正式官方數值。請先不要投入任何資源！</div>
+
 		<div class="advanced-section">
 			<a class="advanced" href="#">進階狀態/IV設定 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 			<div class="fields">
@@ -75,6 +77,7 @@
 						<div>等級上限:</div>
 						<div class="check on" value="40"><span></span>40</div>
 						<div class="check" value="41"><span></span>41</div>
+						<div class="check" value="50"><span></span>50</div>
 					</div>
 					<div class="check auto-level on"><span></span>等級自動調整</div>
 					<button class="maximize-stats">最大值</button>

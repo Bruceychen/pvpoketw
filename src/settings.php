@@ -69,6 +69,7 @@ require_once 'header.php';
 		    <select class="input" id="gm-select">
 		        <option value="gamemaster" <?php if($gamemaster == "gamemaster") : ?>selected<?php endif; ?>>預設資料庫</option>
 		        <option value="gamemaster-mega" <?php if($gamemaster == "gamemaster-mega") : ?>selected<?php endif; ?>>含Mega 進化資料(非官方預測)</option>
+                <option value="gamemaster-kalos" <?php if($gamemaster == "gamemaster-kalos") : ?>selected<?php endif; ?>>卡洛斯寶可夢 (非官方預測)</option>
 			</select>
 		</div>
 

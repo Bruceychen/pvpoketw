@@ -43,7 +43,6 @@ var InterfaceMaster = (function () {
 					dataType:'json',
 					success : function(data) {
 						modalWindow("設定已儲存", $("<p>設定值已完成更新。(如果是變動網站外觀的設定需要刷新(refresh)一次才會生效。)</p>"))
-
 					},
 					error : function(request,error)
 					{

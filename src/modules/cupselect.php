@@ -4,6 +4,7 @@
 	<option value="official" cup="kanto">關都盃</option>
 	<option value="official" cup="little">小小盃</option>
 	<option value="tsa-3" cup="marsh">Silph 沼澤盃</option>
+	<option value="tsa-3" cup="nightfall">Silph Nightfall Cup</option>
 	<option value="community" cup="uber">Uber Tier Cup</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
@@ -65,5 +66,6 @@
 	<option value="duet" cat="tsa-2">Duet Cup</option>
 	<option value="sunrise" cat="tsa-3">晨曦盃</option>
     <option value="marsh" cat="tsa-3">沼澤盃</option>
+    <option value="nightfall" cat="tsa-3">Nightfall Cup</option>
 	<option value="custom" cat="custom">自訂排名</option>
 </select>

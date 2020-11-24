@@ -42,9 +42,8 @@ require_once '../header.php';
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>
-                <option value="500 little">小小盃</option>
-				<option value="1500 kanto">關都盃</option>
 				<option value="1500 marsh">Silph 沼澤盃</option>
+				<option value="1500 nightfall">Silph Nightfall Cup</option>
 			</select>
 			<h3 class="section-title">AI 強度</h3>
 			<select class="difficulty-select">

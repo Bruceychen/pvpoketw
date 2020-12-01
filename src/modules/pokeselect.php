@@ -76,6 +76,7 @@
 						<div class="check on" value="40"><span></span>40</div>
 						<div class="check" value="41"><span></span>41</div>
 						<div class="check" value="50"><span></span>50</div>
+						<div class="check" value="51"><span></span>51</div>
 					</div>
 					<div class="check auto-level on"><span></span>等級自動調整</div>
 					<button class="maximize-stats">最大值</button>

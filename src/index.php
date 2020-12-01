@@ -28,9 +28,10 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.18.11 (November 24, 2020)</h4>
+	<h4>v1.19.0 (November 30, 2020)</h4>
 	<ul>
-	    <li>Gen 6 has been added to the site! You can now simulate them in individual battles. Note that game data is subject to change until release.</li>
+		<li>Upcoming Generation 6 Pokemon have been added to the rankings.</li>
+		<li>Specific Pokemon now have separate "XL" listings to highlight rankings and performance at Level 50 compared to Level 40.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -77,8 +78,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Mon Nov 30 13:30:29 2020 +0800</li>
-                <li>原版最後版本時間：Sun Nov 29 09:08:46 2020 -0600</li>
+                <li>中文版最後更新時間：Tue Dec 1 22:30:29 2020 +0800</li>
+                <li>原版最後版本時間：Mon Nov 30 21:06:36 2020 -0600</li>
             </ul>
 </div>
 

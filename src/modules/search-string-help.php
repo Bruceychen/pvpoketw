@@ -20,7 +20,8 @@
                 galarian :<i>伽勒爾型態</i><br>
                 starter :<i>初始寶可夢</i><br>
                 shadow :<i>僅暗影寶可夢</i><br>
-                shadoweligible :<i>有暗影化型態，<strong>但只顯示一般個體</strong></i>
+                shadoweligible :<i>有暗影化型態，<strong>但只顯示一般個體</strong></i><br>
+                xl:<i>等級50級的寶可夢</i>
             </td>
 		</tr>
 		<tr>

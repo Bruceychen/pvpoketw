@@ -117,6 +117,7 @@ require_once 'header.php'; ?>
                     <div class="check" value="shadow"><span></span>暗影化</div>
                     <div class="check" value="shadoweligible"><span></span>另有暗影化型態</div>
                     <div class="check" value="mega"><span></span> Mega進化</div>
+                    <div class="check" value="xl"><span></span> XL</div>
 				</div>
 			</div>
 

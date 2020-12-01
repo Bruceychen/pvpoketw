@@ -1,11 +1,9 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
-	<option value="official" cup="kanto">關都盃</option>
-	<option value="official" cup="little">小小盃</option>
+    <option value="official" cup="holiday">假日盃</option>
 	<option value="tsa-3" cup="marsh">Silph 沼澤盃</option>
 	<option value="tsa-3" cup="nightfall">Silph 夜幕盃</option>
-	<option value="community" cup="uber">Uber Tier Cup</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>
@@ -25,6 +23,7 @@
 	<option value="halloween" cat="official">萬聖節盃</option>
 	<option value="kanto" cat="official">關都盃</option>
 	<option value="little" cat="official">小小盃</option>
+    <option value="holiday" cat="official">假日盃</option>
 	<option value="safari" cat="community">Montreal Safari Cup</option>
 	<option value="fantasy" cat="community">GO LIVE Fantasy Cup</option>
 	<option value="beam" cat="community">Get Beamed</option>

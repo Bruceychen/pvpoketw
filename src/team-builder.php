@@ -53,6 +53,10 @@ require_once 'header.php';
 		        <h3>暗影化寶可夢</h3>
 		        <div class="check allow-shadows"><span></span>計算結果顯示暗影化寶可夢</div>
 		    </div>
+			<div class="team-option">
+				<h3>XL標記寶可夢</h3>
+				<div class="check allow-xl"><span></span>計算結果包含等級超過40級的寶可夢</div>
+			</div>
 		    <div class="team-option">
 		        <h3>誘騙防護網</h3>
 		        <div class="check shield-baiting on"><span></span>計算時使用低耗能特殊招式誘使對手使用防護網之戰術。</div>

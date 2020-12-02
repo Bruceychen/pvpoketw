@@ -2,7 +2,6 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
     <option value="official" cup="holiday">假日盃</option>
-	<option value="tsa-3" cup="marsh">Silph 沼澤盃</option>
 	<option value="tsa-3" cup="nightfall">Silph 夜幕盃</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>

@@ -69,7 +69,7 @@ require_once '../header.php';
 
 ?>
 
-<h1>Training Analysis</h1>
+<h1>訓練分析報告</h1>
 <div class="section analysis-container white">
 
 	<select class="format-select hide">
@@ -78,9 +78,9 @@ require_once '../header.php';
 		<option value="10000 all" cup="all">Master League</option>
 	</select>
 
-	<div class="date-updated">Last updated</div>
+	<div class="date-updated">資料更新日期</div>
 
-	<h3>Top Performers</h3>
+	<h3>優勢寶可夢</h3>
 
 	<p>Average performance for individual Pokemon and movesets used in PvPoke.com <a href="<?php echo $WEB_ROOT; ?>train/">Training Battles</a>. Data is sampled from both players and bots in the Elite and Champion difficulties. If a Pokemon or moveset isn't listed, it may not have a sufficient usage.</p>
 
@@ -89,17 +89,17 @@ require_once '../header.php';
 		<a href="#" class="search-info">i</a>
 	</div>
 
-	<h2 class="loading">Loading data...</h2>
+	<h2 class="loading">資料讀取中...</h2>
 
 	<div class="table-container">
 		<table class="train-table performers" cellspacing="0">
 			<thead>
 				<tr>
-					<td><a href="#" data="name">Pokemon</a></td>
+					<td><a href="#" data="name">寶可夢</a></td>
 					<td></td>
-					<td><a href="#" class="selected" data="team">Team Rating</a></td>
-					<td><a href="#" data="individual">Individual<br>Rating</a></td>
-					<td><a href="#" data="usage">Usage</a></td>
+					<td><a href="#" class="selected" data="team">隊伍 Rating</a></td>
+					<td><a href="#" data="individual">個體<br>Rating</a></td>
+					<td><a href="#" data="usage">使用率</a></td>
 				</tr>
 				<!--Row html to clone-->
 				<tr class="hide">
@@ -124,7 +124,7 @@ require_once '../header.php';
 		</table>
 	</div>
 
-	<a href="#" class="button download-csv performers">Export to CSV</a>
+	<a href="#" class="button download-csv performers">匯出 CSV檔</a>
 
 	<p class="column-description"><b>Team Rating - </b> Similar to the Battle Rating metric in battle simulations, the Team Rating metric is a number between 0 and 1000 that measures the quality of wins and losses depending on how much HP remains on the opposing team. An average team rating above 500 means teams including that Pokemon win more often. An average team rating below 500 indicates underperformance, and that teams including that Pokemon may struggle.</p>
 
@@ -145,12 +145,12 @@ require_once '../header.php';
 		<table class="train-table teams" cellspacing="0">
 			<thead>
 				<tr>
-					<td class="poke-name"><a href="#" data="lead">Team (Lead First)</a></td>
+					<td class="poke-name"><a href="#" data="lead">隊伍組合 (最左側先發)</a></td>
 					<td class="poke-name"></td>
 					<td class="poke-name"></td>
 					<td></td>
-					<td><a href="#" class="selected" data="team">Team Rating</a></td>
-					<td><a href="#" data="usage">Usage</td>
+					<td><a href="#" class="selected" data="team">隊伍 Rating</a></td>
+					<td><a href="#" data="usage">使用率</td>
 				</tr>
 				<!--Row html to clone-->
 				<tr class="hide">
@@ -200,7 +200,7 @@ require_once '../header.php';
 		</table>
 	</div>
 
-	<a href="#" class="button download-csv teams">Export to CSV</a>
+	<a href="#" class="button download-csv teams">匯出 CSV檔</a>
 
 	<p class="column-description"><b>Team Rating - </b> Similar to the Battle Rating metric in battle simulations, the Team Rating metric is a number between 0 and 1000 that measures the quality of wins and losses depending on how much HP remains on the opposing team. An average team rating above 500 means teams including that team wins more often. An average team rating below 500 indicates underperformance.</p>
 

@@ -3391,6 +3391,139 @@ a.pokebattler {
   margin: 5px 0;
 }
 
+/* TRAINING ANALYSIS */
+.analysis-container .table-container {
+  max-height: 500px;
+  margin-bottom: 20px;
+}
+.analysis-container .column-description {
+  font-size: 12px;
+}
+.analysis-container .poke-search-container {
+  margin: 15px 0;
+}
+.analysis-container .sort-category {
+  margin: 20px 0 10px 0;
+  display: flex;
+}
+.analysis-container .sort-category div, .analysis-container .sort-category a {
+  margin-right: 15px;
+}
+.analysis-container .sort-category a {
+  display: block;
+  background: #003748;
+  padding: 4px 8px;
+  text-decoration: none;
+  border-radius: 12px;
+  color: #fff;
+}
+.analysis-container .sort-category a.selected {
+  font-weight: bold;
+}
+.analysis-container .low-volume {
+  color: #ff5115;
+  font-weight: bold;
+}
+.analysis-container a.download-csv {
+  margin: 0;
+  font-size: 14px;
+}
+.analysis-container .date-updated {
+  font-style: italic;
+  font-size: 12px;
+}
+.analysis-container.screenshot .poke-search-container, .analysis-container.screenshot a.download-csv, .analysis-container.screenshot p.column-description {
+  display: none;
+}
+
+.train-table {
+  width: 100%;
+  margin-top: 5px;
+}
+.train-table thead {
+  font-size: 12px;
+  font-weight: bold;
+}
+.train-table thead td.poke-name {
+  padding: 0;
+  width: auto;
+}
+.train-table thead a {
+  text-decoration: none;
+}
+.train-table thead a.selected, .train-table thead a:hover {
+  text-decoration: underline;
+}
+.train-table td.poke-name {
+  display: flex;
+  padding: 6px 2px;
+  width: 125px;
+  vertical-align: top;
+}
+.train-table td.poke-name .sprite-container {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  background: none;
+  border: none;
+  margin: 0 5px 0 0;
+  padding: 0;
+  flex-shrink: 0;
+}
+.train-table td.poke-name .number {
+  padding-right: 10px;
+}
+.train-table td.poke-name .name {
+  font-size: 14px;
+  font-weight: bold;
+  max-width: 100px;
+}
+.train-table td.poke-name .moves {
+  font-size: 12px;
+}
+.train-table td.poke-name .team-member {
+  display: flex;
+}
+.train-table td.individual-score,
+.train-table td.team-score,
+.train-table td.usage {
+  padding: 2px 16px 2px 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 0;
+}
+.train-table td.team-score .score {
+  background-image: url("../img/starburst_red.png");
+  background-color: #3466ae;
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  padding-left: 30px;
+  line-height: 25px;
+  color: #fff6d4;
+  display: inline-block;
+  padding: 4px 4px 4px 30px;
+  border-radius: 12px;
+  min-width: 40px;
+  text-align: center;
+}
+.train-table td.team-score .score.win {
+  background-image: url("../img/starburst.png");
+}
+.train-table td.link a {
+  display: block;
+  width: 32px;
+  height: 28px;
+  background-image: url(../img/eye.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  margin-right: 10px;
+  opacity: 0.5;
+}
+.train-table tr:nth-child(2n) {
+  background: rgba(0, 0, 0, 0.15);
+}
+
 @media only screen and (min-width: 721px) {
   .menu {
     position: relative;
@@ -3469,6 +3602,33 @@ a.pokebattler {
 
   .battle-results.matrix .table-container {
     max-height: 800px;
+  }
+
+  .analysis-container .table-container {
+    max-height: 600px;
+  }
+
+  .train-table td.poke-name {
+    padding: 8px 4px;
+    width: 200px;
+  }
+  .train-table td.poke-name .name {
+    font-size: 16px;
+    max-width: none;
+  }
+  .train-table.teams td.poke-name {
+    display: table-cell;
+  }
+  .train-table td.individual-score,
+.train-table td.team-score,
+.train-table td.usage {
+    font-size: 20px;
+    padding: 4px 20px 4px 0;
+  }
+  .train-table td.individual-score .score,
+.train-table td.team-score .score,
+.train-table td.usage .score {
+    min-width: 60px;
   }
 }
 /* Printing for meta scorecard */

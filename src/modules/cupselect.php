@@ -1,7 +1,6 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
-    <option value="official" cup="classic">大師經典賽 (XL 禁止)</option>
     <option value="official" cup="holiday">假期盃</option>
 	<option value="tsa-3" cup="nightfall">Silph 夜幕盃</option>
 

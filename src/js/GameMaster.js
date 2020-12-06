@@ -8,6 +8,7 @@ var GameMaster = (function () {
 
 		object.data = {};
 		object.rankings = [];
+		object.trainRankings = [];
 		object.groups = [];
 		object.teamPools = [];
 		object.loadedData = 0;
@@ -384,6 +385,27 @@ var GameMaster = (function () {
 			}
 		}
 
+		// Load and return ranking data JSON
+
+		object.loadTrainData = function(caller, league, cup){
+
+			var key = cup + "" + league;
+
+			if(! object.trainRankings[key]){
+				var file = webRoot+"data/training/analysis/"+cup+"/"+league+".json?v="+siteVersion;
+
+				console.log(file);
+
+				$.getJSON( file, function( data ){
+					object.trainRankings[key] = data;
+
+					caller.displayRankingData(data);
+				});
+			} else{
+				caller.displayRankingData(object.trainRankings[key]);
+			}
+		}
+
 		// Load quick fill group JSON
 
 		object.loadGroupData = function(caller, group){
@@ -491,6 +513,11 @@ var GameMaster = (function () {
 
 					// Only include XL Pokemon if they are above level 40 for the selected format
 					if(pokemon.hasTag("xl") && pokemon.level <= 40){
+						continue;
+					}
+
+					// Exclude XL Pokemon from Master League
+					if(pokemon.hasTag("xl") && battle.getCP() == 10000){
 						continue;
 					}
 

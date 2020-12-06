@@ -11,6 +11,7 @@ require_once '../header.php';
 <div class="section home white">
 	<p>選擇寶可夢、自由設定招式及個體值，組建隊伍並和網站AI來場即時的擬真戰鬥吧！</p>
     <p>使用此工具測試各種新的隊伍搭配與組成，並且依喜好選擇AI強度進行零壓力的對戰訓練，讓你在遊戲中的PVP更加無往不利！</p>
+    <p>你也可以在 <a href="<?php echo $WEB_ROOT; ?>train/">訓練分析報告</a>中看到這些訓練的相關排名與資料分析數據。</p>
 </div>
 
 <div class="hide">

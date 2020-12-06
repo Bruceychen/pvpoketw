@@ -3674,6 +3674,170 @@ a.pokebattler{
 	}
 }
 
+/* TRAINING ANALYSIS */
+
+.analysis-container{
+	.table-container{
+		max-height: 500px;
+		margin-bottom:20px;
+	}
+
+	.column-description{
+		font-size:12px;
+	}
+
+	.poke-search-container{
+		margin: 15px 0;
+	}
+
+	.sort-category{
+		margin: 20px 0 10px 0;
+		display: flex;
+
+		div, a{
+			margin-right:15px;
+		}
+
+		a{
+			display:block;
+			background:$color-links;
+			padding:4px 8px;
+			text-decoration: none;
+			border-radius: 12px;
+			color:#fff;
+
+			&.selected{
+				font-weight: bold;
+			}
+		}
+	}
+
+	.low-volume{
+		color:#ff5115;
+		font-weight: bold;
+	}
+
+	a.download-csv{
+		margin:0;
+		font-size:14px;
+	}
+
+	.date-updated{
+		font-style: italic;
+	    font-size: 12px;
+	}
+
+	&.screenshot{
+		.poke-search-container, a.download-csv, p.column-description{
+			display: none;
+		}
+	}
+}
+
+.train-table{
+	width:100%;
+	margin-top:5px;
+
+	thead{
+		font-size: 12px;
+		font-weight: bold;
+
+		td.poke-name{
+			padding:0;
+			width:auto;
+		}
+
+		a{
+			text-decoration: none;
+
+			&.selected,
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+
+	td.poke-name{
+		display:flex;
+		padding: 6px 2px;
+		width:125px;
+		vertical-align: top;
+
+		.sprite-container{
+			width:30px;
+			height:30px;
+			position: relative;
+			background:none;
+			border:none;
+			margin: 0 5px 0 0;
+			padding: 0;
+			flex-shrink: 0;
+		}
+
+		.number{
+			padding-right:10px;
+		}
+
+		.name{
+			font-size:14px;
+			font-weight: bold;
+			max-width:100px;
+		}
+
+		.moves{
+			font-size:12px;
+		}
+
+		.team-member{
+			display: flex;
+		}
+	}
+
+	td.individual-score,
+	td.team-score,
+	td.usage{
+		padding: 2px 16px 2px 0;
+		font-weight: bold;
+	    font-size: 14px;
+	    line-height: 0;
+	}
+
+	td.team-score .score{
+		background-image:url('../img/starburst_red.png');
+		background-color: rgb(52, 102, 174);
+		background-size: 25px;
+	    background-repeat: no-repeat;
+	    background-position: 4px center;
+	    padding-left: 30px;
+		line-height: 25px;
+		color:#fff6d4;
+		display: inline-block;
+	    padding: 4px 4px 4px 30px;
+	    border-radius: 12px;
+		min-width:40px;
+		text-align: center;
+
+		&.win{
+			background-image:url('../img/starburst.png');
+		}
+	}
+
+	td.link a{
+		display: block;
+	    width: 32px;
+	    height: 28px;
+	    background-image: url(../img/eye.png);
+	    background-repeat: no-repeat;
+	    background-position: 0 center;
+	    margin-right: 10px;
+	    opacity: 0.5;
+	}
+
+	tr:nth-child(2n) {
+	    background: rgba(0, 0, 0, 0.15);
+	}
+}
+
 @media only screen and (min-width: 721px) {
 	.menu{
 		position:relative;
@@ -3764,6 +3928,38 @@ a.pokebattler{
 
 	.battle-results.matrix .table-container{
 		max-height: 800px;
+	}
+
+	.analysis-container .table-container{
+		max-height: 600px;
+	}
+
+	.train-table{
+
+		td.poke-name{
+			padding: 8px 4px;
+			width:200px;
+
+			.name{
+				font-size:16px;
+				max-width:none;
+			}
+		}
+
+		&.teams td.poke-name{
+			display:table-cell;
+		}
+
+		td.individual-score,
+		td.team-score,
+		td.usage{
+		    font-size: 20px;
+			padding: 4px 20px 4px 0;
+
+			.score{
+				min-width: 60px;
+			}
+		}
 	}
 }
 

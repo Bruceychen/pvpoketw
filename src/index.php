@@ -28,10 +28,9 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.19.0 (November 30, 2020)</h4>
-	<ul>
-		<li>Upcoming Generation 6 Pokemon have been added to the rankings.</li>
-		<li>Specific Pokemon now have separate "XL" listings to highlight rankings and performance at Level 50 compared to Level 40.</li>
+    <h4>v1.20.0 (December 5, 2020)</h4>
+    <ul>
+        <li>The new <a href="<?php echo $WEB_ROOT; ?>train/analysis/">Training Analysis</a> page allows you to view top performing Pokemon and teams from the site's Training Battles!</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -78,8 +77,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Fri Dec 4 13:29:29 2020 +0800</li>
-                <li>原版最後版本時間：Thu Dec 3 11:29:43 2020 -0600</li>
+                <li>中文版最後更新時間：Mon Dec 7 00:30:29 2020 +0800</li>
+                <li>原版最後版本時間：Sat Dec 5 21:16:47 2020 -0600</li>
             </ul>
 </div>
 

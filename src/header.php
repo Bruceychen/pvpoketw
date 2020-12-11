@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.20.1';
+$SITE_VERSION = '1.20.1.1';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -177,7 +177,7 @@ if(! isset($OG_IMAGE)){
 				    <a class="icon-train" href="<?php echo $WEB_ROOT; ?>train/">AI對戰訓練</a>
 				    <div class="submenu">
 				        <div class="submenu-wrap">
-				            <a class="icon-rankings" href="<?php echo $WEB_ROOT; ?>train/analysis/">Top Performers</a>
+				            <a class="icon-rankings" href="<?php echo $WEB_ROOT; ?>train/analysis/">強勢個體與組隊</a>
 				        </div>
 				    </div>
 				</div>

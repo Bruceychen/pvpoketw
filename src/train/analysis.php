@@ -72,7 +72,7 @@ require_once '../header.php';
 <h1>訓練分析報告</h1>
 <div class="section analysis-container white">
 
-	<select class="format-select hide">
+	<select class="format-select">
         <option value="1500" cup="all">超級聯盟</option>
         <option value="2500" cup="all">高級聯盟</option>
         <option value="2500" cup="premier">高級聯盟紀念盃</option>

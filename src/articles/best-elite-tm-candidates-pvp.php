@@ -13,7 +13,7 @@ require_once '../header.php';
 
 <div class="section article white">
 	<h1>PVP 厲害招式學習器使用取捨與考量建議</h1>
-	<div class="date">最後更新 2020 年 9 月 30 日</div>
+	<div class="date">最後更新 2020 年 12 月 12 日</div>
     <div class="translator">特別感謝世界級訓練家：格雷南波萬 協助翻譯。原文請見 <a href="https://pvpoke.com/articles/best-elite-tm-candidates-pvp/">原版網站</a></div>
 	<img src="<?php echo $WEB_ROOT;?>assets/articles/elite-tm-banner.jpg" />
 <p>
@@ -33,6 +33,7 @@ require_once '../header.php';
 			<li><a href="#cresselia">克雷色利亞 (Cresselia)</a></li>
 			<li><a href="#dewgong">白海獅 (Dewgong)</a></li>
 			<li><a href="#lapras">拉普拉斯 (Lapras)</a></li>
+			<li><a href="#ho-oh">鳳王(Ho-Oh)</a></li>
 			<li><a href="#zapdos">閃電鳥 (Zapdos)</a></li>
 			<li><a href="#charizard">噴火龍 (Charizard)</a></li>
 			<li><a href="#blaziken">火焰雞 (Blaziken)</a></li>
@@ -141,6 +142,24 @@ require_once '../header.php';
   </p>
   <p>In the Premier Cup, Lapras is one of the bulkiest Pokemon and synergizes well with starters like Charizard and Venusaur. It's forgiving to use and can dish out damage even in its bad matchups. If you don't have an Ice Shard Lapras in your collection, it's one of the best Elite TM candidates to date.</p>
   <p><b>Shadow Lapras has tradeoffs with regular Lapras</b>, but offers a harder hitting variant. In Great League, Shadow Lapras's Surf attacks are strong enough to take on Galarian Stunfisk, which regular Lapras can struggle with. It's a steep cost for Ultra League and doesn't provide many advantages over regular Lapras, but if you have the resources, more power to you!</p>
+  </div>
+
+  <a name="ho-oh"></a>
+  <h3 class="article-header">Ho-Oh</h3>
+  <div class="article-section">
+  <p>
+  <strong>推薦招式：</strong>
+  Incinerate + Brave Bird & <em>Earthquake</em>
+  <em>
+	  <br/>
+  </em>
+  <strong>適用於： </strong>
+  Master League
+  </p>
+  <p>Ho-Oh received Earthquake as an exclusive move alongside Fire Punch Groudon and Grass Knot Cresselia. At the time it didn't spark much interest - not until the other shoe dropped with Incinerate. Now able to put its best foot forward, Ho-Oh with Incinerate and Earthquake is capable of contending with the best of Master League.</p>
+  <p>Ho-Oh can challenge the reigning master, Dialga, as well as other key targets like Groudon, Togekiss, and Mewtwo. It can even survive a 2x super effective Rock Slide from Melmetal, and Brave Bird puts a decent dent into threats like Kyogre and Giratina. All in all, Ho-Oh has the moves and stats to be competitive.</p>
+  <p>It's not all sunshine for the Rainbow Pokemon, however. Incinerate is the longest Fast Move in the game. Clocking in at 5 turns (1 turn longer than Confusion), Incinerate can be extremely cumbersome to use. If a Fast Move doesn't register properly or if you "overtap" to fire Incinerate instead of a Charged Move, matchups can quickly go south. Ho-Oh's fastest move (Brave Bird) also drops its Defense by 3 stages. Knowing when to Brave Bird and when to Earthquake will take a lot of experience to master.</p>
+  <p>Overall, <b>Ho-Oh has a steep learning curve but is a worthy consideration</b> for an Elite TM.</p>
   </div>
 
 	<a name="zapdos"></a>
@@ -531,12 +550,12 @@ Dialga. Top neutral damage generalist for the raiders in the room.        <stron
 	<h3 class="article-header">其他絕版招式</h3>
 	<div class="article-section">
 <p>
-    There are a lot of Pokemon worth considering with their legacy movesets. Here are a few more that could be worth an Elite TM:
+    除了上述之外，有許多寶可夢與其絕版招式也都值得考慮。以下是推薦值得使用厲害招式學習器的絕版招式組合：
 </p>
 <ul type="disc">
     <li>
         <strong>Earthquake Politoed: </strong>
-        Honorary mudboi with a lot of potential, capable of challenging Azumarill and Galarian STunfisk. Pure Water type so it
+        Honorary mudboi with a lot of potential, capable of challenging Azumarill and Galarian Stunfisk. Pure Water type so it
         fully resists Water and Ice-type attacks and isn’t double weak to
         Grass. Also handles meta favorites like Alolan Marowak, and
         even beats its compatriots Swampert and Whiscash head to head. Shadow

@@ -73,17 +73,16 @@ require_once '../header.php';
 <div class="section analysis-container white">
 
 	<select class="format-select hide">
-		<option value="1500 all" cup="all">Great League</option>
-		<option value="2500 all" cup="all">Ultra League</option>
-		<option value="10000 all" cup="all">Master League</option>
+        <option value="1500" cup="all">超級聯盟</option>
+        <option value="2500" cup="all">高級聯盟</option>
+        <option value="2500" cup="premier">高級聯盟紀念盃</option>
 	</select>
 
-	<div class="date-updated">資料更新日期</div>
+	<div class="date-updated">資料最後更新</div>
 
 	<h3>優勢寶可夢</h3>
 
-	<p>Average performance for individual Pokemon and movesets used in PvPoke.com <a href="<?php echo $WEB_ROOT; ?>train/">Training Battles</a>. Data is sampled from both players and bots in the Elite and Champion difficulties. If a Pokemon or moveset isn't listed, it may not have a sufficient usage.</p>
-
+    <p>以下為各寶可夢及其搭配招式組在原版網站 PvPoke.com <a href="<?php echo $WEB_ROOT; ?>train/">AI對戰訓練</a>中所統計出之整體性能表現數據。資料採樣自使用網站的各位訓練家，以及當下對戰AI等級:菁英訓練家、冠軍訓練家的對戰數據。如果特定寶可夢或其特定招式沒有出現在清單中，代表其被使用的次數與資料還不足。</p>
 	<div class="poke-search-container">
 		<input class="poke-search" target="performers" type="text" placeholder="Search Pokemon" />
 		<a href="#" class="search-info">i</a>
@@ -126,16 +125,16 @@ require_once '../header.php';
 
 	<a href="#" class="button download-csv performers">匯出 CSV檔</a>
 
-	<p class="column-description"><b>Team Rating - </b> Similar to the Battle Rating metric in battle simulations, the Team Rating metric is a number between 0 and 1000 that measures the quality of wins and losses depending on how much HP remains on the opposing team. An average team rating above 500 means teams including that Pokemon win more often. An average team rating below 500 indicates underperformance, and that teams including that Pokemon may struggle.</p>
+	<p class="column-description"><b>隊伍 Rating - </b> Similar to the Battle Rating metric in battle simulations, the Team Rating metric is a number between 0 and 1000 that measures the quality of wins and losses depending on how much HP remains on the opposing team. An average team rating above 500 means teams including that Pokemon win more often. An average team rating below 500 indicates underperformance, and that teams including that Pokemon may struggle.</p>
+<!--	<p class="column-description"><b>隊伍 Rating - </b> 概念與戰鬥模擬計算中的Battle Rating類似，隊伍 Rating 指數是介於0至1000之間，measures the quality of wins and losses depending on how much HP remains on the opposing team. An average team rating above 500 means teams including that Pokemon win more often. An average team rating below 500 indicates underperformance, and that teams including that Pokemon may struggle.</p>-->
 
-	<p class="column-description"><b>Individual Rating - </b> The individual rating metric measures the damage output of a Pokemon in battle. 100% equals 1 Pokemon worth of damage. This metric also includes shields drawn by the Pokemon: 1 shield is treated as 50% of a Pokemon in Great League, and 40% of a Pokemon in Ultra and Master League. Pokemon with high average individual rating have strong damage output and shield pressure. However, high individual rating doesn't always correlate to success on a team.</p>
+	<p class="column-description"><b>個體 Rating - </b> The individual rating metric measures the damage output of a Pokemon in battle. 100% equals 1 Pokemon worth of damage. This metric also includes shields drawn by the Pokemon: 1 shield is treated as 50% of a Pokemon in Great League, and 40% of a Pokemon in Ultra and Master League. Pokemon with high average individual rating have strong damage output and shield pressure. However, high individual rating doesn't always correlate to success on a team.</p>
 
-	<p class="column-description"><b>Usage - </b> Usage by players and bots on teams of 3. A large sample size will yield higher confidence in the data. A <span class="low-volume">small sample size</span> may be the result of an individual player, and consequentially yield lower confidence in the data. The data is filtered by a mininum usage threshold.</p>
+	<p class="column-description"><b>使用率 - </b> Usage by players and bots on teams of 3. A large sample size will yield higher confidence in the data. A <span class="low-volume">small sample size</span> may be the result of an individual player, and consequentially yield lower confidence in the data. The data is filtered by a mininum usage threshold.</p>
 
-	<h3>Top Teams</h3>
+	<h3>強勢隊伍組合</h3>
 
-	<div>Average performance for teams used in PvPoke.com <a href="<?php echo $WEB_ROOT; ?>train/">Training Battles</a>. Data is sampled from both players and bots in the Elite and Champion difficulties.</div>
-
+    <div>以下為各寶可夢及其搭配招式組在原版網站 PvPoke.com <a href="<?php echo $WEB_ROOT; ?>train/">AI對戰訓練</a>中所統計出之整體性能表現數據。資料採樣自使用網站的各位訓練家，以及當下對戰AI等級:菁英訓練家、冠軍訓練家的對戰數據。</div>
 	<div class="poke-search-container">
 		<input class="poke-search" target="teams" type="text" placeholder="Search Pokemon" />
 		<a href="#" class="search-info">i</a>
@@ -145,7 +144,7 @@ require_once '../header.php';
 		<table class="train-table teams" cellspacing="0">
 			<thead>
 				<tr>
-					<td class="poke-name"><a href="#" data="lead">隊伍組合 (最左側先發)</a></td>
+					<td class="poke-name"><a href="#" data="lead">隊伍組合 (最左/最上 先發)</a></td>
 					<td class="poke-name"></td>
 					<td class="poke-name"></td>
 					<td></td>
@@ -202,13 +201,13 @@ require_once '../header.php';
 
 	<a href="#" class="button download-csv teams">匯出 CSV檔</a>
 
-	<p class="column-description"><b>Team Rating - </b> Similar to the Battle Rating metric in battle simulations, the Team Rating metric is a number between 0 and 1000 that measures the quality of wins and losses depending on how much HP remains on the opposing team. An average team rating above 500 means teams including that team wins more often. An average team rating below 500 indicates underperformance.</p>
+	<p class="column-description"><b>隊伍 Rating - </b> Similar to the Battle Rating metric in battle simulations, the Team Rating metric is a number between 0 and 1000 that measures the quality of wins and losses depending on how much HP remains on the opposing team. An average team rating above 500 means teams including that team wins more often. An average team rating below 500 indicates underperformance.</p>
 
-	<p class="column-description"><b>Usage - </b> Usage by players and bots. A large sample size will yield higher confidence in the data. A <span class="low-volume">small sample size</span> may be the result of an individual player, and consequentially yield lower confidence in the data. The data is filtered by a mininum usage threshold.</p>
+	<p class="column-description"><b>使用率 - </b> Usage by players and bots. A large sample size will yield higher confidence in the data. A <span class="low-volume">small sample size</span> may be the result of an individual player, and consequentially yield lower confidence in the data. The data is filtered by a mininum usage threshold.</p>
 </div>
 
 <div class="section about white">
-	<a class="toggle" href="#">About Training Analysis <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+	<a class="toggle" href="#">關於訓練分析報告<span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content">
 		<p>This page offers another way to analyze the PvP meta to find Pokemon and teams that may work for you. Knowing what the data represents will help you make the most of it.</p>
 		<h2>Where does this data come from?</h2>

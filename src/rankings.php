@@ -113,6 +113,8 @@ require_once 'header.php';
 
 	<p>點擊以下各寶可夢可獲得更詳細的資料。</p>
 
+	<div class="check on xl" style="margin-bottom:15px;"><span></span>顯示 XL 寶可夢</div>
+
 	<div class="check on limited hide"><span></span>顯示 <div class="limited-title">數量限制寶可夢</div>*</div>
 	<div class="asterisk limited hide">*本賽制規定，這些受標示寶可夢在每位參賽者六隻寶可夢隊伍中，有數量上之限制。詳情請見此賽制規則。</div>
 

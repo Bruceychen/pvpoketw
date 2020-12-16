@@ -611,7 +611,7 @@ var InterfaceMaster = (function () {
 				}
 
 				if(pokemon.hasTag("xl")){
-					$details.append("<div class=\"detail-section\"><b>This entry highlights this Pokemon's performance if it has been powered up beyond level 40 with Candy XL.</b></div>");
+					$details.append("<div class=\"detail-section\"><b>此寶可夢需另外搭配 XL糖果 並強化超過等級 40 才能達到此排名資料之想定強度。</b></div>");
 				}
 
 				// Display move data

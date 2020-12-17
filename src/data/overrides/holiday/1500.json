@@ -30,12 +30,25 @@
 		"weight": 35
 	},
 	{
+		"speciesId": "mr_rime",
+		"fastMove": "ICE_SHARD",
+		"chargedMoves": ["ICY_WIND","PSYCHIC"]
+	},
+	{
 		"speciesId": "chansey",
 		"fastMove": "POUND"
 	},
 	{
 		"speciesId": "cloyster_shadow",
 		"chargedMoves": ["ICY_WIND", "FRUSTRATION"]
+	},
+	{
+		"speciesId": "raichu",
+		"chargedMoves": ["THUNDER_PUNCH", "WILD_CHARGE"]
+	},
+	{
+		"speciesId": "munchlax",
+		"chargedMoves": ["BODY_SLAM", "BULLDOZE"]
 	},
 	{
 		"speciesId": "vigoroth",

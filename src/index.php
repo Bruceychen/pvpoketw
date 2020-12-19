@@ -28,9 +28,10 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-    <h4>v1.20.0 (December 5, 2020)</h4>
+    <h4>v1.20.3 (December 17, 2020)</h4>
     <ul>
-        <li>The new <a href="<?php echo $WEB_ROOT; ?>train/analysis/">Training Analysis</a> page allows you to view top performing Pokemon and teams from the site's Training Battles!</li>
+        <li>The Team Builder now includes a shields option so you can analyze your team in a specific shield scenario, or find core breakers for a specific shield scenario.</li>
+        <li>Threat and alternative recommendations have been retuned to recommend more relevant Pokemon.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -77,8 +78,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Thu Dec 17 22:30:29 2020 +0800</li>
-                <li>原版最後版本時間：Wed Dec 16 16:31:00 2020 -0600</li>
+                <li>中文版最後更新時間：Sat Dec 19 23:50:29 2020 +0800</li>
+                <li>原版最後版本時間：Thu Dec 17 10:55:12 2020 -0600</li>
             </ul>
 </div>
 

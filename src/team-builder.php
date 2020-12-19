@@ -57,6 +57,16 @@ require_once 'header.php';
 				<h3>XL標記寶可夢</h3>
 				<div class="check allow-xl"><span></span>計算結果包含等級超過40級的寶可夢</div>
 			</div>
+            <div class="flex-break"></div>
+            <div class="team-option">
+                <h3>防護網使用策略</h3>
+                <select class="shield-select">
+                    <option value="average" selected>酌量使用 (0 或 1個)</option>
+                    <option value="0">不使用</option>
+                    <option value="1">使用 1 個防護網</option>
+                    <option value="2">使用 2 個防護網</option>
+                </select>
+            </div>
 		    <div class="team-option">
 		        <h3>誘騙防護網</h3>
 		        <div class="check shield-baiting on"><span></span>計算時使用低耗能特殊招式誘使對手使用防護網之戰術。</div>

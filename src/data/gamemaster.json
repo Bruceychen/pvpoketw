@@ -21430,6 +21430,46 @@
         "energyGain": 8,
         "cooldown": 1500
     }, {
+        "moveId": "TECHNO_BLAST_NORMAL",
+        "name": "高科技光炮 一般",
+        "type": "normal",
+        "power": 120,
+        "energy": 55,
+        "energyGain": 0,
+        "cooldown": 500
+    }, {
+        "moveId": "TECHNO_BLAST_BURN",
+        "name": "高科技光炮 火",
+        "type": "fire",
+        "power": 120,
+        "energy": 55,
+        "energyGain": 0,
+        "cooldown": 500
+    }, {
+        "moveId": "TECHNO_BLAST_CHILL",
+        "name": "高科技光炮 冰",
+        "type": "ice",
+        "power": 120,
+        "energy": 55,
+        "energyGain": 0,
+        "cooldown": 500
+    }, {
+        "moveId": "TECHNO_BLAST_DOUSE",
+        "name": "高科技光炮 水",
+        "type": "water",
+        "power": 120,
+        "energy": 55,
+        "energyGain": 0,
+        "cooldown": 500
+    }, {
+        "moveId": "TECHNO_BLAST_SHOCK",
+        "name": "高科技光炮 電",
+        "type": "electric",
+        "power": 120,
+        "energy": 55,
+        "energyGain": 0,
+        "cooldown": 500
+    }, {
         "moveId": "THUNDER",
         "name": "打雷",
         "type": "electric",

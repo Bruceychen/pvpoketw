@@ -23,6 +23,7 @@
 				<option value="holiday" type="great" class="multi-battle">假日盃 Meta</option>
 				<option value="marsh" type="great" class="multi-battle">Silph 沼澤盃 Meta</option>
 				<option value="nightfall" type="great" class="multi-battle">Silph 夜幕盃 Meta</option>
+                <option value="cerberus" type="great" class="multi-battle">VR Cerberus Cup Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

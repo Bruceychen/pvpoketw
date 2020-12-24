@@ -3,6 +3,7 @@
 	<option value="official" cup="premier">紀念盃</option>
     <option value="official" cup="holiday">假日盃</option>
 	<option value="tsa-3" cup="nightfall">Silph 夜幕盃</option>
+    <option value="comnmunity" cup="cerberus">VR Cerberus Cup</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>
@@ -35,6 +36,7 @@
     <option value="scoville" cat="community">Scoville Cup</option>
 	<option value="mexico" cat="community">México Cup</option>
 	<option value="kaiser" cat="community">Kaiser Invitational</option>
+    <option value="cerberus" cat="community">VR Cerberus Cup</option>
 	<option value="jungle"  cat="tsa-1">叢林盃</option>
 	<option value="rainbow" cat="tsa-1">彩虹盃</option>
 	<option value="championships-1" cat="tsa-1">第一季冠軍賽</option>

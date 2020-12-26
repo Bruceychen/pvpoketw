@@ -28,10 +28,9 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-    <h4>v1.20.3 (December 17, 2020)</h4>
-    <ul>
-        <li>The Team Builder now includes a shields option so you can analyze your team in a specific shield scenario, or find core breakers for a specific shield scenario.</li>
-        <li>Threat and alternative recommendations have been retuned to recommend more relevant Pokemon.</li>
+	<h4>v1.20.4 (December 24, 2020)</h4>
+	<ul>
+		<li>Updated the Training Battle interface to use the same switch sidebar as the game.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -78,8 +77,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Thu Dec 24 13:25:29 2020 +0800</li>
-                <li>原版最後版本時間：Wed Dec 23 13:00:02 2020 -0600</li>
+                <li>中文版最後更新時間：Sat Dec 26 10:25:29 2020 +0800</li>
+                <li>原版最後版本時間：Thu Dec 24 07:50:51 2020 -0600</li>
             </ul>
 </div>
 

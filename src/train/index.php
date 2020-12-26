@@ -130,9 +130,9 @@ require_once '../header.php';
 <div class="section white updates">
 	<h3>What's New</h3>
 
-	<h4>v1.17.6 (October 10, 2020)</h4>
+	<h4>v1.20.4 (December 24, 2020)</h4>
 	<ul>
-		<li>針對官方GO 對戰聯盟，現在AI將有較高機率使用預設之常見隊伍以利您練習！</li>
+		<li>Updated the Training Battle interface to use the same switch sidebar as the game.</li>
 	</ul>
 </div>
 

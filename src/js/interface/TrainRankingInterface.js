@@ -84,8 +84,11 @@ var InterfaceMaster = (function () {
 					var speciesId = r.pokemon.replace(" " + movesetStr, "");
 
 					//TODO:pvpoketw modified for moves abbreviationArr
-
-
+                    // arr:abomasnow_shadow,PS+EB/WBI
+                    // movesetStr:PS+EB/WBI -- final display version
+                    // movesetArr:PS,EB,WBI
+                    // speciesId:abomasnow_shadow
+                    // so should use method, translate movesetArr, then merge into movesetStr
 
 					var pokemon = new Pokemon(speciesId, 0, battle);
 

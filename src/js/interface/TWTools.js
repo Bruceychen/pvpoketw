@@ -25,3 +25,11 @@ function typeTranslate(type){
     };
     return (allTypes[type] || allTypes['default']);
 }
+
+function fastmoveAbbreviationArrTranslate(fastmove){
+
+}
+
+function chargemoveAbbreviationArrTranslate(chargemove){
+
+}

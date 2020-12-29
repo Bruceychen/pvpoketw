@@ -127,6 +127,8 @@ require_once '../header.php';
 
 	<p class="column-description"><b>使用率 - </b> Usage by players and bots on teams of 3. A large sample size will yield higher confidence in the data. A <span class="low-volume">small sample size</span> may be the result of an individual player, and consequentially yield lower confidence in the data. The data is filtered by a mininum usage threshold.</p>
 
+	<?php require '../modules/ads/body-728.php'; ?>
+
 	<h3>強勢隊伍組合</h3>
 
     <div>以下為各寶可夢及其搭配招式組在原版網站 PvPoke.com <a href="<?php echo $WEB_ROOT; ?>train/">AI對戰訓練</a>中所統計出之整體性能表現數據。資料採樣自使用網站的各位訓練家，以及當下對戰AI等級:菁英訓練家、冠軍訓練家的對戰數據。</div>

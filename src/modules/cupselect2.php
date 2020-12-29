@@ -1,11 +1,8 @@
 <select class="format-select">
 	<option value="all" cup="all">無屬性大亂鬥</option>
-	<option value="all" cup="gen-5">無屬性大亂鬥 (含第五世代寶可夢)</option>
 	<option value="tsa-2" cup="ferocious">猛獸盃</option>
-	<option value="tsa-2" cup="sinister">魅靈盃</option>
 	<option value="tsa-1">西爾佛第一季主題</option>
 	<option value="tsa-2">西爾佛第二季主題</option>
-	<option value="community">Community Formats</option>
 	<option value="tw-cups">台灣本地賽事</option>
 	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
 		<option value="custom">發財盃_新</option>

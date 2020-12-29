@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.20.5.2';
+$SITE_VERSION = '1.20.4.2';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -28,11 +28,7 @@ if(isset($_COOKIE['settings'])){
 		$_SETTINGS->pokeboxLastDateTime = 0;
 	}
 
-    if(! isset($_SETTINGS->ads)){
-        $_SETTINGS->ads = 1;
-    }
-
-    // Validate the gamemaster setting, only allow these options
+	// Validate the gamemaster setting, only allow these options
 	$gamemasters = ["gamemaster", "gamemaster-mega"];
 
 	if(! in_array($_SETTINGS->gamemaster, $gamemasters)){
@@ -44,8 +40,7 @@ if(isset($_COOKIE['settings'])){
 		'animateTimeline' => 1,
 		'theme' => 'default',
 		'gamemaster' => 'gamemaster',
-		'pokeboxId' => 0,
-        'ads' => 1
+		'pokeboxId' => 0
 	];
 }
 
@@ -97,7 +92,7 @@ if(! isset($OG_IMAGE)){
 <link rel="manifest" href="<?php echo $WEB_ROOT; ?>data/manifest.json?v=2">
 
 <link rel="icon" href="<?php echo $WEB_ROOT; ?>img/favicon.png">
-<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=100">
+<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=96">
 
 <?php if(strpos($META_TITLE, 'Train') !== false): ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/train.css?v=15">
@@ -164,8 +159,6 @@ if(! isset($OG_IMAGE)){
 	?>
 </script>
 
-	<?php require_once 'modules/ads/base-code.php'; ?>
-
 </head>
 
 <body>
@@ -214,6 +207,4 @@ if(! isset($OG_IMAGE)){
 	</header>
 	<div class="main-wrap">
 		<div id="main">
-			<div class="hide mega-warning"><b>提醒：未實裝之Mega寶可夢的數值為網友推估，於正式實裝前請不要投入任何資源培育！</b></div>
-
-			<?php require 'modules/ads/mobile-320.php'; ?>
+            <div class="hide mega-warning"><b>提醒：未實裝之Mega寶可夢的數值為網友推估，於正式實裝前請不要投入任何資源培育！</b></div>

@@ -83,8 +83,6 @@ require_once 'header.php';
 <button class="rate-btn button">進行隊伍分析</button>
 <div class="section white error">請選擇至少一隻寶可夢進行分析。</div>
 
-<?php require 'modules/ads/body-728.php'; ?>
-
 <div class="section typings white">
     <a href="#" class="toggle active">總覽 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
     <div class="toggle-content article">

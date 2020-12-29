@@ -29,11 +29,7 @@ require_once 'header.php';
         <p>PvPoke 已跟<a target="_blank" href="https://www.pokebattler.com/" class="pokebattler">Pokebattler</a>進行整合。於下方輸入你的Pokebattler id，便能將你於Pokebattlers 網站上所登載的寶可夢資料引入本站：</p>
         <input type="text" class="input" id="pokebox-id" <?php if(isset($_SETTINGS->pokeboxId)) : ?>value="<?php echo intval($_SETTINGS->pokeboxId); ?>"<?php endif; ?> />
 
-        <h3>廣告選項</h3>
-        <div class="check ads <?php if($_SETTINGS->ads == 1) : ?>on<?php endif; ?>"><span></span> 顯示廣告</div>
-        <p>廣告將用於資助本站以及寶可夢社群！</p>
-
-        <h3>戰鬥模擬計算時間軸</h3>
+		<h3>戰鬥模擬計算時間軸</h3>
 		<h3>(Battle Timeline)</h3>
 		<div class="check animate-timeline <?php if($_SETTINGS->animateTimeline == 1) : ?>on<?php endif; ?>"><span></span> 於計算結果產生後顯示時間軸動畫。(Animate after generating results)</div>
 
@@ -73,6 +69,7 @@ require_once 'header.php';
 		    <select class="input" id="gm-select">
 		        <option value="gamemaster" <?php if($gamemaster == "gamemaster") : ?>selected<?php endif; ?>>預設資料庫</option>
 		        <option value="gamemaster-mega" <?php if($gamemaster == "gamemaster-mega") : ?>selected<?php endif; ?>>含Mega 進化資料(非官方預測)</option>
+                <option value="gamemaster-kalos" <?php if($gamemaster == "gamemaster-kalos") : ?>selected<?php endif; ?>>卡洛斯寶可夢 (非官方預測)</option>
 			</select>
 		</div>
 

@@ -25,13 +25,7 @@
 		<p>網站原始程式碼位置以及贊助原作者(非譯者)</p>
 	</a>
 
-    <?php require 'modules/ads/body-728.php'; ?>
-
-    <?php if($_SETTINGS->ads == 1) : ?>
-        <span data-ccpa-link="1"></span>
-    <?php endif; ?>
-
-    <!--Update section for updates-->
+	<!--Update section for updates-->
 	<h3>What's New</h3>
 
 	<h4>v1.20.4 (December 24, 2020)</h4>
@@ -83,8 +77,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Tue Dec 29 23:00:29 2020 +0800</li>
-                <li>原版最後版本時間：Mon Dec 28 14:40:46 2020 -0600</li>
+                <li>中文版最後更新時間：Mon Dec 28 13:25:29 2020 +0800</li>
+                <li>原版最後版本時間：Sun Dec 27 16:57:10 2020 -0600</li>
             </ul>
 </div>
 

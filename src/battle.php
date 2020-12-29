@@ -82,12 +82,6 @@ require_once 'header.php';
 		<div class="summary section white"></div>
         <div class="tip automated">點擊或將鼠標移動到時間軸上任意位置以獲得更精確資訊。<a href="<?php echo $WEB_ROOT; ?>articles/guide-to-fast-move-registration/">點此</a> 了解更多關於時間軸的機制(英文)。</div>
         <div class="tip sandbox">點選單個圓圈以修改寶可夢行動。</div>
-	</div>
-
-	<?php require 'modules/ads/body-728.php'; ?>
-
-	<div class="battle-results single">
-
 		<div class="share-link-container">
 			<p>分享此戰鬥模擬數據</p>
 			<div class="share-link">
@@ -95,7 +89,6 @@ require_once 'header.php';
 				<div class="copy">複製</div>
 			</div>
 		</div>
-
 		<div class="continue-container">
 			<p>使用 <span class="name">Pokemon</span> 並以此狀態繼續與其他寶可夢對戰。</p>
 			<div class="button">繼續戰鬥</div>
@@ -310,7 +303,6 @@ require_once 'header.php';
 
 			<p>下列圖表顯示了你所指定的寶可夢，在此設定條件下的勝敗場數。你可以藉由多次計算，以選擇出因應不同情況下較佳的寶可夢、招式搭配及防禦網使用策略。</p>
 			<p>(The histogram below shows how many winning and losing matchups your Pokemon has. You can see previous results to compare Pokemon, movesets, or shield scenarios.)</p>
-
 			<div class="histograms">
 				<div class="histogram"></div>
 			</div>

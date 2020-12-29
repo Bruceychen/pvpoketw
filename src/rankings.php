@@ -151,6 +151,8 @@ require_once 'header.php';
 
 <a href="#" class="button download-csv">匯出成CSV檔</a>
 
+<?php require 'modules/ads/body-728.php'; ?>
+
 <div class="section about white">
 	<a class="toggle" href="#">About Rankings <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content">

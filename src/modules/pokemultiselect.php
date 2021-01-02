@@ -59,6 +59,8 @@
             </select>
             <div class="check shield-baiting on"><span></span>用低能量需求招式引誘對手使用防禦網</div>
         </div>
+
+		<a href="#" class="clear-selection">Clear Selections</a>
 	</div>
 </div>
 
@@ -87,6 +89,16 @@
 		<div class="button save">儲存</div>
 	</div>
 </div>
+
+<div class="multi-clear-confirm hide">
+	<p>清空並重設寶可夢隊伍/個體條件？此操作不會刪除"已儲存"的隊伍資料。</p>
+
+	<div class="center flex">
+		<div class="button yes">是</div>
+		<div class="button no">否</div>
+	</div>
+</div>
+
 
 <div class="delete-list-confirm hide">
 	<p>刪除 <b><span class="name"></span></b>? 此隊伍資料將會從此裝置中永遠移除。</p>

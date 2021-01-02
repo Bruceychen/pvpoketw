@@ -35,20 +35,20 @@ switch($cup){
 		$league = 'Premier';
 		break;
 
-    case "nightfall":
-        $league = 'Silph Nightfall Cup';
-        break;
-    case "classic":
-        $league = 'Master League Classic';
-        break;
+	case "nightfall":
+		$league = 'Silph Nightfall Cup';
+		break;
+	case "classic":
+		$league = 'Master League Classic';
+		break;
 
-    case "holiday":
-        $league = 'Holiday Cup';
-        break;
+	case "holiday":
+		$league = 'Holiday Cup';
+		break;
 
-    case "cerberus":
-        $league = 'Cerberus Cup';
-        break;
+	case "cerberus":
+		$league = 'Cerberus Cup';
+		break;
 
 }
 
@@ -74,8 +74,7 @@ require_once 'header.php';
 
 <h1>寶可夢排名</h1>
 <div class="section league-select-container white">
-	<?php require 'modules/leagueselect.php'; ?>
-	<?php require 'modules/cupselect.php'; ?>
+	<?php require 'modules/formatselect.php'; ?>
 
 	<div class="ranking-categories">
 		<a class="selected" href="#" data="overall" scenario="leads">Overall</a>
@@ -208,75 +207,75 @@ require_once 'header.php';
 <?php require_once 'modules/search-string-help.php'; ?>
 
 <div class="details-template hide">
-    <div class="detail-section float margin">
-        <div class="ranking-header">最佳剋制對象</div>
-        <div class="ranking-header right">Battle Rating</div>
-        <div class="matchups clear"></div>
-    </div>
-    <div class="detail-section float">
-        <div class="ranking-header">首要威脅來源</div>
-        <div class="ranking-header right">Battle Rating</div>
-        <div class="counters clear"></div>
-    </div>
-    <div class="detail-section float margin">
-        <div class="ranking-header">一般招式</div>
-        <div class="ranking-header right">實用度</div>
-        <div class="moveset fast clear"></div>
-        <div class="footnote">
-            *：活動、社群日或絕版招式<br>
-            <sup>†</sup>：無法透過任何招式學習器習得
-        </div>
-    </div>
-    <div class="detail-section float">
-        <div class="ranking-header">特殊招式</div>
-        <div class="ranking-header right">實用度</div>
-        <div class="moveset charged clear"></div>
-    </div>
-    <div class="clear"></div>
+	<div class="detail-section float margin">
+	    <div class="ranking-header">最佳剋制對象</div>
+	    <div class="ranking-header right">Battle Rating</div>
+	    <div class="matchups clear"></div>
+	</div>
+	<div class="detail-section float">
+	    <div class="ranking-header">首要威脅來源</div>
+	    <div class="ranking-header right">Battle Rating</div>
+	    <div class="counters clear"></div>
+	</div>
+	<div class="detail-section float margin">
+	    <div class="ranking-header">一般招式</div>
+	    <div class="ranking-header right">實用度</div>
+	    <div class="moveset fast clear"></div>
+	    <div class="footnote">
+	        *：活動、社群日或絕版招式<br>
+	        <sup>†</sup>：無法透過任何招式學習器習得
+	    </div>
+	</div>
+	<div class="detail-section float">
+	    <div class="ranking-header">特殊招式</div>
+	    <div class="ranking-header right">實用度</div>
+	    <div class="moveset charged clear"></div>
+	</div>
+	<div class="clear"></div>
 	<div class="detail-section moveset-override">此寶可夢最終的建議招式組將與計算出的實用度數據不同。主要目的在於避免不可能出現的招式匹配(比如不同時期絕版技)或是為了在特定對戰條件下更有優勢。</div>
-    <div class="detail-section typing">
-        <div class="rating-container">
-            <div class="ranking-header">第一屬性</div>
-            <div class="type"></div>
-        </div>
-        <div class="rating-container">
-            <div class="ranking-header">第二屬性</div>
-            <div class="type"></div>
-        </div>
-    </div>
-    <div class="detail-section float margin">
-        <div class="ranking-header">弱點屬性</div>
-        <div class="weaknesses clear"></div>
-    </div>
-    <div class="detail-section float">
-        <div class="ranking-header">抵抗屬性</div>
-        <div class="resistances clear"></div>
-    </div>
-    <div class="clear"></div>
-    <div class="detail-section stats">
-        <div class="rating-container">
-            <div class="ranking-header">攻擊力範圍</div>
-            <div class="rating"></div>&nbsp;-
-            <div class="rating"></div>
-        </div>
-        <div class="rating-container">
-            <div class="ranking-header">防禦力範圍</div>
-            <div class="rating"></div>&nbsp;-
-            <div class="rating"></div>
-        </div>
-        <div class="rating-container">
-            <div class="ranking-header">體力(HP)範圍</div>
-            <div class="rating"></div>&nbsp;-
-            <div class="rating"></div>
-        </div>
-        <div class="rating-container">
-            <div class="ranking-header">最佳IV組合 &amp; 等級</div>
-            <div class="rating"></div>
-        </div>
-    </div>
-    <div class="share-link detail-section"><input type="text" readonly="">
-        <div class="copy">複製</div>
-    </div>
+	<div class="detail-section typing">
+	    <div class="rating-container">
+	        <div class="ranking-header">第一屬性</div>
+	        <div class="type"></div>
+	    </div>
+	    <div class="rating-container">
+	        <div class="ranking-header">第二屬性</div>
+	        <div class="type"></div>
+	    </div>
+	</div>
+	<div class="detail-section float margin">
+	    <div class="ranking-header">弱點屬性</div>
+	    <div class="weaknesses clear"></div>
+	</div>
+	<div class="detail-section float">
+	    <div class="ranking-header">抵抗屬性</div>
+	    <div class="resistances clear"></div>
+	</div>
+	<div class="clear"></div>
+	<div class="detail-section stats">
+	    <div class="rating-container">
+	        <div class="ranking-header">攻擊力範圍</div>
+	        <div class="rating"></div>&nbsp;-
+	        <div class="rating"></div>
+	    </div>
+	    <div class="rating-container">
+	        <div class="ranking-header">防禦力範圍</div>
+	        <div class="rating"></div>&nbsp;-
+	        <div class="rating"></div>
+	    </div>
+	    <div class="rating-container">
+	        <div class="ranking-header">體力(HP)範圍</div>
+	        <div class="rating"></div>&nbsp;-
+	        <div class="rating"></div>
+	    </div>
+	    <div class="rating-container">
+	        <div class="ranking-header">最佳IV組合 &amp; 等級</div>
+	        <div class="rating"></div>
+	    </div>
+	</div>
+	<div class="share-link detail-section"><input type="text" readonly="">
+	    <div class="copy">複製</div>
+	</div>
 </div>
 
 <!--test 2-->

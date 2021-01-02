@@ -32,11 +32,15 @@
     <?php endif; ?>
 
     <!--Update section for updates-->
-	<h3>What's New</h3>
+    <h3>What's New</h3>
 
-	<h4>v1.20.4 (December 24, 2020)</h4>
-	<ul>
-		<li>Updated the Training Battle interface to use the same switch sidebar as the game.</li>
+    <h4>v1.20.6 (December 31, 2020)</h4>
+    <ul>
+        <li>Rankings page now has 1 format dropdown.</li>
+        <li>Histograms in Multi-Battle and the Team Builder now show average Battle Rating.</li>
+        <li>Added a "clear" option for custom group selection.</li>
+        <li>Adding a new Pokemon to a custom group will properly clear previous Pokemon search.</li>
+        <li>Switching between "Multi Battle" and "Matrix Battle" will keep any selected custom group on the right side.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -83,8 +87,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Tue Dec 30 13:30:29 2020 +0800</li>
-                <li>原版最後版本時間：Tue Dec 29 17:36:58 2020 -0600</li>
+                <li>中文版最後更新時間：Sat Jan 2 11:30:29 2020 +0800</li>
+                <li>原版最後版本時間：Thu Dec 31 12:46:27 2020 -0600</li>
             </ul>
 </div>
 

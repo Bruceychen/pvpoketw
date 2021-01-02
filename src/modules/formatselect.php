@@ -1,0 +1,11 @@
+<select class="format-select">
+	<option value="1500" cup="all">超級聯盟</option>
+	<option value="2500" cup="all">高級聯盟</option>
+	<option value="10000" cup="all">大師聯盟</option>
+	<option value="2500" cup="premier">紀念盃 (高級)</option>
+	<option value="10000" cup="premier">紀念盃 (大師)</option>
+	<option value="1500" cup="holiday">假日盃</option>
+	<option value="1500" cup="nightfall">Silph 夜幕盃</option>
+	<option value="1500" cup="cerberus">VR Cerberus Cup</option>
+	<option value="1500" cup="custom">自訂排名</option>
+</select>

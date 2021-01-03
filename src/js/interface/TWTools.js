@@ -2,7 +2,7 @@
  * 屬性轉換
 * */
 
-const debugMode = true;
+const debugMode = false;
 
 function typeTranslate(type){
     var allTypes = {

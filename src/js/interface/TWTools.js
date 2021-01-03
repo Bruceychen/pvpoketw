@@ -1,6 +1,6 @@
 /**
- * 屬性轉換
-* */
+ * pvpoketw method for content translate
+ * */
 
 const debugMode = false;
 
@@ -57,6 +57,11 @@ function fastmoveAbbreviationArrTranslate(fastmove){
         'I':'燒盡',
         'WA':'翅膀攻擊',
         'L':'舌舔',
+        'W':'攀瀑',
+        'BP':'子彈拳',
+        'DT':'龍尾',
+        'WG':'水槍',
+        'MSl':'擲泥',
         'default':''
     };
     // return (allFastmoves[fastmove] || allFastmoves['default']);
@@ -143,6 +148,25 @@ function chargemoveAbbreviationArrTranslate(chargemove){
         'XS' :'十字剪',
         'BB' :'爆炸烈焰',
         'WBW' :'氣象球 水',
+        'DrlP' :'啄鑽',
+        'IH' :'鐵頭',
+        'A' :'氣旋攻擊',
+        'O' :'氣旋攻擊',
+        'Pst' :'精神擊破',
+        'DM' :'流星群',
+        'Av' :'雪崩',
+        'Oc' :'章魚桶炮',
+        'MrS' :'鏡光射擊',
+        'DyP' :'爆裂拳',
+        'BK' :'火焰踢',
+        'SeB' :'種子炸彈',
+        'St' :'踩踏',
+        'ST' :'流沙地獄',
+        'HS' :'重磅衝撞',
+        'RW' :'岩石炮',
+        'Psh' :'精神衝擊',
+        'RB' :'岩石爆擊',
+        'HB' :'破壞光線',
         'default':''
     };
     // return (allSpecialmoves[chargemove] || allSpecialmoves['default']);
@@ -196,5 +220,5 @@ function movesNotFound(type, moves){
     if(debugMode){
         console.log(type + " moves abbrev.: "+ moves + " not found.");
     }
- return moves;
+    return moves;
 }

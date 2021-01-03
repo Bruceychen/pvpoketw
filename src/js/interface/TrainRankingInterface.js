@@ -83,12 +83,8 @@ var InterfaceMaster = (function () {
 					var movesetArr = movesetStr.split(/\+|\//);
 					var speciesId = r.pokemon.replace(" " + movesetStr, "");
 
-					//TODO:pvpoketw modified for moves abbreviationArr
-                    // arr:abomasnow_shadow,PS+EB/WBI
-                    // movesetStr:PS+EB/WBI -- final display version
-                    // movesetArr:PS,EB,WBI
-                    // speciesId:abomasnow_shadow
-                    // so should use method, translate movesetArr, then merge into movesetStr
+					//pvpoketw modified for moves abbreviationArr
+                    movesetStr = individualMovesHandler(movesetStr);
 
 					var pokemon = new Pokemon(speciesId, 0, battle);
 
@@ -108,7 +104,11 @@ var InterfaceMaster = (function () {
 					}
 
 					$row.find(".name").html(pokemon.speciesName);
-					$row.find(".moves").html(r.pokemon.split(" ")[1]);
+
+					//pvpoketw handle moves abbrev
+					// $row.find(".moves").html(r.pokemon.split(" ")[1]);
+					$row.find(".moves").html(movesetStr);
+
 					$row.find(".individual-score").html(r.individualScore.toFixed(1) + '%');
 					$row.find(".team-score .score").html(r.teamScore.toFixed(1));
 
@@ -160,6 +160,9 @@ var InterfaceMaster = (function () {
 						var speciesId = arr[n].split(" ")[0];
 						var movesetStr = arr[n].split(" ")[1];
 
+						//pvpoketw update moves abbrev
+                        movesetStr = teamMovesHandler(movesetStr);
+
 						var pokemon = new Pokemon(speciesId, 0, battle);
 
 						if(! pokemon.speciesId){
@@ -178,6 +181,7 @@ var InterfaceMaster = (function () {
 
 						$row.find(".name").eq(n).html(pokemon.speciesName);
 						$row.find(".moves").eq(n).html(movesetStr);
+                        //TODO update here
 
 						var abbreviationArr = movesetStr.split("/");
 

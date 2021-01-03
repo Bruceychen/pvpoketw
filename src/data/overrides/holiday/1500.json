@@ -35,12 +35,24 @@
 		"fastMove": "POUND"
 	},
 	{
+		"speciesId": "litleo",
+		"fastMove": "FIRE_FANG"
+	},
+	{
+		"speciesId": "litleo_xl",
+		"fastMove": "FIRE_FANG"
+	},
+	{
 		"speciesId": "cloyster_shadow",
 		"chargedMoves": ["ICY_WIND", "FRUSTRATION"]
 	},
 	{
 		"speciesId": "raichu",
 		"chargedMoves": ["THUNDER_PUNCH", "WILD_CHARGE"]
+	},
+	{
+		"speciesId": "haunter",
+		"chargedMoves": ["SHADOW_PUNCH", "SLUDGE_BOMB"]
 	},
 	{
 		"speciesId": "munchlax",

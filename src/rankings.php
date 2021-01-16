@@ -42,13 +42,17 @@ switch($cup){
 		$league = 'Master League Classic';
 		break;
 
-	case "holiday":
-		$league = 'Holiday Cup';
+    case "kanto":
+        $league = 'Kanto Cup';
 		break;
 
 	case "cerberus":
 		$league = 'Cerberus Cup';
 		break;
+
+    case "goteamup":
+        $league = 'GO Stadium GOTeamUp';
+        break;
 
 }
 

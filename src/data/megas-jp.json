@@ -146,25 +146,6 @@
     },
     "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"]
 }, {
-    "dex": 181,
-    "speciesName": "デンリュウ (メガ)",
-    "speciesId": "ampharos_mega",
-    "baseStats": {
-        "atk": 294,
-        "def": 203,
-        "hp": 207
-    },
-    "types": ["electric", "dragon"],
-    "fastMoves": ["CHARGE_BEAM", "VOLT_SWITCH"],
-    "chargedMoves": ["DRAGON_PULSE", "FOCUS_BLAST", "POWER_GEM", "THUNDER", "ZAP_CANNON", "THUNDER_PUNCH"],
-    "defaultIVs": {
-        "cp1500": [13, 7, 7, 12],
-        "cp2500": [22, 5, 10, 6]
-    },
-    "tags": ["shadoweligible", "mega"],
-    "level25CP": 2688,
-    "eliteMoves": ["DRAGON_PULSE"]
-}, {
     "dex": 208,
     "speciesName": "ハガネール (メガ)",
     "speciesId": "steelix_mega",
@@ -676,24 +657,6 @@
     "level25CP": 2867,
     "tags": ["shadoweligible", "mega"],
     "eliteMoves": ["SYNCHRONOISE"]
-}, {
-    "dex": 460,
-    "speciesName": "ユキノオー (メガ)",
-    "speciesId": "abomasnow_mega",
-    "baseStats": {
-        "atk": 240,
-        "def": 191,
-        "hp": 207
-    },
-    "types": ["grass", "ice"],
-    "fastMoves": ["POWDER_SNOW", "RAZOR_LEAF"],
-    "chargedMoves": ["BLIZZARD", "ENERGY_BALL", "OUTRAGE", "WEATHER_BALL_ICE"],
-    "defaultIVs": {
-        "cp1500": [15.5, 14, 15, 14],
-        "cp2500": [27, 7, 8, 14]
-    },
-    "level25CP": 2129,
-    "tags": ["shadoweligible", "mega"]
 }, {
     "dex": 382,
     "speciesName": "Kyogre (Primal)",

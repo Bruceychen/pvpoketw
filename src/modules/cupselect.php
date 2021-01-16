@@ -2,6 +2,7 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
     <option value="official" cup="kanto">關都盃</option>
+    <option value="comnmunity" cup="goteamup">GO Stadium GOTeamUp</option>
     <option value="comnmunity" cup="cerberus">VR Cerberus Cup</option>
 	<option value="comnmunity" cup="shadow">TeamRocketPVP Shadow Cup</option>
 

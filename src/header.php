@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.20.7.14';
+$SITE_VERSION = '1.20.7.15';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -65,13 +65,13 @@ if(! isset($_COOKIE['migrate'])){
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php
 if(! isset($META_TITLE)){
-	$META_TITLE = 'PvPokeTW | 為 Pokemon GO PVP 而設的開源平台';
+	$META_TITLE = 'PvPoke | Open-Source Battle Simulator, Rankings &amp; Team Building for Pokemon GO PvP';
 } else{
-	$META_TITLE = $META_TITLE . ' | PvPokeTW';
+	$META_TITLE = $META_TITLE . ' | PvPoke';
 }
 
 if(! isset($META_DESCRIPTION)){
-	$META_DESCRIPTION = '想在 Pokemon GO PVP 戰鬥中無往不利嗎? 善用這個網站，組建並精進你的隊伍，不用二十年你也可以成為冠軍！';
+	$META_DESCRIPTION = 'Looking for an edge in Pokemon GO Trainer Battles? Become a master with our open-source Pokemon battle simulator, explore the top Pokemon rankings, and get your team rated for PvP battles.';
 }
 
 if(! isset($OG_IMAGE)){
@@ -140,7 +140,8 @@ if(! isset($OG_IMAGE)){
 
 	<?php endif; ?>
 
-	<?php if((strpos($_SERVER['REQUEST_URI'], 'mega') !== false) && (strpos($_SERVER['REQUEST_URI'], 'meganium') === false) && (strpos($_SERVER['REQUEST_URI'], 'venusaur_mega') === false) && (strpos($_SERVER['REQUEST_URI'], 'blastoise_mega') === false) && ((strpos($_SERVER['REQUEST_URI'], 'charizard_mega_x') === false)) && (strpos($_SERVER['REQUEST_URI'], 'charizard_mega_y') === false) && (strpos($_SERVER['REQUEST_URI'], 'beedrill_mega') === false) && (strpos($_SERVER['REQUEST_URI'], 'pidgeot_mega') === false) && (strpos($_SERVER['REQUEST_URI'], 'houndoom_mega') === false)&& (strpos($_SERVER['REQUEST_URI'], 'abomasnow_mega') === false)):
+	<?php if((strpos($_SERVER['REQUEST_URI'], 'mega') !== false) && (strpos($_SERVER['REQUEST_URI'], 'meganium') === false) && (strpos($_SERVER['REQUEST_URI'], 'venusaur_mega') === false) && (strpos($_SERVER['REQUEST_URI'], 'blastoise_mega') === false) && ((strpos($_SERVER['REQUEST_URI'], 'charizard_mega_x') === false)) && (strpos($_SERVER['REQUEST_URI'], 'charizard_mega_y') === false) && (strpos($_SERVER['REQUEST_URI'], 'beedrill_mega') === false) && (strpos($_SERVER['REQUEST_URI'], 'pidgeot_mega') === false) && (strpos($_SERVER['REQUEST_URI'], 'houndoom_mega') === false)&&
+	(strpos($_SERVER['REQUEST_URI'], 'ampharos_mega') === false)&& (strpos($_SERVER['REQUEST_URI'], 'abomasnow_mega') === false)):
 		$_SETTINGS->gamemaster = 'gamemaster-mega';
 		?>
 		// If "Mega" is contained in the URL, default to the mega gamemaster
@@ -171,7 +172,7 @@ if(! isset($OG_IMAGE)){
 <body>
 	<header>
 		<div class="header-wrap">
-			<h1 class="title"><a href="/">PvPoketw.com</a></h1>
+			<h1 class="title"><a href="/">PvPoke.com</a></h1>
 			<div class="hamburger">
 				<!--Because I'm too lazy to make a graphic-->
 				<div class="meat"></div>
@@ -179,33 +180,33 @@ if(! isset($OG_IMAGE)){
 				<div class="meat"></div>
 			</div>
 			<div class="menu">
-				<a class="icon-battle" href="<?php echo $WEB_ROOT; ?>battle/">戰鬥模擬計算</a>
+				<a class="icon-battle" href="<?php echo $WEB_ROOT; ?>battle/">Battle</a>
 				<div class="parent-menu">
-				    <a class="icon-train" href="<?php echo $WEB_ROOT; ?>train/">AI對戰訓練</a>
-				    <div class="submenu">
-				        <div class="submenu-wrap">
-				            <a class="icon-rankings" href="<?php echo $WEB_ROOT; ?>train/analysis/">強勢個體與組隊</a>
-				        </div>
-				    </div>
-				</div>
-				<div class="parent-menu">
-					<a class="icon-rankings" href="<?php echo $WEB_ROOT; ?>rankings/">寶可夢排名</a>
+					<a class="icon-train" href="<?php echo $WEB_ROOT; ?>train/">Train</a>
 					<div class="submenu">
 						<div class="submenu-wrap">
-							<a class="icon-rankings" href="<?php echo $WEB_ROOT; ?>custom-rankings/">自訂排名</a>
+							<a class="icon-rankings" href="<?php echo $WEB_ROOT; ?>train/analysis/">Top Performers</a>
 						</div>
 					</div>
 				</div>
-				<a class="icon-team" href="<?php echo $WEB_ROOT; ?>team-builder/">隊伍組建模擬</a>
+				<div class="parent-menu">
+					<a class="icon-rankings" href="<?php echo $WEB_ROOT; ?>rankings/">Rankings</a>
+					<div class="submenu">
+						<div class="submenu-wrap">
+							<a class="icon-rankings" href="<?php echo $WEB_ROOT; ?>custom-rankings/">Custom Rankings</a>
+						</div>
+					</div>
+				</div>
+				<a class="icon-team" href="<?php echo $WEB_ROOT; ?>team-builder/">Team Builder</a>
 				<div class="parent-menu">
 					<a class="more desktop" href="#"></a>
 					<div class="submenu">
 						<div class="submenu-wrap">
-							<a class="icon-moves" href="<?php echo $WEB_ROOT; ?>moves/">招式</a>
-							<a class="icon-articles" href="<?php echo $WEB_ROOT; ?>articles/">專欄文章</a>
-							<a class="icon-contribute" href="<?php echo $WEB_ROOT; ?>contribute/">貢獻一己之力</a>
-							<a class="icon-settings" href="<?php echo $WEB_ROOT; ?>settings/">設定</a>
-							<a class="icon-twitter" href="https://twitter.com/pvpoke" target="_blank">官方推特</a>
+							<a class="icon-moves" href="<?php echo $WEB_ROOT; ?>moves/">Moves</a>
+							<a class="icon-articles" href="<?php echo $WEB_ROOT; ?>articles/">Articles</a>
+							<a class="icon-contribute" href="<?php echo $WEB_ROOT; ?>contribute/">Contribute</a>
+							<a class="icon-settings" href="<?php echo $WEB_ROOT; ?>settings/">Settings</a>
+							<a class="icon-twitter" href="https://twitter.com/pvpoke" target="_blank">Twitter</a>
 						</div>
 					</div>
 				</div>
@@ -214,4 +215,4 @@ if(! isset($OG_IMAGE)){
 	</header>
 	<div class="main-wrap">
 		<div id="main">
-			<div class="hide mega-warning"><b>提醒：未實裝之Mega寶可夢的數值為網友推估，於正式實裝前請不要投入任何資源培育！</b></div>
+			<div class="hide mega-warning"><b>Stats for unreleased Mega Evolutions are speculative. Don't invest any resources until they're officially released.</b></div>

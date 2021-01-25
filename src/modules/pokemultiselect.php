@@ -6,7 +6,10 @@
 			<h3 class="section-title">寶可夢 (<span class="poke-count">0</span> / <span class="poke-max-count">100</span>)</h3>
 			<p>選擇寶可夢組成隊伍，或選擇已儲存之隊伍。</p>
 			<div class="rankings-container clear"></div>
-			<button class="add-poke-btn button">+ 選擇寶可夢</button>
+			<div class="team-warning ineligible">你的隊伍成員包含不符此賽制規則的寶可夢。</div>
+			<div class="team-warning labyrinth">迷宮盃隊伍內寶可夢不得有相同屬性！</div>
+
+            <button class="add-poke-btn button">+ 選擇寶可夢</button>
 
 			<?php include 'pokebox.php'; ?>
 
@@ -20,8 +23,8 @@
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
 				<option value="premierultra" type="ultra" class="hide multi-battle">高級紀念盃 Meta</option>
 				<option value="premier" type="master" class="hide multi-battle">大師紀念盃 Meta</option>
+                <option value="labyrinth" type="great" class="multi-battle">Silph 迷宮盃(暫) Meta</option>
 				<option value="kanto" type="great" class="multi-battle">關都盃 Meta</option>
-                <option value="cerberus" type="great" class="multi-battle">VR Cerberus Cup Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

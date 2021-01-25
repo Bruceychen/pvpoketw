@@ -678,6 +678,17 @@
             "filterType": "type",
             "values": ["dark"]
         }]
+    }, {
+        "name": "labyrinth",
+        "title": "Silph Labyrinth Cup",
+        "include": [],
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["mega"]
+        }, {
+            "filterType": "id",
+            "values": ["azumarill","azumarill_xl","medicham","medicham_xl","stunfisk_galarian","hypno","hypno_shadow","deoxys_defense","cresselia","umbreon","machamp","machamp_shadow","scrafty","sirfetchd","altaria","bastiodon","bastiodon_xl","primeape","swampert","swampert_shadow","mew","wobbuffet","wobbuffet_shadow","wobbuffet_xl"]
+        }]
     }],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable", "mega", "xl"],
     "pokemonRegions": [{
@@ -717,13 +728,13 @@
         "max": 17,
         "tiers": [{
             "points": 9,
-            "pokemon": ["altaria", "azumarill", "skarmory", "deoxys_defense", "registeel", "stunfisk_galarian", "tropius"]
+            "pokemon": ["altaria", "azumarill", "skarmory", "deoxys_defense", "medicham", "registeel", "stunfisk_galarian", "tropius"]
         }, {
             "points": 5,
-            "pokemon": ["abomasnow", "bastiodon", "bronzong", "cresselia", "ferrothorn", "galvantula", "hypno", "ivysaur", "jirachi", "mandibuzz", "marowak_alolan", "medicham", "meganium", "melmetal", "probopass", "regirock", "sableye", "scrafty", "swampert", "umbreon", "venusaur", "whiscash", "zweilous"]
+            "pokemon": ["abomasnow", "bastiodon", "cresselia", "dewgong", "diggersby", "ferrothorn", "galvantula", "hypno", "hypno_shadow", "ivysaur", "jellicent", "lapras", "lickitung", "marowak_alolan", "machamp", "mandibuzz", "meganium", "politoed", "sableye", "scrafty", "swampert", "umbreon", "venusaur", "whiscash", "wobbuffet", "zweilous"]
         }, {
             "points": 1,
-            "pokemon": ["cherrim_sunny", "clefable", "dewgong", "drifblim", "empoleon", "froslass", "gardevoir", "gengar", "golbat", "haunter", "jumpluff", "lanturn", "lapras", "lugia", "machamp", "mantine", "mew", "muk_alolan", "noctowl", "obstagoon", "pelipper", "raichu", "raichu_alolan", "raikou", "regice", "shiftry", "sirfetchd", "stunfisk", "togekiss", "toxicroak", "uxie", "victreebel", "vigoroth", "wigglytuff", "zapdos"]
+            "pokemon": ["bronzong", "cherrim_sunny", "castform_rainy", "castform_sunny", "chesnaught", "clefable", "drifblim", "empoleon", "froslass", "gardevoir", "gengar", "golbat", "haunter", "jirachi", "jumpluff", "lanturn", "lugia", "mantine", "melmetal", "mew", "muk_alolan", "ninetales", "ninetales_alolan", "noctowl", "obstagoon", "pelipper", "probopass", "regirock", "raichu", "raichu_alolan", "raikou", "shiftry", "sirfetchd", "stunfisk", "togekiss", "toxicroak", "victreebel", "vigoroth", "wigglytuff", "zapdos"]
         }]
     }],
     "pokemon": [{
@@ -3521,13 +3532,13 @@
         },
         "types": ["fighting", "none"],
         "fastMoves": ["BULLET_PUNCH", "COUNTER", "KARATE_CHOP"],
-        "chargedMoves": ["CLOSE_COMBAT", "CROSS_CHOP", "DYNAMIC_PUNCH", "HEAVY_SLAM", "ROCK_SLIDE", "STONE_EDGE", "SUBMISSION"],
+        "chargedMoves": ["CLOSE_COMBAT", "CROSS_CHOP", "DYNAMIC_PUNCH", "HEAVY_SLAM", "ROCK_SLIDE", "STONE_EDGE", "SUBMISSION", "PAYBACK"],
         "defaultIVs": {
             "cp500": [6, 7, 15, 15],
             "cp1500": [18, 6, 10, 15],
             "cp2500": [30, 5, 12, 14]
         },
-        "eliteMoves": ["KARATE_CHOP", "STONE_EDGE", "SUBMISSION"],
+        "eliteMoves": ["KARATE_CHOP", "STONE_EDGE", "SUBMISSION", "PAYBACK"],
         "searchPriority": 5,
         "tags": ["shadow"]
     }, {
@@ -6388,6 +6399,25 @@
         },
         "eliteMoves": ["FRENZY_PLANT"],
         "searchPriority": 16
+    }, {
+        "dex": 154,
+        "speciesName": "メガニウム (XL)",
+        "speciesId": "meganium_xl",
+        "baseStats": {
+            "atk": 168,
+            "def": 202,
+            "hp": 190
+        },
+        "types": ["grass", "none"],
+        "fastMoves": ["RAZOR_LEAF", "VINE_WHIP"],
+        "chargedMoves": ["EARTHQUAKE", "FRENZY_PLANT", "PETAL_BLIZZARD", "SOLAR_BEAM"],
+        "tags": ["starter", "xl"],
+        "defaultIVs": {
+            "cp500": [8, 6, 9, 7],
+            "cp1500": [23, 7, 9, 15],
+            "cp2500": [49, 2, 14, 15]
+        },
+        "eliteMoves": ["FRENZY_PLANT"]
     }, {
         "dex": 155,
         "speciesName": "ヒノアラシ",
@@ -11008,6 +11038,24 @@
         },
         "tags": ["regional"]
     }, {
+        "dex": 335,
+        "speciesName": "ザングース (XL)",
+        "speciesId": "zangoose_xl",
+        "baseStats": {
+            "atk": 222,
+            "def": 124,
+            "hp": 177
+        },
+        "types": ["normal", "none"],
+        "fastMoves": ["FURY_CUTTER", "SHADOW_CLAW"],
+        "chargedMoves": ["CLOSE_COMBAT", "DIG", "NIGHT_SLASH"],
+        "defaultIVs": {
+            "cp500": [7.5, 11, 15, 12],
+            "cp1500": [22.5, 9, 14, 11],
+            "cp2500": [47, 2, 15, 15]
+        },
+        "tags": ["regional","xl"]
+    }, {
         "dex": 336,
         "speciesName": "ハブネーク",
         "speciesId": "seviper",
@@ -11284,7 +11332,8 @@
             "cp500": [11.5, 8, 8, 14],
             "cp1500": [39.5, 6, 12, 12],
             "cp2500": [40, 15, 15, 15]
-        }
+        },
+		"searchPriority": 3
     }, {
         "dex": 351,
         "speciesName": "ポワルン (あまみず)",
@@ -13455,6 +13504,24 @@
             "cp2500": [40, 15, 15, 15]
         },
         "searchPriority": 2
+    }, {
+        "dex": 437,
+        "speciesName": "ドータクン (XL)",
+        "speciesId": "bronzong_xl",
+        "baseStats": {
+            "atk": 161,
+            "def": 213,
+            "hp": 167
+        },
+        "types": ["steel", "psychic"],
+        "fastMoves": ["CONFUSION", "FEINT_ATTACK"],
+        "chargedMoves": ["FLASH_CANNON", "HEAVY_SLAM", "PSYCHIC", "BULLDOZE", "PSYSHOCK"],
+        "defaultIVs": {
+            "cp500": [8.5, 7, 12, 6],
+            "cp1500": [24.5, 9, 14, 12],
+            "cp2500": [50, 13, 15, 14]
+        },
+        "tags": ["xl"]
     }, {
         "dex": 438,
         "speciesName": "ウソハチ",
@@ -19766,6 +19833,24 @@
         },
         "tags": ["galarian"],
         "searchPriority": 3
+    }, {
+        "dex": 863,
+        "speciesName": "ニャイキング (XL)",
+        "speciesId": "perrserker_xl",
+        "baseStats": {
+            "atk": 195,
+            "def": 162,
+            "hp": 172
+        },
+        "types": ["steel", "none"],
+        "fastMoves": ["METAL_CLAW", "SHADOW_CLAW"],
+        "chargedMoves": ["IRON_HEAD", "CLOSE_COMBAT", "PLAY_ROUGH", "FOUL_PLAY"],
+        "defaultIVs": {
+            "cp500": [8, 7, 12, 6],
+            "cp1500": [23.5, 7, 8, 12],
+            "cp2500": [49, 2, 15, 15]
+        },
+        "tags": ["galarian", "xl"]
     }, {
         "dex": 865,
         "speciesName": "ネギガナイト",

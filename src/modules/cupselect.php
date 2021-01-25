@@ -2,8 +2,8 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
     <option value="official" cup="kanto">關都盃</option>
+    <option value="tsa-3" cup="labyrinth">Silph 迷宮盃(暫)</option>
     <option value="comnmunity" cup="goteamup">GO Stadium GOTeamUp</option>
-    <option value="comnmunity" cup="cerberus">VR Cerberus Cup</option>
 	<option value="comnmunity" cup="shadow">TeamRocketPVP Shadow Cup</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
@@ -69,5 +69,6 @@
 	<option value="sunrise" cat="tsa-3">晨曦盃</option>
     <option value="marsh" cat="tsa-3">沼澤盃</option>
     <option value="nightfall" cat="tsa-3">夜幕盃</option>
+    <option value="labyrinth" cat="tsa-3">迷宮盃(暫時)</option>
 	<option value="custom" cat="custom">自訂排名</option>
 </select>

@@ -5,6 +5,7 @@
 	<option value="2500" cup="premier">紀念盃 (高級)</option>
 	<option value="10000" cup="premier">紀念盃 (大師)</option>
 	<option value="1500" cup="kanto">關都盃</option>
+    <option value="1500" cup="love">Love 盃</option>
     <option value="1500" cup="labyrinth">Silph 迷宮盃(暫)</option>
     <option value="1500" cup="goteamup">GO Stadium GOTeamUp</option>
 	<option value="1500" cup="shadow">TeamRocketPVP Shadow Cup</option>

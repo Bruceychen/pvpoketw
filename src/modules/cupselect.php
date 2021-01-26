@@ -2,6 +2,7 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
     <option value="official" cup="kanto">關都盃</option>
+    <option value="official" cup="love">Love 盃</option>
     <option value="tsa-3" cup="labyrinth">Silph 迷宮盃(暫)</option>
     <option value="comnmunity" cup="goteamup">GO Stadium GOTeamUp</option>
 	<option value="comnmunity" cup="shadow">TeamRocketPVP Shadow Cup</option>
@@ -23,6 +24,7 @@
     <option value="flying" cat="official">飛行盃</option>
 	<option value="halloween" cat="official">萬聖節盃</option>
 	<option value="kanto" cat="official">關都盃</option>
+    <option value="love" cat="official">Love 盃</option>
 	<option value="little" cat="official">小小盃</option>
     <option value="holiday" cat="official">假日盃</option>
     <option value="classic" cat="official">大師經典賽 (XL 禁止)</option>

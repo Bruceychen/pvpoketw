@@ -2,7 +2,7 @@
  * pvpoketw method for content translate
  * */
 
-const debugMode = false;
+const debugMode = true;
 
 function typeTranslate(type){
     var allTypes = {
@@ -31,6 +31,7 @@ function typeTranslate(type){
 
 function fastmoveAbbreviationArrTranslate(fastmove){
     var allFastmoves = {
+        'FC':'連斬',
         'PS':'細雪',
         'C' :'雙倍奉還',
         'AS':'空氣斬',
@@ -70,6 +71,10 @@ function fastmoveAbbreviationArrTranslate(fastmove){
 
 function chargemoveAbbreviationArrTranslate(chargemove){
     var allSpecialmoves = {
+        'DD':'破滅之願',
+        'PG':'力量寶石',
+        'LT':'青草攪拌器',
+        'Pbk':'以牙還牙',
         'EB':'能量球',
         'WBI' :'氣象球 冰',
         'PB' :'精神突進',

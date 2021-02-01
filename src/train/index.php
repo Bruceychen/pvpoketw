@@ -42,6 +42,7 @@ require_once '../header.php';
 				<option value="10000 premier">紀念盃 (無上限)</option>
                 <option value="1500 kanto">關都盃 Cup</option>
                 <option value="1500 love">愛情盃</option>
+                <option value="1500 labyrinth">Silph 迷宮盃</option>
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>

@@ -7,7 +7,5 @@
 	<option value="1500" cup="kanto">關都盃</option>
     <option value="1500" cup="love">愛情盃</option>
     <option value="1500" cup="labyrinth">Silph 迷宮盃</option>
-	<option value="1500" cup="shadow">TeamRocketPVP Shadow Cup</option>
-    <option value="1500" cup="cerberus">VR Cerberus Cup</option>
 	<option value="1500" cup="custom">自訂排名</option>
 </select>

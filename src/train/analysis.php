@@ -70,6 +70,7 @@ require_once '../header.php';
         <option value="10000" cup="all">大師聯盟</option>
         <option value="2500" cup="premier">高級聯盟紀念盃</option>
         <option value="10000" cup="premier">大師聯盟紀念盃</option>
+        <option value="1500" cup="love">愛情盃</option>
     </select>
 
     <div class="date-updated">資料最後更新</div>

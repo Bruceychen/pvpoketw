@@ -31,6 +31,8 @@ function typeTranslate(type){
 
 function fastmoveAbbreviationArrTranslate(fastmove){
     var allFastmoves = {
+        'RTh':'落石',
+        'E':'火花',
         'FC':'連斬',
         'PS':'細雪',
         'C' :'雙倍奉還',
@@ -71,6 +73,10 @@ function fastmoveAbbreviationArrTranslate(fastmove){
 
 function chargemoveAbbreviationArrTranslate(chargemove){
     var allSpecialmoves = {
+        'F':'遷怒',
+        'Ov':'過熱',
+        'HW':'熱風',
+        'BBu':'蟲鳴',
         'DD':'破滅之願',
         'PG':'力量寶石',
         'LT':'青草攪拌器',

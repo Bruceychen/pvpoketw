@@ -64,22 +64,36 @@ function PokeSelect(element, i){
 
 			$el.find(".poke-stats").show();
 
-			$el.find(".stat").removeClass("buff debuff");
-
-			$el.find(".attack .stat").html(Math.floor(selectedPokemon.getEffectiveStat(0)*10)/10);
-			$el.find(".defense .stat").html(Math.floor(selectedPokemon.getEffectiveStat(1)*10)/10);
+			$el.find(".attack .stat").html(Math.floor(selectedPokemon.stats.atk*10)/10);
+			$el.find(".defense .stat").html(Math.floor(selectedPokemon.stats.def*10)/10);
 			$el.find(".stamina .stat").html(selectedPokemon.stats.hp);
 
-			if(selectedPokemon.getEffectiveStat(0) > selectedPokemon.stats.atk){
-				$el.find(".attack .stat").addClass("buff");
-			} else if(selectedPokemon.getEffectiveStat(0) < selectedPokemon.stats.atk){
-				$el.find(".attack .stat").addClass("debuff");
+			$el.find(".poke-stats .stat").removeClass("buff debuff");
+
+			// Display stat adjustments for damage dealt and taken
+
+			var effectiveAtk = selectedPokemon.getEffectiveStat(0);
+			var effectiveDef = selectedPokemon.getEffectiveStat(1);
+
+			var adjustmentAtk = Math.round((effectiveAtk / selectedPokemon.stats.atk) * 100) / 100;
+			var adjustmentDef = Math.round( (1 / (effectiveDef / selectedPokemon.stats.def)) * 100) / 100;
+
+			$el.find(".adjustment.attack .value").html("x" + adjustmentAtk);
+			$el.find(".adjustment.defense .value").html("x" + adjustmentDef);
+
+			$el.find(".adjustment .value").removeClass("buff debuff");
+
+			if(adjustmentAtk > 1){
+				$el.find(".adjustment.attack .value").addClass("buff");
+			} else if(adjustmentAtk < 1){
+				$el.find(".adjustment.attack .value").addClass("debuff");
 			}
 
-			if(selectedPokemon.getEffectiveStat(1) > selectedPokemon.stats.def){
-				$el.find(".defense .stat").addClass("buff");
-			} else if(selectedPokemon.getEffectiveStat(1) < selectedPokemon.stats.def){
-				$el.find(".defense .stat").addClass("debuff");
+
+			if(adjustmentDef < 1){
+				$el.find(".adjustment.defense .value").addClass("buff");
+			} else if(adjustmentDef > 1){
+				$el.find(".adjustment.defense .value").addClass("debuff");
 			}
 
 			var overall = Math.round((selectedPokemon.stats.hp * selectedPokemon.stats.atk * selectedPokemon.stats.def) / 1000);
@@ -103,6 +117,22 @@ function PokeSelect(element, i){
 			$el.find(".hp .stat").html(selectedPokemon.hp+" / "+selectedPokemon.stats.hp);
 
 			$el.find(".types").html('');
+
+			if(selectedPokemon.autoLevel){
+				$el.find(".check.auto-level").addClass("on");
+			} else{
+				$el.find(".check.auto-level").removeClass("on");
+			}
+
+			$el.find(".level-cap-group .check").removeClass("on");
+			$el.find(".level-cap-group .check[value=\""+selectedPokemon.levelCap+"\"]").addClass("on");
+
+			if($el.find("input.level:focus, input.iv:focus").length == 0){
+				$el.find("input.level").val(selectedPokemon.level);
+				$el.find("input.iv").eq(0).val(selectedPokemon.ivs.atk);
+				$el.find("input.iv").eq(1).val(selectedPokemon.ivs.def);
+				$el.find("input.iv").eq(2).val(selectedPokemon.ivs.hp);
+			}
 
 			for(var i = 0; i < selectedPokemon.types.length; i++){
 
@@ -213,6 +243,14 @@ function PokeSelect(element, i){
 				$el.find(".shadow-section").hide();
 			} else{
 				$el.find(".shadow-section").show();
+			}
+
+			// Show Shadow Identifier
+
+			if(selectedPokemon.shadowType == "shadow"){
+				$el.find(".cp .identifier").show();
+			} else{
+				$el.find(".cp .identifier").hide();
 			}
 
 			// Hide Pokebox after selection
@@ -735,6 +773,16 @@ function PokeSelect(element, i){
 			interface.resetSelectedPokemon();
 		}
     });
+
+	// Turn maximize stats on and off
+
+	$el.find(".level-cap-group .check").on("click", function(e){
+		// This is really dumb, but needs to be set on a delay because this processes before the checks actually change
+		setTimeout(function(){
+			var levelCap = parseInt($el.find(".maximize-section .level-cap-group .check.on").first().attr("value"));
+			selectedPokemon.levelCap = levelCap;
+		}, 25);
+	});
 
 	// Select an option from the maximize section
 

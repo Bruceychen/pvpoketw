@@ -123,7 +123,7 @@ require_once 'header.php';
 
 	<p class="description link hide"><b>主題/賽制資訊：</b> <a href="#" target="_blank"></a></p>
 
-    <p>現在起你可以提供您在天梯遇到的對手資訊，以精進本站(原版網站)對於各寶可夢的使用比例及排名精準度：<a href="https://docs.google.com/forms/d/e/1FAIpQLScc_gCvXLTUs5tHORiPpEmuF6yL6UJ0j0P03oSNDRQvNNHa0w/viewform" target="_blank">英文Google問卷</a>，或是專門網站<a href="https://gobattlelog.com/" target="_blank"> gobattlelog.com</a></p>
+    <p>現在起你可以提供您在天梯遇到的對手資訊，以精進本站(原版網站)對於各寶可夢的使用比例及排名精準度：<a href="https://gobattlelog.com/pvpoke" target="_blank">gobattlelog.com</a>.</p>
     <p>譯者說明請見<a href="https://twitter.com/tw_pvpokeSite">推特</a>或是<a href="https://www.facebook.com/pvpoketw/">臉書粉絲頁</a></p>
 
 	<p>點擊以下各寶可夢可獲得更詳細的資料。</p>

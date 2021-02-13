@@ -124,6 +124,7 @@ require_once 'header.php'; ?>
 			<div class="field-section id">
 				<p>在下方輸入寶可夢的英文id(全小寫)，並且用英文逗點"," (非 "，")區隔。</p>
 				<p>指定的寶可夢將有最高優先順序於排名上 保留/移除 而無視其他篩選器的條件。</P>
+				<p>暗影以及XL寶可夢因id 不同，因此會被排除。</P>
 				<p>寶可夢的id輸入範例如下：</p>
 				<ul>
 					<li><em>pikachu</em></li>

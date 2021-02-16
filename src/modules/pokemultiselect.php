@@ -60,6 +60,7 @@
                 <option value="51">新夥伴等級上限(51)</option>
             </select>
             <div class="check shield-baiting on"><span></span>用低能量需求招式引誘對手使用防禦網</div>
+            <div class="check show-ivs"><span></span>顯示 等級 &amp; IV數值</div>
         </div>
 
 		<a href="#" class="clear-selection">Clear Selections</a>

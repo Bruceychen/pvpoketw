@@ -23,11 +23,16 @@ require_once 'header.php';
 
 <div class="section league-select-container white">
 	<?php require 'modules/leagueselect.php'; ?>
-	<select class="mode-select">
-		<option value="single">單場戰鬥</option>
-		<option value="multi">多重戰鬥</option>
-		<option value="matrix">群組交叉戰鬥</option>
-	</select>
+<!--	<select class="mode-select">-->
+<!--		<option value="single">單場戰鬥</option>-->
+<!--		<option value="multi">多重戰鬥</option>-->
+<!--		<option value="matrix">群組交叉戰鬥</option>-->
+<!--	</select>-->
+    <div class="ranking-categories mode-select">
+        <a class="selected" href="#" data="single">單場戰鬥</a>
+        <a href="#" data="multi">多重戰鬥</a>
+        <a href="#" data="matrix">群組交叉戰鬥</a>
+    </div>
 	<p class="description single">挑選任意兩隻寶可夢，並指定聯盟、招式、等級、IV以及防禦網使用策略，來進行一場模擬戰鬥。</p>
 	<p class="description multi hide">挑選一隻寶可夢來迎戰指定聯盟或主題賽下的所有其他寶可夢，以獲得其戰鬥能力數值和表現。</p>
 	<p class="description matrix hide">挑選任意數量寶可夢組成兩個隊伍，交叉比對逐一進行模擬對戰計算，以比對出各寶可夢的對戰優劣勢、招式選擇以及最佳IV組合！你可以從<a href="<?php echo $WEB_ROOT; ?>settings/">設定頁面</a>調整計算結果的呈現方式。</p>
@@ -80,7 +85,7 @@ require_once 'header.php';
 			<div class="disclaimer">* 此模擬可能會因實際網路連線品質、使用裝置、玩家思考決策時間等諸多因素，而使模擬結果與真實狀況有所出入。</div>
 		</div>
 		<div class="summary section white"></div>
-        <div class="tip automated">點擊或將鼠標移動到時間軸上任意位置以獲得更精確資訊。<a href="<?php echo $WEB_ROOT; ?>articles/guide-to-fast-move-registration/">點此</a> 了解更多關於時間軸的機制(英文)。</div>
+        <div class="tip automated">點擊或將滑鼠游標移動到時間軸上任意位置以獲得更精確資訊。<a href="<?php echo $WEB_ROOT; ?>articles/guide-to-fast-move-registration/">點此</a> 了解更多關於時間軸的機制(英文)。</div>
         <div class="tip sandbox">點選單個圓圈以修改寶可夢行動。</div>
 	</div>
 
@@ -345,10 +350,23 @@ require_once 'header.php';
 	</div>
 
 	<div class="section white battle-results matrix article">
+
 		<a class="toggle active" href="#">Matchups <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 
 		<div class="toggle-content">
-			<div class="table-container">
+            <div class="ranking-categories">
+                <a class="selected" href="#" data="battle">Battle Rating</a>
+                <a href="#" data="breakpoint">Breakpoints</a>
+                <a href="#" data="bulkpoint">Bulkpoints</a>
+                <a href="#" data="attack">Attack</a>
+            </div>
+
+			<p class="battle">Explore battle results against this group of Pokemon.</p>
+			<p class="breakpoint">Explore Fast Move damage dealt to this group of Pokemon.</p>
+			<p class="bulkpoint">Explore Fast Move damage received from this group.</p>
+			<p class="attack">Explore Attack stat differential against this group of Pokemon to analyze Charged Move ties.</p>
+
+            <div class="table-container">
 				<table class="matrix-table rating-table" cellspacing="0">
 				</table>
 			</div>

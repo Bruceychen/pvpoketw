@@ -24,8 +24,8 @@
 				<option value="premierultra" type="ultra" class="hide multi-battle">高級紀念盃 Meta</option>
 				<option value="premier" type="master" class="hide multi-battle">大師紀念盃 Meta</option>
 				<option value="kanto" type="great" class="multi-battle">關都盃 Meta</option>
-                <option value="love" type="great" class="multi-battle">愛情盃 Meta</option>
                 <option value="labyrinth" type="great" class="multi-battle">Silph 迷宮盃 Meta</option>
+                <option value="vortex" type="great" class="multi-battle">Silph Vortex Cup Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

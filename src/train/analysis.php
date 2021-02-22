@@ -70,6 +70,7 @@ require_once '../header.php';
         <option value="10000" cup="all">大師聯盟</option>
         <option value="2500" cup="premier">高級聯盟紀念盃</option>
         <option value="10000" cup="premier">大師聯盟紀念盃</option>
+        <option value="1500" cup="kanto">關都盃</option>
         <option value="1500" cup="labyrinth">Silph 迷宮盃</option>
     </select>
 

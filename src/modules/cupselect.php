@@ -4,6 +4,7 @@
     <option value="official" cup="kanto">關都盃</option>
     <option value="official" cup="love">愛情盃</option>
     <option value="tsa-3" cup="labyrinth">Silph 迷宮盃</option>
+    <option value="tsa-3" cup="vortex">Silph Vortex Cup</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>
@@ -70,5 +71,6 @@
     <option value="marsh" cat="tsa-3">沼澤盃</option>
     <option value="nightfall" cat="tsa-3">夜幕盃</option>
     <option value="labyrinth" cat="tsa-3">迷宮盃</option>
+    <option value="vortex" cat="tsa-3">Vortex Cup</option>
 	<option value="custom" cat="custom">自訂排名</option>
 </select>

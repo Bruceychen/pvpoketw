@@ -26,7 +26,7 @@
 				<option value="kanto" type="great" class="multi-battle">關都盃 Meta</option>
                 <option value="retro" type="great" class="multi-battle">Retro Cup Meta</option>
                 <option value="labyrinth" type="great" class="multi-battle">Silph 迷宮盃 Meta</option>
-                <option value="vortex" type="great" class="multi-battle">Silph Vortex Cup Meta</option>
+                <option value="vortex" type="great" class="multi-battle">Silph 漩渦盃 Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

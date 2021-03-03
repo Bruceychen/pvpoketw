@@ -1,9 +1,7 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
-    <option value="official" cup="kanto">關都盃</option>
-    <option value="official" cup="retro">Retro Cup</option>
-    <option value="tsa-3" cup="labyrinth">Silph 迷宮盃</option>
+    <option value="official" cup="retro">復古盃</option>
     <option value="tsa-3" cup="vortex">Silph 漩渦盃</option>
     <option value="community" cup="ou">PoGoRaids Overused Tournament</option>
 
@@ -25,7 +23,7 @@
 	<option value="halloween" cat="official">萬聖節盃</option>
 	<option value="kanto" cat="official">關都盃</option>
     <option value="love" cat="official">愛情盃</option>
-    <option value="retro" cat="official">Retro Cup</option>
+    <option value="retro" cat="official">復古盃</option>
 	<option value="little" cat="official">小小盃</option>
     <option value="holiday" cat="official">假日盃</option>
     <option value="classic" cat="official">大師經典賽 (XL 禁止)</option>

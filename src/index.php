@@ -34,33 +34,12 @@
     <!--Update section for updates-->
     <h3>What's New</h3>
 
-    <h4>v1.20.11 (February 13, 2020)</h4>
+    <h4>v1.20.12 (March 4, 2021)</h4>
     <ul>
-        <li>Matrix Battle now has additional result tabs:</li>
-        <ul>
-            <li>"Battle" tab displays matchup results as before.</li>
-            <li>"Breakpoint" tab displays Fast Move damage dealt.</li>
-            <li>"Bulkpoint" tab displays Fast Move damage received.</li>
-            <li>"Attack" tab displays Attack stat differential for analyzing Charged Move ties.</li>
-        </ul>
-        <li>Matrix Battle page is now directly linkable</li>
-        <li>Modes on the Battle page are now in tabs instead of a dropdown.</li>
+        <li>Health bars on the Battle page change colors with HP.</li>
+        <li>Fixed issues with Shadow Pokemon not being excluded properly in custom rankings.</li>
+        <li>Mega Evolutions now appear in Team Builder results when they're eligible (OU).</li>
     </ul>
-
-    <h4>v1.20.9 (February 11, 2020)</h4>
-    <ul>
-        <li>Damage multipliers from the Shadow boost or stat changes are no longer displayed as part of a Pokemon's stats. Instead, the multipliers are now shown in the Advanced/IV's section.</li>
-        <ul>
-            <li>Previously, Shadow Pokemon would appear to have higher Attack stats than their regular counterparts, which isn't functionally the case.</li>
-        </ul>
-        <li>Resolved interface issues where IV's and level cap settings weren't displayed correctly when selecting new Pokemon.</li>
-        <li>Custom ranking fixes:</li>
-        <ul>
-            <li>XL Pokemon now appear correctly in the custom rankings (when allowed).</li>
-            <li>Banning a Pokemon with the "Species" filter now also bans Shadow and XL versions of that Pokemon - no need to separately list their ID's.</li>
-        </ul>
-        <li>When adding new Pokemon to Matrix Battle, the new "Add &amp; Compare" button adds other IV spreads of that same Pokemon in a single click.</li>
-	</ul>
 
 	<h3>Latest Article</h3>
 
@@ -106,8 +85,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Thu Mar 4 13:20:22 2021 +0800</li>
-                <li>原版最後版本時間：Wed Mar 3 12:29:20 2021 -0600</li>
+                <li>中文版最後更新時間：Sat Mar 6 02:45:22 2021 +0800</li>
+                <li>原版最後版本時間：Thu Mar 4 14:42:22 2021 -0600</li>
             </ul>
 </div>
 

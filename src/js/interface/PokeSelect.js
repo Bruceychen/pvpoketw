@@ -174,7 +174,7 @@ function PokeSelect(element, i){
 					}
 
 					if(context != "modalcustomrankings"){
-						$(this).append("<option value=\"custom\">自訂招式 ...</option>");
+						$(this).append("<option value=\"custom\">自訂招式 ...</option");
 					}
 
 				});
@@ -292,6 +292,14 @@ function PokeSelect(element, i){
 		$el.find(".hp .stat").html(health+" / "+selectedPokemon.stats.hp);
 		$el.find(".hp .bar.damage").hide();
 
+		if(health / selectedPokemon.stats.hp <= 0.25){
+			$el.find(".hp .bar").attr("color", "red");
+		} else if(health / selectedPokemon.stats.hp <= 0.5){
+			$el.find(".hp .bar").attr("color", "yellow");
+		} else{
+			$el.find(".hp .bar").attr("color", "green");
+		}
+
 		currentHP = health;
 	}
 
@@ -335,6 +343,17 @@ function PokeSelect(element, i){
 
 		var position = Math.max( Math.ceil($el.find(".hp .bar").eq(0).width() - $el.find(".hp .bar.damage").width()), 0);
 		$el.find(".hp .bar.damage").css("left", position+"px");
+
+		var remainingHealth = ($el.find(".hp .bar").eq(0).width() - $el.find(".hp .bar").eq(1).width()) / 180;
+
+		if(remainingHealth <= 0.25){
+			$el.find(".hp .bar").attr("color", "red");
+		} else if(remainingHealth <= 0.5){
+			$el.find(".hp .bar").attr("color", "yellow");
+		} else{
+			$el.find(".hp .bar").attr("color", "green");
+		}
+
 	}
 
 	// Reset IV and Level input fields, and other options when switching Pokemon
@@ -776,13 +795,13 @@ function PokeSelect(element, i){
 
 	// Turn maximize stats on and off
 
-	$el.find(".level-cap-group .check").on("click", function(e){
+    $el.find(".level-cap-group .check").on("click", function(e){
 		// This is really dumb, but needs to be set on a delay because this processes before the checks actually change
 		setTimeout(function(){
 			var levelCap = parseInt($el.find(".maximize-section .level-cap-group .check.on").first().attr("value"));
 			selectedPokemon.levelCap = levelCap;
 		}, 25);
-	});
+    });
 
 	// Select an option from the maximize section
 

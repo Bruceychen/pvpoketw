@@ -9,7 +9,7 @@
 	<?php include 'pokebox.php'; ?>
 
 	<div class="poke-stats">
-		<h3 class="cp">cp <span class="stat"></span></h3>
+        <h3 class="cp"><span class="identifier" title="Shadow"></span> cp <span class="stat"></span></h3>
 		<div class="types"></div>
 		<div class="stat-container attack clear">
 			<div class="stat-label">
@@ -87,6 +87,17 @@
 					<input class="stat-mod" iv="atk" type="number" placeholder="Atk" min="-4" max="4" step="1" />
 					<input class="stat-mod" iv="def" type="number" placeholder="Def" min="-4" max="4" step="1" />
 				</div>
+
+                <div class="damage-adjustments">
+                    <div class="adjustment attack">
+                        <div class="value">x1</div>
+                        <div class="label">造成傷害值</div>
+                    </div>
+                    <div class="adjustment defense">
+                        <div class="value">x1</div>
+                        <div class="label">承受傷害值</div>
+                    </div>
+                </div>
 			</div>
 		</div>
 

@@ -353,7 +353,6 @@ function PokeSelect(element, i){
 		} else{
 			$el.find(".hp .bar").attr("color", "green");
 		}
-
 	}
 
 	// Reset IV and Level input fields, and other options when switching Pokemon
@@ -948,7 +947,7 @@ function PokeSelect(element, i){
 		if(battle.getOpponent(selectedPokemon.index)){
 			var opponent = battle.getOpponent(selectedPokemon.index);
 			var effectiveness = opponent.typeEffectiveness[move.type];
-			displayDamage = battle.calculateDamageByStats(selectedPokemon, opponent, selectedPokemon.stats.atk * opponent.shadowAtkMult, opponent.stats.def * selectedPokemon.shadowDefMult, effectiveness, move);
+			displayDamage = battle.calculateDamageByStats(selectedPokemon, opponent, selectedPokemon.getEffectiveStat(0, true), opponent.getEffectiveStat(1, true), effectiveness, move);
 		}
 
 		var dpe = Math.floor( (displayDamage / move.energy) * 100) / 100;
@@ -956,7 +955,8 @@ function PokeSelect(element, i){
 
 		$tooltip.find(".name").html(move.name);
 		$tooltip.addClass(move.type);
-		$tooltip.find(".details").html(displayDamage + ' (' + percent + '%) <span class="label">dmg</span><br>' + move.energy + ' <span class="label">energy</span><br>' + dpe + ' <span class="label">dpe</span>');
+		//以下這行UI翻譯
+		$tooltip.find(".details").html(displayDamage + ' (' + percent + '%) <span class="label">傷害</span><br>' + move.energy + ' <span class="label">能量</span><br>' + dpe + ' <span class="label">dpe</span>');
 
 		var width = $tooltip.width();
 		var left = (e.pageX - $(".section").first().offset().left) + 10;

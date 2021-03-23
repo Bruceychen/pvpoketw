@@ -162,15 +162,14 @@ require_once 'header.php';
 
 	<div class="continentals hide">
 		<div class="flex">
-			<div class="check" value="0"><span></span>Cliff</div>
-			<div class="check" value="1"><span></span>Sierra</div>
-			<div class="check" value="2"><span></span>Arlo</div>
-			<div class="check" value="3"><span></span>Giovanni</div>
-			<div class="check" value="4"><span></span>James</div>
-			<div class="check" value="5"><span></span>Jessie</div>
+			<div class="check" value="0"><span></span>藍</div>
+			<div class="check" value="1"><span></span>紅</div>
+			<div class="check" value="2"><span></span>黃+白</div>
+			<div class="check" value="3"><span></span>綠+黑</div>
+			<div class="check" value="4"><span></span>棕+粉紅</div>
+			<div class="check" value="5"><span></span>紫+灰</div>
 		</div>
 	</div>
-
 	<div class="poke-search-container">
 		<input class="poke-search" context="ranking-search" type="text" placeholder="寶可夢中文名或英文屬性搜尋" />
 		<a href="#" class="search-info">i</a>

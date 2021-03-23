@@ -24,6 +24,7 @@
 				<option value="premierultra" type="ultra" class="hide multi-battle">高級紀念盃 Meta</option>
 				<option value="premier" type="master" class="hide multi-battle">大師紀念盃 Meta</option>
                 <option value="retro" type="great" class="multi-battle">復古盃 Meta</option>
+                <option value="prismatic" type="great" class="multi-battle">Silph Prismatic Cup Meta</option>
                 <option value="vortex" type="great" class="multi-battle">Silph 漩渦盃 Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">

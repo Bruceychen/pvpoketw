@@ -3,7 +3,9 @@
 	<option value="official" cup="premier">紀念盃</option>
     <option value="official" cup="retro">復古盃</option>
     <option value="tsa-3" cup="vortex">Silph 漩渦盃</option>
+    <option value="tsa-3" cup="prismatic">Silph Prismatic Cup</option>
     <option value="community" cup="ou">PoGoRaids Overused Tournament</option>
+    <option value="community" cup="slitzko">Slitzko Memorial Cup</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>
@@ -40,6 +42,7 @@
 	<option value="kaiser" cat="community">Kaiser Invitational</option>
     <option value="cerberus" cat="community">VR Cerberus Cup</option>
     <option value="ou" cat="community">PoGoRaids Overused Tournament</option>
+    <option value="slitzko" cat="community">Slitzko Cup</option>
 	<option value="jungle"  cat="tsa-1">叢林盃</option>
 	<option value="rainbow" cat="tsa-1">彩虹盃</option>
 	<option value="championships-1" cat="tsa-1">第一季冠軍賽</option>
@@ -73,5 +76,6 @@
     <option value="nightfall" cat="tsa-3">夜幕盃</option>
     <option value="labyrinth" cat="tsa-3">迷宮盃</option>
     <option value="vortex" cat="tsa-3">漩渦盃</option>
+    <option value="prismatic" cat="tsa-3">Prismatic Cup</option>
 	<option value="custom" cat="custom">自訂排名</option>
 </select>

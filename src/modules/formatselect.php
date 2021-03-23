@@ -6,6 +6,8 @@
 	<option value="2500" cup="premier">紀念盃 (高級)</option>
     <option value="1500" cup="retro">復古盃</option>
     <option value="1500" cup="vortex">Silph 漩渦盃</option>
+    <option value="1500" cup="prismatic">Silph Prismatic Cup</option>
     <option value="10000" cup="ou">PoGoRaids Overused Tournament</option>
+    <option value="1500" cup="slitzko">Slitzko Memorial Cup</option>
 	<option value="1500" cup="custom">自訂排名</option>
 </select>

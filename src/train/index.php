@@ -41,6 +41,7 @@ require_once '../header.php';
 				<option value="2500 premier">紀念盃 (2500)</option>
                 <option value="1500 retro">復古盃</option>
                 <option value="1500 vortex">Silph 漩渦盃</option>
+                <option value="1500 prismatic">Silph Prismatic Cup</option>
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>

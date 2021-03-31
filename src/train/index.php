@@ -53,6 +53,11 @@ require_once '../header.php';
 				<option value="2">菁英訓練家(Elite)</option>
 				<option value="3" selected>冠軍訓練家(Champion)</option>
 			</select>
+            <h3 class="section-title">交換冷卻時間</h3>
+            <select class="switch-time-select">
+                <option value="30000">30秒</option>
+                <option value="60000" selected>60秒</option>
+            </select>
             <div class="check autotap-toggle"><span></span>自動點擊</div>
 			<h3 class="section-title">隊伍選擇</h3>
 			<select class="team-method-select">
@@ -132,10 +137,10 @@ require_once '../header.php';
 <div class="section white updates">
 	<h3>What's New</h3>
 
-	<h4>v1.20.4 (December 24, 2020)</h4>
-	<ul>
-		<li>Updated the Training Battle interface to use the same switch sidebar as the game.</li>
-	</ul>
+    <h4>v1.20.15 (April 30, 2021)</h4>
+    <ul>
+        <li>A switch timer setting is now available to test your teams in battles with a 30 second switch timer.</li>
+    </ul>
 </div>
 
 <script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>

@@ -76,6 +76,7 @@ function PokeMultiSelect(element){
 			//以下這行介面翻譯
 			$(".modal-content").append("<div class=\"center\"><div class=\"save-poke button\">加入寶可夢</div></div>");
 
+
 			if(interface.battleMode && interface.battleMode == "matrix"){
 				//以下這行介面翻譯
 				$(".modal-content").append("<div class=\"center\"><div class=\"compare-poke button\">加入並比較</div></div>");
@@ -197,6 +198,8 @@ function PokeMultiSelect(element){
 
 	this.updateListDisplay = function(){
 
+		var context = interface.context;
+
 		$el.find(".rankings-container").html('');
 
 		// For Cliffhanger, calculate points
@@ -235,6 +238,19 @@ function PokeMultiSelect(element){
 				$item.find(".name").prepend("<span class=\"cliffhanger-points\">"+pokemonList[i].cliffhangerPoints+"</span>");
 			}
 
+			// For Prismatic Cup, show color category
+
+			if(battle.getCup().name == "prismatic" && context == "team"){
+				var slots = battle.getCup().slots;
+
+				for(var n = 0; n < slots.length; n++){
+					if(slots[n].pokemon.indexOf(pokemon.speciesId) > -1){
+						$item.find(".name").prepend("<span class=\"cliffhanger-points\">"+(n+1)+"</span>");
+						break;
+					}
+				}
+			}
+
 			$el.find(".rankings-container").append($item);
 		}
 
@@ -254,8 +270,6 @@ function PokeMultiSelect(element){
 		}
 
 		// Check team eligiblity
-
-		var context = interface.context;
 
 		$el.find(".team-warning").hide();
 

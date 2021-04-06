@@ -1,11 +1,10 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
+    <option value="official" cup="remix">Remix</option>
     <option value="official" cup="retro">復古盃</option>
-    <option value="tsa-3" cup="vortex">Silph 漩渦盃</option>
-    <option value="tsa-3" cup="prismatic">Silph Prismatic Cup</option>
+    <option value="tsa-3" cup="prismatic">Silph 稜鏡盃</option>
     <option value="community" cup="ou">PoGoRaids Overused Tournament</option>
-    <option value="community" cup="slitzko">Slitzko Memorial Cup</option>
     <option value="official" cup="kanto">Nexus League Kanto Cup</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
@@ -27,6 +26,7 @@
 	<option value="kanto" cat="official">關都盃</option>
     <option value="love" cat="official">愛情盃</option>
     <option value="retro" cat="official">復古盃</option>
+    <option value="remix" cat="official">Great League Remix</option>
 	<option value="little" cat="official">小小盃</option>
     <option value="holiday" cat="official">假日盃</option>
     <option value="classic" cat="official">大師經典賽 (XL 禁止)</option>
@@ -77,6 +77,6 @@
     <option value="nightfall" cat="tsa-3">夜幕盃</option>
     <option value="labyrinth" cat="tsa-3">迷宮盃</option>
     <option value="vortex" cat="tsa-3">漩渦盃</option>
-    <option value="prismatic" cat="tsa-3">Prismatic Cup</option>
+    <option value="prismatic" cat="tsa-3">稜鏡盃</option>
 	<option value="custom" cat="custom">自訂排名</option>
 </select>

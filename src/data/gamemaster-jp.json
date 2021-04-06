@@ -653,6 +653,18 @@
         }],
         "partySize": 3
     }, {
+        "name": "remix",
+        "title": "Great League Remix",
+        "include": [],
+		"exclude": [{
+            "filterType": "id",
+            "values": ["venusaur","raichu","raichu_alolan","marowak_alolan","marowak","azumarill","umbreon","skarmory","swampert","galvantula","stunfisk","stunfisk_galarian","talonflame"]
+        }, {
+            "filterType": "tag",
+            "values": ["mega"]
+        }],
+        "partySize": 3
+    }, {
         "name": "nightfall",
         "title": "Silph Nightfall Cup",
         "include": [{
@@ -16144,7 +16156,8 @@
         },
         "types": ["grass", "none"],
         "fastMoves": ["IRON_TAIL", "VINE_WHIP"],
-        "chargedMoves": ["GRASS_KNOT", "LEAF_TORNADO", "AERIAL_ACE"],
+        "chargedMoves": ["GRASS_KNOT", "LEAF_TORNADO", "AERIAL_ACE", "FRENZY_PLANT"],
+		"eliteMoves": ["FRENZY_PLANT"],
         "tags": ["starter"],
         "defaultIVs": {
             "cp500": [8, 10, 13, 14],
@@ -16162,7 +16175,8 @@
         },
         "types": ["grass", "none"],
         "fastMoves": ["IRON_TAIL", "VINE_WHIP"],
-        "chargedMoves": ["GRASS_KNOT", "LEAF_TORNADO", "AERIAL_ACE"],
+		"chargedMoves": ["GRASS_KNOT", "LEAF_TORNADO", "AERIAL_ACE", "FRENZY_PLANT"],
+		"eliteMoves": ["FRENZY_PLANT"],
         "tags": ["starter", "xl"],
         "defaultIVs": {
             "cp500": [8, 10, 13, 14],
@@ -20131,6 +20145,24 @@
             "cp2500": [40, 15, 15, 15]
         }
     }, {
+        "dex": 691,
+        "speciesName": "ドラミドロ (XL)",
+        "speciesId": "dragalge_xl",
+        "baseStats": {
+            "atk": 177,
+            "def": 207,
+            "hp": 163
+        },
+        "types": ["poison", "dragon"],
+        "fastMoves": ["WATER_GUN", "ACID", "DRAGON_TAIL"],
+        "chargedMoves": ["HYDRO_PUMP", "AQUA_TAIL", "OUTRAGE", "GUNK_SHOT"],
+        "defaultIVs": {
+            "cp500": [8, 6, 14, 6],
+            "cp1500": [23.5, 5, 7, 15],
+            "cp2500": [49.5, 2, 15, 15]
+        },
+		"tags": ["xl"]
+    }, {
         "dex": 692,
         "speciesName": "ウデッポウ",
         "speciesId": "clauncher",
@@ -20552,17 +20584,17 @@
         "speciesName": "イベルタル",
         "speciesId": "yveltal",
         "baseStats": {
-            "atk": 250,
-            "def": 185,
-            "hp": 246
+			"atk": 275,
+            "def": 203,
+            "hp": 270
         },
         "types": ["dark", "flying"],
         "fastMoves": ["SUCKER_PUNCH", "SNARL", "GUST"],
         "chargedMoves": ["DARK_PULSE", "HURRICANE", "FOCUS_BLAST", "HYPER_BEAM", "PSYCHIC"],
         "defaultIVs": {
-            "cp500": [5, 13, 13, 9],
-            "cp1500": [14.5, 8, 11, 11],
-            "cp2500": [24, 5, 14, 13]
+			"cp500": [4, 10, 15, 12],
+            "cp1500": [12, 5, 13, 15],
+            "cp2500": [20, 10, 10, 13]
         }
     }, {
         "dex": 718,

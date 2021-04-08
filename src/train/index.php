@@ -40,7 +40,7 @@ require_once '../header.php';
 				<option value="10000 gobattleleague">GO 大師對戰聯盟(無上限)</option>
 				<option value="2500 premier">紀念盃 (2500)</option>
                 <option value="1500 retro">復古盃</option>
-                <option value="1500 vortex">Silph 漩渦盃</option>
+                <option value="1500 remix">Remix盃</option>
                 <option value="1500 prismatic">Silph Prismatic Cup</option>
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
@@ -54,7 +54,7 @@ require_once '../header.php';
 				<option value="3" selected>冠軍訓練家(Champion)</option>
 			</select>
             <h3 class="section-title">交換冷卻時間</h3>
-            <select class="switch-time-select">
+            <select class="switch-time-select" style="display:none;">
                 <option value="30000">30秒</option>
                 <option value="60000" selected>60秒</option>
             </select>
@@ -137,9 +137,9 @@ require_once '../header.php';
 <div class="section white updates">
 	<h3>What's New</h3>
 
-    <h4>v1.20.15 (April 30, 2021)</h4>
+    <h4>v1.20.15 (April 7, 2021)</h4>
     <ul>
-        <li>A switch timer setting is now available to test your teams in battles with a 30 second switch timer.</li>
+        <li>Training for Great League Remix is now available.</li>
     </ul>
 </div>
 

@@ -65,6 +65,7 @@ function fastmoveAbbreviationArrTranslate(fastmove){
         'DT':'龍尾',
         'WG':'水槍',
         'MSl':'擲泥',
+        'FF':'火焰牙',
         'default':''
     };
     // return (allFastmoves[fastmove] || allFastmoves['default']);
@@ -162,7 +163,7 @@ function chargemoveAbbreviationArrTranslate(chargemove){
         'DrlP' :'啄鑽',
         'IH' :'鐵頭',
         'A' :'氣旋攻擊',
-        'O' :'氣旋攻擊',
+        'O' :'逆鱗',
         'Pst' :'精神擊破',
         'DM' :'流星群',
         'Av' :'雪崩',
@@ -178,6 +179,7 @@ function chargemoveAbbreviationArrTranslate(chargemove){
         'Psh' :'精神衝擊',
         'RB' :'岩石爆擊',
         'HB' :'破壞光線',
+        'FeS' :'致命針刺',
         'default':''
     };
     // return (allSpecialmoves[chargemove] || allSpecialmoves['default']);

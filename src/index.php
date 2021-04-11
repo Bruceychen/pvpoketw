@@ -34,10 +34,11 @@
     <!--Update section for updates-->
     <h3>What's New</h3>
 
-    <h4>v1.20.15 (March 30, 2021)</h4>
+    <h4>v1.20.16 (April 10, 2021)</h4>
     <ul>
-        <li>A switch timer setting is now available in Training Battles to test your teams in battles with a 30 second switch timer.</li>
-        <li>An additional icon now shows when the 30 second switch timer expires in simulations.</li>
+        <li>Fixed an issue where the Team Builder would link to level 40 Pokemon when baiting was turned off.</li>
+        <li>Team Builder now allows up to 80 results on the meta scorecard, threats, and alternatives section.</li>
+        <li>The optimize move timing checkbox now properly updates when setting a new Pokemon or swapping Pokemon.</li>
     </ul>
 
 	<h3>Latest Article</h3>
@@ -84,8 +85,8 @@
     <p>Brucey</p>
     <h3>最後更新時間<h3>
             <ul>
-                <li>中文版最後更新時間：Sat Apr 10 20:45:22 2021 +0800</li>
-                <li>原版最後版本時間：Fri Apr 9 14:07:23 2021 -0500</li>
+                <li>中文版最後更新時間：Sun Apr 11 15:45:22 2021 +0800</li>
+                <li>原版最後版本時間：Sat Apr 10 08:36:03 2021 -0500</li>
             </ul>
 </div>
 

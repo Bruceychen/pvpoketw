@@ -20598,8 +20598,8 @@
         }
     }, {
         "dex": 718,
-        "speciesName": "ジガルデ",
-        "speciesId": "Zygarde",
+        "speciesName": "ジガルデ パーフェクト",
+        "speciesId": "zygarde",
         "baseStats": {
             "atk": 203,
             "def": 232,

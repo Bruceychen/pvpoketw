@@ -20599,7 +20599,7 @@
     }, {
         "dex": 718,
         "speciesName": "基格爾德",
-        "speciesId": "Zygarde",
+        "speciesId": "zygarde",
         "baseStats": {
             "atk": 203,
             "def": 232,

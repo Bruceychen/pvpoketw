@@ -7,6 +7,5 @@
     <option value="1500" cup="remix">Remix</option>
     <option value="1500" cup="retro">復古盃</option>
     <option value="1500" cup="prismatic">Silph 稜鏡盃</option>
-    <option value="1500" cup="kanto">Nexus League Kanto Cup</option>
 	<option value="1500" cup="custom">自訂排名</option>
 </select>

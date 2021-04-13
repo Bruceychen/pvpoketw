@@ -41,6 +41,10 @@
 		"chargedMoves": ["CRUNCH", "OVERHEAT"]
 	},
 	{
+		"speciesId": "landorus_therian_xl",
+		"chargedMoves": ["SUPER_POWER", "STONE_EDGE"]
+	},
+	{
 		"speciesId": "hariyama",
 		"chargedMoves": ["CLOSE_COMBAT", "HEAVY_SLAM"]
 	},
@@ -97,6 +101,14 @@
 	{
 		"speciesId": "lucario",
 		"chargedMoves": ["POWER_UP_PUNCH", "SHADOW_BALL"]
+	},
+	{
+		"speciesId": "roserade",
+		"chargedMoves": ["WEATHER_BALL_FIRE", "LEAF_STORM"]
+	},
+	{
+		"speciesId": "roserade_xl",
+		"chargedMoves": ["WEATHER_BALL_FIRE", "LEAF_STORM"]
 	},
 	{
 		"speciesId": "thundurus_incarnate",

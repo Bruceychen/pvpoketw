@@ -180,6 +180,7 @@ function chargemoveAbbreviationArrTranslate(chargemove){
         'RB' :'岩石爆擊',
         'HB' :'破壞光線',
         'FeS' :'致命針刺',
+        'Sy' :'同步干擾',
         'default':''
     };
     // return (allSpecialmoves[chargemove] || allSpecialmoves['default']);

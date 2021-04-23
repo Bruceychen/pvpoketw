@@ -4,6 +4,7 @@
     <option value="official" cup="remix">Remix</option>
     <option value="official" cup="retro">復古盃</option>
     <option value="tsa-3" cup="prismatic">Silph 稜鏡盃</option>
+    <option value="tsa-3" cup="commander">Silph Commander Cup</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>
@@ -76,5 +77,6 @@
     <option value="labyrinth" cat="tsa-3">迷宮盃</option>
     <option value="vortex" cat="tsa-3">漩渦盃</option>
     <option value="prismatic" cat="tsa-3">稜鏡盃</option>
+    <option value="commander" cat="tsa-3">Commander Cup</option>
 	<option value="custom" cat="custom">自訂排名</option>
 </select>

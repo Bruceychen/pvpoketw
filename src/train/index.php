@@ -41,8 +41,8 @@ require_once '../header.php';
 				<option value="2500 premier">紀念盃 (2500)</option>
                 <option value="1500 retro">復古盃</option>
                 <option value="1500 remix">Remix盃</option>
-                <option value="1500 prismatic">Silph Prismatic Cup</option>
-                <option value="1500 commander">Silph Commander Cup</option>
+                <option value="1500 prismatic">Silph 稜鏡盃</option>
+                <option value="1500 commander">Silph 上將盃</option>
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>
@@ -54,8 +54,8 @@ require_once '../header.php';
 				<option value="2">菁英訓練家(Elite)</option>
 				<option value="3" selected>冠軍訓練家(Champion)</option>
 			</select>
-            <h3 class="section-title">交換冷卻時間</h3>
-            <select class="switch-time-select" style="display:none;">
+            <h3 class="section-title" style="display:none;">交換冷卻時間</h3>
+            <select class="switch-time-select"  style="display:none;">
                 <option value="30000">30秒</option>
                 <option value="60000" selected>60秒</option>
             </select>
@@ -64,8 +64,19 @@ require_once '../header.php';
 			<select class="team-method-select">
 				<option value="random">隨機產生</option>
 				<option value="manual">手動指定</option>
+				<option value="custom">匯入數據</option>
 			</select>
 			<?php require '../modules/pokemultiselect.php'; ?>
+			<div class="custom-team-section">
+				<h3 class="section-title">匯入隊伍</h3>
+				<p>Select a custom team pool built in the <a href="<?php echo $WEB_ROOT; ?>train/editor/" class="inline-link" target="_blank">Training Team Editor</a>, or paste a code from the editor or <a href="https://gobattlelog.com" class="inline-link" target="_blank">GoBattleLog.com</a>.</p>
+				<select class="team-fill-select">
+					<option disabled selected value="">Select a team pool</option>
+				</select>
+				<textarea class="team-import" placeholder="Paste team pool code"></textarea>
+				<div class="custom-team-validation true">Looks good! Teams successfully imported.</div>
+				<div class="custom-team-validation false">The code you entered may not be correct. Double check the source.</div>
+			</div>
 			<div class="featured-team-section">
 				<h3 class="section-title">精選隊伍</h3>
 				<p>與世界頂級選手或知名實況主、部落客的隊伍戰鬥！</p>
@@ -83,6 +94,7 @@ require_once '../header.php';
 					</div>
 				</div>
 			</div>
+			<a href="<?php echo $WEB_ROOT; ?>train/editor/" class="inline-link train-editor-link" target="_blank">訓練隊伍編輯器</a>
 		</div>
 	</div>
 	<div class="clear"></div>
@@ -138,10 +150,12 @@ require_once '../header.php';
 <div class="section white updates">
 	<h3>What's New</h3>
 
-    <h4>v1.20.15 (April 7, 2021)</h4>
-    <ul>
-        <li>Training for Great League Remix is now available.</li>
-    </ul>
+	<h4>v1.21.0 (April 25, 2021)</h4>
+	<ul>
+	    <li>追加 <a href="<?php echo $WEB_ROOT; ?>train/editor/">訓練隊伍編輯器</a> 可讓你指定AI對戰訓練中對手所使用的隊伍組合。</li>
+	    <li>在<a href="<?php echo $WEB_ROOT; ?>train/">AI對戰訓練</a> 中你可以匯入透過上述編輯器所預先設計的隊伍，或是從<li><a href="https://gobattlelog.com">GoBattleLog.com</a> 選擇較常見的組合進行對戰訓練。</li>.</li>
+	</ul>
+
 </div>
 
 <script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>

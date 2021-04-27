@@ -513,6 +513,11 @@ function PokeMultiSelect(element){
 				obj.shadowType = pokemonList[i].shadowType;
 			}
 
+			if(pokemon.isCustom){
+				obj.level = pokemon.level;
+				obj.ivs = [pokemon.ivs.atk, pokemon.ivs.def, pokemon.ivs.hp];
+			}
+
 			arr.push(obj);
 		}
 

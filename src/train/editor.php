@@ -7,7 +7,7 @@ $META_DESCRIPTION = 'Edit the teams you battle in training.';
 
 require_once '../header.php';
 ?>
-<h1>Training Team Editor</h1>
+<h1>自訂訓練隊伍</h1>
 <div class="section home white train editor">
 	<p>Create your own team pool below to customize the teams you face in <a href="<?php echo $WEB_ROOT; ?>train/" target="_blank">Training Battles</a>. Note that CP and IV values are determined when the team is selected during play.</p>
 
@@ -96,12 +96,12 @@ require_once '../header.php';
 </div>
 
 <div class="section white training-editor-import">
-	<h3>Import/Export Teams</h3>
+	<h3>匯入/匯出 隊伍資料</h3>
 
 	<p>Copy the text below to export your custom team pool or paste to import teams. Sign up with <a href="https://gobattlelog.com" target="_blank">GoBattleLog.com</a> to export your most frequently encountered teams!</p>
 
 	<textarea class="import"></textarea>
-	<div class="copy">Copy</div>
+	<div class="copy">複製</div>
 </div>
 
 
@@ -110,17 +110,17 @@ require_once '../header.php';
 </div>
 
 <div class="team-delete-confirm hide">
-	<p>Delete this team?</p>
+	<p>刪除此隊伍？</p>
 	<p></p>
 
 	<div class="center flex">
-		<div class="button yes">Yes</div>
-		<div class="button no">No</div>
+		<div class="button yes">是</div>
+		<div class="button no">否</div>
 	</div>
 </div>
 
 <div class="enter-full-team hide">
-	<p>Please enter a full team.</p>
+	<p>請補足隊伍成員數</p>
 </div>
 
 <div class="save-pool hide">
@@ -132,11 +132,11 @@ require_once '../header.php';
 </div>
 
 <div class="delete-list-confirm hide">
-	<p>Delete <b><span class="name"></span></b>? This team pool will be permanently removed from your device.</p>
+	<p>確定刪除 <b><span class="name"></span></b>? 此隊伍資料將會完全自裝置移除。</p>
 
 	<div class="center flex">
-		<div class="button yes">Yes</div>
-		<div class="button no">No</div>
+		<div class="button yes">是</div>
+		<div class="button no">否</div>
 	</div>
 </div>
 

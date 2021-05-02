@@ -9,14 +9,14 @@ require_once '../header.php';
 ?>
 <h1>自訂訓練隊伍</h1>
 <div class="section home white train editor">
-	<p>Create your own team pool below to customize the teams you face in <a href="<?php echo $WEB_ROOT; ?>train/" target="_blank">Training Battles</a>. Note that CP and IV values are determined when the team is selected during play.</p>
+	<p>使用以下工具，建立個人專屬的 <a href="<?php echo $WEB_ROOT; ?>train/" target="_blank">AI對戰訓練</a> 隊伍！請注意，AI隊伍寶可夢的CP及IV，是在模擬對戰開始前才會產生。</p>
 
 	<div class="team-selector">
 		<div class="table-container">
 			<table class="train-table teams" cellspacing="0">
 				<thead>
 					<tr>
-						<td class="poke-name">Team (Lead First)</td>
+						<td class="poke-name">隊伍成員 (第一隻為先發)</td>
 						<td class="poke-name"></td>
 						<td class="poke-name"></td>
 						<td></td>
@@ -60,8 +60,8 @@ require_once '../header.php';
 								</div>
 							</div>
 						</td>
-						<td><a href="#" class="edit">Edit</a></td>
-						<td><a href="#" class="delete">Delete</a></td>
+						<td><a href="#" class="edit">編輯</a></td>
+						<td><a href="#" class="delete">刪除</a></td>
 					</tr>
 				</thead>
 				<tbody>
@@ -69,36 +69,36 @@ require_once '../header.php';
 			</table>
 		</div>
 
-		<button class="button new-team">+ New Team</button>
+		<button class="button new-team">+ 新隊伍</button>
 
 		<div class="multi-selector" mode="new">
 			<?php require '../modules/pokemultiselect.php'; ?>
-			<button class="button add-team">Add Team</button>
-			<button class="button save-changes">Save Changes</button>
+			<button class="button add-team">新增隊伍</button>
+			<button class="button save-changes">儲存變更</button>
 		</div>
 
 	</div>
 </div>
 
 <div class="section white training-editor-import">
-	<h3>Save/Load Teams</h3>
+	<h3>儲存/讀取 隊伍</h3>
 
-	<p>Save this team pool locally or load an existing team pool.</p>
+	<p>在當前使用裝置上儲存隊伍 或 讀取當前使用裝置上既有的隊伍資料。</p>
 
 	<select class="team-fill-select">
 		<option value="new">New Team Pool</option>
 	</select>
 	<div class="flex team-fill-buttons">
-		<button class="save-btn save-custom">Save</button>
-		<button class="save-btn save-as hide">Save As</button>
-		<button class="delete-btn hide">Delete</button>
+		<button class="save-btn save-custom">儲存</button>
+		<button class="save-btn save-as hide">另存為</button>
+		<button class="delete-btn hide">刪除</button>
 	</div>
 </div>
 
 <div class="section white training-editor-import">
 	<h3>匯入/匯出 隊伍資料</h3>
 
-	<p>Copy the text below to export your custom team pool or paste to import teams. Sign up with <a href="https://gobattlelog.com" target="_blank">GoBattleLog.com</a> to export your most frequently encountered teams!</p>
+	<p>複製以下文字以匯出您客製化的隊伍，或在下方貼上隊伍資料以匯入。或是登入<a href="https://gobattlelog.com" target="_blank">GoBattleLog.com</a>網站以匯出你經常遇到的隊伍組合資訊。</p>
 
 	<textarea class="import"></textarea>
 	<div class="copy">複製</div>

@@ -27,6 +27,10 @@ switch($cp){
 	case "10000":
 		$league = 'Master League';
 		break;
+
+    case "10000-40":
+        $league = 'Master League Classic';
+        break;
 }
 
 switch($cup){
@@ -160,7 +164,7 @@ require_once 'header.php';
 
 	<p>點擊以下各寶可夢可獲得更詳細的資料。</p>
 
-	<div class="check on xl" style="margin-bottom:15px;"><span></span>顯示 XL 寶可夢</div>
+	<div class="check <?php if($_SETTINGS->xls): echo "on"; endif; ?> xl" style="margin-bottom:15px;"><span></span>顯示 XL 寶可夢</div>
 
 	<div class="check on limited hide"><span></span>顯示 <div class="limited-title">數量限制寶可夢</div>*</div>
 	<div class="asterisk limited hide">*本賽制規定，這些受標示寶可夢在每位參賽者六隻寶可夢隊伍中，有數量上之限制。詳情請見此賽制規則。</div>
@@ -178,9 +182,11 @@ require_once 'header.php';
 			<div class="check" value="5"><span></span>紫+灰</div>
 		</div>
 	</div>
+
 	<div class="poke-search-container">
 		<input class="poke-search" context="ranking-search" type="text" placeholder="寶可夢中文名或英文屬性搜尋" />
-		<a href="#" class="search-info">i</a>
+		<a href="#" class="search-info" title="Search Help">?</a>
+		<a href="#" class="search-traits" title="Search Traits">+</a>
 	</div>
 
 
@@ -249,77 +255,18 @@ require_once 'header.php';
 
 <?php require_once 'modules/search-string-help.php'; ?>
 
-<div class="details-template hide">
-	<div class="detail-section float margin">
-	    <div class="ranking-header">最佳剋制對象</div>
-	    <div class="ranking-header right">Battle Rating</div>
-	    <div class="matchups clear"></div>
-	</div>
-	<div class="detail-section float">
-	    <div class="ranking-header">首要威脅來源</div>
-	    <div class="ranking-header right">Battle Rating</div>
-	    <div class="counters clear"></div>
-	</div>
-	<div class="detail-section float margin">
-	    <div class="ranking-header">一般招式</div>
-	    <div class="ranking-header right">實用度</div>
-	    <div class="moveset fast clear"></div>
-	    <div class="footnote">
-	        *：活動、社群日或絕版招式<br>
-	        <sup>†</sup>：無法透過任何招式學習器習得
-	    </div>
-	</div>
-	<div class="detail-section float">
-	    <div class="ranking-header">特殊招式</div>
-	    <div class="ranking-header right">實用度</div>
-	    <div class="moveset charged clear"></div>
-	</div>
-	<div class="clear"></div>
-	<div class="detail-section moveset-override">此寶可夢最終的建議招式組將與計算出的實用度數據不同。主要目的在於避免不可能出現的招式匹配(比如不同時期絕版技)或是為了在特定對戰條件下更有優勢。</div>
-	<div class="detail-section typing">
-	    <div class="rating-container">
-	        <div class="ranking-header">第一屬性</div>
-	        <div class="type"></div>
-	    </div>
-	    <div class="rating-container">
-	        <div class="ranking-header">第二屬性</div>
-	        <div class="type"></div>
-	    </div>
-	</div>
-	<div class="detail-section float margin">
-	    <div class="ranking-header">弱點屬性</div>
-	    <div class="weaknesses clear"></div>
-	</div>
-	<div class="detail-section float">
-	    <div class="ranking-header">抵抗屬性</div>
-	    <div class="resistances clear"></div>
-	</div>
-	<div class="clear"></div>
-	<div class="detail-section stats">
-	    <div class="rating-container">
-	        <div class="ranking-header">攻擊力範圍</div>
-	        <div class="rating"></div>&nbsp;-
-	        <div class="rating"></div>
-	    </div>
-	    <div class="rating-container">
-	        <div class="ranking-header">防禦力範圍</div>
-	        <div class="rating"></div>&nbsp;-
-	        <div class="rating"></div>
-	    </div>
-	    <div class="rating-container">
-	        <div class="ranking-header">體力(HP)範圍</div>
-	        <div class="rating"></div>&nbsp;-
-	        <div class="rating"></div>
-	    </div>
-	    <div class="rating-container">
-	        <div class="ranking-header">最佳IV組合 &amp; 等級</div>
-	        <div class="rating"></div>
-	    </div>
-	</div>
-	<div class="share-link detail-section"><input type="text" readonly="">
-	    <div class="copy">複製</div>
-	</div>
+<div class="search-traits-selector hide">
+    <p>Select the options below to search for Pokemon traits and playstyles.</p>
+
+    <div class="traits"></div>
+
+    <div class="center flex">
+        <div class="button search">Search</div>
+    </div>
 </div>
+
+
+<?php require_once 'modules/rankingdetails.php'; ?>
 
 <!--test 2-->
 <script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>

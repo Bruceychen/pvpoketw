@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.21.1.3';
+$SITE_VERSION = '1.22.4.4';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -32,7 +32,11 @@ if(isset($_COOKIE['settings'])){
 		$_SETTINGS->ads = 1;
 	}
 
-	// Validate the gamemaster setting, only allow these options
+    if(! isset($_SETTINGS->xls)){
+        $_SETTINGS->xls = 1;
+    }
+
+    // Validate the gamemaster setting, only allow these options
 	$gamemasters = ["gamemaster", "gamemaster-mega"];
 
 	if(! in_array($_SETTINGS->gamemaster, $gamemasters)){
@@ -45,7 +49,8 @@ if(isset($_COOKIE['settings'])){
 		'theme' => 'default',
 		'gamemaster' => 'gamemaster',
 		'pokeboxId' => 0,
-		'ads' => 1
+		'ads' => 1,
+        'xls' => 1
 	];
 }
 
@@ -97,14 +102,14 @@ if(! isset($OG_IMAGE)){
 <link rel="manifest" href="<?php echo $WEB_ROOT; ?>data/manifest.json?v=2">
 
 <link rel="icon" href="<?php echo $WEB_ROOT; ?>img/favicon.png">
-<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=110">
+<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=113">
 
 <?php if(strpos($META_TITLE, 'Train') !== false): ?>
-	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/train.css?v=17">
+	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/train.css?v=18">
 <?php endif; ?>
 
 <?php if((isset($_SETTINGS->theme))&&($_SETTINGS->theme != "default")): ?>
-	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/themes/<?php echo $_SETTINGS->theme; ?>.css?v=16">
+	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/themes/<?php echo $_SETTINGS->theme; ?>.css?v=17">
 <?php endif; ?>
 
 <script src="<?php echo $WEB_ROOT; ?>js/libs/jquery-3.3.1.min.js"></script>
@@ -125,7 +130,8 @@ if(! isset($OG_IMAGE)){
 			matrixDirection: "<?php echo htmlspecialchars($_SETTINGS->matrixDirection); ?>",
 			gamemaster: "<?php echo htmlspecialchars($_SETTINGS->gamemaster); ?>",
 			pokeboxId: "<?php echo intval($_SETTINGS->pokeboxId); ?>",
-			pokeboxLastDateTime: "<?php echo intval($_SETTINGS->pokeboxLastDateTime); ?>"
+			pokeboxLastDateTime: "<?php echo intval($_SETTINGS->pokeboxLastDateTime); ?>",
+            xls: <?php echo $_SETTINGS->xls; ?>
 		};
 	<?php else: ?>
 
@@ -135,15 +141,16 @@ if(! isset($OG_IMAGE)){
 			matrixDirection: "row",
 			gamemaster: "gamemaster",
 			pokeboxId: 0,
-			pokeboxLastDateTime: 0
+			pokeboxLastDateTime: 0,
+            xls: true
 		};
 
 	<?php endif; ?>
 
 	<?php if((strpos($_SERVER['REQUEST_URI'], 'mega') !== false) && (strpos($_SERVER['REQUEST_URI'], 'meganium') === false) && (strpos($_SERVER['REQUEST_URI'], 'venusaur_mega') === false) && (strpos($_SERVER['REQUEST_URI'], 'blastoise_mega') === false) && ((strpos($_SERVER['REQUEST_URI'], 'charizard_mega_x') === false)) && (strpos($_SERVER['REQUEST_URI'], 'charizard_mega_y') === false) && (strpos($_SERVER['REQUEST_URI'], 'beedrill_mega') === false) && (strpos($_SERVER['REQUEST_URI'], 'pidgeot_mega') === false) && (strpos($_SERVER['REQUEST_URI'], 'houndoom_mega') === false)&&
 	(strpos($_SERVER['REQUEST_URI'], 'ampharos_mega') === false)&& (strpos($_SERVER['REQUEST_URI'], 'abomasnow_mega') === false)):
-	$_SETTINGS->gamemaster = 'gamemaster-mega';
-	?>
+		$_SETTINGS->gamemaster = 'gamemaster-mega';
+		?>
 		// If "Mega" is contained in the URL, default to the mega gamemaster
 		settings.gamemaster = "gamemaster-mega";
 	<?php endif; ?>

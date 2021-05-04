@@ -75,6 +75,8 @@ require_once 'header.php'; ?>
 					<option value="tag">特殊類別寶可夢</option>
 					<option value="id">指定寶可夢</option>
 					<option value="dex">寶可夢全國圖鑑編號</option>
+                    <option value="cost">特殊招式解鎖星塵</option>
+                    <option value="distance">夥伴行走距離</option>
 				</select>
 			</div>
 			<div class="field-section type">
@@ -117,7 +119,6 @@ require_once 'header.php'; ?>
                     <div class="check" value="shadow"><span></span>暗影化</div>
                     <div class="check" value="shadoweligible"><span></span>另有暗影化型態</div>
                     <div class="check" value="mega"><span></span> Mega進化</div>
-                    <div class="check" value="xl"><span></span> XL</div>
 				</div>
 			</div>
 
@@ -155,6 +156,26 @@ require_once 'header.php'; ?>
 					<input class="end-range" placeholder="End #" />
 				</div>
 			</div>
+
+            <div class="field-section cost">
+                <p>設定符合或未符合以下解鎖第二招式所需的星塵數</p>
+                <div class="field-container">
+                    <div class="check" value="10000"><span></span> 10,000</div>
+                    <div class="check" value="50000"><span></span> 50,000</div>
+                    <div class="check" value="75000"><span></span> 75,000</div>
+                    <div class="check" value="100000"><span></span> 100,000</div>
+                </div>
+            </div>
+
+            <div class="field-section distance">
+                <p>設定符合或未符合以下夥伴寶可夢的行走距離</p>
+                <div class="field-container">
+                    <div class="check" value="1"><span></span> 1公里</div>
+                    <div class="check" value="3"><span></span> 3公里</div>
+                    <div class="check" value="5"><span></span> 5公里</div>
+                    <div class="check" value="20"><span></span> 20公里</div>
+                </div>
+            </div>
 		</div>
 		<div class="remove">X</div>
 	</div>
@@ -257,72 +278,7 @@ require_once 'header.php'; ?>
     </table>
 </div>
 
-<div class="details-template hide">
-	<div class="detail-section float margin">
-        <div class="ranking-header">最佳克制對象</div>
-        <div class="ranking-header right">Battle Rating</div>
-        <div class="matchups clear"></div>
-    </div>
-    <div class="detail-section float">
-        <div class="ranking-header">首要威脅來源</div>
-        <div class="ranking-header right">Battle Rating</div>
-        <div class="counters clear"></div>
-    </div>
-    <div class="detail-section float margin">
-	    <div class="ranking-header">一般招式</div>
-	    <div class="ranking-header right">使用率</div>
-	    <div class="moveset fast clear"></div>
-	</div>
-	<div class="detail-section float">
-	    <div class="ranking-header">特殊招式</div>
-	    <div class="ranking-header right">使用率</div>
-	    <div class="moveset charged clear"></div>
-    </div>
-    <div class="clear"></div>
-    <div class="detail-section typing">
-        <div class="rating-container">
-            <div class="ranking-header">第一屬性</div>
-            <div class="type"></div>
-        </div>
-        <div class="rating-container">
-            <div class="ranking-header">第二屬性</div>
-            <div class="type"></div>
-        </div>
-	</div>
-    <div class="detail-section float margin">
-        <div class="ranking-header">弱點屬性</div>
-        <div class="weaknesses clear"></div>
-    </div>
-    <div class="detail-section float">
-        <div class="ranking-header">抵抗屬性</div>
-        <div class="resistances clear"></div>
-    </div>
-	<div class="clear"></div>
-	<div class="detail-section stats">
-	    <div class="rating-container">
-	        <div class="ranking-header">攻擊力範圍</div>
-	        <div class="rating"></div>&nbsp;-
-	        <div class="rating"></div>
-	    </div>
-	    <div class="rating-container">
-	        <div class="ranking-header">防禦力範圍</div>
-	        <div class="rating"></div>&nbsp;-
-	        <div class="rating"></div>
-	    </div>
-	    <div class="rating-container">
-	        <div class="ranking-header">體力(HP)範圍</div>
-	        <div class="rating"></div>&nbsp;-
-	        <div class="rating"></div>
-	    </div>
-        <div class="rating-container">
-            <div class="ranking-header">最佳IV組合 &amp; 等級</div>
-            <div class="rating"></div>
-        </div>
-	</div>
-	<div class="share-link detail-section"><input type="text" readonly="">
-		<div class="copy">複製</div>
-	</div>
-</div>
+<?php require_once 'modules/rankingdetails.php'; ?>
 
 <script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/pokemon/Pokemon.js?v=<?php echo $SITE_VERSION; ?>"></script>

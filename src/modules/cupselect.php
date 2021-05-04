@@ -1,12 +1,9 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
-	<option value="official" cup="remix">Remix</option>
 	<option value="official" cup="retro">復古盃</option>
-	<option value="tsa-3" cup="prismatic">Silph 稜鏡盃</option>
 	<option value="tsa-3" cup="commander">Silph 上將盃</option>
 	<option value="tsa-3" cup="factions">Silph Factions (Floating City)</option>
-	<option value="community" cup="ou">PoGoRaids Overused Tournament</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>

@@ -1,12 +1,12 @@
 // JavaScript Document
 
 var InterfaceMaster = (function () {
-    var instance;
+	var instance;
 
-    function createInstance() {
+	function createInstance() {
 
 
-        var object = new interfaceObject();
+		var object = new interfaceObject();
 
 		function interfaceObject(){
 
@@ -186,11 +186,26 @@ var InterfaceMaster = (function () {
 								break;
 
 							case "cp":
-								$(".league-select option[value=\""+val+"\"]").prop("selected","selected");
+								//Parse this out if it contains level cap
+								var getCP = val;
+
+								if(val.indexOf("-") > -1){
+									getCP = val.split("-")[0];
+									var getCap = val.split("-")[1];
+
+									$(".league-select option[value=\""+getCP+"\"][level-cap=\""+getCap+"\"]").prop("selected","selected");
+								} else{
+									$(".league-select option[value=\""+getCP+"\"]").prop("selected","selected");
+								}
+
 								$(".league-select").trigger("change");
 								break;
 
 							case "cup":
+								if(val == "classic"){
+									val = "all";
+								}
+
 								$(".cup-select option[value=\""+val+"\"]").prop("selected","selected");
 
 								if($(".format-select option[cup=\""+val+"\"]").length > 0){
@@ -474,7 +489,7 @@ var InterfaceMaster = (function () {
 						continue;
 					}
 
-					if((r.speciesId.indexOf("_xl") > -1)&&(! allowXL)){
+					if(r.speciesId.indexOf("_xs") > -1){
 						i++;
 						continue;
 					}
@@ -542,7 +557,7 @@ var InterfaceMaster = (function () {
 						var opPokeStr = r.matchups[n].opponent.generateURLPokeStr();
 						var opMoveStr = r.matchups[n].opponent.generateURLMoveStr();
 						var shieldStr = shieldCount + "" + shieldCount;
-						var battleLink = host+"battle/"+battle.getCP()+"/"+pokeStr+"/"+opPokeStr+"/"+shieldStr+"/"+moveStr+"/"+opMoveStr+"/";
+						var battleLink = host+"battle/"+battle.getCP(true)+"/"+pokeStr+"/"+opPokeStr+"/"+shieldStr+"/"+moveStr+"/"+opMoveStr+"/";
 						$cell.find("a").attr("href", battleLink);
 
 						$row.append($cell);
@@ -598,7 +613,12 @@ var InterfaceMaster = (function () {
 						continue;
 					}
 
-					if((r.speciesId.indexOf("_xl") > -1)&&(! allowXL)){
+					if((r.speciesId.indexOf("_xs") > -1)&&(allowXL)){
+						i++;
+						continue;
+					}
+
+					if((r.pokemon.needsXLCandy())&&(! allowXL)){
 						i++;
 						continue;
 					}
@@ -653,7 +673,7 @@ var InterfaceMaster = (function () {
 						var opPokeStr = r.matchups[n].opponent.generateURLPokeStr();
 						var opMoveStr = r.matchups[n].opponent.generateURLMoveStr();
 						var shieldStr = shieldCount + "" + shieldCount;
-						var battleLink = host+"battle/"+battle.getCP()+"/"+pokeStr+"/"+opPokeStr+"/"+shieldStr+"/"+moveStr+"/"+opMoveStr+"/";
+						var battleLink = host+"battle/"+battle.getCP(true)+"/"+pokeStr+"/"+opPokeStr+"/"+shieldStr+"/"+moveStr+"/"+opMoveStr+"/";
 						$cell.find("a").attr("href", battleLink);
 
 						$row.append($cell);
@@ -774,7 +794,12 @@ var InterfaceMaster = (function () {
 						continue;
 					}
 
-					if((r.speciesId.indexOf("_xl") > -1)&&(! allowXL)){
+					if((r.speciesId.indexOf("_xs") > -1)&&(allowXL)){
+						i++;
+						continue;
+					}
+
+					if((r.pokemon.needsXLCandy())&&(! allowXL)){
 						i++;
 						continue;
 					}
@@ -837,7 +862,7 @@ var InterfaceMaster = (function () {
 						var opPokeStr = r.matchups[n].opponent.generateURLPokeStr();
 						var opMoveStr = r.matchups[n].opponent.generateURLMoveStr();
 						var shieldStr = shieldCount + "" + shieldCount;
-						var battleLink = host+"battle/"+battle.getCP()+"/"+pokeStr+"/"+opPokeStr+"/"+shieldStr+"/"+moveStr+"/"+opMoveStr+"/";
+						var battleLink = host+"battle/"+battle.getCP(true)+"/"+pokeStr+"/"+opPokeStr+"/"+shieldStr+"/"+moveStr+"/"+opMoveStr+"/";
 						$cell.find("a").attr("href", battleLink);
 
 						$row.append($cell);
@@ -930,7 +955,7 @@ var InterfaceMaster = (function () {
 				$(".overview-section .notes div").hide();
 
 				// Coverage grade, take threat score
-				var threatGrade = self.calculateLetterGrade(1200 - avgThreatScore, 670);
+				var threatGrade = self.calculateLetterGrade(1200 - avgThreatScore, 640);
 
 				$(".overview-section.coverage .grade").html(threatGrade.letter);
 				$(".overview-section.coverage .grade").attr("grade", threatGrade.letter);
@@ -1331,19 +1356,33 @@ var InterfaceMaster = (function () {
 			function selectLeague(e){
 				var allowed = [500, 1500, 2500, 10000];
 				var cp = parseInt($(".league-select option:selected").val());
+				var levelCap = parseInt($(".league-select option:selected").attr("level-cap"));
 
 				if(allowed.indexOf(cp) > -1){
-
 					battle.setCP(cp);
+					battle.setLevelCap(levelCap);
 
 					// Set the selected team to the new CP
 					for(var i = 0; i < multiSelectors.length; i++){
 						multiSelectors[i].setCP(cp);
+						multiSelectors[i].setLevelCap(levelCap);
 					}
 
 				}
 
-				gm.loadRankingData(self, "overall", parseInt($(".league-select option:selected").val()), "all");
+				var cupName = battle.getCup().name;
+
+				if((cp == 10000)&&(levelCap == 40)){
+					cupName = "classic";
+					battle.setCup("classic");
+				}
+
+				if((cp == 10000)&&(levelCap > 40)){
+					cupName = "all";
+					battle.setCup("all");
+				}
+
+				gm.loadRankingData(self, "overall", parseInt($(".league-select option:selected").val()), cupName);
 			}
 
 			// Event handler for changing the cup select
@@ -1427,87 +1466,87 @@ var InterfaceMaster = (function () {
 				// This is stupid but the visual updates won't execute until Javascript has completed the entire thread
 
 				setTimeout(function(){
-					var results = self.updateTeamResults();
+						var results = self.updateTeamResults();
 
-					// Set new page state
-					var cp = battle.getCP();
-					var cup = battle.getCup().name;
+						// Set new page state
+						var cp = battle.getCP(true);
+						var cup = battle.getCup().name;
 
-					var pokes = multiSelectors[0].getPokemonList();
-					var moveStrs = [];
-					var teamStr = "team-builder/"+cup+"/"+cp+"/";
-
-					for(var i = 0; i < pokes.length; i++){
-
-						var poke = pokes[i];
-
-						moveStrs.push(poke.generateURLMoveStr());
-
-						teamStr += pokes[i].generateURLPokeStr("team-builder");
-
-						if(i < pokes.length - 1){
-							teamStr += "%2C";
-						}
-					}
-
-					// Add move strings to URL
-
-					var link = host + teamStr;
-
-					$(".share-link input").val(link);
-
-					// Push state to browser history so it can be navigated, only if not from URL parameters
-
-					if(get){
-
-						var sameTeam = true;
+						var pokes = multiSelectors[0].getPokemonList();
+						var moveStrs = [];
+						var teamStr = "team-builder/"+cup+"/"+cp+"/";
 
 						for(var i = 0; i < pokes.length; i++){
-							if(get["p"+(i+1)] != pokes[i].speciesId){
-								sameTeam = false;
+
+							var poke = pokes[i];
+
+							moveStrs.push(poke.generateURLMoveStr());
+
+							teamStr += pokes[i].generateURLPokeStr("team-builder");
+
+							if(i < pokes.length - 1){
+								teamStr += "%2C";
 							}
 						}
 
-						if(get["cup"] != cup){
-							sameTeam = false;
+						// Add move strings to URL
+
+						var link = host + teamStr;
+
+						$(".share-link input").val(link);
+
+						// Push state to browser history so it can be navigated, only if not from URL parameters
+
+						if(get){
+
+							var sameTeam = true;
+
+							for(var i = 0; i < pokes.length; i++){
+								if(get["p"+(i+1)] != pokes[i].speciesId){
+									sameTeam = false;
+								}
+							}
+
+							if(get["cup"] != cup){
+								sameTeam = false;
+							}
+
+							if(sameTeam){
+								return;
+							}
 						}
 
-						if(sameTeam){
+						var url = webRoot+teamStr;
+
+						// No guarantee the user will have selected 3 Pokemon, so need to account for all possibilities
+
+						var data = {cup: cup, cp: cp};
+
+						for(var i = 0; i < pokes.length; i++){
+							data["p"+(i+1)] = pokes[i].speciesId;
+							data["m"+(i+1)] = moveStrs[i];
+						}
+
+						window.history.pushState(data, "Team Builder", url);
+
+						// Send Google Analytics pageview
+
+						gtag('config', UA_ID, {page_location: (host+url), page_path: url});
+
+
+
+						if(results === false){
 							return;
 						}
-					}
 
-					var url = webRoot+teamStr;
+						$(".rate-btn").html("Rate Team");
 
-					// No guarantee the user will have selected 3 Pokemon, so need to account for all possibilities
+						// Scroll down to results
 
-					var data = {cup: cup, cp: cp};
-
-					for(var i = 0; i < pokes.length; i++){
-						data["p"+(i+1)] = pokes[i].speciesId;
-						data["m"+(i+1)] = moveStrs[i];
-					}
-
-					window.history.pushState(data, "Team Builder", url);
-
-					// Send Google Analytics pageview
-
-					gtag('config', UA_ID, {page_location: (host+url), page_path: url});
-
-
-
-					if(results === false){
-						return;
-					}
-
-					$(".rate-btn").html("Rate Team");
-
-					// Scroll down to results
-
-					$("html, body").animate({ scrollTop: $(".section.typings a").first().offset().top }, 500);
+						$("html, body").animate({ scrollTop: $(".section.typings a").first().offset().top }, 500);
 
 					},
-				10);
+					10);
 
 			}
 
@@ -1539,15 +1578,15 @@ var InterfaceMaster = (function () {
 			}
 		};
 
-        return object;
-    }
+		return object;
+	}
 
-    return {
-        getInstance: function () {
-            if (!instance) {
-                instance = createInstance();
-            }
-            return instance;
-        }
-    };
+	return {
+		getInstance: function () {
+			if (!instance) {
+				instance = createInstance();
+			}
+			return instance;
+		}
+	};
 })();

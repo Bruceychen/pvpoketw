@@ -65,12 +65,12 @@ require_once '../header.php';
 <div class="section analysis-container white">
 
     <select class="format-select">
-        <option value="1500" cup="all">超級聯盟</option>
-        <option value="2500" cup="all">高級聯盟</option>
-        <option value="10000" cup="all">大師聯盟</option>
-        <option value="2500" cup="premier">高級聯盟紀念盃</option>
-        <option value="10000" cup="premier">大師聯盟紀念盃</option>
-        <option value="1500" cup="remix">Remix</option>
+        <option value="1500" cup="all" level-cap="50">超級聯盟</option>
+        <option value="2500" cup="all" level-cap="50">高級聯盟</option>
+        <option value="10000" cup="classic" level-cap="40">大師聯盟(經典)</option>
+        <option value="2500" cup="premier" level-cap="50">高級聯盟紀念盃</option>
+        <option value="10000" cup="premier" level-cap="50">大師聯盟紀念盃</option>
+        <option value="1500" cup="remix" level-cap="50">Remix</option>
     </select>
 
     <div class="date-updated">資料最後更新</div>

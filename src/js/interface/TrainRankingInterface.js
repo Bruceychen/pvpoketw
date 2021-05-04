@@ -1,12 +1,12 @@
 // JavaScript Document
 
 var InterfaceMaster = (function () {
-    var instance;
+	var instance;
 
-    function createInstance() {
+	function createInstance() {
 
 
-        var object = new interfaceObject();
+		var object = new interfaceObject();
 
 		function interfaceObject(){
 
@@ -21,7 +21,6 @@ var InterfaceMaster = (function () {
 
 
 			this.init = function(){
-
 
 				if(! get){
 					this.loadRankings("1500","all");
@@ -49,6 +48,8 @@ var InterfaceMaster = (function () {
 
 				battle.setCup(cup);
 				battle.setCP(league);
+
+				pokeSearch.setBattle(battle);
 
 				/* This timeout allows the interface to display the loading message before
 				being thrown into the data loading loop */
@@ -84,7 +85,7 @@ var InterfaceMaster = (function () {
 					var speciesId = r.pokemon.replace(" " + movesetStr, "");
 
 					//pvpoketw modified for moves abbreviationArr
-                    movesetStr = individualMovesHandler(movesetStr);
+					movesetStr = individualMovesHandler(movesetStr);
 
 					var pokemon = new Pokemon(speciesId, 0, battle);
 
@@ -108,7 +109,6 @@ var InterfaceMaster = (function () {
 					//pvpoketw handle moves abbrev
 					// $row.find(".moves").html(r.pokemon.split(" ")[1]);
 					$row.find(".moves").html(movesetStr);
-
 					$row.find(".individual-score").html(r.individualScore.toFixed(1) + '%');
 					$row.find(".team-score .score").html(r.teamScore.toFixed(1));
 
@@ -153,7 +153,13 @@ var InterfaceMaster = (function () {
 					var $row = $(".train-table.teams thead tr.hide").clone();
 					$row.removeClass("hide");
 
-					var teamURL = host + "team-builder/" + battle.getCup().name + "/" + battle.getCP() + "/";
+					var cupName = battle.getCup().name;
+
+					if(cupName == "classic"){
+						cupName = "all";
+					}
+
+					var teamURL = host + "team-builder/" + cupName + "/" + battle.getCP(true) + "/";
 					var teamStr = '';
 
 					for(var n = 0; n < arr.length; n++){
@@ -161,7 +167,7 @@ var InterfaceMaster = (function () {
 						var movesetStr = arr[n].split(" ")[1];
 
 						//pvpoketw update moves abbrev
-                        movesetStr = teamMovesHandler(movesetStr);
+						movesetStr = teamMovesHandler(movesetStr);
 
 						var pokemon = new Pokemon(speciesId, 0, battle);
 
@@ -181,7 +187,6 @@ var InterfaceMaster = (function () {
 
 						$row.find(".name").eq(n).html(pokemon.speciesName);
 						$row.find(".moves").eq(n).html(movesetStr);
-                        //TODO update here
 
 						var abbreviationArr = movesetStr.split("/");
 
@@ -344,32 +349,17 @@ var InterfaceMaster = (function () {
 				window.history.pushState(data, "Rankings", url);
 			}
 
-			// Event handler for changing the league select
-
-			function selectLeague(e){
-				var cp = $(".league-select option:selected").val();
-
-				if(context != "custom"){
-					var category = $(".ranking-categories a.selected").attr("data");
-					var cup = $(".cup-select option:selected").val();
-
-					battle.setCup(cup);
-
-					self.displayRankings(category, cp, cup);
-					self.pushHistoryState(cup, cp, category, null);
-				}
-
-				battle.setCP(cp);
-			}
 
 			// Event handler for changing the format category
 
 			function selectFormat(e){
 				var cp = $(".format-select option:selected").val();
 				var cup = $(".format-select option:selected").attr("cup");
+				var levelCap = parseInt($(".format-select option:selected").attr("level-cap"));
 
 				battle.setCP(cp);
 				battle.setCup(cup);
+				battle.setLevelCap(levelCap);
 
 				self.loadRankings(cp, cup);
 				self.pushHistoryState(cup, cp);
@@ -489,15 +479,15 @@ var InterfaceMaster = (function () {
 			}
 		};
 
-        return object;
-    }
+		return object;
+	}
 
-    return {
-        getInstance: function () {
-            if (!instance) {
-                instance = createInstance();
-            }
-            return instance;
-        }
-    };
+	return {
+		getInstance: function () {
+			if (!instance) {
+				instance = createInstance();
+			}
+			return instance;
+		}
+	};
 })();

@@ -29,6 +29,10 @@ require_once 'header.php';
         <p>PvPoke 已跟<a target="_blank" href="https://www.pokebattler.com/" class="pokebattler">Pokebattler</a>進行整合。於下方輸入你的Pokebattler id，便能將你於Pokebattlers 網站上所登載的寶可夢資料引入本站：</p>
         <input type="text" class="input" id="pokebox-id" <?php if(isset($_SETTINGS->pokeboxId)) : ?>value="<?php echo intval($_SETTINGS->pokeboxId); ?>"<?php endif; ?> />
 
+        <h3>XL 寶可夢</h3>
+        <div class="check xls <?php if($_SETTINGS->xls == 1) : ?>on<?php endif; ?>"><span></span> 顯示 XL 寶可夢</div>
+        <p>選擇是否要在主要排名資料與隊伍組建模擬中，顯示等級超過40以上的寶可夢。你也可以在各功能頁面中暫時性切換顯示/移除他們。</p>
+
         <h3>廣告選項</h3>
         <div class="check ads <?php if($_SETTINGS->ads == 1) : ?>on<?php endif; ?>"><span></span> 顯示廣告</div>
         <p>廣告將用於資助本站以及寶可夢社群！</p>

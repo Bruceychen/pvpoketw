@@ -98,6 +98,12 @@ var RankerMaster = (function () {
 
 				startTime = Date.now();
 
+				if(isNaN(cp)){
+					var levelCap = parseInt(cp.split("-")[1]);
+					cp = parseInt(cp.split("-")[0]);
+					battle.setLevelCap(levelCap);
+				}
+
 				battle.setCP(cp);
 				if(cup.name != "custom"){
 					battle.setCup(cup.name);
@@ -105,6 +111,9 @@ var RankerMaster = (function () {
 					battle.setCustomCup(cup);
 				}
 
+				if(cup.levelCap){
+					battle.setLevelCap(cup.levelCap);
+				}
 
 				currentLeagueIndex = 0;
 				currentScenarioIndex = 0;
@@ -485,6 +494,12 @@ var RankerMaster = (function () {
 								weight = 0;
 							}
 
+							// Don't score XS Pokemon
+
+							if(targets[j].hasTag("xs")){
+								weight = 0;
+							}
+
 							if (typeof targets[j].weightModifier !== 'undefined') {
 								weight *= targets[j].weightModifier;
 							} else{
@@ -635,7 +650,8 @@ var RankerMaster = (function () {
 
 					$.ajax({
 
-						url : 'data/write.php',
+						url : '../data/write.php',
+						// url : 'data/write.php',
 						type : 'POST',
 						data : {
 							'data' : json,

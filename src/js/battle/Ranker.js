@@ -464,7 +464,8 @@ var RankerMaster = (function () {
 				
 				$.ajax({
 
-					url : 'data/write.php',
+					url : '../data/write.php',
+					// url : 'data/write.php',
 					type : 'POST',
 					data : {
 						'data' : json,

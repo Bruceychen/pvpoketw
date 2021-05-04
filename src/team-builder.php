@@ -56,8 +56,8 @@ require_once 'header.php';
 		        <div class="check allow-shadows"><span></span>計算結果顯示暗影化寶可夢</div>
 		    </div>
 			<div class="team-option">
-				<h3>XL標記寶可夢</h3>
-				<div class="check allow-xl"><span></span>計算結果包含等級超過40級的寶可夢</div>
+                <h3>推薦的XL寶可夢</h3>
+                <div class="check allow-xl <?php if($_SETTINGS->xls): echo "on"; endif; ?>"><span></span>於具威脅寶可夢與可替換成員中顯示等級40以上的寶可夢</div>
 			</div>
             <div class="flex-break"></div>
             <div class="team-option">

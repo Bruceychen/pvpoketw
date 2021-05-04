@@ -56,7 +56,7 @@
                 <option value="atk">使用攻擊最大化IV</option>
                 <option value="def">使用防禦最大化IV</option>
             </select>
-            <select class="pokemon-level-cap-select">
+			<select class="pokemon-level-cap-select" style="display:none;">
                 <option value="40">預設等級上限(40)</option>
                 <option value="45">夥伴等級上限(41)</option>
                 <option value="50">新預設等級上限(50)</option>

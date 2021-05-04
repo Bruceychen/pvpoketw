@@ -1,16 +1,16 @@
-<div class="sandbox-search-strings article hide" style="overflow:auto;">
-	<p>使用以下關鍵字來尋找特定條件寶可夢：</p>
-	<table cellspacing="0">
-		<tr>
-			<td><strong>寶可夢中文名稱</strong></td>
-			<td>瑪力露麗</td>
-		</tr>
-		<tr>
-			<td><strong>寶可夢屬性</strong></td>
-			<td>water</td>
-		</tr>
-		<tr>
-			<td><strong>類別</strong></td>
+<div class="sandbox-search-strings article hide">
+    <p>使用以下關鍵字來尋找特定條件寶可夢：</p>
+    <table cellspacing="0">
+        <tr>
+            <td><strong>寶可夢中文名稱</strong></td>
+            <td>瑪力露麗</td>
+        </tr>
+        <tr>
+            <td><strong>寶可夢屬性</strong></td>
+            <td>water</td>
+        </tr>
+        <tr>
+            <td><strong>類別</strong></td>
             <td>legendary<br><br>
 
                 legendary :<i>傳說的寶可夢</i><br>
@@ -23,14 +23,12 @@
                 shadoweligible :<i>有暗影化型態，<strong>但只顯示一般個體</strong></i><br>
                 xl:<i>等級50級的寶可夢</i>
             </td>
-		</tr>
-		<tr>
-			<td>
-                <strong>世代</strong><br>
+        </tr>
+        <tr>
+            <td><strong>世代</strong><br></td>
+            <td>gen1
             </td>
-			<td>gen1
-            </td>
-		</tr>
+        </tr>
         <tr>
             <td>
                 <strong>地區</strong>
@@ -44,19 +42,19 @@
                 unova :<i>合眾地區</i><br>
             </td>
         </tr>
-		<tr>
-			<td><strong>圖鑑編號</strong></td>
-			<td>184</td>
-		</tr>
-		<tr>
+        <tr>
+            <td><strong>圖鑑編號</strong></td>
+            <td>184</td>
+        </tr>
+        <tr>
             <td><strong>招式名稱</strong></td>
             <td>@雙倍奉還</td>
-		</tr>
-		<tr>
+        </tr>
+        <tr>
             <td><strong>招式屬性</strong></td>
             <td>@fighting</td>
-		</tr>
-		<tr>
+        </tr>
+        <tr>
             <td>
                 <strong>限定招式</strong>
             </td>
@@ -75,16 +73,44 @@
             </td>
         </tr>
         <tr>
-			<td><strong>And(且)</strong></td>
-			<td>water&amp;@fighting</td>
-		</tr>
-		<tr>
-			<td><strong>Or(或)</strong></td>
-			<td>water,fighting</td>
-		</tr>
-		<tr>
-			<td><strong>Not(非)</strong></td>
-			<td>!water</td>
-		</tr>
-	</table>
+            <td><strong>Traits</strong></td>
+            <td>Bulky, Spammy, Risky, etc. See adjacent trait guide.</td>
+        </tr>
+        <tr>
+            <td><strong>第二特殊招式解鎖星塵數</strong></td>
+            <td>10k,<br><br>
+
+                10k :<i>10000星塵</i><br>
+                50k :<i>50000星塵</i><br>
+                75k :<i>75000星塵</i><br>
+                100k :<i>100000星塵</i><br>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>夥伴寶可夢行走距離</strong></td>
+            <td>1km<br><br>
+
+                1km :<i>1公里</i><br>
+                3km :<i>3公里</i><br>
+                5km :<i>5公里</i><br>
+                20km :<i>20公里</i><br>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>4* 寶可夢</strong></td>
+            <td>4*, Hundo</td>
+        </tr>
+        <tr>
+            <td><strong>And(且)</strong></td>
+            <td>water&amp;@fighting</td>
+        </tr>
+        <tr>
+            <td><strong>Or(或)</strong></td>
+            <td>water,fighting</td>
+        </tr>
+        <tr>
+            <td><strong>Not(非)</strong></td>
+            <td>!water</td>
+        </tr>
+    </table>
 </div>

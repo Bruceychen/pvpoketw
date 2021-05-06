@@ -23,12 +23,7 @@ require_once 'header.php';
 
 <div class="section league-select-container white">
 	<?php require 'modules/leagueselect.php'; ?>
-<!--	<select class="mode-select">-->
-<!--		<option value="single">單場戰鬥</option>-->
-<!--		<option value="multi">多重戰鬥</option>-->
-<!--		<option value="matrix">群組交叉戰鬥</option>-->
-<!--	</select>-->
-    <div class="ranking-categories mode-select">
+	<div class="ranking-categories mode-select">
         <a class="selected" href="#" data="single">單場戰鬥</a>
         <a href="#" data="multi">多重戰鬥</a>
         <a href="#" data="matrix">群組交叉戰鬥</a>

@@ -186,7 +186,7 @@ require_once 'header.php';
 	<div class="poke-search-container">
 		<input class="poke-search" context="ranking-search" type="text" placeholder="寶可夢中文名或英文屬性搜尋" />
 		<a href="#" class="search-info" title="Search Help">?</a>
-		<a href="#" class="search-traits" title="Search Traits">+</a>
+		<a href="#" class="search-traits" title="搜尋對戰特質">+</a>
 	</div>
 
 

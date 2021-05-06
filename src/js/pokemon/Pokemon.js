@@ -236,11 +236,11 @@ function Pokemon(id, i, b){
 					this.ivs.atk = this.ivs.def = this.ivs.hp = iv;
 
 					this.cpm = Math.min(targetCPM, .7903);
-					break;
+				break;
 
 				case "maximize":
 					self.maximizeStat("overall");
-					break;
+				break;
 
 				case "gamemaster":
 					if(maxCP == 10000){
@@ -262,7 +262,7 @@ function Pokemon(id, i, b){
 						}
 
 					}
-					break;
+				break;
 			}
 
 		}
@@ -313,17 +313,17 @@ function Pokemon(id, i, b){
 	this.maximizeStat = function(sortStat) {
 		combinations = self.generateIVCombinations(sortStat, 1, 1);
 
-		if (combinations.length > 0) {
-			this.ivs.atk = combinations[0].ivs.atk;
-			this.ivs.def = combinations[0].ivs.def;
-			this.ivs.hp = combinations[0].ivs.hp;
-			this.setLevel(combinations[0].level, false)
-		} else {
-			this.ivs.atk = 15;
-			this.ivs.def = 15;
-			this.ivs.hp = 15;
-			this.setLevel(self.levelCap, false);
-		}
+        if (combinations.length > 0) {
+            this.ivs.atk = combinations[0].ivs.atk;
+            this.ivs.def = combinations[0].ivs.def;
+            this.ivs.hp = combinations[0].ivs.hp;
+            this.setLevel(combinations[0].level, false)
+        } else {
+            this.ivs.atk = 15;
+            this.ivs.def = 15;
+            this.ivs.hp = 15;
+            this.setLevel(self.levelCap, false);
+        }
 
 		var index = this.level - 1;
 		this.stats.atk = this.cpm * (this.baseStats.atk+this.ivs.atk);

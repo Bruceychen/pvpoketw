@@ -4,6 +4,22 @@
 
 const debugMode = true;
 
+function fastMoveArchetypeTranslate(archetype){
+    var allArchetype = {
+        'water':'水',
+        'default':''
+    };
+    return (allArchetype[archetype] || archetypeNotFound("fastMove", archetype));
+}
+
+function chargedMoveArchetypeTranslate(archetype){
+    var allArchetype = {
+        'water':'水',
+        'default':''
+    };
+    return (allArchetype[archetype] || archetypeNotFound("chargedMove", archetype));
+}
+
 function typeTranslate(type){
     var allTypes = {
         'bug':'蟲',
@@ -236,4 +252,11 @@ function movesNotFound(type, moves){
         console.log(type + " moves abbrev.: "+ moves + " not found.");
     }
     return moves;
+}
+
+function archetypeNotFound(moveType, archetype){
+    if(debugMode){
+        console.log(moveType + " archetype: \""+ archetype + "\" not found.");
+    }
+    return archetype;
 }

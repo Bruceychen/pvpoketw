@@ -720,7 +720,8 @@ var InterfaceMaster = (function () {
 
 					$moveDetails.addClass(fastMoves[n].type);
 					$moveDetails.find(".name").html(fastMoves[n].displayName);
-					$moveDetails.find(".archetype .name").html(archetype);
+					// 以下UI中文翻譯
+					$moveDetails.find(".archetype .name").html(fastMoveArchetypeTranslate(archetype));
 					$moveDetails.find(".archetype .icon").addClass(archetypeClass);
 					$moveDetails.find(".dpt .value").html(Math.round( ((fastMoves[n].power * fastMoves[n].stab * pokemon.shadowAtkMult) / (fastMoves[n].cooldown / 500)) * 100) / 100);
 					$moveDetails.find(".ept .value").html(Math.round( (fastMoves[n].energyGain / (fastMoves[n].cooldown / 500)) * 100) / 100);
@@ -809,7 +810,8 @@ var InterfaceMaster = (function () {
 
 					$moveDetails.addClass(chargedMoves[n].type);
 					$moveDetails.find(".name").html(chargedMoves[n].displayName);
-					$moveDetails.find(".archetype .name").html(archetype);
+					// 以下這行UI中文翻譯
+					$moveDetails.find(".archetype .name").html(chargedMoveArchetypeTranslate(archetype));
 					$moveDetails.find(".archetype .icon").addClass(archetypeClass);
 					$moveDetails.find(".damage .value").html(Math.round((chargedMoves[n].power * chargedMoves[n].stab * pokemon.shadowAtkMult) * 100) / 100);
 					$moveDetails.find(".energy .value").html(chargedMoves[n].energy);

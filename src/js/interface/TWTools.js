@@ -6,6 +6,11 @@ const debugMode = true;
 
 function fastMoveArchetypeTranslate(archetype){
     var allArchetype = {
+        'Multipurpose':'Multipurpose',
+        'Fast Charge':'Fast Charge',
+        'Low Quality':'Low Quality',
+        'Heavy Damage':'Heavy Damage',
+        'General':'General',
         'water':'水',
         'default':''
     };
@@ -14,6 +19,26 @@ function fastMoveArchetypeTranslate(archetype){
 
 function chargedMoveArchetypeTranslate(archetype){
     var allArchetype = {
+        'Boost':'Boost',
+        'Boost Nuke':'Boost Nuke',
+        'Boost Spam/Bait':'Boost Spam/Bait',
+        'Coverage':'Coverage',
+        'Coverage Nuke':'Coverage Nuke',
+        'Coverage Spam/Bait':'Coverage Spam/Bait',
+        'Debuff':'Debuff',
+        'Debuff Nuke':'Debuff Nuke',
+        'Debuff Spam/Bait':'Debuff Spam/Bait',
+        'General':'General',
+        'High Energy':'High Energy',
+        'High Energy Coverage':'High Energy Coverage',
+        'High Energy Debuff':'High Energy Debuff',
+        'Neutral Nuke':'Neutral Nuke',
+        'Neutral Spam/Bait':'Neutral Spam/Bait',
+        'Nuke':'Nuke',
+        'Self-Debuff':'Self-Debuff',
+        'Self-Debuff Nuke':'Self-Debuff Nuke',
+        'Self-Debuff Spam':'Self-Debuff Spam',
+        'Spam/Bait':'Spam/Bait',
         'water':'水',
         'default':''
     };

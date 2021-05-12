@@ -12175,7 +12175,8 @@
         },
         "types": ["dragon", "flying"],
         "fastMoves": ["DRAGON_BREATH", "PECK"],
-        "chargedMoves": ["DAZZLING_GLEAM", "DRAGON_PULSE", "SKY_ATTACK"],
+        "chargedMoves": ["DAZZLING_GLEAM", "DRAGON_PULSE", "SKY_ATTACK", "MOONBLAST"],
+		"eliteMoves": ["MOONBLAST"],
         "defaultIVs": {
             "cp500": [9.5, 5, 14, 10],
             "cp1500": [28.5, 4, 14, 11],
@@ -12186,6 +12187,27 @@
         "thirdMoveCost": 10000,
         "released": true
     }, {
+	    "dex": 334,
+	    "speciesName": "チルタリス (メガ)",
+	    "speciesId": "altaria_mega",
+	    "baseStats": {
+	        "atk": 222,
+	        "def": 218,
+	        "hp": 181
+	    },
+	    "types": ["dragon", "fairy"],
+	    "fastMoves": ["DRAGON_BREATH", "PECK"],
+	    "chargedMoves": ["DAZZLING_GLEAM", "DRAGON_PULSE", "SKY_ATTACK", "MOONBLAST"],
+		"eliteMoves": ["MOONBLAST"],
+	    "tags": ["mega"],
+	    "defaultIVs": {
+	        "cp1500": [17.5, 7, 14, 7],
+	        "cp2500": [29, 7, 12, 11]
+	    },
+		"buddyDistance": 1,
+        "thirdMoveCost": 10000,
+		"released": true
+	}, {
         "dex": 335,
         "speciesName": "ザングース",
         "speciesId": "zangoose",
@@ -21322,7 +21344,11 @@
         "dex": 679,
         "speciesName": "ヒトツキ",
         "speciesId": "honedge",
-        "baseStats": {},
+		"baseStats": {
+	      "atk": 135,
+	      "def": 139,
+	      "hp": 128
+	    },
         "types": ["steel", "ghost"],
         "fastMoves": ["TACKLE", "FURY_CUTTER"],
         "chargedMoves": ["IRON_HEAD", "GYRO_BALL"],
@@ -21338,7 +21364,11 @@
         "dex": 680,
         "speciesName": "ニダンギル",
         "speciesId": "doublade",
-        "baseStats": {},
+		"baseStats": {
+	      "atk": 188,
+	      "def": 206,
+	      "hp": 153
+	    },
         "types": ["steel", "ghost"],
         "fastMoves": ["PSYCHO_CUT", "FURY_CUTTER"],
         "chargedMoves": ["IRON_HEAD", "GYRO_BALL"],
@@ -21741,7 +21771,8 @@
         },
         "types": ["fairy", "none"],
         "fastMoves": ["CHARM", "QUICK_ATTACK"],
-        "chargedMoves": ["MOONBLAST", "DAZZLING_GLEAM", "DRAINING_KISS"],
+        "chargedMoves": ["MOONBLAST", "DAZZLING_GLEAM", "DRAINING_KISS", "LAST_RESORT"],
+		"eliteMoves": ["LAST_RESORT"],
         "defaultIVs": {
             "cp500": [6, 11, 14, 15],
             "cp1500": [18.5, 4, 6, 12],
@@ -21749,7 +21780,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false
+        "released": true
     }, {
         "dex": 701,
         "speciesName": "ルチャブル",

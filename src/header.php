@@ -50,7 +50,7 @@ if(isset($_COOKIE['settings'])){
 		'gamemaster' => 'gamemaster',
 		'pokeboxId' => 0,
 		'ads' => 1,
-        'xls' => 1
+		'xls' => 1
 	];
 }
 

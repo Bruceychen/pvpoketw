@@ -8,5 +8,6 @@
 	<option value="1500" cup="commander">Silph 上將盃</option>
 	<option value="1500" cup="factions">Silph Factions (Floating City)</option>
     <option value="1500" cup="johto">Nexus League Johto Cup</option>
+    <option value="1500" cup="adl">Arrohh Draft League</option>
 	<option value="1500" cup="custom">自訂排名</option>
 </select>

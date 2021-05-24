@@ -23,11 +23,10 @@
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
 				<option value="premierultra" type="ultra" class="hide multi-battle">高級紀念盃 Meta</option>
 				<option value="premier" type="master" class="hide multi-battle">大師紀念盃 Meta</option>
+                <option value="kanto" type="great" class="multi-battle">Kanto Cup Meta</option>
                 <option value="retro" type="great" class="multi-battle">復古盃 Meta</option>
-                <option value="kanto" type="great" class="multi-battle">關都盃 Meta</option>
                 <option value="commander" type="great" class="multi-battle">Silph 上將盃 Meta</option>
                 <option value="factions" type="great" class="multi-battle">Silph Factions Meta (Floating City)</option>
-                <option value="johto" type="great" class="multi-battle">Nexus League Johto Cup Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

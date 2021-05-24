@@ -39,6 +39,10 @@ switch($cup){
         $league = 'Retro Cup';
         break;
 
+    case "kanto":
+        $league = 'Kanto Cup';
+        break;
+
 }
 
 $META_TITLE = $league . ' Training Analysis';
@@ -70,7 +74,7 @@ require_once '../header.php';
         <option value="10000" cup="classic" level-cap="40">大師聯盟(經典)</option>
         <option value="2500" cup="premier" level-cap="50">高級聯盟紀念盃</option>
         <option value="10000" cup="premier" level-cap="50">大師聯盟紀念盃</option>
-        <option value="1500" cup="retro" level-cap="50">復古盃</option>
+        <option value="1500" cup="kanto" level-cap="50">Kanto Cup</option>
     </select>
 
     <div class="date-updated">資料最後更新</div>
@@ -132,6 +136,7 @@ require_once '../header.php';
     <h3>強勢隊伍組合</h3>
 
     <div>以下為各寶可夢及其搭配招式組在原版網站 PvPoke.com <a href="<?php echo $WEB_ROOT; ?>train/">AI對戰訓練</a>中所統計出之整體性能表現數據。資料採樣自使用網站的各位訓練家，以及當下對戰AI等級:菁英訓練家、冠軍訓練家的對戰數據。</div>
+
     <div class="poke-search-container">
         <input class="poke-search" target="teams" type="text" placeholder="Search Pokemon" />
         <a href="#" class="search-info">i</a>

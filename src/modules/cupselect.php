@@ -1,10 +1,10 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
+	<option value="community" cup="kanto">Kanto Cup</option>
 	<option value="official" cup="retro">復古盃</option>
 	<option value="tsa-3" cup="commander">Silph 上將盃</option>
 	<option value="tsa-3" cup="factions">Silph Factions (Floating City)</option>
-	<option value="community" cup="johto">Nexus League Johto Cup</option>
 	<option value="community" cup="adl">Arrohh Draft League</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>

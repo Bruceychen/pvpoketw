@@ -2,8 +2,8 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
 	<option value="community" cup="kanto">Kanto Cup</option>
-	<option value="official" cup="retro">復古盃</option>
 	<option value="tsa-3" cup="commander">Silph 上將盃</option>
+	<option value="tsa-3" cup="venture">Silph 歷險盃</option>
 	<option value="tsa-3" cup="factions">Silph Factions (Floating City)</option>
 	<option value="community" cup="adl">Arrohh Draft League</option>
 
@@ -81,6 +81,7 @@
 	<option value="vortex" cat="tsa-3">漩渦盃</option>
 	<option value="prismatic" cat="tsa-3">稜鏡盃</option>
 	<option value="commander" cat="tsa-3">上將盃</option>
+    <option value="venture" cat="tsa-3">Venture Cup</option>
 	<option value="factions" cat="tsa-3">Floating City</option>
 	<option value="custom" cat="custom">自訂排名</option>
 </select>

@@ -40,6 +40,7 @@ require_once '../header.php';
 				<option value="10000 gobattleleague">GO 大師對戰聯盟(無上限)</option>
 				<option value="2500 premier">紀念盃 (2500)</option>
                 <option value="10000 classic">GO 大師對戰聯盟 (經典)</option>
+                <option value="1500 kanto">Kanto Cup</option>
                 <option value="1500 retro">復古盃</option>
                 <option value="1500 commander">Silph 上將盃</option>
 				<option value="1500 all">超級聯盟 CP 1500</option>

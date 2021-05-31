@@ -960,7 +960,7 @@ var InterfaceMaster = (function () {
 				$(".overview-section.coverage .notes div[grade=\""+threatGrade.letter+"\"]").show();
 
 				// Bulk grade, average HP x Defense stats
-				var leagueAverageBulk = [22000,35000,35000];
+				var leagueAverageBulk = [22000,35000,35000,10000];
 				var averageBulk = 0;
 				var goalBulk = leagueAverageBulk[0];
 
@@ -978,6 +978,8 @@ var InterfaceMaster = (function () {
 					}
 				} else if(battle.getCP() == 10000){
 					goalBulk = leagueAverageBulk[2];
+				} else if(battle.getCP() == 500){
+					goalBulk = leagueAverageBulk[3];
 				}
 
 				var bulkGrade = self.calculateLetterGrade(averageBulk, goalBulk);
@@ -1477,40 +1479,40 @@ var InterfaceMaster = (function () {
 					var cp = battle.getCP(true);
 					var cup = battle.getCup().name;
 
-						var pokes = multiSelectors[0].getPokemonList();
-						var moveStrs = [];
-						var teamStr = "team-builder/"+cup+"/"+cp+"/";
+					var pokes = multiSelectors[0].getPokemonList();
+					var moveStrs = [];
+					var teamStr = "team-builder/"+cup+"/"+cp+"/";
+
+					for(var i = 0; i < pokes.length; i++){
+
+						var poke = pokes[i];
+
+						moveStrs.push(poke.generateURLMoveStr());
+
+						teamStr += pokes[i].generateURLPokeStr("team-builder");
+
+						if(i < pokes.length - 1){
+							teamStr += "%2C";
+						}
+					}
+
+					// Add move strings to URL
+
+					var link = host + teamStr;
+
+					$(".share-link input").val(link);
+
+					// Push state to browser history so it can be navigated, only if not from URL parameters
+
+					if(get){
+
+						var sameTeam = true;
 
 						for(var i = 0; i < pokes.length; i++){
-
-							var poke = pokes[i];
-
-							moveStrs.push(poke.generateURLMoveStr());
-
-							teamStr += pokes[i].generateURLPokeStr("team-builder");
-
-							if(i < pokes.length - 1){
-								teamStr += "%2C";
+							if(get["p"+(i+1)] != pokes[i].speciesId){
+								sameTeam = false;
 							}
 						}
-
-						// Add move strings to URL
-
-						var link = host + teamStr;
-
-						$(".share-link input").val(link);
-
-						// Push state to browser history so it can be navigated, only if not from URL parameters
-
-						if(get){
-
-							var sameTeam = true;
-
-							for(var i = 0; i < pokes.length; i++){
-								if(get["p"+(i+1)] != pokes[i].speciesId){
-									sameTeam = false;
-								}
-							}
 
 							if(get["cup"] != cup){
 								sameTeam = false;

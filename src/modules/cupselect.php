@@ -2,7 +2,6 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
 	<option value="official" cup="element">元素盃</option>
-	<option value="community" cup="kanto">Kanto Cup</option>
 	<option value="tsa-3" cup="commander">Silph 上將盃</option>
 	<option value="tsa-3" cup="venture">Silph 歷險盃</option>
 	<option value="tsa-3" cup="factions">Silph Factions (Floating City)</option>

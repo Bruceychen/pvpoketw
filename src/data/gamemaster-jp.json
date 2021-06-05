@@ -4368,6 +4368,27 @@
         "thirdMoveCost": 50000,
         "released": true
     }, {
+        "dex": 79,
+        "speciesName": "ヤドン (ガラル)",
+        "speciesId": "slowpoke_galarian",
+        "baseStats": {
+            "atk": 109,
+            "def": 98,
+            "hp": 207
+        },
+        "types": ["psychic", "none"],
+        "fastMoves": ["CONFUSION", "IRON_TAIL"],
+        "chargedMoves": ["SURF", "PSYSHOCK", "PSYCHIC"],
+        "defaultIVs": {
+            "cp500": [16, 5, 10, 12],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "tags": ["galarian"],
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true
+    }, {
         "dex": 80,
         "speciesName": "ヤドラン",
         "speciesId": "slowbro",
@@ -4411,6 +4432,44 @@
         "thirdMoveCost": 50000,
         "released": true
     }, {
+        "dex": 80,
+        "speciesName": "ヤドラン (ガラル)",
+        "speciesId": "slowbro_galarian",
+        "baseStats": {
+            "atk": 182,
+            "def": 156,
+            "hp": 216
+        },
+        "types": ["poison", "psychic"],
+        "fastMoves": ["CONFUSION", "WATER_GUN", "POISON_JAB"],
+        "chargedMoves": ["FOCUS_BLAST", "PSYCHIC", "SLUDGE_BOMB"],
+        "defaultIVs": {
+			"cp500": [7.5, 9, 15, 13],
+            "cp1500": [22.5, 6, 15, 13],
+            "cp2500": [46, 5, 15, 14]
+        },
+        "tags": ["galarian"],
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true
+    }, {
+	    "dex": 80,
+	    "speciesName": "ヤドラン (メガ)",
+	    "speciesId": "slowbro_mega",
+	    "baseStats": {
+	        "atk": 224,
+	        "def": 259,
+	        "hp": 216
+	    },
+	    "types": ["water", "psychic"],
+	    "fastMoves": ["CONFUSION", "WATER_GUN"],
+	    "chargedMoves": ["ICE_BEAM", "PSYCHIC", "WATER_PULSE"],
+	    "defaultIVs": {
+	        "cp1500": [14.5, 9, 15, 9],
+	        "cp2500": [25, 5, 10, 6]
+	    },
+	    "tags": ["mega"]
+	}, {
         "dex": 81,
         "speciesName": "コイル",
         "speciesId": "magnemite",
@@ -8397,6 +8456,27 @@
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true
+    }, {
+        "dex": 199,
+        "speciesName": "ヤドキング (ガラル)",
+        "speciesId": "slowking_galarian",
+        "baseStats": {
+            "atk": 190,
+            "def": 180,
+            "hp": 216
+        },
+        "types": ["poison", "psychic"],
+        "fastMoves": ["HEX", "CONFUSION", "ACID"],
+        "chargedMoves": ["FUTURE_SIGHT", "SHADOW_BALL", "SLUDGE_WAVE"],
+        "defaultIVs": {
+			"cp500": [7, 6, 15, 8],
+            "cp1500": [20.5, 5, 11, 15],
+            "cp2500": [38.5, 4, 14, 12]
+        },
+        "tags": ["galarian"],
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": false
     }, {
         "dex": 200,
         "speciesName": "ムウマ",

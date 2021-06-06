@@ -680,11 +680,16 @@
         "partySize": 3
     }, {
         "name": "remix",
-        "title": "Great League Remix",
+        "title": "Remix",
         "include": [],
         "exclude": [{
             "filterType": "id",
-            "values": ["venusaur", "raichu", "raichu_alolan", "marowak_alolan", "marowak", "azumarill", "umbreon", "skarmory", "swampert", "galvantula", "stunfisk", "stunfisk_galarian", "talonflame"]
+            "values": ["venusaur", "ninetales_alolan", "marowak_alolan", "meganium", "azumarill", "politoed", "umbreon", "skarmory", "swampert", "pelipper", "vigoroth", "medicham", "altaria", "deoxys_defense", "bastiodon", "toxicroak", "scrafty", "galvantula", "stunfisk_galarian", "talonflame"],
+			"leagues": [1500]
+        }, {
+            "filterType": "id",
+            "values": ["venusaur", "charizard", "clefable", "poliwrath", "muk_alolan", "gyarados", "lapras", "articuno", "umbreon", "scizor", "swampert", "registeel", "empoleon", "togekiss", "giratina_altered", "cresselia", "escavalier", "talonflame", "melmetal", "obstagoon"],
+			"leagues": [2500]
         }, {
             "filterType": "tag",
             "values": ["mega"]
@@ -839,14 +844,14 @@
         "title": "Silph Factions",
         "include": [{
             "filterType": "type",
-            "values": ["ground", "flying", "steel", "normal"]
+            "values": ["bug", "dark", "fairy", "poison", "water"]
         }],
         "exclude": [{
             "filterType": "tag",
             "values": ["mega", "mythical", "shadow", "regional"]
         }, {
             "filterType": "id",
-            "values": ["stunfisk_galarian", "skarmory", "altaria", "bastiodon", "registeel", "chansey", "pidgeot"]
+            "values": ["azumarill"]
         }]
     }, {
         "name": "venture",
@@ -8832,6 +8837,7 @@
             "cp1500": [22, 4, 9, 15],
             "cp2500": [42, 5, 15, 13]
         },
+		"searchPriority": 3,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,

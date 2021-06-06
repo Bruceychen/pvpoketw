@@ -19,7 +19,9 @@
 			<select class="quick-fill-select">
 				<option value="new">建立新隊伍</option>
 				<option value="great" type="great" class="multi-battle">超級(1500)聯盟 Meta</option>
+                <option value="remix" type="great" class="multi-battle">超級(1500)聯盟 Remix Meta</option>
 				<option value="ultra" type="ultra" class="hide multi-battle">高級(2500)聯盟 Meta</option>
+                <option value="remixultra" type="ultra" class="hide multi-battle">高級(2500)聯盟 Remix Meta</option>
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
 				<option value="premierultra" type="ultra" class="hide multi-battle">高級紀念盃 Meta</option>
 				<option value="premier" type="master" class="hide multi-battle">大師紀念盃 Meta</option>

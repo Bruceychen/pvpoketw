@@ -27,7 +27,7 @@
 				<option value="premier" type="master" class="hide multi-battle">大師紀念盃 Meta</option>
                 <option value="element" type="little" class="multi-battle">元素盃 Meta</option>
                 <option value="venture" type="great" class="multi-battle">Silph 歷險盃 Meta</option>
-				<option value="factions" type="great" class="multi-battle">Silph Factions Meta (Floating City)</option>
+                <option value="factions" type="great" class="multi-battle">Silph Factions Meta (Atlantis)</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

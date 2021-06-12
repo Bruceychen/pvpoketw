@@ -33,11 +33,18 @@ require_once 'header.php';
 			    <h3 class="section-title">自訂替補寶可夢</h3>
                 <p>自行指定1到多個替補候選寶可夢清單進行評估。</p>
                 <p>注意：此處之自訂清單將會作為最後meta scorecard的項目，而不會包含、計算指定主題賽中其他非清單羅列之寶可夢作為推薦替補。</p>
-			    <div class="team-build custom-alternatives">
-			        <?php require 'modules/pokemultiselect.php'; ?>
-			    </div>
-			</div>
-		</div>
+                <div class="team-build custom-alternatives">
+                    <?php require 'modules/pokemultiselect.php'; ?>
+                </div>
+            </div>
+            <div class="flex-section">
+                <h3 class="section-title">Exclude</h3>
+                <p>自行指定排除，建議寶可夢清單中 1到多個寶可夢。</p>
+                <div class="team-build exclude-alternatives">
+                    <?php require 'modules/pokemultiselect.php'; ?>
+                </div>
+            </div>
+        </div>
 		<h3 class="section-title">選項設定</h3>
 		<div class="flex poke">
 		    <div class="team-option">

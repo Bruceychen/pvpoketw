@@ -148,11 +148,11 @@ require_once '../header.php';
 <div class="section white updates">
 	<h3>What's New</h3>
 
-	<h4>v1.21.0 (April 25, 2021)</h4>
-	<ul>
-	    <li>追加 <a href="<?php echo $WEB_ROOT; ?>train/editor/">訓練隊伍編輯器</a> 可讓你指定AI對戰訓練中對手所使用的隊伍組合。</li>
-	    <li>在<a href="<?php echo $WEB_ROOT; ?>train/">AI對戰訓練</a> 中你可以匯入透過上述編輯器所預先設計的隊伍，或是從<li><a href="https://gobattlelog.com">GoBattleLog.com</a> 選擇較常見的組合進行對戰訓練。</li>.</li>
-	</ul>
+    <h4>v1.22.9 (June 10, 2021)</h4>
+    <ul>
+        <li>Charged Move minigame now charges on hold instead of rapid clicks/taps. Also displays damage percent.</li>
+        <li>The Training bot now avoids baiting if its best Charged Move doesn't threaten a shield. (e.g. Galarian Stunfisk players typically throw Earthquake against Azumarill rather than Rock Slide.)</li>
+    </ul>
 
 </div>
 

@@ -57,6 +57,8 @@ require_once 'header.php'; ?>
 		<div class="supporter">Lariioo</div>
         <div class="supporter">MeFool1990ce</div>
         <div class="supporter">Lariioo</div>
+        <div class="supporter">Kotak1002</div>
+        <div class="supporter">DrLambda</div>
 	</div>
 
 	<h2 class="center">Master Supporters</h2>
@@ -189,7 +191,7 @@ require_once 'header.php'; ?>
 			<div class="supporter"><a href="https://www.youtube.com/user/jordangerm" target="_blank">Jordie Pop</a></div>
 		</div>
 		<div class="supporter-container">
-			<div class="space"></div>
+            <img src="<?php echo $WEB_ROOT; ?>img/sponsors/inadequance.png" height="85" />
             <div class="supporter"><a href="https://www.twitch.tv/inadequance_" target="_blank">Inadequance</a></div>
         </div>
         <div class="supporter-container">

@@ -107,6 +107,8 @@ function fastmoveAbbreviationArrTranslate(fastmove){
         'WG':'水槍',
         'MSl':'擲泥',
         'FF':'火焰牙',
+        'G' :'起風',
+        'PSt' :'毒針',
         'default':''
     };
     // return (allFastmoves[fastmove] || allFastmoves['default']);
@@ -223,6 +225,9 @@ function chargemoveAbbreviationArrTranslate(chargemove){
         'FeS' :'致命針刺',
         'Sy' :'同步干擾',
         'LfS' :'飛葉風暴',
+        'PF':'劇毒牙',
+        'FrD':'羽毛舞',
+        'MW':'濁流',
         'default':''
     };
     // return (allSpecialmoves[chargemove] || allSpecialmoves['default']);

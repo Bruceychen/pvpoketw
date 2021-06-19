@@ -13,6 +13,10 @@
 		"fastMove": "ROCK_THROW"
 	},
 	{
+		"speciesId": "binacle",
+		"fastMove": "SCRATCH"
+	},
+	{
 		"speciesId": "exeggcute",
 		"chargedMoves": ["SEED_BOMB","ANCIENT_POWER"]
 	},
@@ -39,6 +43,14 @@
 	{
 		"speciesId": "shellder",
 		"chargedMoves": ["ICY_WIND","WATER_PULSE"]
+	},
+	{
+		"speciesId": "bulbasaur",
+		"chargedMoves": ["SEED_BOMB","SLUDGE_BOMB"]
+	},
+	{
+		"speciesId": "bulbasaur_shadow",
+		"chargedMoves": ["SEED_BOMB","SLUDGE_BOMB"]
 	},
 	{
 		"speciesId": "ducklett",

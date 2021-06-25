@@ -3,6 +3,7 @@
 	<option value="official" cup="premier">紀念盃</option>
     <option value="official" cup="remix">Remix</option>
 	<option value="official" cup="element">元素盃</option>
+    <option value="official" cup="bidoof">Bidoof Cup</option>
 	<option value="tsa-3" cup="venture">Silph 歷險盃</option>
     <option value="tsa-3" cup="factions">Silph Factions (Atlantis)</option>
 	<option value="community" cup="adl">Arrohh Draft League</option>
@@ -29,6 +30,7 @@
     <option value="remix" cat="official">Remix</option>
 	<option value="little" cat="official">小小盃</option>
 	<option value="element" cat="official">元素盃</option>
+    <option value="bidoof" cat="official">Bidoof Cup</option>
     <option value="holiday" cat="official">假日盃</option>
     <option value="classic" cat="official">大師經典賽 (XL 禁止)</option>
 	<option value="safari" cat="community">Montreal Safari Cup</option>

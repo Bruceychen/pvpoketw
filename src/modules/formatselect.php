@@ -7,6 +7,7 @@
 	<option value="10000" cup="all" meta-group="master">大師聯盟</option>
 	<option value="10000" cup="classic" meta-group="master">大師聯盟 (經典賽)</option>
 	<option value="500" cup="element" meta-group="element">元素盃</option>
+    <option value="500" cup="bidoof" meta-group="bidoof">Bidoof Cup</option>
 	<option value="1500" cup="venture" meta-group="venture">Silph 歷險盃</option>
 	<option value="1500" cup="factions" meta-group="factions">Silph Factions (Atlantis)</option>
 	<option value="1500" cup="adl" meta-group="great">Arrohh Draft League</option>

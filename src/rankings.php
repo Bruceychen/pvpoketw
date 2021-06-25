@@ -79,6 +79,10 @@ switch($cup){
         $league = $league . ' Remix';
         break;
 
+    case "bidoof":
+        $league = 'Bidoof Cup';
+        break;
+
 }
 
 $META_TITLE = $league . ' PvP Rankings';

@@ -26,7 +26,7 @@
 				<option value="premierultra" type="ultra" class="hide multi-battle">高級紀念盃 Meta</option>
 				<option value="premier" type="master" class="hide multi-battle">大師紀念盃 Meta</option>
                 <option value="element" type="little" class="multi-battle">元素盃 Meta</option>
-                <option value="bidoof" type="little" class="multi-battle">Bidoof Cup Meta</option>
+                <option value="bidoof" type="little" class="multi-battle">大牙狸盃 Meta</option>
                 <option value="venture" type="great" class="multi-battle">Silph 歷險盃 Meta</option>
                 <option value="factions" type="great" class="multi-battle">Silph Factions Meta (Atlantis)</option>
 			</select>

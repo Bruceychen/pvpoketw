@@ -109,6 +109,7 @@ function fastmoveAbbreviationArrTranslate(fastmove){
         'FF':'火焰牙',
         'G' :'起風',
         'PSt' :'毒針',
+        'QA' :'電光一閃',
         'default':''
     };
     // return (allFastmoves[fastmove] || allFastmoves['default']);
@@ -228,6 +229,9 @@ function chargemoveAbbreviationArrTranslate(chargemove){
         'PF':'劇毒牙',
         'FrD':'羽毛舞',
         'MW':'濁流',
+        'Wr':'緊束',
+        'AJ':'水流噴射',
+        'Crbh':'蟹鉗錘',
         'default':''
     };
     // return (allSpecialmoves[chargemove] || allSpecialmoves['default']);

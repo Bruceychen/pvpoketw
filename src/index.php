@@ -84,10 +84,10 @@
     <p>Any financial support or donate please refer to original creator's <a href="http://patreon.com/user?u=16528512">Patreon</a>
 
     <p>Brucey</p>
-    <h3>最後更新時間<h3>
+    <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Sat Jun 26 11:30:00 2021 +0800</li>
-                <li>原版最後版本時間：Fri Jun 25 10:33:04 2021 -0500</li>
+                <li>中文版最後更新時間：Mon Jun 28 13:10:00 2021 +0800</li>
+                <li>原版最後版本時間：Sun Jun 27 20:14:55 2021 -0500</li>
             </ul>
 </div>
 

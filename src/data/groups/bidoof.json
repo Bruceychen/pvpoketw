@@ -43,5 +43,15 @@
 		"speciesId":"bidoof",
 		"fastMove":"TACKLE",
 		"chargedMoves":["HYPER_FANG","SHADOW_BALL"]
+	},
+	{
+		"speciesId":"bidoof",
+		"fastMove":"TAKE_DOWN",
+		"chargedMoves":["SUPER_POWER","CRUNCH"]
+	},
+	{
+		"speciesId":"bidoof",
+		"fastMove":"TACKLE",
+		"chargedMoves":["SUPER_POWER","CRUNCH"]
 	}
 ]

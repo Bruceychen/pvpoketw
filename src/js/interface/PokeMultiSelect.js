@@ -510,8 +510,6 @@ function PokeMultiSelect(element){
 		}
 
 		settings.levelCap = levelCap;
-
-		console.log(settings.levelCap);
 	}
 
 	// Convert the current Pokemon list into exportable and savable JSON

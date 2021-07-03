@@ -4,7 +4,7 @@
     <option value="official" cup="remix">Remix</option>
 	<option value="official" cup="element">元素盃</option>
     <option value="official" cup="bidoof">大牙狸盃</option>
-	<option value="tsa-3" cup="venture">Silph 歷險盃</option>
+    <option value="tsa-3" cup="nightfall">Silph Nightfall Cup</option>
     <option value="tsa-3" cup="factions">Silph Factions (Atlantis)</option>
 	<option value="community" cup="adl">Arrohh Draft League</option>
 

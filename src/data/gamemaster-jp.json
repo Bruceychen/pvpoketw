@@ -694,7 +694,8 @@
             "filterType": "tag",
             "values": ["mega"]
         }],
-        "partySize": 3
+        "partySize": 3,
+		"presetOnly": true
     }, {
         "name": "nightfall",
         "title": "Silph Nightfall Cup",
@@ -889,7 +890,8 @@
             "values": ["litleo", "barboach", "bellsprout", "budew", "buizel", "bulbasaur", "bulbasaur_shadow", "cacnea", "carvanha", "charmander", "cherubi", "chikorita", "chimchar", "chinchou", "corphish", "cyndaquil", "darumaka", "deerling", "ducklett", "exeggcute", "feebas", "ferroseed", "finneon", "foongus", "frillish", "goldeen", "growlithe", "hoppip", "horsea", "houndour", "kabuto", "krabby", "larvesta", "lileep", "litwick", "lotad", "magby", "magikarp", "mantyke", "mudkip", "numel", "oddish", "omanyte", "oshawott", "pansage", "pansear", "paras", "piplup", "poliwag", "ponyta", "psyduck", "remoraid", "seedot", "seel", "sewaddle", "shellos_east_sea", "shellos_west_sea", "shroomish", "slowpoke", "slugma", "snivy", "snover", "spheal", "squirtle", "surskit", "tangela", "tangela_shadow", "tentacool", "tepig", "tirtouga", "torchic", "totodile", "treecko", "turtwig", "tympole", "vulpix", "wailmer", "wingull", "wooper", "vulpix_shadow", "turtwig_shadow", "growlithe_shadow", "psyduck_shadow", "oddish_shadow", "hoppip_shadow", "houndour_shadow", "squirtle_shadow", "seedot_shadow", "mudkip_shadow", "poliwag_shadow", "exeggcute_shadow", "slowpoke_shadow", "charmander_shadow", "snover_shadow", "bulbusaur_shadow", "omanyte_shadow", "carvanha_shadow", "cacnea_shadow", "bellsprout_shadow", "magikarp_shadow", "shellder", "shellder_shadow", "cottonee", "sunkern", "clamperl", "shellos", "panpour", "petilil", "chespin", "froakie", "fennekin", "skrelp", "clauncher", "deerling", "binacle", "wooper_shadow", "horsea_shadow", "staryu", "lileep_shadow"]
         }],
         "exclude": [],
-		"partySize": 3
+		"partySize": 3,
+		"presetOnly": true
     }, {
         "name": "bidoof",
         "title": "Bidoof Cup",
@@ -2051,7 +2053,7 @@
         "released": true
     }, {
         "dex": 25,
-        "speciesName": "Pikachu (Kariyushi)",
+        "speciesName": "ピカチュウ (Kariyushi)",
         "speciesId": "pikachu_kariyushi",
         "baseStats": {
             "atk": 112,
@@ -2071,7 +2073,7 @@
         "released": true
     }, {
         "dex": 25,
-        "speciesName": "Pikachu (Pop Star)",
+        "speciesName": "ピカチュウ (Pop Star)",
         "speciesId": "pikachu_pop_star",
         "baseStats": {
             "atk": 112,
@@ -2091,7 +2093,7 @@
         "released": true
     }, {
         "dex": 25,
-        "speciesName": "Pikachu (Rock Star)",
+        "speciesName": "ピカチュウ (Rock Star)",
         "speciesId": "pikachu_rock_star",
         "baseStats": {
             "atk": 112,
@@ -2111,7 +2113,7 @@
         "released": true
     }, {
         "dex": 25,
-        "speciesName": "Pikachu (5th Anniversary)",
+        "speciesName": "ピカチュウ (5th Anniversary)",
         "speciesId": "pikachu_5th_anniversary",
         "baseStats": {
             "atk": 112,

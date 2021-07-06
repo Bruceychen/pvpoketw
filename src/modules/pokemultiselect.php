@@ -31,6 +31,7 @@
 				<option value="element" type="little" class="multi-battle">元素盃 Meta</option>
 				<option value="nightfall" type="great" class="multi-battle">Silph Nightfall Cup Meta</option>
 				<option value="factions" type="great" class="multi-battle">Silph Factions Meta (Atlantis)</option>
+				<option value="marsh" type="great" class="multi-battle">7-Eleven Marsh Cup Meta<option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

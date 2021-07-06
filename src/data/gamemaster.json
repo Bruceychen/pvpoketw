@@ -607,6 +607,7 @@
     }, {
         "name": "marsh",
         "title": "Marsh Cup",
+		"link": "https://silph.gg/factions/cycle/liga711-torneo3",
         "include": [{
             "filterType": "type",
             "values": ["poison", "ghost", "bug", "grass", "water"]
@@ -708,7 +709,7 @@
             "values": ["mega"]
         }, {
             "filterType": "id",
-            "values": ["mr_rime", "mr_mime_galarian"]
+            "values": ["mr_rime", "mr_mime_galarian", "lickitung", "chansey", "pidgeot"]
         }]
     }, {
         "name": "holiday",
@@ -2113,7 +2114,7 @@
         "released": true
     }, {
         "dex": 25,
-        "speciesName": "皮卡丘 五週年",
+        "speciesName": "皮卡丘 五週年氣球",
         "speciesId": "pikachu_5th_anniversary",
         "baseStats": {
             "atk": 112,

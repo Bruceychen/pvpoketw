@@ -67,6 +67,10 @@ switch($cup){
         $league = 'Silph Nightfall Cup';
         break;
 
+    case "continentals-3":
+        $league = 'Continentals';
+        break;
+
     case "element":
         $league = 'Element Cup';
         break;
@@ -163,12 +167,12 @@ require_once 'header.php';
 
 	<div class="continentals hide">
 		<div class="flex">
-			<div class="check" value="0"><span></span>藍</div>
-			<div class="check" value="1"><span></span>紅</div>
-			<div class="check" value="2"><span></span>黃+白</div>
-			<div class="check" value="3"><span></span>綠+黑</div>
-			<div class="check" value="4"><span></span>棕+粉紅</div>
-			<div class="check" value="5"><span></span>紫+灰</div>
+            <div class="check" value="1"><span></span>Slot 1</div>
+            <div class="check" value="2"><span></span>Slot 2</div>
+            <div class="check" value="3"><span></span>Slot 3</div>
+            <div class="check" value="4"><span></span>Slot 4</div>
+            <div class="check" value="5"><span></span>Slot 5</div>
+            <div class="check" value="6"><span></span>Slot 6</div>
 		</div>
 	</div>
 

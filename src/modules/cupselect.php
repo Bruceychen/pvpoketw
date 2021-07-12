@@ -3,7 +3,7 @@
 	<option value="official" cup="premier">紀念盃</option>
     <option value="official" cup="remix">Remix</option>
 	<option value="official" cup="element">元素盃</option>
-    <option value="official" cup="bidoof">大牙狸盃</option>
+    <option value="tsa-3" cup="continentals-3">Silph Continentals</option>
     <option value="tsa-3" cup="nightfall">Silph Nightfall Cup</option>
     <option value="tsa-3" cup="factions">Silph Factions (Atlantis)</option>
     <option value="tsa-3" cup="marsh">7-Eleven Marsh Cup</option>
@@ -85,6 +85,7 @@
 	<option value="prismatic" cat="tsa-3">稜鏡盃</option>
 	<option value="commander" cat="tsa-3">上將盃</option>
     <option value="venture" cat="tsa-3">Venture Cup</option>
+    <option value="continentals-3" cat="tsa-3">Continentals</option>
 	<option value="factions" cat="tsa-3">Floating City</option>
 	<option value="custom" cat="custom">自訂排名</option>
 </select>

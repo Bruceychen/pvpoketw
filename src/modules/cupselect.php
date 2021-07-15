@@ -2,9 +2,7 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
     <option value="official" cup="remix">Remix</option>
-	<option value="official" cup="element">元素盃</option>
     <option value="tsa-3" cup="continentals-3">Silph Continentals</option>
-    <option value="tsa-3" cup="nightfall">Silph Nightfall Cup</option>
     <option value="tsa-3" cup="factions">Silph Factions (Atlantis)</option>
     <option value="tsa-3" cup="marsh">7-Eleven Marsh Cup</option>
 

@@ -39,10 +39,9 @@ require_once '../header.php';
 				<option value="2500 gobattleleague">GO 高級對戰聯盟(2500)</option>
 				<option value="10000 gobattleleague">GO 大師對戰聯盟(無上限)</option>
                 <option value="1500 remix">Remix (超級)</option>
+                <option value="2500 remix">Remix (高級)</option>
 				<option value="2500 premier">紀念盃 (2500)</option>
                 <option value="10000 classic">GO 大師對戰聯盟 (經典)</option>
-                <option value="500 element">元素盃</option>
-                <option value="1500 nightfall">Silph Nightfall Cup</option>
 				<option value="1500 all">超級聯盟 CP 1500</option>
 				<option value="2500 all">高級聯盟 CP 2500</option>
 				<option value="10000 all">大師聯盟 CP 無上限</option>

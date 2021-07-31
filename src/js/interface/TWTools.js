@@ -233,6 +233,7 @@ function chargemoveAbbreviationArrTranslate(chargemove){
         'AJ':'水流噴射',
         'Crbh':'蟹鉗錘',
         'FmB':'蓄能焰襲',
+        'TBB':'高科技光炮 火',
         'default':''
     };
     // return (allSpecialmoves[chargemove] || allSpecialmoves['default']);

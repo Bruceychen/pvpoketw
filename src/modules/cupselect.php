@@ -2,11 +2,10 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
     <option value="official" cup="remix">Remix</option>
-    <option value="tsa-3" cup="continentals-3">Silph Continentals</option>
     <option value="tsa-3" cup="factions">Silph Factions (Atlantis)</option>
     <option value="tsa-3" cup="marsh">7-Eleven Marsh Cup</option>
-    <option value="tsa-1" cup="boulder">Best in Midwest Boulder Cup</option>
     <option value="community" cup="shadow">TeamRocketPvP Shadow Cup 3.0</option>
+    <option value="community" cup="cutie">Regicide PvP Charity Tournament</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>
@@ -49,6 +48,7 @@
 	<option value="slitzko" cat="community">Slitzko Cup</option>
     <option value="johto" cat="community">Johto Cup</option>
     <option value="adl" cat="community">ADL</option>
+    <option value="cutie" cat="community">Cutie Cup</option>
 	<option value="jungle"  cat="tsa-1">叢林盃</option>
 	<option value="rainbow" cat="tsa-1">彩虹盃</option>
 	<option value="championships-1" cat="tsa-1">第一季冠軍賽</option>

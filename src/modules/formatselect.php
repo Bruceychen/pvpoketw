@@ -6,7 +6,8 @@
 	<option value="2500" cup="premier" meta-group="premierultra">高級聯盟 (紀念盃)</option>
 	<option value="10000" cup="all" meta-group="master">大師聯盟</option>
 	<option value="10000" cup="classic" meta-group="master">大師聯盟 (經典賽)</option>
-	<option value="1500" cup="factions" meta-group="factions">Silph Factions (Atlantis)</option>
+    <option value="1500" cup="factions" meta-group="factions">Silph Factions (Dungeon)</option>
+    <option value="1500" cup="nightfall" meta-group="nightfall">Silph Factions (Nightfall)</option>
 	<option value="1500" cup="marsh" meta-group="marsh">7-Eleven Marsh Cup</option>
     <option value="1500" cup="shadow" meta-group="shadow">TeamRocketPvP Shadow Cup 3.0</option>
     <option value="1500" cup="cutie" meta-group="shadow">Regicide PvP Charity Tournament</option>

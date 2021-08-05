@@ -130,7 +130,7 @@ require_once '../header.php';
   <p>
   <strong>推薦招式：</strong>
   <em>冰礫</em>
-  + Surf & Skull Bash or <em>Ice Beam</em>
+  + 衝浪 & 火箭頭錘 or <em>冰凍光束</em>
   <em>
 	  <br/>
   </em>
@@ -145,16 +145,16 @@ require_once '../header.php';
   </div>
 
   <a name="ho-oh"></a>
-  <h3 class="article-header">Ho-Oh</h3>
+  <h3 class="article-header">鳳王</h3>
   <div class="article-section">
   <p>
   <strong>推薦招式：</strong>
-  Incinerate + Brave Bird & <em>Earthquake</em>
+  燒盡 + 勇鳥猛攻 & <em>地震</em>
   <em>
 	  <br/>
   </em>
   <strong>適用於： </strong>
-  Master League
+  大師聯盟(CP無限制)
   </p>
   <p>Ho-Oh received Earthquake as an exclusive move alongside Fire Punch Groudon and Grass Knot Cresselia. At the time it didn't spark much interest - not until the other shoe dropped with Incinerate. Now able to put its best foot forward, Ho-Oh with Incinerate and Earthquake is capable of contending with the best of Master League.</p>
   <p>Ho-Oh can challenge the reigning master, Dialga, as well as other key targets like Groudon, Togekiss, and Mewtwo. It can even survive a 2x super effective Rock Slide from Melmetal, and Brave Bird puts a decent dent into threats like Kyogre and Giratina. All in all, Ho-Oh has the moves and stats to be competitive.</p>
@@ -167,8 +167,8 @@ require_once '../header.php';
   <div class="article-section">
 <p>
     <strong>推薦招式：</strong>
-    <em>Thunder Shock</em>
-    + Drill Peck &amp; Thunderbolt or Thunder
+    <em>電擊</em>
+    + 啄鑽 &amp; 十萬伏特 或 打雷
     <em>
         <br/>
     </em>
@@ -222,10 +222,10 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
 	<div class="article-section">
 <p>
     <strong>推薦招式：</strong>
-    <em>Wing Attack</em>
-    + <em>Blast Burn</em> &amp; Dragon Claw, or<br>
-	<em>Dragon Breath</em>
-	+ <em>Blast Burn</em> &amp; Dragon Claw<br>
+    <em>翅膀攻擊</em>
+    + <em>爆炸烈焰</em> &amp; 龍爪，或<br>
+	<em>龍息</em>
+	+ <em>爆炸烈焰</em> &amp; 龍爪<br>
     <strong>適用於：</strong>
     Great League, Ultra League, Premier Cup, Silph Arena
 </p>
@@ -238,29 +238,29 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
         <tr>
             <td valign="top">
                 <p>
-                    <strong>Move</strong>
+                    <strong>招式名稱</strong>
                 </p>
             </td>
             <td valign="top">
                 <p>
-                    <strong>Turns</strong>
+                    <strong>施放回合(轉)</strong>
                 </p>
             </td>
             <td valign="top">
                 <p>
-                    <strong>Damage Per Turn</strong>
+                    <strong>每回合(轉)傷害</strong>
                 </p>
             </td>
             <td valign="top">
                 <p>
-                    <strong>Energy Per Turn</strong>
+                    <strong>每回合(轉)蓄能量</strong>
                 </p>
             </td>
         </tr>
 		<tr>
             <td valign="top">
                 <p>
-                    Dragon Breath
+                    龍息
                 </p>
             </td>
             <td valign="top">
@@ -282,7 +282,7 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
         <tr>
             <td valign="top">
                 <p>
-                    Wing Attack
+                    翅膀攻擊
                 </p>
             </td>
             <td valign="top">
@@ -304,7 +304,7 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
         <tr>
             <td valign="top">
                 <p>
-                    Fire Spin
+                    火焰旋渦
                 </p>
             </td>
             <td valign="top">
@@ -326,7 +326,7 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
         <tr>
             <td valign="top">
                 <p>
-                    Air Slash
+                    空氣斬
                 </p>
             </td>
             <td valign="top">
@@ -374,8 +374,8 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
   <div class="article-section">
 <p>
   <strong>推薦招式：</strong>
-  Counter
-  + Blaze Kick &amp; <em>Stone Edge</em>
+  雙倍奉還
+  + 火焰踢 &amp; <em>尖石攻擊</em>
   <em>
 	  <br/>
   </em>
@@ -397,13 +397,13 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
 <div class="article-section">
 <p>
     <strong>推薦招式：</strong>
-    Psycho Cut + <em>Psystrike </em>&amp; Focus Blast or
+    精神利刃 + <em>精神擊破 </em>&amp; 真氣彈 or
     <em>
-        Shadow Ball
+        暗影球
         <br/>
     </em>
     <strong>適用於：</strong>
-    Master League
+    大師聯盟(CP無限制)
 </p>
 <p>
     Mewtwo has been in raids with Psytrike and Shadow Ball as exclusive moves,
@@ -424,9 +424,9 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
 	<h3 class="article-header">夢幻 (Mew)</h3>
 	<div class="article-section">
 <p>
-	<strong>推薦招式：</strong> Shadow Claw + Wild Charge & Surf or Flame Charge<br>
+	<strong>推薦招式：</strong> 暗影爪 + 瘋狂伏特 & 衝浪 or 蓄能焰襲<br>
     <strong>適用於：</strong>
-    Great League
+    超級聯盟(CP1500)
 </p>
 <p>
     Mew is a unique Pokemon on this list because it doesn’t have a legacy move
@@ -456,36 +456,36 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
 </p>
 <ul type="disc">
     <li>
-        <strong>Hydro Cannon Swampert: </strong>
-        Great, Ultra, Master, Silph Arena<strong></strong>
+        <strong>加農水砲 巨沼怪: </strong>
+        官方超級、高級、大師聯盟，Silph聯盟<strong></strong>
     </li>
     <li>
-        <strong>Frenzy Plant Venusaur: </strong>
-        Great, Ultra, Silph Arena<strong></strong>
+        <strong>瘋狂植物 妙蛙花: </strong>
+        官方超級、高級，Silph聯盟<strong></strong>
     </li>
     <li>
-        <strong>Frenzy Plant Meganium: </strong>
-        Great, Ultra, Silph Arena<strong></strong>
+        <strong>瘋狂植物 大竺葵: </strong>
+        官方超級、高級，Silph聯盟<strong></strong>
     </li>
     <li>
-        <strong>Meteor Mash Metagross: </strong>
-        Master<strong></strong>
+        <strong>彗星拳 巨金怪: </strong>
+        官方大師聯盟<strong></strong>
     </li>
 	<li>
-        <strong>Blast Burn Charizard: </strong>
-        Ultra, Silph Arena<strong></strong>
+        <strong>爆炸烈焰 噴火龍: </strong>
+        官方高級，Silph聯盟<strong></strong>
     </li>
     <li>
-        <strong>Last Resort Umbreon: </strong>
-        Great, Silph Arena<strong></strong>
+        <strong>珍藏 月亮伊布: </strong>
+        官方超級，Silph聯盟<strong></strong>
     </li>
     <li>
-        <strong>Hurricane Articuno: </strong>
-        Ultra<strong></strong>
+        <strong>暴風 急凍鳥: </strong>
+        官方高級聯盟<strong></strong>
     </li>
     <li>
-        <strong>Psystrike Armored Mewtwo: </strong>
-        Ultra<strong></strong>
+        <strong>精神擊破 超夢 裝甲型態: </strong>
+        官方高級聯盟<strong></strong>
     </li>
 </ul>
 <p>
@@ -506,39 +506,39 @@ another question worth asking:    <strong>what about Shadow Pokemon with their C
 </p>
 <ul type="disc">
     <li>
-        <strong>Blast Burn Shadow Charizard: </strong>
+        <strong>爆炸烈焰 暗影化 噴火龍: </strong>
         Extra attack potentially snatches matchups like Umbreon, Hypno,
         Melmetal, and Sableye. More bait dependent but with even more
         terrifying bait potential. Generally better with Fire Spin than Wing Attack; Shadow Charizard wants to
         avoid extended, Charged Move-based fights.<strong></strong>
     </li>
     <li>
-        <strong>Hydro Cannon Shadow Swampert: </strong>
+        <strong>加農水砲 暗影化 巨沼怪: </strong>
         In Great League and Master League, generally worse than regular
         Swampert. Less bulk stops Shadow Swampert short of Hydro Cannons
         regular Swampert can reach. Shadow Swampert fares better in Ultra
         League with more relative bulk to work with.
     </li>
     <li>
-        <strong>Frenzy Plant Shadow Venusaur: </strong>
+        <strong>瘋狂植物 暗影化 妙蛙花: </strong>
         Direct matchups are roughly the same as regular Venusaur, dropping
         Umbreon and Shiftry. More potent Frenzy Plant will KO Azumarill before
 it reaches Ice Beam but lower capacity to take that Ice Beam.        <strong></strong>
     </li>
     <li>
-        <strong>Shadow Meteor Mash Metagross: </strong>
+        <strong>彗星拳 暗影化 巨金怪: </strong>
         Shadow Metagross loses the ability to consistently combat Melmetal and
 Dialga. Top neutral damage generalist for the raiders in the room.        <strong></strong>
     </li>
     <li>
-        <strong>Earth Power Shadow Flygon: </strong>
+        <strong>大地之力 暗影化 沙漠蜻蜓: </strong>
         Similar to Charizard, Shadow boost gives Earth Power the extra strength
         it always needed and makes Dragon Claw spam even more deadly. Potential
         in Great and Ultra Leagues but vulnerable to top meta picks like
         Azumarill and Articuno.<strong></strong>
     </li>
 	<li>
-        <strong>Synchronoise Shadow Gardevoir: </strong>
+        <strong>同步干擾 暗影化 沙奈朵: </strong>
         One Shadow Pokemon that’s pretty much a universal upgrade. Synchronoise
         unlocks Shadow Gardevoir’s fastest available move which is
         valuable alongside Charm’s low energy gain.<strong></strong>
@@ -554,7 +554,7 @@ Dialga. Top neutral damage generalist for the raiders in the room.        <stron
 </p>
 <ul type="disc">
     <li>
-        <strong>Earthquake Politoed: </strong>
+        <strong>地震 蚊香蛙皇: </strong>
         Honorary mudboi with a lot of potential, capable of challenging Azumarill and Galarian Stunfisk. Pure Water type so it
         fully resists Water and Ice-type attacks and isn’t double weak to
         Grass. Also handles meta favorites like Alolan Marowak, and
@@ -563,13 +563,13 @@ Dialga. Top neutral damage generalist for the raiders in the room.        <stron
         with energy.<strong></strong>
     </li>
     <li>
-        <strong>Razor Leaf Weepinbell: </strong>
+        <strong>飛葉快刀 口呆花: </strong>
         Highest Attack stat of any Razor Leaf user in the game. Doesn’t offer
         many practical advantages over Victreebel, who has a much better move
 pool, but could be fun to play with, especially the Shadow variant.<strong></strong>
     </li>
 	<li>
-        <strong>Poison Jab/Icy Wind/Drill Run Seaking: </strong>
+        <strong>毒擊/冰凍之風/直衝鑽 金魚王: </strong>
         Former anti-meta unicorn is less worthy of an Elite TM these days with Galarian Stunfisk overtaking Registeel. May have themed cup potential down the road but don't invest until you're sure you want to use it.<strong></strong>
     </li>
 </ul>
@@ -577,10 +577,10 @@ pool, but could be fun to play with, especially the Shadow variant.<strong></str
 	</div>
 
   <div class="share-link-container">
-		<p>Share this article:</p>
+		<p>分享這篇文章:</p>
 		<div class="share-link">
 			<input type="text" value="https://pvpoke.com/articles/best-elite-tm-candidates-pvp/" readonly>
-			<div class="copy">Copy</div>
+			<div class="copy">複製</div>
 		</div>
 	</div>
 <?php require_once '../footer.php'; ?>

@@ -2,23 +2,22 @@
 
 <h1>Ranker</h1>
 <div class="section white">
-	<?php require 'modules/leagueselect.php'; ?>
-	<?php require 'modules/cupselect.php'; ?>
+    <?php require 'modules/formatselect.php'; ?>
+    <p></p>
+    <p>Select your format above and generate rankings. These will be saved as JSON to the '/data/rankings/' directory. This process may take a few minutes. Follow the instructions below to set up rankings for a new cup, or open the developer console for more info.</p>
 
-	<p>The button below will generate ranking data for all leagues and categories, and save it to the '/data' directory. Open the developer console before clicking to see output. This process may take a few minutes.</p>
+    <button class="button simulate">Simulate</button>
 
-	<button class="simulate">Simulate</button>
-
-	<div class="output"></div>
+    <div class="output"></div>
 </div>
 
-<script src="js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>
-<script src="js/pokemon/Pokemon.js?v=<?php echo $SITE_VERSION; ?>"></script>
-<script src="js/interface/RankerInterface.js?v=<?php echo $SITE_VERSION; ?>"></script>
-<script src="js/battle/TimelineEvent.js?v=<?php echo $SITE_VERSION; ?>"></script>
-<script src="js/battle/TimelineAction.js?v=<?php echo $SITE_VERSION; ?>"></script>
-<script src="js/battle/Battle.js?v=<?php echo $SITE_VERSION; ?>"></script>
-<script src="js/battle/RankerSandboxWeightingMoveset.js?v=<?php echo $SITE_VERSION; ?>"></script>
-<script src="js/RankerMain.js?v=<?php echo $SITE_VERSION; ?>"></script>
+<script src="js/GameMaster.js?v=2"></script>
+<script src="js/pokemon/Pokemon.js?v=2"></script>
+<script src="js/interface/RankerInterface.js?v=2"></script>
+<script src="js/battle/TimelineEvent.js?v=2"></script>
+<script src="js/battle/TimelineAction.js?v=2"></script>
+<script src="js/battle/Battle.js?v=2"></script>
+<script src="js/battle/RankerSandboxWeightingMoveset.js"></script>
+<script src="js/RankerMain.js"></script>
 
 <?php require_once 'footer.php'; ?>

@@ -132,6 +132,7 @@ require_once 'header.php'; ?>
 					<li><em>raichu_alolan</em></li>
 					<li><em>giratina_altered</em></li>
 					<li><em>deoxys_defense</em></li>
+                    <li><em>sirfetchd</em></li>
 					<li><em>pikachu,deoxys_defense,beedrill</em></li>
 				</ul>
 				<p>譯者按：亦可參考此份Google試算表文件：<a target="_blank" href="https://docs.google.com/spreadsheets/d/1m6gAODHNgF0YCMrwi5oFmVTDlYRe_9nYRL72V7iPMHg/edit#gid=1098261709">寶可夢英文id列表</a>

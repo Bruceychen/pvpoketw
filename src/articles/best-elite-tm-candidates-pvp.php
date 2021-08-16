@@ -13,7 +13,7 @@ require_once '../header.php';
 
 <div class="section article white">
 	<h1>PVP 厲害招式學習器使用取捨與考量建議</h1>
-	<div class="date">最後更新 2020 年 12 月 12 日</div>
+	<div class="date">最後更新 2021 年 8 月 13 日</div>
     <div class="translator">特別感謝世界級訓練家：格雷南波萬 協助翻譯。原文請見 <a href="https://pvpoke.com/articles/best-elite-tm-candidates-pvp/">原版網站</a></div>
 	<img src="<?php echo $WEB_ROOT;?>assets/articles/elite-tm-banner.jpg" />
 <p>
@@ -120,7 +120,7 @@ require_once '../header.php';
       確實，白海獅需要冰礫 + 冰凍之風來充分發揮他的潛力。但冰息+ 冰凍之風的組合卻也可以大幅增加白海獅對戰中的靈活性。
   </p>
   <p>
-      但這邊也提醒各位訓練家：白海獅冰凍之風的附加效果或攻擊力，很可能會隨著遊戲更動而像增強拳和原始之力一樣被削弱，也可能官方突然又解除絕版，使用普通的特殊招式學習器就能學會...而這些潛在風險也同樣適用於本篇文章中其他寶可夢的絕版招式。但如果你現在就想贏，現在就想和絕版招白海獅共同戰鬥，那就使用厲害招式學習器吧！
+      但這邊也提醒各位訓練家：白海獅冰凍之風的附加效果或攻擊力，很可能會隨著遊戲更動而像增強拳和原始之力一樣被削弱，也可能營運方突然又解除絕版，使用普通的特殊招式學習器就能學會...而這些潛在風險也同樣適用於本篇文章中其他寶可夢的絕版招式。但如果你現在就想贏，現在就想和絕版招白海獅共同戰鬥，那就使用厲害招式學習器吧！
   </p>
   </div>
 
@@ -135,10 +135,11 @@ require_once '../header.php';
 	  <br/>
   </em>
   <strong>適用於：</strong>
-  Great League, Ultra League, Premier Cup, Silph Arena
+  超級、高級聯盟，紀念盃、Silph聯盟
   </p>
   <p>
-	  The second Water/Ice type in this article, this majestic Pokemon is a powerful contender in most formats where it's allowed thanks to its bulk and powerful moveset. <b>Lapras is a top pick in the Ultra League Premier Cup</b> in particular. You'll need the legacy move Ice Shard. After that, Surf is always one of its preferred Charged Moves, followed by Skull Bash in Great League and Premier Cup, which hits hard and raises Lapras's defenses even further. If you're playing in regular Ultra League, you may want to consider another Elite TM on Ice Beam for super effective hits against Giratina.
+	  此篇推薦文的第二隻 水/冰 屬性寶可夢。憑藉其優秀的坦度及高傷害輸出的招式組，拉普拉斯得以和其他meta寶可夢競爭The second Water/Ice type in this article, this majestic Pokemon is a powerful contender in most formats where it's allowed thanks to its bulk and powerful moveset. <b>Lapras is a top pick in the Ultra League Premier Cup</b> in particular. You'll need the legacy move Ice Shard.
+      特殊招式部分，衝浪永遠都是此寶可夢的標配，搭配上高傷害以及能強化自身防禦的火箭頭槌，拉普拉斯將能在超級聯盟及紀念盃中有更佳的表現。如果你專攻於"非"紀念盃(包含傳說寶可夢)高級聯盟，你也可以考慮多使用一個厲害招式機以習得冰凍光束。此技能在對上騎拉帝納等傳說寶可夢時能有較佳的傷害輸出。
   </p>
   <p>In the Premier Cup, Lapras is one of the bulkiest Pokemon and synergizes well with starters like Charizard and Venusaur. It's forgiving to use and can dish out damage even in its bad matchups. If you don't have an Ice Shard Lapras in your collection, it's one of the best Elite TM candidates to date.</p>
   <p><b>Shadow Lapras has tradeoffs with regular Lapras</b>, but offers a harder hitting variant. In Great League, Shadow Lapras's Surf attacks are strong enough to take on Galarian Stunfisk, which regular Lapras can struggle with. It's a steep cost for Ultra League and doesn't provide many advantages over regular Lapras, but if you have the resources, more power to you!</p>
@@ -173,7 +174,7 @@ require_once '../header.php';
         <br/>
     </em>
     <strong>適用於：</strong>
-    Great League, Ultra League
+    超級、高級聯盟
 </p>
 <p>
     Thunder Shock Zapdos flew into raids a long while back, and although Zapdos
@@ -227,7 +228,7 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
 	<em>龍息</em>
 	+ <em>爆炸烈焰</em> &amp; 龍爪<br>
     <strong>適用於：</strong>
-    Great League, Ultra League, Premier Cup, Silph Arena
+    超級、高級聯盟，紀念盃、Silph聯盟
 </p>
 <p>Charizard has a slew of exclusive moves, including the October Community day move Dragon Breath. Blast Burn and Dragon Claw are almost always its preferred Charged Moves, but you might need an Elite TM to tie a bow on Charizard's moveset. Overheat is playable if you can't get Blast Burn but comes with a -2 Attack drop.</p>
 <p>
@@ -380,7 +381,7 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
 	  <br/>
   </em>
   <strong>適用於：</strong>
-  Great League, Silph Arena
+    超級聯盟、Silph聯盟
 </p>
 <p>
   Stone Edge Blaziken was one of the rarest legacy movesets. It was only available for a few days after release, and even if you had one, odds were slim it was under 1500 CP. Is this chicken a slam dunk or is it overrated?
@@ -457,35 +458,35 @@ Enter Shadow Zapdos.    <strong>Shadow Zapdos locks down the Azumarill matchup <
 <ul type="disc">
     <li>
         <strong>加農水砲 巨沼怪: </strong>
-        官方超級、高級、大師聯盟，Silph聯盟<strong></strong>
+        超級、高級、大師聯盟，Silph聯盟<strong></strong>
     </li>
     <li>
         <strong>瘋狂植物 妙蛙花: </strong>
-        官方超級、高級，Silph聯盟<strong></strong>
+        超級、高級，Silph聯盟<strong></strong>
     </li>
     <li>
         <strong>瘋狂植物 大竺葵: </strong>
-        官方超級、高級，Silph聯盟<strong></strong>
+        超級、高級，Silph聯盟<strong></strong>
     </li>
     <li>
         <strong>彗星拳 巨金怪: </strong>
-        官方大師聯盟<strong></strong>
+        大師聯盟<strong></strong>
     </li>
 	<li>
         <strong>爆炸烈焰 噴火龍: </strong>
-        官方高級，Silph聯盟<strong></strong>
+        高級，Silph聯盟<strong></strong>
     </li>
     <li>
         <strong>珍藏 月亮伊布: </strong>
-        官方超級，Silph聯盟<strong></strong>
+        超級，Silph聯盟<strong></strong>
     </li>
     <li>
         <strong>暴風 急凍鳥: </strong>
-        官方高級聯盟<strong></strong>
+        高級聯盟<strong></strong>
     </li>
     <li>
         <strong>精神擊破 超夢 裝甲型態: </strong>
-        官方高級聯盟<strong></strong>
+        高級聯盟<strong></strong>
     </li>
 </ul>
 <p>

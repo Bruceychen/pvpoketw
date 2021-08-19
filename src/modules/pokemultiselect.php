@@ -28,7 +28,6 @@
 				<option value="premier" type="master" class="hide multi-battle">大師紀念盃 Meta</option>
                 <option value="factions" type="great" class="multi-battle">Silph Factions Meta (Dungeon)</option>
                 <option value="nightfall" type="great" class="multi-battle">Silph Factions Meta (Nightfall)</option>
-				<option value="marsh" type="great" class="multi-battle">7-Eleven Marsh Cup Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

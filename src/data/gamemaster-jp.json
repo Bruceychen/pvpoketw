@@ -22864,6 +22864,7 @@
             "cp1500": [14.5, 4, 13, 15],
             "cp2500": [23.5, 11, 15, 15]
         },
+		"tags": ["legendary"],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -23252,7 +23253,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false
+        "released": true
     }, {
         "dex": 820,
         "speciesName": "ヨクバリス",
@@ -23272,7 +23273,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false
+        "released": true
     }, {
         "dex": 821,
         "speciesName": "ココガラ",
@@ -23492,7 +23493,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
-        "released": false
+        "released": true
     }, {
         "dex": 832,
         "speciesName": "バイウールー",
@@ -23512,7 +23513,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
-        "released": false
+        "released": true
     }, {
         "dex": 833,
         "speciesName": "カムカメ",
@@ -23855,7 +23856,7 @@
         "released": false
     }, {
         "dex": 849,
-        "speciesName": "Toxtricity_amped",
+        "speciesName": "ストリンダー(ハイなす)",
         "speciesId": "toxtricity_amped",
         "baseStats": {
             "atk": 224,
@@ -23875,7 +23876,7 @@
         "released": false
     }, {
         "dex": 849,
-        "speciesName": "Toxtricity_low_key",
+        "speciesName": "ストリンダー(ローなす)",
         "speciesId": "toxtricity_low_key",
         "baseStats": {
             "atk": 224,
@@ -23995,7 +23996,7 @@
         "released": false
     }, {
         "dex": 854,
-        "speciesName": "Sinistea_antique",
+        "speciesName": "ヤバチャ(しんさく)",
         "speciesId": "sinistea_antique",
         "baseStats": {
             "atk": 134,
@@ -24015,7 +24016,7 @@
         "released": false
     }, {
         "dex": 854,
-        "speciesName": "Sinistea_phony",
+        "speciesName": "ヤバチャ(がんさく)",
         "speciesId": "sinistea_phony",
         "baseStats": {
             "atk": 134,
@@ -24055,7 +24056,7 @@
         "released": false
     }, {
         "dex": 855,
-        "speciesName": "Polteageist_antique",
+        "speciesName": "ポットデス(しんさく)",
         "speciesId": "polteageist_antique",
         "baseStats": {
             "atk": 248,
@@ -24075,7 +24076,7 @@
         "released": false
     }, {
         "dex": 855,
-        "speciesName": "Polteageist_phony",
+        "speciesName": "ポットデス(がんさく)",
         "speciesId": "polteageist_phony",
         "baseStats": {
             "atk": 248,
@@ -24399,7 +24400,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false
+        "released": true
     }, {
         "dex": 871,
         "speciesName": "バチンウニ",
@@ -24502,7 +24503,7 @@
         "released": false
     }, {
         "dex": 875,
-        "speciesName": "Eiscue_ice",
+        "speciesName": "コオリッポ(アイス)",
         "speciesId": "eiscue_ice",
         "baseStats": {
             "atk": 148,
@@ -24562,7 +24563,7 @@
         "released": false
     }, {
         "dex": 876,
-        "speciesName": "Indeedee_female",
+        "speciesName": "イエッサン(メス)",
         "speciesId": "indeedee_female",
         "baseStats": {
             "atk": 184,
@@ -24582,7 +24583,7 @@
         "released": false
     }, {
         "dex": 876,
-        "speciesName": "Indeedee_male",
+        "speciesName": "イエッサン(オス)",
         "speciesId": "indeedee_male",
         "baseStats": {
             "atk": 208,
@@ -24622,7 +24623,7 @@
         "released": false
     }, {
         "dex": 877,
-        "speciesName": "Morpeko_full_belly",
+        "speciesName": "モルペコ(まんぷく)",
         "speciesId": "morpeko_full_belly",
         "baseStats": {
             "atk": 192,
@@ -24642,7 +24643,7 @@
         "released": false
     }, {
         "dex": 877,
-        "speciesName": "Morpeko_hangry",
+        "speciesName": "モルペコ(はらぺこ)",
         "speciesId": "morpeko_hangry",
         "baseStats": {
             "atk": 192,
@@ -24882,7 +24883,7 @@
         "released": false
     }, {
         "dex": 888,
-        "speciesName": "Zacian_crowned_sword",
+        "speciesName": "ザシアン(けんのおう)",
         "speciesId": "zacian_crowned_sword",
         "baseStats": {
             "atk": 332,
@@ -24902,7 +24903,7 @@
         "released": false
     }, {
         "dex": 888,
-        "speciesName": "Zacian (Hero)",
+        "speciesName": "ザシアン(れきせんのゆうしゃ)",
         "speciesId": "zacian_hero",
         "baseStats": {
             "atk": 254,
@@ -24919,7 +24920,7 @@
         },
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false,
+        "released": true,
 		"searchPriority": 5
     }, {
         "dex": 889,
@@ -24943,7 +24944,7 @@
         "released": false
     }, {
         "dex": 889,
-        "speciesName": "Zamazenta_crowned_shield",
+        "speciesName": "ザマゼンタ(たてのおう)",
         "speciesId": "zamazenta_crowned_shield",
         "baseStats": {
             "atk": 250,
@@ -24963,7 +24964,7 @@
         "released": false
     }, {
         "dex": 889,
-        "speciesName": "Zamazenta (Hero)",
+        "speciesName": "ザマゼンタ(れきせんのゆうしゃ)",
         "speciesId": "zamazenta_hero",
         "baseStats": {
             "atk": 254,
@@ -24980,7 +24981,7 @@
         },
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false,
+        "released": true,
 		"searchPriority": 5
     }, {
         "dex": 890,
@@ -25004,7 +25005,7 @@
         "released": false
     }, {
         "dex": 890,
-        "speciesName": "Eternatus_eternamax",
+        "speciesName": "ムゲンダイナ(ムゲンダイマックス)",
         "speciesId": "eternatus_eternamax",
         "baseStats": {
             "atk": 251,
@@ -25064,7 +25065,7 @@
         "released": false
     }, {
         "dex": 892,
-        "speciesName": "Urshifu_rapid_strike",
+        "speciesName": "ウーラオス(れんげき)",
         "speciesId": "urshifu_rapid_strike",
         "baseStats": {
             "atk": 231,
@@ -25084,7 +25085,7 @@
         "released": false
     }, {
         "dex": 892,
-        "speciesName": "Urshifu_single_strike",
+        "speciesName": "ウーラオス(いちげき)",
         "speciesId": "urshifu_single_strike",
         "baseStats": {
             "atk": 231,
@@ -25224,7 +25225,7 @@
         "released": false
     }, {
         "dex": 898,
-        "speciesName": "Calyrex_ice_rider",
+        "speciesName": "バドレックス(はくばじょう)",
         "speciesId": "calyrex_ice_rider",
         "baseStats": {
             "atk": 268,

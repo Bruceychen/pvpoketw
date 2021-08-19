@@ -34,11 +34,10 @@
     <!--Update section for updates-->
     <h3>What's New</h3>
 
-    <h4>v1.22.18 (Juky 24, 2021)</h4>
+    <h4>v1.22.19 (八月 18, 2021)</h4>
     <ul>
-        <li>Fixed an issue with the training AI evaluating some scenarios incorrectly</li>
-        <li>Fixed an issue where individual battles in Master League Classic would set the Pokemon to level 50.</li>
-        <li>Fixed an issue where custom threats and alternatives entered in the Team Builder weren't reflected correctly in battle links.</li>
+        <li>伽勒爾地區寶可夢已全數加入資料庫中！</li>
+        <li>修正部分對戰模擬中引發的資料重置異常問題</li>
     </ul>
 	<h3>Latest Article</h3>
 
@@ -84,8 +83,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Mon Aug 16 09:00:00 2021 +0800</li>
-                <li>原版最後版本時間：Sun Aug 15 18:15:58 2021 -0500</li>
+                <li>中文版最後更新時間：Thu Aug 19 13:00:00 2021 +0800</li>
+                <li>原版最後版本時間：Wed Aug 18 20:04:13 2021 -0500</li>
             </ul>
 </div>
 

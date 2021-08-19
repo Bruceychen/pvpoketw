@@ -45,7 +45,8 @@ function PokeSelect(element, i){
 			var displayName = poke.speciesName;
 
 			if(poke.speciesId.indexOf("_xs") > -1){
-				displayName += " (Non XL)";
+				// 以下這行針對四隻XL寶可夢
+				displayName = eliteXLPokemon(displayName) + " (非XL)";
 			}
 
 			$pokeSelect.append("<option value=\""+poke.speciesId+"\" type-1=\""+poke.types[0]+"\" type-2=\""+poke.types[1]+"\">"+displayName+"</option");

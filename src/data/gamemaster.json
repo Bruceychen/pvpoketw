@@ -1104,7 +1104,7 @@
         "released": true
     }, {
         "dex": 3,
-        "speciesName": "妙蛙花 (Mega)",
+        "speciesName": "妙蛙花 Mega",
         "speciesId": "venusaur_mega",
         "baseStats": {
             "atk": 241,
@@ -1262,7 +1262,7 @@
         "released": true
     }, {
         "dex": 6,
-        "speciesName": "噴火龍 (Mega X)",
+        "speciesName": "噴火龍 Mega X",
         "speciesId": "charizard_mega_x",
         "baseStats": {
             "atk": 273,
@@ -1285,7 +1285,7 @@
         "released": true
     }, {
         "dex": 6,
-        "speciesName": "噴火龍 (Mega Y)",
+        "speciesName": "噴火龍 Mega Y",
         "speciesId": "charizard_mega_y",
         "baseStats": {
             "atk": 319,
@@ -1440,7 +1440,7 @@
         "released": true
     }, {
         "dex": 9,
-        "speciesName": "水箭龜 (Mega)",
+        "speciesName": "水箭龜 Mega",
         "speciesId": "blastoise_mega",
         "baseStats": {
             "atk": 264,
@@ -1656,7 +1656,7 @@
         "released": true
     }, {
         "dex": 15,
-        "speciesName": "大針蜂 (Mega)",
+        "speciesName": "大針蜂 Mega",
         "speciesId": "beedrill_mega",
         "baseStats": {
             "atk": 303,
@@ -1764,7 +1764,7 @@
         "released": true
     }, {
         "dex": 18,
-        "speciesName": "大比鳥 (Mega)",
+        "speciesName": "大比鳥 Mega",
         "speciesId": "pidgeot_mega",
         "baseStats": {
             "atk": 280,
@@ -4584,7 +4584,7 @@
         "released": true
     }, {
         "dex": 80,
-        "speciesName": "呆殼獸 (Mega)",
+        "speciesName": "呆殼獸 Mega",
         "speciesId": "slowbro_mega",
         "baseStats": {
             "atk": 224,
@@ -5123,7 +5123,7 @@
         "released": true
     }, {
         "dex": 94,
-        "speciesName": "耿鬼 (Mega)",
+        "speciesName": "耿鬼 Mega",
         "speciesId": "gengar_mega",
         "baseStats": {
             "atk": 349,
@@ -6416,7 +6416,7 @@
         "released": true
     }, {
         "dex": 130,
-        "speciesName": "暴鯉龍 (Mega)",
+        "speciesName": "暴鯉龍 Mega",
         "speciesId": "gyarados_mega",
         "baseStats": {
             "atk": 292,
@@ -7933,7 +7933,7 @@
         "released": true
     }, {
         "dex": 181,
-        "speciesName": "電龍 (Mega)",
+        "speciesName": "電龍 Mega",
         "speciesId": "ampharos_mega",
         "baseStats": {
             "atk": 294,
@@ -9624,7 +9624,7 @@
         "released": true
     }, {
         "dex": 229,
-        "speciesName": "黑魯加 (Mega)",
+        "speciesName": "黑魯加 Mega",
         "speciesId": "houndoom_mega",
         "baseStats": {
             "atk": 289,
@@ -12114,7 +12114,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 310,
-        "speciesName": "雷電獸 (Mega)",
+        "speciesName": "雷電獸 Mega",
         "speciesId": "manectric_mega",
         "baseStats": {
             "atk": 286,
@@ -12760,7 +12760,7 @@
         "released": true
     }, {
         "dex": 334,
-        "speciesName": "七夕青鳥 (Mega)",
+        "speciesName": "七夕青鳥 Mega",
         "speciesId": "altaria_mega",
         "baseStats": {
             "atk": 222,
@@ -15633,7 +15633,7 @@
         "released": true
     }, {
         "dex": 428,
-        "speciesName": "長耳兔 (Mega)",
+        "speciesName": "長耳兔 Mega",
         "speciesId": "lopunny_mega",
         "baseStats": {
             "atk": 282,
@@ -16470,7 +16470,7 @@
         "released": true
     }, {
         "dex": 460,
-        "speciesName": "暴雪王 (Mega)",
+        "speciesName": "暴雪王 Mega",
         "speciesId": "abomasnow_mega",
         "baseStats": {
             "atk": 240,
@@ -22933,7 +22933,7 @@
         "released": false
     }, {
         "dex": 720,
-        "speciesName": "Hoopa",
+        "speciesName": "胡帕",
         "speciesId": "hoopa",
         "baseStats": {
             "atk": 261,
@@ -22953,7 +22953,7 @@
         "released": false
     }, {
         "dex": 720,
-        "speciesName": "Hoopa_confined",
+        "speciesName": "胡帕 懲戒",
         "speciesId": "hoopa_confined",
         "baseStats": {
             "atk": 261,
@@ -22973,7 +22973,7 @@
         "released": false
     }, {
         "dex": 720,
-        "speciesName": "Hoopa_unbound",
+        "speciesName": "胡帕 解放",
         "speciesId": "hoopa_unbound",
         "baseStats": {
             "atk": 311,
@@ -23856,7 +23856,7 @@
         "released": false
     }, {
         "dex": 849,
-        "speciesName": "顫弦蠑螈 (高調)",
+        "speciesName": "顫弦蠑螈 高調",
         "speciesId": "toxtricity_amped",
         "baseStats": {
             "atk": 224,
@@ -23876,7 +23876,7 @@
         "released": false
     }, {
         "dex": 849,
-        "speciesName": "顫弦蠑螈 (低調)",
+        "speciesName": "顫弦蠑螈 低調",
         "speciesId": "toxtricity_low_key",
         "baseStats": {
             "atk": 224,
@@ -23996,7 +23996,7 @@
         "released": false
     }, {
         "dex": 854,
-        "speciesName": "來悲茶 (真品)",
+        "speciesName": "來悲茶 真品",
         "speciesId": "sinistea_antique",
         "baseStats": {
             "atk": 134,
@@ -24016,7 +24016,7 @@
         "released": false
     }, {
         "dex": 854,
-        "speciesName": "來悲茶 (贗品)",
+        "speciesName": "來悲茶 贗品",
         "speciesId": "sinistea_phony",
         "baseStats": {
             "atk": 134,
@@ -24056,7 +24056,7 @@
         "released": false
     }, {
         "dex": 855,
-        "speciesName": "怖思壺 (真品)",
+        "speciesName": "怖思壺 真品",
         "speciesId": "polteageist_antique",
         "baseStats": {
             "atk": 248,
@@ -24076,7 +24076,7 @@
         "released": false
     }, {
         "dex": 855,
-        "speciesName": "怖思壺 (贗品)",
+        "speciesName": "怖思壺 贗品",
         "speciesId": "polteageist_phony",
         "baseStats": {
             "atk": 248,
@@ -24503,7 +24503,7 @@
         "released": false
     }, {
         "dex": 875,
-        "speciesName": "冰砌鵝 (結凍頭)",
+        "speciesName": "冰砌鵝 結凍頭",
         "speciesId": "eiscue_ice",
         "baseStats": {
             "atk": 148,
@@ -24523,7 +24523,7 @@
         "released": false
     }, {
         "dex": 875,
-        "speciesName": "Eiscue_noice",
+        "speciesName": "冰砌鵝 解凍頭",
         "speciesId": "eiscue_noice",
         "baseStats": {
             "atk": 173,
@@ -24563,7 +24563,7 @@
         "released": false
     }, {
         "dex": 876,
-        "speciesName": "愛管侍 (雌性)",
+        "speciesName": "愛管侍 雌性",
         "speciesId": "indeedee_female",
         "baseStats": {
             "atk": 184,
@@ -24583,7 +24583,7 @@
         "released": false
     }, {
         "dex": 876,
-        "speciesName": "愛管侍 (雄性)",
+        "speciesName": "愛管侍 雄性",
         "speciesId": "indeedee_male",
         "baseStats": {
             "atk": 208,
@@ -24623,7 +24623,7 @@
         "released": false
     }, {
         "dex": 877,
-        "speciesName": "莫魯貝可 (滿腹花紋)",
+        "speciesName": "莫魯貝可 滿腹花紋",
         "speciesId": "morpeko_full_belly",
         "baseStats": {
             "atk": 192,
@@ -24643,7 +24643,7 @@
         "released": false
     }, {
         "dex": 877,
-        "speciesName": "莫魯貝可 (空腹花紋)",
+        "speciesName": "莫魯貝可 空腹花紋",
         "speciesId": "morpeko_hangry",
         "baseStats": {
             "atk": 192,
@@ -24883,7 +24883,7 @@
         "released": false
     }, {
         "dex": 888,
-        "speciesName": "蒼響 (劍之王)",
+        "speciesName": "蒼響 劍之王",
         "speciesId": "zacian_crowned_sword",
         "baseStats": {
             "atk": 332,
@@ -24903,7 +24903,7 @@
         "released": false
     }, {
         "dex": 888,
-        "speciesName": "蒼響 (百戰勇者)",
+        "speciesName": "蒼響 百戰勇者",
         "speciesId": "zacian_hero",
         "baseStats": {
             "atk": 254,
@@ -24944,7 +24944,7 @@
         "released": false
     }, {
         "dex": 889,
-        "speciesName": "藏瑪然特 (盾之王)",
+        "speciesName": "藏瑪然特 盾之王",
         "speciesId": "zamazenta_crowned_shield",
         "baseStats": {
             "atk": 250,
@@ -24964,7 +24964,7 @@
         "released": false
     }, {
         "dex": 889,
-        "speciesName": "藏瑪然特 (百戰勇者)",
+        "speciesName": "藏瑪然特 百戰勇者",
         "speciesId": "zamazenta_hero",
         "baseStats": {
             "atk": 254,
@@ -25005,7 +25005,7 @@
         "released": false
     }, {
         "dex": 890,
-        "speciesName": "無極汰那 (無極巨化)",
+        "speciesName": "無極汰那 無極巨化",
         "speciesId": "eternatus_eternamax",
         "baseStats": {
             "atk": 251,
@@ -25065,7 +25065,7 @@
         "released": false
     }, {
         "dex": 892,
-        "speciesName": "武道熊師 (連擊流)",
+        "speciesName": "武道熊師 連擊流",
         "speciesId": "urshifu_rapid_strike",
         "baseStats": {
             "atk": 231,
@@ -25085,7 +25085,7 @@
         "released": false
     }, {
         "dex": 892,
-        "speciesName": "武道熊師 (一擊流)",
+        "speciesName": "武道熊師 一擊流",
         "speciesId": "urshifu_single_strike",
         "baseStats": {
             "atk": 231,
@@ -25225,7 +25225,7 @@
         "released": false
     }, {
         "dex": 898,
-        "speciesName": "蕾冠王 (騎乘白馬)",
+        "speciesName": "蕾冠王 騎乘白馬",
         "speciesId": "calyrex_ice_rider",
         "baseStats": {
             "atk": 268,

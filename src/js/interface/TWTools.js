@@ -4,6 +4,17 @@
 
 const debugMode = true;
 
+function eliteXLPokemon(xlPokemon){
+    var eliteXLPokemon = {
+        'Azumarill':'瑪力露麗',
+        'Sableye':'勾魂眼',
+        'Medicham':'恰雷姆',
+        'Bastiodon':'護城龍',
+        'default':''
+    };
+    return (eliteXLPokemon[xlPokemon] || elitePMNotFound(xlPokemon));
+}
+
 function fastMoveArchetypeTranslate(archetype){
     var allArchetype = {
         'Multipurpose':'Multipurpose',
@@ -295,4 +306,11 @@ function archetypeNotFound(moveType, archetype){
         console.log(moveType + " archetype: \""+ archetype + "\" not found.");
     }
     return archetype;
+}
+
+function elitePMNotFound(elitePMName){
+    if(debugMode){
+        console.log(" elite pokemon: \""+ elitePMName + "\" not found.");
+    }
+    return elitePMName;
 }

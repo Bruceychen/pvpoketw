@@ -22933,7 +22933,7 @@
         "released": false
     }, {
         "dex": 720,
-        "speciesName": "Hoopa",
+        "speciesName": "フーパ",
         "speciesId": "hoopa",
         "baseStats": {
             "atk": 261,
@@ -22953,7 +22953,7 @@
         "released": false
     }, {
         "dex": 720,
-        "speciesName": "Hoopa_confined",
+        "speciesName": "フーパ(いましめられし)",
         "speciesId": "hoopa_confined",
         "baseStats": {
             "atk": 261,
@@ -22973,7 +22973,7 @@
         "released": false
     }, {
         "dex": 720,
-        "speciesName": "Hoopa_unbound",
+        "speciesName": "フーパ(ときはなたれし)",
         "speciesId": "hoopa_unbound",
         "baseStats": {
             "atk": 311,
@@ -24523,7 +24523,7 @@
         "released": false
     }, {
         "dex": 875,
-        "speciesName": "Eiscue_noice",
+        "speciesName": "コオリッポ(ナイス)",
         "speciesId": "eiscue_noice",
         "baseStats": {
             "atk": 173,

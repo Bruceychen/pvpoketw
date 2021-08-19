@@ -23055,7 +23055,7 @@
         "released": true
     }, {
         "dex": 810,
-        "speciesName": "Grookey",
+        "speciesName": "サルノリ",
         "speciesId": "grookey",
         "baseStats": {
             "atk": 122,
@@ -23075,7 +23075,7 @@
         "released": false
     }, {
         "dex": 811,
-        "speciesName": "Thwackey",
+        "speciesName": "バチンキー",
         "speciesId": "thwackey",
         "baseStats": {
             "atk": 165,
@@ -23095,7 +23095,7 @@
         "released": false
     }, {
         "dex": 812,
-        "speciesName": "Rillaboom",
+        "speciesName": "ゴリランダー",
         "speciesId": "rillaboom",
         "baseStats": {
             "atk": 239,
@@ -23115,7 +23115,7 @@
         "released": false
     }, {
         "dex": 813,
-        "speciesName": "Scorbunny",
+        "speciesName": "ヒバニー",
         "speciesId": "scorbunny",
         "baseStats": {
             "atk": 132,
@@ -23135,7 +23135,7 @@
         "released": false
     }, {
         "dex": 814,
-        "speciesName": "Raboot",
+        "speciesName": "ラビフット",
         "speciesId": "raboot",
         "baseStats": {
             "atk": 170,
@@ -23155,7 +23155,7 @@
         "released": false
     }, {
         "dex": 815,
-        "speciesName": "Cinderace",
+        "speciesName": "エースバーン",
         "speciesId": "cinderace",
         "baseStats": {
             "atk": 238,
@@ -23175,7 +23175,7 @@
         "released": false
     }, {
         "dex": 816,
-        "speciesName": "Sobble",
+        "speciesName": "メッソン",
         "speciesId": "sobble",
         "baseStats": {
             "atk": 132,
@@ -23195,7 +23195,7 @@
         "released": false
     }, {
         "dex": 817,
-        "speciesName": "Drizzile",
+        "speciesName": "ジメレオン",
         "speciesId": "drizzile",
         "baseStats": {
             "atk": 186,
@@ -23215,7 +23215,7 @@
         "released": false
     }, {
         "dex": 818,
-        "speciesName": "Inteleon",
+        "speciesName": "インテレオン",
         "speciesId": "inteleon",
         "baseStats": {
             "atk": 262,
@@ -23235,7 +23235,7 @@
         "released": false
     }, {
         "dex": 819,
-        "speciesName": "Skwovet",
+        "speciesName": "ホシガリス",
         "speciesId": "skwovet",
         "baseStats": {
             "atk": 95,
@@ -23255,7 +23255,7 @@
         "released": false
     }, {
         "dex": 820,
-        "speciesName": "Greedent",
+        "speciesName": "ヨクバリス",
         "speciesId": "greedent",
         "baseStats": {
             "atk": 160,
@@ -23275,7 +23275,7 @@
         "released": false
     }, {
         "dex": 821,
-        "speciesName": "Rookidee",
+        "speciesName": "ココガラ",
         "speciesId": "rookidee",
         "baseStats": {
             "atk": 88,
@@ -23295,7 +23295,7 @@
         "released": false
     }, {
         "dex": 822,
-        "speciesName": "Corvisquire",
+        "speciesName": "アオガラス",
         "speciesId": "corvisquire",
         "baseStats": {
             "atk": 129,
@@ -23315,7 +23315,7 @@
         "released": false
     }, {
         "dex": 823,
-        "speciesName": "Corviknight",
+        "speciesName": "アーマーガア",
         "speciesId": "corviknight",
         "baseStats": {
             "atk": 163,
@@ -23335,7 +23335,7 @@
         "released": false
     }, {
         "dex": 824,
-        "speciesName": "Blipbug",
+        "speciesName": "サッチムシ",
         "speciesId": "blipbug",
         "baseStats": {
             "atk": 46,
@@ -23355,7 +23355,7 @@
         "released": false
     }, {
         "dex": 825,
-        "speciesName": "Dottler",
+        "speciesName": "レドームシ",
         "speciesId": "dottler",
         "baseStats": {
             "atk": 87,
@@ -23375,7 +23375,7 @@
         "released": false
     }, {
         "dex": 826,
-        "speciesName": "Orbeetle",
+        "speciesName": "イオルブ",
         "speciesId": "orbeetle",
         "baseStats": {
             "atk": 156,
@@ -23395,7 +23395,7 @@
         "released": false
     }, {
         "dex": 827,
-        "speciesName": "Nickit",
+        "speciesName": "クスネ",
         "speciesId": "nickit",
         "baseStats": {
             "atk": 85,
@@ -23415,7 +23415,7 @@
         "released": false
     }, {
         "dex": 828,
-        "speciesName": "Thievul",
+        "speciesName": "フォクスライ",
         "speciesId": "thievul",
         "baseStats": {
             "atk": 172,
@@ -23435,7 +23435,7 @@
         "released": false
     }, {
         "dex": 829,
-        "speciesName": "Gossifleur",
+        "speciesName": "ヒメンカ",
         "speciesId": "gossifleur",
         "baseStats": {
             "atk": 70,
@@ -23455,7 +23455,7 @@
         "released": false
     }, {
         "dex": 830,
-        "speciesName": "Eldegoss",
+        "speciesName": "ワタシラガ",
         "speciesId": "eldegoss",
         "baseStats": {
             "atk": 148,
@@ -23475,7 +23475,7 @@
         "released": false
     }, {
         "dex": 831,
-        "speciesName": "Wooloo",
+        "speciesName": "ウールー",
         "speciesId": "wooloo",
         "baseStats": {
             "atk": 76,
@@ -23495,7 +23495,7 @@
         "released": false
     }, {
         "dex": 832,
-        "speciesName": "Dubwool",
+        "speciesName": "バイウールー",
         "speciesId": "dubwool",
         "baseStats": {
             "atk": 159,
@@ -23515,7 +23515,7 @@
         "released": false
     }, {
         "dex": 833,
-        "speciesName": "Chewtle",
+        "speciesName": "カムカメ",
         "speciesId": "chewtle",
         "baseStats": {
             "atk": 114,
@@ -23535,7 +23535,7 @@
         "released": false
     }, {
         "dex": 834,
-        "speciesName": "Drednaw",
+        "speciesName": "カジリガメ",
         "speciesId": "drednaw",
         "baseStats": {
             "atk": 213,
@@ -23555,7 +23555,7 @@
         "released": false
     }, {
         "dex": 835,
-        "speciesName": "Yamper",
+        "speciesName": "ワンパチ",
         "speciesId": "yamper",
         "baseStats": {
             "atk": 80,
@@ -23575,7 +23575,7 @@
         "released": false
     }, {
         "dex": 836,
-        "speciesName": "Boltund",
+        "speciesName": "パルスワン",
         "speciesId": "boltund",
         "baseStats": {
             "atk": 197,
@@ -23595,7 +23595,7 @@
         "released": false
     }, {
         "dex": 837,
-        "speciesName": "Rolycoly",
+        "speciesName": "タンドン",
         "speciesId": "rolycoly",
         "baseStats": {
             "atk": 73,
@@ -23615,7 +23615,7 @@
         "released": false
     }, {
         "dex": 838,
-        "speciesName": "Carkol",
+        "speciesName": "トロッゴン",
         "speciesId": "carkol",
         "baseStats": {
             "atk": 114,
@@ -23635,7 +23635,7 @@
         "released": false
     }, {
         "dex": 839,
-        "speciesName": "Coalossal",
+        "speciesName": "セキタンザン",
         "speciesId": "coalossal",
         "baseStats": {
             "atk": 146,
@@ -23655,7 +23655,7 @@
         "released": false
     }, {
         "dex": 840,
-        "speciesName": "Applin",
+        "speciesName": "カジッチュ",
         "speciesId": "applin",
         "baseStats": {
             "atk": 71,
@@ -23675,7 +23675,7 @@
         "released": false
     }, {
         "dex": 841,
-        "speciesName": "Flapple",
+        "speciesName": "アップリュー",
         "speciesId": "flapple",
         "baseStats": {
             "atk": 214,
@@ -23695,7 +23695,7 @@
         "released": false
     }, {
         "dex": 842,
-        "speciesName": "Appletun",
+        "speciesName": "タルップル",
         "speciesId": "appletun",
         "baseStats": {
             "atk": 214,
@@ -23715,7 +23715,7 @@
         "released": false
     }, {
         "dex": 843,
-        "speciesName": "Silicobra",
+        "speciesName": "スナヘビ",
         "speciesId": "silicobra",
         "baseStats": {
             "atk": 103,
@@ -23735,7 +23735,7 @@
         "released": false
     }, {
         "dex": 844,
-        "speciesName": "Sandaconda",
+        "speciesName": "サダイジャ",
         "speciesId": "sandaconda",
         "baseStats": {
             "atk": 202,
@@ -23755,7 +23755,7 @@
         "released": false
     }, {
         "dex": 845,
-        "speciesName": "Cramorant",
+        "speciesName": "ウッウ",
         "speciesId": "cramorant",
         "baseStats": {
             "atk": 173,
@@ -23775,7 +23775,7 @@
         "released": false
     }, {
         "dex": 846,
-        "speciesName": "Arrokuda",
+        "speciesName": "サシカマス",
         "speciesId": "arrokuda",
         "baseStats": {
             "atk": 118,
@@ -23795,7 +23795,7 @@
         "released": false
     }, {
         "dex": 847,
-        "speciesName": "Barraskewda",
+        "speciesName": "カマスジョー",
         "speciesId": "barraskewda",
         "baseStats": {
             "atk": 258,
@@ -23815,7 +23815,7 @@
         "released": false
     }, {
         "dex": 848,
-        "speciesName": "Toxel",
+        "speciesName": "エレズン",
         "speciesId": "toxel",
         "baseStats": {
             "atk": 97,
@@ -23835,7 +23835,7 @@
         "released": false
     }, {
         "dex": 849,
-        "speciesName": "Toxtricity",
+        "speciesName": "ストリンダー",
         "speciesId": "toxtricity",
         "baseStats": {
             "atk": 224,
@@ -23895,7 +23895,7 @@
         "released": false
     }, {
         "dex": 850,
-        "speciesName": "Sizzlipede",
+        "speciesName": "ヤクデ",
         "speciesId": "sizzlipede",
         "baseStats": {
             "atk": 118,
@@ -23915,7 +23915,7 @@
         "released": false
     }, {
         "dex": 851,
-        "speciesName": "Centiskorch",
+        "speciesName": "マルヤクデ",
         "speciesId": "centiskorch",
         "baseStats": {
             "atk": 220,
@@ -23935,7 +23935,7 @@
         "released": false
     }, {
         "dex": 852,
-        "speciesName": "Clobbopus",
+        "speciesName": "タタッコ",
         "speciesId": "clobbopus",
         "baseStats": {
             "atk": 121,
@@ -23955,7 +23955,7 @@
         "released": false
     }, {
         "dex": 853,
-        "speciesName": "Grapploct",
+        "speciesName": "オトスパス",
         "speciesId": "grapploct",
         "baseStats": {
             "atk": 209,
@@ -23975,7 +23975,7 @@
         "released": false
     }, {
         "dex": 854,
-        "speciesName": "Sinistea",
+        "speciesName": "ヤバチャ",
         "speciesId": "sinistea",
         "baseStats": {
             "atk": 134,
@@ -24035,7 +24035,7 @@
         "released": false
     }, {
         "dex": 855,
-        "speciesName": "Polteageist",
+        "speciesName": "ポットデス",
         "speciesId": "polteageist",
         "baseStats": {
             "atk": 248,
@@ -24095,7 +24095,7 @@
         "released": false
     }, {
         "dex": 856,
-        "speciesName": "Hatenna",
+        "speciesName": "ミブリム",
         "speciesId": "hatenna",
         "baseStats": {
             "atk": 98,
@@ -24115,7 +24115,7 @@
         "released": false
     }, {
         "dex": 857,
-        "speciesName": "Hattrem",
+        "speciesName": "テブリム",
         "speciesId": "hattrem",
         "baseStats": {
             "atk": 153,
@@ -24135,7 +24135,7 @@
         "released": false
     }, {
         "dex": 858,
-        "speciesName": "Hatterene",
+        "speciesName": "ブリムオン",
         "speciesId": "hatterene",
         "baseStats": {
             "atk": 237,
@@ -24155,7 +24155,7 @@
         "released": false
     }, {
         "dex": 859,
-        "speciesName": "Impidimp",
+        "speciesName": "ベロバー",
         "speciesId": "impidimp",
         "baseStats": {
             "atk": 103,
@@ -24175,7 +24175,7 @@
         "released": false
     }, {
         "dex": 860,
-        "speciesName": "Morgrem",
+        "speciesName": "ギモー",
         "speciesId": "morgrem",
         "baseStats": {
             "atk": 145,
@@ -24195,7 +24195,7 @@
         "released": false
     }, {
         "dex": 861,
-        "speciesName": "Grimmsnarl",
+        "speciesName": "オーロンゲ",
         "speciesId": "grimmsnarl",
         "baseStats": {
             "atk": 227,
@@ -24258,7 +24258,7 @@
         "released": true
     }, {
         "dex": 864,
-        "speciesName": "Cursola",
+        "speciesName": "サニゴーン",
         "speciesId": "cursola",
         "baseStats": {
             "atk": 253,
@@ -24342,7 +24342,7 @@
         "released": true
     }, {
         "dex": 868,
-        "speciesName": "Milcery",
+        "speciesName": "マホミル",
         "speciesId": "milcery",
         "baseStats": {
             "atk": 90,
@@ -24362,7 +24362,7 @@
         "released": false
     }, {
         "dex": 869,
-        "speciesName": "Alcremie",
+        "speciesName": "マホイップ",
         "speciesId": "alcremie",
         "baseStats": {
             "atk": 203,
@@ -24382,7 +24382,7 @@
         "released": false
     }, {
         "dex": 870,
-        "speciesName": "Falinks",
+        "speciesName": "タイレーツ",
         "speciesId": "falinks",
         "baseStats": {
             "atk": 193,
@@ -24402,7 +24402,7 @@
         "released": false
     }, {
         "dex": 871,
-        "speciesName": "Pincurchin",
+        "speciesName": "バチンウニ",
         "speciesId": "pincurchin",
         "baseStats": {
             "atk": 176,
@@ -24422,7 +24422,7 @@
         "released": false
     }, {
         "dex": 872,
-        "speciesName": "Snom",
+        "speciesName": "ユキハミ",
         "speciesId": "snom",
         "baseStats": {
             "atk": 76,
@@ -24442,7 +24442,7 @@
         "released": false
     }, {
         "dex": 873,
-        "speciesName": "Frosmoth",
+        "speciesName": "モスノウ",
         "speciesId": "frosmoth",
         "baseStats": {
             "atk": 230,
@@ -24462,7 +24462,7 @@
         "released": false
     }, {
         "dex": 874,
-        "speciesName": "Stonjourner",
+        "speciesName": "イシヘンジン",
         "speciesId": "stonjourner",
         "baseStats": {
             "atk": 222,
@@ -24482,7 +24482,7 @@
         "released": false
     }, {
         "dex": 875,
-        "speciesName": "Eiscue",
+        "speciesName": "コオリッポ",
         "speciesId": "eiscue",
         "baseStats": {
             "atk": 148,
@@ -24542,7 +24542,7 @@
         "released": false
     }, {
         "dex": 876,
-        "speciesName": "Indeedee",
+        "speciesName": "イエッサン",
         "speciesId": "indeedee",
         "baseStats": {
             "atk": 208,
@@ -24602,7 +24602,7 @@
         "released": false
     }, {
         "dex": 877,
-        "speciesName": "Morpeko",
+        "speciesName": "モルペコ",
         "speciesId": "morpeko",
         "baseStats": {
             "atk": 192,
@@ -24662,7 +24662,7 @@
         "released": false
     }, {
         "dex": 878,
-        "speciesName": "Cufant",
+        "speciesName": "ゾウドウ",
         "speciesId": "cufant",
         "baseStats": {
             "atk": 140,
@@ -24682,7 +24682,7 @@
         "released": false
     }, {
         "dex": 879,
-        "speciesName": "Copperajah",
+        "speciesName": "ダイオウドウ",
         "speciesId": "copperajah",
         "baseStats": {
             "atk": 226,
@@ -24702,7 +24702,7 @@
         "released": false
     }, {
         "dex": 880,
-        "speciesName": "Dracozolt",
+        "speciesName": "パッチラゴン",
         "speciesId": "dracozolt",
         "baseStats": {
             "atk": 195,
@@ -24722,7 +24722,7 @@
         "released": false
     }, {
         "dex": 881,
-        "speciesName": "Arctozolt",
+        "speciesName": "パッチルドン",
         "speciesId": "arctozolt",
         "baseStats": {
             "atk": 190,
@@ -24742,7 +24742,7 @@
         "released": false
     }, {
         "dex": 882,
-        "speciesName": "Dracovish",
+        "speciesName": "ウオノラゴン",
         "speciesId": "dracovish",
         "baseStats": {
             "atk": 175,
@@ -24762,7 +24762,7 @@
         "released": false
     }, {
         "dex": 883,
-        "speciesName": "Arctovish",
+        "speciesName": "ウオチルドン",
         "speciesId": "arctovish",
         "baseStats": {
             "atk": 171,
@@ -24782,7 +24782,7 @@
         "released": false
     }, {
         "dex": 884,
-        "speciesName": "Duraludon",
+        "speciesName": "ジュラルドン",
         "speciesId": "duraludon",
         "baseStats": {
             "atk": 239,
@@ -24802,7 +24802,7 @@
         "released": false
     }, {
         "dex": 885,
-        "speciesName": "Dreepy",
+        "speciesName": "ドラメシヤ",
         "speciesId": "dreepy",
         "baseStats": {
             "atk": 117,
@@ -24822,7 +24822,7 @@
         "released": false
     }, {
         "dex": 886,
-        "speciesName": "Drakloak",
+        "speciesName": "ドロンチ",
         "speciesId": "drakloak",
         "baseStats": {
             "atk": 163,
@@ -24842,7 +24842,7 @@
         "released": false
     }, {
         "dex": 887,
-        "speciesName": "Dragapult",
+        "speciesName": "ドラパルト",
         "speciesId": "dragapult",
         "baseStats": {
             "atk": 266,
@@ -24862,7 +24862,7 @@
         "released": false
     }, {
         "dex": 888,
-        "speciesName": "Zacian",
+        "speciesName": "ザシアン",
         "speciesId": "zacian",
         "baseStats": {
             "atk": 254,
@@ -24923,7 +24923,7 @@
 		"searchPriority": 5
     }, {
         "dex": 889,
-        "speciesName": "Zamazenta",
+        "speciesName": "ザマゼンタ",
         "speciesId": "zamazenta",
         "baseStats": {
             "atk": 254,
@@ -24984,7 +24984,7 @@
 		"searchPriority": 5
     }, {
         "dex": 890,
-        "speciesName": "Eternatus",
+        "speciesName": "ムゲンダイナ",
         "speciesId": "eternatus",
         "baseStats": {
             "atk": 278,
@@ -25024,7 +25024,7 @@
         "released": false
     }, {
         "dex": 891,
-        "speciesName": "Kubfu",
+        "speciesName": "ダクマ",
         "speciesId": "kubfu",
         "baseStats": {
             "atk": 170,
@@ -25044,7 +25044,7 @@
         "released": false
     }, {
         "dex": 892,
-        "speciesName": "Urshifu",
+        "speciesName": "ウーラオス",
         "speciesId": "urshifu",
         "baseStats": {
             "atk": 231,
@@ -25104,7 +25104,7 @@
         "released": false
     }, {
         "dex": 893,
-        "speciesName": "Zarude",
+        "speciesName": "ザルード",
         "speciesId": "zarude",
         "baseStats": {
             "atk": 242,
@@ -25124,7 +25124,7 @@
         "released": false
     }, {
         "dex": 894,
-        "speciesName": "Regieleki",
+        "speciesName": "レジエレキ",
         "speciesId": "regieleki",
         "baseStats": {
             "atk": 228,
@@ -25144,7 +25144,7 @@
         "released": false
     }, {
         "dex": 895,
-        "speciesName": "Regidrago",
+        "speciesName": "レジドラゴ",
         "speciesId": "regidrago",
         "baseStats": {
             "atk": 184,
@@ -25164,7 +25164,7 @@
         "released": false
     }, {
         "dex": 896,
-        "speciesName": "Glastrier",
+        "speciesName": "ブリザポス",
         "speciesId": "glastrier",
         "baseStats": {
             "atk": 224,
@@ -25184,7 +25184,7 @@
         "released": false
     }, {
         "dex": 897,
-        "speciesName": "Spectrier",
+        "speciesName": "レイスポス",
         "speciesId": "spectrier",
         "baseStats": {
             "atk": 273,
@@ -25204,7 +25204,7 @@
         "released": false
     }, {
         "dex": 898,
-        "speciesName": "Calyrex",
+        "speciesName": "バドレックス",
         "speciesId": "calyrex",
         "baseStats": {
             "atk": 147,

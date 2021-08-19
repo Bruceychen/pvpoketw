@@ -23055,7 +23055,7 @@
         "released": true
     }, {
         "dex": 810,
-        "speciesName": "Grookey",
+        "speciesName": "敲音猴",
         "speciesId": "grookey",
         "baseStats": {
             "atk": 122,
@@ -23075,7 +23075,7 @@
         "released": false
     }, {
         "dex": 811,
-        "speciesName": "Thwackey",
+        "speciesName": "啪咚猴",
         "speciesId": "thwackey",
         "baseStats": {
             "atk": 165,
@@ -23095,7 +23095,7 @@
         "released": false
     }, {
         "dex": 812,
-        "speciesName": "Rillaboom",
+        "speciesName": "轟擂金剛猩",
         "speciesId": "rillaboom",
         "baseStats": {
             "atk": 239,
@@ -23115,7 +23115,7 @@
         "released": false
     }, {
         "dex": 813,
-        "speciesName": "Scorbunny",
+        "speciesName": "炎兔兒",
         "speciesId": "scorbunny",
         "baseStats": {
             "atk": 132,
@@ -23135,7 +23135,7 @@
         "released": false
     }, {
         "dex": 814,
-        "speciesName": "Raboot",
+        "speciesName": "騰蹴小將",
         "speciesId": "raboot",
         "baseStats": {
             "atk": 170,
@@ -23155,7 +23155,7 @@
         "released": false
     }, {
         "dex": 815,
-        "speciesName": "Cinderace",
+        "speciesName": "閃焰王牌",
         "speciesId": "cinderace",
         "baseStats": {
             "atk": 238,
@@ -23175,7 +23175,7 @@
         "released": false
     }, {
         "dex": 816,
-        "speciesName": "Sobble",
+        "speciesName": "淚眼蜥",
         "speciesId": "sobble",
         "baseStats": {
             "atk": 132,
@@ -23195,7 +23195,7 @@
         "released": false
     }, {
         "dex": 817,
-        "speciesName": "Drizzile",
+        "speciesName": "變澀蜥",
         "speciesId": "drizzile",
         "baseStats": {
             "atk": 186,
@@ -23215,7 +23215,7 @@
         "released": false
     }, {
         "dex": 818,
-        "speciesName": "Inteleon",
+        "speciesName": "千面避役",
         "speciesId": "inteleon",
         "baseStats": {
             "atk": 262,
@@ -23235,7 +23235,7 @@
         "released": false
     }, {
         "dex": 819,
-        "speciesName": "Skwovet",
+        "speciesName": "貪心栗鼠",
         "speciesId": "skwovet",
         "baseStats": {
             "atk": 95,
@@ -23255,7 +23255,7 @@
         "released": false
     }, {
         "dex": 820,
-        "speciesName": "Greedent",
+        "speciesName": "藏飽栗鼠",
         "speciesId": "greedent",
         "baseStats": {
             "atk": 160,
@@ -23275,7 +23275,7 @@
         "released": false
     }, {
         "dex": 821,
-        "speciesName": "Rookidee",
+        "speciesName": "稚山雀",
         "speciesId": "rookidee",
         "baseStats": {
             "atk": 88,
@@ -23295,7 +23295,7 @@
         "released": false
     }, {
         "dex": 822,
-        "speciesName": "Corvisquire",
+        "speciesName": "藍鴉",
         "speciesId": "corvisquire",
         "baseStats": {
             "atk": 129,
@@ -23315,7 +23315,7 @@
         "released": false
     }, {
         "dex": 823,
-        "speciesName": "Corviknight",
+        "speciesName": "鋼鎧鴉",
         "speciesId": "corviknight",
         "baseStats": {
             "atk": 163,
@@ -23335,7 +23335,7 @@
         "released": false
     }, {
         "dex": 824,
-        "speciesName": "Blipbug",
+        "speciesName": "索偵蟲",
         "speciesId": "blipbug",
         "baseStats": {
             "atk": 46,
@@ -23355,7 +23355,7 @@
         "released": false
     }, {
         "dex": 825,
-        "speciesName": "Dottler",
+        "speciesName": "天罩蟲",
         "speciesId": "dottler",
         "baseStats": {
             "atk": 87,
@@ -23375,7 +23375,7 @@
         "released": false
     }, {
         "dex": 826,
-        "speciesName": "Orbeetle",
+        "speciesName": "以歐路普",
         "speciesId": "orbeetle",
         "baseStats": {
             "atk": 156,
@@ -23395,7 +23395,7 @@
         "released": false
     }, {
         "dex": 827,
-        "speciesName": "Nickit",
+        "speciesName": "偷兒狐",
         "speciesId": "nickit",
         "baseStats": {
             "atk": 85,
@@ -23415,7 +23415,7 @@
         "released": false
     }, {
         "dex": 828,
-        "speciesName": "Thievul",
+        "speciesName": "狐大盜",
         "speciesId": "thievul",
         "baseStats": {
             "atk": 172,
@@ -23435,7 +23435,7 @@
         "released": false
     }, {
         "dex": 829,
-        "speciesName": "Gossifleur",
+        "speciesName": "幼棉棉",
         "speciesId": "gossifleur",
         "baseStats": {
             "atk": 70,
@@ -23455,7 +23455,7 @@
         "released": false
     }, {
         "dex": 830,
-        "speciesName": "Eldegoss",
+        "speciesName": "白蓬蓬",
         "speciesId": "eldegoss",
         "baseStats": {
             "atk": 148,
@@ -23475,7 +23475,7 @@
         "released": false
     }, {
         "dex": 831,
-        "speciesName": "Wooloo",
+        "speciesName": "毛辮羊",
         "speciesId": "wooloo",
         "baseStats": {
             "atk": 76,
@@ -23495,7 +23495,7 @@
         "released": false
     }, {
         "dex": 832,
-        "speciesName": "Dubwool",
+        "speciesName": "毛毛角羊",
         "speciesId": "dubwool",
         "baseStats": {
             "atk": 159,
@@ -23515,7 +23515,7 @@
         "released": false
     }, {
         "dex": 833,
-        "speciesName": "Chewtle",
+        "speciesName": "咬咬龜",
         "speciesId": "chewtle",
         "baseStats": {
             "atk": 114,
@@ -23535,7 +23535,7 @@
         "released": false
     }, {
         "dex": 834,
-        "speciesName": "Drednaw",
+        "speciesName": "暴噬龜",
         "speciesId": "drednaw",
         "baseStats": {
             "atk": 213,
@@ -23555,7 +23555,7 @@
         "released": false
     }, {
         "dex": 835,
-        "speciesName": "Yamper",
+        "speciesName": "來電汪",
         "speciesId": "yamper",
         "baseStats": {
             "atk": 80,
@@ -23575,7 +23575,7 @@
         "released": false
     }, {
         "dex": 836,
-        "speciesName": "Boltund",
+        "speciesName": "逐電犬",
         "speciesId": "boltund",
         "baseStats": {
             "atk": 197,
@@ -23595,7 +23595,7 @@
         "released": false
     }, {
         "dex": 837,
-        "speciesName": "Rolycoly",
+        "speciesName": "小炭仔",
         "speciesId": "rolycoly",
         "baseStats": {
             "atk": 73,
@@ -23615,7 +23615,7 @@
         "released": false
     }, {
         "dex": 838,
-        "speciesName": "Carkol",
+        "speciesName": "大炭車",
         "speciesId": "carkol",
         "baseStats": {
             "atk": 114,
@@ -23635,7 +23635,7 @@
         "released": false
     }, {
         "dex": 839,
-        "speciesName": "Coalossal",
+        "speciesName": "巨炭山",
         "speciesId": "coalossal",
         "baseStats": {
             "atk": 146,
@@ -23655,7 +23655,7 @@
         "released": false
     }, {
         "dex": 840,
-        "speciesName": "Applin",
+        "speciesName": "啃果蟲",
         "speciesId": "applin",
         "baseStats": {
             "atk": 71,
@@ -23675,7 +23675,7 @@
         "released": false
     }, {
         "dex": 841,
-        "speciesName": "Flapple",
+        "speciesName": "蘋裹龍",
         "speciesId": "flapple",
         "baseStats": {
             "atk": 214,
@@ -23695,7 +23695,7 @@
         "released": false
     }, {
         "dex": 842,
-        "speciesName": "Appletun",
+        "speciesName": "豐蜜龍",
         "speciesId": "appletun",
         "baseStats": {
             "atk": 214,
@@ -23715,7 +23715,7 @@
         "released": false
     }, {
         "dex": 843,
-        "speciesName": "Silicobra",
+        "speciesName": "沙包蛇",
         "speciesId": "silicobra",
         "baseStats": {
             "atk": 103,
@@ -23735,7 +23735,7 @@
         "released": false
     }, {
         "dex": 844,
-        "speciesName": "Sandaconda",
+        "speciesName": "沙螺蟒",
         "speciesId": "sandaconda",
         "baseStats": {
             "atk": 202,
@@ -23755,7 +23755,7 @@
         "released": false
     }, {
         "dex": 845,
-        "speciesName": "Cramorant",
+        "speciesName": "古月鳥",
         "speciesId": "cramorant",
         "baseStats": {
             "atk": 173,
@@ -23775,7 +23775,7 @@
         "released": false
     }, {
         "dex": 846,
-        "speciesName": "Arrokuda",
+        "speciesName": "刺梭魚",
         "speciesId": "arrokuda",
         "baseStats": {
             "atk": 118,
@@ -23795,7 +23795,7 @@
         "released": false
     }, {
         "dex": 847,
-        "speciesName": "Barraskewda",
+        "speciesName": "戽斗尖梭",
         "speciesId": "barraskewda",
         "baseStats": {
             "atk": 258,
@@ -23815,7 +23815,7 @@
         "released": false
     }, {
         "dex": 848,
-        "speciesName": "Toxel",
+        "speciesName": "毒電嬰",
         "speciesId": "toxel",
         "baseStats": {
             "atk": 97,
@@ -23835,7 +23835,7 @@
         "released": false
     }, {
         "dex": 849,
-        "speciesName": "Toxtricity",
+        "speciesName": "顫弦蠑螈",
         "speciesId": "toxtricity",
         "baseStats": {
             "atk": 224,
@@ -23895,7 +23895,7 @@
         "released": false
     }, {
         "dex": 850,
-        "speciesName": "Sizzlipede",
+        "speciesName": "燒火蚣",
         "speciesId": "sizzlipede",
         "baseStats": {
             "atk": 118,
@@ -23915,7 +23915,7 @@
         "released": false
     }, {
         "dex": 851,
-        "speciesName": "Centiskorch",
+        "speciesName": "焚焰蚣",
         "speciesId": "centiskorch",
         "baseStats": {
             "atk": 220,
@@ -23935,7 +23935,7 @@
         "released": false
     }, {
         "dex": 852,
-        "speciesName": "Clobbopus",
+        "speciesName": "拳拳蛸",
         "speciesId": "clobbopus",
         "baseStats": {
             "atk": 121,
@@ -23955,7 +23955,7 @@
         "released": false
     }, {
         "dex": 853,
-        "speciesName": "Grapploct",
+        "speciesName": "八爪武師",
         "speciesId": "grapploct",
         "baseStats": {
             "atk": 209,
@@ -23975,7 +23975,7 @@
         "released": false
     }, {
         "dex": 854,
-        "speciesName": "Sinistea",
+        "speciesName": "來悲茶",
         "speciesId": "sinistea",
         "baseStats": {
             "atk": 134,
@@ -24035,7 +24035,7 @@
         "released": false
     }, {
         "dex": 855,
-        "speciesName": "Polteageist",
+        "speciesName": "怖思壺",
         "speciesId": "polteageist",
         "baseStats": {
             "atk": 248,
@@ -24095,7 +24095,7 @@
         "released": false
     }, {
         "dex": 856,
-        "speciesName": "Hatenna",
+        "speciesName": "迷布莉姆",
         "speciesId": "hatenna",
         "baseStats": {
             "atk": 98,
@@ -24115,7 +24115,7 @@
         "released": false
     }, {
         "dex": 857,
-        "speciesName": "Hattrem",
+        "speciesName": "提布莉姆",
         "speciesId": "hattrem",
         "baseStats": {
             "atk": 153,
@@ -24135,7 +24135,7 @@
         "released": false
     }, {
         "dex": 858,
-        "speciesName": "Hatterene",
+        "speciesName": "布莉姆溫",
         "speciesId": "hatterene",
         "baseStats": {
             "atk": 237,
@@ -24155,7 +24155,7 @@
         "released": false
     }, {
         "dex": 859,
-        "speciesName": "Impidimp",
+        "speciesName": "搗蛋小妖",
         "speciesId": "impidimp",
         "baseStats": {
             "atk": 103,
@@ -24175,7 +24175,7 @@
         "released": false
     }, {
         "dex": 860,
-        "speciesName": "Morgrem",
+        "speciesName": "詐唬魔",
         "speciesId": "morgrem",
         "baseStats": {
             "atk": 145,
@@ -24195,7 +24195,7 @@
         "released": false
     }, {
         "dex": 861,
-        "speciesName": "Grimmsnarl",
+        "speciesName": "長毛巨魔",
         "speciesId": "grimmsnarl",
         "baseStats": {
             "atk": 227,
@@ -24258,7 +24258,7 @@
         "released": true
     }, {
         "dex": 864,
-        "speciesName": "Cursola",
+        "speciesName": "魔靈珊瑚",
         "speciesId": "cursola",
         "baseStats": {
             "atk": 253,
@@ -24342,7 +24342,7 @@
         "released": true
     }, {
         "dex": 868,
-        "speciesName": "Milcery",
+        "speciesName": "小仙奶",
         "speciesId": "milcery",
         "baseStats": {
             "atk": 90,
@@ -24362,7 +24362,7 @@
         "released": false
     }, {
         "dex": 869,
-        "speciesName": "Alcremie",
+        "speciesName": "霜奶仙",
         "speciesId": "alcremie",
         "baseStats": {
             "atk": 203,
@@ -24382,7 +24382,7 @@
         "released": false
     }, {
         "dex": 870,
-        "speciesName": "Falinks",
+        "speciesName": "列陣兵",
         "speciesId": "falinks",
         "baseStats": {
             "atk": 193,
@@ -24402,7 +24402,7 @@
         "released": false
     }, {
         "dex": 871,
-        "speciesName": "Pincurchin",
+        "speciesName": "啪嚓海膽",
         "speciesId": "pincurchin",
         "baseStats": {
             "atk": 176,
@@ -24422,7 +24422,7 @@
         "released": false
     }, {
         "dex": 872,
-        "speciesName": "Snom",
+        "speciesName": "雪吞蟲",
         "speciesId": "snom",
         "baseStats": {
             "atk": 76,
@@ -24442,7 +24442,7 @@
         "released": false
     }, {
         "dex": 873,
-        "speciesName": "Frosmoth",
+        "speciesName": "雪絨蛾",
         "speciesId": "frosmoth",
         "baseStats": {
             "atk": 230,
@@ -24462,7 +24462,7 @@
         "released": false
     }, {
         "dex": 874,
-        "speciesName": "Stonjourner",
+        "speciesName": "巨石丁",
         "speciesId": "stonjourner",
         "baseStats": {
             "atk": 222,
@@ -24482,7 +24482,7 @@
         "released": false
     }, {
         "dex": 875,
-        "speciesName": "Eiscue",
+        "speciesName": "冰砌鵝",
         "speciesId": "eiscue",
         "baseStats": {
             "atk": 148,
@@ -24542,7 +24542,7 @@
         "released": false
     }, {
         "dex": 876,
-        "speciesName": "Indeedee",
+        "speciesName": "愛管侍",
         "speciesId": "indeedee",
         "baseStats": {
             "atk": 208,
@@ -24602,7 +24602,7 @@
         "released": false
     }, {
         "dex": 877,
-        "speciesName": "Morpeko",
+        "speciesName": "莫魯貝可",
         "speciesId": "morpeko",
         "baseStats": {
             "atk": 192,
@@ -24662,7 +24662,7 @@
         "released": false
     }, {
         "dex": 878,
-        "speciesName": "Cufant",
+        "speciesName": "銅象",
         "speciesId": "cufant",
         "baseStats": {
             "atk": 140,
@@ -24682,7 +24682,7 @@
         "released": false
     }, {
         "dex": 879,
-        "speciesName": "Copperajah",
+        "speciesName": "大王銅象",
         "speciesId": "copperajah",
         "baseStats": {
             "atk": 226,
@@ -24702,7 +24702,7 @@
         "released": false
     }, {
         "dex": 880,
-        "speciesName": "Dracozolt",
+        "speciesName": "雷鳥龍",
         "speciesId": "dracozolt",
         "baseStats": {
             "atk": 195,
@@ -24722,7 +24722,7 @@
         "released": false
     }, {
         "dex": 881,
-        "speciesName": "Arctozolt",
+        "speciesName": "雷鳥海獸",
         "speciesId": "arctozolt",
         "baseStats": {
             "atk": 190,
@@ -24742,7 +24742,7 @@
         "released": false
     }, {
         "dex": 882,
-        "speciesName": "Dracovish",
+        "speciesName": "鰓魚龍",
         "speciesId": "dracovish",
         "baseStats": {
             "atk": 175,
@@ -24762,7 +24762,7 @@
         "released": false
     }, {
         "dex": 883,
-        "speciesName": "Arctovish",
+        "speciesName": "鰓魚海獸",
         "speciesId": "arctovish",
         "baseStats": {
             "atk": 171,
@@ -24782,7 +24782,7 @@
         "released": false
     }, {
         "dex": 884,
-        "speciesName": "Duraludon",
+        "speciesName": "鋁鋼龍",
         "speciesId": "duraludon",
         "baseStats": {
             "atk": 239,
@@ -24802,7 +24802,7 @@
         "released": false
     }, {
         "dex": 885,
-        "speciesName": "Dreepy",
+        "speciesName": "多龍梅西亞",
         "speciesId": "dreepy",
         "baseStats": {
             "atk": 117,
@@ -24822,7 +24822,7 @@
         "released": false
     }, {
         "dex": 886,
-        "speciesName": "Drakloak",
+        "speciesName": "多龍奇",
         "speciesId": "drakloak",
         "baseStats": {
             "atk": 163,
@@ -24842,7 +24842,7 @@
         "released": false
     }, {
         "dex": 887,
-        "speciesName": "Dragapult",
+        "speciesName": "多龍巴魯托",
         "speciesId": "dragapult",
         "baseStats": {
             "atk": 266,
@@ -24862,7 +24862,7 @@
         "released": false
     }, {
         "dex": 888,
-        "speciesName": "Zacian",
+        "speciesName": "蒼響",
         "speciesId": "zacian",
         "baseStats": {
             "atk": 254,
@@ -24923,7 +24923,7 @@
 		"searchPriority": 5
     }, {
         "dex": 889,
-        "speciesName": "Zamazenta",
+        "speciesName": "藏瑪然特",
         "speciesId": "zamazenta",
         "baseStats": {
             "atk": 254,
@@ -24984,7 +24984,7 @@
 		"searchPriority": 5
     }, {
         "dex": 890,
-        "speciesName": "Eternatus",
+        "speciesName": "無極汰那",
         "speciesId": "eternatus",
         "baseStats": {
             "atk": 278,
@@ -25024,7 +25024,7 @@
         "released": false
     }, {
         "dex": 891,
-        "speciesName": "Kubfu",
+        "speciesName": "熊徒弟",
         "speciesId": "kubfu",
         "baseStats": {
             "atk": 170,
@@ -25044,7 +25044,7 @@
         "released": false
     }, {
         "dex": 892,
-        "speciesName": "Urshifu",
+        "speciesName": "武道熊師",
         "speciesId": "urshifu",
         "baseStats": {
             "atk": 231,
@@ -25104,7 +25104,7 @@
         "released": false
     }, {
         "dex": 893,
-        "speciesName": "Zarude",
+        "speciesName": "薩戮德",
         "speciesId": "zarude",
         "baseStats": {
             "atk": 242,
@@ -25124,7 +25124,7 @@
         "released": false
     }, {
         "dex": 894,
-        "speciesName": "Regieleki",
+        "speciesName": "雷吉艾勒奇",
         "speciesId": "regieleki",
         "baseStats": {
             "atk": 228,
@@ -25144,7 +25144,7 @@
         "released": false
     }, {
         "dex": 895,
-        "speciesName": "Regidrago",
+        "speciesName": "雷吉鐸拉戈",
         "speciesId": "regidrago",
         "baseStats": {
             "atk": 184,
@@ -25164,7 +25164,7 @@
         "released": false
     }, {
         "dex": 896,
-        "speciesName": "Glastrier",
+        "speciesName": "雪暴馬",
         "speciesId": "glastrier",
         "baseStats": {
             "atk": 224,
@@ -25184,7 +25184,7 @@
         "released": false
     }, {
         "dex": 897,
-        "speciesName": "Spectrier",
+        "speciesName": "靈幽馬",
         "speciesId": "spectrier",
         "baseStats": {
             "atk": 273,
@@ -25204,7 +25204,7 @@
         "released": false
     }, {
         "dex": 898,
-        "speciesName": "Calyrex",
+        "speciesName": "蕾冠王",
         "speciesId": "calyrex",
         "baseStats": {
             "atk": 147,

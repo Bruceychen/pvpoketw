@@ -7,17 +7,17 @@
         </tr>
         <tr>
             <td><strong>寶可夢屬性</strong></td>
-            <td>water</td>
+            <td>water:水屬</td>
         </tr>
         <tr>
             <td><strong>類別</strong></td>
-            <td>legendary<br><br>
-
+            <td>
                 legendary :<i>傳說的寶可夢</i><br>
                 mythical :<i>幻之寶可夢</i><br>
                 regional :<i>現實世界區域限定</i><br>
                 alolan :<i>阿羅拉型態</i><br>
-                galarian :<i>伽勒爾型態</i><br>
+                galarian :<i>伽勒爾型態但不含伽勒爾限定</i><br>
+                galar :<i>伽勒爾地區限定</i><br>
                 starter :<i>初始寶可夢</i><br>
                 shadow :<i>僅暗影寶可夢</i><br>
                 shadoweligible :<i>有暗影化型態，<strong>但只顯示一般個體</strong></i><br>
@@ -26,15 +26,17 @@
         </tr>
         <tr>
             <td><strong>世代</strong><br></td>
-            <td>gen1
+            <td>
+                gen1:<i>第一世代</i><br>
+                gen2:<i>第二世代</i><br>
+                gen8:<i>第八世代</i><br>
             </td>
         </tr>
         <tr>
             <td>
                 <strong>地區</strong>
             </td>
-            <td>kanto<br><br>
-
+            <td>
                 kanto :<i>關都地區</i><br>
                 johto :<i>城都地區</i><br>
                 hoenn :<i>豐緣地區</i><br>
@@ -43,7 +45,7 @@
             </td>
         </tr>
         <tr>
-            <td><strong>圖鑑編號</strong></td>
+            <td><strong>全國圖鑑編號</strong></td>
             <td>184</td>
         </tr>
         <tr>
@@ -73,7 +75,7 @@
             </td>
         </tr>
         <tr>
-            <td><strong>Traits</strong></td>
+            <td><strong>對戰特質(Traits)</strong></td>
             <td>Bulky, Spammy, Risky, etc. See adjacent trait guide.</td>
         </tr>
         <tr>

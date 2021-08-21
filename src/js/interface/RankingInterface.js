@@ -1073,9 +1073,9 @@ var InterfaceMaster = (function () {
 
 				// Display buddy distance and second move cost
 				var moveCostStr = pokemon.thirdMoveCost.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","); // Ugh regex
-
-				$details.find(".buddy-distance").html(pokemon.buddyDistance + " km");
-				$details.find(".third-move-cost").html(moveCostStr + " Stardust");
+				//以下兩行頁面單位翻譯
+				$details.find(".buddy-distance").html(pokemon.buddyDistance + " 公里");
+				$details.find(".third-move-cost").html(moveCostStr + " 星塵");
 
 				// Display Pokemon's highest IV's
 

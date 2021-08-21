@@ -149,8 +149,9 @@ require_once 'header.php'; ?>
 					<li><strong>第三世代：</strong> 252-386</li>
 					<li><strong>第四世代：</strong> 387-493</li>
                     <li><strong>第五世代：</strong> 494-649</li>
-                    <li><strong>第七世代：</strong> 722-809</li>
-                    <li><strong>第八世代：</strong> 810-890</li>
+                    <li><strong>第六世代：</strong> 650-721</li>
+                    <li><strong>第七世代：</strong> 722-807</li>
+                    <li><strong>第八世代：</strong> 808-898</li>
 				</ul>
 				<div class="field-container">
 					<input class="start-range" placeholder="Start #" />

@@ -125,26 +125,26 @@ require_once 'header.php';
 
 	<div class="clear"></div>
 
-	<p class="description overall"><b>納入各種定位考量，整體表現最佳的寶可夢。</b>在各種狀況中皆能有較佳戰果，且自身屬性、招式以及個體數值皆較為突出的寶可夢。</p>
-	<p class="description overall"><b>(The best Pokemon overall across multiple roles.</b> They have the typing, moves, and stats to succeed as top contenders.)</p>
+	<p class="description overall"><b>Overall: 納入各種定位考量，整體表現最佳的寶可夢。</b>在各種狀況中皆能有較佳戰果，且自身屬性、招式以及個體數值皆較為突出的寶可夢。</p>
+<!--	<p class="description overall"><b>(The best Pokemon overall across multiple roles.</b> They have the typing, moves, and stats to succeed as top contenders.)</p>-->
 
-	<p class="description closers hide"><b>對戰中不需使用防禦網就能有優秀表現的寶可夢。</b>擁有夠坦的體質或是較高傷害輸出的招式，使這類寶可夢往往能夠影響對戰結果。</p>
-	<p class="description closers hide"><b>The best Pokemon with no shields in play.</b> Bulk or hard-hitting moves allow them to close out matchups.</p>
+	<p class="description closers hide"><b>Closers: 對戰中不需使用防禦網就能有優秀表現的寶可夢。</b>擁有夠坦的體質或是較高傷害輸出的招式，使這類寶可夢往往能夠影響對戰結果。</p>
+<!--	<p class="description closers hide"><b>The best Pokemon with no shields in play.</b> Bulk or hard-hitting moves allow them to close out matchups.</p>-->
 
-	<p class="description leads hide"><b>搭配使用防禦網就能有絕佳表現的寶可夢。</b>能夠給對手造成壓力或是具備長時間對戰優勢的寶可夢。適合作為對戰隊伍先發。</p>
-	<p class="description leads hide"><b>The best Pokemon with shields in play.</b> Capable of applying pressure or winning extended fights, they're ideal leads in battle.</p>
+	<p class="description leads hide"><b>Leads: 搭配使用防禦網就能有絕佳表現的寶可夢。</b>能夠給對手造成壓力或是具備長時間對戰優勢的寶可夢。適合作為對戰隊伍先發。</p>
+<!--	<p class="description leads hide"><b>The best Pokemon with shields in play.</b> Capable of applying pressure or winning extended fights, they're ideal leads in battle.</p>-->
 
-    <p class="description attackers hide"><b>在面對使用防禦網的對手時，即便自身不使用防禦網也能有出色戰果的寶可夢。</b>此類寶可夢有較佳的個體、抗性以及強大的攻擊能力，能夠針對對手的弱點強力突穿。</p>
-	<p class="description attackers hide"><b>The best Pokemon against shielded opponents, while unshielded.</b> Their natural bulk, resistances, and strong attacks allow them to power through a disadvantage.</p>
+    <p class="description attackers hide"><b>Attackers: 在面對使用防禦網的對手時，即便自身不使用防禦網也能有出色戰果的寶可夢。</b>此類寶可夢有較佳的個體、抗性以及強大的攻擊能力，能夠針對對手的弱點強力突穿。</p>
+<!--	<p class="description attackers hide"><b>The best Pokemon against shielded opponents, while unshielded.</b> Their natural bulk, resistances, and strong attacks allow them to power through a disadvantage.</p>-->
 
-    <p class="description switches hide"><b>在面對開局先發弱勢(逆風或屬性遭剋制)的情況下，適合交換上場的寶可夢。</b>此類寶可夢除了可減少開局弱勢的情況之外，在被擊倒前仍能迫使對手使用防護網，或是提供可觀的傷害輸出。</p>
-	<p class="description switches hide"><b>The best Pokemon to switch to from an unfavorable lead.</b> These Pokemon have safe matchups and can pressure shields or deal heavy damage even in their losses.</p>
+    <p class="description switches hide"><b>Switches: 在面對開局先發弱勢(逆風或屬性遭剋制)的情況下，適合交換上場的寶可夢。</b>此類寶可夢除了可減少開局弱勢的情況之外，在被擊倒前仍能迫使對手使用防護網，或是提供可觀的傷害輸出。</p>
+<!--	<p class="description switches hide"><b>The best Pokemon to switch to from an unfavorable lead.</b> These Pokemon have safe matchups and can pressure shields or deal heavy damage even in their losses.</p>-->
 
-    <p class="description chargers hide"><b>擁有低能量需求優勢的寶可夢。</b>能量蓄積速度快，或是招式能量需求低且威力大的寶可夢類型。此類寶可夢只要有能量蓄積時，他們將變得非常有威脅性。</p>
-	<p class="description chargers hide"><b>The best Pokemon with an energy advantage.</b> Fast energy gain or powerful moves make them dangerous after building up energy.</p>
+    <p class="description chargers hide"><b>Chargers: 擁有低能量需求優勢的寶可夢。</b>能量蓄積速度快，或是招式能量需求低且威力大的寶可夢類型。此類寶可夢只要有能量蓄積時，他們將變得非常有威脅性。</p>
+<!--	<p class="description chargers hide"><b>The best Pokemon with an energy advantage.</b> Fast energy gain or powerful moves make them dangerous after building up energy.</p>-->
 
-    <p class="description consistency hide"><b>對戰表現較穩定的寶可夢。</b>此類寶可夢可提供持續性的傷害。相較於其他寶可夢，不需誘使對手使用防護網亦能有穩定的傷害輸出。</p>
-	<p class="description consistency hide"><b>These Pokemon perform the most dependably.</b> They provide consistent damage and rely less on baiting shields than other Pokemon.</p>
+    <p class="description consistency hide"><b>Consistency: 對戰表現較穩定的寶可夢。</b>此類寶可夢可提供持續性的傷害。相較於其他寶可夢，不需誘使對手使用防護網亦能有穩定的傷害輸出。</p>
+<!--	<p class="description consistency hide"><b>These Pokemon perform the most dependably.</b> They provide consistent damage and rely less on baiting shields than other Pokemon.</p>-->
 
 	<p class="description link hide"><b>主題/賽制資訊：</b> <a href="#" target="_blank"></a></p>
 

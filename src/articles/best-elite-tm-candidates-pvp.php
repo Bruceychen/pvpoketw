@@ -137,12 +137,9 @@ require_once '../header.php';
   <strong>適用於：</strong>
   超級、高級聯盟，紀念盃、Silph聯盟
   </p>
-  <p>
-	  此篇推薦文的第二隻 水/冰 屬性寶可夢。憑藉其優秀的坦度及高傷害輸出的招式組，拉普拉斯得以和其他meta寶可夢競爭The second Water/Ice type in this article, this majestic Pokemon is a powerful contender in most formats where it's allowed thanks to its bulk and powerful moveset. <b>Lapras is a top pick in the Ultra League Premier Cup</b> in particular. You'll need the legacy move Ice Shard.
-      特殊招式部分，衝浪永遠都是此寶可夢的標配，搭配上高傷害以及能強化自身防禦的火箭頭槌，拉普拉斯將能在超級聯盟及紀念盃中有更佳的表現。如果你專攻於"非"紀念盃(包含傳說寶可夢)高級聯盟，你也可以考慮多使用一個厲害招式機以習得冰凍光束。此技能在對上騎拉帝納等傳說寶可夢時能有較佳的傷害輸出。
-  </p>
-  <p>In the Premier Cup, Lapras is one of the bulkiest Pokemon and synergizes well with starters like Charizard and Venusaur. It's forgiving to use and can dish out damage even in its bad matchups. If you don't have an Ice Shard Lapras in your collection, it's one of the best Elite TM candidates to date.</p>
-  <p><b>Shadow Lapras has tradeoffs with regular Lapras</b>, but offers a harder hitting variant. In Great League, Shadow Lapras's Surf attacks are strong enough to take on Galarian Stunfisk, which regular Lapras can struggle with. It's a steep cost for Ultra League and doesn't provide many advantages over regular Lapras, but if you have the resources, more power to you!</p>
+  <p>此篇推薦文的第二隻 水/冰 屬性寶可夢。憑藉其優秀的坦度及高傷害輸出的招式組，拉普拉斯得以和其他meta寶可夢列入隊伍組合的優先選擇，<b>尤其在高級紀念盃中更是常見的一員。</b>絕版一般招式：冰礫是不二選擇。特殊招式部分，衝浪永遠都是此寶可夢的標配，搭配上高傷害以及能強化自身防禦的火箭頭槌，拉普拉斯將能在超級聯盟及紀念盃中有更佳的表現。如果你專攻於"非"紀念盃(包含傳說寶可夢)高級聯盟，你也可以考慮多使用一個厲害招式機以習得冰凍光束。此技能在對上騎拉帝納等傳說寶可夢時能有較佳的傷害輸出。</p>
+  <p>在紀念盃環境下，拉普拉斯的坦度(傷害耐受能力)可以稱得上是排名前幾，同時也具有較佳的先發隊員協同配合能力，比如搭配先發噴火龍或先發妙蛙花，拉普拉斯便能擔當一個優秀的補助與安全替換手。即便是在劣勢的對戰狀況，拉普拉斯的操作容錯度以及傷害輸出依然可以給對手不少的壓力甚至扳回一城。如果你還沒擁有冰礫拉普拉斯，那他絕對可以作為你使用厲害招式學習器的首選！</p>
+  <p><b>暗影化拉普拉斯和一般拉普拉斯則是各有好壞</b>，但暗影化則是有更好的傷害輸出。比如在超級聯盟環境下，暗影拉普拉斯的衝浪對伽勒爾型態泥巴魚更有威脅，而一般的拉普拉斯卻容易陷入苦戰。而在高級聯盟狀況下，暗影拉普拉斯需要耗費大量的資源，且跟一般拉普拉斯相比也沒有較多的優勢，但如果你願意投入，你還是能獲得可觀的傷害回報。</p>
   </div>
 
   <a name="ho-oh"></a>

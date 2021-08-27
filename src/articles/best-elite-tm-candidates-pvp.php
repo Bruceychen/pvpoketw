@@ -154,10 +154,10 @@ require_once '../header.php';
   <strong>適用於： </strong>
   大師聯盟(CP無限制)
   </p>
-  <p>Ho-Oh received Earthquake as an exclusive move alongside Fire Punch Groudon and Grass Knot Cresselia. At the time it didn't spark much interest - not until the other shoe dropped with Incinerate. Now able to put its best foot forward, Ho-Oh with Incinerate and Earthquake is capable of contending with the best of Master League.</p>
+  <p>在固拉多獲得火焰拳，克雷色利亞習得打草結之後，鳳王也跟著腳步得到了限定絕版特殊招式：地震。只是在當時鳳王並沒有因為這樣而得到額外的關注，直到最後的一片拼圖：燒盡 的登場，鳳王終於集齊了王牌，得以躋身大師聯盟的強者之列。</p>
   <p>Ho-Oh can challenge the reigning master, Dialga, as well as other key targets like Groudon, Togekiss, and Mewtwo. It can even survive a 2x super effective Rock Slide from Melmetal, and Brave Bird puts a decent dent into threats like Kyogre and Giratina. All in all, Ho-Oh has the moves and stats to be competitive.</p>
-  <p>It's not all sunshine for the Rainbow Pokemon, however. Incinerate is the longest Fast Move in the game. Clocking in at 5 turns (1 turn longer than Confusion), Incinerate can be extremely cumbersome to use. If a Fast Move doesn't register properly or if you "overtap" to fire Incinerate instead of a Charged Move, matchups can quickly go south. Ho-Oh's fastest move (Brave Bird) also drops its Defense by 3 stages. Knowing when to Brave Bird and when to Earthquake will take a lot of experience to master.</p>
-  <p>Overall, <b>Ho-Oh has a steep learning curve but is a worthy consideration</b> for an Elite TM.</p>
+  <p>當然風向也不會一直順著鳳王。首先，燒盡是目前遊戲中施放時間最長的一般招式，總共需要5轉(5回合，0.5秒為一回合)，足足比念力多了1轉。其次是遊戲目前的蓄能計算機制，如果沒有控制得當，少一發或是多一發燒盡都有可能瞬間讓戰局被逆轉。其三，鳳王的另一個特殊招式：勇鳥猛攻 具有讓自身防禦降低3階的減益副作用。因此該何時使用哪個特殊招式，便需要仰賴大量的實戰經驗與練習。</p>
+  <p>總結來說，<b>鳳王具有較陡峭的學習曲線，但仍是值得投資厲害招式學習器的候選寶可夢。</b></p>
   </div>
 
 	<a name="zapdos"></a>
@@ -174,6 +174,7 @@ require_once '../header.php';
     超級、高級聯盟
 </p>
 <p>
+    電擊<b>"傘店"</b> 閃電鳥在歷經很長一段時間後再次回歸團體戰，
     Thunder Shock Zapdos flew into raids a long while back, and although Zapdos
     became Great League eligible as a research breakthrough encounter, Great League Zapdos doesn't have access to Thunder Shock unless you use an Elite TM.
 </p>

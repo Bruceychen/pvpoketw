@@ -39,9 +39,17 @@ switch($cup){
 		$league = 'Premier';
 		break;
 
-	case "classic":
-		$league = 'Master League Classic';
-		break;
+    case "premierclassic":
+        $league = 'Premier Classic';
+        break;
+
+    case "classic":
+        $league = 'Master League Classic';
+        break;
+
+    case "halloween":
+        $league = 'Halloween Cup';
+        break;
 
     case "kanto":
         $league = 'Kanto Cup';

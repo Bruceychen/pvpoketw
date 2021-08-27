@@ -21,11 +21,15 @@
 			<h3 class="section-title">快速選擇</h3>
 			<select class="quick-fill-select">
 				<option value="new">建立新隊伍</option>
+                <option value="littlejungle" type="little" class="hide multi-battle">Little Jungle Meta</option>
 				<option value="great" type="great" class="multi-battle">超級(1500)聯盟 Meta</option>
 				<option value="ultra" type="ultra" class="hide multi-battle">高級(2500)聯盟 Meta</option>
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
 				<option value="premierultra" type="ultra" class="hide multi-battle">高級紀念盃 Meta</option>
 				<option value="premier" type="master" class="hide multi-battle">大師紀念盃 Meta</option>
+                <option value="ultrapremierclassic" type="ultra" class="hide multi-battle">高級紀念盃(經典) Meta</option>
+                <option value="masterpremierclassic" type="master" class="hide multi-battle">大師紀念盃(經典) Meta</option>
+                <option value="halloween" type="great" class="multi-battle">萬聖節盃 Meta</option>
                 <option value="factions" type="great" class="multi-battle">Silph Factions Meta (Dungeon)</option>
                 <option value="nightfall" type="great" class="multi-battle">Silph Factions Meta (Nightfall)</option>
                 <option value="worlds" type="great" class="multi-battle">Silph Worlds Meta</option>

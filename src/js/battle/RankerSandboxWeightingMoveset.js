@@ -15,8 +15,6 @@ var RankerMaster = (function () {
 		function rankerObject(){
 			var gm = GameMaster.getInstance();
 			var battle = new Battle();
-
-			var rankings = [];
 			var rankingCombinations = [];
 
 			var moveSelectMode = "force";
@@ -52,7 +50,12 @@ var RankerMaster = (function () {
 
 				for(currentScenarioIndex = 0; currentScenarioIndex < scenarios.length; currentScenarioIndex++){
 					var r = self.rank(leagues[currentLeagueIndex], scenarios[currentScenarioIndex]);
-					allResults.push(r);
+
+					if(! callback){
+						delete r;
+					} else{
+						allResults.push(r);
+					}
 				}
 
 				callback(allResults);
@@ -145,7 +148,6 @@ var RankerMaster = (function () {
 						}
 
 					}
-
 				}
 
 				var currentRankings = rankingCombinations.length;
@@ -168,7 +170,6 @@ var RankerMaster = (function () {
 						}
 					}
 				}, 1000);
-
 			}
 
 			// Run an individual rank set
@@ -178,7 +179,7 @@ var RankerMaster = (function () {
 				var totalBattles = 0;
 				var shieldCounts = scenario.shields;
 
-				rankings = [];
+				var rankings = [];
 
 				// For all eligible Pokemon, simulate battles and gather rating data
 
@@ -311,6 +312,11 @@ var RankerMaster = (function () {
 								winMultiplier = 0;
 							}
 
+							if(rating == 500){
+								winMultiplier = 0;
+								opWinMultiplier = 0;
+							}
+
 							adjRating = rating + ( (100 * (opponent.startingShields - opponent.shields) * winMultiplier) + (100 * pokemon.shields * winMultiplier));
 							adjOpRating = opRating + ( (100 * (pokemon.startingShields - pokemon.shields) * opWinMultiplier) + (100 * opponent.shields * opWinMultiplier));
 						}
@@ -413,7 +419,11 @@ var RankerMaster = (function () {
 					iterations = 1;
 				}
 
-				if((cup.name == "remix")&&(battle.getCP() == 1500)){
+				if((cup.name == "worlds")&&(battle.getCP() == 1500)){
+					iterations = 1;
+				}
+
+				if(cup.name == "halloween"){
 					iterations = 1;
 				}
 
@@ -429,23 +439,15 @@ var RankerMaster = (function () {
 					iterations = 1;
 				}
 
-				if((cup.name == "sorcerous-mirror")||(cup.name == "sinister-mirror")||(cup.name == "timeless-mirror")){
+				if(cup.name == "premierclassic"){
 					iterations = 1;
 				}
 
-				if(cup.name == "vortex"){
-					iterations = 1;
-				}
-
-				if(cup.name == "prismatic"){
+				if((cup.name == "remix")&&(battle.getCP() == 1500)){
 					iterations = 1;
 				}
 
 				if(cup.name == "kanto"){
-					iterations = 1;
-				}
-
-				if(cup.name == "retro"){
 					iterations = 1;
 				}
 
@@ -504,6 +506,10 @@ var RankerMaster = (function () {
 								weight *= targets[j].weightModifier;
 							} else{
 								if((cup.name == "all")&&(battle.getCP() == 1500)){
+									weight = 0;
+								}
+
+								if((cup.name == "worlds")&&(battle.getCP() == 1500)){
 									weight = 0;
 								}
 							}
@@ -584,7 +590,7 @@ var RankerMaster = (function () {
 						delete match.adjOpRating;
 						delete match.opRating;
 
-						if(match.rating < 500){
+						if((match.rating < 500)||(cup.name == "bidoof")){
 							rankings[i].counters.push(match);
 							keyMatchupsCount++;
 
@@ -611,7 +617,7 @@ var RankerMaster = (function () {
 						delete match.adjOpRating;
 						delete match.OpRating;
 
-						if(match.rating > 500){
+						if((match.rating > 500)||(cup.name == "bidoof")){
 							rankings[i].matchups.push(match);
 							keyMatchupsCount++;
 
@@ -662,6 +668,8 @@ var RankerMaster = (function () {
 						dataType:'json',
 						success : function(data) {
 							console.log(data);
+
+							delete rankings;
 						},
 						error : function(request,error)
 						{

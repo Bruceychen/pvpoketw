@@ -63,8 +63,8 @@ switch($cup){
         $league = 'Shadow Cup';
         break;
 
-    case "cutie":
-        $league = 'Cutie Cup';
+    case "littlejungle":
+        $league = 'Little Jungle Cup';
         break;
 
     case "goteamup":
@@ -160,6 +160,8 @@ require_once 'header.php';
     <p>譯者說明請見<a href="https://twitter.com/tw_pvpokeSite">推特</a>或是<a href="https://www.facebook.com/pvpoketw/">臉書粉絲頁</a></p>
 
 	<p>點擊以下各寶可夢可獲得更詳細的資料。</p>
+
+    <p class="little-jungle hide" style="padding:5px; color: rgb(225 111 35); border-radius:8px; border: 1px solid rgb(225 111 35); font-size:14px;">Details on the Little Jungle Cup ruleset currently need confirmation. Consider waiting before making any investments.</p>
 
 	<div class="check <?php if($_SETTINGS->xls): echo "on"; endif; ?> xl" style="margin-bottom:15px;"><span></span>顯示 XL 寶可夢</div>
 

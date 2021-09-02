@@ -172,8 +172,9 @@ var InterfaceMaster = (function () {
 				$(".section.white > .rankings-container").html('');
 
 				// Initialize csv data
-
-				csv = 'Pokemon,Score,Type 1,Type 2,Attack,Defense,Stamina,Stat Product,Level,Fast Move,Charged Move 1,Charged Move 2,Charged Move 1 Count,Charged Move 2 Count,Buddy Distance,Charged Move Cost\n';
+				// 以下這行中文翻譯下載csv的欄位名稱
+				// csv = 'Pokemon,Score,Type 1,Type 2,Attack,Defense,Stamina,Stat Product,Level,Fast Move,Charged Move 1,Charged Move 2,Charged Move 1 Count,Charged Move 2 Count,Buddy Distance,Charged Move Cost\n';
+				csv = '名稱,評分,第一屬性,第二屬性,攻擊力,防禦力,HP,Stat Product,等級,一般招式,特殊招式1,特殊招式2,幾下可用特招1,幾下可用特招2,夥伴行走距離,開第二招星塵花費\n';
 
 
 				// Create an element for each ranked Pokemon
@@ -291,8 +292,8 @@ var InterfaceMaster = (function () {
 					}
 
 
-
-					csv += pokemon.speciesName+','+r.score+','+pokemon.types[0]+','+pokemon.types[1]+','+(Math.round(pokemon.stats.atk*10)/10)+','+(Math.round(pokemon.stats.def*10)/10)+','+Math.round(pokemon.stats.hp)+','+Math.round(pokemon.stats.atk*pokemon.stats.def*pokemon.stats.hp)+','+pokemon.level+','+pokemon.fastMove.name+','+pokemon.chargedMoves[0].name+','+chargedMove2Name+','+chargedMove1Count+','+chargedMove2Count+','+pokemon.buddyDistance+','+pokemon.thirdMoveCost+'\n';
+					// 以下這行中文翻譯 針對寫入csv屬性翻譯
+					csv += pokemon.speciesName+','+r.score+','+typeTranslate(pokemon.types[0])+','+typeTranslate(pokemon.types[1])+','+(Math.round(pokemon.stats.atk*10)/10)+','+(Math.round(pokemon.stats.def*10)/10)+','+Math.round(pokemon.stats.hp)+','+Math.round(pokemon.stats.atk*pokemon.stats.def*pokemon.stats.hp)+','+pokemon.level+','+pokemon.fastMove.name+','+pokemon.chargedMoves[0].name+','+chargedMove2Name+','+chargedMove1Count+','+chargedMove2Count+','+pokemon.buddyDistance+','+pokemon.thirdMoveCost+'\n';
 				}
 
 				$(".loading").hide();

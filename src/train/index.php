@@ -43,9 +43,9 @@ require_once '../header.php';
                 <option value="10000 premierclassic">Go 大師紀念盃(經典)</option>
                 <option value="10000 classic">GO 大師對戰聯盟 (經典)</option>
                 <option value="1500 halloween">萬聖節盃</option>
-                <option value="1500 all">超級聯盟全寶可夢</option>
-                <option value="2500 all">高級聯盟全寶可夢</option>
-                <option value="10000 all">大師聯盟全寶可夢</option>
+                <option value="1500 all">超級聯盟(6v6)</option>
+                <option value="2500 all">高級聯盟(6v6)</option>
+                <option value="10000 all">大師聯盟(6v6)</option>
 			</select>
 			<h3 class="section-title">AI 強度</h3>
 			<select class="difficulty-select">

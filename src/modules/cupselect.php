@@ -3,6 +3,7 @@
 	<option value="official" cup="premier">紀念盃</option>
     <option value="official" cup="remix">Remix盃</option>
     <option value="official" cup="halloween">萬聖節盃</option>
+    <option value="official" cup="littlejungle">Little Jungle Cup</option>
     <option value="tsa-3" cup="factions">Silph Factions (Dungeon)</option>
     <option value="tsa-3" cup="nightfall">Silph Factions (Nightfall)</option>
     <option value="tsa-3" cup="worlds">Silph Worlds</option>
@@ -32,6 +33,7 @@
     <option value="bidoof" cat="official">大牙狸盃</option>
     <option value="holiday" cat="official">假日盃</option>
     <option value="classic" cat="official">大師經典賽 (XL 禁止)</option>
+    <option value="littlejungle" cat="official">Little Jungle Cup</option>
 	<option value="safari" cat="community">Montreal Safari Cup</option>
 	<option value="fantasy" cat="community">GO LIVE Fantasy Cup</option>
 	<option value="beam" cat="community">Get Beamed</option>

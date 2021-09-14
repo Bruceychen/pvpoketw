@@ -1,6 +1,5 @@
 <select class="format-select">
 	<option value="1500" cup="all" meta-group="great">超級聯盟</option>
-    <option value="1500" cup="remix" meta-group="great">超級聯盟 (Remix)</option>
 	<option value="2500" cup="all" meta-group="ultra">高級聯盟</option>
     <option value="2500" cup="remix" meta-group="great">高級聯盟 (Remix)</option>
     <option value="2500" cup="premierclassic" meta-group="ultrapremierclassic">高級聯盟 (紀念盃經典賽)</option>
@@ -11,7 +10,6 @@
     <option value="500" cup="littlejungle" meta-group="littlejungle">Little Jungle Cup</option>
     <option value="1500" cup="factions" meta-group="factions">Silph Factions (Dungeon)</option>
     <option value="1500" cup="nightfall" meta-group="nightfall">Silph Factions (Nightfall)</option>
-    <option value="1500" cup="worlds" meta-group="great">Silph Worlds</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="1500" cup="cliffhanger" meta-group="great">GO Stadium Cliffhanger</option>

@@ -224,6 +224,10 @@ var InterfaceMaster = (function () {
 					var cycleDamage = Math.round( (fastDamage + chargedDamage) * 10) / 10;
 					var cycleDPT = Math.round( (cycleDamage / (cycleDuration / 500)) * 100) / 100;
 
+					var cycle1Count = Math.ceil( (chargedMove.energy * 1) / fastMove.energyGain);
+					var cycle2Count = Math.ceil( (chargedMove.energy * 2) / fastMove.energyGain) - cycle1Count;
+					var cycle3Count = Math.ceil( (chargedMove.energy * 3) / fastMove.energyGain) - cycle1Count - cycle2Count;
+
 					movesetStats.push({ title: "一般招式傷害", value: fastDamage});
 					movesetStats.push({ title: "特殊招式傷害", value: chargedDamage});
 					movesetStats.push({ title: "合計傷害輸出", value: cycleDamage});

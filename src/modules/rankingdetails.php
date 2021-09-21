@@ -134,6 +134,7 @@
 					<div class="dpe"><b class="value">0</b> dpe</div>
 				</div>
 				<div class="stats-container name-container move-effect flex"></div>
+                <div class="stats-container name-container move-count"><div>一般招式使用次數：<span></span></div></div>
 			</div>
 		</div>
 	</div>
@@ -165,6 +166,11 @@
 		<div class="ranking-header">解鎖特殊招式星塵數</div>
 		<div class="third-move-cost clear"></div>
 	</div>
+    <div class="clear"></div>
+    <div class="detail-section similar-pokemon">
+        <div class="ranking-header">特性相似寶可夢</div>
+        <div class="list"></div>
+    </div>
 	<div class="share-link detail-section"><input type="text" readonly="">
 		<div class="copy">複製</div>
 	</div>

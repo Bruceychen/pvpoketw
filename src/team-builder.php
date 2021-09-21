@@ -37,8 +37,15 @@ require_once 'header.php';
                 </div>
             </div>
             <div class="flex-section">
-                <h3 class="section-title">Exclude</h3>
-                <p>自行指定排除，建議寶可夢清單中 1到多個寶可夢。</p>
+                <h3 class="section-title">排除具威脅寶可夢</h3>
+                <p>下列寶可夢將不會出現在具威脅清單中</p>
+                <div class="team-build exclude-threats">
+                    <?php require 'modules/pokemultiselect.php'; ?>
+                </div>
+            </div>
+            <div class="flex-section">
+                <h3 class="section-title">排除替補寶可夢</h3>
+                <p>下列寶可夢將不會出現在建議替補清單中</p>
                 <div class="team-build exclude-alternatives">
                     <?php require 'modules/pokemultiselect.php'; ?>
                 </div>

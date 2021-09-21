@@ -34,9 +34,15 @@
     <!--Update section for updates-->
     <h3>What's New</h3>
 
-    <h4>v1.23.1 (August 30, 2021)</h4>
+    <h4>v1.23.5 (September 20, 2021)</h4>
     <ul>
-        <li>因應第九季招式數據調整，網站資料庫與排名異動！</li>
+        <li>Added custom threat exclusion list to the Team Builder</li>
+        <li>Move count info:</li>
+        <ul>
+            <li>Move counts can now be toggled in the rankings</li>
+            <li>Move counts are shown under move stats in the rankings (3 cycles)</li>
+            <li>Move Explorer page shows move counts for 3 cycles</li>
+        </ul>
     </ul>
 
 	<h3>Latest Article</h3>
@@ -83,8 +89,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Mon Sep 20 17:15:00 2021 +0800</li>
-                <li>原版最後版本時間：Sun Sep 19 14:10:26 2021 -0500</li>
+                <li>中文版最後更新時間：Mon Sep 22 01:15:00 2021 +0800</li>
+                <li>原版最後版本時間：Mon Sep 20 11:02:29 2021 -0500</li>
             </ul>
 </div>
 

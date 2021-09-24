@@ -75,6 +75,8 @@ require_once 'header.php'; ?>
 					<option value="tag">特殊類別寶可夢</option>
 					<option value="id">指定寶可夢</option>
 					<option value="dex">寶可夢全國圖鑑編號</option>
+                    <option value="move">招式</option>
+                    <option value="moveType">招式屬性</option>
                     <option value="cost">特殊招式解鎖星塵</option>
                     <option value="distance">夥伴行走距離</option>
 				</select>
@@ -176,6 +178,47 @@ require_once 'header.php'; ?>
                     <div class="check" value="3"><span></span> 3公里</div>
                     <div class="check" value="5"><span></span> 5公里</div>
                     <div class="check" value="20"><span></span> 20公里</div>
+                </div>
+            </div>
+
+            <div class="field-section move">
+                <p>Enter a list of move ID's below, separated by commas. This filter will match any Pokemon that can learn one of the listed moves. This filter does not force a Pokemon to use a specific move.</p>
+                <p>Move ID examples:</p>
+                <ul>
+                    <li><em>counter</em></li>
+                    <li><em>ice_beam</em></li>
+                    <li><em>weather_ball_fire</em></li>
+                </ul>
+                <div class="field-container">
+                    <input class="move-ids" placeholder="Move ID's" />
+                </div>
+            </div>
+
+            <div class="field-section move-type">
+                <p>具以下勾選屬性的寶可夢招式將會被 包含/排除 掉。此處的勾選不會影響、強制寶可夢在模擬對戰運算中使用選中屬性的招式。"覺醒力量"不受以下勾選影響。
+                <div class="field-container">
+                    <div class="check" value="bug"><span></span> 蟲</div>
+                    <div class="check" value="dark"><span></span> 惡</div>
+                    <div class="check" value="dragon"><span></span> 龍</div>
+                    <div class="check" value="electric"><span></span> 電</div>
+                    <div class="check" value="fairy"><span></span> 妖精</div>
+                    <div class="check" value="fighting"><span></span> 格鬥</div>
+                    <div class="check" value="fire"><span></span> 火</div>
+                    <div class="check" value="flying"><span></span> 飛行</div>
+                    <div class="check" value="ghost"><span></span> 幽靈</div>
+                    <div class="check" value="grass"><span></span> 草</div>
+                    <div class="check" value="ground"><span></span> 地面</div>
+                    <div class="check" value="ice"><span></span> 冰</div>
+                    <div class="check" value="normal"><span></span> 一般</div>
+                    <div class="check" value="poison"><span></span> 毒</div>
+                    <div class="check" value="psychic"><span></span> 超能力</div>
+                    <div class="check" value="rock"><span></span> 岩石</div>
+                    <div class="check" value="steel"><span></span> 鋼</div>
+                    <div class="check" value="water"><span></span> 水</div>
+                </div>
+                <div class="field-container">
+                    <button class="select-all">全選</button>
+                    <button class="deselect-all">取消全選</button>
                 </div>
             </div>
 		</div>

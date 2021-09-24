@@ -1157,6 +1157,7 @@ select, input{
 	padding:3px 8px;
 	box-sizing:border-box;
 	width:100%;
+	color:$color-off-black;
 }
 
 .league-select,
@@ -3796,6 +3797,7 @@ a.pokebattler{
 		color:$color-off-white;
 	}
 
+	color:$color-off-white;
 }
 
 .buff, .debuff{
@@ -4131,7 +4133,8 @@ a.pokebattler{
 				&.type,
 				&.tag,
 				&.cost,
-				&.distance{
+				&.distance,
+				&.move-type{
 					.check{
 						margin: 10px 5px;
 					}
@@ -4178,6 +4181,14 @@ a.pokebattler{
 			}
 
 			&[type="distance"] .field-section.distance{
+				display:block;
+			}
+
+			&[type="move"] .field-section.move{
+				display:block;
+			}
+
+			&[type="moveType"] .field-section.move-type{
 				display:block;
 			}
 		}

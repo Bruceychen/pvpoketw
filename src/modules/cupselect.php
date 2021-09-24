@@ -6,7 +6,7 @@
     <option value="official" cup="littlejungle">Little Jungle Cup</option>
     <option value="tsa-3" cup="factions">Silph Factions (Dungeon)</option>
     <option value="tsa-3" cup="nightfall">Silph Factions (Nightfall)</option>
-    <option value="tsa-3" cup="lunar">Silph Lunar Cup</option>
+    <option value="tsa-3" cup="lunar">Silph 新月盃</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>
@@ -90,6 +90,6 @@
     <option value="continentals-3" cat="tsa-3">Continentals</option>
 	<option value="factions" cat="tsa-3">Floating City</option>
     <option value="worlds" cat="tsa-3">Silph Worlds</option>
-    <option value="lunar" cat="tsa-4">Silph Lunar Cup</option>
+    <option value="lunar" cat="tsa-4">Silph 新月盃</option>
 	<option value="custom" cat="custom">自訂排名</option>
 </select>

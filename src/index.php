@@ -34,15 +34,16 @@
     <!--Update section for updates-->
     <h3>What's New</h3>
 
-    <h4>v1.23.5 (September 20, 2021)</h4>
+    <h4>v1.24 (September 26, 2021)</h4>
     <ul>
-        <li>Added custom threat exclusion list to the Team Builder</li>
-        <li>Move count info:</li>
+        <li>New "Explore Win Conditions" feature in Single Battle simulations:</li>
         <ul>
-            <li>Move counts can now be toggled in the rankings</li>
-            <li>Move counts are shown under move stats in the rankings (3 cycles)</li>
-            <li>Move Explorer page shows move counts for 3 cycles</li>
+            <li>Generates results of 1000 simulations with randomized actions, such as moves, shields, and baiting.</li>
+            <li>Explore best case and worst case outcomes, as well as median outcomes to find potential paths to victory or plays to avoid.</li>
+            <li>This feature replaces the battle histogram that was previously used to display Single Battle results involving moves with chance effects.</li>
         </ul>
+        <li>Battle results in Single Battle simulations are now always displayed from the left Pokemon's perspective.</li>
+        <li>Key losses in the rankings now display that Pokemon's battle rating instead of the opponent's.</li>
     </ul>
 
 	<h3>Latest Article</h3>
@@ -89,8 +90,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Sun Sep 26 12:15:00 2021 +0800</li>
-                <li>原版最後版本時間：Sat Sep 25 09:52:42 2021 -0500</li>
+                <li>中文版最後更新時間：Mon Sep 27 09:00:00 2021 +0800</li>
+                <li>原版最後版本時間：Sun Sep 26 16:28:33 2021 -0500</li>
             </ul>
 </div>
 

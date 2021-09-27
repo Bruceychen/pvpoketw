@@ -25,6 +25,7 @@ function Battle(){
 	var queuedActions = []; // Input registered from previous turns to be processed on future turns
 	var sandbox = false; // Is this automated or following user instructions?
 	var mode = "simulate"; // Simulate or emulate?
+	var decisionMethod = "default"; // Default or random
 
 	// Battle properties
 
@@ -951,7 +952,12 @@ function Battle(){
 				poke.hasActed = true;
 
 				if(mode == "simulate"){
-					action = self.decideAction(poke, opponent);
+					if(decisionMethod == "default"){
+						action = self.decideAction(poke, opponent);
+					} else{
+						action = self.decideRandomAction(poke, opponent);
+					}
+
 				} else{
 					action = players[poke.index].getAI().decideAction(turns, poke, opponent);
 				}
@@ -1863,6 +1869,126 @@ function Battle(){
 		return action;
 	}
 
+	// Select a randomized action for this turn
+	this.decideRandomAction = function(poke, opponent){
+		var fastMoveWeight = 10;
+		var hasKnockoutMove = false;
+		var actionOptions = [];
+		var chargedMoveValues = [];
+
+		// Evaluate when to randomly use Charged Moves
+		for(var i = 0; i < poke.activeChargedMoves.length; i++){
+			if(poke.energy >= poke.activeChargedMoves[i].energy){
+				poke.activeChargedMoves[i].damage = self.calculateDamage(poke, opponent, poke.activeChargedMoves[i]);
+				let chargedMoveWeight = Math.round(poke.energy / 4);
+				let damage = poke.activeChargedMoves[i].damage;
+
+				if(poke.energy < poke.bestChargedMove.energy){
+					chargedMoveWeight = Math.round(poke.energy / 50);
+				}
+
+				if(hasKnockoutMove){
+					chargedMoveWeight = 0;
+				}
+
+				// Go for the KO if it's there
+				if((damage >= opponent.hp)&&(opponent.shields == 0)){
+					fastMoveWeight = 0;
+					hasKnockoutMove = true;
+				}
+
+				// Don't use Charged Move if it's strictly worse than the other option
+				if((i > 0)&&(poke.activeChargedMoves[i].damage < poke.activeChargedMoves[0].damage)&&(poke.activeChargedMoves[i].energy >= poke.activeChargedMoves[0].energy)&&(! poke.activeChargedMoves[i].selfBuffing)){
+					chargedMoveWeight = 0;
+				}
+
+				// Use Charged Moves if capped on energy
+				if(poke.energy == 100){
+					chargedMoveWeight *= 2;
+				}
+
+				chargedMoveValues.push({move: poke.activeChargedMoves[i], damage: damage, weight: chargedMoveWeight, index: i});
+			}
+		}
+
+		if(chargedMoveValues.length > 1){
+			// If shields are up and both moves would KO, prefer non debuffing moves
+			if((chargedMoveValues[0].damage >= opponent.hp)&&(chargedMoveValues[1].damage >= opponent.hp)&&(opponent.shields > 0)){
+				if((chargedMoveValues[0].move.selfDebuffing)&&(! chargedMoveValues[1].move.selfDebuffing)&&(chargedMoveValues[1].move.energy <= chargedMoveValues[0].move.energy)){
+					chargedMoveValues[0].weight = 0;
+				} else if((chargedMoveValues[1].move.selfDebuffing)&&(! chargedMoveValues[0].move.selfDebuffing)&&(chargedMoveValues[0].move.energy <= chargedMoveValues[1].move.energy)){
+					chargedMoveValues[1].weight = 0;
+				}
+			}
+		}
+
+		for(var i = 0; i < chargedMoveValues.length; i++){
+			actionOptions.push(new DecisionOption("CHARGED_MOVE_"+chargedMoveValues[i].index, chargedMoveValues[i].weight));
+		}
+
+		actionOptions.push(new DecisionOption("FAST_MOVE", fastMoveWeight));
+
+		let actionType = self.chooseOption(actionOptions);
+		let action;
+
+		switch(actionType.name){
+			case "FAST_MOVE":
+				return;
+				break;
+
+			case "CHARGED_MOVE_0":
+				action = new TimelineAction(
+					"charged",
+					poke.index,
+					turns,
+					poke.chargedMoves.indexOf(poke.activeChargedMoves[0]),
+					{shielded: false, buffs: false, priority: poke.priority});
+
+				chargedMoveUsed = true;
+				break;
+
+			case "CHARGED_MOVE_1":
+				action = new TimelineAction(
+					"charged",
+					poke.index,
+					turns,
+					poke.chargedMoves.indexOf(poke.activeChargedMoves[1]),
+					{shielded: false, buffs: false, priority: poke.priority});
+
+				chargedMoveUsed = true;
+				break;
+		}
+
+		return action;
+	}
+
+	// Choose an option from an array
+	this.chooseOption = function(options){
+		var optionBucket = [];
+
+		// Put all the options in bucket, multiple times for its weight value
+
+		for(var i = 0; i < options.length; i++){
+			for(var n = 0; n < options[i].weight; n++){
+				optionBucket.push(options[i].name);
+			}
+		}
+
+		// If all options have 0 weight, just toss the first option in there
+
+		if(optionBucket.length == 0){
+			optionBucket.push(options[0].name);
+		}
+
+		var index = Math.floor(Math.random() * optionBucket.length);
+		var optionName = optionBucket[index];
+		var option = options.filter(obj => {
+			return obj.name === optionName
+		})[0];
+
+		return option;
+	}
+
 	// Queue an action to be processed on the next available turn
 
 	this.queueAction = function(actor, type, value){
@@ -2074,21 +2200,32 @@ function Battle(){
 
 			if( ((sandbox) && (forceShields) && (defender.shields > 0)) || ((! sandbox) && (defender.shields > 0)) ){
 				var useShield = true;
+				var shieldWeight = 1;
+				var noShieldWeight = 1; // Used for randomized shielding decisions
 
 				// For PuP, Acid Spray and similar moves, don't shield if it's survivable
 
-				if((! sandbox)&&(move.buffs)&&(((move.buffs[0] > 0) && (move.buffTarget == "self")) || ((move.buffs[1] < 0) && (move.buffTarget == "opponent")))&&(move.buffApplyChance == 1)){
+				if( ((! sandbox)&&(move.buffs)&&(((move.buffs[0] > 0) && (move.buffTarget == "self")) || ((move.buffs[1] < 0) && (move.buffTarget == "opponent")))&&(move.buffApplyChance == 1))
+					|| (decisionMethod == "random")){
 					useShield = false;
+
+					noShieldWeight = 2;
 
 					var postMoveHP = defender.hp - damage; // How much HP will be left after the attack
 					// Capture current buffs for pokemon whose buffs will change
 					var currentBuffs;
-					if (move.buffs[0] > 0) {
+					var moveBuffs = [0, 0];
+
+					if(move.buffs){
+						moveBuffs = move.buffs;
+					}
+
+					if (moveBuffs[0] > 0) {
 						currentBuffs = [attacker.statBuffs[0], attacker.statBuffs[1]];
-						attacker.applyStatBuffs(move.buffs);
+						attacker.applyStatBuffs(moveBuffs);
 					} else {
 						currentBuffs = [defender.statBuffs[0], defender.statBuffs[1]];
-						defender.applyStatBuffs(move.buffs);
+						defender.applyStatBuffs(moveBuffs);
 					}
 
 					var fastDamage = self.calculateDamage(attacker, defender, attacker.fastMove);
@@ -2101,10 +2238,11 @@ function Battle(){
 
 					if(postMoveHP <= cycleDamage){
 						useShield = true;
+						shieldWeight = 2;
 					}
 
 					// Reset buffs to original
-					if (move.buffs[0] > 0) {
+					if (moveBuffs[0] > 0) {
 						attacker.statBuffs = [currentBuffs[0], currentBuffs[1]];
 					} else {
 						defender.statBuffs = [currentBuffs[0], currentBuffs[1]];
@@ -2121,12 +2259,59 @@ function Battle(){
 
 							if((chargedDamage >= defender.hp / 1.5)&&(fastDPT > 1.5)){
 								useShield = true;
+								shieldWeight = 4
 							}
 
 							if(chargedDamage >= defender.hp - cycleDamage){
 								useShield = true;
+								shieldWeight = 4
+							}
+
+							if((chargedDamage >= defender.hp / 2)&&(fastDPT > 1.5)){
+								shieldWeight = 12
 							}
 						}
+					}
+				}
+
+				// For randomized battles, randomize shield usage
+				if(decisionMethod == "random"){
+					// Shield the move if it's the lowest energy move and guaranteed to KO
+
+					var lowestMoveEnergy = attacker.chargedMoves[0].energy;
+					var lowestMoveDamage = attacker.chargedMoves[0].damage;
+
+					if((attacker.chargedMoves.length > 1)&&(attacker.chargedMoves[1].energy < lowestMoveEnergy)){
+						lowestMoveEnergy = attacker.chargedMoves[1].energy;
+					}
+
+					if((attacker.chargedMoves.length > 1)&&(attacker.chargedMoves[1].damage < lowestMoveDamage)){
+						lowestMoveDamage = attacker.chargedMoves[1].damage;
+					}
+
+					if((move.energy == lowestMoveEnergy)&&(damage >= defender.hp * .75)){
+						shieldWeight += 10;
+					}
+
+					if((move.energy == lowestMoveEnergy)&&(damage >= defender.hp * .95)){
+						noShieldWeight = 0;
+					}
+
+					if(lowestMoveDamage >= defender.hp * .95){
+						noShieldWeight = 0;
+					}
+
+					var shieldOptions = [
+						new DecisionOption("YES", shieldWeight),
+						new DecisionOption("NO", noShieldWeight)
+					];
+
+					var option = self.chooseOption(shieldOptions);
+
+					if(option.name == "YES"){
+						useShield = true;
+					} else{
+						useShield = false;
 					}
 				}
 
@@ -2155,6 +2340,10 @@ function Battle(){
 					self.logDecision(turns, defender, " blocks with a shield");
 
 					// If a shield has already been used, add time so events don't visually overlap
+
+					if((usePriority)&&(roundChargedMoveUsed > 0)&&(roundShieldUsed > 0)){
+						displayTime = time;
+					}
 
 					if(roundChargedMoveUsed == 0){
 						time+=chargedMinigameTime;
@@ -2657,6 +2846,12 @@ function Battle(){
 		} else{
 			buffChanceModifier = 0;
 		}
+	}
+
+	// Set whether decisions are decided by the default deterministic method, or random
+
+	this.setDecisionMethod = function(val){
+		decisionMethod = val;
 	}
 
 	// Override another Pokemon's priority, used to remove priority from one Pokemon when it is given to another

@@ -121,6 +121,8 @@ function fastmoveAbbreviationArrTranslate(fastmove){
         'G' :'起風',
         'PSt' :'毒針',
         'QA' :'電光一閃',
+        'CP' :'十字毒刃',
+        'AB' :'極光束',
         'default':''
     };
     // return (allFastmoves[fastmove] || allFastmoves['default']);

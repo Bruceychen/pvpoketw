@@ -81,7 +81,7 @@ require_once '../header.php';
         <option value="2500" cup="all" level-cap="50">高級聯盟</option>
         <option value="2500" cup="premier" level-cap="50">高級聯盟紀念盃</option>
         <option value="10000" cup="classic" level-cap="40">大師聯盟(經典)</option>
-        <option value="500" cup="littlejungle" level-cap="40">小小叢林盃</option>
+        <option value="500" cup="littlejungle" level-cap="40">叢林小小盃</option>
     </select>
 
     <div class="date-updated">資料最後更新</div>

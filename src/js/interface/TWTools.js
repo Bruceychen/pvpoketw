@@ -121,8 +121,8 @@ function fastmoveAbbreviationArrTranslate(fastmove){
         'G' :'起風',
         'PSt' :'毒針',
         'QA' :'電光一閃',
-        'CP' :'十字毒刃',
-        'AB' :'極光束',
+        'Bi' :'咬住',
+        'Pd' :'拍擊',
         'default':''
     };
     // return (allFastmoves[fastmove] || allFastmoves['default']);
@@ -247,6 +247,11 @@ function chargemoveAbbreviationArrTranslate(chargemove){
         'Crbh':'蟹鉗錘',
         'FmB':'蓄能焰襲',
         'TBB':'高科技光炮 火',
+        'CP' :'十字毒刃',
+        'AB' :'極光束',
+        'FlP' :'飛身重壓',
+        'MgB' :'磁鐵炸彈',
+        'BkB' :'劈瓦',
         'default':''
     };
     // return (allSpecialmoves[chargemove] || allSpecialmoves['default']);

@@ -1,7 +1,6 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
-    <option value="official" cup="remix">Remix盃</option>
     <option value="official" cup="halloween">萬聖節盃</option>
     <option value="official" cup="littlejungle">叢林小小盃</option>
     <option value="tsa-3" cup="factions">Silph Factions (Dungeon)</option>

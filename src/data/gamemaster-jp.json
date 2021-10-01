@@ -984,7 +984,7 @@
         }],
         "exclude": [{
             "filterType": "id",
-            "values": ["shuckle", "shuckle_shadow", "smeargle", "genesect", "celebi", "hoopa", "aerodactyl_shadow", "obstagoon"]
+            "values": ["shuckle", "shuckle_shadow", "smeargle", "genesect", "celebi", "hoopa", "aerodactyl_shadow", "obstagoon", "zarude", "genesect_douse", "genesect_burn"]
         }, {
             "filterType": "tag",
             "values": ["legendary", "mega"]
@@ -21744,7 +21744,8 @@
         },
         "types": ["bug", "steel"],
         "fastMoves": ["METAL_CLAW", "FURY_CUTTER"],
-        "chargedMoves": ["X_SCISSOR", "MAGNET_BOMB", "GUNK_SHOT"],
+        "chargedMoves": ["X_SCISSOR", "MAGNET_BOMB", "GUNK_SHOT", "TECHNO_BLAST_DOUSE"],
+		"eliteMoves": ["TECHNO_BLAST_DOUSE"],
         "defaultIVs": {
             "cp500": [5.5, 12, 14, 13],
             "cp1500": [16, 12, 10, 15],
@@ -21753,7 +21754,7 @@
         "tags": ["mythical", "untradeable"],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     }, {
         "dex": 649,
         "speciesId": "genesect_shock",
@@ -25462,13 +25463,15 @@
         "fastMoves": ["VINE_WHIP", "BITE"],
         "chargedMoves": ["POWER_WHIP", "ENERGY_BALL", "DARK_PULSE"],
         "defaultIVs": {
-            "cp500": [5, 6, 15, 14],
-            "cp1500": [14.5, 4, 11, 12],
-            "cp2500": [24, 5, 15, 9]
+			"cp500": [4.5, 15, 14, 14],
+            "cp1500": [14, 13, 11, 12],
+            "cp2500": [23.5, 11, 12, 10]
         },
+		"tags": ["mythical","untradeable"],
+		"levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     }, {
         "dex": 894,
         "speciesName": "レジエレキ",

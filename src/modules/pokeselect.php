@@ -58,7 +58,7 @@
 
 				<div class="ivs">
 					<h3>等級 &amp; IV's</h3>
-					<input class="level" type="number" placeholder="Level" min="1" max="40" step=".5" />
+					<input class="level" type="number" placeholder="Level" min="1" max="51" step=".5" />
 					<div class="ivs-group">
 						<input class="iv" iv="atk" type="number" placeholder="Atk" min="0" max="15" step="1" /><span>/</span>
 						<input class="iv" iv="def" type="number" placeholder="Def" min="0" max="15" step="1" /><span>/</span>

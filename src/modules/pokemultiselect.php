@@ -31,8 +31,6 @@
                 <option value="ultrapremierclassic" type="ultra" class="hide multi-battle">高級紀念盃(經典) Meta</option>
                 <option value="masterpremierclassic" type="master" class="hide multi-battle">大師紀念盃(經典) Meta</option>
                 <option value="halloween" type="great" class="multi-battle">萬聖節盃 Meta</option>
-                <option value="factions" type="great" class="multi-battle">Silph Factions Meta (Dungeon)</option>
-                <option value="nightfall" type="great" class="multi-battle">Silph Factions Meta (Nightfall)</option>
                 <option value="lunar" type="great" class="multi-battle">Silph 新月盃 Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">

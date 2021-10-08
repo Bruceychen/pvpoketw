@@ -51,6 +51,14 @@
 		"chargedMoves": ["SHADOW_BALL", "PSYCHIC"]
 	},
 	{
+		"speciesId": "dusknoir",
+		"chargedMoves": ["SHADOW_BALL", "DARK_PULSE"]
+	},
+	{
+		"speciesId": "dusknoir_shadow",
+		"chargedMoves": ["SHADOW_BALL", "DARK_PULSE"]
+	},
+	{
 		"speciesId": "sirfetchd",
 		"chargedMoves": ["LEAF_BLADE", "NIGHT_SLASH"]
 	},
@@ -61,6 +69,10 @@
 	{
 		"speciesId": "dusclops",
 		"chargedMoves": ["FIRE_PUNCH", "RETURN"]
+	},
+	{
+		"speciesId": "dusclops_shadow",
+		"chargedMoves": ["FIRE_PUNCH", "SHADOW_PUNCH"]
 	},
 	{
 		"speciesId": "rapidash_galarian",

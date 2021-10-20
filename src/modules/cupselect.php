@@ -2,8 +2,8 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
     <option value="official" cup="halloween">萬聖節盃</option>
-    <option value="tsa-3" cup="factions">Silph Factions (Dungeon)</option>
-    <option value="tsa-3" cup="nightfall">Silph Factions (Nightfall)</option>
+    <option value="tsa-3" cup="factions">Silph Factions (Comet)</option>
+    <option value="tsa-3" cup="twilightfactions">Silph Factions (Twilight)</option>
     <option value="tsa-4" cup="lunar">Silph 新月盃</option>
     <option value="community" cup="adl">Arrohh Draft League</option>
 
@@ -58,6 +58,7 @@
 	<option value="kingdom" cat="tsa-1">王權盃</option>
 	<option value="tempest" cat="tsa-1">風暴盃</option>
 	<option value="twilight" cat="tsa-1">暮光盃</option>
+    <option value="twilightfactions" cat="tsa-1">Twilight Cup</option>
 	<option value="boulder" cat="tsa-1">巨石盃</option>
 	<option value="catacomb" cat="tsa-2">Silph-2 深淵盃</option>
 	<option value="continentals-2" cat="tsa-2">Silph-2 洲際賽</option>

@@ -6,8 +6,8 @@
 	<option value="10000" cup="classic" meta-group="master">大師聯盟 (經典賽)</option>
     <option value="10000" cup="premierclassic" meta-group="masterpremierclassic">大師聯盟 (紀念盃經典賽)</option>
     <option value="1500" cup="halloween" meta-group="halloween">萬聖節盃</option>
-    <option value="1500" cup="factions" meta-group="factions">Silph Factions (Dungeon)</option>
-    <option value="1500" cup="nightfall" meta-group="nightfall">Silph Factions (Nightfall)</option>
+    <option value="1500" cup="factions" meta-group="factions">Silph Factions (Comet)</option>
+    <option value="1500" cup="twilightfactions" meta-group="twilight">Silph Factions (Twilight)</option>
     <option value="1500" cup="lunar" meta-group="lunar">Silph 新月盃</option>
     <option value="1500" cup="adl" meta-group="great">Arrohh Draft League</option>
 

@@ -1018,7 +1018,30 @@
             "filterType": "tag",
             "values": ["mega", "shadow"]
         }]
-    } ],
+    }, {
+	"name": "brawler",
+	"title": "Brawler Cup",
+	"include": [{
+		"filterType": "id",
+		"includeShadows": 1,
+		"values": ["haunter", "uxie", "mesprit", "azelf", "spritzee", "castform_normal", "castform_sunny", "castform_rainy", "castform_snowy", "misdreavus", "chimecho", "jirachi", "drifloon", "chatot", "roselia", "murkrow", "exeggcute", "jumpluff", "klefki", "espurr", "masquerain", "qwilfish", "victini", "plusle", "minun", "mismagius", "corsola", "celebi", "spinda", "emolga", "slurpuff", "bellossom", "magnemite", "greedent", "weepinbel", "wormadam_plant", "wormadam_sand", "wormadam_trash", "whimsicott", "swadloon", "omanyte", "pancham", "meltan", "cinccino", "sunflora", "drilbur", "meowstic", "gloom", "teddiursa", "hoopa_confined", "cherrim", "weezing", "archen", "pawniard", "swoobat", "amoonguss", "rufflet", "frogadier", "sableye", "stunfisk", "mawile", "wigglytuff", "ninjask", "venomoth", "banette", "ivysaur", "lampent", "litleo", "dunsparce", "galvantula", "roserade", "dwebble", "braixen", "farfetch’d", "xatu", "drifblim", "bonsly", "tranquill", "vibrava", "victreebel", "aromatisse", "bayleef", "galarian weezing", "servine", "lilligant", "dragonair", "tirtouga", "palpitoad", "sliggoo", "volbeat", "illumise", "basculin", "raticate", "vileplume", "charmeleon", "quilava", "nidorino", "machop", "combusken", "swellow", "ninetales", "nidorina", "poliwhirl", "reuniclus", "alolan geodude", "ambipom", "leavanny", "alolan raichu", "grovyle", "monferno", "eelektrik", "wartortle", "lanturn", "gorebyss", "prinplup", "mothim", "relicanth", "sylveon", "whiscash", "lumineon", "swanna", "jolteon", "dewott", "talonflame", "staraptor", "flareon", "croconaw", "kricketune", "leafeon", "raticate_alolan", "glaceon", "froslass", "honchkrow", "marshtomp", "pelipper", "furfrou", "perrseker", "vaporeon", "unfezant", "quilladin", "beedrill", "gastrodon", "raichu", "grimer", "muk", "electabuzz", "dusclops", "bibarel", "dustox", "alomomola", "primeape", "furret", "porygon2", "linoone", "linoone_galarian", "crawdaunt", "escavalier", "durant", "ariados", "politoed", "marowak_alolan", "weavile", "chandelure", "omastar", "houndoom", "ledian", "fraxure", "sudowoodo", "skuntank", "togekiss", "vespiquen", "seaking", "delphox", "breloom", "pidgeot", "sandshrew_alolan", "clefable", "greninja", "manectric", "zangoose", "excadrill", "gengar", "noctowl", "grimer_alolan", "luxray", "diggersby", "gliscor", "purugly", "gothitelle", "toxicroak", "magmar", "obstagoon", "vigoroth", "malamar", "alakazam", "hitmontop", "gardevoir", "granbull", "zweilous", "hitmonchan", "muk_alolan", "blaziken", "gallade", "sceptile", "seviper", "zapdos", "poliwrath", "heracross", "lucario", "sandslash_alolan", "golbat", "tentacruel", "pinsir", "magcargo", "ludicolo", "infernape", "articuno", "pignite", "piloswine", "heatmor", "aerodactyl", "shiftry", "magneton", "kingler", "cradily", "ampharos", "drapion", "nidoking", "seismitoad", " falinks", "serperior", "gligar", "electrode", "magmortar", "bisharp", "machoke", "slowbro_galarian", "crobat", "quagsire", "cofagrigus", "golduck", "slowbro", "typhlosion", "slowking", "zebstrika", "swalot", "rapidash_galarian", "eelektross", "carracosta", "pyroar", "dragalge", "flygon", "empoleon", "blastoise", "sealeo", "feraligatr", "sharpedo", "chesnaught", "charizard", "darmanitan_standard", "samurott", "rapidash", "garchomp", "barbaracle", "krookodile", "grotle", "venusaur", "tropius", "meganium", "boldore", "rampardos", "salamence", "graveler", "munchlax", "haxorus", "dusknoir", "garbodor", "claydol", "spiritomb", "graveler_alolan", "ferrothorn", "shelgon", "rhyhorn", "sirfetchd", "scizor", "dewgong", "exeggutor", "rhydon", "donphan", "lairon", "darmanitan_galarian_standard", "mewtwo", "forretress", "ursaring", "tangrowth", "machamp", "wailmer", "slaking", "cloyster", "abomasnow", "pangoro", "electivire", "lickilicky", "cryogonal", "emboar", "goodra", "walrein", "kingdra", "solrock", "arcanine", "hydreigon", "milotic", "lunatone", "regice", "raikou", "magnezone", "suicune", "bronzong", "entei", "ho_oh", "crustle", "scolipede", "tyranitar", "metang", "rayquaza", "onix", "dragonite", "lugia", "lapras", "mantine", "camerupt", "gyarados", "hariyama", "glalie", "gigalith", "beartic", "rhyperior", "mamoswine", "golem", "hippowdon", "torterra", "golem_alolan", "golurk", "probopass", "aggron", "wailord", "steelix", "alolan exeggutor", "snorlax", "metagross", "melmetal"]
+	}],
+	"exclude": [],
+	"slots": [{
+		"pokemon": ["haunter", "uxie", "mesprit", "azelf", "spritzee", "castform_normal", "castform_sunny", "castform_rainy", "castform_snowy", "misdreavus", "chimecho", "jirachi", "drifloon", "chatot", "roselia", "murkrow", "exeggcute", "jumpluff", "klefki", "espurr", "masquerain", "qwilfish", "victini", "plusle", "minun", "mismagius", "corsola", "celebi", "spinda", "emolga", "slurpuff", "bellossom", "magnemite", "greedent", "weepinbel", "wormadam_plant", "wormadam_sand", "wormadam_trash", "whimsicott", "swadloon", "omanyte", "pancham", "meltan", "cinccino", "sunflora", "drilbur", "meowstic", "gloom", "teddiursa", "hoopa_confined", "cherrim", "weezing", "archen"]
+	}, {
+		"pokemon": ["pawniard", "swoobat", "amoonguss", "rufflet", "frogadier", "sableye", "sableye_xs", "stunfisk", "mawile", "wigglytuff", "ninjask", "venomoth", "banette", "ivysaur", "lampent", "litleo", "dunsparce", "galvantula", "roserade", "dwebble", "braixen", "farfetch’d", "xatu", "drifblim", "bonsly", "tranquill", "vibrava", "victreebel", "aromatisse", "bayleef", "galarian weezing", "servine", "lilligant", "dragonair", "tirtouga", "palpitoad", "sliggoo", "volbeat", "illumise", "basculin", "raticate", "vileplume", "charmeleon", "quilava", "nidorino", "machop", "combusken", "swellow", "ninetales", "nidorina", "poliwhirl", "reuniclus", "alolan geodude", "ambipom", "leavanny", "alolan raichu", "grovyle", "monferno", "eelektrik", "wartortle", "lanturn", "gorebyss", "prinplup", "mothim", "relicanth", "sylveon", "whiscash", "lumineon", "swanna", "jolteon", "dewott", "talonflame", "staraptor"]
+	}, {
+		"pokemon": ["flareon", "croconaw", "kricketune", "leafeon", "raticate_alolan", "glaceon", "froslass", "honchkrow", "marshtomp", "pelipper", "furfrou", "perrseker", "vaporeon", "unfezant", "quilladin", "beedrill", "gastrodon", "raichu", "grimer", "muk", "electabuzz", "dusclops", "bibarel", "dustox", "alomomola", "primeape", "furret", "porygon2", "linoone", "linoone_galarian", "crawdaunt", "escavalier", "durant", "ariados", "politoed", "marowak_alolan", "weavile", "chandelure", "omastar", "houndoom", "ledian", "fraxure", "sudowoodo", "skuntank", "togekiss", "vespiquen", "seaking", "delphox", "breloom", "pidgeot", "sandshrew_alolan", "clefable", "greninja", "manectric", "zangoose", "excadrill", "gengar", "noctowl", "grimer_alolan", "luxray", "diggersby", "gliscor", "purugly", "gothitelle", "toxicroak", "magmar", "obstagoon", "vigoroth", "malamar", "alakazam", "hitmontop", "gardevoir", "granbull"]
+	}, {
+		"pokemon": ["zweilous", "hitmonchan", "muk_alolan", "blaziken", "gallade", "sceptile", "seviper", "zapdos", "poliwrath", "heracross", "lucario", "sandslash_alolan", "golbat", "tentacruel", "pinsir", "magcargo", "ludicolo", "infernape", "articuno", "pignite", "piloswine", "heatmor", "aerodactyl", "shiftry", "magneton", "kingler", "cradily", "ampharos", "drapion", "nidoking", "seismitoad", " falinks", "serperior", "gligar", "electrode", "magmortar", "bisharp", "machoke", "slowbro_galarian", "crobat", "quagsire", "cofagrigus", "golduck", "slowbro", "typhlosion", "slowking", "zebstrika", "swalot", "rapidash_galarian", "eelektross", "carracosta", "pyroar", "dragalge", "flygon", "empoleon", "blastoise", "sealeo", "feraligatr", "sharpedo", "chesnaught", "charizard", "darmanitan_standard", "samurott", "rapidash", "garchomp", "barbaracle", "krookodile", "grotle"
+]
+	}, {
+		"pokemon": ["venusaur", "tropius", "meganium", "boldore", "rampardos", "salamence", "graveler", "munchlax", "haxorus", "dusknoir", "garbodor", "claydol", "spiritomb", "graveler_alolan", "ferrothorn", "shelgon", "rhyhorn", "sirfetchd", "scizor", "dewgong", "exeggutor", "rhydon", "donphan", "lairon", "darmanitan_galarian_standard", "mewtwo", "forretress", "ursaring", "tangrowth", "machamp", "wailmer", "slaking", "cloyster", "abomasnow", "pangoro", "electivire", "lickilicky", "cryogonal", "emboar", "goodra", "walrein", "kingdra", "solrock", "arcanine", "hydreigon", "milotic", "lunatone", "regice", "raikou", "magnezone", "suicune", "bronzong", "entei", "ho_oh"]
+	}, {
+		"pokemon": ["crustle", "scolipede", "tyranitar", "metang", "rayquaza", "onix", "dragonite", "lugia", "lapras", "mantine", "camerupt", "gyarados", "hariyama", "glalie", "gigalith", "beartic", "rhyperior", "mamoswine", "golem", "hippowdon", "torterra", "golem_alolan", "golurk", "probopass", "aggron", "wailord", "steelix", "alolan exeggutor", "snorlax", "metagross", "melmetal"]
+	}]
+}],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable", "mega", "xs"],
     "pokemonTraits": {
         "pros": ["bulky", "extremely bulky", "spammy", "agile", "flexible", "dynamic", "fast move pressure", "shield pressure", "defensive", "momentum"],
@@ -17801,14 +17824,14 @@
         },
         "types": ["dark", "none"],
         "fastMoves": ["FEINT_ATTACK", "SNARL"],
-        "chargedMoves": ["DARK_PULSE", "FOCUS_BLAST", "SHADOW_BALL"],
+        "chargedMoves": ["DARK_PULSE", "FOCUS_BLAST", "SHADOW_BALL", "SLUDGE_BOMB"],
+		"eliteMoves": ["SLUDGE_BOMB"],
         "defaultIVs": {
             "cp500": [5, 10, 13, 15],
             "cp1500": [14, 14, 13, 15],
             "cp2500": [24, 10, 11, 13]
         },
         "tags": ["mythical", "untradeable"],
-        "levelCap": 40,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
@@ -23085,6 +23108,7 @@
             "cp1500": [50, 15, 15, 15],
             "cp2500": [50, 15, 15, 15]
         },
+		"tags": ["teambuilderexclude"],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true
@@ -23105,6 +23129,7 @@
             "cp1500": [50, 15, 15, 15],
             "cp2500": [50, 15, 15, 15]
         },
+		"tags": ["teambuilderexclude"],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true
@@ -23125,6 +23150,7 @@
             "cp1500": [50, 15, 15, 15],
             "cp2500": [50, 15, 15, 15]
         },
+		"tags": ["teambuilderexclude"],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true
@@ -23167,6 +23193,7 @@
             "cp2500": [49, 4, 13, 14],
             "cp2500l40": [40, 13, 15, 15]
         },
+		"tags": ["teambuilderexclude"],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true
@@ -23188,6 +23215,7 @@
             "cp2500": [45.5, 4, 7, 15],
             "cp2500l40": [39.5, 15, 15, 14]
         },
+		"tags": ["teambuilderexclude"],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true
@@ -23209,6 +23237,7 @@
             "cp2500": [48.5, 15, 14, 15],
             "cp2500l40": [40, 15, 14, 14]
         },
+		"tags": ["teambuilderexclude"],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true
@@ -27391,6 +27420,18 @@
         "buffTarget": "opponent",
         "buffApplyChance": ".1",
         "archetype": "High Energy Debuff"
+    }, {
+        "moveId": "PSYCHIC_FANGS",
+        "name": "Psychic Fangs (Speculative)",
+        "type": "psychic",
+        "power": 40,
+        "energy": 35,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [0, -1],
+        "buffTarget": "opponent",
+        "buffApplyChance": "1",
+        "archetype": "Debuff Spam/Bait"
     }, {
         "moveId": "PSYCHO_BOOST",
         "name": "サイコブースト",

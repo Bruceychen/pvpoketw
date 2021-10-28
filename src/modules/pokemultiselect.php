@@ -17,7 +17,6 @@
 			<?php include 'pokebox.php'; ?>
 
 			<button class="export-btn">匯入/匯出</button>
-            <button class="search-string-btn">Generate Search String</button>
 
 			<h3 class="section-title">快速選擇</h3>
 			<select class="quick-fill-select">
@@ -32,6 +31,7 @@
                 <option value="ultrapremierclassic" type="ultra" class="hide multi-battle">高級紀念盃(經典) Meta</option>
                 <option value="masterpremierclassic" type="master" class="hide multi-battle">大師紀念盃(經典) Meta</option>
                 <option value="halloween" type="great" class="multi-battle">萬聖節盃 Meta</option>
+                <option value="kanto" type="great" class="multi-battle">關都盃 Meta</option>
                 <option value="factions" type="great" class="multi-battle">Silph Factions Meta (Comet)</option>
                 <option value="twilight" type="great" class="multi-battle">Silph Factions Meta (Twilight)</option>
                 <option value="lunar" type="great" class="multi-battle">Silph 新月盃 Meta</option>
@@ -43,6 +43,9 @@
 				<button class="save-btn save-as hide">另存新隊伍</button>
 				<button class="delete-btn hide">刪除</button>
 			</div>
+
+            <h3 class="section-title">Search String</h3>
+            <button class="search-string-btn">Generate Search String</button>
 		</div>
 
 		<div class="options">

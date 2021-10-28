@@ -1001,7 +1001,7 @@ function PokeMultiSelect(element){
 			var el = $(e.target).prev()[0];
 			el.focus();
 			el.setSelectionRange(0, el.value.length);
-			document.execCommand("copy");
+			document.execCommand("複製");
 		});
 
 	});
@@ -1036,10 +1036,10 @@ function PokeMultiSelect(element){
 
 			// Checks for Weather Ball and Techno Blast (otherwise it will exclude all pokemon that have the move)
 
-			charge1[i] = charge1[i].includes("Weather Ball") ? "Weather Ball" : charge1[i]
-			charge2[i] = charge2[i].includes("Weather Ball") ? "Weather Ball" : charge2[i]
-			charge1[i] = charge1[i].includes("Techno Blast") ? "Techno Blast" : charge1[i]
-			charge2[i] = charge2[i].includes("Techno Blast") ? "Techno Blast" : charge2[i]
+			charge1[i] = charge1[i].includes("Weather Ball") ? "Weather Ball1" : charge1[i]
+			charge2[i] = charge2[i].includes("Weather Ball") ? "Weather Ball2" : charge2[i]
+			charge1[i] = charge1[i].includes("Techno Blast") ? "Techno Blast1" : charge1[i]
+			charge2[i] = charge2[i].includes("Techno Blast") ? "Techno Blast2" : charge2[i]
 
 			// Checks for duplicate pokemon IDs
 
@@ -1051,8 +1051,8 @@ function PokeMultiSelect(element){
 
 			for(var j = 0; j < team[i].tags.length; j++){
 				region[i] = ((j < 1) ? false : region[i])
-							|| (team[i].tags[j] === "alolan") ? "alola" : false
-							|| (team[i].tags[j] === "galarian") ? "galar" : false
+							|| (team[i].tags[j] === "alolan") ? "阿羅拉" : false
+							|| (team[i].tags[j] === "galarian") ? "伽勒爾" : false
 							;
 			}
 
@@ -1060,8 +1060,8 @@ function PokeMultiSelect(element){
 		}
 
 		var searchString = "";
-		var shadowString = "!shadow";
-		var nonshadowString = "shadow"
+		var shadowString = "!暗影";
+		var nonshadowString = "暗影"
 		var idString = ""
 
 		for(var i = 0; i < team.length; i++){
@@ -1160,7 +1160,7 @@ function PokeMultiSelect(element){
 			}
 		}
 
-		nonshadowString = (shadowString === "!shadow") ? "" : nonshadowString + "&" ;
+		nonshadowString = (shadowString === "!暗影") ? "" : nonshadowString + "&" ;
 		searchString += ((team.length > 0) ? shadowString + "&" + nonshadowString : "") + idString;
 
 		$(".modal .team-string-text").val(searchString);
@@ -1173,21 +1173,21 @@ function PokeMultiSelect(element){
 		if(dexNumber < 1 || dexNumber > 898){
 			return false
 		} else if(dexNumber < 152){
-			return "kanto"
+			return "關都"
 		} else if(dexNumber < 252){
-			return "johto"
+			return "城都"
 		} else if(dexNumber < 387){
-			return "hoenn"
+			return "豐緣"
 		} else if(dexNumber < 494){
-			return "sinnoh"
+			return "神奧"
 		} else if(dexNumber < 650){
-			return "unova"
+			return "合眾"
 		} else if(dexNumber < 722){
-		 	return "kalos"
+		 	return "卡洛斯"
 		} else if(dexNumber < 810){
-			return "alola"
+			return "阿羅拉"
 		} else if(dexNumber < 899){
-			return "galar"
+			return "伽勒爾"
 		}
 		return
 	}

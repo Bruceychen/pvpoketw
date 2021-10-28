@@ -34,16 +34,9 @@
     <!--Update section for updates-->
     <h3>What's New</h3>
 
-    <h4>v1.24 (September 26, 2021)</h4>
+    <h4>v1.24.5 (October 27, 2021)</h4>
     <ul>
-        <li>New "Explore Win Conditions" feature in Single Battle simulations:</li>
-        <ul>
-            <li>Generates results of 1000 simulations with randomized actions, such as moves, shields, and baiting.</li>
-            <li>Explore best case and worst case outcomes, as well as median outcomes to find potential paths to victory or plays to avoid.</li>
-            <li>This feature replaces the battle histogram that was previously used to display Single Battle results involving moves with chance effects.</li>
-        </ul>
-        <li>Battle results in Single Battle simulations are now always displayed from the left Pokemon's perspective.</li>
-        <li>Key losses in the rankings now display that Pokemon's battle rating instead of the opponent's.</li>
+        <li>Custom groups can now generate a search string for the selected Pokemon.</li>
     </ul>
 
 	<h3>Latest Article</h3>
@@ -90,8 +83,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Tue Oct 27 12:55:00 2021 +0800</li>
-                <li>原版最後版本時間：Mon Oct 25 19:58:32 2021 -0500</li>
+                <li>中文版最後更新時間：Thu Oct 28 12:05:00 2021 +0800</li>
+                <li>原版最後版本時間：Wed Oct 27 17:18:20 2021 -0500</li>
             </ul>
 </div>
 

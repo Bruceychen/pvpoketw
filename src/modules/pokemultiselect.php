@@ -17,6 +17,7 @@
 			<?php include 'pokebox.php'; ?>
 
 			<button class="export-btn">匯入/匯出</button>
+            <button class="search-string-btn">Generate Search String</button>
 
 			<h3 class="section-title">快速選擇</h3>
 			<select class="quick-fill-select">
@@ -35,6 +36,7 @@
                 <option value="twilight" type="great" class="multi-battle">Silph Factions Meta (Twilight)</option>
                 <option value="lunar" type="great" class="multi-battle">Silph 新月盃 Meta</option>
                 <option value="brawler" type="great" class="multi-battle">Silph 擂台盃 Meta</option>
+                <option value="safari" type="great" class="multi-battle">Victory Road Safari Cup Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>
@@ -119,4 +121,16 @@
 		<div class="button yes">是的</div>
 		<div class="button no">不要</div>
 	</div>
+</div>
+
+<div class="search-string-window hide">
+    <p>Copy the search string for your team below.</p>
+    <div class="search-string-options flex">
+        <div class="check hp-option on"><span></span>HP</div>
+        <div class="check cp-option on"><span></span>CP</div>
+        <div class="check region-option"><span></span>Always include region</div>
+    </div>
+    <h5>Note CP and HP are not used for Pokemon with default IVs.</h5>
+    <textarea class="team-string-text" type="text" readonly></textarea>
+    <div class="copy">Copy</div>
 </div>

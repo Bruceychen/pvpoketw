@@ -98,7 +98,6 @@ require_once '../header.php';
 			<a href="<?php echo $WEB_ROOT; ?>train/editor/" class="inline-link train-editor-link" target="_blank">訓練隊伍編輯器</a>
 		</div>
 	</div>
-	<div class="clear"></div>
 </div>
 
 <div class="section">

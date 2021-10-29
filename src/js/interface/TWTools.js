@@ -319,7 +319,8 @@ function archetypeNotFound(moveType, archetype){
 }
 
 function elitePMNotFound(elitePMName){
-    if(debugMode){
+    // if(debugMode){
+    if(false){
         console.log(" elite pokemon: \""+ elitePMName + "\" not found.");
     }
     return elitePMName;

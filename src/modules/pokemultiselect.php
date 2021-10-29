@@ -44,8 +44,8 @@
 				<button class="delete-btn hide">刪除</button>
 			</div>
 
-            <h3 class="section-title">Search String</h3>
-            <button class="search-string-btn">Generate Search String</button>
+            <h3 class="section-title">PMGO搜尋字詞</h3>
+            <button class="search-string-btn">產生搜尋字詞</button>
 		</div>
 
 		<div class="options">
@@ -127,13 +127,13 @@
 </div>
 
 <div class="search-string-window hide">
-    <p>Copy the search string for your team below.</p>
+    <p>複製以下PMGO使用的搜尋字詞以找出寶可夢。</p>
     <div class="search-string-options flex">
         <div class="check hp-option on"><span></span>HP</div>
         <div class="check cp-option on"><span></span>CP</div>
-        <div class="check region-option"><span></span>Always include region</div>
+        <div class="check region-option"><span></span>包含地區</div>
     </div>
-    <h5>Note CP and HP are not used for Pokemon with default IVs.</h5>
+    <h5>注意：CP 及 HP 搜尋字詞在寶可夢使用本站預設IV狀況下不會出現。</h5>
     <textarea class="team-string-text" type="text" readonly></textarea>
-    <div class="copy">Copy</div>
+    <div class="copy">複製</div>
 </div>

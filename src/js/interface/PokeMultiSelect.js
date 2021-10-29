@@ -976,7 +976,7 @@ function PokeMultiSelect(element){
 		var showCP = true;
 		var showRegion = false;
 
-		modalWindow("Search String", $(".search-string-window").eq(0));
+		modalWindow("PMGO搜尋字詞", $(".search-string-window").eq(0));
 
 		self.generateSearchString(showHP, showCP, showRegion);
 
@@ -1001,7 +1001,7 @@ function PokeMultiSelect(element){
 			var el = $(e.target).prev()[0];
 			el.focus();
 			el.setSelectionRange(0, el.value.length);
-			document.execCommand("複製");
+			document.execCommand("copy");
 		});
 
 	});
@@ -1036,10 +1036,10 @@ function PokeMultiSelect(element){
 
 			// Checks for Weather Ball and Techno Blast (otherwise it will exclude all pokemon that have the move)
 
-			charge1[i] = charge1[i].includes("Weather Ball") ? "Weather Ball1" : charge1[i]
-			charge2[i] = charge2[i].includes("Weather Ball") ? "Weather Ball2" : charge2[i]
-			charge1[i] = charge1[i].includes("Techno Blast") ? "Techno Blast1" : charge1[i]
-			charge2[i] = charge2[i].includes("Techno Blast") ? "Techno Blast2" : charge2[i]
+			charge1[i] = charge1[i].includes("氣象球") ? "氣象球" : charge1[i]
+			if(!charge2[i]==null) charge2[i] = charge2[i].includes("氣象球") ? "氣象球" : charge2[i]
+			charge1[i] = charge1[i].includes("高科技光炮") ? "高科技光炮" : charge1[i]
+			if(!charge2[i]==null) charge2[i] = charge2[i].includes("高科技光炮") ? "高科技光炮" : charge2[i]
 
 			// Checks for duplicate pokemon IDs
 

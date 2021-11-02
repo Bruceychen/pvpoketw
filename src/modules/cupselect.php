@@ -1,7 +1,7 @@
 <select class="format-select">
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="premier">紀念盃</option>
-    <option value="official" cup="halloween">萬聖節盃</option>
+    <option value="official" cup="halloween">萬聖節</option>
     <option value="official" cup="kanto">關都盃</option>
     <option value="tsa-3" cup="factions">Silph Factions (Comet)</option>
     <option value="tsa-3" cup="twilightfactions">Silph Factions (Twilight)</option>
@@ -24,7 +24,7 @@
 	<option value="gen-5" cat="all">全部寶可夢 (含未開放五世代寶可夢)</option>
 	<option value="premier" cat="official">紀念盃</option>
     <option value="flying" cat="official">飛行盃</option>
-	<option value="halloween" cat="official">萬聖節盃</option>
+	<option value="halloween" cat="official">萬聖節</option>
 	<option value="kanto" cat="official">關都盃</option>
     <option value="love" cat="official">愛情盃</option>
     <option value="retro" cat="official">復古盃</option>

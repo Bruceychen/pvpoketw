@@ -38,11 +38,11 @@ require_once '../header.php';
 				<option value="1500 gobattleleague">GO 超級對戰聯盟(1500)</option>
 				<option value="2500 gobattleleague">GO 高級對戰聯盟(2500)</option>
 				<option value="10000 gobattleleague">GO 大師對戰聯盟(無上限)</option>
-                <option value="2500 premierclassic">Go 高級紀念盃(經典)</option>
+                <option value="2500 premierclassic">Go UL紀念經典賽</option>
                 <option value="10000 premierclassic">Go 大師紀念盃(經典)</option>
                 <option value="10000 classic">GO 大師對戰聯盟 (經典)</option>
                 <option value="500 littlejungle">叢林小小盃</option>
-                <option value="1500 halloween">萬聖節盃</option>
+                <option value="1500 halloween">萬聖節</option>
                 <option value="1500 lunar">Silph 新月盃</option>
                 <option value="1500 all">超級聯盟(6v6)</option>
                 <option value="2500 all">高級聯盟(6v6)</option>

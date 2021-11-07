@@ -1003,7 +1003,7 @@ function PokeSelect(element, i){
 	$el.find(".clear-selection").on("click", function(e){
 		e.preventDefault();
 
-		modalWindow("Clear Selection", $el.find(".clear-confirm"));
+		modalWindow("清除名單", $el.find(".clear-confirm"));
 
 		$(".modal .name").html(selectedPokemon.speciesName);
 

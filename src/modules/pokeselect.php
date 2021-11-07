@@ -1,7 +1,7 @@
 <div class="poke single">
 	<a class="random" href="#">隨機</a>
 	<a class="swap" href="#">左右交換</a>
-	<input class="poke-search" type="text" placeholder="Search name">
+	<input class="poke-search" type="text" placeholder="搜尋名稱">
 	<select class="poke-select">
 		<option disabled selected value="">選擇寶可夢</option>
 	</select>

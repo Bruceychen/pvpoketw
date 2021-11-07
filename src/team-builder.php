@@ -238,7 +238,7 @@ require_once 'header.php';
 
 	<a href="#" class="toggle active">Battle Histograms <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content">
-		<p>以下圖表顯示個別寶可夢在與其他賽制內寶可夢對戰時的優劣勢。評比分數(Battle Rating) 低於500以下為戰敗，高於500則是勝利。你可以嘗試搭配不同寶可夢成員、不同招式組以及不同個體狀態來找出較佳的隊伍。</p>
+		<p>以下圖表顯示個別寶可夢在與其他賽制內寶可夢對戰時的優劣勢。戰力指數(Battle Rating) 低於500以下為戰敗，高於500則是勝利。你可以嘗試搭配不同寶可夢成員、不同招式組以及不同個體狀態來找出較佳的隊伍。</p>
 		<div class="histograms">
 			<div class="histogram"></div>
 			<div class="histogram"></div>

@@ -3,7 +3,7 @@
 <h1>Ranker</h1>
 <div class="section league-select-container">
     <?php require 'modules/formatselect.php'; ?>
-    <button class="simulate">Simulate</button>
+    <button class="simulate">模擬開始</button>
 
     <div class="output"></div>
 </div>

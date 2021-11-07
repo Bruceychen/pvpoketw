@@ -9,7 +9,6 @@ require_once 'header.php'; ?>
 
 <h1>自訂排名</h1>
 <div class="section white custom-rankings">
-	<p>(This tool will generate high-level rankings to help you develop a custom cup or tournament. Select your rulesets below for which Pokemon to include or exclude.)</p>
     <p>此工具可以產生任何自訂規則與條件的寶可夢排名，以利於您調整規劃任何主題盃賽。可由以下工具調整哪些條件寶可夢要包含/不包含進排名中。</p>
 
 	<?php require 'modules/leagueselect.php'; ?>
@@ -234,7 +233,7 @@ require_once 'header.php'; ?>
 	<h3>排名</h3>
 
 	<div class="poke-search-container">
-		<input class="poke-search" context="ranking-search" type="text" placeholder="Search Pokemon" />
+		<input class="poke-search" context="ranking-search" type="text" placeholder="搜尋寶可夢" />
 		<a href="#" class="search-info">i</a>
 	</div>
 
@@ -243,7 +242,7 @@ require_once 'header.php'; ?>
 
 	<div class="rankings-container clear"></div>
 
-	<a href="#" class="button download-csv">Export to CSV</a>
+	<a href="#" class="button download-csv">匯出成CSV檔</a>
 </div>
 
 <div class="section white custom-rankings-import">

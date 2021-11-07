@@ -77,7 +77,7 @@
             <div class="check show-ivs"><span></span>顯示 等級 &amp; IV數值</div>
         </div>
 
-		<a href="#" class="clear-selection">Clear Selections</a>
+		<a href="#" class="clear-selection">清除名單</a>
 	</div>
 </div>
 

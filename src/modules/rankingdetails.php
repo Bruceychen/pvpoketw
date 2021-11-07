@@ -1,16 +1,16 @@
 <div class="details-template hide">
 	<div class="detail-section float margin">
 		<div class="ranking-header">最佳剋制對象</div>
-		<div class="ranking-header right">Battle Rating</div>
+		<div class="ranking-header right">戰力指數</div>
 		<div class="matchups clear"></div>
 	</div>
 	<div class="detail-section float">
 		<div class="ranking-header">首要威脅來源</div>
-		<div class="ranking-header right">Battle Rating</div>
+		<div class="ranking-header right">戰力指數</div>
 		<div class="counters clear"></div>
 	</div>
 	<div class="detail-section performance float margin">
-		<div class="ranking-header">Performance</div>
+		<div class="ranking-header">綜合表現</div>
 		<div class="hexagon-container">
 			<div class="chart-label">
 				<div class="value">0</div>
@@ -99,7 +99,7 @@
 	</div>
 	<div class="detail-section float margin">
 		<div class="ranking-header">一般招式</div>
-		<div class="ranking-header stat-toggle"><a class="show-move-stats" href="#">Show Stats</a></div>
+		<div class="ranking-header stat-toggle"><a class="show-move-stats" href="#">顯示數據</a></div>
 		<div class="moveset fast clear">
 			<div class="move-detail-template rank hide">
 				<div class="name-container flex">
@@ -107,9 +107,9 @@
 					<span class="archetype"><span class="name"></span><span class="icon"></span></span>
 				</div>
 				<div class="stats-container name-container flex">
-					<div class="dpt"><b class="value">0</b> dpt</div>
-					<div class="ept"><b class="value">0</b> ept</div>
-					<div class="turns"><b class="value">0</b> turns</div>
+					<div class="dpt"><b class="value">0</b> 傷</div>
+					<div class="ept"><b class="value">0</b> 能</div>
+					<div class="turns"><b class="value">0</b> 轉</div>
 				</div>
 			</div>
 		</div>
@@ -129,9 +129,9 @@
 					<span class="archetype"><span class="name"></span><span class="icon"></span></span>
 				</div>
 				<div class="stats-container name-container flex">
-					<div class="damage"><b class="value">0</b> damage</div>
-					<div class="energy"><b class="value">0</b> energy</div>
-					<div class="dpe"><b class="value">0</b> dpe</div>
+					<div class="damage"><b class="value">0</b> 傷害</div>
+					<div class="energy"><b class="value">0</b> 能量</div>
+					<div class="dpe"><b class="value">0</b> 傷/能</div>
 				</div>
 				<div class="stats-container name-container move-effect flex"></div>
                 <div class="stats-container name-container move-count"><div>一般招式使用次數：<span></span></div></div>

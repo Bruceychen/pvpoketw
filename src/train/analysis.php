@@ -94,7 +94,7 @@ require_once '../header.php';
 
     <p>以下為各寶可夢及其搭配招式組在原版網站 PvPoke.com <a href="<?php echo $WEB_ROOT; ?>train/">AI對戰訓練</a>中所統計出之整體性能表現數據。資料採樣自使用網站的各位訓練家，以及當下對戰AI等級:菁英訓練家、冠軍訓練家的對戰數據。如果特定寶可夢或其特定招式沒有出現在清單中，代表其被使用的次數與資料還不足。</p>
     <div class="poke-search-container">
-        <input class="poke-search" target="performers" type="text" placeholder="Search Pokemon" />
+        <input class="poke-search" target="performers" type="text" placeholder="搜尋寶可夢" />
         <a href="#" class="search-info">i</a>
     </div>
 
@@ -149,7 +149,7 @@ require_once '../header.php';
     <div>以下為各寶可夢及其搭配招式組在原版網站 PvPoke.com <a href="<?php echo $WEB_ROOT; ?>train/">AI對戰訓練</a>中所統計出之整體性能表現數據。資料採樣自使用網站的各位訓練家，以及當下對戰AI等級:菁英訓練家、冠軍訓練家的對戰數據。</div>
 
     <div class="poke-search-container">
-        <input class="poke-search" target="teams" type="text" placeholder="Search Pokemon" />
+        <input class="poke-search" target="teams" type="text" placeholder="搜尋寶可夢" />
         <a href="#" class="search-info">i</a>
     </div>
 

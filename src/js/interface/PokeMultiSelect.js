@@ -63,7 +63,7 @@ function PokeMultiSelect(element){
 
 		selectedIndex = index;
 
-		modalWindow("Select Pokemon", $(".poke.single").first());
+		modalWindow("選擇寶可夢", $(".poke.single").first());
 
 		pokeSelector = new PokeSelect($(".modal .poke"), 1);
 		pokeSelector.setContext("modal"+context);
@@ -851,7 +851,7 @@ function PokeMultiSelect(element){
 	$el.find(".clear-selection").click(function(e){
 		e.preventDefault();
 
-		modalWindow("Clear Custom Group", $(".multi-clear-confirm").first());
+		modalWindow("清除自選群組", $(".multi-clear-confirm").first());
 
 		$(".modal .yes").click(function(e){
 			pokemonList = [];

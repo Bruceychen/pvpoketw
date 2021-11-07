@@ -202,7 +202,7 @@ require_once 'header.php';
 						<td><span class="name name-2">Pokemon</span></td>
 					</tr>
 					<tr>
-						<td class="label">Battle Rating</td>
+						<td class="label">戰力指數</td>
 						<td class="stat-battle-rating"><span class="rating star">100</span></td>
 						<td class="stat-battle-rating"><span class="rating star">100</span></td>
 					</tr>
@@ -322,7 +322,7 @@ require_once 'header.php';
 
 		<div class="toggle-content">
 			<div class="poke-search-container">
-				<input class="poke-search" context="ranking-search" type="text" placeholder="Search Pokemon" />
+				<input class="poke-search" context="ranking-search" type="text" placeholder="搜尋寶可夢" />
 				<a href="#" class="search-info">i</a>
 
 				<button class="multi-battle-sort">排序:劣到優 &#9650;</button>
@@ -350,7 +350,7 @@ require_once 'header.php';
 
 		<div class="toggle-content">
             <div class="ranking-categories">
-                <a class="selected" href="#" data="battle">Battle Rating</a>
+                <a class="selected" href="#" data="battle">戰力指數</a>
                 <a href="#" data="breakpoint">Breakpoints</a>
                 <a href="#" data="bulkpoint">Bulkpoints</a>
                 <a href="#" data="attack">Attack</a>

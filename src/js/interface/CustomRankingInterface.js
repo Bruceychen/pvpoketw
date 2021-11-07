@@ -216,7 +216,7 @@ function interfaceObject(){
 
 			generateRankings(null, data);
 		} else if(ranker.getMoveSelectMode() == "force"){
-			$(".button.simulate").html("Simulate");
+			$(".button.simulate").html("模擬排名開始");
 			$(".custom-rankings-results").show();
 			$(".custom-rankings-list").show();
 
@@ -477,7 +477,7 @@ function interfaceObject(){
 			return false;
 		}
 
-		$(".button.simulate").html("Generating...");
+		$(".button.simulate").html("計算中...");
 
 		if((! data)&&(rankingsRunning)){
 			rankingsRunning = true;

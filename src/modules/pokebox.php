@@ -14,7 +14,7 @@
 			</div>
 
 			<div class="poke-search-container">
-				<input class="poke-search" context="ranking-search" type="text" placeholder="Search Pokemon" />
+				<input class="poke-search" context="ranking-search" type="text" placeholder="搜尋寶可夢" />
 			</div>
 
 			<div class="pokebox-list rankings-container">

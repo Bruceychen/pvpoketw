@@ -22,7 +22,6 @@ function fastMoveArchetypeTranslate(archetype){
         'Low Quality':'Low Quality',
         'Heavy Damage':'Heavy Damage',
         'General':'General',
-        'water':'水',
         'default':''
     };
     return (allArchetype[archetype] || archetypeNotFound("fastMove", archetype));

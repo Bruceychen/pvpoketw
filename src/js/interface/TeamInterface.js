@@ -1376,7 +1376,7 @@ var InterfaceMaster = (function () {
 			// Event handler for clicking the rate button
 
 			function rateClick(e){
-				$(".rate-btn").html("Generating...");
+				$(".rate-btn").html("計算中...");
 				$(".section.error").hide();
 
 				// This is stupid but the visual updates won't execute until Javascript has completed the entire thread

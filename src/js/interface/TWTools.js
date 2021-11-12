@@ -124,6 +124,7 @@ function fastmoveAbbreviationArrTranslate(fastmove){
         'Pd' :'拍擊',
         'BBi' :'蟲咬',
         'IF' :'冰凍牙',
+        'FA' :'出奇一擊',
         'default':''
     };
     // return (allFastmoves[fastmove] || allFastmoves['default']);
@@ -254,6 +255,8 @@ function chargemoveAbbreviationArrTranslate(chargemove){
         'MgB' :'磁鐵炸彈',
         'BkB' :'劈瓦',
         'SvW' :'銀色旋風',
+        'Sc' :'熱水',
+        'GB' :'陀螺球',
         'default':''
     };
     // return (allSpecialmoves[chargemove] || allSpecialmoves['default']);

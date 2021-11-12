@@ -4,11 +4,11 @@ $cp = '1500';
 $cup = 'all';
 
 if(isset($_GET['cp'])){
-    $cp = htmlspecialchars($_GET['cp']);
+	$cp = htmlspecialchars($_GET['cp']);
 }
 
 if(isset($_GET['cup'])){
-    $cup = htmlspecialchars($_GET['cup']);
+	$cup = htmlspecialchars($_GET['cup']);
 }
 
 $CANONICAL = '/training/analysis/' . $cup . '/' . $cp;
@@ -16,44 +16,44 @@ $CANONICAL = '/training/analysis/' . $cup . '/' . $cp;
 $league = 'Great League';
 
 switch($cp){
-    case "1500":
-        $league = 'Great League';
-        break;
+	case "1500":
+		$league = 'Great League';
+		break;
 
-    case "2500":
-        $league = 'Ultra League';
-        break;
+	case "2500":
+		$league = 'Ultra League';
+		break;
 
-    case "10000":
-        $league = 'Master League';
-        break;
+	case "10000":
+		$league = 'Master League';
+		break;
 }
 
 switch($cup){
 
-    case "premier":
-        $league = 'Premier';
-        break;
+	case "premier":
+		$league = 'Premier';
+		break;
 
-    case "retro":
-        $league = 'Retro Cup';
-        break;
+	case "retro":
+		$league = 'Retro Cup';
+		break;
 
-    case "halloween":
-        $league = 'Halloween Cup';
-        break;
+	case "kanto":
+		$league = 'Kanto Cup';
+		break;
 
-    case "littlejungle":
-        $league = 'Little Jungle Cup';
-        break;
+	case "littlejungle":
+		$league = 'Little Jungle Cup';
+		break;
 
-    case "premierclassic":
-        $league = 'Premier Classic';
-        break;
+	case "premierclassic":
+		$league = 'Premier Classic';
+		break;
 
-    case "Remix":
-        $league = 'Remix';
-        break;
+	case "Remix":
+		$league = 'Remix';
+		break;
 
 }
 
@@ -62,15 +62,15 @@ $META_TITLE = $league . ' Training Analysis';
 $META_DESCRIPTION = 'Search the top Pokemon, top movesets, and top teams teams measured from the site\'s simulated Training Battles.';
 
 if(isset($_GET['p'])){
-    // Put Pokemon names in the meta title
+	// Put Pokemon names in the meta title
 
-    $name = ucwords(str_replace('_',' ', explode('-', htmlspecialchars($_GET['p']))[0]));
+	$name = ucwords(str_replace('_',' ', explode('-', htmlspecialchars($_GET['p']))[0]));
 
-    $META_TITLE = $name . ' ' . $league . ' PvP Rankings';
+	$META_TITLE = $name . ' ' . $league . ' PvP Rankings';
 
-    $META_DESCRIPTION = 'Explore key matchups, moves, and counters for ' . $name . ' in ' . $league . '.';
+	$META_DESCRIPTION = 'Explore key matchups, moves, and counters for ' . $name . ' in ' . $league . '.';
 
-    $CANONICAL = '/rankings/' . $cup . '/' . $cp . '/overall/' . htmlspecialchars($_GET['p']) . '/';
+	$CANONICAL = '/rankings/' . $cup . '/' . $cp . '/overall/' . htmlspecialchars($_GET['p']) . '/';
 }
 
 require_once '../header.php';
@@ -84,13 +84,14 @@ require_once '../header.php';
         <option value="1500" cup="all" level-cap="50">超級聯盟</option>
         <option value="2500" cup="all" level-cap="50">高級聯盟</option>
         <option value="2500" cup="premierclassic" level-cap="40">UL紀念經典賽</option>
+        <option value="10000" cup="premierclassic" level-cap="40">大師聯盟紀念經典賽</option>
         <option value="10000" cup="classic" level-cap="40">大師聯盟(經典)</option>
-        <option value="1500" cup="halloween" level-cap="50">萬聖節</option>
+        <option value="1500" cup="kanto" level-cap="50">關都盃</option>
     </select>
 
-    <div class="date-updated">資料最後更新</div>
+	<div class="date-updated">資料最後更新</div>
 
-    <h3>優勢寶可夢</h3>
+	<h3>優勢寶可夢</h3>
 
     <p>以下為各寶可夢及其搭配招式組在原版網站 PvPoke.com <a href="<?php echo $WEB_ROOT; ?>train/">AI對戰訓練</a>中所統計出之整體性能表現數據。資料採樣自使用網站的各位訓練家，以及當下對戰AI等級:菁英訓練家、冠軍訓練家的對戰數據。如果特定寶可夢或其特定招式沒有出現在清單中，代表其被使用的次數與資料還不足。</p>
     <div class="poke-search-container">
@@ -98,53 +99,53 @@ require_once '../header.php';
         <a href="#" class="search-info">i</a>
     </div>
 
-    <h2 class="loading">資料讀取中...</h2>
+	<h2 class="loading">資料讀取中...</h2>
 
-    <div class="table-container">
-        <table class="train-table performers" cellspacing="0">
-            <thead>
-            <tr>
-                <td><a href="#" data="name">寶可夢</a></td>
-                <td></td>
-                <td><a href="#" class="selected" data="team">隊伍 Rating</a></td>
-                <td><a href="#" data="individual">個體<br>Rating</a></td>
-                <td><a href="#" data="usage">使用率</a></td>
-            </tr>
-            <!--Row html to clone-->
-            <tr class="hide">
-                <td class="poke-name">
-                    <div class="sprite-container pokemon">
-                        <div class="main-sprite"></div>
-                        <div class="secondary-sprite"></div>
-                    </div>
-                    <div class="name-container">
-                        <div class="name">Azumarill</div>
-                        <div class="moves">Bubble, Ice Beam, Hydro Pump</div>
-                    </div>
-                </td>
-                <td class="link"><a href="#" target="_blank"></a></td>
-                <td class="team-score"><div class="score">509.3</div></td>
-                <td class="individual-score">129.3%</td>
-                <td class="usage">1,024</td>
-            </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
-    </div>
+	<div class="table-container">
+		<table class="train-table performers" cellspacing="0">
+			<thead>
+				<tr>
+					<td><a href="#" data="name">寶可夢</a></td>
+					<td></td>
+					<td><a href="#" class="selected" data="team">隊伍 Rating</a></td>
+					<td><a href="#" data="individual">個體<br>Rating</a></td>
+					<td><a href="#" data="usage">使用率</a></td>
+				</tr>
+				<!--Row html to clone-->
+				<tr class="hide">
+					<td class="poke-name">
+						<div class="sprite-container pokemon">
+							<div class="main-sprite"></div>
+							<div class="secondary-sprite"></div>
+						</div>
+						<div class="name-container">
+							<div class="name">Azumarill</div>
+							<div class="moves">Bubble, Ice Beam, Hydro Pump</div>
+						</div>
+					</td>
+					<td class="link"><a href="#" target="_blank"></a></td>
+					<td class="team-score"><div class="score">509.3</div></td>
+					<td class="individual-score">129.3%</td>
+					<td class="usage">1,024</td>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
 
-    <a href="#" class="button download-csv performers">匯出 CSV檔</a>
+	<a href="#" class="button download-csv performers">匯出 CSV檔</a>
 
-    <p class="column-description"><b>隊伍 Rating - </b> Similar to the Battle Rating metric in battle simulations, the Team Rating metric is a number between 0 and 1000 that measures the quality of wins and losses depending on how much HP remains on the opposing team. An average team rating above 500 means teams including that Pokemon win more often. An average team rating below 500 indicates underperformance, and that teams including that Pokemon may struggle.</p>
-    <!--	<p class="column-description"><b>隊伍 Rating - </b> 概念與戰鬥模擬計算中的Battle Rating類似，隊伍 Rating 指數是介於0至1000之間，measures the quality of wins and losses depending on how much HP remains on the opposing team. An average team rating above 500 means teams including that Pokemon win more often. An average team rating below 500 indicates underperformance, and that teams including that Pokemon may struggle.</p>-->
+	<p class="column-description"><b>隊伍 Rating - </b> Similar to the Battle Rating metric in battle simulations, the Team Rating metric is a number between 0 and 1000 that measures the quality of wins and losses depending on how much HP remains on the opposing team. An average team rating above 500 means teams including that Pokemon win more often. An average team rating below 500 indicates underperformance, and that teams including that Pokemon may struggle.</p>
+<!--	<p class="column-description"><b>隊伍 Rating - </b> 概念與戰鬥模擬計算中的Battle Rating類似，隊伍 Rating 指數是介於0至1000之間，measures the quality of wins and losses depending on how much HP remains on the opposing team. An average team rating above 500 means teams including that Pokemon win more often. An average team rating below 500 indicates underperformance, and that teams including that Pokemon may struggle.</p>-->
 
-    <p class="column-description"><b>個體 Rating - </b> The individual rating metric measures the damage output of a Pokemon in battle. 100% equals 1 Pokemon worth of damage. This metric also includes shields drawn by the Pokemon: 1 shield is treated as 50% of a Pokemon in Great League, and 40% of a Pokemon in Ultra and Master League. Pokemon with high average individual rating have strong damage output and shield pressure. However, high individual rating doesn't always correlate to success on a team.</p>
+	<p class="column-description"><b>個體 Rating - </b> The individual rating metric measures the damage output of a Pokemon in battle. 100% equals 1 Pokemon worth of damage. This metric also includes shields drawn by the Pokemon: 1 shield is treated as 50% of a Pokemon in Great League, and 40% of a Pokemon in Ultra and Master League. Pokemon with high average individual rating have strong damage output and shield pressure. However, high individual rating doesn't always correlate to success on a team.</p>
 
-    <p class="column-description"><b>使用率 - </b> Usage by players and bots on teams of 3. A large sample size will yield higher confidence in the data. A <span class="low-volume">small sample size</span> may be the result of an individual player, and consequentially yield lower confidence in the data. The data is filtered by a mininum usage threshold.</p>
+	<p class="column-description"><b>使用率 - </b> Usage by players and bots on teams of 3. A large sample size will yield higher confidence in the data. A <span class="low-volume">small sample size</span> may be the result of an individual player, and consequentially yield lower confidence in the data. The data is filtered by a mininum usage threshold.</p>
 
-    <?php require '../modules/ads/body-728.php'; ?>
+	<?php require '../modules/ads/body-728.php'; ?>
 
-    <h3>強勢隊伍組合</h3>
+	<h3>強勢隊伍組合</h3>
 
     <div>以下為各寶可夢及其搭配招式組在原版網站 PvPoke.com <a href="<?php echo $WEB_ROOT; ?>train/">AI對戰訓練</a>中所統計出之整體性能表現數據。資料採樣自使用網站的各位訓練家，以及當下對戰AI等級:菁英訓練家、冠軍訓練家的對戰數據。</div>
 
@@ -153,66 +154,66 @@ require_once '../header.php';
         <a href="#" class="search-info">i</a>
     </div>
 
-    <div class="table-container">
-        <table class="train-table teams" cellspacing="0">
-            <thead>
-            <tr>
-                <td class="poke-name"><a href="#" data="lead">隊伍組合 (最左/最上 先發)</a></td>
-                <td class="poke-name"></td>
-                <td class="poke-name"></td>
-                <td></td>
-                <td><a href="#" class="selected" data="team">隊伍 Rating</a></td>
-                <td><a href="#" data="usage">使用率</td>
-            </tr>
-            <!--Row html to clone-->
-            <tr class="hide">
-                <td class="poke-name">
-                    <div class="team-member">
-                        <div class="sprite-container pokemon">
-                            <div class="main-sprite"></div>
-                            <div class="secondary-sprite"></div>
-                        </div>
-                        <div class="name-container">
-                            <div class="name">Azumarill</div>
-                            <div class="moves">Bubble, Ice Beam, Hydro Pump</div>
-                        </div>
-                    </div>
-                </td>
-                <td class="poke-name">
-                    <div class="team-member">
-                        <div class="sprite-container pokemon">
-                            <div class="main-sprite"></div>
-                            <div class="secondary-sprite"></div>
-                        </div>
-                        <div class="name-container">
-                            <div class="name">Azumarill</div>
-                            <div class="moves">Bubble, Ice Beam, Hydro Pump</div>
-                        </div>
-                    </div>
-                </td>
-                <td class="poke-name">
-                    <div class="team-member">
-                        <div class="sprite-container pokemon">
-                            <div class="main-sprite"></div>
-                            <div class="secondary-sprite"></div>
-                        </div>
-                        <div class="name-container">
-                            <div class="name">Azumarill</div>
-                            <div class="moves">Bubble, Ice Beam, Hydro Pump</div>
-                        </div>
-                    </div>
-                </td>
-                <td class="link"><a href="#" target="_blank"></a></td>
-                <td class="team-score"><div class="score">509.3</div></td>
-                <td class="usage">1,024</td>
-            </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
-    </div>
+	<div class="table-container">
+		<table class="train-table teams" cellspacing="0">
+			<thead>
+				<tr>
+					<td class="poke-name"><a href="#" data="lead">隊伍組合 (最左/最上 先發)</a></td>
+					<td class="poke-name"></td>
+					<td class="poke-name"></td>
+					<td></td>
+					<td><a href="#" class="selected" data="team">隊伍 Rating</a></td>
+					<td><a href="#" data="usage">使用率</td>
+				</tr>
+				<!--Row html to clone-->
+				<tr class="hide">
+					<td class="poke-name">
+						<div class="team-member">
+							<div class="sprite-container pokemon">
+								<div class="main-sprite"></div>
+								<div class="secondary-sprite"></div>
+							</div>
+							<div class="name-container">
+								<div class="name">Azumarill</div>
+								<div class="moves">Bubble, Ice Beam, Hydro Pump</div>
+							</div>
+						</div>
+					</td>
+					<td class="poke-name">
+						<div class="team-member">
+							<div class="sprite-container pokemon">
+								<div class="main-sprite"></div>
+								<div class="secondary-sprite"></div>
+							</div>
+							<div class="name-container">
+								<div class="name">Azumarill</div>
+								<div class="moves">Bubble, Ice Beam, Hydro Pump</div>
+							</div>
+						</div>
+					</td>
+					<td class="poke-name">
+						<div class="team-member">
+							<div class="sprite-container pokemon">
+								<div class="main-sprite"></div>
+								<div class="secondary-sprite"></div>
+							</div>
+							<div class="name-container">
+								<div class="name">Azumarill</div>
+								<div class="moves">Bubble, Ice Beam, Hydro Pump</div>
+							</div>
+						</div>
+					</td>
+					<td class="link"><a href="#" target="_blank"></a></td>
+					<td class="team-score"><div class="score">509.3</div></td>
+					<td class="usage">1,024</td>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
 
-    <a href="#" class="button download-csv teams">匯出 CSV檔</a>
+	<a href="#" class="button download-csv teams">匯出 CSV檔</a>
 
     <p class="column-description"><b>隊伍 Rating - </b> Similar to the Battle Rating metric in battle simulations, the Team Rating metric is a number between 0 and 1000 that measures the quality of wins and losses depending on how much HP remains on the opposing team. An average team rating above 500 means this team wins more often. An average team rating below 500 indicates underperformance.</p>
 

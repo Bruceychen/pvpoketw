@@ -136,7 +136,8 @@ require_once 'header.php'; ?>
                     <li><em>sirfetchd</em></li>
 					<li><em>pikachu,deoxys_defense,beedrill</em></li>
 				</ul>
-				<p>譯者按：亦可參考此份Google試算表文件：<a target="_blank" href="https://docs.google.com/spreadsheets/d/1m6gAODHNgF0YCMrwi5oFmVTDlYRe_9nYRL72V7iPMHg/edit#gid=1098261709">寶可夢英文id列表</a>
+				<p>譯者按：亦可參考此份Google試算表文件：<a target="_blank" href="https://docs.google.com/spreadsheets/d/1m6gAODHNgF0YCMrwi5oFmVTDlYRe_9nYRL72V7iPMHg/edit#gid=1098261709">寶可夢英文id列表</a> 或
+                    <a target="_blank" href="https://docs.google.com/spreadsheets/d/1m6gAODHNgF0YCMrwi5oFmVTDlYRe_9nYRL72V7iPMHg/copy#gid=1098261709">按我產生可編輯副本</a>
 				<div class="field-container">
 					<input class="ids" placeholder="寶可夢英文id" />
 				</div>

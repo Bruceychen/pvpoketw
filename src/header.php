@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.24.5.9.2';
+$SITE_VERSION = '1.24.5.10';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -32,11 +32,11 @@ if(isset($_COOKIE['settings'])){
 		$_SETTINGS->ads = 1;
 	}
 
-    if(! isset($_SETTINGS->xls)){
-        $_SETTINGS->xls = 1;
-    }
+	if(! isset($_SETTINGS->xls)){
+		$_SETTINGS->xls = 1;
+	}
 
-    // Validate the gamemaster setting, only allow these options
+	// Validate the gamemaster setting, only allow these options
 	$gamemasters = ["gamemaster", "gamemaster-mega"];
 
 	if(! in_array($_SETTINGS->gamemaster, $gamemasters)){
@@ -131,7 +131,7 @@ if(! isset($OG_IMAGE)){
 			gamemaster: "<?php echo htmlspecialchars($_SETTINGS->gamemaster); ?>",
 			pokeboxId: "<?php echo intval($_SETTINGS->pokeboxId); ?>",
 			pokeboxLastDateTime: "<?php echo intval($_SETTINGS->pokeboxLastDateTime); ?>",
-            xls: <?php echo $_SETTINGS->xls; ?>
+			xls: <?php echo $_SETTINGS->xls; ?>
 		};
 	<?php else: ?>
 
@@ -142,7 +142,7 @@ if(! isset($OG_IMAGE)){
 			gamemaster: "gamemaster",
 			pokeboxId: 0,
 			pokeboxLastDateTime: 0,
-            xls: true
+			xls: true
 		};
 
 	<?php endif; ?>

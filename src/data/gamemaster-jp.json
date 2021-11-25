@@ -23528,7 +23528,7 @@
         "released": true
     }, {
         "dex": 720,
-        "speciesName": "Hoopa (Confined)",
+        "speciesName": "フーパ(いましめられし)",
         "speciesId": "hoopa_confined",
         "baseStats": {
             "atk": 261,
@@ -23550,7 +23550,7 @@
         "released": false
     }, {
         "dex": 720,
-        "speciesName": "Hoopa (Unbound)",
+        "speciesName": "フーパ(ときはなたれし)",
         "speciesId": "hoopa_unbound",
         "baseStats": {
             "atk": 311,

@@ -28,9 +28,9 @@ switch($cp){
 		$league = 'Master League';
 		break;
 
-    case "10000-40":
-        $league = 'Master League Classic';
-        break;
+	case "10000-40":
+		$league = 'Master League Classic';
+		break;
 }
 
 switch($cup){
@@ -39,61 +39,49 @@ switch($cup){
 		$league = 'Premier';
 		break;
 
-    case "premierclassic":
-        $league = 'Premier Classic';
-        break;
+	case "premierclassic":
+		$league = 'Premier Classic';
+		break;
 
-    case "classic":
-        $league = 'Master League Classic';
-        break;
+	case "classic":
+		$league = 'Master League Classic';
+		break;
 
-    case "halloween":
-        $league = 'Halloween Cup';
-        break;
+	case "holiday":
+		$league = 'Holiday Cup';
+		break;
 
-    case "kanto":
-        $league = 'Kanto Cup';
-        break;
+	case "johto":
+		$league = 'Johto Cup';
+		break;
 
-    case "retro":
-        $league = 'Retro Cup';
-        break;
+	case "sinnoh":
+		$league = 'Johto Cup';
+		break;
 
-    case "shadow":
-        $league = 'Shadow Cup';
-        break;
+	case "love":
+		$league = 'Love Cup';
+		break;
 
-    case "littlejungle":
-        $league = 'Little Jungle Cup';
-        break;
+	case "goteamup":
+		$league = 'GO Stadium GOTeamUp';
+		break;
 
-    case "goteamup":
-        $league = 'GO Stadium GOTeamUp';
-        break;
+	case "twilightfactions":
+		$league = 'Silph Twilight Cup';
+		break;
 
-    case "twilightfactions":
-        $league = 'Silph Twilight Cup';
-        break;
+	case "factions":
+		$league = 'Silph Factions Rankings';
+		break;
 
-    case "lunar":
-        $league = 'Silph Lunar Cup';
-        break;
+	case "brawler":
+		$league = 'Silph Brawler Cup';
+		break;
 
-    case "factions":
-        $league = 'Silph Factions Rankings';
-        break;
-
-    case "brawler":
-        $league = 'Silph Brawler Cup';
-        break;
-
-    case "safari":
-        $league = 'Victory Road Safari Cup';
-        break;
-
-    case "remix":
-        $league = $league . ' Remix';
-        break;
+	case "remix":
+		$league = $league . ' Remix';
+		break;
 
 }
 

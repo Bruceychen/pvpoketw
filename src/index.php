@@ -25,19 +25,22 @@
 		<p>網站原始程式碼位置以及贊助原作者(非譯者)</p>
 	</a>
 
-    <?php require 'modules/ads/body-728.php'; ?>
+	<?php require 'modules/ads/body-728.php'; ?>
 
-    <?php if($_SETTINGS->ads == 1) : ?>
-        <span data-ccpa-link="1"></span>
-    <?php endif; ?>
+	<?php if($_SETTINGS->ads == 1) : ?>
+		<span data-ccpa-link="1"></span>
+	<?php endif; ?>
 
-    <!--Update section for updates-->
-    <h3>What's New</h3>
+	<!--Update section for updates-->
+	<h3>更新內容</h3>
 
-    <h4>v1.24.5 (October 27, 2021)</h4>
-    <ul>
-        <li>Custom groups can now generate a search string for the selected Pokemon.</li>
-    </ul>
+	<h4>v1.24.5 (November 29, 2021)</h4>
+	<ul>
+		<li>The site is updated with Season 10 move updates and rankings for upcoming formats!</li>
+		<ul>
+			<li>Rankings are not currently available for every GO Battle League format in Season 10. Rankings for upcoming GO Battle League formats will be posted 2 weeks in advance.</li>
+		</ul>
+	</ul>
 
 	<h3>Latest Article</h3>
 
@@ -83,8 +86,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Tue Nov 30 01:15:00 2021 +0800</li>
-                <li>原版最後版本時間：Mon Nov 29 09:54:48 2021 -0600</li>
+                <li>中文版最後更新時間：Tue Nov 30 12:05:00 2021 +0800</li>
+                <li>原版最後版本時間：Mon Nov 29 14:05:17 2021 -0600</li>
             </ul>
 </div>
 

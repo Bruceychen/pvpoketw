@@ -32,9 +32,8 @@
                 <option value="holiday" type="great" class="multi-battle">假日盃 Meta</option>
                 <option value="factions" type="great" class="multi-battle">Silph Factions Meta (Comet)</option>
                 <option value="twilight" type="great" class="multi-battle">Silph Factions Meta (Twilight)</option>
-                <option value="lunar" type="great" class="multi-battle">Silph 新月盃 Meta</option>
                 <option value="brawler" type="great" class="multi-battle">Silph 擂台盃 Meta</option>
-                <option value="safari" type="great" class="multi-battle">Victory Road Safari Cup Meta</option>
+                <option value="glacial" type="great" class="multi-battle">Silph 冰霸盃 Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

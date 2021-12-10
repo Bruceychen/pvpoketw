@@ -34,6 +34,7 @@
                 <option value="twilight" type="great" class="multi-battle">Silph Factions Meta (Twilight)</option>
                 <option value="brawler" type="great" class="multi-battle">Silph 擂台盃 Meta</option>
                 <option value="glacial" type="great" class="multi-battle">Silph 冰霸盃 Meta</option>
+                <option value="unity" type="great" class="multi-battle">Unity Cup Charity Tournament Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

@@ -157,7 +157,7 @@ var InterfaceMaster = (function () {
 					limitedPokemon = gm.getCupById(cup).restrictedPokemon;
 				}
 
-				if(cup == "brawler"){
+				if(battle.getCup().slots){
 					$(".continentals").show();
 				} else{
 					$(".continentals").hide();
@@ -181,7 +181,6 @@ var InterfaceMaster = (function () {
 
 				// Initialize csv data
 				// 以下這行中文翻譯下載csv的欄位名稱
-				// csv = 'Pokemon,Score,Type 1,Type 2,Attack,Defense,Stamina,Stat Product,Level,Fast Move,Charged Move 1,Charged Move 2,Charged Move 1 Count,Charged Move 2 Count,Buddy Distance,Charged Move Cost\n';
 				csv = '名稱,評分,第一屬性,第二屬性,攻擊力,防禦力,HP,Stat Product,等級,一般招式,特殊招式1,特殊招式2,幾下可用特招1,幾下可用特招2,夥伴行走距離,開第二招星塵花費\n';
 
 
@@ -279,7 +278,7 @@ var InterfaceMaster = (function () {
 						$el.find(".moves").prepend("<span class=\"cliffhanger-points\">"+points+ptStr+"</span>");
 					}
 
-					if(battle.getCup().name == "brawler"){
+					if(battle.getCup().name == "unity"){
 						let slotNumber = 0;
 
 						for(var n = 0; n < battle.getCup().slots.length; n++){
@@ -304,7 +303,7 @@ var InterfaceMaster = (function () {
 
 					// For Prismatic Cup, show color category
 
-					if(cup == "brawler"){
+					if(battle.getCup().slots){
 						var slots = battle.getCup().slots;
 
 						for(var n = 0; n < slots.length; n++){
@@ -880,14 +879,14 @@ var InterfaceMaster = (function () {
 					if(chargedMoves[n].buffs){
 						$moveDetails.find(".move-effect").html(gm.getStatusEffectString(chargedMoves[n]));
 					}
-					// 20211023原版已刪除，暫時保留看狀況
+
 					// Add move counts
 					var cycle1Count = Math.ceil( (chargedMoves[n].energy * 1) / pokemon.fastMove.energyGain);
 					var cycle2Count = Math.ceil( (chargedMoves[n].energy * 2) / pokemon.fastMove.energyGain) - cycle1Count;
 					var cycle3Count = Math.ceil( (chargedMoves[n].energy * 3) / pokemon.fastMove.energyGain) - cycle1Count - cycle2Count;
 
 					$moveDetails.find(".move-count span").html(cycle1Count + " - " + cycle2Count + " - " + cycle3Count);
-					// 20211023原版已刪除，暫時保留看狀況
+
 					// Highlight this move if it's in the recommended moveset
 
 					for(var j = 0; j < pokemon.chargedMoves.length; j++){
@@ -1007,7 +1006,7 @@ var InterfaceMaster = (function () {
 				for(var i = 0; i < effectivenessArr.length; i++){
 					var num = Math.floor(effectivenessArr[i].val * 1000) / 1000;
 					if(effectivenessArr[i].val > 1){
-						// 顯示屬性翻譯function 使用
+				// 顯示屬性翻譯function 使用
 						$details.find(".detail-section .weaknesses").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+typeTranslate(effectivenessArr[i].type)+"</div></div>");
 					}
 				}
@@ -1015,7 +1014,7 @@ var InterfaceMaster = (function () {
 				for(var i = effectivenessArr.length - 1; i >= 0; i--){
 					var num = Math.floor(effectivenessArr[i].val * 1000) / 1000;
 					if(effectivenessArr[i].val < 1){
-						//顯示屬性翻譯function 使用
+				//顯示屬性翻譯function 使用
 						$details.find(".detail-section .resistances").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+typeTranslate(effectivenessArr[i].type)+"</div></div>");
 					}
 				}
@@ -1296,15 +1295,15 @@ var InterfaceMaster = (function () {
 			}
 		};
 
-		return object;
-	}
+        return object;
+    }
 
-	return {
-		getInstance: function () {
-			if (!instance) {
-				instance = createInstance();
-			}
-			return instance;
-		}
-	};
+    return {
+        getInstance: function () {
+            if (!instance) {
+                instance = createInstance();
+            }
+            return instance;
+        }
+    };
 })();

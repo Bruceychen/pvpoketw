@@ -451,6 +451,10 @@ var RankerMaster = (function () {
 					iterations = 1;
 				}
 
+				if(cup.name == "holiday"){
+					iterations = 1;
+				}
+
 				if(cup.name == "kanto"){
 					iterations = 1;
 				}
@@ -604,6 +608,9 @@ var RankerMaster = (function () {
 						}
 					}
 
+					// Sort key counters by battle rating
+					rankings[i].counters.sort((a,b) => (a.rating > b.rating) ? 1 : ((b.rating > a.rating) ? -1 : 0));
+
 					// Gather 5 best matchups, weighted by opponent rank
 
 					rankings[i].matches.sort((a,b) => (a.score > b.score) ? -1 : ((b.score > a.score) ? 1 : 0));
@@ -630,6 +637,9 @@ var RankerMaster = (function () {
 							}
 						}
 					}
+
+					// Sort key matchups by battle rating
+					rankings[i].matchups.sort((a,b) => (a.rating > b.rating) ? -1 : ((b.rating > a.rating) ? 1 : 0));
 
 					delete rankings[i].matches;
 					//delete rankings[i].movesets;

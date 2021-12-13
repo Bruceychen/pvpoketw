@@ -5,7 +5,6 @@
     <option value="official" cup="sinnoh">神奧盃</option>
 	<option value="tsa-3" cup="factions">Silph Factions (Comet)</option>
 	<option value="tsa-3" cup="twilightfactions">Silph Factions (Twilight)</option>
-	<option value="tsa-4" cup="brawler">Silph 擂台盃</option>
     <option value="tsa-4" cup="glacial">Silph 冰霸盃</option>
 	<option value="tsa-4" cup="unity">Unity Cup Charity Tournament</option>
 

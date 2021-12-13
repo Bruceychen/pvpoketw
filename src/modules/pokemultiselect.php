@@ -25,14 +25,13 @@
 				<option value="great" type="great" class="multi-battle">超級(1500)聯盟 Meta</option>
 				<option value="ultra" type="ultra" class="hide multi-battle">高級(2500)聯盟 Meta</option>
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
-                <option value="remix" type="great" class="multi-battle">超級聯盟Remix Meta</option>
                 <option value="remixultra" type="ultra" class="hide multi-battle">高級聯盟Remix Meta</option>
                 <option value="ultrapremierclassic" type="ultra" class="hide multi-battle">UL紀念經典賽 Meta</option>
                 <option value="masterpremierclassic" type="master" class="hide multi-battle">ML紀念經典賽 Meta</option>
                 <option value="holiday" type="great" class="multi-battle">假日盃 Meta</option>
+                <option value="sinnoh" type="great" class="multi-battle">神奧盃 Meta</option>
                 <option value="factions" type="great" class="multi-battle">Silph Factions Meta (Comet)</option>
                 <option value="twilight" type="great" class="multi-battle">Silph Factions Meta (Twilight)</option>
-                <option value="brawler" type="great" class="multi-battle">Silph 擂台盃 Meta</option>
                 <option value="glacial" type="great" class="multi-battle">Silph 冰霸盃 Meta</option>
                 <option value="unity" type="great" class="multi-battle">Unity Cup Charity Tournament Meta</option>
 			</select>

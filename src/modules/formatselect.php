@@ -8,7 +8,6 @@
     <option value="1500" cup="sinnoh" meta-group="sinnoh">神奧盃</option>
     <option value="1500" cup="factions" meta-group="factions">Silph Factions (Comet)</option>
     <option value="1500" cup="twilightfactions" meta-group="twilight">Silph Factions (Twilight)</option>
-    <option value="1500" cup="brawler" meta-group="brawler">Silph 擂台盃</option>
     <option value="1500" cup="glacial" meta-group="glacial">Silph 冰霸盃</option>
     <option value="1500" cup="unity" meta-group="unity">Unity Cup Charity Tournament</option>
 

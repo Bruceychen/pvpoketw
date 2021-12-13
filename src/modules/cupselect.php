@@ -2,6 +2,7 @@
 	<option value="all" cup="all">全部寶可夢</option>
 	<option value="official" cup="remix">Remix 盃</option>
 	<option value="official" cup="holiday">假日盃</option>
+    <option value="official" cup="sinnoh">神奧盃</option>
 	<option value="tsa-3" cup="factions">Silph Factions (Comet)</option>
 	<option value="tsa-3" cup="twilightfactions">Silph Factions (Twilight)</option>
 	<option value="tsa-4" cup="brawler">Silph 擂台盃</option>
@@ -32,6 +33,7 @@
 	<option value="element" cat="official">元素盃</option>
     <option value="bidoof" cat="official">大牙狸盃</option>
     <option value="holiday" cat="official">假日盃</option>
+    <option value="sinnoh" cat="official">神奧盃</option>
     <option value="classic" cat="official">大師經典賽 (XL 禁止)</option>
     <option value="littlejungle" cat="official">叢林小小盃</option>
 	<option value="safari" cat="community">Montreal Safari Cup</option>

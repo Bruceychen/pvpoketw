@@ -470,17 +470,14 @@ var InterfaceMaster = (function () {
 				var avgThreatScore = 0;
 				var count = 0;
 				var total = scorecardCount;
-				var i = 0;
 				var excludedThreats = multiSelectors[4].getPokemonList();
 				var excludedThreatIDs = [];
-				// temp modified for bug:
-				// https://github.com/pvpoke/pvpoke/issues/175
-				// for(var i = 0; i < excludedThreats.length; i++){
-				// 	excludedThreatIDs.push(excludedThreats[i].speciesId);
-				// }
-				for(var ii = 0; ii < excludedThreats.length; ii++){
-					excludedThreatIDs.push(excludedThreats[ii].speciesId);
+
+				for(var i = 0; i < excludedThreats.length; i++){
+					excludedThreatIDs.push(excludedThreats[i].speciesId);
 				}
+
+				var i = 0;
 
 				while((count < total)&&(i < counterRankings.length)){
 					var r = counterRankings[i];

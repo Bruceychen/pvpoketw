@@ -3,10 +3,9 @@
 	<option value="official" cup="remix">Remix 盃</option>
 	<option value="official" cup="holiday">假日盃</option>
     <option value="official" cup="sinnoh">神奧盃</option>
-	<option value="tsa-3" cup="factions">Silph Factions (Comet)</option>
-	<option value="tsa-3" cup="twilightfactions">Silph Factions (Twilight)</option>
     <option value="tsa-4" cup="glacial">Silph 冰霸盃</option>
-
+    <option value="tsa-2" cup="fusionfactions">Silph Factions (Fusion)</option>
+    <option value="community" cup="comet">Gymbreakers Comet Cup</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>
@@ -53,6 +52,7 @@
     <option value="adl" cat="community">ADL</option>
     <option value="cutie" cat="community">Cutie Cup</option>
     <option value="unity" cat="community">Unity Cup</option>
+    <option value="comet" cat="community">Comet Cup</option>
 	<option value="jungle"  cat="tsa-1">叢林盃</option>
 	<option value="rainbow" cat="tsa-1">彩虹盃</option>
 	<option value="championships-1" cat="tsa-1">第一季冠軍賽</option>
@@ -72,6 +72,7 @@
 	<option value="toxic" cat="tsa-2">猛毒盃</option>
 	<option value="rose" cat="tsa-2">玫瑰盃</option>
 	<option value="fusion" cat="tsa-2">融合盃</option>
+    <option value="fusionfactions" cat="tsa-2">Fusion Cup</option>
 	<option value="timeless" cat="tsa-2">永伴盃</option>
 	<option value="timeless-mirror" cat="tsa-2">永伴盃 (Mirror)</option>
 	<option value="ferocious" cat="tsa-2">猛獸盃</option>

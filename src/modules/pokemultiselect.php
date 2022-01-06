@@ -30,9 +30,8 @@
                 <option value="masterpremierclassic" type="master" class="hide multi-battle">ML紀念經典賽 Meta</option>
                 <option value="holiday" type="great" class="multi-battle">假日盃 Meta</option>
                 <option value="sinnoh" type="great" class="multi-battle">神奧盃 Meta</option>
-                <option value="factions" type="great" class="multi-battle">Silph Factions Meta (Comet)</option>
-                <option value="twilight" type="great" class="multi-battle">Silph Factions Meta (Twilight)</option>
                 <option value="glacial" type="great" class="multi-battle">Silph 冰霸盃 Meta</option>
+                <option value="comet" type="great" class="multi-battle">Gymbreakers Comet Cup Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

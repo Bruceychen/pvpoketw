@@ -4,6 +4,7 @@
 	<option value="official" cup="holiday">假日盃</option>
     <option value="official" cup="sinnoh">神奧盃</option>
     <option value="tsa-4" cup="glacial">Silph 冰霸盃</option>
+    <option value="tsa-2" cup="factions">Silph Factions (Cave)</option>
     <option value="tsa-2" cup="fusionfactions">Silph Factions (Fusion)</option>
     <option value="community" cup="comet">Gymbreakers Comet Cup</option>
 

@@ -14180,8 +14180,9 @@
             "hp": 242
         },
         "types": ["ice", "water"],
-        "fastMoves": ["FROST_BREATH", "WATERFALL"],
-        "chargedMoves": ["BLIZZARD", "EARTHQUAKE", "WATER_PULSE"],
+        "fastMoves": ["FROST_BREATH", "WATERFALL", "POWDER_SNOW"],
+        "chargedMoves": ["BLIZZARD", "EARTHQUAKE", "WATER_PULSE", "ICICLE_SPEAR"],
+		"eliteMoves": ["POWDER_SNOW", "ICICLE_SPEAR"],
         "defaultIVs": {
             "cp500": [7, 4, 15, 12],
             "cp1500": [20.5, 5, 13, 11],
@@ -14189,6 +14190,7 @@
         },
         "level25CP": 1675,
         "tags": ["shadoweligible"],
+		"searchPriority": 10,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true
@@ -14202,8 +14204,9 @@
             "hp": 242
         },
         "types": ["ice", "water"],
-        "fastMoves": ["FROST_BREATH", "WATERFALL"],
-        "chargedMoves": ["BLIZZARD", "EARTHQUAKE", "WATER_PULSE"],
+		"fastMoves": ["FROST_BREATH", "WATERFALL", "POWDER_SNOW"],
+        "chargedMoves": ["BLIZZARD", "EARTHQUAKE", "WATER_PULSE", "ICICLE_SPEAR"],
+		"eliteMoves": ["POWDER_SNOW", "ICICLE_SPEAR"],
         "defaultIVs": {
             "cp500": [7, 4, 15, 12],
             "cp1500": [20.5, 5, 13, 11],
@@ -21984,7 +21987,7 @@
         },
         "types": ["bug", "steel"],
         "fastMoves": ["METAL_CLAW", "FURY_CUTTER"],
-        "chargedMoves": ["X_SCISSOR", "MAGNET_BOMB", "ZAP_CANNON"],
+        "chargedMoves": ["X_SCISSOR", "MAGNET_BOMB", "ZAP_CANNON", "TECHNO_BLAST_SHOCK"],
         "defaultIVs": {
             "cp500": [5.5, 12, 14, 13],
             "cp1500": [16, 12, 10, 15],
@@ -21993,7 +21996,7 @@
         "tags": ["mythical", "untradeable"],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     }, {
         "dex": 650,
         "speciesName": "哈力栗",
@@ -27083,6 +27086,15 @@
         "energyGain": 10,
         "cooldown": 1500,
         "archetype": "General"
+    }, {
+        "moveId": "ICICLE_SPEAR",
+        "name": "冰錐",
+        "type": "ice",
+        "power": 60,
+        "energy": 35,
+        "energyGain": 0,
+        "cooldown": 500,
+        "archetype": "Spam/Bait"
     }, {
         "moveId": "ICY_WIND",
         "name": "冰凍之風",

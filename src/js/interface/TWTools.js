@@ -258,6 +258,8 @@ function chargemoveAbbreviationArrTranslate(chargemove){
         'Sc' :'熱水',
         'GB' :'陀螺球',
         'ISp' :'冰錐',
+        'HF' :'必殺門牙',
+        'WBR' :'氣象球 岩',
         'default':''
     };
     // return (allSpecialmoves[chargemove] || allSpecialmoves['default']);

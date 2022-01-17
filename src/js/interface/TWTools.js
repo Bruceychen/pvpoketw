@@ -257,6 +257,7 @@ function chargemoveAbbreviationArrTranslate(chargemove){
         'SvW' :'銀色旋風',
         'Sc' :'熱水',
         'GB' :'陀螺球',
+        'ISp' :'冰錐',
         'default':''
     };
     // return (allSpecialmoves[chargemove] || allSpecialmoves['default']);

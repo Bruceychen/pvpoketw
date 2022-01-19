@@ -315,7 +315,7 @@
         }],
         "exclude": [{
             "filterType": "id",
-            "values": ["azumarill", "medicham", "dewgong", "scrafty", "jellicent", "nidoqueen", "diggersby"]
+            "values": ["azumarill", "medicham", "dewgong", "scrafty", "jellicent", "nidoqueen", "diggersby", "walrein"]
         }, {
             "filterType": "tag",
             "values": ["mega"]
@@ -22955,7 +22955,7 @@
         },
         "types": ["electric", "normal"],
         "fastMoves": ["QUICK_ATTACK", "THUNDER_SHOCK"],
-        "chargedMoves": ["PARABOLIC_CHARGE", "BULLDOZE", "DISCHARGE"],
+        "chargedMoves": ["PARABOLIC_CHARGE", "BULLDOZE", "THUNDERBOLT"],
         "defaultIVs": {
             "cp500": [21, 5, 11, 12],
             "cp1500": [50, 15, 15, 15],
@@ -22963,7 +22963,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false
+        "released": true
     }, {
         "dex": 695,
         "speciesName": "エレザード",
@@ -22984,7 +22984,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false
+        "released": true
     }, {
         "dex": 696,
         "speciesName": "チゴラス",
@@ -27450,7 +27450,7 @@
         "name": "パラボラチャージ",
         "abbreviation": "PbC",
         "type": "electric",
-        "power": 25,
+        "power": 65,
         "energy": 55,
         "energyGain": 0,
         "cooldown": 500,

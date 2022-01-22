@@ -29,8 +29,9 @@
                 <option value="ultrapremierclassic" type="ultra" class="hide multi-battle">UL紀念經典賽 Meta</option>
                 <option value="masterpremierclassic" type="master" class="hide multi-battle">ML紀念經典賽 Meta</option>
                 <option value="sinnoh" type="great" class="multi-battle">神奧盃 Meta</option>
+                <option value="guardian" type="great" class="multi-battle">Silph Guardian Cup Meta</option>
                 <option value="factions" type="great" class="multi-battle">Silph Factions Meta (Cave)</option>
-                <option value="fusion" type="great" class="multi-battle">Silph Factions Meta (Fusion)</option>
+                <option value="fusion" type="great" class="multi-battle">Silph 融合盃 Meta</option>
                 <option value="comet" type="great" class="multi-battle">Gymbreakers Comet Cup Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
@@ -41,6 +42,14 @@
 
             <h3 class="section-title">PMGO搜尋字詞</h3>
             <button class="search-string-btn">產生搜尋字詞</button>
+		</div>
+
+		<div class="options multi-battle-options">
+			<h3 class="section-title">篩選條件</h3>
+			<div class="form-group">
+				<div class="check on" value="meta"><span></span>Meta</div>
+				<div class="check" value="all"><span></span>全部寶可夢</div>
+			</div>
 		</div>
 
 		<div class="options">

@@ -5,6 +5,7 @@
 	<option value="10000" cup="all" meta-group="master">大師聯盟</option>
 	<option value="10000" cup="classic" meta-group="master">大師聯盟 (經典賽)</option>
     <option value="1500" cup="sinnoh" meta-group="sinnoh">神奧盃</option>
+    <option value="1500" cup="guardian" meta-group="guardian">Silph Guardian Cup</option>
     <option value="1500" cup="factions" meta-group="factions">Silph Factions (Cave)</option>
     <option value="1500" cup="fusionfactions" meta-group="fusion">Silph Factions (Fusion)</option>
     <option value="1500" cup="comet" meta-group="comet">Gymbreakers Comet Cup</option>

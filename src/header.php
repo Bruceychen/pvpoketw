@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.24.7.17';
+$SITE_VERSION = '1.25.2';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -36,6 +36,10 @@ if(isset($_COOKIE['settings'])){
 		$_SETTINGS->xls = 1;
 	}
 
+	if(! isset($_SETTINGS->rankingDetails)){
+		$_SETTINGS->rankingDetails = "one-page";
+	}
+
 	// Validate the gamemaster setting, only allow these options
 	$gamemasters = ["gamemaster", "gamemaster-mega"];
 
@@ -50,7 +54,8 @@ if(isset($_COOKIE['settings'])){
 		'gamemaster' => 'gamemaster',
 		'pokeboxId' => 0,
 		'ads' => 1,
-		'xls' => 1
+		'xls' => 1,
+		'rankingDetails' => 'one-page'
 	];
 }
 
@@ -102,7 +107,7 @@ if(! isset($OG_IMAGE)){
 <link rel="manifest" href="<?php echo $WEB_ROOT; ?>data/manifest.json?v=2">
 
 <link rel="icon" href="<?php echo $WEB_ROOT; ?>img/favicon.png">
-<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=132">
+<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=133">
 
 <?php if(strpos($META_TITLE, 'Train') !== false): ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/train.css?v=20">
@@ -131,7 +136,8 @@ if(! isset($OG_IMAGE)){
 			gamemaster: "<?php echo htmlspecialchars($_SETTINGS->gamemaster); ?>",
 			pokeboxId: "<?php echo intval($_SETTINGS->pokeboxId); ?>",
 			pokeboxLastDateTime: "<?php echo intval($_SETTINGS->pokeboxLastDateTime); ?>",
-			xls: <?php echo $_SETTINGS->xls; ?>
+			xls: <?php echo $_SETTINGS->xls; ?>,
+			rankingDetails: "<?php echo htmlspecialchars($_SETTINGS->rankingDetails); ?>"
 		};
 	<?php else: ?>
 
@@ -142,7 +148,8 @@ if(! isset($OG_IMAGE)){
 			gamemaster: "gamemaster",
 			pokeboxId: 0,
 			pokeboxLastDateTime: 0,
-			xls: true
+			xls: true,
+			rankingDetails: "one-page"
 		};
 
 	<?php endif; ?>

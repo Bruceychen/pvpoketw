@@ -41,11 +41,6 @@ var InterfaceMaster = (function () {
 					this.loadGetData();
 				}
 
-				// Remove Little Cup from options (currently n/a)
-				if(context != "custom"){
-					$(".league-select option[value='500']").remove();
-				}
-
 				$(".format-select").on("change", selectFormat);
 				$(".league-select").on("change", selectLeague);
 				$(".ranking-categories a").on("click", selectCategory);
@@ -54,6 +49,7 @@ var InterfaceMaster = (function () {
 				$("body").on("click", ".check.xl", toggleXLPokemon);
 				$("body").on("click", ".continentals .check", toggleContinentalsSlots);
 				$("body").on("click", ".detail-section .trait-info, .detail-section .traits > div", openTraitPopup);
+				$("body").on("click", ".detail-tab-nav a", toggleDetailTab);
 				$("body").on("click", ".detail-section a.show-move-stats", toggleMoveStats);
 				$("body").on("click", ".check.move-counts", toggleMoveCounts);
 				$("body").on("click", ".detail-section.similar-pokemon a", jumpToSimilarPokemon);
@@ -121,6 +117,12 @@ var InterfaceMaster = (function () {
 					$(".description.link a").html(battle.getCup().link);
 				} else{
 					$(".description.link").hide();
+				}
+
+				// Check ranking details settings to show ranking details in one page or tabs
+
+				if(settings.rankingDetails == "tabs"){
+					$(".rankings-container").addClass("detail-tabs-on");
 				}
 
 				/* This timeout allows the interface to display the loading message before
@@ -1062,10 +1064,13 @@ var InterfaceMaster = (function () {
 					}
 
 					multiBattleLink += "/";
-					//以下這行介面翻譯
-					$details.find(".detail-section.float").eq(2).before($("<div class=\"multi-battle-link\"><p>查看 <b>" + pokemon.speciesName + "</b> 的所有模擬戰鬥計算結果：</p><a target=\"_blank\" class=\"button\" href=\""+multiBattleLink+"\">"+pokemon.speciesName+" vs. " + cupName +"</a></div>"));
+					//以下這行待介面翻譯
+					$details.find(".multi-battle-link a").attr("href", multiBattleLink);
+					$details.find(".multi-battle-link a").html(pokemon.speciesName+" vs. " + cupName);
+					$details.find(".multi-battle-link .name").html(pokemon.speciesName+"'s");
 				} else{
 					$details.find(".share-link").remove();
+					$details.find(".multi-battle-link").remove();
 				}
 
 				var scores;
@@ -1292,6 +1297,23 @@ var InterfaceMaster = (function () {
 				var $rank = $(e.target).closest(".rank")
 				$(e.target).toggleClass("on");
 				$rank.find(".moveset").toggleClass("show-stats");
+			}
+
+			// Switch to a different detail tab
+
+			function toggleDetailTab(e){
+				e.preventDefault();
+
+				var $rank = $(e.target).closest(".rank")
+				var tab = $(e.target).closest("a").attr("tab");
+
+				// Display selected tab nav
+				$rank.find(".detail-tab-nav a").removeClass("active");
+				$(e.target).closest("a").addClass("active");
+
+				// Display selected tab items
+				$rank.find(".detail-tab").hide();
+				$rank.find(".detail-tab[tab=\""+tab+"\"]").css("display", "flex");
 			}
 		};
 

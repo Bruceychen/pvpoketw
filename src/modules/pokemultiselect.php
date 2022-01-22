@@ -45,9 +45,9 @@
 		</div>
 
 		<div class="options multi-battle-options">
-			<h3 class="section-title">篩選條件</h3>
+			<h3 class="section-title">對手寶可夢篩選</h3>
 			<div class="form-group">
-				<div class="check on" value="meta"><span></span>Meta</div>
+				<div class="check on" value="meta"><span></span>僅 Meta</div>
 				<div class="check" value="all"><span></span>全部寶可夢</div>
 			</div>
 		</div>

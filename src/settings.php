@@ -44,11 +44,11 @@ require_once 'header.php';
 			<option value="column" <?php if((isset($_SETTINGS->matrixDirection))&&($_SETTINGS->matrixDirection == "column")) : ?>selected<?php endif; ?>>Column vs Row</option>
         </select>
 
-		<h3>排名資料細節設定</h3>
-		<p>Select how to display a Pokemon's stats, moves, matchups, and other details on the rankings pages.</p>
+		<h3>排名資料個體細節顯示設定</h3>
+		<p>設定排名資料中，每個寶可夢的對戰數值，招式資料，與關鍵名單等資訊的顯示方式。</p>
 		<select class="input" id="ranking-details">
-			<option value="one-page" <?php if((isset($_SETTINGS->rankingDetails))&&($_SETTINGS->rankingDetails == "one-page")) : ?>selected<?php endif; ?>>One Page</option>
-			<option value="tabs" <?php if((isset($_SETTINGS->rankingDetails))&&($_SETTINGS->rankingDetails == "tabs")) : ?>selected<?php endif; ?>>Tabs</option>
+			<option value="one-page" <?php if((isset($_SETTINGS->rankingDetails))&&($_SETTINGS->rankingDetails == "one-page")) : ?>selected<?php endif; ?>>一頁式</option>
+			<option value="tabs" <?php if((isset($_SETTINGS->rankingDetails))&&($_SETTINGS->rankingDetails == "tabs")) : ?>selected<?php endif; ?>>頁籤呈現</option>
 		</select>
 
 		<h3>網站主題</h3>

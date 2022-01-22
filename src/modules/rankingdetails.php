@@ -1,9 +1,9 @@
 <div class="details-template hide">
 	<div class="detail-section detail-tab-nav">
-		<a class="tab-moves active" href="#" tab="matchups"><span class="icon"></span>Matchups</a>
-		<a class="tab-moves" href="#" tab="moves"><span class="icon"></span>Moves</a>
-		<a class="tab-stats" href="#" tab="stats"><span class="icon"></span>Stats</a>
-		<a class="tab-moves" href="#" tab="misc"><span class="icon"></span>Misc</a>
+		<a class="tab-moves active" href="#" tab="matchups"><span class="icon"></span>關鍵名單</a>
+		<a class="tab-moves" href="#" tab="moves"><span class="icon"></span>招式資料</a>
+		<a class="tab-stats" href="#" tab="stats"><span class="icon"></span>對戰數值</a>
+		<a class="tab-moves" href="#" tab="misc"><span class="icon"></span>個體資訊</a>
 	</div>
 
 	<div class="detail-tab active" tab="matchups">
@@ -18,7 +18,7 @@
 			<div class="counters clear"></div>
 		</div>
 
-		<div class="multi-battle-link"><p>See all of <b class="name"></b> matchups:</p><a target="_blank" class="button" href="#">Pokemon vs. Great League</a></div>
+        <div class="multi-battle-link"><p>查看 <b class="name"></b> 在此主題賽中的完整對戰表現:</p><a target="_blank" class="button" href="#">Pokemon vs. Great League</a></div>
 	</div><!-- end tab matchups-->
 
 	<div class="detail-tab" tab="stats">

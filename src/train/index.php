@@ -40,7 +40,8 @@ require_once '../header.php';
 				<option value="10000 gobattleleague">GO 大師聯盟</option>
                 <option value="10000 classic">GO ML經典賽</option>
                 <option value="2500 premierclassic">UL紀念經典賽</option>
-                <option value="1500 sinnoh">神奧盃</option>
+                <option value="10000 premierclassic">ML紀念經典賽</option>
+                <option value="1500 love">Love Cup</option>
                 <option value="1500 all">超級聯盟(6v6)</option>
                 <option value="2500 all">高級聯盟(6v6)</option>
                 <option value="10000 all">大師聯盟(6v6)</option>

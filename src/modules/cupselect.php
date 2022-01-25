@@ -1,7 +1,7 @@
 <select class="cup-select">
 	<option value="all" cup="all" meta-group500="littlegeneral" meta-group1500="great" meta-group2500="ultra" meta-group10000="master">進行中聯盟</option>
-	<option value="premierclassic" meta-group2500="ultrapremierclassic" meta-group2500="masterpremierclassic">紀念經典賽</option>
-	<option value="sinnoh" meta-group1500="sinnoh">神奧盃</option>
+	<option value="premierclassic" meta-group2500="ultrapremierclassic" meta-group10000="masterpremierclassic">紀念經典賽</option>
+	<option value="love" meta-group1500="love">Love Cup</option>
 	<option value="guardian" meta-group1500="guardian">Silph Guardian Cup</option>
 	<option value="fusionfactions" meta-group1500="fusion">Silph 融合盃</option>
 	<option value="factions" meta-group1500="factions">Silph Factions (Cave)</option>

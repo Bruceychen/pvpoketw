@@ -131,8 +131,8 @@
 			</div>
 			<div class="rank selected recommended">推薦招式</div>
 			<div class="footnote">
-				* 活動或完全絕版招式<br>
-				<sup>†</sup> 僅能透過厲害招式學習器習得<br><br>
+				* 活動或僅能透過厲害招式學習器習得<br>
+				<sup>†</sup> 無法透過招式學習器學會<br><br>
 				<div>招式數值已包含同屬性和暗影化攻擊加成。</div>
 			</div>
 		</div>

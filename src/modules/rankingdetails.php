@@ -8,7 +8,7 @@
 
 	<div class="detail-tab active" tab="matchups">
 		<div class="detail-section float margin">
-			<div class="ranking-header">首要威脅來源</div>
+			<div class="ranking-header">最佳剋制對象</div>
 			<div class="ranking-header right">戰力指數</div>
 			<div class="matchups clear"></div>
 		</div>

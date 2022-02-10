@@ -28,12 +28,11 @@
                 <option value="remixultra" type="ultra" class="hide multi-battle">高級聯盟Remix Meta</option>
                 <option value="ultrapremierclassic" type="ultra" class="hide multi-battle">UL紀念經典賽 Meta</option>
                 <option value="masterpremierclassic" type="master" class="hide multi-battle">ML紀念經典賽 Meta</option>
-                <option value="love" type="great" class="multi-battle">Love Cup Meta</option>
+                <option value="love" type="great" class="multi-battle">愛情盃 Meta</option>
                 <option value="johto" type="great" class="multi-battle">城都盃 Meta</option>
                 <option value="guardian" type="great" class="multi-battle">Silph 守護者盃 Meta</option>
                 <option value="factions" type="great" class="multi-battle">Silph Factions Meta (Cave)</option>
                 <option value="fusion" type="great" class="multi-battle">Silph 融合盃 Meta</option>
-                <option value="comet" type="great" class="multi-battle">Gymbreakers Comet Cup Meta</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

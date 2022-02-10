@@ -22860,7 +22860,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false
+        "released": true
     }, {
         "dex": 670,
         "speciesName": "花葉蒂",
@@ -22881,7 +22881,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false
+        "released": true
     }, {
         "dex": 671,
         "speciesName": "花潔夫人",
@@ -22899,9 +22899,10 @@
             "cp1500": [17, 6, 14, 12],
             "cp2500": [28.5, 6, 9, 15]
         },
+		"searchPriority": 2,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false
+        "released": true
     }, {
         "dex": 672,
         "speciesName": "坐騎小羊",

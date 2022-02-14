@@ -31,10 +31,6 @@ switch($cp){
 
 switch($cup){
 
-	case "holiday":
-		$league = 'Holiday';
-		break;
-
 	case "premier":
 		$league = 'Premier';
 		break;
@@ -43,12 +39,8 @@ switch($cup){
 		$league = 'Retro Cup';
 		break;
 
-	case "sinnoh":
-		$league = 'Sinnoh Cup';
-		break;
-
-	case "littlejungle":
-		$league = 'Little Jungle Cup';
+	case "love":
+		$league = 'Love Cup';
 		break;
 
 	case "premierclassic":
@@ -90,7 +82,7 @@ require_once '../header.php';
         <option value="2500" cup="premierclassic" level-cap="40">UL紀念經典賽</option>
         <option value="10000" cup="premierclassic" level-cap="40">ML紀念經典賽</option>
         <option value="10000" cup="classic" level-cap="40">大師聯盟(經典)</option>
-        <option value="1500" cup="sinnoh" level-cap="50">神奧盃</option>
+        <option value="1500" cup="love" level-cap="50">愛情盃</option>
     </select>
 
 	<div class="date-updated">資料最後更新</div>

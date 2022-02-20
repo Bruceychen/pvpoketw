@@ -7,6 +7,7 @@
     <option value="1500" cup="love" meta-group="love">愛情盃</option>
     <option value="1500" cup="johto" meta-group="johto">城都盃</option>
     <option value="1500" cup="guardian" meta-group="guardian">Silph 守護者盃</option>
+    <option value="1500" cup="obsidian" meta-group="obsidian">Silph Obsidian Cup</option>
     <option value="1500" cup="factions" meta-group="factions">Silph Factions (Cave)</option>
     <option value="1500" cup="fusionfactions" meta-group="fusion">Silph Factions (Fusion)</option>
 

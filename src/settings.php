@@ -37,13 +37,6 @@ require_once 'header.php';
         <h3>戰鬥模擬計算時間軸</h3>
 		<div class="check animate-timeline <?php if($_SETTINGS->animateTimeline == 1) : ?>on<?php endif; ?>"><span></span> 於計算結果產生後顯示時間軸動畫。(Animate after generating results)</div>
 
-		<h3>Matrix &amp; Team Builder Results</h3>
-        <p>Select whether to display results for Pokemon in rows versus Pokemon in columns, or vice versa, in the Matrix Battle tool and Team Builder scorecards.</p>
-        <select class="input" id="matrix-direction">
-            <option value="row" <?php if((isset($_SETTINGS->matrixDirection))&&($_SETTINGS->matrixDirection == "row")) : ?>selected<?php endif; ?>>Row vs Column</option>
-			<option value="column" <?php if((isset($_SETTINGS->matrixDirection))&&($_SETTINGS->matrixDirection == "column")) : ?>selected<?php endif; ?>>Column vs Row</option>
-        </select>
-
 		<h3>排名資料個體細節顯示設定</h3>
 		<p>設定排名資料中，每個寶可夢的對戰數值，招式資料，與關鍵名單等資訊的顯示方式。</p>
 		<select class="input" id="ranking-details">

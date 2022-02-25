@@ -3,8 +3,6 @@
 	<option value="2500" cup="all" meta-group="ultra">高級聯盟</option>
 	<option value="10000" cup="all" meta-group="master">大師聯盟</option>
 	<option value="10000" cup="classic" meta-group="master">大師聯盟 (經典賽)</option>
-    <option value="10000" cup="premierclassic" meta-group="master">ML紀念經典賽</option>
-    <option value="1500" cup="love" meta-group="love">愛情盃</option>
     <option value="1500" cup="johto" meta-group="johto">城都盃</option>
     <option value="1500" cup="guardian" meta-group="guardian">Silph 守護者盃</option>
     <option value="1500" cup="obsidian" meta-group="obsidian">Silph Obsidian Cup</option>

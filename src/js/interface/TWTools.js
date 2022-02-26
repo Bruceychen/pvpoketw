@@ -260,6 +260,10 @@ function chargemoveAbbreviationArrTranslate(chargemove){
         'ISp' :'冰錐',
         'HF' :'必殺門牙',
         'WBR' :'氣象球 岩',
+        'ZC' :'電磁炮',
+        'Acr' :'雜技',
+        'RT' :'岩石封鎖',
+        'Mrc' :'鏡面反射',
         'default':''
     };
     // return (allSpecialmoves[chargemove] || allSpecialmoves['default']);

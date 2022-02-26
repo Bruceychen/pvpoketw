@@ -263,7 +263,7 @@ function chargemoveAbbreviationArrTranslate(chargemove){
         'ZC' :'電磁炮',
         'Acr' :'雜技',
         'RT' :'岩石封鎖',
-        'Mrc' :'鏡面反射',
+        'MrC' :'鏡面反射',
         'default':''
     };
     // return (allSpecialmoves[chargemove] || allSpecialmoves['default']);

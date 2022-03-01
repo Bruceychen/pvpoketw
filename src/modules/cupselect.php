@@ -1,5 +1,6 @@
 <select class="cup-select">
 	<option value="all" cup="all" meta-group500="littlegeneral" meta-group1500="great" meta-group2500="ultra" meta-group10000="master">進行中聯盟</option>
+    <option value="premierclassic" meta-group2500="ultrapremierclassic" meta-group10000="masterpremierclassic">高級紀念經典賽</option>
     <option value="johto" meta-group1500="johto">城都盃</option>
 	<option value="guardian" meta-group1500="guardian">Silph 守護者盃</option>
     <option value="obsidian" meta-group1500="obsidian">Silph 黑曜盃</option>

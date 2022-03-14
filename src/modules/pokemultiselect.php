@@ -30,7 +30,7 @@
                 <option value="masterpremierclassic" type="master" class="hide multi-battle">ML紀念經典賽 Meta</option>
                 <option value="love" type="great" class="multi-battle">愛情盃 Meta</option>
                 <option value="johto" type="great" class="multi-battle">城都盃 Meta</option>
-                <option value="guardian" type="great" class="multi-battle">Silph 守護者盃 Meta</option>
+                <option value="littlejungle" type="little" class="hide multi-battle">叢林小小盃 Meta</option>
                 <option value="obsidian" type="great" class="multi-battle">Silph 黑曜盃 Meta</option>
                 <option value="factions" type="great" class="multi-battle">Silph Factions Meta (Cave)</option>
                 <option value="fusion" type="great" class="multi-battle">Silph 融合盃 Meta</option>

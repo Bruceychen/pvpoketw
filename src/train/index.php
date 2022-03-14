@@ -42,7 +42,7 @@ require_once '../header.php';
                 <option value="2500 premierclassic">UL紀念經典賽</option>
                 <option value="10000 premierclassic">ML紀念經典賽</option>
                 <option value="1500 love">Love Cup</option>
-                <option value="1500 johto">城都盃</option>
+                <option value="500 littlejungle">叢林小小盃</option>
                 <option value="1500 all">超級聯盟(6v6)</option>
                 <option value="2500 all">高級聯盟(6v6)</option>
                 <option value="10000 all">大師聯盟(6v6)</option>

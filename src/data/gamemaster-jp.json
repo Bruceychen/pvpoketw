@@ -24551,7 +24551,7 @@
         "released": false
     }, {
         "dex": 741,
-        "speciesName": "Oricorio (Baile)",
+        "speciesName": "オドリドリ(めらめら)",
         "speciesId": "oricorio_baile",
         "baseStats": {
             "atk": 196,
@@ -24572,7 +24572,7 @@
         "released": true
     }, {
         "dex": 741,
-        "speciesName": "Oricorio (Pa'u)",
+        "speciesName": "オドリドリ(ふらふら)",
         "speciesId": "oricorio_pau",
         "baseStats": {
             "atk": 196,
@@ -24593,7 +24593,7 @@
         "released": true
     }, {
         "dex": 741,
-        "speciesName": "Oricorio (Pom-Pom)",
+        "speciesName": "オドリドリ(ぱちぱち)",
         "speciesId": "oricorio_pom_pom",
         "baseStats": {
             "atk": 196,
@@ -24614,7 +24614,7 @@
         "released": true
     }, {
         "dex": 741,
-        "speciesName": "Oricorio (Sensu)",
+        "speciesName": "オドリドリ(まいまい)",
         "speciesId": "oricorio_sensu",
         "baseStats": {
             "atk": 196,

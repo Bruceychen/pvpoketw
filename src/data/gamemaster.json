@@ -24551,7 +24551,7 @@
         "released": false
     }, {
         "dex": 741,
-        "speciesName": "Oricorio (Baile)",
+        "speciesName": "花舞鳥 熱辣熱辣風格",
         "speciesId": "oricorio_baile",
         "baseStats": {
             "atk": 196,
@@ -24572,7 +24572,7 @@
         "released": true
     }, {
         "dex": 741,
-        "speciesName": "Oricorio (Pa'u)",
+        "speciesName": "花舞鳥 呼拉呼拉風格",
         "speciesId": "oricorio_pau",
         "baseStats": {
             "atk": 196,
@@ -24593,7 +24593,7 @@
         "released": true
     }, {
         "dex": 741,
-        "speciesName": "Oricorio (Pom-Pom)",
+        "speciesName": "花舞鳥 啪滋啪滋風格",
         "speciesId": "oricorio_pom_pom",
         "baseStats": {
             "atk": 196,
@@ -24614,7 +24614,7 @@
         "released": true
     }, {
         "dex": 741,
-        "speciesName": "Oricorio (Sensu)",
+        "speciesName": "花舞鳥 輕盈輕盈風格",
         "speciesId": "oricorio_sensu",
         "baseStats": {
             "atk": 196,

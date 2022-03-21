@@ -51,15 +51,15 @@
 
 	<div class="article-item flex">
 		<div class="col-3">
-			<a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-03-sandshrew/">
-				<img src="<?php echo $WEB_ROOT; ?>articles/article-assets/community-day/22-03-sandshrew/thumb.jpg">
+			<a href="<?php echo $WEB_ROOT; ?>/infographics/22-03-great-league-meta-snapshot/">
+				<img src="<?php echo $WEB_ROOT; ?>articles/article-assets/infographics/22-03-great-league-meta-snapshot/thumb.jpg">
 			</a>
 		</div>
 		<div class="col-9">
-			<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-03-sandshrew/">Sandshrew Community Day Guide for PvP</a></h4>
-			<div class="date">March 10, 2022</div>
-			<p>Learn about Sandshrew's upcoming Community Day and how both of its Alolan and Kanto families will be relevant for PvP!</p>
-			<div class="tags"><a href="/pvpoke/src/articles?tag=Community Day"># Community Day</a><a href="/pvpoke/src/articles?tag=Infographic"># Infographic</a></div>
+			<h4><a href="<?php echo $WEB_ROOT; ?>articles/infographics/22-03-great-league-meta-snapshot/">Great League Tournament Meta Snapshot, March 2022</a></h4>
+			<div class="date">March 19, 2022</div>
+			<p>Get a preview of the Pokemon GO Championship Series meta for your regional tournament.</p>
+			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a></div>
 		</div>
 	</div>
 
@@ -91,8 +91,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Thu Mar 17 08:15:28 2022 +0800</li>
-                <li>原版最後版本時間：Wed Mar 16 12:24:55 2022 -0500</li>
+                <li>中文版最後更新時間：Mon Mar 21 23:15:28 2022 +0800</li>
+                <li>原版最後版本時間：Sun Mar 20 15:33:50 2022 -0500</li>
             </ul>
 </div>
 

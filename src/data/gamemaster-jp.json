@@ -1169,6 +1169,29 @@
             "name": "Tag",
             "values": ["mega", "shadow"]
         }]
+    }, {
+        "name": "nemesis",
+        "title": "Nemesis Cup",
+		"restrictedPicks": 2,
+		"restrictedPokemon": ["obstagoon", "gallade", "lucario", "poliwrath", "pangoro", "blaziken", "chesnaught", "quagsire", "flygon", "excadrill", "jumpluff", "dedenne", "froslass", "gourgeist_small", "gourgeist_average", "gourgeist_large", "gourgeist_super", "noctowl", "gyarados", "charizard", "gengar", "rapidash_galarian", "mawile"],
+        "include": [{
+            "filterType": "id",
+			"includeShadows": true,
+            "values": ["obstagoon", "gallade", "lucario", "poliwrath", "pangoro", "blaziken", "chesnaught", "quagsire", "flygon", "excadrill", "jumpluff", "dedenne", "froslass", "gourgeist_small", "gourgeist_average", "gourgeist_large", "gourgeist_super", "noctowl", "gyarados", "charizard", "gengar", "rapidash_galarian", "mawile"]
+        }, {
+            "filterType": "type",
+            "values": ["bug", "dark", "fire", "grass", "ice", "psychic", "water"]
+        }],
+        "exclude": [{
+            "filterType": "id",
+            "values": ["escavalier"]
+        }, {
+            "filterType": "type",
+            "values": ["none", "fairy", "flying", "fighting", "ground", "ghost", "normal"]
+        }, {
+            "filterType": "tag",
+            "values": ["mega"]
+        }]
     }],
     "pokemonTags": ["legendary", "mythical", "alolan", "galarian", "starter", "regional", "shadow", "shadoweligible", "untradeable", "mega", "xs", "hisuian"],
     "pokemonTraits": {
@@ -9464,6 +9487,7 @@
         },
         "level25CP": 1383,
         "tags": ["shadoweligible"],
+		"searchPriority": 2,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true
@@ -11195,6 +11219,7 @@
             "cp2500": [34, 4, 15, 14]
         },
         "eliteMoves": ["BLAST_BURN", "STONE_EDGE"],
+		"searchPriority":  2,
         "buddyDistance": 3,
         "thirdMoveCost": 10000,
         "released": true
@@ -24944,8 +24969,8 @@
             "hp": 120
         },
         "types": ["grass", "none"],
-        "fastMoves": ["STRUGGLE"],
-        "chargedMoves": ["STRUGGLE"],
+        "fastMoves": ["RAZOR_LEAF", "BULLET_SEED"],
+        "chargedMoves": ["ENERGY_BALL", "GRASS_KNOT"],
         "defaultIVs": {
             "cp500": [26.5, 4, 14, 11],
             "cp1500": [50, 15, 15, 15],
@@ -24953,7 +24978,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false
+        "released": true
     }, {
         "dex": 754,
         "speciesName": "ラランテス",
@@ -24964,8 +24989,8 @@
             "hp": 172
         },
         "types": ["grass", "none"],
-        "fastMoves": ["STRUGGLE"],
-        "chargedMoves": ["STRUGGLE"],
+		"fastMoves": ["RAZOR_LEAF", "BULLET_SEED"],
+        "chargedMoves": ["ENERGY_BALL", "GRASS_KNOT"],
         "defaultIVs": {
             "cp500": [8, 4, 8, 14],
             "cp1500": [23.5, 4, 8, 15],
@@ -24974,7 +24999,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false
+        "released": true
     }, {
         "dex": 755,
         "speciesName": "ネマシュ",
@@ -25992,7 +26017,7 @@
 		"tags": ["legendary"],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     }, {
         "dex": 787,
         "speciesName": "カプ・ブルル",

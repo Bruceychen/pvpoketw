@@ -32,8 +32,7 @@
                 <option value="johto" type="great" class="multi-battle">城都盃 Meta</option>
                 <option value="littlejungle" type="little" class="hide multi-battle">叢林小小盃 Meta</option>
                 <option value="obsidian" type="great" class="multi-battle">Silph 黑曜盃 Meta</option>
-                <option value="factions" type="great" class="multi-battle">Silph Factions Meta (Cave)</option>
-                <option value="fusion" type="great" class="multi-battle">Silph 融合盃 Meta</option>
+                <option value="nemesis" type="great" class="multi-battle">Silph Nemesis Cup</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>

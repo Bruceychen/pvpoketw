@@ -165,20 +165,6 @@ var InterfaceMaster = (function () {
 					$(".continentals").hide();
 				}
 
-				if(cup == "championships-1"){
-					$(".limited").show();
-					$(".check.limited").addClass("on");
-
-					limitedPokemon = ["medicham","lucario","venusaur","meganium","skarmory","altaria","bastiodon","probopass","tropius","azumarill"];
-				}
-
-				if(cup == "fantasy"){
-					$(".limited").show();
-					$(".check.limited").addClass("on");
-
-					limitedPokemon = ["azumarill","deoxys_defense","medicham","wormadam_trash","forretress","sableye"];
-				}
-
 				$(".section.white > .rankings-container").html('');
 
 				// Initialize csv data
@@ -264,7 +250,9 @@ var InterfaceMaster = (function () {
 						$el.find(".count").removeClass("hide");
 					}
 
-					if(limitedPokemon.indexOf(pokemon.speciesId) > -1){
+					// Match both shadow and non shadow versions on restricted list
+
+					if(limitedPokemon.indexOf(pokemon.speciesId.replace("_shadow", "")) > -1){
 						$el.addClass("limited-rank");
 					}
 
@@ -1218,6 +1206,7 @@ var InterfaceMaster = (function () {
 			function toggleLimitedPokemon(e){
 				for(var i = 0; i < limitedPokemon.length; i++){
 					$(".rank[data='"+limitedPokemon[i]+"']").toggleClass("hide");
+					$(".rank[data='"+limitedPokemon[i]+"_shadow']").toggleClass("hide");
 				}
 			}
 

@@ -4,10 +4,8 @@
     <option value="johto" meta-group1500="johto">城都盃</option>
     <option value="love" meta-group1500="love">愛情盃</option>
     <option value="littlejungle" meta-group500="littlejungle">叢林小小盃</option>
-	<option value="guardian" meta-group1500="guardian">Silph 守護者盃</option>
     <option value="obsidian" meta-group1500="obsidian">Silph 黑曜盃</option>
-	<option value="fusionfactions" meta-group1500="fusion">Silph 融合盃</option>
-	<option value="factions" meta-group1500="factions">Silph Factions (Cave)</option>
+    <option value="nemesis" meta-group1500="nemesis">Silph Nemesis Cup</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>

@@ -5,7 +5,7 @@
     <option value="love" meta-group1500="love">愛情盃</option>
     <option value="littlejungle" meta-group500="littlejungle">叢林小小盃</option>
     <option value="obsidian" meta-group1500="obsidian">Silph 黑曜盃</option>
-    <option value="nemesis" meta-group1500="nemesis">Silph Nemesis Cup</option>
+    <option value="nemesis" meta-group1500="nemesis">Silph 勁敵盃</option>
     <option value="cometultra" meta-group2500="cometultra">Silph Factions (Ultra Comet)</option>
     <option value="floatingcity" meta-group1500="floatingcity">Silph Factions (Floating City)</option>
     <option value="dungeon" meta-group1500="dungeon">Silph Factions (Dungeon)</option>

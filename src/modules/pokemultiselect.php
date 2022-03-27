@@ -32,7 +32,7 @@
                 <option value="johto" type="great" class="multi-battle">城都盃 Meta</option>
                 <option value="littlejungle" type="little" class="hide multi-battle">叢林小小盃 Meta</option>
                 <option value="obsidian" type="great" class="multi-battle">Silph 黑曜盃 Meta</option>
-                <option value="nemesis" type="great" class="multi-battle">Silph Nemesis Cup</option>
+                <option value="nemesis" type="great" class="multi-battle">Silph 勁敵盃</option>
                 <option value="cometultra" type="ultra" class="multi-battle">Silph Factions (Ultra Comet)</option>
                 <option value="floatingcity" type="great" class="multi-battle">Silph Factions (Floating City)</option>
                 <option value="dungeon" type="great" class="multi-battle">Silph Factions (Dungeon)</option>

@@ -7,6 +7,9 @@
     <option value="500" cup="littlejungle" meta-group="littlejungle">叢林小小盃</option>
     <option value="1500" cup="obsidian" meta-group="obsidian">Silph 黑曜盃</option>
     <option value="1500" cup="nemesis" meta-group="nemesis">Silph Nemesis Cup</option>
+    <option value="2500" cup="cometultra" meta-group="cometultra">Silph Factions (Ultra Comet)</option>
+    <option value="1500" cup="floatingcity" meta-group="floatingcity">Silph Factions (Floating City)</option>
+    <option value="1500" cup="dungeon" meta-group="dungeon">Silph Factions (Dungeon)</option>
 
 	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
 		<option value="1500" cup="cliffhanger" meta-group="great">GO Stadium Cliffhanger</option>

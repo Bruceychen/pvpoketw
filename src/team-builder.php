@@ -18,47 +18,22 @@ require_once 'header.php';
 
 	<a class="toggle" href="#">進階設定 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 	<div class="toggle-content team-advanced">
-		<div class="flex">
-			<div class="flex-section">
-				<h3 class="section-title">自訂具威脅寶可夢</h3>
-				<p>自行指定1到多個對此隊伍具有威脅之寶可夢清單以進行評估。</p>
-                <p>注意：此處之自訂清單將會作為最後meta scorecard的項目，而不會包含、計算指定主題賽中其他非清單羅列之寶可夢的威脅程度。</p>
-				<div class="team-build custom-threats">
-					<?php require 'modules/pokemultiselect.php'; ?>
-				</div>
-			</div>
-			<div class="flex-section">
-			    <h3 class="section-title">自訂替補寶可夢</h3>
-                <p>自行指定1到多個替補候選寶可夢清單進行評估。</p>
-                <p>注意：此處之自訂清單將會作為最後meta scorecard的項目，而不會包含、計算指定主題賽中其他非清單羅列之寶可夢作為推薦替補。</p>
-                <div class="team-build custom-alternatives">
-                    <?php require 'modules/pokemultiselect.php'; ?>
-                </div>
-            </div>
-            <div class="flex-section">
-                <h3 class="section-title">排除具威脅寶可夢</h3>
-                <p>下列寶可夢將不會出現在具威脅清單中</p>
-                <div class="team-build exclude-threats">
-                    <?php require 'modules/pokemultiselect.php'; ?>
-                </div>
-            </div>
-            <div class="flex-section">
-                <h3 class="section-title">排除替補寶可夢</h3>
-                <p>下列寶可夢將不會出現在建議替補清單中</p>
-                <div class="team-build exclude-alternatives">
-                    <?php require 'modules/pokemultiselect.php'; ?>
-                </div>
-            </div>
-        </div>
-		<h3 class="section-title">選項設定</h3>
+		<h3 class="section-title">Options</h3>
 		<div class="flex poke">
-		    <div class="team-option">
-		        <h3>Scorecard 顯示長度/寶可夢數</h3>
-		        <select class="scorecard-length-select">
-		            <option value="10">10</option>
-		            <option value="20" selected>20</option>
-		            <option value="30">30</option>
-		            <option value="40">40</option>
+			<div class="team-option">
+				<h3>隊伍最大成員數</h3>
+				<select class="team-size-select">
+					<option value="6" selected>6</option>
+					<option value="8">8</option>
+				</select>
+			</div>
+			<div class="team-option">
+				<h3>Scorecard 顯示長度/寶可夢數</h3>
+				<select class="scorecard-length-select">
+					<option value="10">10</option>
+					<option value="20" selected>20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
 					<option value="60">60</option>
 					<option value="80">80</option>
 		        </select>
@@ -87,6 +62,38 @@ require_once 'header.php';
 		    </div>
 		</div>
 		<p>注意：上述進階設定，目前無法紀錄於 "分享此隊伍" 的連結(URL)中！</p>
+		<div class="flex">
+			<div class="flex-section">
+				<h3 class="section-title">自訂具威脅寶可夢</h3>
+                <p>自行指定1到多個對此隊伍具有威脅之寶可夢清單以進行評估。</p>
+                <p>注意：此處之自訂清單將會作為最後meta scorecard的項目，而不會包含、計算指定主題賽中其他非清單羅列之寶可夢的威脅程度。</p>
+				<div class="team-build custom-threats">
+					<?php require 'modules/pokemultiselect.php'; ?>
+				</div>
+			</div>
+			<div class="flex-section">
+				<h3 class="section-title">自訂替補寶可夢</h3>
+                <p>自行指定1到多個替補候選寶可夢清單進行評估。</p>
+                <p>注意：此處之自訂清單將會作為最後meta scorecard的項目，而不會包含、計算指定主題賽中其他非清單羅列之寶可夢作為推薦替補。</p>
+				<div class="team-build custom-alternatives">
+					<?php require 'modules/pokemultiselect.php'; ?>
+				</div>
+			</div>
+			<div class="flex-section">
+				<h3 class="section-title">排除具威脅寶可夢</h3>
+				<p>下列寶可夢將不會出現在具威脅清單中</p>
+				<div class="team-build exclude-threats">
+					<?php require 'modules/pokemultiselect.php'; ?>
+				</div>
+			</div>
+			<div class="flex-section">
+				<h3 class="section-title">排除替補寶可夢</h3>
+				<p>下列寶可夢將不會出現在建議替補清單中</p>
+				<div class="team-build exclude-alternatives">
+					<?php require 'modules/pokemultiselect.php'; ?>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 

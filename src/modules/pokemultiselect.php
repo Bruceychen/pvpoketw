@@ -8,6 +8,7 @@
 		<div class="custom-options">
 			<h3 class="section-title">寶可夢 (<span class="poke-count">0</span> / <span class="poke-max-count">100</span>)</h3>
 			<p>選擇寶可夢組成隊伍，或選擇已儲存之隊伍。</p>
+            <a class="custom-group-sort" href="#">排序 ...</a>
 			<div class="rankings-container clear"></div>
 			<div class="team-warning ineligible">你的隊伍成員包含不符此賽制規則的寶可夢。</div>
 			<div class="team-warning labyrinth">迷宮盃隊伍內寶可夢不得有相同屬性！</div>
@@ -29,7 +30,6 @@
                 <option value="ultrapremierclassic" type="ultra" class="hide multi-battle">UL紀念經典賽 Meta</option>
                 <option value="masterpremierclassic" type="master" class="hide multi-battle">ML紀念經典賽 Meta</option>
                 <option value="halloween" type="great" class="multi-battle">萬聖節盃 Meta</option>
-                <option value="littlejungle" type="little" class="hide multi-battle">叢林小小盃 Meta</option>
                 <option value="obsidian" type="great" class="multi-battle">Silph 黑曜盃 Meta</option>
                 <option value="nemesis" type="great" class="multi-battle">Silph 勁敵盃</option>
                 <option value="cometultra" type="ultra" class="multi-battle">Silph Factions (Ultra Comet)</option>
@@ -129,17 +129,27 @@
 	<div class="center flex">
 		<div class="button yes">是的</div>
 		<div class="button no">不要</div>
+    </div>
+</div>
+
+<div class="sort-group hide">
+	<p>群組排序條件：</p>
+
+	<div class="center">
+		<div class="button name">名稱</div>
+		<div class="button attack">攻擊力</div>
+		<div class="button defense">防禦力</div>
 	</div>
 </div>
 
 <div class="search-string-window hide">
-    <p>複製以下PMGO使用的搜尋字詞以找出寶可夢。</p>
-    <div class="search-string-options flex">
-        <div class="check hp-option on"><span></span>HP</div>
-        <div class="check cp-option on"><span></span>CP</div>
-        <div class="check region-option"><span></span>包含地區</div>
-    </div>
-    <h5>注意：CP 及 HP 搜尋字詞在寶可夢使用本站預設IV狀況下不會出現。</h5>
-    <textarea class="team-string-text" type="text" readonly></textarea>
-    <div class="copy">複製</div>
+	<p>複製以下PMGO使用的搜尋字詞以找出寶可夢。</p>
+	<div class="search-string-options flex">
+	    <div class="check hp-option on"><span></span>HP</div>
+	    <div class="check cp-option on"><span></span>CP</div>
+	    <div class="check region-option"><span></span>包含地區</div>
+	</div>
+	<h5>注意：CP 及 HP 搜尋字詞在寶可夢使用本站預設IV狀況下不會出現。</h5>
+	<textarea class="team-string-text" type="text" readonly></textarea>
+	<div class="copy">複製</div>
 </div>

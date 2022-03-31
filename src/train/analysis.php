@@ -43,10 +43,6 @@ switch($cup){
 		$league = 'Halloween Cup';
 		break;
 
-	case "littlejungle":
-		$league = 'Little Jungle Cup';
-		break;
-
 	case "premierclassic":
 		$league = 'Premier Classic';
 		break;
@@ -85,7 +81,6 @@ require_once '../header.php';
         <option value="2500" cup="all" level-cap="50">高級聯盟</option>
         <option value="2500" cup="premierclassic" level-cap="40">高級紀念經典賽</option>
         <option value="10000" cup="classic" level-cap="40">大師聯盟(經典)</option>
-        <option value="500" cup="littlejungle" level-cap="50">叢林小小盃</option>
         <option value="1500" cup="halloween" level-cap="50">萬聖節盃</option>
     </select>
 

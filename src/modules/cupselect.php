@@ -1,9 +1,7 @@
 <select class="cup-select">
 	<option value="all" cup="all" meta-group500="littlegeneral" meta-group1500="great" meta-group2500="ultra" meta-group10000="master">進行中聯盟</option>
     <option value="premierclassic" meta-group2500="ultrapremierclassic" meta-group10000="masterpremierclassic">高級紀念經典賽</option>
-    <option value="littlejungle" meta-group500="littlejungle">叢林小小盃</option>
     <option value="halloween" meta-group1500="halloween">萬聖節盃</option>
-    <option value="obsidian" meta-group1500="obsidian">Silph 黑曜盃</option>
     <option value="nemesis" meta-group1500="nemesis">Silph 勁敵盃</option>
     <option value="cometultra" meta-group2500="cometultra">Silph Factions (Ultra Comet)</option>
     <option value="floatingcity" meta-group1500="floatingcity">Silph Factions (Floating City)</option>

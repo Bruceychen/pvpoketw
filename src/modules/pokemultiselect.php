@@ -49,38 +49,39 @@
 
 		<div class="options multi-battle-options">
 			<h3 class="section-title">對手寶可夢篩選</h3>
-			<div class="form-group">
-				<div class="check on" value="meta"><span></span>僅 Meta</div>
-				<div class="check" value="all"><span></span>全部寶可夢</div>
+			<div class="form-group filter-picker">
+				<div class="option on" value="meta">僅 Meta</div>
+				<div class="option" value="all">全部寶可夢</div>
 			</div>
 		</div>
 
 		<div class="options">
-			<h3 class="section-title">其他選項</h3>
-			<select class="shield-select">
-				<option value="0">不使用防禦網</option>
-				<option value="1" selected>使用1次防禦網</option>
-				<option value="2">使用2次防禦網</option>
+			<h3 class="section-title">護盾使用數</h3>
+			<div class="form-group shield-picker">
+				<div class="option" value="0"><div class="icon"></div> 0</div>
+				<div class="option on" value="1"><div class="icon"></div> 1</div>
+				<div class="option" value="2"><div class="icon"></div> 2</div>
+			</div>
+			<h3 class="section-title">誘使對手用盾</h3>
+			<div class="form-group bait-picker">
+				<div class="option" value="0">關</div>
+				<div class="option on" value="1">策略性使用</div>
+				<div class="option" value="2">開</div>
+			</div>
+			<h3 class="section-title">IV's</h3>
+			<select class="default-iv-select">
+				<option value="original">使用標準IV</option>
+				<option value="gamemaster">使用預設IV</option>
+				<option value="overall">使用最佳IV(排名第1)</option>
+				<option value="atk">使用攻擊最大化IV</option>
+				<option value="def">使用防禦最大化IV</option>
 			</select>
-			<select class="charged-count-select">
-                <option value="0">不使用特殊招式</option>
-                <option value="1">僅1個特殊招式</option>
-                <option value="2" selected="">2個特殊招式</option>
-            </select>
-            <select class="default-iv-select">
-                <option value="original">使用標準IV</option>
-                <option value="gamemaster">使用預設IV</option>
-                <option value="overall">使用最佳IV(排名第1)</option>
-                <option value="atk">使用攻擊最大化IV</option>
-                <option value="def">使用防禦最大化IV</option>
-            </select>
 			<select class="pokemon-level-cap-select" style="display:none;">
                 <option value="40">預設等級上限(40)</option>
                 <option value="45">夥伴等級上限(41)</option>
                 <option value="50">新預設等級上限(50)</option>
                 <option value="51">新夥伴等級上限(51)</option>
             </select>
-            <div class="check shield-baiting on"><span></span>用低能量需求招式引誘對手使用防禦網</div>
             <div class="check show-ivs"><span></span>顯示 等級 &amp; IV數值</div>
         </div>
 

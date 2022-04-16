@@ -9,7 +9,7 @@
 	<?php include 'pokebox.php'; ?>
 
 	<div class="poke-stats">
-        <h3 class="cp"><span class="identifier" title="Shadow"></span> cp <span class="stat"></span></h3>
+		<h3 class="cp"><span class="identifier" title="Shadow"></span> cp <span class="stat"></span></h3>
 		<div class="types"></div>
 		<div class="stat-container attack clear">
 			<div class="stat-label">
@@ -116,19 +116,19 @@
 
 		<div class="options">
 			<div class="shield-section">
-				<h3 class="section-title">防禦網使用策略</h3>
-				<select class="shield-select">
-				    <option value="0">不使用防禦網</option>
-				    <option value="1" selected>使用1次防禦網</option>
-				    <option value="2">使用2次防禦網</option>
-				</select>
+				<h3 class="section-title">護盾使用數</h3>
+				<div class="form-group shield-picker">
+					<div class="option" value="0"><div class="icon"></div> 0</div>
+					<div class="option on" value="1"><div class="icon"></div> 1</div>
+					<div class="option" value="2"><div class="icon"></div> 2</div>
+				</div>
 			</div>
 			<div class="shadow-section">
-			    <h3 class="section-title">寶可夢個體</h3>
-			    <div class="form-group">
-			        <div class="check on" value="normal"><span></span>一般</div>
-			        <div class="check" value="shadow"><span></span>暗影</div>
-			    </div>
+				<h3 class="section-title">寶可夢個體</h3>
+				<div class="form-group shadow-picker">
+					<div class="option on" value="normal">一般</div>
+					<div class="option" value="shadow">暗影</div>
+				</div>
 			</div>
 			<a href="#" class="section-title toggle">其他選項 <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
 			<div class="toggle-content">
@@ -138,10 +138,15 @@
 				<div class="flex">
 					<div class="label">能量值:</div><input class="start-energy" type="number" min="0" max="100" placeholder="起始能量值" />
 				</div>
-				<button class="add-fast-move">+ Move</button>
+				<button class="add-fast-move">+ 招式</button>
 				<button class="pull-from-timeline">從時間軸擷取</button>
-				<div class="check shield-baiting on"><span></span>用低能量需求招式引誘對手使用防禦網</div>
-				<div class="check optimize-timing off"><span></span>最佳化招式使用時機</div>
+				<h3 class="section-title">誘使對手用盾</h3>
+				<div class="form-group bait-picker">
+					<div class="option" value="0">關</div>
+					<div class="option on" value="1">策略性使用</div>
+					<div class="option" value="2">開</div>
+				</div>
+				<div class="check optimize-timing on"><span></span>最佳化招式使用時機</div>
 			</div>
 		</div>
 

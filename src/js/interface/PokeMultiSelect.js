@@ -29,7 +29,7 @@ function PokeMultiSelect(element){
 	var settings = {
 		shields: 1,
 		ivs: "original",
-		bait: true,
+		bait: 1,
 		levelCap: 50
 	}
 
@@ -671,9 +671,15 @@ function PokeMultiSelect(element){
 	// Returns the currently selected filter mode
 
 	this.setFilterMode = function(val){
-		$el.find(".form-group .check").removeClass("on");
-		$el.find(".form-group .check[value=\""+val+"\"]").addClass("on");
+		$el.find(".form-group.filter-picker .option").removeClass("on");
+		$el.find(".form-group.filter-picker .option[value=\""+val+"\"]").addClass("on");
 		filterMode = val;
+	}
+
+	// Externally select the number of shields
+
+	this.setShields = function(value){
+		$el.find(".shield-picker .option[value="+value+"]").trigger("click");
 	}
 
 	// Show or hide custom options when changing the cup select
@@ -748,8 +754,9 @@ function PokeMultiSelect(element){
 
 	// Change a form option
 
-	$el.find(".form-group .check").on("change", function(e){
+	$el.find(".form-group.filter-picker .option").on("click", function(e){
 		filterMode = $(e.target).attr("value");
+		console.log(filterMode);
 	});
 
 	// Select a quick fill group
@@ -894,7 +901,7 @@ function PokeMultiSelect(element){
 	$el.find(".clear-selection").click(function(e){
 		e.preventDefault();
 
-		modalWindow("清除自選群組", $(".multi-clear-confirm").first());
+		modalWindow("Clear Custom Group", $(".multi-clear-confirm").first());
 
 		$(".modal .yes").click(function(e){
 			pokemonList = [];
@@ -905,10 +912,19 @@ function PokeMultiSelect(element){
 		});
 	});
 
+	// Select an option from the form section
+
+	$el.find(".form-group .option").on("click", function(e){
+		$(e.target).closest(".form-group").find(".option").removeClass("on");
+		$(e.target).closest(".option").addClass("on");
+	});
+
 	// Change shield settings
 
-	$el.find(".shield-select").on("change", function(e){
-		settings.shields = parseInt($el.find(".shield-select option:selected").val());
+	$el.find(".shield-picker .option").on("click", function(e){
+		var value = parseInt($(e.target).closest(".option").attr("value"));
+
+		settings.shields = value;
 	});
 
 	// Change IV settings
@@ -919,8 +935,8 @@ function PokeMultiSelect(element){
 
 	// Change bait toggle
 
-	$el.find(".check.shield-baiting").on("click", function(e){
-		settings.bait = (! settings.bait == true);
+	$el.find(".bait-picker .option").on("click", function(e){
+		settings.bait = parseInt($(e.target).attr("value"));
 	});
 
 	// Change level cap
@@ -979,7 +995,7 @@ function PokeMultiSelect(element){
 	});
 
 	this.setBaitSetting = function(val){
-		settings.bait = val;
+		$el.find(".form-group.bait-picker .option[value=\""+val+"\"]").trigger("click");
 	}
 
 	// Return the list of selected Pokemon

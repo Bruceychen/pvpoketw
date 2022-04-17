@@ -55,15 +55,20 @@ require_once 'header.php'; ?>
 		<div class="supporter">Riddermorten</div>
 		<div class="supporter">Aweedds12</div>
 		<div class="supporter">Lariioo</div>
-        <div class="supporter">MeFool1990ce</div>
-        <div class="supporter">Lariioo</div>
-        <div class="supporter">Kotak1002</div>
-        <div class="supporter">DrLambda</div>
+		<div class="supporter">MeFool1990ce</div>
+		<div class="supporter">Lariioo</div>
+		<div class="supporter">Kotak1002</div>
+		<div class="supporter">DrLambda</div>
 	</div>
 
 	<h2 class="center">Master Supporters</h2>
 
 	<div class="supporters flex center">
+		<div class="supporter-container">
+			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/kieng.png" />
+			<div class="supporter"><a href="https://twitter.com/PoGoKieng" target="_blank">Kieng</a></div>
+		</div>
+
 		<div class="supporter-container">
 			<div class="space"></div>
 			<div class="supporter"><a href="https://www.youtube.com/channel/UCz0vZmmKHbGa1ZVNgJEw2bw" target="_blank">Elite Four TV</a></div>
@@ -191,50 +196,50 @@ require_once 'header.php'; ?>
 			<div class="supporter"><a href="https://www.youtube.com/user/jordangerm" target="_blank">Jordie Pop</a></div>
 		</div>
 		<div class="supporter-container">
-            <img src="<?php echo $WEB_ROOT; ?>img/sponsors/inadequance.png" height="85" />
-            <div class="supporter"><a href="https://www.twitch.tv/inadequance_" target="_blank">Inadequance</a></div>
-        </div>
-        <div class="supporter-container">
-            <div class="space"></div>
-            <div class="supporter"><a href="https://twitter.com/Gamenasium" target="_blank">Gamenasium</a></div>
-        </div>
-        <div class="supporter-container">
-            <img src="<?php echo $WEB_ROOT; ?>img/sponsors/joingames.png"/>
-            <div class="supporter"><a href="https://joingames.net" target="_blank">JoinGames</a></div>
-        </div>
-        <div class="supporter-container">
-            <img src="<?php echo $WEB_ROOT; ?>img/sponsors/theunderground.png"/>
-            <div class="supporter"><a href="https://discord.com/invite/hW6eVnmSqa" target="_blank">The Underground</a></div>
-        </div>
-        <div class="supporter-container">
-            <img src="<?php echo $WEB_ROOT; ?>img/sponsors/infamousdave.png"/>
-            <div class="supporter"><a href="https://discord.gg/DPfDawc9fg" target="_blank">TheInfamousDave</a></div>
-        </div>
-        <div class="supporter-container">
-            <img src="<?php echo $WEB_ROOT; ?>img/sponsors/catchmon.png"/>
-            <div class="supporter"><a href="https://twitter.com/CatchmonGo" target="_blank">CatchmonGo</a></div>
-        </div>
-        <div class="supporter-container">
-            <div class="space"></div>
-            <div class="supporter"><a href="https://twitter.com/DucksPool" target="_blank">KingDucksPool (KDP)</a></div>
-        </div>
-        <div class="supporter-container">
-            <img src="<?php echo $WEB_ROOT; ?>img/sponsors/panick.png" width="85" height="85" />
-            <div class="supporter"><a href="https://www.twitch.tv/panick23" target="_blank">PanicK23</a></div>
-        </div>
-        <div class="supporter-container">
-            <img src="<?php echo $WEB_ROOT; ?>img/sponsors/adellion.png" width="85" height="85" />
-            <div class="supporter"><a href="https://twitch.tv/Adelli0n" target="_blank">Adelli0n</a></div>
-        </div>
-        <div class="supporter-container">
-            <div class="space"></div>
-            <div class="supporter"><a href="http://twitter.com/ennamaruna" target="_blank">Ennamaruna</a></div>
-        </div>
-        <div class="supporter-container">
-            <img src="<?php echo $WEB_ROOT; ?>img/sponsors/evan.jpg" width="85" height="85" />
-            <div class="supporter"><a href="https://twitter.com/Evan71320" target="_blank">Evan777713</a></div>
-        </div>
-    </div>
+			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/inadequance.png" height="85" />
+			<div class="supporter"><a href="https://www.twitch.tv/inadequance_" target="_blank">Inadequance</a></div>
+		</div>
+		<div class="supporter-container">
+			<div class="space"></div>
+			<div class="supporter"><a href="https://twitter.com/Gamenasium" target="_blank">Gamenasium</a></div>
+		</div>
+		<div class="supporter-container">
+			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/joingames.png"/>
+			<div class="supporter"><a href="https://joingames.net" target="_blank">JoinGames</a></div>
+		</div>
+		<div class="supporter-container">
+			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/theunderground.png"/>
+			<div class="supporter"><a href="https://discord.com/invite/hW6eVnmSqa" target="_blank">The Underground</a></div>
+		</div>
+		<div class="supporter-container">
+			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/infamousdave.png"/>
+			<div class="supporter"><a href="https://discord.gg/DPfDawc9fg" target="_blank">TheInfamousDave</a></div>
+		</div>
+		<div class="supporter-container">
+			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/catchmon.png"/>
+			<div class="supporter"><a href="https://twitter.com/CatchmonGo" target="_blank">CatchmonGo</a></div>
+		</div>
+		<div class="supporter-container">
+			<div class="space"></div>
+			<div class="supporter"><a href="https://twitter.com/DucksPool" target="_blank">KingDucksPool (KDP)</a></div>
+		</div>
+		<div class="supporter-container">
+			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/panick.png" width="85" height="85" />
+			<div class="supporter"><a href="https://www.twitch.tv/panick23" target="_blank">PanicK23</a></div>
+		</div>
+		<div class="supporter-container">
+			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/adellion.png" width="85" height="85" />
+			<div class="supporter"><a href="https://twitch.tv/Adelli0n" target="_blank">Adelli0n</a></div>
+		</div>
+		<div class="supporter-container">
+			<div class="space"></div>
+			<div class="supporter"><a href="http://twitter.com/ennamaruna" target="_blank">Ennamaruna</a></div>
+		</div>
+		<div class="supporter-container">
+			<img src="<?php echo $WEB_ROOT; ?>img/sponsors/evan.jpg" width="85" height="85" />
+			<div class="supporter"><a href="https://twitter.com/Evan71320" target="_blank">Evan777713</a></div>
+		</div>
+	</div>
 </div>
 
 <?php require_once 'footer.php'; ?>

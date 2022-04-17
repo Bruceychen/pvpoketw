@@ -30,8 +30,8 @@
                 <option value="remixultra" type="ultra" class="hide multi-battle">高級聯盟Remix Meta</option>
                 <option value="ultrapremierclassic" type="ultra" class="hide multi-battle">UL紀念經典賽 Meta</option>
                 <option value="masterpremierclassic" type="master" class="hide multi-battle">ML紀念經典賽 Meta</option>
-                <option value="halloween" type="great" class="multi-battle">萬聖節盃 Meta</option>
-                <option value="obsidian" type="great" class="multi-battle">Silph 黑曜盃 Meta</option>
+                <option value="retro" type="great" class="multi-battle">復古盃 Meta</option>
+                <option value="kanto" type="great" class="multi-battle">關都盃 Meta</option>
                 <option value="nemesis" type="great" class="multi-battle">Silph 勁敵盃</option>
                 <option value="cometultra" type="ultra" class="multi-battle">Silph Factions (Ultra Comet)</option>
                 <option value="floatingcity" type="great" class="multi-battle">Silph Factions (Floating City)</option>

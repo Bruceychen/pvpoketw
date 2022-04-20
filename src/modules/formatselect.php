@@ -3,7 +3,6 @@
 	<option value="2500" cup="all" meta-group="ultra">高級聯盟</option>
 	<option value="10000" cup="all" meta-group="master">大師聯盟</option>
 	<option value="10000" cup="classic" meta-group="master">大師聯盟 (經典賽)</option>
-    <option value="500" cup="little" meta-group="little">小小盃</option>
     <option value="1500" cup="retro" meta-group="retro">復古盃</option>
     <option value="1500" cup="kanto" meta-group="kanto">關都盃</option>
     <option value="1500" cup="nemesis" meta-group="nemesis">Silph 勁敵盃</option>

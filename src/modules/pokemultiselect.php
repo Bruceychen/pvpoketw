@@ -23,7 +23,6 @@
 			<select class="quick-fill-select">
 				<option value="new">建立新隊伍</option>
                 <option value="little" type="little" class="hide multi-battle">小小盃 Meta</option>
-                <option value="littlegeneral" type="little" class="hide multi-battle">全小小寶可夢 Meta</option>
 				<option value="great" type="great" class="multi-battle">超級(1500)聯盟 Meta</option>
 				<option value="ultra" type="ultra" class="hide multi-battle">高級(2500)聯盟 Meta</option>
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>

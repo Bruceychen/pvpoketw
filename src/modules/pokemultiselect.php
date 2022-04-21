@@ -32,6 +32,7 @@
                 <option value="retro" type="great" class="multi-battle">復古盃 Meta</option>
                 <option value="kanto" type="great" class="multi-battle">關都盃 Meta</option>
                 <option value="nemesis" type="great" class="multi-battle">Silph 勁敵盃</option>
+                <option value="firefly" type="great" class="multi-battle">Silph Firefly Cup</option>
                 <option value="cometultra" type="ultra" class="multi-battle">Silph Factions (Ultra Comet)</option>
                 <option value="floatingcity" type="great" class="multi-battle">Silph Factions (Floating City)</option>
                 <option value="dungeon" type="great" class="multi-battle">Silph Factions (Dungeon)</option>

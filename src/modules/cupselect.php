@@ -5,7 +5,7 @@
     <option value="retro" meta-group1500="retro">復古盃</option>
     <option value="kanto" meta-group1500="kanto">關都盃</option>
     <option value="nemesis" meta-group1500=mesis">Silph 勁敵盃</option>
-    <option value="firefly" meta-group1500="firefly">Silph Firefly Cup</option>
+    <option value="firefly" meta-group1500="firefly">Silph 流螢盃</option>
     <option value="cometultra" meta-group2500="cometultra">Silph Factions (Ultra Comet)</option>
     <option value="floatingcity" meta-group1500="floatingcity">Silph Factions (Floating City)</option>
     <option value="dungeon" meta-group1500="dungeon">Silph Factions (Dungeon)</option>

@@ -5,6 +5,7 @@
 	<option value="10000" cup="classic" meta-group="master">大師聯盟 (經典賽)</option>
     <option value="1500" cup="retro" meta-group="retro">復古盃</option>
     <option value="1500" cup="kanto" meta-group="kanto">關都盃</option>
+    <option value="1500" cup="flying" meta-group="flying">飛行盃</option>
     <option value="1500" cup="nemesis" meta-group="nemesis">Silph 勁敵盃</option>
     <option value="1500" cup="firefly" meta-group="firefly">Silph 流螢盃</option>
     <option value="2500" cup="cometultra" meta-group="cometultra">Silph Factions (Ultra Comet)</option>

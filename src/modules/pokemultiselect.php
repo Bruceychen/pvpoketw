@@ -31,6 +31,7 @@
                 <option value="masterpremierclassic" type="master" class="hide multi-battle">ML紀念經典賽 Meta</option>
                 <option value="retro" type="great" class="multi-battle">復古盃 Meta</option>
                 <option value="kanto" type="great" class="multi-battle">關都盃 Meta</option>
+                <option value="flying" type="great" class="multi-battle">飛行盃 Meta</option>
                 <option value="nemesis" type="great" class="multi-battle">Silph 勁敵盃</option>
                 <option value="firefly" type="great" class="multi-battle">Silph 流螢盃</option>
                 <option value="cometultra" type="ultra" class="multi-battle">Silph Factions (Ultra Comet)</option>

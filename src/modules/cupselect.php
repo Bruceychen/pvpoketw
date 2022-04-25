@@ -4,6 +4,7 @@
     <option value="halloween" meta-group1500="halloween">萬聖節盃</option>
     <option value="retro" meta-group1500="retro">復古盃</option>
     <option value="kanto" meta-group1500="kanto">關都盃</option>
+    <option value="flying" meta-group1500="flying">飛行盃</option>
     <option value="nemesis" meta-group1500=mesis">Silph 勁敵盃</option>
     <option value="firefly" meta-group1500="firefly">Silph 流螢盃</option>
     <option value="cometultra" meta-group2500="cometultra">Silph Factions (Ultra Comet)</option>

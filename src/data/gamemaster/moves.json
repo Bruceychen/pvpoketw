@@ -1,0 +1,2603 @@
+[{
+    "moveId": "ACID",
+    "name": "溶解液",
+    "abbreviation": "Ac",
+    "type": "poison",
+    "power": 6,
+    "energy": 0,
+    "energyGain": 5,
+    "cooldown": 1000,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "ACID_SPRAY",
+    "name": "酸液炸彈",
+    "type": "poison",
+    "power": 20,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -2],
+    "buffTarget": "opponent",
+    "buffApplyChance": "1",
+    "archetype": "Debuff"
+}, {
+    "moveId": "ACROBATICS",
+    "name": "雜技",
+    "abbreviation": "Acr",
+    "type": "flying",
+    "power": 110,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "AERIAL_ACE",
+    "name": "燕返",
+    "type": "flying",
+    "power": 55,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "AEROBLAST",
+    "name": "氣旋攻擊",
+    "type": "flying",
+    "power": 170,
+    "energy": 75,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [2, 0],
+    "buffTarget": "self",
+    "buffApplyChance": ".125",
+    "archetype": "Boost Nuke"
+}, {
+    "moveId": "AIR_CUTTER",
+    "name": "空氣利刃",
+    "type": "flying",
+    "power": 60,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "AIR_SLASH",
+    "name": "空氣斬",
+    "type": "flying",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 9,
+    "cooldown": 1500,
+    "archetype": "General"
+}, {
+    "moveId": "ANCIENT_POWER",
+    "name": "原始之力",
+    "type": "rock",
+    "power": 45,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [2, 2],
+    "buffTarget": "self",
+    "buffApplyChance": ".1",
+    "archetype": "Boost"
+}, {
+    "moveId": "AQUA_JET",
+    "name": "水流噴射",
+    "type": "water",
+    "power": 45,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "AQUA_TAIL",
+    "name": "水流尾",
+    "type": "water",
+    "power": 50,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "ASTONISH",
+    "name": "驚嚇",
+    "type": "ghost",
+    "power": 5,
+    "energy": 0,
+    "energyGain": 9,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "AURA_SPHERE",
+    "name": "波導彈",
+    "type": "fighting",
+    "power": 100,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "AURORA_BEAM",
+    "name": "極光束",
+    "type": "ice",
+    "power": 80,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "AVALANCHE",
+    "name": "雪崩",
+    "abbreviation": "Av",
+    "type": "ice",
+    "power": 90,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "BITE",
+    "name": "咬住",
+    "abbreviation": "Bi",
+    "type": "dark",
+    "power": 4,
+    "energy": 0,
+    "energyGain": 2,
+    "cooldown": 500,
+    "archetype": "Heavy Damage"
+}, {
+    "moveId": "BLAST_BURN",
+    "name": "爆炸烈焰",
+    "type": "fire",
+    "power": 110,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "BLIZZARD",
+    "name": "暴風雪",
+    "abbreviation": "Bl",
+    "type": "ice",
+    "power": 140,
+    "energy": 75,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "BODY_SLAM",
+    "name": "泰山壓頂",
+    "type": "normal",
+    "power": 60,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "BONE_CLUB",
+    "name": "骨棒",
+    "type": "ground",
+    "power": 40,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "BRAVE_BIRD",
+    "name": "勇鳥猛攻",
+    "abbreviation": "BrB",
+    "type": "flying",
+    "power": 130,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -3],
+    "buffTarget": "self",
+    "buffApplyChance": "1",
+    "archetype": "Self-Debuff Nuke"
+}, {
+    "moveId": "BRICK_BREAK",
+    "name": "劈瓦",
+    "abbreviation": "BkB",
+    "type": "fighting",
+    "power": 40,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "BRINE",
+    "name": "鹽水",
+    "abbreviation": "Bri",
+    "type": "water",
+    "power": 60,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "BUBBLE",
+    "name": "泡沫",
+    "type": "water",
+    "power": 7,
+    "energy": 0,
+    "energyGain": 11,
+    "cooldown": 1500,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "BUBBLE_BEAM",
+    "name": "泡沫光線",
+    "abbreviation": "BuB",
+    "type": "water",
+    "power": 25,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-1, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": "1",
+    "archetype": "Debuff Spam/Bait"
+}, {
+    "moveId": "BUG_BITE",
+    "name": "蟲咬",
+    "abbreviation": "BBi",
+    "type": "bug",
+    "power": 3,
+    "energy": 0,
+    "energyGain": 3,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "BUG_BUZZ",
+    "name": "蟲鳴",
+    "abbreviation": "BBu",
+    "type": "bug",
+    "power": 100,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -1],
+    "buffTarget": "opponent",
+    "buffApplyChance": ".3",
+    "archetype": "High Energy Debuff"
+}, {
+    "moveId": "BULLDOZE",
+    "name": "重踏",
+    "abbreviation": "Bd",
+    "type": "ground",
+    "power": 80,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "BULLET_PUNCH",
+    "name": "子彈拳",
+    "type": "steel",
+    "power": 6,
+    "energy": 0,
+    "energyGain": 7,
+    "cooldown": 1000,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "BULLET_SEED",
+    "name": "種子機關槍",
+    "type": "grass",
+    "power": 5,
+    "energy": 0,
+    "energyGain": 13,
+    "cooldown": 1500,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "CHARGE_BEAM",
+    "name": "充電光束",
+    "type": "electric",
+    "power": 5,
+    "energy": 0,
+    "energyGain": 11,
+    "cooldown": 1500,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "CHARM",
+    "name": "撒嬌",
+    "abbreviation": "Ch",
+    "type": "fairy",
+    "power": 16,
+    "energy": 0,
+    "energyGain": 6,
+    "cooldown": 1500,
+    "archetype": "Heavy Damage"
+}, {
+    "moveId": "CLOSE_COMBAT",
+    "name": "近身戰",
+    "type": "fighting",
+    "power": 100,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -2],
+    "buffTarget": "self",
+    "buffApplyChance": "1",
+    "archetype": "Self-Debuff"
+}, {
+    "moveId": "CONFUSION",
+    "name": "念力",
+    "abbreviation": "Cf",
+    "type": "psychic",
+    "power": 16,
+    "energy": 0,
+    "energyGain": 12,
+    "cooldown": 2000,
+    "archetype": "Multipurpose"
+}, {
+    "moveId": "COUNTER",
+    "name": "雙倍奉還",
+    "abbreviation": "C",
+    "type": "fighting",
+    "power": 8,
+    "energy": 0,
+    "energyGain": 7,
+    "cooldown": 1000,
+    "archetype": "Multipurpose"
+}, {
+    "moveId": "CRABHAMMER",
+    "name": "蟹鉗錘",
+    "abbreviation": "Crbh",
+    "type": "water",
+    "power": 85,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [2, 0],
+    "buffTarget": "self",
+    "buffApplyChance": ".125",
+    "archetype": "Boost"
+}, {
+    "moveId": "CROSS_CHOP",
+    "name": "十字劈",
+    "abbreviation": "CrC",
+    "type": "fighting",
+    "power": 50,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "CROSS_POISON",
+    "name": "十字毒刃",
+    "type": "poison",
+    "power": 50,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [2, 0],
+    "buffTarget": "self",
+    "buffApplyChance": ".125",
+    "archetype": "Boost Spam/Bait"
+}, {
+    "moveId": "CRUNCH",
+    "name": "咬碎",
+    "abbreviation": "Cr",
+    "type": "dark",
+    "power": 70,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -1],
+    "buffTarget": "opponent",
+    "buffApplyChance": "0.3",
+    "archetype": "Debuff"
+}, {
+    "moveId": "CUT",
+    "name": "居合斬",
+    "abbreviation": "Cu",
+    "type": "normal",
+    "power": 3,
+    "energy": 0,
+    "energyGain": 2,
+    "cooldown": 500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "DARK_PULSE",
+    "name": "惡之波動",
+    "type": "dark",
+    "power": 80,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "DAZZLING_GLEAM",
+    "name": "魔法閃耀",
+    "type": "fairy",
+    "power": 110,
+    "energy": 70,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "DIG",
+    "name": "挖洞",
+    "abbreviation": "Dg",
+    "type": "ground",
+    "power": 100,
+    "energy": 80,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "DISARMING_VOICE",
+    "name": "魅惑之聲",
+    "type": "fairy",
+    "power": 70,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "DISCHARGE",
+    "name": "放電",
+    "type": "electric",
+    "power": 65,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "DOOM_DESIRE",
+    "name": "破滅之願",
+    "type": "steel",
+    "power": 75,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "DRACO_METEOR",
+    "name": "流星群",
+    "type": "dragon",
+    "power": 150,
+    "energy": 65,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-2, 0],
+    "buffTarget": "self",
+    "buffApplyChance": "1",
+    "archetype": "Self-Debuff Nuke"
+}, {
+    "moveId": "DRAGON_BREATH",
+    "name": "龍息",
+    "type": "dragon",
+    "power": 4,
+    "energy": 0,
+    "energyGain": 3,
+    "cooldown": 500,
+    "archetype": "Multipurpose"
+}, {
+    "moveId": "DRAGON_CLAW",
+    "name": "龍爪",
+    "type": "dragon",
+    "power": 50,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "DRAGON_PULSE",
+    "name": "龍之波動",
+    "abbreviation": "DgP",
+    "type": "dragon",
+    "power": 90,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "DRAGON_TAIL",
+    "name": "龍尾",
+    "type": "dragon",
+    "power": 13,
+    "energy": 0,
+    "energyGain": 9,
+    "cooldown": 1500,
+    "archetype": "Multipurpose"
+}, {
+    "moveId": "DRAIN_PUNCH",
+    "name": "吸取拳",
+    "type": "fighting",
+    "power": 20,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, 1],
+    "buffTarget": "self",
+    "buffApplyChance": "1",
+    "archetype": "Boost Spam/Bait"
+}, {
+    "moveId": "DRAINING_KISS",
+    "name": "吸取之吻",
+    "type": "fairy",
+    "power": 60,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "DRILL_PECK",
+    "name": "啄鑽",
+    "abbreviation": "DrlP",
+    "type": "flying",
+    "power": 65,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "DRILL_RUN",
+    "name": "直衝鑽",
+    "type": "ground",
+    "power": 80,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "DYNAMIC_PUNCH",
+    "name": "爆裂拳",
+    "abbreviation": "DyP",
+    "type": "fighting",
+    "power": 90,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "EARTHQUAKE",
+    "name": "地震",
+    "abbreviation": "Eq",
+    "type": "ground",
+    "power": 120,
+    "energy": 65,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "EARTH_POWER",
+    "name": "大地之力",
+    "type": "ground",
+    "power": 90,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -1],
+    "buffTarget": "opponent",
+    "buffApplyChance": ".1",
+    "archetype": "High Energy Debuff"
+}, {
+    "moveId": "EMBER",
+    "name": "火花",
+    "type": "fire",
+    "power": 7,
+    "energy": 0,
+    "energyGain": 6,
+    "cooldown": 1000,
+    "archetype": "Heavy Damage"
+}, {
+    "moveId": "ENERGY_BALL",
+    "name": "能量球",
+    "type": "grass",
+    "power": 90,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -1],
+    "buffTarget": "opponent",
+    "buffApplyChance": ".1",
+    "archetype": "High Energy Debuff"
+}, {
+    "moveId": "EXTRASENSORY",
+    "name": "神通力",
+    "abbreviation": "Ex",
+    "type": "psychic",
+    "power": 8,
+    "energy": 0,
+    "energyGain": 10,
+    "cooldown": 1500,
+    "archetype": "General"
+}, {
+    "moveId": "FEINT_ATTACK",
+    "name": "出奇一擊",
+    "type": "dark",
+    "power": 6,
+    "energy": 0,
+    "energyGain": 6,
+    "cooldown": 1000,
+    "archetype": "General"
+}, {
+    "moveId": "FELL_STINGER",
+    "name": "致命針刺",
+    "abbreviation": "FeS",
+    "type": "bug",
+    "power": 20,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [1, 0],
+    "buffTarget": "self",
+    "buffApplyChance": "1",
+    "archetype": "Boost Spam/Bait"
+}, {
+    "moveId": "FIRE_BLAST",
+    "name": "大字爆炎",
+    "abbreviation": "FiB",
+    "type": "fire",
+    "power": 140,
+    "energy": 80,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "FIRE_FANG",
+    "name": "火焰牙",
+    "type": "fire",
+    "power": 8,
+    "energy": 0,
+    "energyGain": 5,
+    "cooldown": 1000,
+    "archetype": "Heavy Damage"
+}, {
+    "moveId": "FIRE_PUNCH",
+    "name": "火焰拳",
+    "abbreviation": "FiP",
+    "type": "fire",
+    "power": 55,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "BLAZE_KICK",
+    "name": "火焰踢",
+    "type": "fire",
+    "power": 55,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "FEATHER_DANCE",
+    "name": "羽毛舞",
+    "abbreviation": "FrD",
+    "type": "flying",
+    "power": 35,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-2, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": "1",
+    "archetype": "Debuff"
+}, {
+    "moveId": "FIRE_SPIN",
+    "name": "火焰旋渦",
+    "type": "fire",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 10,
+    "cooldown": 1500,
+    "archetype": "General"
+}, {
+    "moveId": "FLAME_BURST",
+    "name": "烈焰濺射",
+    "abbreviation": "FmB",
+    "type": "fire",
+    "power": 70,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "FLAME_CHARGE",
+    "name": "蓄能焰襲",
+    "abbreviation": "FmC",
+    "type": "fire",
+    "power": 65,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [1, 0],
+    "buffTarget": "self",
+    "buffApplyChance": "1",
+    "archetype": "Boost"
+}, {
+    "moveId": "FLAME_WHEEL",
+    "name": "火焰輪",
+    "type": "fire",
+    "power": 60,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "FLAMETHROWER",
+    "name": "噴射火焰",
+    "abbreviation": "Ft",
+    "type": "fire",
+    "power": 90,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "FLASH_CANNON",
+    "name": "加農光炮",
+    "type": "steel",
+    "power": 110,
+    "energy": 70,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "FLY",
+    "name": "飛翔",
+    "type": "flying",
+    "power": 80,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "FLYING_PRESS",
+    "name": "飛身重壓",
+    "abbreviation": "FlP",
+    "type": "fighting",
+    "power": 90,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "FOCUS_BLAST",
+    "name": "真氣彈",
+    "type": "fighting",
+    "power": 150,
+    "energy": 75,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "FOUL_PLAY",
+    "name": "欺詐",
+    "abbreviation": "FoP",
+    "type": "dark",
+    "power": 70,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "FRENZY_PLANT",
+    "name": "瘋狂植物",
+    "type": "grass",
+    "power": 100,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "FROST_BREATH",
+    "name": "冰息",
+    "type": "ice",
+    "power": 7,
+    "energy": 0,
+    "energyGain": 5,
+    "cooldown": 1000,
+    "archetype": "Heavy Damage"
+}, {
+    "moveId": "FRUSTRATION",
+    "name": "遷怒",
+    "type": "normal",
+    "power": 10,
+    "energy": 70,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "FURY_CUTTER",
+    "name": "連斬",
+    "type": "bug",
+    "power": 2,
+    "energy": 0,
+    "energyGain": 4,
+    "cooldown": 500,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "FUTURE_SIGHT",
+    "name": "預知未來",
+    "type": "psychic",
+    "power": 120,
+    "energy": 65,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "GIGA_DRAIN",
+    "name": "終極吸取",
+    "type": "grass",
+    "power": 50,
+    "energy": 80,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "GIGA_IMPACT",
+    "name": "終極衝擊",
+    "type": "normal",
+    "power": 150,
+    "energy": 80,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "GRASS_KNOT",
+    "name": "打草結",
+    "type": "grass",
+    "power": 90,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "GUNK_SHOT",
+    "name": "垃圾射擊",
+    "type": "poison",
+    "power": 130,
+    "energy": 75,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "GUST",
+    "name": "起風",
+    "type": "flying",
+    "power": 16,
+    "energy": 0,
+    "energyGain": 12,
+    "cooldown": 2000,
+    "archetype": "Multipurpose"
+}, {
+    "moveId": "GYRO_BALL",
+    "name": "陀螺球",
+    "type": "steel",
+    "power": 80,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "HEART_STAMP",
+    "name": "愛心印章",
+    "type": "psychic",
+    "power": 40,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "HEAT_WAVE",
+    "name": "熱風",
+    "type": "fire",
+    "power": 95,
+    "energy": 75,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "HEAVY_SLAM",
+    "name": "重磅衝撞",
+    "type": "steel",
+    "power": 70,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "HEX",
+    "name": "禍不單行",
+    "type": "ghost",
+    "power": 6,
+    "energy": 0,
+    "energyGain": 12,
+    "cooldown": 1500,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "HIDDEN_POWER_BUG",
+    "name": "覺醒力量 蟲",
+    "type": "bug",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_DARK",
+    "name": "覺醒力量 惡",
+    "type": "dark",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_DRAGON",
+    "name": "覺醒力量 龍",
+    "type": "dragon",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_ELECTRIC",
+    "name": "覺醒力量 電",
+    "type": "electric",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_FIGHTING",
+    "name": "覺醒力量 格鬥",
+    "type": "fighting",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_FIRE",
+    "name": "覺醒力量 火",
+    "type": "fire",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_FLYING",
+    "name": "覺醒力量 飛行",
+    "type": "flying",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_GHOST",
+    "name": "覺醒力量 幽靈",
+    "type": "ghost",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_GRASS",
+    "name": "覺醒力量 草",
+    "type": "grass",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_GROUND",
+    "name": "覺醒力量 地面",
+    "type": "ground",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_ICE",
+    "name": "覺醒力量 冰",
+    "type": "ice",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_POISON",
+    "name": "覺醒力量 毒",
+    "type": "poison",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_PSYCHIC",
+    "name": "覺醒力量 超能力",
+    "type": "psychic",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_ROCK",
+    "name": "覺醒力量 岩石",
+    "type": "rock",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_STEEL",
+    "name": "覺醒力量 鋼",
+    "type": "steel",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HIDDEN_POWER_WATER",
+    "name": "覺醒力量 水",
+    "type": "water",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "HORN_ATTACK",
+    "name": "角撞",
+    "type": "normal",
+    "power": 40,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "HURRICANE",
+    "name": "暴風",
+    "abbreviation": "Hu",
+    "type": "flying",
+    "power": 110,
+    "energy": 65,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "HYDRO_CANNON",
+    "name": "加農水砲",
+    "type": "water",
+    "power": 80,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "HYDRO_PUMP",
+    "name": "水炮",
+    "type": "water",
+    "power": 130,
+    "energy": 75,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "HYDRO_PUMP_BLASTOISE",
+    "name": "Hydro Pump Blastoise",
+    "type": "water",
+    "power": 90,
+    "energy": 80,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "HYPER_BEAM",
+    "name": "破壞光線",
+    "type": "normal",
+    "power": 150,
+    "energy": 80,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "HYPER_FANG",
+    "name": "必殺門牙",
+    "type": "normal",
+    "power": 80,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "ICE_BEAM",
+    "name": "冰凍光束",
+    "type": "ice",
+    "power": 90,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "ICE_FANG",
+    "name": "冰凍牙",
+    "type": "ice",
+    "power": 8,
+    "energy": 0,
+    "energyGain": 5,
+    "cooldown": 1000,
+    "archetype": "Heavy Damage"
+}, {
+    "moveId": "ICE_PUNCH",
+    "name": "冰凍拳",
+    "type": "ice",
+    "power": 55,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "ICE_SHARD",
+    "name": "冰礫",
+    "type": "ice",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 10,
+    "cooldown": 1500,
+    "archetype": "General"
+}, {
+    "moveId": "ICICLE_SPEAR",
+    "name": "冰錐",
+    "type": "ice",
+    "power": 60,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait",
+    "abbreviation": "ISp"
+}, {
+    "moveId": "ICY_WIND",
+    "name": "冰凍之風",
+    "type": "ice",
+    "power": 60,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-1, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": "1",
+    "archetype": "Debuff"
+}, {
+    "moveId": "INCINERATE",
+    "name": "燒盡",
+    "type": "fire",
+    "power": 15,
+    "energy": 0,
+    "energyGain": 20,
+    "cooldown": 2500,
+    "archetype": "Multipurpose"
+}, {
+    "moveId": "INFESTATION",
+    "name": "死纏爛打",
+    "type": "bug",
+    "power": 6,
+    "energy": 0,
+    "energyGain": 12,
+    "cooldown": 1500,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "IRON_HEAD",
+    "name": "鐵頭",
+    "type": "steel",
+    "power": 70,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "IRON_TAIL",
+    "name": "鐵尾",
+    "type": "steel",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 6,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "KARATE_CHOP",
+    "name": "空手劈",
+    "type": "fighting",
+    "power": 5,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1000,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "LAST_RESORT",
+    "name": "珍藏",
+    "type": "normal",
+    "power": 90,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "LEAF_BLADE",
+    "name": "葉刃",
+    "type": "grass",
+    "power": 70,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "LEAF_TORNADO",
+    "name": "青草攪拌器",
+    "type": "grass",
+    "power": 45,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-2, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": ".5",
+    "archetype": "Debuff Spam/Bait"
+}, {
+    "moveId": "LEAF_STORM",
+    "name": "飛葉風暴",
+    "abbreviation": "LfS",
+    "type": "grass",
+    "power": 130,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-2, 0],
+    "buffTarget": "self",
+    "buffApplyChance": "1",
+    "archetype": "Self-Debuff Nuke"
+}, {
+    "moveId": "LICK",
+    "name": "舌舔",
+    "type": "ghost",
+    "power": 3,
+    "energy": 0,
+    "energyGain": 3,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "LOCK_ON",
+    "name": "鎖定",
+    "type": "normal",
+    "power": 1,
+    "energy": 0,
+    "energyGain": 5,
+    "cooldown": 500,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "LOW_KICK",
+    "name": "踢倒",
+    "type": "fighting",
+    "power": 4,
+    "energy": 0,
+    "energyGain": 5,
+    "cooldown": 1000,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "LOW_SWEEP",
+    "name": "下盤踢",
+    "type": "fighting",
+    "power": 40,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "LUNGE",
+    "name": "猛撲",
+    "abbreviation": "Lu",
+    "type": "bug",
+    "power": 60,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-1, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": "1",
+    "archetype": "Debuff"
+}, {
+    "moveId": "LUSTER_PURGE",
+    "name": "潔淨光芒",
+    "abbreviation": "LrP",
+    "type": "psychic",
+    "power": 120,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -1],
+    "buffTarget": "opponent",
+    "buffApplyChance": "0.5",
+    "archetype": "Debuff"
+}, {
+    "moveId": "MAGICAL_LEAF",
+    "name": "魔法葉",
+    "type": "grass",
+    "power": 10,
+    "energy": 0,
+    "energyGain": 10,
+    "cooldown": 1500,
+    "archetype": "General"
+}, {
+    "moveId": "MAGNET_BOMB",
+    "name": "磁鐵炸彈",
+    "abbreviation": "MgB",
+    "type": "steel",
+    "power": 70,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "MEGA_DRAIN",
+    "name": "超級吸取",
+    "type": "grass",
+    "power": 25,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "MEGAHORN",
+    "name": "超級角擊",
+    "abbreviation": "Mh",
+    "type": "bug",
+    "power": 110,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "METAL_CLAW",
+    "name": "金屬爪",
+    "type": "steel",
+    "power": 5,
+    "energy": 0,
+    "energyGain": 6,
+    "cooldown": 1000,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "METEOR_MASH",
+    "name": "彗星拳",
+    "type": "steel",
+    "power": 100,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "MIRROR_COAT",
+    "name": "鏡面反射",
+    "abbreviation": "MrC",
+    "type": "psychic",
+    "power": 60,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "MIRROR_SHOT",
+    "name": "鏡光射擊",
+    "abbreviation": "MrS",
+    "type": "steel",
+    "power": 35,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-1, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": ".3",
+    "archetype": "Debuff Spam/Bait"
+}, {
+    "moveId": "MIST_BALL",
+    "name": "薄霧球",
+    "abbreviation": "MsB",
+    "type": "psychic",
+    "power": 120,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-1, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": "0.5",
+    "archetype": "Debuff"
+}, {
+    "moveId": "MOONBLAST",
+    "name": "月亮之力",
+    "type": "fairy",
+    "power": 110,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-1, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": ".1",
+    "archetype": "Debuff Nuke"
+}, {
+    "moveId": "MUD_BOMB",
+    "name": "泥巴炸彈",
+    "type": "ground",
+    "power": 55,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "MUDDY_WATER",
+    "name": "濁流",
+    "type": "water",
+    "power": 35,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 1000,
+    "buffs": [-1, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": ".3",
+    "archetype": "Debuff Spam/Bait"
+}, {
+    "moveId": "MUD_SHOT",
+    "name": "泥巴射擊",
+    "type": "ground",
+    "power": 3,
+    "energy": 0,
+    "energyGain": 9,
+    "cooldown": 1000,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "MUD_SLAP",
+    "name": "擲泥",
+    "abbreviation": "MSl",
+    "type": "ground",
+    "power": 11,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Heavy Damage"
+}, {
+    "moveId": "NIGHT_SHADE",
+    "name": "黑夜魔影",
+    "abbreviation": "NSh",
+    "type": "ghost",
+    "power": 60,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "NIGHT_SLASH",
+    "name": "暗襲要害",
+    "type": "dark",
+    "power": 50,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [2, 0],
+    "buffTarget": "self",
+    "buffApplyChance": ".125",
+    "archetype": "Boost Spam/Bait"
+}, {
+    "moveId": "OCTAZOOKA",
+    "name": "章魚桶炮",
+    "abbreviation": "Oc",
+    "type": "water",
+    "power": 50,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-2, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": "0.5",
+    "archetype": "Debuff"
+}, {
+    "moveId": "OMINOUS_WIND",
+    "name": "奇異之風",
+    "type": "ghost",
+    "power": 45,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [2, 2],
+    "buffTarget": "self",
+    "buffApplyChance": ".1",
+    "archetype": "Boost"
+}, {
+    "moveId": "ORIGIN_PULSE",
+    "name": "根源波動",
+    "type": "water",
+    "power": 130,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "OUTRAGE",
+    "name": "逆鱗",
+    "type": "dragon",
+    "power": 110,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "OVERHEAT",
+    "name": "過熱",
+    "abbreviation": "Ov",
+    "type": "fire",
+    "power": 130,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-2, 0],
+    "buffTarget": "self",
+    "buffApplyChance": "1",
+    "archetype": "Self-Debuff Nuke"
+}, {
+    "moveId": "PARABOLIC_CHARGE",
+    "name": "拋物面充電",
+    "abbreviation": "PbC",
+    "type": "electric",
+    "power": 65,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "PAYBACK",
+    "name": "以牙還牙",
+    "abbreviation": "Pbk",
+    "type": "dark",
+    "power": 110,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "PECK",
+    "name": "啄",
+    "abbreviation": "Pk",
+    "type": "flying",
+    "power": 6,
+    "energy": 0,
+    "energyGain": 5,
+    "cooldown": 1000,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "PETAL_BLIZZARD",
+    "name": "落英繽紛",
+    "abbreviation": "PlB",
+    "type": "grass",
+    "power": 110,
+    "energy": 65,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "PLAY_ROUGH",
+    "name": "嬉鬧",
+    "type": "fairy",
+    "power": 90,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "POISON_FANG",
+    "name": "劇毒牙",
+    "type": "poison",
+    "power": 40,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -1],
+    "buffTarget": "opponent",
+    "buffApplyChance": "1",
+    "archetype": "Debuff Spam/Bait"
+}, {
+    "moveId": "POISON_JAB",
+    "name": "毒擊",
+    "type": "poison",
+    "power": 7,
+    "energy": 0,
+    "energyGain": 7,
+    "cooldown": 1000,
+    "archetype": "General"
+}, {
+    "moveId": "POISON_STING",
+    "name": "毒針",
+    "abbreviation": "PSt",
+    "type": "poison",
+    "power": 3,
+    "energy": 0,
+    "energyGain": 9,
+    "cooldown": 1000,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "POUND",
+    "name": "拍擊",
+    "abbreviation": "Pd",
+    "type": "normal",
+    "power": 4,
+    "energy": 0,
+    "energyGain": 4,
+    "cooldown": 1000,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "POWDER_SNOW",
+    "name": "細雪",
+    "type": "ice",
+    "power": 5,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1000,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "POWER_GEM",
+    "name": "力量寶石",
+    "type": "rock",
+    "power": 80,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "POWER_UP_PUNCH",
+    "name": "增強拳",
+    "type": "fighting",
+    "power": 20,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [1, 0],
+    "buffTarget": "self",
+    "buffApplyChance": "1",
+    "archetype": "Boost Spam/Bait"
+}, {
+    "moveId": "POWER_WHIP",
+    "name": "強力鞭打",
+    "type": "grass",
+    "power": 90,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "PRECIPICE_BLADES",
+    "name": "斷崖之劍",
+    "abbreviation": "PrB",
+    "type": "ground",
+    "power": 130,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "PRESENT",
+    "name": "禮物",
+    "abbreviation": "Pr",
+    "type": "normal",
+    "power": 3,
+    "energy": 0,
+    "energyGain": 12,
+    "cooldown": 1500,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "PSYBEAM",
+    "name": "幻象光線",
+    "abbreviation": "Psb",
+    "type": "psychic",
+    "power": 70,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "PSYCHIC",
+    "name": "精神強念",
+    "type": "psychic",
+    "power": 90,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -1],
+    "buffTarget": "opponent",
+    "buffApplyChance": ".1",
+    "archetype": "High Energy Debuff"
+}, {
+    "moveId": "PSYCHIC_FANGS",
+    "name": "精神之牙",
+    "type": "psychic",
+    "power": 40,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -1],
+    "buffTarget": "opponent",
+    "buffApplyChance": "1",
+    "archetype": "Debuff Spam/Bait"
+}, {
+    "moveId": "PSYCHO_BOOST",
+    "name": "精神突進",
+    "type": "psychic",
+    "power": 70,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-2, 0],
+    "buffTarget": "self",
+    "buffApplyChance": "1",
+    "archetype": "Self-Debuff Spam"
+}, {
+    "moveId": "PSYCHO_CUT",
+    "name": "精神利刃",
+    "type": "psychic",
+    "power": 3,
+    "energy": 0,
+    "energyGain": 9,
+    "cooldown": 1000,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "PSYSHOCK",
+    "name": "精神衝擊",
+    "abbreviation": "Psh",
+    "type": "psychic",
+    "power": 70,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "PSYSTRIKE",
+    "name": "精神擊破",
+    "abbreviation": "Pst",
+    "type": "psychic",
+    "power": 90,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "QUICK_ATTACK",
+    "name": "電光一閃",
+    "type": "normal",
+    "power": 5,
+    "energy": 0,
+    "energyGain": 7,
+    "cooldown": 1000,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "RAZOR_LEAF",
+    "name": "飛葉快刀",
+    "type": "grass",
+    "power": 10,
+    "energy": 0,
+    "energyGain": 4,
+    "cooldown": 1000,
+    "archetype": "Heavy Damage"
+}, {
+    "moveId": "RAZOR_SHELL",
+    "name": "貝殼刃",
+    "abbreviation": "RSh",
+    "type": "water",
+    "power": 35,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -1],
+    "buffTarget": "opponent",
+    "buffApplyChance": "0.5",
+    "archetype": "Spam/Bait Debuff"
+}, {
+    "moveId": "REST",
+    "name": "睡覺",
+    "type": "normal",
+    "power": 50,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "RETURN",
+    "name": "報恩",
+    "abbreviation": "Re",
+    "type": "normal",
+    "power": 130,
+    "energy": 70,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "ROCK_BLAST",
+    "name": "岩石爆擊",
+    "type": "rock",
+    "power": 50,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "ROCK_SLIDE",
+    "name": "岩崩",
+    "type": "rock",
+    "power": 75,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "ROCK_SMASH",
+    "name": "碎岩",
+    "abbreviation": "RSm",
+    "type": "fighting",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 7,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "ROCK_THROW",
+    "name": "落石",
+    "abbreviation": "RTh",
+    "type": "rock",
+    "power": 8,
+    "energy": 0,
+    "energyGain": 5,
+    "cooldown": 1000,
+    "archetype": "Heavy Damage"
+}, {
+    "moveId": "ROCK_TOMB",
+    "name": "岩石封鎖",
+    "type": "rock",
+    "power": 70,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-1, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": "1",
+    "archetype": "High Energy Debuff"
+}, {
+    "moveId": "ROCK_WRECKER",
+    "name": "岩石炮",
+    "type": "rock",
+    "power": 110,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "ROLLOUT",
+    "name": "滾動 預測",
+    "abbreviation": "RO",
+    "type": "rock",
+    "power": 4,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1000,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "SACRED_FIRE",
+    "name": "神聖之火",
+    "type": "fire",
+    "power": 130,
+    "energy": 65,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-1, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": "0.5",
+    "archetype": "Debuff"
+}, {
+    "moveId": "SACRED_SWORD",
+    "name": "聖劍",
+    "abbreviation": "SSw",
+    "type": "fighting",
+    "power": 60,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "SAND_TOMB",
+    "name": "流沙地獄",
+    "type": "ground",
+    "power": 25,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -1],
+    "buffTarget": "opponent",
+    "buffApplyChance": "1",
+    "archetype": "Debuff Spam/Bait"
+}, {
+    "moveId": "SCALD",
+    "name": "熱水",
+    "abbreviation": "Sc",
+    "type": "water",
+    "power": 80,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-1, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": "0.3",
+    "archetype": "High Energy Debuff"
+}, {
+    "moveId": "SCALD_BLASTOISE",
+    "name": "Scald Blastoise",
+    "type": "water",
+    "power": 50,
+    "energy": 80,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "SCRATCH",
+    "name": "抓",
+    "abbreviation": "Scr",
+    "type": "normal",
+    "power": 4,
+    "energy": 0,
+    "energyGain": 2,
+    "cooldown": 500,
+    "archetype": "Heavy Damage"
+}, {
+    "moveId": "SEED_BOMB",
+    "name": "種子炸彈",
+    "abbreviation": "SeB",
+    "type": "grass",
+    "power": 55,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "SHADOW_BALL",
+    "name": "暗影球",
+    "type": "ghost",
+    "power": 100,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "SHADOW_BONE",
+    "name": "暗影之骨",
+    "abbreviation": "SBo",
+    "type": "ghost",
+    "power": 75,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -1],
+    "buffTarget": "opponent",
+    "buffApplyChance": ".2",
+    "archetype": "Debuff"
+}, {
+    "moveId": "SHADOW_CLAW",
+    "name": "暗影爪",
+    "type": "ghost",
+    "power": 6,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1000,
+    "archetype": "Multipurpose"
+}, {
+    "moveId": "SHADOW_PUNCH",
+    "name": "暗影拳",
+    "abbreviation": "ShP",
+    "type": "ghost",
+    "power": 40,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "SHADOW_SNEAK",
+    "name": "影子偷襲",
+    "type": "ghost",
+    "power": 50,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "SIGNAL_BEAM",
+    "name": "信號光束",
+    "type": "bug",
+    "power": 75,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-1, -1],
+    "buffTarget": "opponent",
+    "buffApplyChance": ".2",
+    "archetype": "High Energy Debuff"
+}, {
+    "moveId": "SILVER_WIND",
+    "name": "銀色旋風",
+    "abbreviation": "SvW",
+    "type": "bug",
+    "power": 45,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [2, 2],
+    "buffTarget": "self",
+    "buffApplyChance": ".1",
+    "archetype": "Boost"
+}, {
+    "moveId": "SKULL_BASH",
+    "name": "火箭頭錘",
+    "abbreviation": "SkB",
+    "type": "normal",
+    "power": 130,
+    "energy": 75,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, 1],
+    "buffTarget": "self",
+    "buffApplyChance": "1",
+    "archetype": "Boost Nuke"
+}, {
+    "moveId": "SKY_ATTACK",
+    "name": "神鳥猛擊",
+    "type": "flying",
+    "power": 75,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "SLUDGE",
+    "name": "污泥攻擊",
+    "type": "poison",
+    "power": 50,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "SLUDGE_BOMB",
+    "name": "污泥炸彈",
+    "abbreviation": "SlB",
+    "type": "poison",
+    "power": 80,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "SLUDGE_WAVE",
+    "name": "污泥波",
+    "type": "poison",
+    "power": 110,
+    "energy": 65,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "SMACK_DOWN",
+    "name": "擊落",
+    "type": "rock",
+    "power": 12,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Heavy Damage"
+}, {
+    "moveId": "SNARL",
+    "name": "大聲咆哮",
+    "abbreviation": "Sn",
+    "type": "dark",
+    "power": 5,
+    "energy": 0,
+    "energyGain": 13,
+    "cooldown": 1500,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "SOLAR_BEAM",
+    "name": "日光束",
+    "abbreviation": "SoB",
+    "type": "grass",
+    "power": 150,
+    "energy": 80,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "SPARK",
+    "name": "電光",
+    "abbreviation": "Sp",
+    "type": "electric",
+    "power": 4,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1000,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "SPLASH",
+    "name": "躍起",
+    "abbreviation": "Spl",
+    "type": "water",
+    "power": 0,
+    "energy": 0,
+    "energyGain": 12,
+    "cooldown": 2000,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "STEEL_WING",
+    "name": "鋼翼",
+    "abbreviation": "StW",
+    "type": "steel",
+    "power": 7,
+    "energy": 0,
+    "energyGain": 5,
+    "cooldown": 1000,
+    "archetype": "Heavy Damage"
+}, {
+    "moveId": "STOMP",
+    "name": "踩踏",
+    "abbreviation": "St",
+    "type": "normal",
+    "power": 55,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "STONE_EDGE",
+    "name": "尖石攻擊",
+    "type": "rock",
+    "power": 100,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "STRUGGLE",
+    "name": "掙扎",
+    "abbreviation": "Str",
+    "type": "normal",
+    "power": 35,
+    "energy": 100,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "STRUGGLE_BUG",
+    "name": "蟲之抵抗",
+    "abbreviation": "StB",
+    "type": "bug",
+    "power": 9,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "SUBMISSION",
+    "name": "地獄翻滾",
+    "abbreviation": "Sm",
+    "type": "fighting",
+    "power": 60,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "SUCKER_PUNCH",
+    "name": "突襲",
+    "abbreviation": "SkP",
+    "type": "dark",
+    "power": 5,
+    "energy": 0,
+    "energyGain": 7,
+    "cooldown": 1000,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "SUPER_POWER",
+    "name": "蠻力",
+    "type": "fighting",
+    "power": 85,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-1, -1],
+    "buffTarget": "self",
+    "buffApplyChance": "1",
+    "archetype": "Self-Debuff Spam"
+}, {
+    "moveId": "SURF",
+    "name": "衝浪",
+    "type": "water",
+    "power": 65,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "SWIFT",
+    "name": "高速星星",
+    "abbreviation": "Sw",
+    "type": "normal",
+    "power": 60,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "SYNCHRONOISE",
+    "name": "同步干擾",
+    "abbreviation": "Sy",
+    "type": "psychic",
+    "power": 80,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "TACKLE",
+    "name": "撞擊",
+    "abbreviation": "Tk",
+    "type": "normal",
+    "power": 3,
+    "energy": 0,
+    "energyGain": 2,
+    "cooldown": 500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "TAKE_DOWN",
+    "name": "猛撞",
+    "type": "normal",
+    "power": 5,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "TECHNO_BLAST_NORMAL",
+    "name": "高科技光炮 一般",
+    "type": "normal",
+    "power": 120,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "TECHNO_BLAST_BURN",
+    "name": "高科技光炮 火",
+    "type": "fire",
+    "power": 120,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "TECHNO_BLAST_CHILL",
+    "name": "高科技光炮 冰",
+    "type": "ice",
+    "power": 120,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "TECHNO_BLAST_DOUSE",
+    "name": "高科技光炮 水",
+    "type": "water",
+    "power": 120,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "TECHNO_BLAST_SHOCK",
+    "name": "高科技光炮 電",
+    "type": "electric",
+    "power": 120,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
+    "moveId": "THUNDER",
+    "name": "打雷",
+    "type": "electric",
+    "power": 100,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "THUNDER_FANG",
+    "name": "雷電牙",
+    "type": "electric",
+    "power": 8,
+    "energy": 0,
+    "energyGain": 5,
+    "cooldown": 1000,
+    "archetype": "Heavy Damage"
+}, {
+    "moveId": "THUNDER_PUNCH",
+    "name": "雷電拳",
+    "type": "electric",
+    "power": 55,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "THUNDER_SHOCK",
+    "name": "電擊",
+    "type": "electric",
+    "power": 3,
+    "energy": 0,
+    "energyGain": 9,
+    "cooldown": 1000,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "THUNDERBOLT",
+    "name": "十萬伏特",
+    "abbreviation": "Tb",
+    "type": "electric",
+    "power": 90,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "TRANSFORM",
+    "name": "變身",
+    "type": "normal",
+    "power": 0,
+    "energy": 0,
+    "energyGain": 0,
+    "cooldown": 1500
+}, {
+    "moveId": "TRI_ATTACK",
+    "name": "三重攻擊",
+    "type": "normal",
+    "power": 65,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-1, -1],
+    "buffTarget": "opponent",
+    "buffApplyChance": ".5",
+    "archetype": "Debuff"
+}, {
+    "moveId": "TWISTER",
+    "name": "龍捲風",
+    "abbreviation": "Tw",
+    "type": "dragon",
+    "power": 45,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "V_CREATE",
+    "name": "Ｖ熱焰",
+    "type": "fire",
+    "power": 95,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -3],
+    "buffTarget": "self",
+    "buffApplyChance": "1",
+    "archetype": "Self-Debuff Spam"
+}, {
+    "moveId": "VICE_GRIP",
+    "name": "夾住",
+    "type": "normal",
+    "power": 40,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "VINE_WHIP",
+    "name": "藤鞭",
+    "type": "grass",
+    "power": 5,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1000,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "VOLT_SWITCH",
+    "name": "伏特替換",
+    "type": "electric",
+    "power": 12,
+    "energy": 0,
+    "energyGain": 16,
+    "cooldown": 2000,
+    "archetype": "Multipurpose"
+}, {
+    "moveId": "WATER_GUN",
+    "name": "水槍",
+    "type": "water",
+    "power": 3,
+    "energy": 0,
+    "energyGain": 3,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "WATER_GUN_FAST_BLASTOISE",
+    "name": "Water Gun Fast Blastoise",
+    "type": "water",
+    "power": 6,
+    "energy": 0,
+    "energyGain": 4,
+    "cooldown": 1000,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "WATER_PULSE",
+    "name": "水之波動",
+    "type": "water",
+    "power": 70,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
+    "moveId": "WATERFALL",
+    "name": "攀瀑",
+    "type": "water",
+    "power": 12,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1500,
+    "archetype": "Heavy Damage"
+}, {
+    "moveId": "WEATHER_BALL_FIRE",
+    "name": "氣象球 火",
+    "type": "fire",
+    "power": 55,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "WEATHER_BALL_ICE",
+    "name": "氣象球 冰",
+    "type": "ice",
+    "power": 55,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "WEATHER_BALL_ROCK",
+    "name": "氣象球 岩石",
+    "type": "rock",
+    "power": 55,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "WEATHER_BALL_NORMAL",
+    "name": "氣象球 一般",
+    "type": "normal",
+    "power": 55,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "WEATHER_BALL_WATER",
+    "name": "氣象球 水",
+    "type": "water",
+    "power": 55,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "WILD_CHARGE",
+    "name": "瘋狂伏特",
+    "type": "electric",
+    "power": 100,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -2],
+    "buffTarget": "self",
+    "buffApplyChance": "1",
+    "archetype": "Self-Debuff"
+}, {
+    "moveId": "WING_ATTACK",
+    "name": "翅膀攻擊",
+    "type": "flying",
+    "power": 5,
+    "energy": 0,
+    "energyGain": 7,
+    "cooldown": 1000,
+    "archetype": "Fast Charge"
+}, {
+    "moveId": "WRAP",
+    "name": "緊束",
+    "abbreviation": "Wr",
+    "type": "normal",
+    "power": 60,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "WRAP_GREEN",
+    "name": "Wrap Green",
+    "type": "normal",
+    "power": 25,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "WRAP_PINK",
+    "name": "Wrap Pink",
+    "type": "normal",
+    "power": 25,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "X_SCISSOR",
+    "name": "十字剪",
+    "type": "bug",
+    "power": 45,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
+    "moveId": "YAWN",
+    "name": "哈欠",
+    "type": "normal",
+    "power": 0,
+    "energy": 0,
+    "energyGain": 12,
+    "cooldown": 2000,
+    "archetype": "Low Quality"
+}, {
+    "moveId": "ZAP_CANNON",
+    "name": "電磁炮",
+    "type": "electric",
+    "power": 150,
+    "energy": 80,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-1, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": "1",
+    "archetype": "Debuff Nuke"
+}, {
+    "moveId": "ZEN_HEADBUTT",
+    "name": "意念頭錘",
+    "type": "psychic",
+    "power": 8,
+    "energy": 0,
+    "energyGain": 6,
+    "cooldown": 1500,
+    "archetype": "Low Quality"
+}]

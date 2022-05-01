@@ -1,26 +1,23 @@
 <select class="cup-select">
 	<option value="all" cup="all" meta-group500="littlegeneral" meta-group1500="great" meta-group2500="ultra" meta-group10000="master">進行中聯盟</option>
-    <option value="premierclassic" meta-group2500="ultrapremierclassic" meta-group10000="masterpremierclassic">高級紀念經典賽</option>
-    <option value="halloween" meta-group1500="halloween">萬聖節盃</option>
-    <option value="retro" meta-group1500="retro">復古盃</option>
-    <option value="kanto" meta-group1500="kanto">關都盃</option>
-    <option value="flying" meta-group1500="flying">飛行盃</option>
-    <option value="nemesis" meta-group1500=mesis">Silph 勁敵盃</option>
-    <option value="firefly" meta-group1500="firefly">Silph 流螢盃</option>
-    <option value="cometultra" meta-group2500="cometultra">Silph Factions (Ultra Comet)</option>
-    <option value="floatingcity" meta-group1500="floatingcity">Silph Factions (Floating City)</option>
-    <option value="dungeon" meta-group1500="dungeon">Silph Factions (Dungeon)</option>
-
-	<?php if(strpos($_SERVER['REQUEST_URI'], 'team-builder') !== false): ?>
-		<option value="community" cup="cliffhanger">GO Stadium Cliffhanger</option>
-	<?php endif; ?>
-
-	<?php if((strpos($_SERVER['REQUEST_URI'], 'battle') !== false)||(strpos($_SERVER['REQUEST_URI'], 'rankings') !== false)): ?>
-		<option value="custom" cup="custom">自訂排名</option>
-	<?php endif; ?>
-
+	<option value="premierclassic" meta-group2500="ultrapremierclassic" meta-group10000="masterpremierclassic">高級紀念經典賽</option>
 </select>
 
+<script>
+	// Dynamically add current formats to the format dropdown
+	function updateCupSelect(formats, interfaceMaster){
+		for(var i = 0; i < formats.length; i++){
+			if(formats[i].showCup){
+				$format = $("<option>"+formats[i].title+"</option>");
+				$format.attr("value", formats[i].cup);
+				$format.attr("meta-group"+formats[i].cp, formats[i].meta);
+
+				$(".cup-select").append($format);
+			}
+		}
+	}
+
+</script>
 <!--保留但註解下述資料供未來翻譯參考-->
 <!--<select class="cup-select">-->
 <!--	<option value="all" cat="all">全部寶可夢</option>-->

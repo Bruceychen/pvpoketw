@@ -22,21 +22,10 @@
 			<h3 class="section-title">快速選擇</h3>
 			<select class="quick-fill-select">
 				<option value="new">建立新隊伍</option>
-                <option value="little" type="little" class="hide multi-battle">小小盃 Meta</option>
+				<option value="little" type="little" class="hide multi-battle">小小盃 Meta</option>
 				<option value="great" type="great" class="multi-battle">超級(1500)聯盟 Meta</option>
 				<option value="ultra" type="ultra" class="hide multi-battle">高級(2500)聯盟 Meta</option>
 				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
-                <option value="remixultra" type="ultra" class="hide multi-battle">高級聯盟Remix Meta</option>
-                <option value="ultrapremierclassic" type="ultra" class="hide multi-battle">UL紀念經典賽 Meta</option>
-                <option value="masterpremierclassic" type="master" class="hide multi-battle">ML紀念經典賽 Meta</option>
-                <option value="retro" type="great" class="multi-battle">復古盃 Meta</option>
-                <option value="kanto" type="great" class="multi-battle">關都盃 Meta</option>
-                <option value="flying" type="great" class="multi-battle">飛行盃 Meta</option>
-                <option value="nemesis" type="great" class="multi-battle">Silph 勁敵盃</option>
-                <option value="firefly" type="great" class="multi-battle">Silph 流螢盃</option>
-                <option value="cometultra" type="ultra" class="multi-battle">Silph Factions (Ultra Comet)</option>
-                <option value="floatingcity" type="great" class="multi-battle">Silph Factions (Floating City)</option>
-                <option value="dungeon" type="great" class="multi-battle">Silph Factions (Dungeon)</option>
 			</select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>
@@ -102,7 +91,11 @@
 <div class="list-export hide">
 	<p>複製以下文字或貼上其他隊伍資料以匯入隊伍。</p>
 	<textarea class="list-text" type="text"></textarea>
-	<div class="copy">複製</div>
+	<div class="export-options">
+		<div class="copy">複製</div>
+		<a class="json" href="#">匯出JSON格式資料</a>
+	</div>
+
 	<div class="center">
 		<div class="button import">匯入</div>
 	</div>

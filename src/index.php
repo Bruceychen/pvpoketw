@@ -34,16 +34,11 @@
 	<!--Update section for updates-->
 	<h3>更新內容</h3>
 
-	<h4>v1.27.0 (April 16, 2022)</h4>
+	<h4>v1.27.2 (April 30, 2022)</h4>
 	<ul>
-		<li>Core simulation logic has been updated with several changes and fixes:</li>
-		<ul>
-			<li>Added a new baiting behavior, "selective baiting", which only baits shields when it can meaningfully threaten the opponent. This behavior is now the default behavior.</li>
-			<li>Optimized move timing is now default behavior.</li>
-			<li>In some scenarios, Pokemon with self-debuffing moves like Close Combat will wait to use their moves if they can survive an imminent Charged Move.</li>
-			<li>Fixed some issues surrounding faint predictions. Pokemon will now more reliably throw available energy before they faint.</li>
-		</ul>
-		<li>Updated Pokemon select interface with new shield, bait, and Shadow toggles</li>
+		<li>Fixed shielding issues surrounding boosting moves like Flame Charge, which sometimes weren't being shielded correctly before.</li>
+		<li>Relaxed optimized move timing for Pokemon with long duration Fast Moves; these Pokemon will now use Charged Moves with mostly optimal timing but not perfectly optimal timing. They will throw energy earlier and more consistently.</li>
+		<li>Fixed an issue with optimized timing where Pokemon would sometimes go over 100 energy.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -90,8 +85,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Sat Apr 30 18:55:28 2022 +0800</li>
-                <li>原版最後版本時間：Fri Apr 29 18:17:23 2022 -0500</li>
+                <li>中文版最後更新時間：Sun May 1 18:55:28 2022 +0800</li>
+                <li>原版最後版本時間：Sat Apr 30 18:16:43 2022 -0500</li>
             </ul>
 </div>
 

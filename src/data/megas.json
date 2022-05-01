@@ -18,24 +18,6 @@
     "level25CP": 2748,
     "eliteMoves": ["COUNTER", "DAZZLING_GLEAM", "PSYCHIC"]
 }, {
-    "dex": 115,
-    "speciesName": "袋獸 (Mega)",
-    "speciesId": "kangaskhan_mega",
-    "baseStats": {
-        "atk": 246,
-        "def": 210,
-        "hp": 233
-    },
-    "types": ["normal", "none"],
-    "fastMoves": ["LOW_KICK", "MUD_SLAP"],
-    "chargedMoves": ["BRICK_BREAK", "CRUNCH", "EARTHQUAKE", "OUTRAGE", "STOMP", "POWER_UP_PUNCH"],
-    "tags": ["regional", "mega"],
-    "defaultIVs": {
-        "cp1500": [14, 10, 15, 11],
-        "cp2500": [23.5, 9, 10, 15]
-    },
-    "eliteMoves": ["BRICK_BREAK", "STOMP"]
-}, {
     "dex": 127,
     "speciesName": "凱羅斯 (Mega)",
     "speciesId": "pinsir_mega",
@@ -54,23 +36,6 @@
     "tags": ["shadoweligible", "mega"],
     "level25CP": 2640,
     "eliteMoves": ["SUBMISSION"]
-}, {
-    "dex": 142,
-    "speciesName": "化石翼龍 (Mega)",
-    "speciesId": "aerodactyl_mega",
-    "baseStats": {
-        "atk": 292,
-        "def": 210,
-        "hp": 190
-    },
-    "types": ["rock", "flying"],
-    "fastMoves": ["BITE", "STEEL_WING", "ROCK_THROW"],
-    "chargedMoves": ["ANCIENT_POWER", "HYPER_BEAM", "IRON_HEAD", "ROCK_SLIDE", "EARTH_POWER"],
-    "tags": ["mega"],
-    "defaultIVs": {
-        "cp1500": [13, 6, 15, 14],
-        "cp2500": [22, 6, 10, 15]
-    }
 }, {
     "dex": 150,
     "speciesName": "超夢 (Mega X)",
@@ -449,40 +414,6 @@
     "level25CP": 3136,
     "tags": ["shadoweligible", "mega"],
     "eliteMoves": ["METEOR_MASH"]
-}, {
-    "dex": 380,
-    "speciesName": "拉帝亞斯 (Mega)",
-    "speciesId": "latias_mega",
-    "baseStats": {
-        "atk": 289,
-        "def": 297,
-        "hp": 190
-    },
-    "types": ["dragon", "psychic"],
-    "fastMoves": ["DRAGON_BREATH", "ZEN_HEADBUTT", "CHARM"],
-    "chargedMoves": ["OUTRAGE", "PSYCHIC", "THUNDER"],
-    "tags": ["legendary", "mega"],
-    "defaultIVs": {
-        "cp1500": [11.5, 9, 5, 9],
-        "cp2500": [19, 5, 14, 10]
-    }
-}, {
-    "dex": 381,
-    "speciesName": "拉帝歐斯 (Mega)",
-    "speciesId": "latios_mega",
-    "baseStats": {
-        "atk": 335,
-        "def": 241,
-        "hp": 190
-    },
-    "types": ["dragon", "psychic"],
-    "fastMoves": ["DRAGON_BREATH", "ZEN_HEADBUTT"],
-    "chargedMoves": ["DRAGON_CLAW", "PSYCHIC", "SOLAR_BEAM"],
-    "tags": ["legendary", "mega"],
-    "defaultIVs": {
-        "cp1500": [11, 7, 8, 9],
-        "cp2500": [18.5, 6, 7, 9]
-    }
 }, {
     "dex": 384,
     "speciesName": "烈空坐 (Mega)",

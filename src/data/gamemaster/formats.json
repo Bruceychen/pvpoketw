@@ -9,6 +9,15 @@
 		"showMeta": false
 	},
 	{
+		"title": "Mega Master League",
+		"cup": "all",
+		"cp": 10000,
+		"meta": "mastermega",
+		"showCup": false,
+		"showFormat": false,
+		"showMeta": true
+	},
+	{
 		"title": "Premier Classic",
 		"cup": "premierclassic",
 		"cp": 2500,
@@ -40,6 +49,15 @@
 		"cup": "flying",
 		"cp": 1500,
 		"meta": "flying",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true
+	},
+	{
+		"title": "Element Cup",
+		"cup": "element",
+		"cp": 500,
+		"meta": "element",
 		"showCup": true,
 		"showFormat": true,
 		"showMeta": true

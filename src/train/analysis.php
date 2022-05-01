@@ -43,6 +43,11 @@ switch($cup){
 		$league = 'Kanto Cup';
 		break;
 
+	case "element":
+		$league = 'Element Cup';
+		break;
+
+
 	case "halloween":
 		$league = 'Halloween Cup';
 		break;
@@ -86,6 +91,7 @@ require_once '../header.php';
         <option value="2500" cup="premierclassic" level-cap="40">高級紀念經典賽</option>
         <option value="10000" cup="classic" level-cap="40">大師聯盟(經典)</option>
         <option value="1500" cup="kanto" level-cap="50">關都盃</option>
+        <option value="500" cup="element" level-cap="50">元素盃</option>
     </select>
 
 	<div class="date-updated">資料最後更新</div>
@@ -137,7 +143,6 @@ require_once '../header.php';
 	<a href="#" class="button download-csv performers">匯出 CSV檔</a>
 
 	<p class="column-description"><b>隊伍 Rating - </b> Similar to the Battle Rating metric in battle simulations, the Team Rating metric is a number between 0 and 1000 that measures the quality of wins and losses depending on how much HP remains on the opposing team. An average team rating above 500 means teams including that Pokemon win more often. An average team rating below 500 indicates underperformance, and that teams including that Pokemon may struggle.</p>
-<!--	<p class="column-description"><b>隊伍 Rating - </b> 概念與戰鬥模擬計算中的Battle Rating類似，隊伍 Rating 指數是介於0至1000之間，measures the quality of wins and losses depending on how much HP remains on the opposing team. An average team rating above 500 means teams including that Pokemon win more often. An average team rating below 500 indicates underperformance, and that teams including that Pokemon may struggle.</p>-->
 
 	<p class="column-description"><b>個體 Rating - </b> The individual rating metric measures the damage output of a Pokemon in battle. 100% equals 1 Pokemon worth of damage. This metric also includes shields drawn by the Pokemon: 1 shield is treated as 50% of a Pokemon in Great League, and 40% of a Pokemon in Ultra and Master League. Pokemon with high average individual rating have strong damage output and shield pressure. However, high individual rating doesn't always correlate to success on a team.</p>
 

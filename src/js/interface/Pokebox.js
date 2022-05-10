@@ -174,14 +174,6 @@ function Pokebox(element, selector, selectMode, b){
 			case "mewtwo_a":
 				return "mewtwo_armored";
 				break;
-
-			case "ho_oh_s":
-				return "ho_oh_shadow";
-				break;
-
-			case "lugia_s":
-				return "lugia_shadow";
-				break;
 		}
 
 		return id;

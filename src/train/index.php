@@ -41,7 +41,6 @@ require_once '../header.php';
                 <option value="10000 classic">GO ML經典賽</option>
                 <option value="2500 premierclassic">UL紀念經典賽</option>
                 <option value="10000 premierclassic">ML紀念經典賽</option>
-                <option value="1500 kanto">關都盃</option>
                 <option value="500 kanto">元素盃</option>
                 <option value="1500 all">超級聯盟(6v6)</option>
                 <option value="2500 all">高級聯盟(6v6)</option>

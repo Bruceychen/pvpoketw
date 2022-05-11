@@ -6243,7 +6243,7 @@
     },
     "level25CP": 1893,
     "eliteMoves": ["HURRICANE"],
-    "searchPriority": 6,
+    "searchPriority": 2,
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
     "released": true
@@ -24006,7 +24006,7 @@
     },
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
-    "released": false
+    "released": true
 }, {
     "dex": 752,
     "speciesName": "滴蛛霸",
@@ -24024,9 +24024,10 @@
         "cp1500": [33.5, 4, 15, 8],
         "cp2500": [50, 15, 15, 15]
     },
+	"searchPriority": 10,
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
-    "released": false
+    "released": true
 }, {
     "dex": 753,
     "speciesName": "偽螳草",

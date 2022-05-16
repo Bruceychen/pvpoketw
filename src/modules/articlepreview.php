@@ -18,14 +18,14 @@ function makeArticleItem(a){
 	// Clone the article preview template and fill in content
 	var $article = $(".article-item.template").clone().removeClass("hide template");
 
-	var thumbPath = webRoot+"articles/article-assets/"+a.id+"/thumb.jpg";
+	var thumbPath = webHostOrign+"articles/article-assets/"+a.id+"/thumb.jpg";
 
 	if(a.tags.indexOf("Community Day") > -1){
-		thumbPath = webRoot+"articles/article-assets/community-day/"+a.id+"/thumb.jpg";
+		thumbPath = webHostOrign+"articles/article-assets/community-day/"+a.id+"/thumb.jpg";
 	}
 
 	if(a.path == "infographics"){
-		thumbPath = webRoot+"articles/article-assets/infographics/"+a.id+"/thumb.jpg";
+		thumbPath = webHostOrign+"articles/article-assets/infographics/"+a.id+"/thumb.jpg";
 	}
 
 	$article.find("h4 a").html(a.title);

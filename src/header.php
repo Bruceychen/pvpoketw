@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.28.3.8';
+$SITE_VERSION = '1.28.3.9';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -135,6 +135,7 @@ if(! isset($OG_IMAGE)){
 
 	var host = "<?php echo $WEB_HOST; ?>";
 	var webRoot = "<?php echo $WEB_ROOT; ?>";
+	var webHostOrign = "<?php echo $WEB_HOST_ORIGN; ?>";
 	var siteVersion = "<?php echo $SITE_VERSION; ?>";
 
 	<?php if(isset($_COOKIE['settings'])) : ?>

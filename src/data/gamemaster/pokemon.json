@@ -821,7 +821,7 @@
     "released": true
 }, {
     "dex": 19,
-    "speciesName": "小拉達 阿羅拉型態",
+    "speciesName": "小拉達 阿羅拉",
     "speciesId": "rattata_alolan",
     "baseStats": {
         "atk": 103,
@@ -864,7 +864,7 @@
     "released": true
 }, {
     "dex": 19,
-    "speciesName": "小拉達 阿羅拉型態 暗影化",
+    "speciesName": "小拉達 阿羅拉 暗影化",
     "speciesId": "rattata_alolan_shadow",
     "baseStats": {
         "atk": 103,
@@ -907,7 +907,7 @@
     "released": true
 }, {
     "dex": 20,
-    "speciesName": "拉達 阿羅拉型態",
+    "speciesName": "拉達 阿羅拉",
     "speciesId": "raticate_alolan",
     "baseStats": {
         "atk": 135,
@@ -951,7 +951,7 @@
     "released": true
 }, {
     "dex": 20,
-    "speciesName": "拉達 阿羅拉型態 暗影化",
+    "speciesName": "拉達 阿羅拉 暗影化",
     "speciesId": "raticate_alolan_shadow",
     "baseStats": {
         "atk": 135,
@@ -1266,7 +1266,7 @@
     "released": true
 }, {
     "dex": 26,
-    "speciesName": "雷丘 阿羅拉型態",
+    "speciesName": "雷丘 阿羅拉",
     "speciesId": "raichu_alolan",
     "baseStats": {
         "atk": 201,
@@ -1312,7 +1312,7 @@
     "released": true
 }, {
     "dex": 27,
-    "speciesName": "穿山鼠 阿羅拉型態",
+    "speciesName": "穿山鼠 阿羅拉",
     "speciesId": "sandshrew_alolan",
     "baseStats": {
         "atk": 125,
@@ -1356,7 +1356,7 @@
     "released": true
 }, {
     "dex": 27,
-    "speciesName": "穿山鼠 阿羅拉型態 暗影化",
+    "speciesName": "穿山鼠 阿羅拉 暗影化",
     "speciesId": "sandshrew_alolan_shadow",
     "baseStats": {
         "atk": 125,
@@ -1401,7 +1401,7 @@
     "released": true
 }, {
     "dex": 28,
-    "speciesName": "穿山王 阿羅拉型態",
+    "speciesName": "穿山王 阿羅拉",
     "speciesId": "sandslash_alolan",
     "baseStats": {
         "atk": 177,
@@ -1449,7 +1449,7 @@
     "released": true
 }, {
     "dex": 28,
-    "speciesName": "穿山王 阿羅拉型態 暗影化",
+    "speciesName": "穿山王 阿羅拉 暗影化",
     "speciesId": "sandslash_alolan_shadow",
     "baseStats": {
         "atk": 177,
@@ -1806,7 +1806,7 @@
     "released": true
 }, {
     "dex": 37,
-    "speciesName": "六尾 阿羅拉型態",
+    "speciesName": "六尾 阿羅拉",
     "speciesId": "vulpix_alolan",
     "baseStats": {
         "atk": 96,
@@ -1873,7 +1873,7 @@
     "released": true
 }, {
     "dex": 38,
-    "speciesName": "九尾 阿羅拉型態",
+    "speciesName": "九尾 阿羅拉",
     "speciesId": "ninetales_alolan",
     "baseStats": {
         "atk": 170,
@@ -2337,7 +2337,7 @@
     "released": true
 }, {
     "dex": 50,
-    "speciesName": "地鼠 阿羅拉型態",
+    "speciesName": "地鼠 阿羅拉",
     "speciesId": "diglett_alolan",
     "baseStats": {
         "atk": 108,
@@ -2403,7 +2403,7 @@
     "released": true
 }, {
     "dex": 51,
-    "speciesName": "三地鼠 阿羅拉型態",
+    "speciesName": "三地鼠 阿羅拉",
     "speciesId": "dugtrio_alolan",
     "baseStats": {
         "atk": 201,
@@ -2469,7 +2469,7 @@
     "released": true
 }, {
     "dex": 52,
-    "speciesName": "喵喵 阿羅拉型態",
+    "speciesName": "喵喵 阿羅拉",
     "speciesId": "meowth_alolan",
     "baseStats": {
         "atk": 99,
@@ -2490,7 +2490,7 @@
     "released": true
 }, {
     "dex": 52,
-    "speciesName": "喵喵 伽勒爾型態",
+    "speciesName": "喵喵 伽勒爾",
     "speciesId": "meowth_galarian",
     "baseStats": {
         "atk": 115,
@@ -2556,7 +2556,7 @@
     "released": true
 }, {
     "dex": 53,
-    "speciesName": "貓老大 阿羅拉型態",
+    "speciesName": "貓老大 阿羅拉",
     "speciesId": "persian_alolan",
     "baseStats": {
         "atk": 158,
@@ -3424,7 +3424,7 @@
     "released": true
 }, {
     "dex": 74,
-    "speciesName": "小拳石 阿羅拉型態",
+    "speciesName": "小拳石 阿羅拉",
     "speciesId": "geodude_alolan",
     "baseStats": {
         "atk": 132,
@@ -3469,7 +3469,7 @@
     "released": true
 }, {
     "dex": 75,
-    "speciesName": "隆隆石 阿羅拉型態",
+    "speciesName": "隆隆石 阿羅拉",
     "speciesId": "graveler_alolan",
     "baseStats": {
         "atk": 164,
@@ -3513,7 +3513,7 @@
     "released": true
 }, {
     "dex": 76,
-    "speciesName": "隆隆岩 阿羅拉型態",
+    "speciesName": "隆隆岩 阿羅拉",
     "speciesId": "golem_alolan",
     "baseStats": {
         "atk": 211,
@@ -3556,7 +3556,7 @@
     "released": true
 }, {
     "dex": 77,
-    "speciesName": "小火馬 伽勒爾型態",
+    "speciesName": "小火馬 伽勒爾",
     "speciesId": "ponyta_galarian",
     "baseStats": {
         "atk": 170,
@@ -3599,7 +3599,7 @@
     "released": true
 }, {
     "dex": 78,
-    "speciesName": "烈焰馬 伽勒爾型態",
+    "speciesName": "烈焰馬 伽勒爾",
     "speciesId": "rapidash_galarian",
     "baseStats": {
         "atk": 207,
@@ -3643,7 +3643,7 @@
     "released": true
 }, {
     "dex": 79,
-    "speciesName": "呆呆獸 伽勒爾型態",
+    "speciesName": "呆呆獸 伽勒爾",
     "speciesId": "slowpoke_galarian",
     "baseStats": {
         "atk": 109,
@@ -3708,7 +3708,7 @@
     "released": true
 }, {
     "dex": 80,
-    "speciesName": "呆殼獸 伽勒爾型態",
+    "speciesName": "呆殼獸 伽勒爾",
     "speciesId": "slowbro_galarian",
     "baseStats": {
         "atk": 182,
@@ -3885,7 +3885,7 @@
     "released": true
 }, {
     "dex": 83,
-    "speciesName": "大蔥鴨 伽勒爾型態",
+    "speciesName": "大蔥鴨 伽勒爾",
     "speciesId": "farfetchd_galarian",
     "baseStats": {
         "atk": 174,
@@ -4015,7 +4015,7 @@
     "released": true
 }, {
     "dex": 88,
-    "speciesName": "臭泥 阿羅拉型態",
+    "speciesName": "臭泥 阿羅拉",
     "speciesId": "grimer_alolan",
     "baseStats": {
         "atk": 135,
@@ -4084,7 +4084,7 @@
     "released": true
 }, {
     "dex": 89,
-    "speciesName": "臭臭泥 阿羅拉型態",
+    "speciesName": "臭臭泥 阿羅拉",
     "speciesId": "muk_alolan",
     "baseStats": {
         "atk": 190,
@@ -4482,7 +4482,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 100,
-    "speciesName": "霹靂電球 洗翠型態",
+    "speciesName": "霹靂電球 洗翠",
     "speciesId": "voltorb_hisuian",
     "baseStats": {
         "atk": 109,
@@ -4549,7 +4549,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 101,
-    "speciesName": "頑皮雷彈 洗翠型態",
+    "speciesName": "頑皮雷彈 洗翠",
     "speciesId": "electrode_hisuian",
     "baseStats": {
         "atk": 176,
@@ -4663,7 +4663,7 @@
     "released": true
 }, {
     "dex": 103,
-    "speciesName": "椰蛋樹 阿羅拉型態",
+    "speciesName": "椰蛋樹 阿羅拉",
     "speciesId": "exeggutor_alolan",
     "baseStats": {
         "atk": 230,
@@ -4709,7 +4709,7 @@
     "released": true
 }, {
     "dex": 103,
-    "speciesName": "椰蛋樹 阿羅拉型態 暗影化",
+    "speciesName": "椰蛋樹 阿羅拉 暗影化",
     "speciesId": "exeggutor_alolan_shadow",
     "baseStats": {
         "atk": 230,
@@ -4796,7 +4796,7 @@
     "released": true
 }, {
     "dex": 105,
-    "speciesName": "嘎啦嘎啦 阿羅拉型態",
+    "speciesName": "嘎啦嘎啦 阿羅拉",
     "speciesId": "marowak_alolan",
     "baseStats": {
         "atk": 144,
@@ -4807,7 +4807,31 @@
     "fastMoves": ["HEX", "ROCK_SMASH", "FIRE_SPIN"],
     "chargedMoves": ["BONE_CLUB", "FIRE_BLAST", "SHADOW_BALL", "FLAME_WHEEL", "SHADOW_BONE"],
     "eliteMoves": ["SHADOW_BONE"],
-    "tags": ["alolan"],
+    "tags": ["alolan", "shadoweligible"],
+    "defaultIVs": {
+        "cp500": [10.5, 5, 9, 10],
+        "cp1500": [32, 5, 9, 15],
+        "cp2500": [50, 15, 15, 15]
+    },
+	"level25CP": 1119,
+    "searchPriority": 8,
+    "buddyDistance": 3,
+    "thirdMoveCost": 50000,
+    "released": true
+}, {
+    "dex": 105,
+    "speciesName": "嘎啦嘎啦 阿羅拉 暗影化",
+    "speciesId": "marowak_alolan_shadow",
+    "baseStats": {
+        "atk": 144,
+        "def": 186,
+        "hp": 155
+    },
+    "types": ["fire", "ghost"],
+    "fastMoves": ["HEX", "ROCK_SMASH", "FIRE_SPIN"],
+    "chargedMoves": ["BONE_CLUB", "FIRE_BLAST", "SHADOW_BALL", "FLAME_WHEEL", "SHADOW_BONE"],
+    "eliteMoves": ["SHADOW_BONE"],
+    "tags": ["alolan", "shadow"],
     "defaultIVs": {
         "cp500": [10.5, 5, 9, 10],
         "cp1500": [32, 5, 9, 15],
@@ -5025,7 +5049,7 @@
     "released": true
 }, {
     "dex": 110,
-    "speciesName": "雙彈瓦斯 伽勒爾型態",
+    "speciesName": "雙彈瓦斯 伽勒爾",
     "speciesId": "weezing_galarian",
     "baseStats": {
         "atk": 174,
@@ -5423,7 +5447,7 @@
     "released": true
 }, {
     "dex": 122,
-    "speciesName": "魔牆人偶 伽勒爾型態",
+    "speciesName": "魔牆人偶 伽勒爾",
     "speciesId": "mr_mime_galarian",
     "baseStats": {
         "atk": 183,
@@ -6519,7 +6543,7 @@
     "released": true
 }, {
     "dex": 150,
-    "speciesName": "超夢 裝甲型態",
+    "speciesName": "超夢 裝甲",
     "speciesId": "mewtwo_armored",
     "baseStats": {
         "atk": 182,
@@ -8182,7 +8206,7 @@
     "released": true
 }, {
     "dex": 199,
-    "speciesName": "呆呆王 伽勒爾型態",
+    "speciesName": "呆呆王 伽勒爾",
     "speciesId": "slowking_galarian",
     "baseStats": {
         "atk": 190,
@@ -10416,7 +10440,7 @@
     "released": true
 }, {
     "dex": 263,
-    "speciesName": "蛇紋熊 伽勒爾型態",
+    "speciesName": "蛇紋熊 伽勒爾",
     "speciesId": "zigzagoon_galarian",
     "baseStats": {
         "atk": 58,
@@ -10458,7 +10482,7 @@
     "released": true
 }, {
     "dex": 264,
-    "speciesName": "直衝熊 伽勒爾型態",
+    "speciesName": "直衝熊 伽勒爾",
     "speciesId": "linoone_galarian",
     "baseStats": {
         "atk": 142,
@@ -13105,7 +13129,7 @@
     "released": true
 }, {
     "dex": 351,
-    "speciesName": "飄浮泡泡 雨天型態",
+    "speciesName": "飄浮泡泡 雨",
     "speciesId": "castform_rainy",
     "baseStats": {
         "atk": 139,
@@ -13126,7 +13150,7 @@
     "released": true
 }, {
     "dex": 351,
-    "speciesName": "飄浮泡泡 雪型態",
+    "speciesName": "飄浮泡泡 雪",
     "speciesId": "castform_snowy",
     "baseStats": {
         "atk": 139,
@@ -13146,7 +13170,7 @@
     "released": true
 }, {
     "dex": 351,
-    "speciesName": "飄浮泡泡 晴天型態",
+    "speciesName": "飄浮泡泡 晴",
     "speciesId": "castform_sunny",
     "baseStats": {
         "atk": 139,
@@ -14324,7 +14348,7 @@
     "released": true
 }, {
     "dex": 386,
-    "speciesName": "代歐奇希斯 攻擊型",
+    "speciesName": "代歐奇希斯 攻擊",
     "speciesId": "deoxys_attack",
     "baseStats": {
         "atk": 414,
@@ -14345,7 +14369,7 @@
     "released": true
 }, {
     "dex": 386,
-    "speciesName": "代歐奇希斯 防禦型",
+    "speciesName": "代歐奇希斯 防禦",
     "speciesId": "deoxys_defense",
     "baseStats": {
         "atk": 144,
@@ -14368,7 +14392,7 @@
     "released": true
 }, {
     "dex": 386,
-    "speciesName": "代歐奇希斯 速度型",
+    "speciesName": "代歐奇希斯 速度",
     "speciesId": "deoxys_speed",
     "baseStats": {
         "atk": 230,
@@ -15119,7 +15143,7 @@
     "released": true
 }, {
     "dex": 412,
-    "speciesName": "結草兒 草木蓑衣",
+    "speciesName": "結草兒 草木",
     "speciesId": "burmy_plant",
     "baseStats": {
         "atk": 53,
@@ -15140,7 +15164,7 @@
     "released": true
 }, {
     "dex": 412,
-    "speciesName": "結草兒 砂土蓑衣",
+    "speciesName": "結草兒 砂土",
     "speciesId": "burmy_sandy",
     "baseStats": {
         "atk": 53,
@@ -15161,7 +15185,7 @@
     "released": true
 }, {
     "dex": 412,
-    "speciesName": "結草兒 垃圾蓑衣",
+    "speciesName": "結草兒 垃圾",
     "speciesId": "burmy_trash",
     "baseStats": {
         "atk": 53,
@@ -15182,7 +15206,7 @@
     "released": true
 }, {
     "dex": 413,
-    "speciesName": "結草貴婦 草木蓑衣",
+    "speciesName": "結草貴婦 草木",
     "speciesId": "wormadam_plant",
     "baseStats": {
         "atk": 141,
@@ -15202,7 +15226,7 @@
     "released": true
 }, {
     "dex": 413,
-    "speciesName": "結草貴婦 砂土蓑衣",
+    "speciesName": "結草貴婦 砂土",
     "speciesId": "wormadam_sandy",
     "baseStats": {
         "atk": 141,
@@ -15222,7 +15246,7 @@
     "released": true
 }, {
     "dex": 413,
-    "speciesName": "結草貴婦 垃圾蓑衣",
+    "speciesName": "結草貴婦 垃圾",
     "speciesId": "wormadam_trash",
     "baseStats": {
         "atk": 127,
@@ -15387,7 +15411,7 @@
     "released": true
 }, {
     "dex": 421,
-    "speciesName": "櫻花兒 花苞型態",
+    "speciesName": "櫻花兒 花苞",
     "speciesId": "cherrim_overcast",
     "baseStats": {
         "atk": 170,
@@ -15407,7 +15431,7 @@
     "released": true
 }, {
     "dex": 421,
-    "speciesName": "櫻花兒 盛開型態",
+    "speciesName": "櫻花兒 盛開",
     "speciesId": "cherrim_sunny",
     "baseStats": {
         "atk": 170,
@@ -17183,7 +17207,7 @@
     "released": true
 }, {
     "dex": 479,
-    "speciesName": "洛托姆 洛托姆的樣子",
+    "speciesName": "洛托姆",
     "speciesId": "rotom",
     "baseStats": {
         "atk": 185,
@@ -17203,7 +17227,7 @@
     "released": false
 }, {
     "dex": 479,
-    "speciesName": "洛托姆 旋轉洛托姆",
+    "speciesName": "洛托姆 旋轉",
     "speciesId": "rotom_fan",
     "baseStats": {
         "atk": 204,
@@ -17224,7 +17248,7 @@
     "released": false
 }, {
     "dex": 479,
-    "speciesName": "洛托姆 結冰洛托姆",
+    "speciesName": "洛托姆 結冰",
     "speciesId": "rotom_frost",
     "baseStats": {
         "atk": 204,
@@ -17245,7 +17269,7 @@
     "released": false
 }, {
     "dex": 479,
-    "speciesName": "洛托姆 加熱洛托姆",
+    "speciesName": "洛托姆 加熱",
     "speciesId": "rotom_heat",
     "baseStats": {
         "atk": 204,
@@ -17266,7 +17290,7 @@
     "released": false
 }, {
     "dex": 479,
-    "speciesName": "洛托姆 切割洛托姆",
+    "speciesName": "洛托姆 切割",
     "speciesId": "rotom_mow",
     "baseStats": {
         "atk": 204,
@@ -17287,7 +17311,7 @@
     "released": false
 }, {
     "dex": 479,
-    "speciesName": "洛托姆 清洗洛托姆",
+    "speciesName": "洛托姆 清洗",
     "speciesId": "rotom_wash",
     "baseStats": {
         "atk": 204,
@@ -17458,7 +17482,7 @@
     "released": true
 }, {
     "dex": 487,
-    "speciesName": "騎拉帝納 別種型態",
+    "speciesName": "騎拉帝納 別種",
     "speciesId": "giratina_altered",
     "baseStats": {
         "atk": 187,
@@ -17480,7 +17504,7 @@
     "released": true
 }, {
     "dex": 487,
-    "speciesName": "騎拉帝納 起源型態",
+    "speciesName": "騎拉帝納 起源",
     "speciesId": "giratina_origin",
     "baseStats": {
         "atk": 225,
@@ -17586,7 +17610,7 @@
     "released": true
 }, {
     "dex": 492,
-    "speciesName": "謝米 陸上型態",
+    "speciesName": "謝米 陸上",
     "speciesId": "shaymin_land",
     "baseStats": {
         "atk": 210,
@@ -17606,7 +17630,7 @@
     "released": false
 }, {
     "dex": 492,
-    "speciesName": "謝米 天空型態",
+    "speciesName": "謝米 天空",
     "speciesId": "shaymin_sky",
     "baseStats": {
         "atk": 261,
@@ -17646,7 +17670,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 蟲屬性",
+    "speciesName": "阿爾宙斯 蟲",
     "speciesId": "arceus_bug",
     "baseStats": {
         "atk": 238,
@@ -17666,7 +17690,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 惡屬性",
+    "speciesName": "阿爾宙斯 惡",
     "speciesId": "arceus_dark",
     "baseStats": {
         "atk": 238,
@@ -17686,7 +17710,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 龍屬性",
+    "speciesName": "阿爾宙斯 龍",
     "speciesId": "arceus_dragon",
     "baseStats": {
         "atk": 238,
@@ -17706,7 +17730,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 電屬性",
+    "speciesName": "阿爾宙斯 電",
     "speciesId": "arceus_electric",
     "baseStats": {
         "atk": 238,
@@ -17726,7 +17750,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 妖精屬性",
+    "speciesName": "阿爾宙斯 妖",
     "speciesId": "arceus_fairy",
     "baseStats": {
         "atk": 238,
@@ -17746,7 +17770,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 格鬥屬性",
+    "speciesName": "阿爾宙斯 格",
     "speciesId": "arceus_fighting",
     "baseStats": {
         "atk": 238,
@@ -17766,7 +17790,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 火屬性",
+    "speciesName": "阿爾宙斯 火",
     "speciesId": "arceus_fire",
     "baseStats": {
         "atk": 238,
@@ -17786,7 +17810,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 飛行屬性",
+    "speciesName": "阿爾宙斯 飛",
     "speciesId": "arceus_flying",
     "baseStats": {
         "atk": 238,
@@ -17806,7 +17830,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 幽靈屬性",
+    "speciesName": "阿爾宙斯 幽",
     "speciesId": "arceus_ghost",
     "baseStats": {
         "atk": 238,
@@ -17826,7 +17850,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 草屬性",
+    "speciesName": "阿爾宙斯 草",
     "speciesId": "arceus_grass",
     "baseStats": {
         "atk": 238,
@@ -17846,7 +17870,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 地面屬性",
+    "speciesName": "阿爾宙斯 地",
     "speciesId": "arceus_ground",
     "baseStats": {
         "atk": 238,
@@ -17866,7 +17890,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 冰屬性",
+    "speciesName": "阿爾宙斯 冰",
     "speciesId": "arceus_ice",
     "baseStats": {
         "atk": 238,
@@ -17886,7 +17910,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 毒屬性",
+    "speciesName": "阿爾宙斯 毒",
     "speciesId": "arceus_poison",
     "baseStats": {
         "atk": 238,
@@ -17906,7 +17930,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 超能力屬性",
+    "speciesName": "阿爾宙斯 超",
     "speciesId": "arceus_psychic",
     "baseStats": {
         "atk": 238,
@@ -17926,7 +17950,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 岩石屬性",
+    "speciesName": "阿爾宙斯 岩",
     "speciesId": "arceus_rock",
     "baseStats": {
         "atk": 238,
@@ -17946,7 +17970,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 鋼屬性",
+    "speciesName": "阿爾宙斯 鋼",
     "speciesId": "arceus_steel",
     "baseStats": {
         "atk": 238,
@@ -17966,7 +17990,7 @@
     "released": false
 }, {
     "dex": 493,
-    "speciesName": "阿爾宙斯 水屬性",
+    "speciesName": "阿爾宙斯 水",
     "speciesId": "arceus_water",
     "baseStats": {
         "atk": 238,
@@ -19246,7 +19270,7 @@
     "released": true
 }, {
     "dex": 554,
-    "speciesName": "火紅不倒翁 伽勒爾型態",
+    "speciesName": "火紅不倒翁 伽勒爾",
     "speciesId": "darumaka_galarian",
     "baseStats": {
         "atk": 153,
@@ -19268,7 +19292,7 @@
     "released": true
 }, {
     "dex": 555,
-    "speciesName": "達摩狒狒 伽勒爾達摩型態",
+    "speciesName": "達摩狒狒 伽勒爾達摩",
     "speciesId": "darmanitan_galarian_zen",
     "baseStats": {
         "atk": 323,
@@ -19289,7 +19313,7 @@
     "released": false
 }, {
     "dex": 555,
-    "speciesName": "達摩狒狒 伽勒爾普通型態",
+    "speciesName": "達摩狒狒 伽勒爾普通",
     "speciesId": "darmanitan_galarian_standard",
     "baseStats": {
         "atk": 263,
@@ -19311,7 +19335,7 @@
 }, {
     "dex": 555,
     "speciesId": "darmanitan_standard",
-    "speciesName": "達摩狒狒 普通型態",
+    "speciesName": "達摩狒狒 普通",
     "baseStats": {
         "atk": 263,
         "def": 114,
@@ -19332,7 +19356,7 @@
 }, {
     "dex": 555,
     "speciesId": "darmanitan_zen",
-    "speciesName": "達摩狒狒 達摩型態",
+    "speciesName": "達摩狒狒 達摩",
     "baseStats": {
         "atk": 243,
         "def": 202,
@@ -19499,7 +19523,7 @@
 }, {
     "dex": 562,
     "speciesId": "yamask_galarian",
-    "speciesName": "哭哭面具 伽勒爾型態",
+    "speciesName": "哭哭面具 伽勒爾",
     "baseStats": {
         "atk": 95,
         "def": 141,
@@ -20663,7 +20687,7 @@
     "released": true
 }, {
     "dex": 618,
-    "speciesName": "泥巴魚 伽勒爾型態",
+    "speciesName": "泥巴魚 伽勒爾",
     "speciesId": "stunfisk_galarian",
     "baseStats": {
         "atk": 144,
@@ -21143,7 +21167,7 @@
 }, {
     "dex": 641,
     "speciesId": "tornadus_incarnate",
-    "speciesName": "龍捲雲 化身型態",
+    "speciesName": "龍捲雲 化身",
     "baseStats": {
         "atk": 266,
         "def": 164,
@@ -21164,7 +21188,7 @@
 }, {
     "dex": 641,
     "speciesId": "tornadus_therian",
-    "speciesName": "龍捲雲 靈獸型態",
+    "speciesName": "龍捲雲 靈獸",
     "baseStats": {
         "atk": 238,
         "def": 189,
@@ -21185,7 +21209,7 @@
 }, {
     "dex": 642,
     "speciesId": "thundurus_incarnate",
-    "speciesName": "雷電雲 化身型態",
+    "speciesName": "雷電雲 化身",
     "baseStats": {
         "atk": 266,
         "def": 164,
@@ -21206,7 +21230,7 @@
 }, {
     "dex": 642,
     "speciesId": "thundurus_therian",
-    "speciesName": "雷電雲 靈獸型態",
+    "speciesName": "雷電雲 靈獸",
     "baseStats": {
         "atk": 295,
         "def": 161,
@@ -21271,7 +21295,7 @@
 }, {
     "dex": 645,
     "speciesId": "landorus_incarnate",
-    "speciesName": "土地雲 化身型態",
+    "speciesName": "土地雲 化身",
     "baseStats": {
         "atk": 261,
         "def": 182,
@@ -21293,7 +21317,7 @@
 }, {
     "dex": 645,
     "speciesId": "landorus_therian",
-    "speciesName": "土地雲 靈獸型態",
+    "speciesName": "土地雲 靈獸",
     "baseStats": {
         "atk": 289,
         "def": 179,
@@ -21336,7 +21360,7 @@
 }, {
     "dex": 646,
     "speciesId": "kyurem_black",
-    "speciesName": "酋雷姆 闇黑型態",
+    "speciesName": "酋雷姆 闇黑",
     "baseStats": {
         "atk": 310,
         "def": 183,
@@ -21357,7 +21381,7 @@
 }, {
     "dex": 646,
     "speciesId": "kyurem_white",
-    "speciesName": "酋雷姆 焰白型態",
+    "speciesName": "酋雷姆 焰白",
     "baseStats": {
         "atk": 310,
         "def": 183,
@@ -21378,7 +21402,7 @@
 }, {
     "dex": 647,
     "speciesId": "keldeo_ordinary",
-    "speciesName": "凱路迪歐 平常型態",
+    "speciesName": "凱路迪歐 平常",
     "baseStats": {
         "atk": 260,
         "def": 192,
@@ -21398,7 +21422,7 @@
 }, {
     "dex": 647,
     "speciesId": "keldeo_resolute",
-    "speciesName": "凱路迪歐 覺悟型態",
+    "speciesName": "凱路迪歐 覺悟",
     "baseStats": {
         "atk": 260,
         "def": 192,
@@ -21418,7 +21442,7 @@
 }, {
     "dex": 648,
     "speciesId": "meloetta_aria",
-    "speciesName": "美洛耶塔 歌聲型態",
+    "speciesName": "美洛耶塔 歌聲",
     "baseStats": {
         "atk": 250,
         "def": 225,
@@ -21439,7 +21463,7 @@
 }, {
     "dex": 648,
     "speciesId": "meloetta_pirouette",
-    "speciesName": "美洛耶塔 舞步型態",
+    "speciesName": "美洛耶塔 舞步",
     "baseStats": {
         "atk": 269,
         "def": 188,
@@ -21481,7 +21505,7 @@
 }, {
     "dex": 649,
     "speciesId": "genesect_burn",
-    "speciesName": "蓋諾賽克特 火焰卡帶",
+    "speciesName": "蓋諾賽克特 火焰",
     "baseStats": {
         "atk": 252,
         "def": 199,
@@ -21503,7 +21527,7 @@
 }, {
     "dex": 649,
     "speciesId": "genesect_chill",
-    "speciesName": "蓋諾賽克特 冰凍卡帶",
+    "speciesName": "蓋諾賽克特 冰凍",
     "baseStats": {
         "atk": 252,
         "def": 199,
@@ -21524,7 +21548,7 @@
 }, {
     "dex": 649,
     "speciesId": "genesect_douse",
-    "speciesName": "蓋諾賽克特 水流卡帶",
+    "speciesName": "蓋諾賽克特 水流",
     "baseStats": {
         "atk": 252,
         "def": 199,
@@ -21546,7 +21570,7 @@
 }, {
     "dex": 649,
     "speciesId": "genesect_shock",
-    "speciesName": "蓋諾賽克特 閃電卡帶",
+    "speciesName": "蓋諾賽克特 閃電",
     "baseStats": {
         "atk": 252,
         "def": 199,
@@ -21963,7 +21987,7 @@
     "released": true
 }, {
     "dex": 668,
-    "speciesName": "火炎獅 雌性",
+    "speciesName": "火炎獅 雌",
     "speciesId": "pyroar_female",
     "baseStats": {
         "atk": 221,
@@ -22168,7 +22192,7 @@
     "released": true
 }, {
     "dex": 678,
-    "speciesName": "超能妙喵 雌性",
+    "speciesName": "超能妙喵 雌",
     "speciesId": "meowstic_female",
     "baseStats": {
         "atk": 166,
@@ -22188,7 +22212,7 @@
     "released": true
 }, {
     "dex": 678,
-    "speciesName": "超能妙喵 雄性",
+    "speciesName": "超能妙喵 雄",
     "speciesId": "meowstic",
     "baseStats": {
         "atk": 166,
@@ -23645,7 +23669,7 @@
     "released": false
 }, {
     "dex": 741,
-    "speciesName": "花舞鳥 熱辣熱辣風格",
+    "speciesName": "花舞鳥 熱辣熱辣",
     "speciesId": "oricorio_baile",
     "baseStats": {
         "atk": 196,
@@ -23666,7 +23690,7 @@
     "released": true
 }, {
     "dex": 741,
-    "speciesName": "花舞鳥 呼拉呼拉風格",
+    "speciesName": "花舞鳥 呼拉呼拉",
     "speciesId": "oricorio_pau",
     "baseStats": {
         "atk": 196,
@@ -23687,7 +23711,7 @@
     "released": true
 }, {
     "dex": 741,
-    "speciesName": "花舞鳥 啪滋啪滋風格",
+    "speciesName": "花舞鳥 啪滋啪滋",
     "speciesId": "oricorio_pom_pom",
     "baseStats": {
         "atk": 196,
@@ -23708,7 +23732,7 @@
     "released": true
 }, {
     "dex": 741,
-    "speciesName": "花舞鳥 輕盈輕盈風格",
+    "speciesName": "花舞鳥 輕盈輕盈",
     "speciesId": "oricorio_sensu",
     "baseStats": {
         "atk": 196,
@@ -23870,7 +23894,7 @@
     "released": false
 }, {
     "dex": 746,
-    "speciesName": "弱丁魚 魚群樣子",
+    "speciesName": "弱丁魚 魚群",
     "speciesId": "wishiwashi_school",
     "baseStats": {
         "atk": 255,
@@ -23890,7 +23914,7 @@
     "released": false
 }, {
     "dex": 746,
-    "speciesName": "弱丁魚 單獨樣子",
+    "speciesName": "弱丁魚 單獨",
     "speciesId": "wishiwashi_solo",
     "baseStats": {
         "atk": 46,
@@ -24803,7 +24827,7 @@
     "released": false
 }, {
     "dex": 774,
-    "speciesName": "小隕星 核心樣子",
+    "speciesName": "小隕星 核心",
     "speciesId": "minior_core",
     "baseStats": {
         "atk": 218,
@@ -24824,7 +24848,7 @@
     "released": false
 }, {
     "dex": 774,
-    "speciesName": "小隕星 流星樣子",
+    "speciesName": "小隕星 流星",
     "speciesId": "minior_meteor",
     "baseStats": {
         "atk": 116,
@@ -25418,7 +25442,7 @@
     "released": false
 }, {
     "dex": 800,
-    "speciesName": "奈克洛茲瑪 究極型態",
+    "speciesName": "奈克洛茲瑪 究極",
     "speciesId": "necrozma_ultra",
     "baseStats": {
         "atk": 337,
@@ -27118,7 +27142,7 @@
     "released": false
 }, {
     "dex": 876,
-    "speciesName": "愛管侍 雌性",
+    "speciesName": "愛管侍 雌",
     "speciesId": "indeedee_female",
     "baseStats": {
         "atk": 184,
@@ -27139,7 +27163,7 @@
     "released": false
 }, {
     "dex": 876,
-    "speciesName": "愛管侍 雄性",
+    "speciesName": "愛管侍 雄",
     "speciesId": "indeedee_male",
     "baseStats": {
         "atk": 208,

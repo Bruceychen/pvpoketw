@@ -358,7 +358,7 @@
         "dexStart": 808,
         "dexEnd": 898
     }],
-    "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "venusaur_mega", "charmander", "charmeleon", "charizard", "charizard_mega_x", "charizard_mega_y", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "beedrill_mega", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "alakazam_mega", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "gyarados_mega", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "ampharos_mega", "bellossom", "politoed", "scizor", "scizor_mega", "houndour", "houndoom", "houndoom_mega", "larvitar", "pupitar", "tyranitar", "tyranitar_mega", "mudkip", "marshtomp", "swampert", "swampert_mega", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "gardevoir_mega", "trapinch", "vibrava", "flygon", "shuppet", "banette", "banette_mega", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "gallade_mega", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "sableye", "sableye_mega", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "salamence_mega", "snover", "abomasnow", "abomasnow_mega", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "sharpedo_mega", "pinsir", "pinsir_mega", "mawile", "mawile_mega", "beldum", "metang", "metagross", "metagross_mega", "entei", "ekans", "arbok", "koffing", "weezing", "nidoran_female", "nidorina", "nidoran_male", "nidorino", "nidoqueen", "nidoking", "machop", "machoke", "machamp", "gligar", "gliscor", "shuckle", "stunky", "skuntank", "suicune", "pineco", "forretress", "mewtwo", "mewtwo_mega_x", "mewtwo_mega_y", "diglett", "dugtrio", "shellder", "cloyster", "slowpoke", "slowbro", "slowking", "aerodactyl", "skarmory", "teddiursa", "ursaring", "hoppip", "skiploom", "jumpluff", "wooper", "quagsire", "swinub", "piloswine", "mamoswine", "nosepass", "probopass", "aron", "lairon", "aggron", "spheal", "sealeo", "walrein", "lileep", "cradily", "anorith", "armaldo", "aipom", "ambipom", "skorupi", "drapion", "poochyena", "mightyena", "murkrow", "honchkrow", "electrike", "manectric", "snubbull", "granbull", "makuhita", "hariyama", "starly", "staravia", "staraptor", "tangela", "tangrowth", "horsea", "seadra", "kingdra", "ho_oh", "bidoof", "bibarel", "cacnea", "cacturne", "lugia", "voltorb", "electrode", "chikorita", "bayleef", "meganium", "cyndaquil", "quilava", "typhlosion", "totodile", "croconaw", "feraligatr", "whismur", "loudred", "exploud", "hippopotas", "hippowdon", "rattata_alolan", "raticate_alolan", "sandshrew_alolan", "sandslash_alolan", "exeggutor_alolan", "sudowoodo", "girafarig", "numel", "camerupt", "latias", "exeggutor_alolan"],
+    "shadowPokemon": ["bulbasaur", "ivysaur", "venusaur", "venusaur_mega", "charmander", "charmeleon", "charizard", "charizard_mega_x", "charizard_mega_y", "squirtle", "wartortle", "blastoise", "weedle", "kakuna", "beedrill", "beedrill_mega", "rattata", "raticate", "zubat", "golbat", "oddish", "gloom", "vileplume", "venonat", "venomoth", "meowth", "persian", "psyduck", "golduck", "growlithe", "arcanine", "poliwag", "poliwhirl", "poliwrath", "abra", "kadabra", "alakazam", "alakazam_mega", "grimer", "muk", "drowzee", "hypno", "cubone", "marowak", "hitmonchan", "scyther", "electabuzz", "magmar", "magikarp", "gyarados", "gyarados_mega", "lapras", "snorlax", "dratini", "dragonair", "dragonite", "crobat", "mareep", "flaaffy", "ampharos", "ampharos_mega", "bellossom", "politoed", "scizor", "scizor_mega", "houndour", "houndoom", "houndoom_mega", "larvitar", "pupitar", "tyranitar", "tyranitar_mega", "mudkip", "marshtomp", "swampert", "swampert_mega", "seedot", "nuzleaf", "shiftry", "ralts", "kirlia", "gardevoir", "gardevoir_mega", "trapinch", "vibrava", "flygon", "shuppet", "banette", "banette_mega", "duskull", "dusclops", "turtwig", "grotle", "torterra", "electivire", "magmortar", "gallade", "gallade_mega", "dusknoir", "magnemite", "magneton", "magnezone", "bellsprout", "weepinbell", "victreebel", "sandshrew", "sandslash", "porygon", "porygon2", "porygon_z", "wobbuffet", "meowth", "persian", "hitmonlee", "articuno", "sneasel", "weavile", "sableye", "sableye_mega", "zapdos", "moltres", "delibird", "stantler", "absol", "bagon", "shelgon", "salamence", "salamence_mega", "snover", "abomasnow", "abomasnow_mega", "raikou", "vulpix", "ninetales", "exeggcute", "exeggutor", "omanyte", "omastar", "misdreavus", "mismagius", "carvanha", "sharpedo", "sharpedo_mega", "pinsir", "pinsir_mega", "mawile", "mawile_mega", "beldum", "metang", "metagross", "metagross_mega", "entei", "ekans", "arbok", "koffing", "weezing", "nidoran_female", "nidorina", "nidoran_male", "nidorino", "nidoqueen", "nidoking", "machop", "machoke", "machamp", "gligar", "gliscor", "shuckle", "stunky", "skuntank", "suicune", "pineco", "forretress", "mewtwo", "mewtwo_mega_x", "mewtwo_mega_y", "diglett", "dugtrio", "shellder", "cloyster", "slowpoke", "slowbro", "slowking", "aerodactyl", "skarmory", "teddiursa", "ursaring", "hoppip", "skiploom", "jumpluff", "wooper", "quagsire", "swinub", "piloswine", "mamoswine", "nosepass", "probopass", "aron", "lairon", "aggron", "spheal", "sealeo", "walrein", "lileep", "cradily", "anorith", "armaldo", "aipom", "ambipom", "skorupi", "drapion", "poochyena", "mightyena", "murkrow", "honchkrow", "electrike", "manectric", "snubbull", "granbull", "makuhita", "hariyama", "starly", "staravia", "staraptor", "tangela", "tangrowth", "horsea", "seadra", "kingdra", "ho_oh", "bidoof", "bibarel", "cacnea", "cacturne", "lugia", "voltorb", "electrode", "chikorita", "bayleef", "meganium", "cyndaquil", "quilava", "typhlosion", "totodile", "croconaw", "feraligatr", "whismur", "loudred", "exploud", "hippopotas", "hippowdon", "rattata_alolan", "raticate_alolan", "sandshrew_alolan", "sandslash_alolan", "exeggutor_alolan", "sudowoodo", "girafarig", "numel", "camerupt", "latias", "exeggutor_alolan", "marowak_alolan"],
     "pokemon": [{
         "dex": 1,
         "speciesName": "妙蛙種子",
@@ -383,7 +383,7 @@
         "released": true
     }, {
         "dex": 1,
-        "speciesName": "妙蛙種子 暗影化",
+        "speciesName": "妙蛙種子 暗影",
         "speciesId": "bulbasaur_shadow",
         "baseStats": {
             "atk": 118,
@@ -426,7 +426,7 @@
         "released": true
     }, {
         "dex": 2,
-        "speciesName": "妙蛙草 暗影化",
+        "speciesName": "妙蛙草 暗影",
         "speciesId": "ivysaur_shadow",
         "baseStats": {
             "atk": 151,
@@ -494,7 +494,7 @@
         "released": true
     }, {
         "dex": 3,
-        "speciesName": "妙蛙花 暗影化",
+        "speciesName": "妙蛙花 暗影",
         "speciesId": "venusaur_shadow",
         "baseStats": {
             "atk": 198,
@@ -539,7 +539,7 @@
         "released": true
     }, {
         "dex": 4,
-        "speciesName": "小火龍 暗影化",
+        "speciesName": "小火龍 暗影",
         "speciesId": "charmander_shadow",
         "baseStats": {
             "atk": 116,
@@ -583,7 +583,7 @@
         "released": true
     }, {
         "dex": 5,
-        "speciesName": "火恐龍 暗影化",
+        "speciesName": "火恐龍 暗影",
         "speciesId": "charmeleon_shadow",
         "baseStats": {
             "atk": 158,
@@ -675,7 +675,7 @@
         "released": true
     }, {
         "dex": 6,
-        "speciesName": "噴火龍 暗影化",
+        "speciesName": "噴火龍 暗影",
         "speciesId": "charizard_shadow",
         "baseStats": {
             "atk": 223,
@@ -720,7 +720,7 @@
         "released": true
     }, {
         "dex": 7,
-        "speciesName": "傑尼龜 暗影化",
+        "speciesName": "傑尼龜 暗影",
         "speciesId": "squirtle_shadow",
         "baseStats": {
             "atk": 94,
@@ -764,7 +764,7 @@
         "released": true
     }, {
         "dex": 8,
-        "speciesName": "卡咪龜 暗影化",
+        "speciesName": "卡咪龜 暗影",
         "speciesId": "wartortle_shadow",
         "baseStats": {
             "atk": 126,
@@ -833,7 +833,7 @@
         "released": true
     }, {
         "dex": 9,
-        "speciesName": "水箭龜 暗影化",
+        "speciesName": "水箭龜 暗影",
         "speciesId": "blastoise_shadow",
         "baseStats": {
             "atk": 171,
@@ -941,7 +941,7 @@
         "released": true
     }, {
         "dex": 13,
-        "speciesName": "獨角蟲 暗影化",
+        "speciesName": "獨角蟲 暗影",
         "speciesId": "weedle_shadow",
         "baseStats": {
             "atk": 63,
@@ -985,7 +985,7 @@
         "released": true
     }, {
         "dex": 14,
-        "speciesName": "鐵殼蛹 暗影化",
+        "speciesName": "鐵殼蛹 暗影",
         "speciesId": "kakuna_shadow",
         "baseStats": {
             "atk": 46,
@@ -1053,7 +1053,7 @@
         "released": true
     }, {
         "dex": 15,
-        "speciesName": "大針蜂 暗影化",
+        "speciesName": "大針蜂 暗影",
         "speciesId": "beedrill_shadow",
         "baseStats": {
             "atk": 169,
@@ -1182,7 +1182,7 @@
         "released": true
     }, {
         "dex": 19,
-        "speciesName": "小拉達 阿羅拉型態",
+        "speciesName": "小拉達 阿羅拉",
         "speciesId": "rattata_alolan",
         "baseStats": {
             "atk": 103,
@@ -1204,7 +1204,7 @@
         "level25CP": 388
     }, {
         "dex": 19,
-        "speciesName": "小拉達 暗影化",
+        "speciesName": "小拉達 暗影",
         "speciesId": "rattata_shadow",
         "baseStats": {
             "atk": 103,
@@ -1225,7 +1225,7 @@
         "released": true
     }, {
         "dex": 19,
-        "speciesName": "小拉達 阿羅拉型態 暗影化",
+        "speciesName": "小拉達 阿羅拉 暗影",
         "speciesId": "rattata_alolan_shadow",
         "baseStats": {
             "atk": 103,
@@ -1268,7 +1268,7 @@
         "released": true
     }, {
         "dex": 20,
-        "speciesName": "拉達 阿羅拉型態",
+        "speciesName": "拉達 阿羅拉",
         "speciesId": "raticate_alolan",
         "baseStats": {
             "atk": 135,
@@ -1291,7 +1291,7 @@
         "level25CP": 1005
     }, {
         "dex": 20,
-        "speciesName": "拉達 暗影化",
+        "speciesName": "拉達 暗影",
         "speciesId": "raticate_shadow",
         "baseStats": {
             "atk": 161,
@@ -1312,7 +1312,7 @@
         "released": true
     }, {
         "dex": 20,
-        "speciesName": "拉達 阿羅拉型態 暗影化",
+        "speciesName": "拉達 阿羅拉 暗影",
         "speciesId": "raticate_alolan_shadow",
         "baseStats": {
             "atk": 135,
@@ -1399,7 +1399,7 @@
         "released": true
     }, {
         "dex": 23,
-        "speciesName": "阿柏蛇 暗影化",
+        "speciesName": "阿柏蛇 暗影",
         "speciesId": "ekans_shadow",
         "baseStats": {
             "atk": 110,
@@ -1443,7 +1443,7 @@
         "released": true
     }, {
         "dex": 24,
-        "speciesName": "阿柏怪 暗影化",
+        "speciesName": "阿柏怪 暗影",
         "speciesId": "arbok_shadow",
         "baseStats": {
             "atk": 167,
@@ -1627,7 +1627,7 @@
         "released": true
     }, {
         "dex": 26,
-        "speciesName": "雷丘 阿羅拉型態",
+        "speciesName": "雷丘 阿羅拉",
         "speciesId": "raichu_alolan",
         "baseStats": {
             "atk": 201,
@@ -1673,7 +1673,7 @@
         "released": true
     }, {
         "dex": 27,
-        "speciesName": "穿山鼠 阿羅拉型態",
+        "speciesName": "穿山鼠 阿羅拉",
         "speciesId": "sandshrew_alolan",
         "baseStats": {
             "atk": 125,
@@ -1695,7 +1695,7 @@
         "level25CP": 741
     }, {
         "dex": 27,
-        "speciesName": "穿山鼠 暗影化",
+        "speciesName": "穿山鼠 暗影",
         "speciesId": "sandshrew_shadow",
         "baseStats": {
             "atk": 126,
@@ -1717,7 +1717,7 @@
         "released": true
     }, {
         "dex": 27,
-        "speciesName": "穿山鼠 阿羅拉型態 暗影化",
+        "speciesName": "穿山鼠 阿羅拉 暗影",
         "speciesId": "sandshrew_alolan_shadow",
         "baseStats": {
             "atk": 125,
@@ -1762,7 +1762,7 @@
         "released": true
     }, {
         "dex": 28,
-        "speciesName": "穿山王 阿羅拉型態",
+        "speciesName": "穿山王 阿羅拉",
         "speciesId": "sandslash_alolan",
         "baseStats": {
             "atk": 177,
@@ -1787,7 +1787,7 @@
         "level25CP": 1483
     }, {
         "dex": 28,
-        "speciesName": "穿山王 暗影化",
+        "speciesName": "穿山王 暗影",
         "speciesId": "sandslash_shadow",
         "baseStats": {
             "atk": 182,
@@ -1810,7 +1810,7 @@
         "released": true
     }, {
         "dex": 28,
-        "speciesName": "穿山王 阿羅拉型態 暗影化",
+        "speciesName": "穿山王 阿羅拉 暗影",
         "speciesId": "sandslash_alolan_shadow",
         "baseStats": {
             "atk": 177,
@@ -1856,7 +1856,7 @@
         "released": true
     }, {
         "dex": 29,
-        "speciesName": "尼多蘭 暗影化",
+        "speciesName": "尼多蘭 暗影",
         "speciesId": "nidoran_female_shadow",
         "baseStats": {
             "atk": 86,
@@ -1899,7 +1899,7 @@
         "released": true
     }, {
         "dex": 30,
-        "speciesName": "尼多娜 暗影化",
+        "speciesName": "尼多娜 暗影",
         "speciesId": "nidorina_shadow",
         "baseStats": {
             "atk": 117,
@@ -1944,7 +1944,7 @@
         "released": true
     }, {
         "dex": 31,
-        "speciesName": "尼多后 暗影化",
+        "speciesName": "尼多后 暗影",
         "speciesId": "nidoqueen_shadow",
         "baseStats": {
             "atk": 180,
@@ -1989,7 +1989,7 @@
         "released": true
     }, {
         "dex": 32,
-        "speciesName": "尼多朗 暗影化",
+        "speciesName": "尼多朗 暗影",
         "speciesId": "nidoran_male_shadow",
         "baseStats": {
             "atk": 105,
@@ -2033,7 +2033,7 @@
         "released": true
     }, {
         "dex": 33,
-        "speciesName": "尼多力諾 暗影化",
+        "speciesName": "尼多力諾 暗影",
         "speciesId": "nidorino_shadow",
         "baseStats": {
             "atk": 137,
@@ -2079,7 +2079,7 @@
         "released": true
     }, {
         "dex": 34,
-        "speciesName": "尼多王 暗影化",
+        "speciesName": "尼多王 暗影",
         "speciesId": "nidoking_shadow",
         "baseStats": {
             "atk": 204,
@@ -2167,7 +2167,7 @@
         "released": true
     }, {
         "dex": 37,
-        "speciesName": "六尾 阿羅拉型態",
+        "speciesName": "六尾 阿羅拉",
         "speciesId": "vulpix_alolan",
         "baseStats": {
             "atk": 96,
@@ -2188,7 +2188,7 @@
         "released": true
     }, {
         "dex": 37,
-        "speciesName": "六尾 暗影化",
+        "speciesName": "六尾 暗影",
         "speciesId": "vulpix_shadow",
         "baseStats": {
             "atk": 96,
@@ -2234,7 +2234,7 @@
         "released": true
     }, {
         "dex": 38,
-        "speciesName": "九尾 阿羅拉型態",
+        "speciesName": "九尾 阿羅拉",
         "speciesId": "ninetales_alolan",
         "baseStats": {
             "atk": 170,
@@ -2257,7 +2257,7 @@
         "released": true
     }, {
         "dex": 38,
-        "speciesName": "九尾 暗影化",
+        "speciesName": "九尾 暗影",
         "speciesId": "ninetales_shadow",
         "baseStats": {
             "atk": 169,
@@ -2346,7 +2346,7 @@
         "released": true
     }, {
         "dex": 41,
-        "speciesName": "超音蝠 暗影化",
+        "speciesName": "超音蝠 暗影",
         "speciesId": "zubat_shadow",
         "baseStats": {
             "atk": 83,
@@ -2392,7 +2392,7 @@
         "released": true
     }, {
         "dex": 42,
-        "speciesName": "大嘴蝠 暗影化",
+        "speciesName": "大嘴蝠 暗影",
         "speciesId": "golbat_shadow",
         "baseStats": {
             "atk": 161,
@@ -2437,7 +2437,7 @@
         "released": true
     }, {
         "dex": 43,
-        "speciesName": "走路草 暗影化",
+        "speciesName": "走路草 暗影",
         "speciesId": "oddish_shadow",
         "baseStats": {
             "atk": 131,
@@ -2480,7 +2480,7 @@
         "released": true
     }, {
         "dex": 44,
-        "speciesName": "臭臭花 暗影化",
+        "speciesName": "臭臭花 暗影",
         "speciesId": "gloom_shadow",
         "baseStats": {
             "atk": 153,
@@ -2524,7 +2524,7 @@
         "released": true
     }, {
         "dex": 45,
-        "speciesName": "霸王花 暗影化",
+        "speciesName": "霸王花 暗影",
         "speciesId": "vileplume_shadow",
         "baseStats": {
             "atk": 202,
@@ -2609,7 +2609,7 @@
         "released": true
     }, {
         "dex": 48,
-        "speciesName": "毛球 暗影化",
+        "speciesName": "毛球 暗影",
         "speciesId": "venonat_shadow",
         "baseStats": {
             "atk": 100,
@@ -2653,7 +2653,7 @@
         "released": true
     }, {
         "dex": 49,
-        "speciesName": "摩魯蛾 暗影化",
+        "speciesName": "摩魯蛾 暗影",
         "speciesId": "venomoth_shadow",
         "baseStats": {
             "atk": 179,
@@ -2698,7 +2698,7 @@
         "released": true
     }, {
         "dex": 50,
-        "speciesName": "地鼠 阿羅拉型態",
+        "speciesName": "地鼠 阿羅拉",
         "speciesId": "diglett_alolan",
         "baseStats": {
             "atk": 108,
@@ -2719,7 +2719,7 @@
         "released": true
     }, {
         "dex": 50,
-        "speciesName": "地鼠 暗影化",
+        "speciesName": "地鼠 暗影",
         "speciesId": "diglett_shadow",
         "baseStats": {
             "atk": 109,
@@ -2764,7 +2764,7 @@
         "released": true
     }, {
         "dex": 51,
-        "speciesName": "三地鼠 阿羅拉型態",
+        "speciesName": "三地鼠 阿羅拉",
         "speciesId": "dugtrio_alolan",
         "baseStats": {
             "atk": 201,
@@ -2785,7 +2785,7 @@
         "released": true
     }, {
         "dex": 51,
-        "speciesName": "三地鼠 暗影化",
+        "speciesName": "三地鼠 暗影",
         "speciesId": "dugtrio_shadow",
         "baseStats": {
             "atk": 167,
@@ -2830,7 +2830,7 @@
         "released": true
     }, {
         "dex": 52,
-        "speciesName": "喵喵 阿羅拉型態",
+        "speciesName": "喵喵 阿羅拉",
         "speciesId": "meowth_alolan",
         "baseStats": {
             "atk": 99,
@@ -2851,7 +2851,7 @@
         "released": true
     }, {
         "dex": 52,
-        "speciesName": "喵喵 伽勒爾型態",
+        "speciesName": "喵喵 伽勒爾",
         "speciesId": "meowth_galarian",
         "baseStats": {
             "atk": 115,
@@ -2872,7 +2872,7 @@
         "released": true
     }, {
         "dex": 52,
-        "speciesName": "喵喵 暗影化",
+        "speciesName": "喵喵 暗影",
         "speciesId": "meowth_shadow",
         "baseStats": {
             "atk": 92,
@@ -2917,7 +2917,7 @@
         "released": true
     }, {
         "dex": 53,
-        "speciesName": "貓老大 阿羅拉型態",
+        "speciesName": "貓老大 阿羅拉",
         "speciesId": "persian_alolan",
         "baseStats": {
             "atk": 158,
@@ -2938,7 +2938,7 @@
         "released": true
     }, {
         "dex": 53,
-        "speciesName": "貓老大 暗影化",
+        "speciesName": "貓老大 暗影",
         "speciesId": "persian_shadow",
         "baseStats": {
             "atk": 150,
@@ -2982,7 +2982,7 @@
         "released": true
     }, {
         "dex": 54,
-        "speciesName": "可達鴨 暗影化",
+        "speciesName": "可達鴨 暗影",
         "speciesId": "psyduck_shadow",
         "baseStats": {
             "atk": 122,
@@ -3026,7 +3026,7 @@
         "released": true
     }, {
         "dex": 55,
-        "speciesName": "哥達鴨 暗影化",
+        "speciesName": "哥達鴨 暗影",
         "speciesId": "golduck_shadow",
         "baseStats": {
             "atk": 191,
@@ -3112,7 +3112,7 @@
         "released": true
     }, {
         "dex": 58,
-        "speciesName": "卡蒂狗 暗影化",
+        "speciesName": "卡蒂狗 暗影",
         "speciesId": "growlithe_shadow",
         "baseStats": {
             "atk": 136,
@@ -3156,7 +3156,7 @@
         "released": true
     }, {
         "dex": 59,
-        "speciesName": "風速狗 暗影化",
+        "speciesName": "風速狗 暗影",
         "speciesId": "arcanine_shadow",
         "baseStats": {
             "atk": 227,
@@ -3200,7 +3200,7 @@
         "released": true
     }, {
         "dex": 60,
-        "speciesName": "蚊香蝌蚪 暗影化",
+        "speciesName": "蚊香蝌蚪 暗影",
         "speciesId": "poliwag_shadow",
         "baseStats": {
             "atk": 101,
@@ -3245,7 +3245,7 @@
         "released": true
     }, {
         "dex": 61,
-        "speciesName": "蚊香君 暗影化",
+        "speciesName": "蚊香君 暗影",
         "speciesId": "poliwhirl_shadow",
         "baseStats": {
             "atk": 130,
@@ -3293,7 +3293,7 @@
         "released": true
     }, {
         "dex": 62,
-        "speciesName": "蚊香泳士 暗影化",
+        "speciesName": "蚊香泳士 暗影",
         "speciesId": "poliwrath_shadow",
         "baseStats": {
             "atk": 182,
@@ -3340,7 +3340,7 @@
         "released": true
     }, {
         "dex": 63,
-        "speciesName": "凱西 暗影化",
+        "speciesName": "凱西 暗影",
         "speciesId": "abra_shadow",
         "baseStats": {
             "atk": 195,
@@ -3384,7 +3384,7 @@
         "released": true
     }, {
         "dex": 64,
-        "speciesName": "勇基拉 暗影化",
+        "speciesName": "勇基拉 暗影",
         "speciesId": "kadabra_shadow",
         "baseStats": {
             "atk": 232,
@@ -3428,7 +3428,7 @@
         "released": true
     }, {
         "dex": 65,
-        "speciesName": "胡地 暗影化",
+        "speciesName": "胡地 暗影",
         "speciesId": "alakazam_shadow",
         "baseStats": {
             "atk": 271,
@@ -3473,7 +3473,7 @@
         "released": true
     }, {
         "dex": 66,
-        "speciesName": "腕力 暗影化",
+        "speciesName": "腕力 暗影",
         "speciesId": "machop_shadow",
         "baseStats": {
             "atk": 137,
@@ -3518,7 +3518,7 @@
         "released": true
     }, {
         "dex": 67,
-        "speciesName": "豪力 暗影化",
+        "speciesName": "豪力 暗影",
         "speciesId": "machoke_shadow",
         "baseStats": {
             "atk": 177,
@@ -3564,7 +3564,7 @@
         "released": true
     }, {
         "dex": 68,
-        "speciesName": "怪力 暗影化",
+        "speciesName": "怪力 暗影",
         "speciesId": "machamp_shadow",
         "baseStats": {
             "atk": 234,
@@ -3609,7 +3609,7 @@
         "released": true
     }, {
         "dex": 69,
-        "speciesName": "喇叭芽 暗影化",
+        "speciesName": "喇叭芽 暗影",
         "speciesId": "bellsprout_shadow",
         "baseStats": {
             "atk": 139,
@@ -3653,7 +3653,7 @@
         "released": true
     }, {
         "dex": 70,
-        "speciesName": "口呆花 暗影化",
+        "speciesName": "口呆花 暗影",
         "speciesId": "weepinbell_shadow",
         "baseStats": {
             "atk": 172,
@@ -3699,7 +3699,7 @@
         "released": true
     }, {
         "dex": 71,
-        "speciesName": "大食花 暗影化",
+        "speciesName": "大食花 暗影",
         "speciesId": "victreebel_shadow",
         "baseStats": {
             "atk": 207,
@@ -3785,7 +3785,7 @@
         "released": true
     }, {
         "dex": 74,
-        "speciesName": "小拳石 阿羅拉型態",
+        "speciesName": "小拳石 阿羅拉",
         "speciesId": "geodude_alolan",
         "baseStats": {
             "atk": 132,
@@ -3830,7 +3830,7 @@
         "released": true
     }, {
         "dex": 75,
-        "speciesName": "隆隆石 阿羅拉型態",
+        "speciesName": "隆隆石 阿羅拉",
         "speciesId": "graveler_alolan",
         "baseStats": {
             "atk": 164,
@@ -3874,7 +3874,7 @@
         "released": true
     }, {
         "dex": 76,
-        "speciesName": "隆隆岩 阿羅拉型態",
+        "speciesName": "隆隆岩 阿羅拉",
         "speciesId": "golem_alolan",
         "baseStats": {
             "atk": 211,
@@ -3917,7 +3917,7 @@
         "released": true
     }, {
         "dex": 77,
-        "speciesName": "小火馬 伽勒爾型態",
+        "speciesName": "小火馬 伽勒爾",
         "speciesId": "ponyta_galarian",
         "baseStats": {
             "atk": 170,
@@ -3960,7 +3960,7 @@
         "released": true
     }, {
         "dex": 78,
-        "speciesName": "烈焰馬 伽勒爾型態",
+        "speciesName": "烈焰馬 伽勒爾",
         "speciesId": "rapidash_galarian",
         "baseStats": {
             "atk": 207,
@@ -4004,7 +4004,7 @@
         "released": true
     }, {
         "dex": 79,
-        "speciesName": "呆呆獸 伽勒爾型態",
+        "speciesName": "呆呆獸 伽勒爾",
         "speciesId": "slowpoke_galarian",
         "baseStats": {
             "atk": 109,
@@ -4025,7 +4025,7 @@
         "released": true
     }, {
         "dex": 79,
-        "speciesName": "呆呆獸 暗影化",
+        "speciesName": "呆呆獸 暗影",
         "speciesId": "slowpoke_shadow",
         "baseStats": {
             "atk": 109,
@@ -4069,7 +4069,7 @@
         "released": true
     }, {
         "dex": 80,
-        "speciesName": "呆殼獸 伽勒爾型態",
+        "speciesName": "呆殼獸 伽勒爾",
         "speciesId": "slowbro_galarian",
         "baseStats": {
             "atk": 182,
@@ -4112,7 +4112,7 @@
         "released": true
     }, {
         "dex": 80,
-        "speciesName": "呆殼獸 暗影化",
+        "speciesName": "呆殼獸 暗影",
         "speciesId": "slowbro_shadow",
         "baseStats": {
             "atk": 177,
@@ -4157,7 +4157,7 @@
         "released": true
     }, {
         "dex": 81,
-        "speciesName": "小磁怪 暗影化",
+        "speciesName": "小磁怪 暗影",
         "speciesId": "magnemite_shadow",
         "baseStats": {
             "atk": 165,
@@ -4202,7 +4202,7 @@
         "released": true
     }, {
         "dex": 82,
-        "speciesName": "三合一磁怪 暗影化",
+        "speciesName": "三合一磁怪 暗影",
         "speciesId": "magneton_shadow",
         "baseStats": {
             "atk": 223,
@@ -4246,7 +4246,7 @@
         "released": true
     }, {
         "dex": 83,
-        "speciesName": "大蔥鴨 伽勒爾型態",
+        "speciesName": "大蔥鴨 伽勒爾",
         "speciesId": "farfetchd_galarian",
         "baseStats": {
             "atk": 174,
@@ -4376,7 +4376,7 @@
         "released": true
     }, {
         "dex": 88,
-        "speciesName": "臭泥 阿羅拉型態",
+        "speciesName": "臭泥 阿羅拉",
         "speciesId": "grimer_alolan",
         "baseStats": {
             "atk": 135,
@@ -4399,7 +4399,7 @@
         "released": true
     }, {
         "dex": 88,
-        "speciesName": "臭泥 暗影化",
+        "speciesName": "臭泥 暗影",
         "speciesId": "grimer_shadow",
         "baseStats": {
             "atk": 135,
@@ -4445,7 +4445,7 @@
         "released": true
     }, {
         "dex": 89,
-        "speciesName": "臭臭泥 阿羅拉型態",
+        "speciesName": "臭臭泥 阿羅拉",
         "speciesId": "muk_alolan",
         "baseStats": {
             "atk": 190,
@@ -4467,7 +4467,7 @@
         "released": true
     }, {
         "dex": 89,
-        "speciesName": "臭臭泥 暗影化",
+        "speciesName": "臭臭泥 暗影",
         "speciesId": "muk_shadow",
         "baseStats": {
             "atk": 190,
@@ -4511,7 +4511,7 @@
         "released": true
     }, {
         "dex": 90,
-        "speciesName": "大舌貝 暗影化",
+        "speciesName": "大舌貝 暗影",
         "speciesId": "shellder_shadow",
         "baseStats": {
             "atk": 116,
@@ -4556,7 +4556,7 @@
         "released": true
     }, {
         "dex": 91,
-        "speciesName": "刺甲貝 暗影化",
+        "speciesName": "刺甲貝 暗影",
         "speciesId": "cloyster_shadow",
         "baseStats": {
             "atk": 186,
@@ -4710,7 +4710,7 @@
         "released": true
     }, {
         "dex": 96,
-        "speciesName": "催眠貘 暗影化",
+        "speciesName": "催眠貘 暗影",
         "speciesId": "drowzee_shadow",
         "baseStats": {
             "atk": 89,
@@ -4755,7 +4755,7 @@
         "released": true
     }, {
         "dex": 97,
-        "speciesName": "引夢貘人 暗影化",
+        "speciesName": "引夢貘人 暗影",
         "speciesId": "hypno_shadow",
         "baseStats": {
             "atk": 144,
@@ -4843,7 +4843,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 100,
-        "speciesName": "霹靂電球 洗翠型態",
+        "speciesName": "霹靂電球 洗翠",
         "speciesId": "voltorb_hisuian",
         "baseStats": {
             "atk": 109,
@@ -4864,7 +4864,7 @@
         "released": true
     }, {
         "dex": 100,
-        "speciesName": "霹靂電球 暗影化",
+        "speciesName": "霹靂電球 暗影",
         "speciesId": "voltorb_shadow",
         "baseStats": {
             "atk": 109,
@@ -4910,7 +4910,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 101,
-        "speciesName": "頑皮雷彈 洗翠型態",
+        "speciesName": "頑皮雷彈 洗翠",
         "speciesId": "electrode_hisuian",
         "baseStats": {
             "atk": 176,
@@ -4934,7 +4934,7 @@
         "tags": ["hisuian"]
     }, {
         "dex": 101,
-        "speciesName": "頑皮雷彈 暗影化",
+        "speciesName": "頑皮雷彈 暗影",
         "speciesId": "electrode_shadow",
         "baseStats": {
             "atk": 173,
@@ -4979,7 +4979,7 @@
         "released": true
     }, {
         "dex": 102,
-        "speciesName": "蛋蛋 暗影化",
+        "speciesName": "蛋蛋 暗影",
         "speciesId": "exeggcute_shadow",
         "baseStats": {
             "atk": 107,
@@ -5024,7 +5024,7 @@
         "released": true
     }, {
         "dex": 103,
-        "speciesName": "椰蛋樹 阿羅拉型態",
+        "speciesName": "椰蛋樹 阿羅拉",
         "speciesId": "exeggutor_alolan",
         "baseStats": {
             "atk": 230,
@@ -5047,7 +5047,7 @@
         "level25CP": 1865
     }, {
         "dex": 103,
-        "speciesName": "椰蛋樹 暗影化",
+        "speciesName": "椰蛋樹 暗影",
         "speciesId": "exeggutor_shadow",
         "baseStats": {
             "atk": 233,
@@ -5070,7 +5070,7 @@
         "released": true
     }, {
         "dex": 103,
-        "speciesName": "椰蛋樹 阿羅拉型態 暗影化",
+        "speciesName": "椰蛋樹 阿羅拉 暗影",
         "speciesId": "exeggutor_alolan_shadow",
         "baseStats": {
             "atk": 230,
@@ -5114,7 +5114,7 @@
         "released": true
     }, {
         "dex": 104,
-        "speciesName": "卡拉卡拉 暗影化",
+        "speciesName": "卡拉卡拉 暗影",
         "speciesId": "cubone_shadow",
         "baseStats": {
             "atk": 90,
@@ -5157,7 +5157,7 @@
         "released": true
     }, {
         "dex": 105,
-        "speciesName": "嘎啦嘎啦 阿羅拉型態",
+        "speciesName": "嘎啦嘎啦 阿羅拉",
         "speciesId": "marowak_alolan",
         "baseStats": {
             "atk": 144,
@@ -5168,7 +5168,31 @@
         "fastMoves": ["HEX", "ROCK_SMASH", "FIRE_SPIN"],
         "chargedMoves": ["BONE_CLUB", "FIRE_BLAST", "SHADOW_BALL", "FLAME_WHEEL", "SHADOW_BONE"],
         "eliteMoves": ["SHADOW_BONE"],
-        "tags": ["alolan"],
+        "tags": ["alolan", "shadoweligible"],
+        "defaultIVs": {
+            "cp500": [10.5, 5, 9, 10],
+            "cp1500": [32, 5, 9, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "level25CP": 1119,
+        "searchPriority": 8,
+        "buddyDistance": 3,
+        "thirdMoveCost": 50000,
+        "released": true
+    }, {
+        "dex": 105,
+        "speciesName": "嘎啦嘎啦 阿羅拉 暗影",
+        "speciesId": "marowak_alolan_shadow",
+        "baseStats": {
+            "atk": 144,
+            "def": 186,
+            "hp": 155
+        },
+        "types": ["fire", "ghost"],
+        "fastMoves": ["HEX", "ROCK_SMASH", "FIRE_SPIN"],
+        "chargedMoves": ["BONE_CLUB", "FIRE_BLAST", "SHADOW_BALL", "FLAME_WHEEL", "SHADOW_BONE"],
+        "eliteMoves": ["SHADOW_BONE"],
+        "tags": ["alolan", "shadow"],
         "defaultIVs": {
             "cp500": [10.5, 5, 9, 10],
             "cp1500": [32, 5, 9, 15],
@@ -5180,7 +5204,7 @@
         "released": true
     }, {
         "dex": 105,
-        "speciesName": "嘎啦嘎啦 暗影化",
+        "speciesName": "嘎啦嘎啦 暗影",
         "speciesId": "marowak_shadow",
         "baseStats": {
             "atk": 144,
@@ -5225,7 +5249,7 @@
         "released": true
     }, {
         "dex": 106,
-        "speciesName": "飛腿郎 暗影化",
+        "speciesName": "飛腿郎 暗影",
         "speciesId": "hitmonlee_shadow",
         "baseStats": {
             "atk": 224,
@@ -5272,7 +5296,7 @@
         "released": true
     }, {
         "dex": 107,
-        "speciesName": "快拳郎 暗影化",
+        "speciesName": "快拳郎 暗影",
         "speciesId": "hitmonchan_shadow",
         "baseStats": {
             "atk": 193,
@@ -5341,7 +5365,7 @@
         "released": true
     }, {
         "dex": 109,
-        "speciesName": "瓦斯彈 暗影化",
+        "speciesName": "瓦斯彈 暗影",
         "speciesId": "koffing_shadow",
         "baseStats": {
             "atk": 119,
@@ -5386,7 +5410,7 @@
         "released": true
     }, {
         "dex": 110,
-        "speciesName": "雙彈瓦斯 伽勒爾型態",
+        "speciesName": "雙彈瓦斯 伽勒爾",
         "speciesId": "weezing_galarian",
         "baseStats": {
             "atk": 174,
@@ -5408,7 +5432,7 @@
         "released": true
     }, {
         "dex": 110,
-        "speciesName": "雙彈瓦斯 暗影化",
+        "speciesName": "雙彈瓦斯 暗影",
         "speciesId": "weezing_shadow",
         "baseStats": {
             "atk": 174,
@@ -5520,7 +5544,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 114,
-        "speciesName": "蔓藤怪 暗影化",
+        "speciesName": "蔓藤怪 暗影",
         "speciesId": "tangela_shadow",
         "baseStats": {
             "atk": 183,
@@ -5611,7 +5635,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 116,
-        "speciesName": "墨海馬 暗影化",
+        "speciesName": "墨海馬 暗影",
         "speciesId": "horsea_shadow",
         "baseStats": {
             "atk": 129,
@@ -5655,7 +5679,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 117,
-        "speciesName": "海刺龍 暗影化",
+        "speciesName": "海刺龍 暗影",
         "speciesId": "seadra_shadow",
         "baseStats": {
             "atk": 187,
@@ -5784,7 +5808,7 @@
         "released": true
     }, {
         "dex": 122,
-        "speciesName": "魔牆人偶 伽勒爾型態",
+        "speciesName": "魔牆人偶 伽勒爾",
         "speciesId": "mr_mime_galarian",
         "baseStats": {
             "atk": 183,
@@ -5828,7 +5852,7 @@
         "released": true
     }, {
         "dex": 123,
-        "speciesName": "飛天螳螂 暗影化",
+        "speciesName": "飛天螳螂 暗影",
         "speciesId": "scyther_shadow",
         "baseStats": {
             "atk": 218,
@@ -5895,7 +5919,7 @@
         "released": true
     }, {
         "dex": 125,
-        "speciesName": "電擊獸 暗影化",
+        "speciesName": "電擊獸 暗影",
         "speciesId": "electabuzz_shadow",
         "baseStats": {
             "atk": 198,
@@ -5940,7 +5964,7 @@
         "released": true
     }, {
         "dex": 126,
-        "speciesName": "鴨嘴火獸 暗影化",
+        "speciesName": "鴨嘴火獸 暗影",
         "speciesId": "magmar_shadow",
         "baseStats": {
             "atk": 206,
@@ -5986,7 +6010,7 @@
         "released": true
     }, {
         "dex": 127,
-        "speciesName": "凱羅斯 暗影化",
+        "speciesName": "凱羅斯 暗影",
         "speciesId": "pinsir_shadow",
         "baseStats": {
             "atk": 238,
@@ -6053,7 +6077,7 @@
         "released": true
     }, {
         "dex": 129,
-        "speciesName": "鯉魚王 暗影化",
+        "speciesName": "鯉魚王 暗影",
         "speciesId": "magikarp_shadow",
         "baseStats": {
             "atk": 29,
@@ -6121,7 +6145,7 @@
         "released": true
     }, {
         "dex": 130,
-        "speciesName": "暴鯉龍 暗影化",
+        "speciesName": "暴鯉龍 暗影",
         "speciesId": "gyarados_shadow",
         "baseStats": {
             "atk": 237,
@@ -6169,7 +6193,7 @@
         "released": true
     }, {
         "dex": 131,
-        "speciesName": "拉普拉斯 暗影化",
+        "speciesName": "拉普拉斯 暗影",
         "speciesId": "lapras_shadow",
         "baseStats": {
             "atk": 165,
@@ -6321,7 +6345,7 @@
         "released": true
     }, {
         "dex": 137,
-        "speciesName": "多邊獸 暗影化",
+        "speciesName": "多邊獸 暗影",
         "speciesId": "porygon_shadow",
         "baseStats": {
             "atk": 153,
@@ -6367,7 +6391,7 @@
         "released": true
     }, {
         "dex": 138,
-        "speciesName": "菊石獸 暗影化",
+        "speciesName": "菊石獸 暗影",
         "speciesId": "omanyte_shadow",
         "baseStats": {
             "atk": 155,
@@ -6413,7 +6437,7 @@
         "released": true
     }, {
         "dex": 139,
-        "speciesName": "多刺菊石獸 暗影化",
+        "speciesName": "多刺菊石獸 暗影",
         "speciesId": "omastar_shadow",
         "baseStats": {
             "atk": 207,
@@ -6520,7 +6544,7 @@
         "released": true
     }, {
         "dex": 142,
-        "speciesName": "化石翼龍 暗影化",
+        "speciesName": "化石翼龍 暗影",
         "speciesId": "aerodactyl_shadow",
         "baseStats": {
             "atk": 221,
@@ -6565,7 +6589,7 @@
         "released": true
     }, {
         "dex": 143,
-        "speciesName": "卡比獸 暗影化",
+        "speciesName": "卡比獸 暗影",
         "speciesId": "snorlax_shadow",
         "baseStats": {
             "atk": 190,
@@ -6612,7 +6636,7 @@
         "released": true
     }, {
         "dex": 144,
-        "speciesName": "急凍鳥 暗影化",
+        "speciesName": "急凍鳥 暗影",
         "speciesId": "articuno_shadow",
         "baseStats": {
             "atk": 192,
@@ -6657,7 +6681,7 @@
         "released": true
     }, {
         "dex": 145,
-        "speciesName": "閃電鳥 暗影化",
+        "speciesName": "閃電鳥 暗影",
         "speciesId": "zapdos_shadow",
         "baseStats": {
             "atk": 253,
@@ -6702,7 +6726,7 @@
         "released": true
     }, {
         "dex": 146,
-        "speciesName": "火焰鳥 暗影化",
+        "speciesName": "火焰鳥 暗影",
         "speciesId": "moltres_shadow",
         "baseStats": {
             "atk": 251,
@@ -6746,7 +6770,7 @@
         "released": true
     }, {
         "dex": 147,
-        "speciesName": "迷你龍 暗影化",
+        "speciesName": "迷你龍 暗影",
         "speciesId": "dratini_shadow",
         "baseStats": {
             "atk": 119,
@@ -6789,7 +6813,7 @@
         "released": true
     }, {
         "dex": 148,
-        "speciesName": "哈克龍 暗影化",
+        "speciesName": "哈克龍 暗影",
         "speciesId": "dragonair_shadow",
         "baseStats": {
             "atk": 163,
@@ -6834,7 +6858,7 @@
         "released": true
     }, {
         "dex": 149,
-        "speciesName": "快龍 暗影化",
+        "speciesName": "快龍 暗影",
         "speciesId": "dragonite_shadow",
         "baseStats": {
             "atk": 263,
@@ -6880,7 +6904,7 @@
         "released": true
     }, {
         "dex": 150,
-        "speciesName": "超夢 裝甲型態",
+        "speciesName": "超夢 裝甲",
         "speciesId": "mewtwo_armored",
         "baseStats": {
             "atk": 182,
@@ -6902,7 +6926,7 @@
         "released": true
     }, {
         "dex": 150,
-        "speciesName": "超夢 暗影化",
+        "speciesName": "超夢 暗影",
         "speciesId": "mewtwo_shadow",
         "baseStats": {
             "atk": 300,
@@ -6967,7 +6991,7 @@
         "level25CP": 512
     }, {
         "dex": 152,
-        "speciesName": "菊草葉 暗影化",
+        "speciesName": "菊草葉 暗影",
         "speciesId": "chikorita_shadow",
         "baseStats": {
             "atk": 92,
@@ -7011,7 +7035,7 @@
         "level25CP": 843
     }, {
         "dex": 153,
-        "speciesName": "月桂葉 暗影化",
+        "speciesName": "月桂葉 暗影",
         "speciesId": "bayleef_shadow",
         "baseStats": {
             "atk": 122,
@@ -7058,7 +7082,7 @@
         "level25CP": 1468
     }, {
         "dex": 154,
-        "speciesName": "大竺葵 暗影化",
+        "speciesName": "大竺葵 暗影",
         "speciesId": "meganium_shadow",
         "baseStats": {
             "atk": 168,
@@ -7104,7 +7128,7 @@
         "level25CP": 542
     }, {
         "dex": 155,
-        "speciesName": "火球鼠 暗影化",
+        "speciesName": "火球鼠 暗影",
         "speciesId": "cyndaquil_shadow",
         "baseStats": {
             "atk": 116,
@@ -7147,7 +7171,7 @@
         "level25CP": 972
     }, {
         "dex": 156,
-        "speciesName": "火岩鼠 暗影化",
+        "speciesName": "火岩鼠 暗影",
         "speciesId": "quilava_shadow",
         "baseStats": {
             "atk": 158,
@@ -7192,7 +7216,7 @@
         "level25CP": 1784
     }, {
         "dex": 157,
-        "speciesName": "火爆獸 暗影化",
+        "speciesName": "火爆獸 暗影",
         "speciesId": "typhlosion_shadow",
         "baseStats": {
             "atk": 223,
@@ -7237,7 +7261,7 @@
         "level25CP": 637
     }, {
         "dex": 158,
-        "speciesName": "小鋸鱷 暗影化",
+        "speciesName": "小鋸鱷 暗影",
         "speciesId": "totodile_shadow",
         "baseStats": {
             "atk": 117,
@@ -7280,7 +7304,7 @@
         "level25CP": 1018
     }, {
         "dex": 159,
-        "speciesName": "藍鱷 暗影化",
+        "speciesName": "藍鱷 暗影",
         "speciesId": "croconaw_shadow",
         "baseStats": {
             "atk": 150,
@@ -7324,7 +7348,7 @@
         "level25CP": 1764
     }, {
         "dex": 160,
-        "speciesName": "大力鱷 暗影化",
+        "speciesName": "大力鱷 暗影",
         "speciesId": "feraligatr_shadow",
         "baseStats": {
             "atk": 205,
@@ -7532,7 +7556,7 @@
         "released": true
     }, {
         "dex": 169,
-        "speciesName": "叉字蝠 暗影化",
+        "speciesName": "叉字蝠 暗影",
         "speciesId": "crobat_shadow",
         "baseStats": {
             "atk": 194,
@@ -7765,7 +7789,7 @@
         "released": true
     }, {
         "dex": 179,
-        "speciesName": "咩利羊 暗影化",
+        "speciesName": "咩利羊 暗影",
         "speciesId": "mareep_shadow",
         "baseStats": {
             "atk": 114,
@@ -7809,7 +7833,7 @@
         "released": true
     }, {
         "dex": 180,
-        "speciesName": "茸茸羊 暗影化",
+        "speciesName": "茸茸羊 暗影",
         "speciesId": "flaaffy_shadow",
         "baseStats": {
             "atk": 145,
@@ -7878,7 +7902,7 @@
         "released": true
     }, {
         "dex": 181,
-        "speciesName": "電龍 暗影化",
+        "speciesName": "電龍 暗影",
         "speciesId": "ampharos_shadow",
         "baseStats": {
             "atk": 211,
@@ -7924,7 +7948,7 @@
         "released": true
     }, {
         "dex": 182,
-        "speciesName": "美麗花 暗影化",
+        "speciesName": "美麗花 暗影",
         "speciesId": "bellossom_shadow",
         "baseStats": {
             "atk": 169,
@@ -8034,7 +8058,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 185,
-        "speciesName": "樹才怪 暗影化",
+        "speciesName": "樹才怪 暗影",
         "speciesId": "sudowoodo_shadow",
         "baseStats": {
             "atk": 167,
@@ -8081,7 +8105,7 @@
         "released": true
     }, {
         "dex": 186,
-        "speciesName": "蚊香蛙皇 暗影化",
+        "speciesName": "蚊香蛙皇 暗影",
         "speciesId": "politoed_shadow",
         "baseStats": {
             "atk": 174,
@@ -8127,7 +8151,7 @@
         "released": true
     }, {
         "dex": 187,
-        "speciesName": "毽子草 暗影化",
+        "speciesName": "毽子草 暗影",
         "speciesId": "hoppip_shadow",
         "baseStats": {
             "atk": 67,
@@ -8170,7 +8194,7 @@
         "released": true
     }, {
         "dex": 188,
-        "speciesName": "毽子花 暗影化",
+        "speciesName": "毽子花 暗影",
         "speciesId": "skiploom_shadow",
         "baseStats": {
             "atk": 91,
@@ -8216,7 +8240,7 @@
         "released": true
     }, {
         "dex": 189,
-        "speciesName": "毽子棉 暗影化",
+        "speciesName": "毽子棉 暗影",
         "speciesId": "jumpluff_shadow",
         "baseStats": {
             "atk": 118,
@@ -8263,7 +8287,7 @@
         "level25CP": 775
     }, {
         "dex": 190,
-        "speciesName": "長尾怪手 暗影化",
+        "speciesName": "長尾怪手 暗影",
         "speciesId": "aipom_shadow",
         "baseStats": {
             "atk": 136,
@@ -8368,7 +8392,7 @@
         "released": true
     }, {
         "dex": 194,
-        "speciesName": "烏波 暗影化",
+        "speciesName": "烏波 暗影",
         "speciesId": "wooper_shadow",
         "baseStats": {
             "atk": 75,
@@ -8411,7 +8435,7 @@
         "released": true
     }, {
         "dex": 195,
-        "speciesName": "沼王 暗影化",
+        "speciesName": "沼王 暗影",
         "speciesId": "quagsire_shadow",
         "baseStats": {
             "atk": 152,
@@ -8498,7 +8522,7 @@
         "released": true
     }, {
         "dex": 198,
-        "speciesName": "黑暗鴉 暗影化",
+        "speciesName": "黑暗鴉 暗影",
         "speciesId": "murkrow_shadow",
         "baseStats": {
             "atk": 175,
@@ -8543,7 +8567,7 @@
         "released": true
     }, {
         "dex": 199,
-        "speciesName": "呆呆王 伽勒爾型態",
+        "speciesName": "呆呆王 伽勒爾",
         "speciesId": "slowking_galarian",
         "baseStats": {
             "atk": 190,
@@ -8564,7 +8588,7 @@
         "released": true
     }, {
         "dex": 199,
-        "speciesName": "呆呆王 暗影化",
+        "speciesName": "呆呆王 暗影",
         "speciesId": "slowking_shadow",
         "baseStats": {
             "atk": 177,
@@ -8608,7 +8632,7 @@
         "released": true
     }, {
         "dex": 200,
-        "speciesName": "夢妖 暗影化",
+        "speciesName": "夢妖 暗影",
         "speciesId": "misdreavus_shadow",
         "baseStats": {
             "atk": 167,
@@ -8671,7 +8695,7 @@
         "released": true
     }, {
         "dex": 202,
-        "speciesName": "果然翁 暗影化",
+        "speciesName": "果然翁 暗影",
         "speciesId": "wobbuffet_shadow",
         "baseStats": {
             "atk": 60,
@@ -8714,7 +8738,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 203,
-        "speciesName": "麒麟奇 暗影化",
+        "speciesName": "麒麟奇 暗影",
         "speciesId": "girafarig_shadow",
         "baseStats": {
             "atk": 182,
@@ -8757,7 +8781,7 @@
         "released": true
     }, {
         "dex": 204,
-        "speciesName": "榛果球 暗影化",
+        "speciesName": "榛果球 暗影",
         "speciesId": "pineco_shadow",
         "baseStats": {
             "atk": 108,
@@ -8802,7 +8826,7 @@
         "released": true
     }, {
         "dex": 205,
-        "speciesName": "佛烈托斯 暗影化",
+        "speciesName": "佛烈托斯 暗影",
         "speciesId": "forretress_shadow",
         "baseStats": {
             "atk": 161,
@@ -8867,7 +8891,7 @@
         "released": true
     }, {
         "dex": 207,
-        "speciesName": "天蠍 暗影化",
+        "speciesName": "天蠍 暗影",
         "speciesId": "gligar_shadow",
         "baseStats": {
             "atk": 143,
@@ -8952,7 +8976,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 209,
-        "speciesName": "布魯 暗影化",
+        "speciesName": "布魯 暗影",
         "speciesId": "snubbull_shadow",
         "baseStats": {
             "atk": 137,
@@ -8997,7 +9021,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 210,
-        "speciesName": "布魯皇 暗影化",
+        "speciesName": "布魯皇 暗影",
         "speciesId": "granbull_shadow",
         "baseStats": {
             "atk": 212,
@@ -9063,7 +9087,7 @@
         "released": true
     }, {
         "dex": 212,
-        "speciesName": "巨鉗螳螂 暗影化",
+        "speciesName": "巨鉗螳螂 暗影",
         "speciesId": "scizor_shadow",
         "baseStats": {
             "atk": 236,
@@ -9107,7 +9131,7 @@
         "released": true
     }, {
         "dex": 213,
-        "speciesName": "壺壺 暗影化",
+        "speciesName": "壺壺 暗影",
         "speciesId": "shuckle_shadow",
         "baseStats": {
             "atk": 17,
@@ -9171,7 +9195,7 @@
         "released": true
     }, {
         "dex": 215,
-        "speciesName": "狃拉 暗影化",
+        "speciesName": "狃拉 暗影",
         "speciesId": "sneasel_shadow",
         "baseStats": {
             "atk": 189,
@@ -9215,7 +9239,7 @@
         "released": true
     }, {
         "dex": 216,
-        "speciesName": "熊寶寶 暗影化",
+        "speciesName": "熊寶寶 暗影",
         "speciesId": "teddiursa_shadow",
         "baseStats": {
             "atk": 142,
@@ -9259,7 +9283,7 @@
         "released": true
     }, {
         "dex": 217,
-        "speciesName": "圈圈熊 暗影化",
+        "speciesName": "圈圈熊 暗影",
         "speciesId": "ursaring_shadow",
         "baseStats": {
             "atk": 236,
@@ -9343,7 +9367,7 @@
         "released": true
     }, {
         "dex": 220,
-        "speciesName": "小山豬 暗影化",
+        "speciesName": "小山豬 暗影",
         "speciesId": "swinub_shadow",
         "baseStats": {
             "atk": 90,
@@ -9387,7 +9411,7 @@
         "released": true
     }, {
         "dex": 221,
-        "speciesName": "長毛豬 暗影化",
+        "speciesName": "長毛豬 暗影",
         "speciesId": "piloswine_shadow",
         "baseStats": {
             "atk": 181,
@@ -9495,7 +9519,7 @@
         "released": true
     }, {
         "dex": 225,
-        "speciesName": "信使鳥 暗影化",
+        "speciesName": "信使鳥 暗影",
         "speciesId": "delibird_shadow",
         "baseStats": {
             "atk": 128,
@@ -9560,7 +9584,7 @@
         "released": true
     }, {
         "dex": 227,
-        "speciesName": "盔甲鳥 暗影化",
+        "speciesName": "盔甲鳥 暗影",
         "speciesId": "skarmory_shadow",
         "baseStats": {
             "atk": 148,
@@ -9604,7 +9628,7 @@
         "released": true
     }, {
         "dex": 228,
-        "speciesName": "戴魯比 暗影化",
+        "speciesName": "戴魯比 暗影",
         "speciesId": "houndour_shadow",
         "baseStats": {
             "atk": 152,
@@ -9669,7 +9693,7 @@
         "released": true
     }, {
         "dex": 229,
-        "speciesName": "黑魯加 暗影化",
+        "speciesName": "黑魯加 暗影",
         "speciesId": "houndoom_shadow",
         "baseStats": {
             "atk": 224,
@@ -9714,7 +9738,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 230,
-        "speciesName": "刺龍王 暗影化",
+        "speciesName": "刺龍王 暗影",
         "speciesId": "kingdra_shadow",
         "baseStats": {
             "atk": 194,
@@ -9799,7 +9823,7 @@
         "released": true
     }, {
         "dex": 233,
-        "speciesName": "多邊獸Ⅱ 暗影化",
+        "speciesName": "多邊獸Ⅱ 暗影",
         "speciesId": "porygon2_shadow",
         "baseStats": {
             "atk": 198,
@@ -9842,7 +9866,7 @@
         "released": true
     }, {
         "dex": 234,
-        "speciesName": "驚角鹿 暗影化",
+        "speciesName": "驚角鹿 暗影",
         "speciesId": "stantler_shadow",
         "baseStats": {
             "atk": 192,
@@ -10051,7 +10075,7 @@
         "released": true
     }, {
         "dex": 243,
-        "speciesName": "雷公 暗影化",
+        "speciesName": "雷公 暗影",
         "speciesId": "raikou_shadow",
         "baseStats": {
             "atk": 241,
@@ -10094,7 +10118,7 @@
         "released": true
     }, {
         "dex": 244,
-        "speciesName": "炎帝 暗影化",
+        "speciesName": "炎帝 暗影",
         "speciesId": "entei_shadow",
         "baseStats": {
             "atk": 235,
@@ -10138,7 +10162,7 @@
         "released": true
     }, {
         "dex": 245,
-        "speciesName": "水君 暗影化",
+        "speciesName": "水君 暗影",
         "speciesId": "suicune_shadow",
         "baseStats": {
             "atk": 180,
@@ -10182,7 +10206,7 @@
         "released": true
     }, {
         "dex": 246,
-        "speciesName": "幼基拉斯 暗影化",
+        "speciesName": "幼基拉斯 暗影",
         "speciesId": "larvitar_shadow",
         "baseStats": {
             "atk": 115,
@@ -10225,7 +10249,7 @@
         "released": true
     }, {
         "dex": 247,
-        "speciesName": "沙基拉斯 暗影化",
+        "speciesName": "沙基拉斯 暗影",
         "speciesId": "pupitar_shadow",
         "baseStats": {
             "atk": 155,
@@ -10270,7 +10294,7 @@
         "released": true
     }, {
         "dex": 248,
-        "speciesName": "班基拉斯 暗影化",
+        "speciesName": "班基拉斯 暗影",
         "speciesId": "tyranitar_shadow",
         "baseStats": {
             "atk": 251,
@@ -10316,7 +10340,7 @@
         "level25CP": 2324
     }, {
         "dex": 249,
-        "speciesName": "洛奇亞 暗影化",
+        "speciesName": "洛奇亞 暗影",
         "speciesId": "lugia_shadow",
         "baseStats": {
             "atk": 193,
@@ -10362,7 +10386,7 @@
         "released": true
     }, {
         "dex": 250,
-        "speciesName": "鳳王 暗影化",
+        "speciesName": "鳳王 暗影",
         "speciesId": "ho_oh_shadow",
         "baseStats": {
             "atk": 239,
@@ -10559,7 +10583,7 @@
         "released": true
     }, {
         "dex": 258,
-        "speciesName": "水躍魚 暗影化",
+        "speciesName": "水躍魚 暗影",
         "speciesId": "mudkip_shadow",
         "baseStats": {
             "atk": 126,
@@ -10602,7 +10626,7 @@
         "released": true
     }, {
         "dex": 259,
-        "speciesName": "沼躍魚 暗影化",
+        "speciesName": "沼躍魚 暗影",
         "speciesId": "marshtomp_shadow",
         "baseStats": {
             "atk": 156,
@@ -10647,7 +10671,7 @@
         "released": true
     }, {
         "dex": 260,
-        "speciesName": "巨沼怪 暗影化",
+        "speciesName": "巨沼怪 暗影",
         "speciesId": "swampert_shadow",
         "baseStats": {
             "atk": 208,
@@ -10692,7 +10716,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 261,
-        "speciesName": "土狼犬 暗影化",
+        "speciesName": "土狼犬 暗影",
         "speciesId": "poochyena_shadow",
         "baseStats": {
             "atk": 96,
@@ -10735,7 +10759,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 262,
-        "speciesName": "大狼犬 暗影化",
+        "speciesName": "大狼犬 暗影",
         "speciesId": "mightyena_shadow",
         "baseStats": {
             "atk": 171,
@@ -10777,7 +10801,7 @@
         "released": true
     }, {
         "dex": 263,
-        "speciesName": "蛇紋熊 伽勒爾型態",
+        "speciesName": "蛇紋熊 伽勒爾",
         "speciesId": "zigzagoon_galarian",
         "baseStats": {
             "atk": 58,
@@ -10819,7 +10843,7 @@
         "released": true
     }, {
         "dex": 264,
-        "speciesName": "直衝熊 伽勒爾型態",
+        "speciesName": "直衝熊 伽勒爾",
         "speciesId": "linoone_galarian",
         "baseStats": {
             "atk": 142,
@@ -11025,7 +11049,7 @@
         "released": true
     }, {
         "dex": 273,
-        "speciesName": "橡實果 暗影化",
+        "speciesName": "橡實果 暗影",
         "speciesId": "seedot_shadow",
         "baseStats": {
             "atk": 71,
@@ -11068,7 +11092,7 @@
         "released": true
     }, {
         "dex": 274,
-        "speciesName": "長鼻葉 暗影化",
+        "speciesName": "長鼻葉 暗影",
         "speciesId": "nuzleaf_shadow",
         "baseStats": {
             "atk": 134,
@@ -11114,7 +11138,7 @@
         "released": true
     }, {
         "dex": 275,
-        "speciesName": "狡猾天狗 暗影化",
+        "speciesName": "狡猾天狗 暗影",
         "speciesId": "shiftry_shadow",
         "baseStats": {
             "atk": 200,
@@ -11242,7 +11266,7 @@
         "released": true
     }, {
         "dex": 280,
-        "speciesName": "拉魯拉絲 暗影化",
+        "speciesName": "拉魯拉絲 暗影",
         "speciesId": "ralts_shadow",
         "baseStats": {
             "atk": 79,
@@ -11287,7 +11311,7 @@
         "released": true
     }, {
         "dex": 281,
-        "speciesName": "奇魯莉安 暗影化",
+        "speciesName": "奇魯莉安 暗影",
         "speciesId": "kirlia_shadow",
         "baseStats": {
             "atk": 117,
@@ -11332,7 +11356,7 @@
         "released": true
     }, {
         "dex": 282,
-        "speciesName": "沙奈朵 暗影化",
+        "speciesName": "沙奈朵 暗影",
         "speciesId": "gardevoir_shadow",
         "baseStats": {
             "atk": 237,
@@ -11582,7 +11606,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 293,
-        "speciesName": "咕妞妞 暗影化",
+        "speciesName": "咕妞妞 暗影",
         "speciesId": "whismur_shadow",
         "baseStats": {
             "atk": 92,
@@ -11625,7 +11649,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 294,
-        "speciesName": "吼爆彈 暗影化",
+        "speciesName": "吼爆彈 暗影",
         "speciesId": "loudred_shadow",
         "baseStats": {
             "atk": 134,
@@ -11669,7 +11693,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 295,
-        "speciesName": "爆音怪 暗影化",
+        "speciesName": "爆音怪 暗影",
         "speciesId": "exploud_shadow",
         "baseStats": {
             "atk": 179,
@@ -11713,7 +11737,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 296,
-        "speciesName": "幕下力士 暗影化",
+        "speciesName": "幕下力士 暗影",
         "speciesId": "makuhita_shadow",
         "baseStats": {
             "atk": 99,
@@ -11756,7 +11780,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 297,
-        "speciesName": "鐵掌力士 暗影化",
+        "speciesName": "鐵掌力士 暗影",
         "speciesId": "hariyama_shadow",
         "baseStats": {
             "atk": 209,
@@ -11819,7 +11843,7 @@
         "released": true
     }, {
         "dex": 299,
-        "speciesName": "朝北鼻 暗影化",
+        "speciesName": "朝北鼻 暗影",
         "speciesId": "nosepass_shadow",
         "baseStats": {
             "atk": 82,
@@ -11928,7 +11952,7 @@
         "released": true
     }, {
         "dex": 302,
-        "speciesName": "勾魂眼 暗影化",
+        "speciesName": "勾魂眼 暗影",
         "speciesId": "sableye_shadow",
         "baseStats": {
             "atk": 141,
@@ -11973,7 +11997,7 @@
         "released": true
     }, {
         "dex": 303,
-        "speciesName": "大嘴娃 暗影化",
+        "speciesName": "大嘴娃 暗影",
         "speciesId": "mawile_shadow",
         "baseStats": {
             "atk": 155,
@@ -12016,7 +12040,7 @@
         "released": true
     }, {
         "dex": 304,
-        "speciesName": "可可多拉 暗影化",
+        "speciesName": "可可多拉 暗影",
         "speciesId": "aron_shadow",
         "baseStats": {
             "atk": 121,
@@ -12059,7 +12083,7 @@
         "released": true
     }, {
         "dex": 305,
-        "speciesName": "可多拉 暗影化",
+        "speciesName": "可多拉 暗影",
         "speciesId": "lairon_shadow",
         "baseStats": {
             "atk": 158,
@@ -12102,7 +12126,7 @@
         "released": true
     }, {
         "dex": 306,
-        "speciesName": "波士可多拉 暗影化",
+        "speciesName": "波士可多拉 暗影",
         "speciesId": "aggron_shadow",
         "baseStats": {
             "atk": 198,
@@ -12209,7 +12233,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 309,
-        "speciesName": "落雷獸 暗影化",
+        "speciesName": "落雷獸 暗影",
         "speciesId": "electrike_shadow",
         "baseStats": {
             "atk": 123,
@@ -12274,7 +12298,7 @@
         "released": true
     }, {
         "dex": 310,
-        "speciesName": "雷電獸 暗影化",
+        "speciesName": "雷電獸 暗影",
         "speciesId": "manectric_shadow",
         "baseStats": {
             "atk": 215,
@@ -12460,7 +12484,7 @@
         "released": true
     }, {
         "dex": 318,
-        "speciesName": "利牙魚 暗影化",
+        "speciesName": "利牙魚 暗影",
         "speciesId": "carvanha_shadow",
         "baseStats": {
             "atk": 171,
@@ -12503,7 +12527,7 @@
         "released": true
     }, {
         "dex": 319,
-        "speciesName": "巨牙鯊 暗影化",
+        "speciesName": "巨牙鯊 暗影",
         "speciesId": "sharpedo_shadow",
         "baseStats": {
             "atk": 243,
@@ -12588,7 +12612,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 322,
-        "speciesName": "呆火駝 暗影化",
+        "speciesName": "呆火駝 暗影",
         "speciesId": "numel_shadow",
         "baseStats": {
             "atk": 119,
@@ -12631,7 +12655,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 323,
-        "speciesName": "噴火駝 暗影化",
+        "speciesName": "噴火駝 暗影",
         "speciesId": "camerupt_shadow",
         "baseStats": {
             "atk": 194,
@@ -12757,7 +12781,7 @@
         "released": true
     }, {
         "dex": 328,
-        "speciesName": "大顎蟻 暗影化",
+        "speciesName": "大顎蟻 暗影",
         "speciesId": "trapinch_shadow",
         "baseStats": {
             "atk": 162,
@@ -12800,7 +12824,7 @@
         "released": true
     }, {
         "dex": 329,
-        "speciesName": "超音波幼蟲 暗影化",
+        "speciesName": "超音波幼蟲 暗影",
         "speciesId": "vibrava_shadow",
         "baseStats": {
             "atk": 134,
@@ -12845,7 +12869,7 @@
         "released": true
     }, {
         "dex": 330,
-        "speciesName": "沙漠蜻蜓 暗影化",
+        "speciesName": "沙漠蜻蜓 暗影",
         "speciesId": "flygon_shadow",
         "baseStats": {
             "atk": 205,
@@ -12890,7 +12914,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 331,
-        "speciesName": "刺球仙人掌 暗影化",
+        "speciesName": "刺球仙人掌 暗影",
         "speciesId": "cacnea_shadow",
         "baseStats": {
             "atk": 156,
@@ -12934,7 +12958,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 332,
-        "speciesName": "夢歌仙人掌 暗影化",
+        "speciesName": "夢歌仙人掌 暗影",
         "speciesId": "cacturne_shadow",
         "baseStats": {
             "atk": 221,
@@ -13252,7 +13276,7 @@
         "released": true
     }, {
         "dex": 345,
-        "speciesName": "觸手百合 暗影化",
+        "speciesName": "觸手百合 暗影",
         "speciesId": "lileep_shadow",
         "baseStats": {
             "atk": 105,
@@ -13296,7 +13320,7 @@
         "released": true
     }, {
         "dex": 346,
-        "speciesName": "搖籃百合 暗影化",
+        "speciesName": "搖籃百合 暗影",
         "speciesId": "cradily_shadow",
         "baseStats": {
             "atk": 152,
@@ -13341,7 +13365,7 @@
         "level25CP": 888
     }, {
         "dex": 347,
-        "speciesName": "太古羽蟲 暗影化",
+        "speciesName": "太古羽蟲 暗影",
         "speciesId": "anorith_shadow",
         "baseStats": {
             "atk": 176,
@@ -13385,7 +13409,7 @@
         "level25CP": 1757
     }, {
         "dex": 348,
-        "speciesName": "太古盔甲 暗影化",
+        "speciesName": "太古盔甲 暗影",
         "speciesId": "armaldo_shadow",
         "baseStats": {
             "atk": 222,
@@ -13466,7 +13490,7 @@
         "released": true
     }, {
         "dex": 351,
-        "speciesName": "飄浮泡泡 雨天型態",
+        "speciesName": "飄浮泡泡 雨",
         "speciesId": "castform_rainy",
         "baseStats": {
             "atk": 139,
@@ -13487,7 +13511,7 @@
         "released": true
     }, {
         "dex": 351,
-        "speciesName": "飄浮泡泡 雪型態",
+        "speciesName": "飄浮泡泡 雪",
         "speciesId": "castform_snowy",
         "baseStats": {
             "atk": 139,
@@ -13507,7 +13531,7 @@
         "released": true
     }, {
         "dex": 351,
-        "speciesName": "飄浮泡泡 晴天型態",
+        "speciesName": "飄浮泡泡 晴",
         "speciesId": "castform_sunny",
         "baseStats": {
             "atk": 139,
@@ -13569,7 +13593,7 @@
         "released": true
     }, {
         "dex": 353,
-        "speciesName": "怨影娃娃 暗影化",
+        "speciesName": "怨影娃娃 暗影",
         "speciesId": "shuppet_shadow",
         "baseStats": {
             "atk": 138,
@@ -13613,7 +13637,7 @@
         "released": true
     }, {
         "dex": 354,
-        "speciesName": "詛咒娃娃 暗影化",
+        "speciesName": "詛咒娃娃 暗影",
         "speciesId": "banette_shadow",
         "baseStats": {
             "atk": 218,
@@ -13657,7 +13681,7 @@
         "released": true
     }, {
         "dex": 355,
-        "speciesName": "夜巡靈 暗影化",
+        "speciesName": "夜巡靈 暗影",
         "speciesId": "duskull_shadow",
         "baseStats": {
             "atk": 70,
@@ -13701,7 +13725,7 @@
         "released": true
     }, {
         "dex": 356,
-        "speciesName": "彷徨夜靈 暗影化",
+        "speciesName": "彷徨夜靈 暗影",
         "speciesId": "dusclops_shadow",
         "baseStats": {
             "atk": 124,
@@ -13811,7 +13835,7 @@
         "released": true
     }, {
         "dex": 359,
-        "speciesName": "阿勃梭魯 暗影化",
+        "speciesName": "阿勃梭魯 暗影",
         "speciesId": "absol_shadow",
         "baseStats": {
             "atk": 246,
@@ -13916,7 +13940,7 @@
         "released": true
     }, {
         "dex": 363,
-        "speciesName": "海豹球 暗影化",
+        "speciesName": "海豹球 暗影",
         "speciesId": "spheal_shadow",
         "baseStats": {
             "atk": 95,
@@ -13960,7 +13984,7 @@
         "released": true
     }, {
         "dex": 364,
-        "speciesName": "海魔獅 暗影化",
+        "speciesName": "海魔獅 暗影",
         "speciesId": "sealeo_shadow",
         "baseStats": {
             "atk": 137,
@@ -14006,7 +14030,7 @@
         "released": true
     }, {
         "dex": 365,
-        "speciesName": "帝牙海獅 暗影化",
+        "speciesName": "帝牙海獅 暗影",
         "speciesId": "walrein_shadow",
         "baseStats": {
             "atk": 182,
@@ -14155,7 +14179,7 @@
         "released": true
     }, {
         "dex": 371,
-        "speciesName": "寶貝龍 暗影化",
+        "speciesName": "寶貝龍 暗影",
         "speciesId": "bagon_shadow",
         "baseStats": {
             "atk": 134,
@@ -14198,7 +14222,7 @@
         "released": true
     }, {
         "dex": 372,
-        "speciesName": "甲殼龍 暗影化",
+        "speciesName": "甲殼龍 暗影",
         "speciesId": "shelgon_shadow",
         "baseStats": {
             "atk": 172,
@@ -14242,7 +14266,7 @@
         "released": true
     }, {
         "dex": 373,
-        "speciesName": "暴飛龍 暗影化",
+        "speciesName": "暴飛龍 暗影",
         "speciesId": "salamence_shadow",
         "baseStats": {
             "atk": 277,
@@ -14286,7 +14310,7 @@
         "released": true
     }, {
         "dex": 374,
-        "speciesName": "鐵啞鈴 暗影化",
+        "speciesName": "鐵啞鈴 暗影",
         "speciesId": "beldum_shadow",
         "baseStats": {
             "atk": 96,
@@ -14329,7 +14353,7 @@
         "released": true
     }, {
         "dex": 375,
-        "speciesName": "金屬怪 暗影化",
+        "speciesName": "金屬怪 暗影",
         "speciesId": "metang_shadow",
         "baseStats": {
             "atk": 138,
@@ -14374,7 +14398,7 @@
         "released": true
     }, {
         "dex": 376,
-        "speciesName": "巨金怪 暗影化",
+        "speciesName": "巨金怪 暗影",
         "speciesId": "metagross_shadow",
         "baseStats": {
             "atk": 257,
@@ -14488,7 +14512,7 @@
         "level25CP": 2199
     }, {
         "dex": 380,
-        "speciesName": "拉帝亞斯 暗影化",
+        "speciesName": "拉帝亞斯 暗影",
         "speciesId": "latias_shadow",
         "baseStats": {
             "atk": 228,
@@ -14684,7 +14708,7 @@
         "released": true
     }, {
         "dex": 386,
-        "speciesName": "代歐奇希斯 攻擊型",
+        "speciesName": "代歐奇希斯 攻擊",
         "speciesId": "deoxys_attack",
         "baseStats": {
             "atk": 414,
@@ -14705,7 +14729,7 @@
         "released": true
     }, {
         "dex": 386,
-        "speciesName": "代歐奇希斯 防禦型",
+        "speciesName": "代歐奇希斯 防禦",
         "speciesId": "deoxys_defense",
         "baseStats": {
             "atk": 144,
@@ -14728,7 +14752,7 @@
         "released": true
     }, {
         "dex": 386,
-        "speciesName": "代歐奇希斯 速度型",
+        "speciesName": "代歐奇希斯 速度",
         "speciesId": "deoxys_speed",
         "baseStats": {
             "atk": 230,
@@ -14771,7 +14795,7 @@
         "released": true
     }, {
         "dex": 387,
-        "speciesName": "草苗龜 暗影化",
+        "speciesName": "草苗龜 暗影",
         "speciesId": "turtwig_shadow",
         "baseStats": {
             "atk": 119,
@@ -14814,7 +14838,7 @@
         "released": true
     }, {
         "dex": 388,
-        "speciesName": "樹林龜 暗影化",
+        "speciesName": "樹林龜 暗影",
         "speciesId": "grotle_shadow",
         "baseStats": {
             "atk": 157,
@@ -14858,7 +14882,7 @@
         "released": true
     }, {
         "dex": 389,
-        "speciesName": "土台龜 暗影化",
+        "speciesName": "土台龜 暗影",
         "speciesId": "torterra_shadow",
         "baseStats": {
             "atk": 202,
@@ -15035,7 +15059,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 396,
-        "speciesName": "姆克兒 暗影化",
+        "speciesName": "姆克兒 暗影",
         "speciesId": "starly_shadow",
         "baseStats": {
             "atk": 101,
@@ -15078,7 +15102,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 397,
-        "speciesName": "姆克鳥 暗影化",
+        "speciesName": "姆克鳥 暗影",
         "speciesId": "staravia_shadow",
         "baseStats": {
             "atk": 142,
@@ -15121,7 +15145,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 398,
-        "speciesName": "姆克鷹 暗影化",
+        "speciesName": "姆克鷹 暗影",
         "speciesId": "staraptor_shadow",
         "baseStats": {
             "atk": 234,
@@ -15165,7 +15189,7 @@
         "released": true
     }, {
         "dex": 399,
-        "speciesName": "大牙狸 暗影化",
+        "speciesName": "大牙狸 暗影",
         "speciesId": "bidoof_shadow",
         "baseStats": {
             "atk": 80,
@@ -15209,7 +15233,7 @@
         "released": true
     }, {
         "dex": 400,
-        "speciesName": "大尾狸 暗影化",
+        "speciesName": "大尾狸 暗影",
         "speciesId": "bibarel_shadow",
         "baseStats": {
             "atk": 162,
@@ -15479,7 +15503,7 @@
         "released": true
     }, {
         "dex": 412,
-        "speciesName": "結草兒 草木蓑衣",
+        "speciesName": "結草兒 草木",
         "speciesId": "burmy_plant",
         "baseStats": {
             "atk": 53,
@@ -15500,7 +15524,7 @@
         "released": true
     }, {
         "dex": 412,
-        "speciesName": "結草兒 砂土蓑衣",
+        "speciesName": "結草兒 砂土",
         "speciesId": "burmy_sandy",
         "baseStats": {
             "atk": 53,
@@ -15521,7 +15545,7 @@
         "released": true
     }, {
         "dex": 412,
-        "speciesName": "結草兒 垃圾蓑衣",
+        "speciesName": "結草兒 垃圾",
         "speciesId": "burmy_trash",
         "baseStats": {
             "atk": 53,
@@ -15542,7 +15566,7 @@
         "released": true
     }, {
         "dex": 413,
-        "speciesName": "結草貴婦 草木蓑衣",
+        "speciesName": "結草貴婦 草木",
         "speciesId": "wormadam_plant",
         "baseStats": {
             "atk": 141,
@@ -15562,7 +15586,7 @@
         "released": true
     }, {
         "dex": 413,
-        "speciesName": "結草貴婦 砂土蓑衣",
+        "speciesName": "結草貴婦 砂土",
         "speciesId": "wormadam_sandy",
         "baseStats": {
             "atk": 141,
@@ -15582,7 +15606,7 @@
         "released": true
     }, {
         "dex": 413,
-        "speciesName": "結草貴婦 垃圾蓑衣",
+        "speciesName": "結草貴婦 垃圾",
         "speciesId": "wormadam_trash",
         "baseStats": {
             "atk": 127,
@@ -15747,7 +15771,7 @@
         "released": true
     }, {
         "dex": 421,
-        "speciesName": "櫻花兒 花苞型態",
+        "speciesName": "櫻花兒 花苞",
         "speciesId": "cherrim_overcast",
         "baseStats": {
             "atk": 170,
@@ -15767,7 +15791,7 @@
         "released": true
     }, {
         "dex": 421,
-        "speciesName": "櫻花兒 盛開型態",
+        "speciesName": "櫻花兒 盛開",
         "speciesId": "cherrim_sunny",
         "baseStats": {
             "atk": 170,
@@ -15855,7 +15879,7 @@
         "level25CP": 1471
     }, {
         "dex": 424,
-        "speciesName": "雙尾怪手 暗影化",
+        "speciesName": "雙尾怪手 暗影",
         "speciesId": "ambipom_shadow",
         "baseStats": {
             "atk": 205,
@@ -16002,7 +16026,7 @@
         "released": true
     }, {
         "dex": 429,
-        "speciesName": "夢妖魔 暗影化",
+        "speciesName": "夢妖魔 暗影",
         "speciesId": "mismagius_shadow",
         "baseStats": {
             "atk": 211,
@@ -16046,7 +16070,7 @@
         "released": true
     }, {
         "dex": 430,
-        "speciesName": "烏鴉頭頭 暗影化",
+        "speciesName": "烏鴉頭頭 暗影",
         "speciesId": "honchkrow_shadow",
         "baseStats": {
             "atk": 243,
@@ -16149,7 +16173,7 @@
         "released": true
     }, {
         "dex": 434,
-        "speciesName": "臭鼬噗 暗影化",
+        "speciesName": "臭鼬噗 暗影",
         "speciesId": "stunky_shadow",
         "baseStats": {
             "atk": 121,
@@ -16194,7 +16218,7 @@
         "released": true
     }, {
         "dex": 435,
-        "speciesName": "坦克臭鼬 暗影化",
+        "speciesName": "坦克臭鼬 暗影",
         "speciesId": "skuntank_shadow",
         "baseStats": {
             "atk": 184,
@@ -16507,7 +16531,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 449,
-        "speciesName": "沙河馬 暗影化",
+        "speciesName": "沙河馬 暗影",
         "speciesId": "hippopotas_shadow",
         "baseStats": {
             "atk": 124,
@@ -16552,7 +16576,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 450,
-        "speciesName": "河馬獸 暗影化",
+        "speciesName": "河馬獸 暗影",
         "speciesId": "hippowdon_shadow",
         "baseStats": {
             "atk": 201,
@@ -16596,7 +16620,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 451,
-        "speciesName": "鉗尾蠍 暗影化",
+        "speciesName": "鉗尾蠍 暗影",
         "speciesId": "skorupi_shadow",
         "baseStats": {
             "atk": 93,
@@ -16641,7 +16665,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 452,
-        "speciesName": "龍王蠍 暗影化",
+        "speciesName": "龍王蠍 暗影",
         "speciesId": "drapion_shadow",
         "baseStats": {
             "atk": 180,
@@ -16809,7 +16833,7 @@
         "released": true
     }, {
         "dex": 459,
-        "speciesName": "雪笠怪 暗影化",
+        "speciesName": "雪笠怪 暗影",
         "speciesId": "snover_shadow",
         "baseStats": {
             "atk": 115,
@@ -16876,7 +16900,7 @@
         "released": true
     }, {
         "dex": 460,
-        "speciesName": "暴雪王 暗影化",
+        "speciesName": "暴雪王 暗影",
         "speciesId": "abomasnow_shadow",
         "baseStats": {
             "atk": 178,
@@ -16921,7 +16945,7 @@
         "released": true
     }, {
         "dex": 461,
-        "speciesName": "瑪狃拉 暗影化",
+        "speciesName": "瑪狃拉 暗影",
         "speciesId": "weavile_shadow",
         "baseStats": {
             "atk": 243,
@@ -16965,7 +16989,7 @@
         "released": true
     }, {
         "dex": 462,
-        "speciesName": "自爆磁怪 暗影化",
+        "speciesName": "自爆磁怪 暗影",
         "speciesId": "magnezone_shadow",
         "baseStats": {
             "atk": 238,
@@ -17054,7 +17078,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 465,
-        "speciesName": "巨蔓藤 暗影化",
+        "speciesName": "巨蔓藤 暗影",
         "speciesId": "tangrowth_shadow",
         "baseStats": {
             "atk": 207,
@@ -17099,7 +17123,7 @@
         "released": true
     }, {
         "dex": 466,
-        "speciesName": "電擊魔獸 暗影化",
+        "speciesName": "電擊魔獸 暗影",
         "speciesId": "electivire_shadow",
         "baseStats": {
             "atk": 249,
@@ -17145,7 +17169,7 @@
         "released": true
     }, {
         "dex": 467,
-        "speciesName": "鴨嘴炎獸 暗影化",
+        "speciesName": "鴨嘴炎獸 暗影",
         "speciesId": "magmortar_shadow",
         "baseStats": {
             "atk": 247,
@@ -17272,7 +17296,7 @@
         "released": true
     }, {
         "dex": 472,
-        "speciesName": "天蠍王 暗影化",
+        "speciesName": "天蠍王 暗影",
         "speciesId": "gliscor_shadow",
         "baseStats": {
             "atk": 185,
@@ -17317,7 +17341,7 @@
         "released": true
     }, {
         "dex": 473,
-        "speciesName": "象牙豬 暗影化",
+        "speciesName": "象牙豬 暗影",
         "speciesId": "mamoswine_shadow",
         "baseStats": {
             "atk": 247,
@@ -17364,7 +17388,7 @@
         "released": true
     }, {
         "dex": 474,
-        "speciesName": "多邊獸Ｚ 暗影化",
+        "speciesName": "多邊獸Ｚ 暗影",
         "speciesId": "porygon_z_shadow",
         "baseStats": {
             "atk": 264,
@@ -17410,7 +17434,7 @@
         "released": true
     }, {
         "dex": 475,
-        "speciesName": "艾路雷朵 暗影化",
+        "speciesName": "艾路雷朵 暗影",
         "speciesId": "gallade_shadow",
         "baseStats": {
             "atk": 237,
@@ -17454,7 +17478,7 @@
         "released": true
     }, {
         "dex": 476,
-        "speciesName": "大朝北鼻 暗影化",
+        "speciesName": "大朝北鼻 暗影",
         "speciesId": "probopass_shadow",
         "baseStats": {
             "atk": 135,
@@ -17499,7 +17523,7 @@
         "released": true
     }, {
         "dex": 477,
-        "speciesName": "黑夜魔靈 暗影化",
+        "speciesName": "黑夜魔靈 暗影",
         "speciesId": "dusknoir_shadow",
         "baseStats": {
             "atk": 180,
@@ -17543,7 +17567,7 @@
         "released": true
     }, {
         "dex": 479,
-        "speciesName": "洛托姆 洛托姆的樣子",
+        "speciesName": "洛托姆 一般",
         "speciesId": "rotom",
         "baseStats": {
             "atk": 185,
@@ -17563,7 +17587,7 @@
         "released": false
     }, {
         "dex": 479,
-        "speciesName": "洛托姆 旋轉洛托姆",
+        "speciesName": "洛托姆 旋轉",
         "speciesId": "rotom_fan",
         "baseStats": {
             "atk": 204,
@@ -17584,7 +17608,7 @@
         "released": false
     }, {
         "dex": 479,
-        "speciesName": "洛托姆 結冰洛托姆",
+        "speciesName": "洛托姆 結冰",
         "speciesId": "rotom_frost",
         "baseStats": {
             "atk": 204,
@@ -17605,7 +17629,7 @@
         "released": false
     }, {
         "dex": 479,
-        "speciesName": "洛托姆 加熱洛托姆",
+        "speciesName": "洛托姆 加熱",
         "speciesId": "rotom_heat",
         "baseStats": {
             "atk": 204,
@@ -17626,7 +17650,7 @@
         "released": false
     }, {
         "dex": 479,
-        "speciesName": "洛托姆 切割洛托姆",
+        "speciesName": "洛托姆 切割",
         "speciesId": "rotom_mow",
         "baseStats": {
             "atk": 204,
@@ -17647,7 +17671,7 @@
         "released": false
     }, {
         "dex": 479,
-        "speciesName": "洛托姆 清洗洛托姆",
+        "speciesName": "洛托姆 清洗",
         "speciesId": "rotom_wash",
         "baseStats": {
             "atk": 204,
@@ -17818,7 +17842,7 @@
         "released": true
     }, {
         "dex": 487,
-        "speciesName": "騎拉帝納 別種型態",
+        "speciesName": "騎拉帝納 別種",
         "speciesId": "giratina_altered",
         "baseStats": {
             "atk": 187,
@@ -17840,7 +17864,7 @@
         "released": true
     }, {
         "dex": 487,
-        "speciesName": "騎拉帝納 起源型態",
+        "speciesName": "騎拉帝納 起源",
         "speciesId": "giratina_origin",
         "baseStats": {
             "atk": 225,
@@ -17946,7 +17970,7 @@
         "released": true
     }, {
         "dex": 492,
-        "speciesName": "謝米 陸上型態",
+        "speciesName": "謝米 陸上",
         "speciesId": "shaymin_land",
         "baseStats": {
             "atk": 210,
@@ -17966,7 +17990,7 @@
         "released": false
     }, {
         "dex": 492,
-        "speciesName": "謝米 天空型態",
+        "speciesName": "謝米 天空",
         "speciesId": "shaymin_sky",
         "baseStats": {
             "atk": 261,
@@ -18006,7 +18030,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 蟲屬性",
+        "speciesName": "阿爾宙斯 蟲",
         "speciesId": "arceus_bug",
         "baseStats": {
             "atk": 238,
@@ -18026,7 +18050,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 惡屬性",
+        "speciesName": "阿爾宙斯 惡",
         "speciesId": "arceus_dark",
         "baseStats": {
             "atk": 238,
@@ -18046,7 +18070,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 龍屬性",
+        "speciesName": "阿爾宙斯 龍",
         "speciesId": "arceus_dragon",
         "baseStats": {
             "atk": 238,
@@ -18066,7 +18090,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 電屬性",
+        "speciesName": "阿爾宙斯 電",
         "speciesId": "arceus_electric",
         "baseStats": {
             "atk": 238,
@@ -18086,7 +18110,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 妖精屬性",
+        "speciesName": "阿爾宙斯 妖",
         "speciesId": "arceus_fairy",
         "baseStats": {
             "atk": 238,
@@ -18106,7 +18130,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 格鬥屬性",
+        "speciesName": "阿爾宙斯 格",
         "speciesId": "arceus_fighting",
         "baseStats": {
             "atk": 238,
@@ -18126,7 +18150,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 火屬性",
+        "speciesName": "阿爾宙斯 火",
         "speciesId": "arceus_fire",
         "baseStats": {
             "atk": 238,
@@ -18146,7 +18170,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 飛行屬性",
+        "speciesName": "阿爾宙斯 飛",
         "speciesId": "arceus_flying",
         "baseStats": {
             "atk": 238,
@@ -18166,7 +18190,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 幽靈屬性",
+        "speciesName": "阿爾宙斯 幽",
         "speciesId": "arceus_ghost",
         "baseStats": {
             "atk": 238,
@@ -18186,7 +18210,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 草屬性",
+        "speciesName": "阿爾宙斯 草",
         "speciesId": "arceus_grass",
         "baseStats": {
             "atk": 238,
@@ -18206,7 +18230,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 地面屬性",
+        "speciesName": "阿爾宙斯 地",
         "speciesId": "arceus_ground",
         "baseStats": {
             "atk": 238,
@@ -18226,7 +18250,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 冰屬性",
+        "speciesName": "阿爾宙斯 冰",
         "speciesId": "arceus_ice",
         "baseStats": {
             "atk": 238,
@@ -18246,7 +18270,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 毒屬性",
+        "speciesName": "阿爾宙斯 毒",
         "speciesId": "arceus_poison",
         "baseStats": {
             "atk": 238,
@@ -18266,7 +18290,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 超能力屬性",
+        "speciesName": "阿爾宙斯 超",
         "speciesId": "arceus_psychic",
         "baseStats": {
             "atk": 238,
@@ -18286,7 +18310,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 岩石屬性",
+        "speciesName": "阿爾宙斯 岩",
         "speciesId": "arceus_rock",
         "baseStats": {
             "atk": 238,
@@ -18306,7 +18330,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 鋼屬性",
+        "speciesName": "阿爾宙斯 鋼",
         "speciesId": "arceus_steel",
         "baseStats": {
             "atk": 238,
@@ -18326,7 +18350,7 @@
         "released": false
     }, {
         "dex": 493,
-        "speciesName": "阿爾宙斯 水屬性",
+        "speciesName": "阿爾宙斯 水",
         "speciesId": "arceus_water",
         "baseStats": {
             "atk": 238,
@@ -19606,7 +19630,7 @@
         "released": true
     }, {
         "dex": 554,
-        "speciesName": "火紅不倒翁 伽勒爾型態",
+        "speciesName": "火紅不倒翁 伽勒爾",
         "speciesId": "darumaka_galarian",
         "baseStats": {
             "atk": 153,
@@ -19628,7 +19652,7 @@
         "released": true
     }, {
         "dex": 555,
-        "speciesName": "達摩狒狒 伽勒爾達摩型態",
+        "speciesName": "達摩狒狒 伽勒爾達摩",
         "speciesId": "darmanitan_galarian_zen",
         "baseStats": {
             "atk": 323,
@@ -19649,7 +19673,7 @@
         "released": false
     }, {
         "dex": 555,
-        "speciesName": "達摩狒狒 伽勒爾普通型態",
+        "speciesName": "達摩狒狒 伽勒爾普通",
         "speciesId": "darmanitan_galarian_standard",
         "baseStats": {
             "atk": 263,
@@ -19671,7 +19695,7 @@
     }, {
         "dex": 555,
         "speciesId": "darmanitan_standard",
-        "speciesName": "達摩狒狒 普通型態",
+        "speciesName": "達摩狒狒 普通",
         "baseStats": {
             "atk": 263,
             "def": 114,
@@ -19692,7 +19716,7 @@
     }, {
         "dex": 555,
         "speciesId": "darmanitan_zen",
-        "speciesName": "達摩狒狒 達摩型態",
+        "speciesName": "達摩狒狒 達摩",
         "baseStats": {
             "atk": 243,
             "def": 202,
@@ -19859,7 +19883,7 @@
     }, {
         "dex": 562,
         "speciesId": "yamask_galarian",
-        "speciesName": "哭哭面具 伽勒爾型態",
+        "speciesName": "哭哭面具 伽勒爾",
         "baseStats": {
             "atk": 95,
             "def": 141,
@@ -21023,7 +21047,7 @@
         "released": true
     }, {
         "dex": 618,
-        "speciesName": "泥巴魚 伽勒爾型態",
+        "speciesName": "泥巴魚 伽勒爾",
         "speciesId": "stunfisk_galarian",
         "baseStats": {
             "atk": 144,
@@ -21503,7 +21527,7 @@
     }, {
         "dex": 641,
         "speciesId": "tornadus_incarnate",
-        "speciesName": "龍捲雲 化身型態",
+        "speciesName": "龍捲雲 化身",
         "baseStats": {
             "atk": 266,
             "def": 164,
@@ -21524,7 +21548,7 @@
     }, {
         "dex": 641,
         "speciesId": "tornadus_therian",
-        "speciesName": "龍捲雲 靈獸型態",
+        "speciesName": "龍捲雲 靈獸",
         "baseStats": {
             "atk": 238,
             "def": 189,
@@ -21545,7 +21569,7 @@
     }, {
         "dex": 642,
         "speciesId": "thundurus_incarnate",
-        "speciesName": "雷電雲 化身型態",
+        "speciesName": "雷電雲 化身",
         "baseStats": {
             "atk": 266,
             "def": 164,
@@ -21566,7 +21590,7 @@
     }, {
         "dex": 642,
         "speciesId": "thundurus_therian",
-        "speciesName": "雷電雲 靈獸型態",
+        "speciesName": "雷電雲 靈獸",
         "baseStats": {
             "atk": 295,
             "def": 161,
@@ -21631,7 +21655,7 @@
     }, {
         "dex": 645,
         "speciesId": "landorus_incarnate",
-        "speciesName": "土地雲 化身型態",
+        "speciesName": "土地雲 化身",
         "baseStats": {
             "atk": 261,
             "def": 182,
@@ -21653,7 +21677,7 @@
     }, {
         "dex": 645,
         "speciesId": "landorus_therian",
-        "speciesName": "土地雲 靈獸型態",
+        "speciesName": "土地雲 靈獸",
         "baseStats": {
             "atk": 289,
             "def": 179,
@@ -21696,7 +21720,7 @@
     }, {
         "dex": 646,
         "speciesId": "kyurem_black",
-        "speciesName": "酋雷姆 闇黑型態",
+        "speciesName": "酋雷姆 闇黑",
         "baseStats": {
             "atk": 310,
             "def": 183,
@@ -21717,7 +21741,7 @@
     }, {
         "dex": 646,
         "speciesId": "kyurem_white",
-        "speciesName": "酋雷姆 焰白型態",
+        "speciesName": "酋雷姆 焰白",
         "baseStats": {
             "atk": 310,
             "def": 183,
@@ -21738,7 +21762,7 @@
     }, {
         "dex": 647,
         "speciesId": "keldeo_ordinary",
-        "speciesName": "凱路迪歐 平常型態",
+        "speciesName": "凱路迪歐 平常",
         "baseStats": {
             "atk": 260,
             "def": 192,
@@ -21758,7 +21782,7 @@
     }, {
         "dex": 647,
         "speciesId": "keldeo_resolute",
-        "speciesName": "凱路迪歐 覺悟型態",
+        "speciesName": "凱路迪歐 覺悟",
         "baseStats": {
             "atk": 260,
             "def": 192,
@@ -21778,7 +21802,7 @@
     }, {
         "dex": 648,
         "speciesId": "meloetta_aria",
-        "speciesName": "美洛耶塔 歌聲型態",
+        "speciesName": "美洛耶塔 歌聲",
         "baseStats": {
             "atk": 250,
             "def": 225,
@@ -21799,7 +21823,7 @@
     }, {
         "dex": 648,
         "speciesId": "meloetta_pirouette",
-        "speciesName": "美洛耶塔 舞步型態",
+        "speciesName": "美洛耶塔 舞步",
         "baseStats": {
             "atk": 269,
             "def": 188,
@@ -21841,7 +21865,7 @@
     }, {
         "dex": 649,
         "speciesId": "genesect_burn",
-        "speciesName": "蓋諾賽克特 火焰卡帶",
+        "speciesName": "蓋諾賽克特 火焰",
         "baseStats": {
             "atk": 252,
             "def": 199,
@@ -21863,7 +21887,7 @@
     }, {
         "dex": 649,
         "speciesId": "genesect_chill",
-        "speciesName": "蓋諾賽克特 冰凍卡帶",
+        "speciesName": "蓋諾賽克特 冰凍",
         "baseStats": {
             "atk": 252,
             "def": 199,
@@ -21884,7 +21908,7 @@
     }, {
         "dex": 649,
         "speciesId": "genesect_douse",
-        "speciesName": "蓋諾賽克特 水流卡帶",
+        "speciesName": "蓋諾賽克特 水流",
         "baseStats": {
             "atk": 252,
             "def": 199,
@@ -21906,7 +21930,7 @@
     }, {
         "dex": 649,
         "speciesId": "genesect_shock",
-        "speciesName": "蓋諾賽克特 閃電卡帶",
+        "speciesName": "蓋諾賽克特 閃電",
         "baseStats": {
             "atk": 252,
             "def": 199,
@@ -22323,7 +22347,7 @@
         "released": true
     }, {
         "dex": 668,
-        "speciesName": "火炎獅 雌性",
+        "speciesName": "火炎獅 雌",
         "speciesId": "pyroar_female",
         "baseStats": {
             "atk": 221,
@@ -22528,7 +22552,7 @@
         "released": true
     }, {
         "dex": 678,
-        "speciesName": "超能妙喵 雌性",
+        "speciesName": "超能妙喵 雌",
         "speciesId": "meowstic_female",
         "baseStats": {
             "atk": 166,
@@ -22548,7 +22572,7 @@
         "released": true
     }, {
         "dex": 678,
-        "speciesName": "超能妙喵 雄性",
+        "speciesName": "超能妙喵 雄",
         "speciesId": "meowstic",
         "baseStats": {
             "atk": 166,
@@ -24005,7 +24029,7 @@
         "released": false
     }, {
         "dex": 741,
-        "speciesName": "花舞鳥 熱辣熱辣風格",
+        "speciesName": "花舞鳥 熱辣熱辣",
         "speciesId": "oricorio_baile",
         "baseStats": {
             "atk": 196,
@@ -24026,7 +24050,7 @@
         "released": true
     }, {
         "dex": 741,
-        "speciesName": "花舞鳥 呼拉呼拉風格",
+        "speciesName": "花舞鳥 呼拉呼拉",
         "speciesId": "oricorio_pau",
         "baseStats": {
             "atk": 196,
@@ -24047,7 +24071,7 @@
         "released": true
     }, {
         "dex": 741,
-        "speciesName": "花舞鳥 啪滋啪滋風格",
+        "speciesName": "花舞鳥 啪滋啪滋",
         "speciesId": "oricorio_pom_pom",
         "baseStats": {
             "atk": 196,
@@ -24068,7 +24092,7 @@
         "released": true
     }, {
         "dex": 741,
-        "speciesName": "花舞鳥 輕盈輕盈風格",
+        "speciesName": "花舞鳥 輕盈輕盈",
         "speciesId": "oricorio_sensu",
         "baseStats": {
             "atk": 196,
@@ -25778,7 +25802,7 @@
         "released": false
     }, {
         "dex": 800,
-        "speciesName": "奈克洛茲瑪 究極型態",
+        "speciesName": "奈克洛茲瑪 究極",
         "speciesId": "necrozma_ultra",
         "baseStats": {
             "atk": 337,
@@ -27478,7 +27502,7 @@
         "released": false
     }, {
         "dex": 876,
-        "speciesName": "愛管侍 雌性",
+        "speciesName": "愛管侍 雌",
         "speciesId": "indeedee_female",
         "baseStats": {
             "atk": 184,
@@ -27499,7 +27523,7 @@
         "released": false
     }, {
         "dex": 876,
-        "speciesName": "愛管侍 雄性",
+        "speciesName": "愛管侍 雄",
         "speciesId": "indeedee_male",
         "baseStats": {
             "atk": 208,

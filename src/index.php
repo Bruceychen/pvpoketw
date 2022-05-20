@@ -45,15 +45,15 @@
 
 	<div class="article-item flex">
 		<div class="col-3">
-			<a href="<?php echo $WEB_ROOT; ?>articles/infographics/22-05-friend-trade-tier-list/">
-				<img src="<?php echo $WEB_HOST_ORIGN; ?>articles/article-assets/infographics/22-05-friend-trade-tier-list/thumb.jpg">
+			<a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-05-geodude/">
+				<img src="<?php echo $WEB_HOST_ORIGN; ?>articles/article-assets/community-day/22-05-geodude/thumb.jpg">
 			</a>
 		</div>
 		<div class="col-9">
-			<h4><a href="<?php echo $WEB_ROOT; ?>articles/infographics/22-05-friend-trade-tier-list/">Sh!tty Friend Trade Tier List</a></h4>
-			<div class="date">May 14, 2022</div>
-			<p>Whether you meet new friends or that one person who doesn't open your gifts, here's a list of PvP trade ideas with low friendship level!</p>
-			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a></div>
+			<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-05-geodude/">Alolan Geodude Community Day Guide for PvP</a></h4>
+			<div class="date">May 19, 2022</div>
+			<p>The Alolan Geodude family is ready to rock! Which leagues and Pokemon should you be on the lookout for and how impactful will Rollout be on the meta?</p>
+			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Community Day"># Community Day</a><a href="/pvpoke/src/articles?tag=Infographic"># Infographic</a></div>
 		</div>
 	</div>
 
@@ -85,8 +85,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Thu May 19 12:15:28 2022 +0800</li>
-                <li>原版最後版本時間：Wed May 18 16:24:04 2022 -0500</li>
+                <li>中文版最後更新時間：Fri May 20 13:15:28 2022 +0800</li>
+                <li>原版最後版本時間：Thu May 19 12:53:59 2022 -0500</li>
             </ul>
 </div>
 

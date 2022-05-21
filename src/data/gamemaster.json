@@ -3882,8 +3882,9 @@
             "hp": 190
         },
         "types": ["rock", "electric"],
-        "fastMoves": ["ROCK_THROW", "VOLT_SWITCH"],
+        "fastMoves": ["ROCK_THROW", "VOLT_SWITCH", "ROLLOUT"],
         "chargedMoves": ["ROCK_BLAST", "STONE_EDGE", "WILD_CHARGE"],
+        "eliteMoves": ["ROLLOUT"],
         "tags": ["alolan"],
         "defaultIVs": {
             "cp500": [6.5, 4, 14, 10],
@@ -24254,7 +24255,7 @@
         "released": false
     }, {
         "dex": 746,
-        "speciesName": "弱丁魚 魚群樣子",
+        "speciesName": "弱丁魚 魚群",
         "speciesId": "wishiwashi_school",
         "baseStats": {
             "atk": 255,
@@ -24274,7 +24275,7 @@
         "released": false
     }, {
         "dex": 746,
-        "speciesName": "弱丁魚 單獨樣子",
+        "speciesName": "弱丁魚 單獨",
         "speciesId": "wishiwashi_solo",
         "baseStats": {
             "atk": 46,
@@ -25187,7 +25188,7 @@
         "released": false
     }, {
         "dex": 774,
-        "speciesName": "小隕星 核心樣子",
+        "speciesName": "小隕星 核心",
         "speciesId": "minior_core",
         "baseStats": {
             "atk": 218,
@@ -25208,7 +25209,7 @@
         "released": false
     }, {
         "dex": 774,
-        "speciesName": "小隕星 流星樣子",
+        "speciesName": "小隕星 流星",
         "speciesId": "minior_meteor",
         "baseStats": {
             "atk": 116,
@@ -30080,13 +30081,13 @@
         "archetype": "General"
     }, {
         "moveId": "ROLLOUT",
-        "name": "滾動 預測",
+        "name": "滾動",
         "abbreviation": "RO",
         "type": "rock",
         "power": 4,
         "energy": 0,
-        "energyGain": 8,
-        "cooldown": 1000,
+        "energyGain": 14,
+        "cooldown": 1500,
         "archetype": "Fast Charge"
     }, {
         "moveId": "SACRED_FIRE",

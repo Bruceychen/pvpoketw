@@ -145,7 +145,7 @@
         "partySize": 3
     }, {
         "name": "forged",
-        "title": "Silph Forged Cup",
+        "title": "Silph 百煉盃",
         "include": [{
             "filterType": "id",
             "includeShadows": true,
@@ -294,7 +294,7 @@
         "showFormat": true,
         "showMeta": true
     }, {
-        "title": "Silph Forged Cup",
+        "title": "Silph 百煉盃",
         "cup": "forged",
         "cp": 1500,
         "meta": "forged",

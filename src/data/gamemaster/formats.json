@@ -1,18 +1,18 @@
 [
 	{
-		"title": "Master League (Classic)",
-		"cup": "classic",
-		"cp": 10000,
-		"meta": "master",
-		"showCup": false,
-		"showFormat": true,
-		"showMeta": false
-	},
-	{
 		"title": "Master League (Megas)",
 		"cup": "mega",
 		"cp": 10000,
 		"meta": "mastermega",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true
+	},
+	{
+		"title": "Great League Remix",
+		"cup": "remix",
+		"cp": 1500,
+		"meta": "remix",
 		"showCup": true,
 		"showFormat": true,
 		"showMeta": true
@@ -31,8 +31,8 @@
 		"cup": "premierclassic",
 		"cp": 10000,
 		"meta": "masterpremierclassic",
-		"showCup": true,
-		"showFormat": true,
+		"showCup": false,
+		"showFormat": false,
 		"showMeta": true
 	},
 	{

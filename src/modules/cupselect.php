@@ -1,6 +1,5 @@
 <select class="cup-select">
-	<option value="all" cup="all" meta-group500="littlegeneral" meta-group1500="great" meta-group2500="ultra" meta-group10000="master">進行中聯盟</option>
-	<option value="premierclassic" meta-group2500="ultrapremierclassic" meta-group10000="masterpremierclassic">高級紀念經典賽</option>
+	<option value="all" cup="all" meta-group500="littlegeneral" meta-group1500="great" meta-group2500="ultra" meta-group10000="master">Open League</option>
 </select>
 
 <script>

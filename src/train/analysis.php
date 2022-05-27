@@ -88,10 +88,7 @@ require_once '../header.php';
     <select class="format-select">
         <option value="1500" cup="all" level-cap="50">超級聯盟</option>
         <option value="2500" cup="all" level-cap="50">高級聯盟</option>
-        <option value="2500" cup="premierclassic" level-cap="40">高級紀念經典賽</option>
         <option value="10000" cup="classic" level-cap="40">大師聯盟(經典)</option>
-        <option value="10000" cup="premierclassic" level-cap="40">大師紀念經典賽</option>
-        <option value="500" cup="element" level-cap="50">元素盃</option>
     </select>
 
 	<div class="date-updated">資料最後更新</div>

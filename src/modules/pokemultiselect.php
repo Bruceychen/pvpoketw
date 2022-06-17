@@ -77,6 +77,10 @@
 
 		<a href="#" class="clear-selection">清除名單</a>
 	</div>
+
+	<div class="hide">
+		<?php require 'pokeselect.php'; ?>
+	</div>
 </div>
 
 <div class="remove-poke-confirm hide">

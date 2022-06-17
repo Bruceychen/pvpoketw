@@ -32,7 +32,12 @@
 	<?php endif; ?>
 
 	<!--Update section for updates-->
-	<h3>更新內容</h3>
+	<h3>What's New</h3>
+
+	<h4>v1.28.5 (June 16, 2022)</h4>
+	<ul>
+		<li>Adjusted the Team Builder interface to mitigate lag or freezes when adding a new Pokemon, especially on Android or other mobile devices.</li>
+	</ul>
 
 	<h4>v1.28.4 (June 11, 2022)</h4>
 	<ul>
@@ -102,8 +107,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Thu Jun 16 13:25:28 2022 +0800</li>
-                <li>原版最後版本時間：Wed Jun 15 15:21:43 2022 -0500</li>
+                <li>中文版最後更新時間：Fri Jun 17 13:25:28 2022 +0800</li>
+                <li>原版最後版本時間：Thu Jun 16 20:40:02 2022 -0500</li>
             </ul>
 </div>
 

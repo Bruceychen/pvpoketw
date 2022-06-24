@@ -208,7 +208,7 @@
     "archetype": "Spam/Bait"
 }, {
     "moveId": "BRUTAL_SWING",
-    "name": "狂舞揮打 預測",
+    "name": "狂舞揮打",
     "abbreviation": "BrS",
     "type": "dark",
     "power": 65,

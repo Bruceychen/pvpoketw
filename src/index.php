@@ -67,15 +67,15 @@
 
 	<div class="article-item flex">
 		<div class="col-3">
-			<a href="<?php echo $WEB_ROOT; ?>articles/infographics/22-06-season-11-master-league-starter-pack/">
-				<img src="<?php echo $WEB_HOST_ORIGN; ?>articles/article-assets/infographics/22-06-season-11-master-league-starter-pack/thumb.jpg">
+			<a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-06-deino/">
+				<img src="<?php echo $WEB_HOST_ORIGN; ?>articles/article-assets/community-day/22-06-deino/thumb.jpg">
 			</a>
 		</div>
 		<div class="col-9">
-			<h4><a href="<?php echo $WEB_ROOT; ?>articles/infographics/22-06-season-11-master-league-starter-pack/">Master League Starter Pack for Season 11</a></h4>
-			<div class="date">June 14, 2022</div>
-			<p>Check out the best legendary and non-legendary Pokemon to get started in Master League for GO Battle League Season 11!</p>
-			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a><a href="<?php echo $WEB_ROOT; ?>articles?tag=Starter Pack"># Starter Pack</a></div>
+			<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-06-deino/">Deino Community Day Guide for PvP</a></h4>
+			<div class="date">June 22, 2022</div>
+			<p>Are three heads better than one? Find out how Brutal Swing Hydreigon will impact the meta and which PvP Pokemon and IV's to look for this Community Day!</p>
+			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Community Day"># Community Day</a><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a></div>
 		</div>
 	</div>
 
@@ -107,8 +107,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Mon Jun 20 00:55:28 2022 +0800</li>
-                <li>原版最後版本時間：Sun Jun 19 08:06:27 2022 -0500</li>
+                <li>中文版最後更新時間：Fri Jun 24 08:55:28 2022 +0800</li>
+                <li>原版最後版本時間：Thu Jun 23 17:44:35 2022 -0500</li>
             </ul>
 </div>
 

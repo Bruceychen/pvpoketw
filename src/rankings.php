@@ -91,8 +91,8 @@ switch($cup){
 		$league = 'Silph Obsidian Cup';
 		break;
 
-	case "nemesis":
-		$league = 'Silph Nemesis Cup';
+	case "architect":
+		$league = 'Silph Architect Cup';
 		break;
 
 	case "floatingcity":
@@ -123,8 +123,8 @@ switch($cup){
 		$league = 'Catch Cup GO Fest Edition';
 		break;
 
-	case "river":
-		$league = 'River Cup';
+	case "fossil":
+		$league = 'Fossil Cup';
 		break;
 
 	case "remix":

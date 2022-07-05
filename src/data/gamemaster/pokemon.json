@@ -22,7 +22,7 @@
     "released": true
 }, {
     "dex": 1,
-    "speciesName": "妙蛙種子 暗影化",
+    "speciesName": "妙蛙種子 暗影",
     "speciesId": "bulbasaur_shadow",
     "baseStats": {
         "atk": 118,
@@ -65,7 +65,7 @@
     "released": true
 }, {
     "dex": 2,
-    "speciesName": "妙蛙草 暗影化",
+    "speciesName": "妙蛙草 暗影",
     "speciesId": "ivysaur_shadow",
     "baseStats": {
         "atk": 151,
@@ -133,7 +133,7 @@
     "released": true
 }, {
     "dex": 3,
-    "speciesName": "妙蛙花 暗影化",
+    "speciesName": "妙蛙花 暗影",
     "speciesId": "venusaur_shadow",
     "baseStats": {
         "atk": 198,
@@ -178,7 +178,7 @@
     "released": true
 }, {
     "dex": 4,
-    "speciesName": "小火龍 暗影化",
+    "speciesName": "小火龍 暗影",
     "speciesId": "charmander_shadow",
     "baseStats": {
         "atk": 116,
@@ -222,7 +222,7 @@
     "released": true
 }, {
     "dex": 5,
-    "speciesName": "火恐龍 暗影化",
+    "speciesName": "火恐龍 暗影",
     "speciesId": "charmeleon_shadow",
     "baseStats": {
         "atk": 158,
@@ -314,7 +314,7 @@
     "released": true
 }, {
     "dex": 6,
-    "speciesName": "噴火龍 暗影化",
+    "speciesName": "噴火龍 暗影",
     "speciesId": "charizard_shadow",
     "baseStats": {
         "atk": 223,
@@ -359,7 +359,7 @@
     "released": true
 }, {
     "dex": 7,
-    "speciesName": "傑尼龜 暗影化",
+    "speciesName": "傑尼龜 暗影",
     "speciesId": "squirtle_shadow",
     "baseStats": {
         "atk": 94,
@@ -403,7 +403,7 @@
     "released": true
 }, {
     "dex": 8,
-    "speciesName": "卡咪龜 暗影化",
+    "speciesName": "卡咪龜 暗影",
     "speciesId": "wartortle_shadow",
     "baseStats": {
         "atk": 126,
@@ -472,7 +472,7 @@
     "released": true
 }, {
     "dex": 9,
-    "speciesName": "水箭龜 暗影化",
+    "speciesName": "水箭龜 暗影",
     "speciesId": "blastoise_shadow",
     "baseStats": {
         "atk": 171,
@@ -580,7 +580,7 @@
     "released": true
 }, {
     "dex": 13,
-    "speciesName": "獨角蟲 暗影化",
+    "speciesName": "獨角蟲 暗影",
     "speciesId": "weedle_shadow",
     "baseStats": {
         "atk": 63,
@@ -624,7 +624,7 @@
     "released": true
 }, {
     "dex": 14,
-    "speciesName": "鐵殼蛹 暗影化",
+    "speciesName": "鐵殼蛹 暗影",
     "speciesId": "kakuna_shadow",
     "baseStats": {
         "atk": 46,
@@ -692,7 +692,7 @@
     "released": true
 }, {
     "dex": 15,
-    "speciesName": "大針蜂 暗影化",
+    "speciesName": "大針蜂 暗影",
     "speciesId": "beedrill_shadow",
     "baseStats": {
         "atk": 169,
@@ -785,7 +785,7 @@
         "hp": 195
     },
     "types": ["normal", "flying"],
-	"fastMoves": ["AIR_SLASH", "STEEL_WING", "WING_ATTACK", "GUST"],
+    "fastMoves": ["AIR_SLASH", "STEEL_WING", "WING_ATTACK", "GUST"],
     "chargedMoves": ["AERIAL_ACE", "AIR_CUTTER", "BRAVE_BIRD", "HURRICANE", "FEATHER_DANCE"],
     "defaultIVs": {
         "cp500": [5, 13, 15, 12],
@@ -843,7 +843,7 @@
     "level25CP": 388
 }, {
     "dex": 19,
-    "speciesName": "小拉達 暗影化",
+    "speciesName": "小拉達 暗影",
     "speciesId": "rattata_shadow",
     "baseStats": {
         "atk": 103,
@@ -864,7 +864,7 @@
     "released": true
 }, {
     "dex": 19,
-    "speciesName": "小拉達 阿羅拉 暗影化",
+    "speciesName": "小拉達 阿羅拉 暗影",
     "speciesId": "rattata_alolan_shadow",
     "baseStats": {
         "atk": 103,
@@ -930,7 +930,7 @@
     "level25CP": 1005
 }, {
     "dex": 20,
-    "speciesName": "拉達 暗影化",
+    "speciesName": "拉達 暗影",
     "speciesId": "raticate_shadow",
     "baseStats": {
         "atk": 161,
@@ -951,7 +951,7 @@
     "released": true
 }, {
     "dex": 20,
-    "speciesName": "拉達 阿羅拉 暗影化",
+    "speciesName": "拉達 阿羅拉 暗影",
     "speciesId": "raticate_alolan_shadow",
     "baseStats": {
         "atk": 135,
@@ -1038,7 +1038,7 @@
     "released": true
 }, {
     "dex": 23,
-    "speciesName": "阿柏蛇 暗影化",
+    "speciesName": "阿柏蛇 暗影",
     "speciesId": "ekans_shadow",
     "baseStats": {
         "atk": 110,
@@ -1082,7 +1082,7 @@
     "released": true
 }, {
     "dex": 24,
-    "speciesName": "阿柏怪 暗影化",
+    "speciesName": "阿柏怪 暗影",
     "speciesId": "arbok_shadow",
     "baseStats": {
         "atk": 167,
@@ -1334,7 +1334,7 @@
     "level25CP": 741
 }, {
     "dex": 27,
-    "speciesName": "穿山鼠 暗影化",
+    "speciesName": "穿山鼠 暗影",
     "speciesId": "sandshrew_shadow",
     "baseStats": {
         "atk": 126,
@@ -1356,7 +1356,7 @@
     "released": true
 }, {
     "dex": 27,
-    "speciesName": "穿山鼠 阿羅拉 暗影化",
+    "speciesName": "穿山鼠 阿羅拉 暗影",
     "speciesId": "sandshrew_alolan_shadow",
     "baseStats": {
         "atk": 125,
@@ -1426,7 +1426,7 @@
     "level25CP": 1483
 }, {
     "dex": 28,
-    "speciesName": "穿山王 暗影化",
+    "speciesName": "穿山王 暗影",
     "speciesId": "sandslash_shadow",
     "baseStats": {
         "atk": 182,
@@ -1449,7 +1449,7 @@
     "released": true
 }, {
     "dex": 28,
-    "speciesName": "穿山王 阿羅拉 暗影化",
+    "speciesName": "穿山王 阿羅拉 暗影",
     "speciesId": "sandslash_alolan_shadow",
     "baseStats": {
         "atk": 177,
@@ -1495,7 +1495,7 @@
     "released": true
 }, {
     "dex": 29,
-    "speciesName": "尼多蘭 暗影化",
+    "speciesName": "尼多蘭 暗影",
     "speciesId": "nidoran_female_shadow",
     "baseStats": {
         "atk": 86,
@@ -1538,7 +1538,7 @@
     "released": true
 }, {
     "dex": 30,
-    "speciesName": "尼多娜 暗影化",
+    "speciesName": "尼多娜 暗影",
     "speciesId": "nidorina_shadow",
     "baseStats": {
         "atk": 117,
@@ -1583,7 +1583,7 @@
     "released": true
 }, {
     "dex": 31,
-    "speciesName": "尼多后 暗影化",
+    "speciesName": "尼多后 暗影",
     "speciesId": "nidoqueen_shadow",
     "baseStats": {
         "atk": 180,
@@ -1628,7 +1628,7 @@
     "released": true
 }, {
     "dex": 32,
-    "speciesName": "尼多朗 暗影化",
+    "speciesName": "尼多朗 暗影",
     "speciesId": "nidoran_male_shadow",
     "baseStats": {
         "atk": 105,
@@ -1672,7 +1672,7 @@
     "released": true
 }, {
     "dex": 33,
-    "speciesName": "尼多力諾 暗影化",
+    "speciesName": "尼多力諾 暗影",
     "speciesId": "nidorino_shadow",
     "baseStats": {
         "atk": 137,
@@ -1718,7 +1718,7 @@
     "released": true
 }, {
     "dex": 34,
-    "speciesName": "尼多王 暗影化",
+    "speciesName": "尼多王 暗影",
     "speciesId": "nidoking_shadow",
     "baseStats": {
         "atk": 204,
@@ -1827,7 +1827,7 @@
     "released": true
 }, {
     "dex": 37,
-    "speciesName": "六尾 暗影化",
+    "speciesName": "六尾 暗影",
     "speciesId": "vulpix_shadow",
     "baseStats": {
         "atk": 96,
@@ -1896,7 +1896,7 @@
     "released": true
 }, {
     "dex": 38,
-    "speciesName": "九尾 暗影化",
+    "speciesName": "九尾 暗影",
     "speciesId": "ninetales_shadow",
     "baseStats": {
         "atk": 169,
@@ -1985,7 +1985,7 @@
     "released": true
 }, {
     "dex": 41,
-    "speciesName": "超音蝠 暗影化",
+    "speciesName": "超音蝠 暗影",
     "speciesId": "zubat_shadow",
     "baseStats": {
         "atk": 83,
@@ -2031,7 +2031,7 @@
     "released": true
 }, {
     "dex": 42,
-    "speciesName": "大嘴蝠 暗影化",
+    "speciesName": "大嘴蝠 暗影",
     "speciesId": "golbat_shadow",
     "baseStats": {
         "atk": 161,
@@ -2076,7 +2076,7 @@
     "released": true
 }, {
     "dex": 43,
-    "speciesName": "走路草 暗影化",
+    "speciesName": "走路草 暗影",
     "speciesId": "oddish_shadow",
     "baseStats": {
         "atk": 131,
@@ -2119,7 +2119,7 @@
     "released": true
 }, {
     "dex": 44,
-    "speciesName": "臭臭花 暗影化",
+    "speciesName": "臭臭花 暗影",
     "speciesId": "gloom_shadow",
     "baseStats": {
         "atk": 153,
@@ -2163,7 +2163,7 @@
     "released": true
 }, {
     "dex": 45,
-    "speciesName": "霸王花 暗影化",
+    "speciesName": "霸王花 暗影",
     "speciesId": "vileplume_shadow",
     "baseStats": {
         "atk": 202,
@@ -2248,7 +2248,7 @@
     "released": true
 }, {
     "dex": 48,
-    "speciesName": "毛球 暗影化",
+    "speciesName": "毛球 暗影",
     "speciesId": "venonat_shadow",
     "baseStats": {
         "atk": 100,
@@ -2292,7 +2292,7 @@
     "released": true
 }, {
     "dex": 49,
-    "speciesName": "摩魯蛾 暗影化",
+    "speciesName": "摩魯蛾 暗影",
     "speciesId": "venomoth_shadow",
     "baseStats": {
         "atk": 179,
@@ -2358,7 +2358,7 @@
     "released": true
 }, {
     "dex": 50,
-    "speciesName": "地鼠 暗影化",
+    "speciesName": "地鼠 暗影",
     "speciesId": "diglett_shadow",
     "baseStats": {
         "atk": 109,
@@ -2424,7 +2424,7 @@
     "released": true
 }, {
     "dex": 51,
-    "speciesName": "三地鼠 暗影化",
+    "speciesName": "三地鼠 暗影",
     "speciesId": "dugtrio_shadow",
     "baseStats": {
         "atk": 167,
@@ -2511,7 +2511,7 @@
     "released": true
 }, {
     "dex": 52,
-    "speciesName": "喵喵 暗影化",
+    "speciesName": "喵喵 暗影",
     "speciesId": "meowth_shadow",
     "baseStats": {
         "atk": 92,
@@ -2577,7 +2577,7 @@
     "released": true
 }, {
     "dex": 53,
-    "speciesName": "貓老大 暗影化",
+    "speciesName": "貓老大 暗影",
     "speciesId": "persian_shadow",
     "baseStats": {
         "atk": 150,
@@ -2621,7 +2621,7 @@
     "released": true
 }, {
     "dex": 54,
-    "speciesName": "可達鴨 暗影化",
+    "speciesName": "可達鴨 暗影",
     "speciesId": "psyduck_shadow",
     "baseStats": {
         "atk": 122,
@@ -2665,7 +2665,7 @@
     "released": true
 }, {
     "dex": 55,
-    "speciesName": "哥達鴨 暗影化",
+    "speciesName": "哥達鴨 暗影",
     "speciesId": "golduck_shadow",
     "baseStats": {
         "atk": 191,
@@ -2702,7 +2702,7 @@
         "cp1500": [50, 15, 15, 15],
         "cp2500": [50, 15, 15, 15]
     },
-	"tags": ["include1500"],
+    "tags": ["include1500"],
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
     "released": true
@@ -2752,7 +2752,7 @@
     "released": true
 }, {
     "dex": 58,
-    "speciesName": "卡蒂狗 暗影化",
+    "speciesName": "卡蒂狗 暗影",
     "speciesId": "growlithe_shadow",
     "baseStats": {
         "atk": 136,
@@ -2796,7 +2796,7 @@
     "released": true
 }, {
     "dex": 59,
-    "speciesName": "風速狗 暗影化",
+    "speciesName": "風速狗 暗影",
     "speciesId": "arcanine_shadow",
     "baseStats": {
         "atk": 227,
@@ -2840,7 +2840,7 @@
     "released": true
 }, {
     "dex": 60,
-    "speciesName": "蚊香蝌蚪 暗影化",
+    "speciesName": "蚊香蝌蚪 暗影",
     "speciesId": "poliwag_shadow",
     "baseStats": {
         "atk": 101,
@@ -2885,7 +2885,7 @@
     "released": true
 }, {
     "dex": 61,
-    "speciesName": "蚊香君 暗影化",
+    "speciesName": "蚊香君 暗影",
     "speciesId": "poliwhirl_shadow",
     "baseStats": {
         "atk": 130,
@@ -2933,7 +2933,7 @@
     "released": true
 }, {
     "dex": 62,
-    "speciesName": "蚊香泳士 暗影化",
+    "speciesName": "蚊香泳士 暗影",
     "speciesId": "poliwrath_shadow",
     "baseStats": {
         "atk": 182,
@@ -2980,7 +2980,7 @@
     "released": true
 }, {
     "dex": 63,
-    "speciesName": "凱西 暗影化",
+    "speciesName": "凱西 暗影",
     "speciesId": "abra_shadow",
     "baseStats": {
         "atk": 195,
@@ -3024,7 +3024,7 @@
     "released": true
 }, {
     "dex": 64,
-    "speciesName": "勇基拉 暗影化",
+    "speciesName": "勇基拉 暗影",
     "speciesId": "kadabra_shadow",
     "baseStats": {
         "atk": 232,
@@ -3068,7 +3068,7 @@
     "released": true
 }, {
     "dex": 65,
-    "speciesName": "胡地 暗影化",
+    "speciesName": "胡地 暗影",
     "speciesId": "alakazam_shadow",
     "baseStats": {
         "atk": 271,
@@ -3113,7 +3113,7 @@
     "released": true
 }, {
     "dex": 66,
-    "speciesName": "腕力 暗影化",
+    "speciesName": "腕力 暗影",
     "speciesId": "machop_shadow",
     "baseStats": {
         "atk": 137,
@@ -3158,7 +3158,7 @@
     "released": true
 }, {
     "dex": 67,
-    "speciesName": "豪力 暗影化",
+    "speciesName": "豪力 暗影",
     "speciesId": "machoke_shadow",
     "baseStats": {
         "atk": 177,
@@ -3204,7 +3204,7 @@
     "released": true
 }, {
     "dex": 68,
-    "speciesName": "怪力 暗影化",
+    "speciesName": "怪力 暗影",
     "speciesId": "machamp_shadow",
     "baseStats": {
         "atk": 234,
@@ -3249,7 +3249,7 @@
     "released": true
 }, {
     "dex": 69,
-    "speciesName": "喇叭芽 暗影化",
+    "speciesName": "喇叭芽 暗影",
     "speciesId": "bellsprout_shadow",
     "baseStats": {
         "atk": 139,
@@ -3293,7 +3293,7 @@
     "released": true
 }, {
     "dex": 70,
-    "speciesName": "口呆花 暗影化",
+    "speciesName": "口呆花 暗影",
     "speciesId": "weepinbell_shadow",
     "baseStats": {
         "atk": 172,
@@ -3339,7 +3339,7 @@
     "released": true
 }, {
     "dex": 71,
-    "speciesName": "大食花 暗影化",
+    "speciesName": "大食花 暗影",
     "speciesId": "victreebel_shadow",
     "baseStats": {
         "atk": 207,
@@ -3422,7 +3422,8 @@
     "level25CP": 741,
     "buddyDistance": 1,
     "thirdMoveCost": 10000,
-    "released": true
+    "released": true,
+    "tags": ["shadoweligible"]
 }, {
     "dex": 74,
     "speciesName": "小拳石 阿羅拉",
@@ -3441,10 +3442,31 @@
         "cp1500": [50, 15, 15, 15],
         "cp2500": [50, 15, 15, 15]
     },
-	"searchPriority": 2,
+    "searchPriority": 2,
     "buddyDistance": 1,
     "thirdMoveCost": 10000,
     "released": true
+}, {
+    "dex": 74,
+    "speciesName": "小拳石 暗影",
+    "speciesId": "geodude_shadow",
+    "baseStats": {
+        "atk": 132,
+        "def": 132,
+        "hp": 120
+    },
+    "types": ["rock", "ground"],
+    "fastMoves": ["ROCK_THROW", "TACKLE"],
+    "chargedMoves": ["DIG", "ROCK_SLIDE", "ROCK_TOMB"],
+    "defaultIVs": {
+        "cp500": [15, 5, 7, 14],
+        "cp1500": [50, 15, 15, 15],
+        "cp2500": [50, 15, 15, 15]
+    },
+    "buddyDistance": 1,
+    "thirdMoveCost": 10000,
+    "released": true,
+    "tags": ["shadow"]
 }, {
     "dex": 75,
     "speciesName": "隆隆石",
@@ -3467,7 +3489,8 @@
     "eliteMoves": ["ROCK_SLIDE"],
     "buddyDistance": 1,
     "thirdMoveCost": 10000,
-    "released": true
+    "released": true,
+    "tags": ["shadoweligible"]
 }, {
     "dex": 75,
     "speciesName": "隆隆石 阿羅拉",
@@ -3491,6 +3514,28 @@
     "thirdMoveCost": 10000,
     "released": true
 }, {
+    "dex": 75,
+    "speciesName": "隆隆石 暗影",
+    "speciesId": "graveler_shadow",
+    "baseStats": {
+        "atk": 164,
+        "def": 164,
+        "hp": 146
+    },
+    "types": ["rock", "ground"],
+    "fastMoves": ["MUD_SLAP", "ROCK_THROW"],
+    "chargedMoves": ["DIG", "ROCK_BLAST", "ROCK_SLIDE", "STONE_EDGE"],
+    "defaultIVs": {
+        "cp500": [10, 5, 11, 11],
+        "cp1500": [30.5, 4, 6, 15],
+        "cp2500": [50, 15, 15, 15]
+    },
+    "eliteMoves": ["ROCK_SLIDE"],
+    "buddyDistance": 1,
+    "thirdMoveCost": 10000,
+    "released": true,
+    "tags": ["shadow"]
+}, {
     "dex": 76,
     "speciesName": "隆隆岩",
     "speciesId": "golem",
@@ -3511,7 +3556,8 @@
     "level25CP": 1825,
     "buddyDistance": 1,
     "thirdMoveCost": 10000,
-    "released": true
+    "released": true,
+    "tags": ["shadoweligible"]
 }, {
     "dex": 76,
     "speciesName": "隆隆岩 阿羅拉",
@@ -3524,17 +3570,38 @@
     "types": ["rock", "electric"],
     "fastMoves": ["ROCK_THROW", "VOLT_SWITCH", "ROLLOUT"],
     "chargedMoves": ["ROCK_BLAST", "STONE_EDGE", "WILD_CHARGE"],
-	"eliteMoves": ["ROLLOUT"],
+    "eliteMoves": ["ROLLOUT"],
     "tags": ["alolan"],
     "defaultIVs": {
         "cp500": [6.5, 4, 14, 10],
         "cp1500": [19, 4, 11, 12],
         "cp2500": [32.5, 6, 10, 15]
     },
-	"searchPriority": 2,
+    "searchPriority": 2,
     "buddyDistance": 1,
     "thirdMoveCost": 10000,
     "released": true
+}, {
+    "dex": 76,
+    "speciesName": "隆隆岩 暗影",
+    "speciesId": "golem_shadow",
+    "baseStats": {
+        "atk": 211,
+        "def": 198,
+        "hp": 190
+    },
+    "types": ["rock", "ground"],
+    "fastMoves": ["MUD_SLAP", "ROCK_THROW"],
+    "chargedMoves": ["ANCIENT_POWER", "EARTHQUAKE", "ROCK_BLAST", "STONE_EDGE"],
+    "defaultIVs": {
+        "cp500": [6.5, 4, 14, 10],
+        "cp1500": [19, 4, 11, 12],
+        "cp2500": [32.5, 6, 10, 15]
+    },
+    "buddyDistance": 1,
+    "thirdMoveCost": 10000,
+    "released": true,
+    "tags": ["shadow"]
 }, {
     "dex": 77,
     "speciesName": "小火馬",
@@ -3666,7 +3733,7 @@
     "released": true
 }, {
     "dex": 79,
-    "speciesName": "呆呆獸 暗影化",
+    "speciesName": "呆呆獸 暗影",
     "speciesId": "slowpoke_shadow",
     "baseStats": {
         "atk": 109,
@@ -3753,7 +3820,7 @@
     "released": true
 }, {
     "dex": 80,
-    "speciesName": "呆殼獸 暗影化",
+    "speciesName": "呆殼獸 暗影",
     "speciesId": "slowbro_shadow",
     "baseStats": {
         "atk": 177,
@@ -3798,7 +3865,7 @@
     "released": true
 }, {
     "dex": 81,
-    "speciesName": "小磁怪 暗影化",
+    "speciesName": "小磁怪 暗影",
     "speciesId": "magnemite_shadow",
     "baseStats": {
         "atk": 165,
@@ -3843,7 +3910,7 @@
     "released": true
 }, {
     "dex": 82,
-    "speciesName": "三合一磁怪 暗影化",
+    "speciesName": "三合一磁怪 暗影",
     "speciesId": "magneton_shadow",
     "baseStats": {
         "atk": 223,
@@ -4040,7 +4107,7 @@
     "released": true
 }, {
     "dex": 88,
-    "speciesName": "臭泥 暗影化",
+    "speciesName": "臭泥 暗影",
     "speciesId": "grimer_shadow",
     "baseStats": {
         "atk": 135,
@@ -4108,7 +4175,7 @@
     "released": true
 }, {
     "dex": 89,
-    "speciesName": "臭臭泥 暗影化",
+    "speciesName": "臭臭泥 暗影",
     "speciesId": "muk_shadow",
     "baseStats": {
         "atk": 190,
@@ -4152,7 +4219,7 @@
     "released": true
 }, {
     "dex": 90,
-    "speciesName": "大舌貝 暗影化",
+    "speciesName": "大舌貝 暗影",
     "speciesId": "shellder_shadow",
     "baseStats": {
         "atk": 116,
@@ -4197,7 +4264,7 @@
     "released": true
 }, {
     "dex": 91,
-    "speciesName": "刺甲貝 暗影化",
+    "speciesName": "刺甲貝 暗影",
     "speciesId": "cloyster_shadow",
     "baseStats": {
         "atk": 186,
@@ -4351,7 +4418,7 @@
     "released": true
 }, {
     "dex": 96,
-    "speciesName": "催眠貘 暗影化",
+    "speciesName": "催眠貘 暗影",
     "speciesId": "drowzee_shadow",
     "baseStats": {
         "atk": 89,
@@ -4396,7 +4463,7 @@
     "released": true
 }, {
     "dex": 97,
-    "speciesName": "引夢貘人 暗影化",
+    "speciesName": "引夢貘人 暗影",
     "speciesId": "hypno_shadow",
     "baseStats": {
         "atk": 144,
@@ -4505,7 +4572,7 @@
     "released": true
 }, {
     "dex": 100,
-    "speciesName": "霹靂電球 暗影化",
+    "speciesName": "霹靂電球 暗影",
     "speciesId": "voltorb_shadow",
     "baseStats": {
         "atk": 109,
@@ -4575,7 +4642,7 @@
     "tags": ["hisuian"]
 }, {
     "dex": 101,
-    "speciesName": "頑皮雷彈 暗影化",
+    "speciesName": "頑皮雷彈 暗影",
     "speciesId": "electrode_shadow",
     "baseStats": {
         "atk": 173,
@@ -4620,7 +4687,7 @@
     "released": true
 }, {
     "dex": 102,
-    "speciesName": "蛋蛋 暗影化",
+    "speciesName": "蛋蛋 暗影",
     "speciesId": "exeggcute_shadow",
     "baseStats": {
         "atk": 107,
@@ -4688,7 +4755,7 @@
     "level25CP": 1865
 }, {
     "dex": 103,
-    "speciesName": "椰蛋樹 暗影化",
+    "speciesName": "椰蛋樹 暗影",
     "speciesId": "exeggutor_shadow",
     "baseStats": {
         "atk": 233,
@@ -4711,7 +4778,7 @@
     "released": true
 }, {
     "dex": 103,
-    "speciesName": "椰蛋樹 阿羅拉 暗影化",
+    "speciesName": "椰蛋樹 阿羅拉 暗影",
     "speciesId": "exeggutor_alolan_shadow",
     "baseStats": {
         "atk": 230,
@@ -4755,7 +4822,7 @@
     "released": true
 }, {
     "dex": 104,
-    "speciesName": "卡拉卡拉 暗影化",
+    "speciesName": "卡拉卡拉 暗影",
     "speciesId": "cubone_shadow",
     "baseStats": {
         "atk": 90,
@@ -4815,14 +4882,35 @@
         "cp1500": [32, 5, 9, 15],
         "cp2500": [50, 15, 15, 15]
     },
-	"level25CP": 1119,
+    "level25CP": 1090,
     "searchPriority": 8,
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
     "released": true
 }, {
     "dex": 105,
-    "speciesName": "嘎啦嘎啦 阿羅拉 暗影化",
+    "speciesName": "嘎啦嘎啦 暗影",
+    "speciesId": "marowak_shadow",
+    "baseStats": {
+        "atk": 144,
+        "def": 186,
+        "hp": 155
+    },
+    "types": ["ground", "none"],
+    "fastMoves": ["MUD_SLAP", "ROCK_SMASH"],
+    "chargedMoves": ["BONE_CLUB", "DIG", "EARTHQUAKE"],
+    "defaultIVs": {
+        "cp500": [10.5, 5, 9, 10],
+        "cp1500": [32, 5, 9, 15],
+        "cp2500": [50, 15, 15, 15]
+    },
+    "tags": ["shadow"],
+    "buddyDistance": 3,
+    "thirdMoveCost": 50000,
+    "released": true
+}, {
+    "dex": 105,
+    "speciesName": "嘎啦嘎啦 阿羅拉 暗影",
     "speciesId": "marowak_alolan_shadow",
     "baseStats": {
         "atk": 144,
@@ -4840,27 +4928,6 @@
         "cp2500": [50, 15, 15, 15]
     },
     "searchPriority": 8,
-    "buddyDistance": 3,
-    "thirdMoveCost": 50000,
-    "released": true
-}, {
-    "dex": 105,
-    "speciesName": "嘎啦嘎啦 暗影化",
-    "speciesId": "marowak_shadow",
-    "baseStats": {
-        "atk": 144,
-        "def": 186,
-        "hp": 155
-    },
-    "types": ["ground", "none"],
-    "fastMoves": ["MUD_SLAP", "ROCK_SMASH"],
-    "chargedMoves": ["BONE_CLUB", "DIG", "EARTHQUAKE"],
-    "defaultIVs": {
-        "cp500": [10.5, 5, 9, 10],
-        "cp1500": [32, 5, 9, 15],
-        "cp2500": [50, 15, 15, 15]
-    },
-    "tags": ["shadow"],
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
     "released": true
@@ -4890,7 +4957,7 @@
     "released": true
 }, {
     "dex": 106,
-    "speciesName": "飛腿郎 暗影化",
+    "speciesName": "飛腿郎 暗影",
     "speciesId": "hitmonlee_shadow",
     "baseStats": {
         "atk": 224,
@@ -4937,7 +5004,7 @@
     "released": true
 }, {
     "dex": 107,
-    "speciesName": "快拳郎 暗影化",
+    "speciesName": "快拳郎 暗影",
     "speciesId": "hitmonchan_shadow",
     "baseStats": {
         "atk": 193,
@@ -5006,7 +5073,7 @@
     "released": true
 }, {
     "dex": 109,
-    "speciesName": "瓦斯彈 暗影化",
+    "speciesName": "瓦斯彈 暗影",
     "speciesId": "koffing_shadow",
     "baseStats": {
         "atk": 119,
@@ -5073,7 +5140,7 @@
     "released": true
 }, {
     "dex": 110,
-    "speciesName": "雙彈瓦斯 暗影化",
+    "speciesName": "雙彈瓦斯 暗影",
     "speciesId": "weezing_shadow",
     "baseStats": {
         "atk": 174,
@@ -5185,7 +5252,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 114,
-    "speciesName": "蔓藤怪 暗影化",
+    "speciesName": "蔓藤怪 暗影",
     "speciesId": "tangela_shadow",
     "baseStats": {
         "atk": 183,
@@ -5244,12 +5311,12 @@
     "chargedMoves": ["BRICK_BREAK", "CRUNCH", "EARTHQUAKE", "OUTRAGE", "STOMP", "POWER_UP_PUNCH"],
     "tags": ["regional", "mega"],
     "defaultIVs": {
-		"cp500": [5, 7, 13, 11],
+        "cp500": [5, 7, 13, 11],
         "cp1500": [14, 10, 15, 11],
         "cp2500": [23.5, 9, 10, 15]
     },
     "eliteMoves": ["BRICK_BREAK", "STOMP"],
-	"buddyDistance": 3,
+    "buddyDistance": 3,
     "thirdMoveCost": 50000,
     "released": true
 }, {
@@ -5276,7 +5343,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 116,
-    "speciesName": "墨海馬 暗影化",
+    "speciesName": "墨海馬 暗影",
     "speciesId": "horsea_shadow",
     "baseStats": {
         "atk": 129,
@@ -5320,7 +5387,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 117,
-    "speciesName": "海刺龍 暗影化",
+    "speciesName": "海刺龍 暗影",
     "speciesId": "seadra_shadow",
     "baseStats": {
         "atk": 187,
@@ -5493,7 +5560,7 @@
     "released": true
 }, {
     "dex": 123,
-    "speciesName": "飛天螳螂 暗影化",
+    "speciesName": "飛天螳螂 暗影",
     "speciesId": "scyther_shadow",
     "baseStats": {
         "atk": 218,
@@ -5560,7 +5627,7 @@
     "released": true
 }, {
     "dex": 125,
-    "speciesName": "電擊獸 暗影化",
+    "speciesName": "電擊獸 暗影",
     "speciesId": "electabuzz_shadow",
     "baseStats": {
         "atk": 198,
@@ -5605,7 +5672,7 @@
     "released": true
 }, {
     "dex": 126,
-    "speciesName": "鴨嘴火獸 暗影化",
+    "speciesName": "鴨嘴火獸 暗影",
     "speciesId": "magmar_shadow",
     "baseStats": {
         "atk": 206,
@@ -5651,7 +5718,7 @@
     "released": true
 }, {
     "dex": 127,
-    "speciesName": "凱羅斯 暗影化",
+    "speciesName": "凱羅斯 暗影",
     "speciesId": "pinsir_shadow",
     "baseStats": {
         "atk": 238,
@@ -5718,7 +5785,7 @@
     "released": true
 }, {
     "dex": 129,
-    "speciesName": "鯉魚王 暗影化",
+    "speciesName": "鯉魚王 暗影",
     "speciesId": "magikarp_shadow",
     "baseStats": {
         "atk": 29,
@@ -5786,7 +5853,7 @@
     "released": true
 }, {
     "dex": 130,
-    "speciesName": "暴鯉龍 暗影化",
+    "speciesName": "暴鯉龍 暗影",
     "speciesId": "gyarados_shadow",
     "baseStats": {
         "atk": 237,
@@ -5834,7 +5901,7 @@
     "released": true
 }, {
     "dex": 131,
-    "speciesName": "拉普拉斯 暗影化",
+    "speciesName": "拉普拉斯 暗影",
     "speciesId": "lapras_shadow",
     "baseStats": {
         "atk": 165,
@@ -5986,7 +6053,7 @@
     "released": true
 }, {
     "dex": 137,
-    "speciesName": "多邊獸 暗影化",
+    "speciesName": "多邊獸 暗影",
     "speciesId": "porygon_shadow",
     "baseStats": {
         "atk": 153,
@@ -6032,7 +6099,7 @@
     "released": true
 }, {
     "dex": 138,
-    "speciesName": "菊石獸 暗影化",
+    "speciesName": "菊石獸 暗影",
     "speciesId": "omanyte_shadow",
     "baseStats": {
         "atk": 155,
@@ -6078,7 +6145,7 @@
     "released": true
 }, {
     "dex": 139,
-    "speciesName": "多刺菊石獸 暗影化",
+    "speciesName": "多刺菊石獸 暗影",
     "speciesId": "omastar_shadow",
     "baseStats": {
         "atk": 207,
@@ -6185,7 +6252,7 @@
     "released": true
 }, {
     "dex": 142,
-    "speciesName": "化石翼龍 暗影化",
+    "speciesName": "化石翼龍 暗影",
     "speciesId": "aerodactyl_shadow",
     "baseStats": {
         "atk": 221,
@@ -6230,7 +6297,7 @@
     "released": true
 }, {
     "dex": 143,
-    "speciesName": "卡比獸 暗影化",
+    "speciesName": "卡比獸 暗影",
     "speciesId": "snorlax_shadow",
     "baseStats": {
         "atk": 190,
@@ -6277,7 +6344,7 @@
     "released": true
 }, {
     "dex": 144,
-    "speciesName": "急凍鳥 暗影化",
+    "speciesName": "急凍鳥 暗影",
     "speciesId": "articuno_shadow",
     "baseStats": {
         "atk": 192,
@@ -6294,6 +6361,7 @@
         "cp2500": [31, 4, 14, 12]
     },
     "eliteMoves": ["HURRICANE"],
+    "searchPriority": 2,
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
     "released": true
@@ -6322,7 +6390,7 @@
     "released": true
 }, {
     "dex": 145,
-    "speciesName": "閃電鳥 暗影化",
+    "speciesName": "閃電鳥 暗影",
     "speciesId": "zapdos_shadow",
     "baseStats": {
         "atk": 253,
@@ -6367,7 +6435,7 @@
     "released": true
 }, {
     "dex": 146,
-    "speciesName": "火焰鳥 暗影化",
+    "speciesName": "火焰鳥 暗影",
     "speciesId": "moltres_shadow",
     "baseStats": {
         "atk": 251,
@@ -6411,7 +6479,7 @@
     "released": true
 }, {
     "dex": 147,
-    "speciesName": "迷你龍 暗影化",
+    "speciesName": "迷你龍 暗影",
     "speciesId": "dratini_shadow",
     "baseStats": {
         "atk": 119,
@@ -6454,7 +6522,7 @@
     "released": true
 }, {
     "dex": 148,
-    "speciesName": "哈克龍 暗影化",
+    "speciesName": "哈克龍 暗影",
     "speciesId": "dragonair_shadow",
     "baseStats": {
         "atk": 163,
@@ -6499,7 +6567,7 @@
     "released": true
 }, {
     "dex": 149,
-    "speciesName": "快龍 暗影化",
+    "speciesName": "快龍 暗影",
     "speciesId": "dragonite_shadow",
     "baseStats": {
         "atk": 263,
@@ -6567,7 +6635,7 @@
     "released": true
 }, {
     "dex": 150,
-    "speciesName": "超夢 暗影化",
+    "speciesName": "超夢 暗影",
     "speciesId": "mewtwo_shadow",
     "baseStats": {
         "atk": 300,
@@ -6632,7 +6700,7 @@
     "level25CP": 512
 }, {
     "dex": 152,
-    "speciesName": "菊草葉 暗影化",
+    "speciesName": "菊草葉 暗影",
     "speciesId": "chikorita_shadow",
     "baseStats": {
         "atk": 92,
@@ -6676,7 +6744,7 @@
     "level25CP": 843
 }, {
     "dex": 153,
-    "speciesName": "月桂葉 暗影化",
+    "speciesName": "月桂葉 暗影",
     "speciesId": "bayleef_shadow",
     "baseStats": {
         "atk": 122,
@@ -6723,7 +6791,7 @@
     "level25CP": 1468
 }, {
     "dex": 154,
-    "speciesName": "大竺葵 暗影化",
+    "speciesName": "大竺葵 暗影",
     "speciesId": "meganium_shadow",
     "baseStats": {
         "atk": 168,
@@ -6769,7 +6837,7 @@
     "level25CP": 542
 }, {
     "dex": 155,
-    "speciesName": "火球鼠 暗影化",
+    "speciesName": "火球鼠 暗影",
     "speciesId": "cyndaquil_shadow",
     "baseStats": {
         "atk": 116,
@@ -6812,7 +6880,7 @@
     "level25CP": 972
 }, {
     "dex": 156,
-    "speciesName": "火岩鼠 暗影化",
+    "speciesName": "火岩鼠 暗影",
     "speciesId": "quilava_shadow",
     "baseStats": {
         "atk": 158,
@@ -6857,7 +6925,7 @@
     "level25CP": 1784
 }, {
     "dex": 157,
-    "speciesName": "火爆獸 暗影化",
+    "speciesName": "火爆獸 暗影",
     "speciesId": "typhlosion_shadow",
     "baseStats": {
         "atk": 223,
@@ -6902,7 +6970,7 @@
     "level25CP": 637
 }, {
     "dex": 158,
-    "speciesName": "小鋸鱷 暗影化",
+    "speciesName": "小鋸鱷 暗影",
     "speciesId": "totodile_shadow",
     "baseStats": {
         "atk": 117,
@@ -6945,7 +7013,7 @@
     "level25CP": 1018
 }, {
     "dex": 159,
-    "speciesName": "藍鱷 暗影化",
+    "speciesName": "藍鱷 暗影",
     "speciesId": "croconaw_shadow",
     "baseStats": {
         "atk": 150,
@@ -6989,7 +7057,7 @@
     "level25CP": 1764
 }, {
     "dex": 160,
-    "speciesName": "大力鱷 暗影化",
+    "speciesName": "大力鱷 暗影",
     "speciesId": "feraligatr_shadow",
     "baseStats": {
         "atk": 205,
@@ -7197,7 +7265,7 @@
     "released": true
 }, {
     "dex": 169,
-    "speciesName": "叉字蝠 暗影化",
+    "speciesName": "叉字蝠 暗影",
     "speciesId": "crobat_shadow",
     "baseStats": {
         "atk": 194,
@@ -7430,7 +7498,7 @@
     "released": true
 }, {
     "dex": 179,
-    "speciesName": "咩利羊 暗影化",
+    "speciesName": "咩利羊 暗影",
     "speciesId": "mareep_shadow",
     "baseStats": {
         "atk": 114,
@@ -7474,7 +7542,7 @@
     "released": true
 }, {
     "dex": 180,
-    "speciesName": "茸茸羊 暗影化",
+    "speciesName": "茸茸羊 暗影",
     "speciesId": "flaaffy_shadow",
     "baseStats": {
         "atk": 145,
@@ -7543,7 +7611,7 @@
     "released": true
 }, {
     "dex": 181,
-    "speciesName": "電龍 暗影化",
+    "speciesName": "電龍 暗影",
     "speciesId": "ampharos_shadow",
     "baseStats": {
         "atk": 211,
@@ -7589,7 +7657,7 @@
     "released": true
 }, {
     "dex": 182,
-    "speciesName": "美麗花 暗影化",
+    "speciesName": "美麗花 暗影",
     "speciesId": "bellossom_shadow",
     "baseStats": {
         "atk": 169,
@@ -7699,7 +7767,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 185,
-    "speciesName": "樹才怪 暗影化",
+    "speciesName": "樹才怪 暗影",
     "speciesId": "sudowoodo_shadow",
     "baseStats": {
         "atk": 167,
@@ -7746,7 +7814,7 @@
     "released": true
 }, {
     "dex": 186,
-    "speciesName": "蚊香蛙皇 暗影化",
+    "speciesName": "蚊香蛙皇 暗影",
     "speciesId": "politoed_shadow",
     "baseStats": {
         "atk": 174,
@@ -7792,7 +7860,7 @@
     "released": true
 }, {
     "dex": 187,
-    "speciesName": "毽子草 暗影化",
+    "speciesName": "毽子草 暗影",
     "speciesId": "hoppip_shadow",
     "baseStats": {
         "atk": 67,
@@ -7835,7 +7903,7 @@
     "released": true
 }, {
     "dex": 188,
-    "speciesName": "毽子花 暗影化",
+    "speciesName": "毽子花 暗影",
     "speciesId": "skiploom_shadow",
     "baseStats": {
         "atk": 91,
@@ -7881,7 +7949,7 @@
     "released": true
 }, {
     "dex": 189,
-    "speciesName": "毽子棉 暗影化",
+    "speciesName": "毽子棉 暗影",
     "speciesId": "jumpluff_shadow",
     "baseStats": {
         "atk": 118,
@@ -7928,7 +7996,7 @@
     "level25CP": 775
 }, {
     "dex": 190,
-    "speciesName": "長尾怪手 暗影化",
+    "speciesName": "長尾怪手 暗影",
     "speciesId": "aipom_shadow",
     "baseStats": {
         "atk": 136,
@@ -8033,7 +8101,7 @@
     "released": true
 }, {
     "dex": 194,
-    "speciesName": "烏波 暗影化",
+    "speciesName": "烏波 暗影",
     "speciesId": "wooper_shadow",
     "baseStats": {
         "atk": 75,
@@ -8076,7 +8144,7 @@
     "released": true
 }, {
     "dex": 195,
-    "speciesName": "沼王 暗影化",
+    "speciesName": "沼王 暗影",
     "speciesId": "quagsire_shadow",
     "baseStats": {
         "atk": 152,
@@ -8163,7 +8231,7 @@
     "released": true
 }, {
     "dex": 198,
-    "speciesName": "黑暗鴉 暗影化",
+    "speciesName": "黑暗鴉 暗影",
     "speciesId": "murkrow_shadow",
     "baseStats": {
         "atk": 175,
@@ -8229,7 +8297,7 @@
     "released": true
 }, {
     "dex": 199,
-    "speciesName": "呆呆王 暗影化",
+    "speciesName": "呆呆王 暗影",
     "speciesId": "slowking_shadow",
     "baseStats": {
         "atk": 177,
@@ -8273,7 +8341,7 @@
     "released": true
 }, {
     "dex": 200,
-    "speciesName": "夢妖 暗影化",
+    "speciesName": "夢妖 暗影",
     "speciesId": "misdreavus_shadow",
     "baseStats": {
         "atk": 167,
@@ -8336,7 +8404,7 @@
     "released": true
 }, {
     "dex": 202,
-    "speciesName": "果然翁 暗影化",
+    "speciesName": "果然翁 暗影",
     "speciesId": "wobbuffet_shadow",
     "baseStats": {
         "atk": 60,
@@ -8379,7 +8447,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 203,
-    "speciesName": "麒麟奇 暗影化",
+    "speciesName": "麒麟奇 暗影",
     "speciesId": "girafarig_shadow",
     "baseStats": {
         "atk": 182,
@@ -8422,7 +8490,7 @@
     "released": true
 }, {
     "dex": 204,
-    "speciesName": "榛果球 暗影化",
+    "speciesName": "榛果球 暗影",
     "speciesId": "pineco_shadow",
     "baseStats": {
         "atk": 108,
@@ -8467,7 +8535,7 @@
     "released": true
 }, {
     "dex": 205,
-    "speciesName": "佛烈托斯 暗影化",
+    "speciesName": "佛烈托斯 暗影",
     "speciesId": "forretress_shadow",
     "baseStats": {
         "atk": 161,
@@ -8532,7 +8600,7 @@
     "released": true
 }, {
     "dex": 207,
-    "speciesName": "天蠍 暗影化",
+    "speciesName": "天蠍 暗影",
     "speciesId": "gligar_shadow",
     "baseStats": {
         "atk": 143,
@@ -8617,7 +8685,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 209,
-    "speciesName": "布魯 暗影化",
+    "speciesName": "布魯 暗影",
     "speciesId": "snubbull_shadow",
     "baseStats": {
         "atk": 137,
@@ -8662,7 +8730,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 210,
-    "speciesName": "布魯皇 暗影化",
+    "speciesName": "布魯皇 暗影",
     "speciesId": "granbull_shadow",
     "baseStats": {
         "atk": 212,
@@ -8728,7 +8796,7 @@
     "released": true
 }, {
     "dex": 212,
-    "speciesName": "巨鉗螳螂 暗影化",
+    "speciesName": "巨鉗螳螂 暗影",
     "speciesId": "scizor_shadow",
     "baseStats": {
         "atk": 236,
@@ -8772,7 +8840,7 @@
     "released": true
 }, {
     "dex": 213,
-    "speciesName": "壺壺 暗影化",
+    "speciesName": "壺壺 暗影",
     "speciesId": "shuckle_shadow",
     "baseStats": {
         "atk": 17,
@@ -8836,7 +8904,7 @@
     "released": true
 }, {
     "dex": 215,
-    "speciesName": "狃拉 暗影化",
+    "speciesName": "狃拉 暗影",
     "speciesId": "sneasel_shadow",
     "baseStats": {
         "atk": 189,
@@ -8880,7 +8948,7 @@
     "released": true
 }, {
     "dex": 216,
-    "speciesName": "熊寶寶 暗影化",
+    "speciesName": "熊寶寶 暗影",
     "speciesId": "teddiursa_shadow",
     "baseStats": {
         "atk": 142,
@@ -8924,7 +8992,7 @@
     "released": true
 }, {
     "dex": 217,
-    "speciesName": "圈圈熊 暗影化",
+    "speciesName": "圈圈熊 暗影",
     "speciesId": "ursaring_shadow",
     "baseStats": {
         "atk": 236,
@@ -9008,7 +9076,7 @@
     "released": true
 }, {
     "dex": 220,
-    "speciesName": "小山豬 暗影化",
+    "speciesName": "小山豬 暗影",
     "speciesId": "swinub_shadow",
     "baseStats": {
         "atk": 90,
@@ -9052,7 +9120,7 @@
     "released": true
 }, {
     "dex": 221,
-    "speciesName": "長毛豬 暗影化",
+    "speciesName": "長毛豬 暗影",
     "speciesId": "piloswine_shadow",
     "baseStats": {
         "atk": 181,
@@ -9160,7 +9228,7 @@
     "released": true
 }, {
     "dex": 225,
-    "speciesName": "信使鳥 暗影化",
+    "speciesName": "信使鳥 暗影",
     "speciesId": "delibird_shadow",
     "baseStats": {
         "atk": 128,
@@ -9225,7 +9293,7 @@
     "released": true
 }, {
     "dex": 227,
-    "speciesName": "盔甲鳥 暗影化",
+    "speciesName": "盔甲鳥 暗影",
     "speciesId": "skarmory_shadow",
     "baseStats": {
         "atk": 148,
@@ -9269,7 +9337,7 @@
     "released": true
 }, {
     "dex": 228,
-    "speciesName": "戴魯比 暗影化",
+    "speciesName": "戴魯比 暗影",
     "speciesId": "houndour_shadow",
     "baseStats": {
         "atk": 152,
@@ -9334,7 +9402,7 @@
     "released": true
 }, {
     "dex": 229,
-    "speciesName": "黑魯加 暗影化",
+    "speciesName": "黑魯加 暗影",
     "speciesId": "houndoom_shadow",
     "baseStats": {
         "atk": 224,
@@ -9379,7 +9447,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 230,
-    "speciesName": "刺龍王 暗影化",
+    "speciesName": "刺龍王 暗影",
     "speciesId": "kingdra_shadow",
     "baseStats": {
         "atk": 194,
@@ -9464,7 +9532,7 @@
     "released": true
 }, {
     "dex": 233,
-    "speciesName": "多邊獸Ⅱ 暗影化",
+    "speciesName": "多邊獸Ⅱ 暗影",
     "speciesId": "porygon2_shadow",
     "baseStats": {
         "atk": 198,
@@ -9507,7 +9575,7 @@
     "released": true
 }, {
     "dex": 234,
-    "speciesName": "驚角鹿 暗影化",
+    "speciesName": "驚角鹿 暗影",
     "speciesId": "stantler_shadow",
     "baseStats": {
         "atk": 192,
@@ -9716,7 +9784,7 @@
     "released": true
 }, {
     "dex": 243,
-    "speciesName": "雷公 暗影化",
+    "speciesName": "雷公 暗影",
     "speciesId": "raikou_shadow",
     "baseStats": {
         "atk": 241,
@@ -9759,7 +9827,7 @@
     "released": true
 }, {
     "dex": 244,
-    "speciesName": "炎帝 暗影化",
+    "speciesName": "炎帝 暗影",
     "speciesId": "entei_shadow",
     "baseStats": {
         "atk": 235,
@@ -9803,7 +9871,7 @@
     "released": true
 }, {
     "dex": 245,
-    "speciesName": "水君 暗影化",
+    "speciesName": "水君 暗影",
     "speciesId": "suicune_shadow",
     "baseStats": {
         "atk": 180,
@@ -9847,7 +9915,7 @@
     "released": true
 }, {
     "dex": 246,
-    "speciesName": "幼基拉斯 暗影化",
+    "speciesName": "幼基拉斯 暗影",
     "speciesId": "larvitar_shadow",
     "baseStats": {
         "atk": 115,
@@ -9890,7 +9958,7 @@
     "released": true
 }, {
     "dex": 247,
-    "speciesName": "沙基拉斯 暗影化",
+    "speciesName": "沙基拉斯 暗影",
     "speciesId": "pupitar_shadow",
     "baseStats": {
         "atk": 155,
@@ -9935,7 +10003,7 @@
     "released": true
 }, {
     "dex": 248,
-    "speciesName": "班基拉斯 暗影化",
+    "speciesName": "班基拉斯 暗影",
     "speciesId": "tyranitar_shadow",
     "baseStats": {
         "atk": 251,
@@ -9981,7 +10049,7 @@
     "level25CP": 2324
 }, {
     "dex": 249,
-    "speciesName": "洛奇亞 暗影化",
+    "speciesName": "洛奇亞 暗影",
     "speciesId": "lugia_shadow",
     "baseStats": {
         "atk": 193,
@@ -10027,7 +10095,7 @@
     "released": true
 }, {
     "dex": 250,
-    "speciesName": "鳳王 暗影化",
+    "speciesName": "鳳王 暗影",
     "speciesId": "ho_oh_shadow",
     "baseStats": {
         "atk": 239,
@@ -10224,7 +10292,7 @@
     "released": true
 }, {
     "dex": 258,
-    "speciesName": "水躍魚 暗影化",
+    "speciesName": "水躍魚 暗影",
     "speciesId": "mudkip_shadow",
     "baseStats": {
         "atk": 126,
@@ -10267,7 +10335,7 @@
     "released": true
 }, {
     "dex": 259,
-    "speciesName": "沼躍魚 暗影化",
+    "speciesName": "沼躍魚 暗影",
     "speciesId": "marshtomp_shadow",
     "baseStats": {
         "atk": 156,
@@ -10312,7 +10380,7 @@
     "released": true
 }, {
     "dex": 260,
-    "speciesName": "巨沼怪 暗影化",
+    "speciesName": "巨沼怪 暗影",
     "speciesId": "swampert_shadow",
     "baseStats": {
         "atk": 208,
@@ -10357,7 +10425,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 261,
-    "speciesName": "土狼犬 暗影化",
+    "speciesName": "土狼犬 暗影",
     "speciesId": "poochyena_shadow",
     "baseStats": {
         "atk": 96,
@@ -10400,7 +10468,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 262,
-    "speciesName": "大狼犬 暗影化",
+    "speciesName": "大狼犬 暗影",
     "speciesId": "mightyena_shadow",
     "baseStats": {
         "atk": 171,
@@ -10690,7 +10758,7 @@
     "released": true
 }, {
     "dex": 273,
-    "speciesName": "橡實果 暗影化",
+    "speciesName": "橡實果 暗影",
     "speciesId": "seedot_shadow",
     "baseStats": {
         "atk": 71,
@@ -10733,7 +10801,7 @@
     "released": true
 }, {
     "dex": 274,
-    "speciesName": "長鼻葉 暗影化",
+    "speciesName": "長鼻葉 暗影",
     "speciesId": "nuzleaf_shadow",
     "baseStats": {
         "atk": 134,
@@ -10779,7 +10847,7 @@
     "released": true
 }, {
     "dex": 275,
-    "speciesName": "狡猾天狗 暗影化",
+    "speciesName": "狡猾天狗 暗影",
     "speciesId": "shiftry_shadow",
     "baseStats": {
         "atk": 200,
@@ -10907,7 +10975,7 @@
     "released": true
 }, {
     "dex": 280,
-    "speciesName": "拉魯拉絲 暗影化",
+    "speciesName": "拉魯拉絲 暗影",
     "speciesId": "ralts_shadow",
     "baseStats": {
         "atk": 79,
@@ -10952,7 +11020,7 @@
     "released": true
 }, {
     "dex": 281,
-    "speciesName": "奇魯莉安 暗影化",
+    "speciesName": "奇魯莉安 暗影",
     "speciesId": "kirlia_shadow",
     "baseStats": {
         "atk": 117,
@@ -10997,7 +11065,7 @@
     "released": true
 }, {
     "dex": 282,
-    "speciesName": "沙奈朵 暗影化",
+    "speciesName": "沙奈朵 暗影",
     "speciesId": "gardevoir_shadow",
     "baseStats": {
         "atk": 237,
@@ -11247,7 +11315,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 293,
-    "speciesName": "咕妞妞 暗影化",
+    "speciesName": "咕妞妞 暗影",
     "speciesId": "whismur_shadow",
     "baseStats": {
         "atk": 92,
@@ -11290,7 +11358,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 294,
-    "speciesName": "吼爆彈 暗影化",
+    "speciesName": "吼爆彈 暗影",
     "speciesId": "loudred_shadow",
     "baseStats": {
         "atk": 134,
@@ -11334,7 +11402,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 295,
-    "speciesName": "爆音怪 暗影化",
+    "speciesName": "爆音怪 暗影",
     "speciesId": "exploud_shadow",
     "baseStats": {
         "atk": 179,
@@ -11378,7 +11446,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 296,
-    "speciesName": "幕下力士 暗影化",
+    "speciesName": "幕下力士 暗影",
     "speciesId": "makuhita_shadow",
     "baseStats": {
         "atk": 99,
@@ -11421,7 +11489,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 297,
-    "speciesName": "鐵掌力士 暗影化",
+    "speciesName": "鐵掌力士 暗影",
     "speciesId": "hariyama_shadow",
     "baseStats": {
         "atk": 209,
@@ -11484,7 +11552,7 @@
     "released": true
 }, {
     "dex": 299,
-    "speciesName": "朝北鼻 暗影化",
+    "speciesName": "朝北鼻 暗影",
     "speciesId": "nosepass_shadow",
     "baseStats": {
         "atk": 82,
@@ -11593,7 +11661,7 @@
     "released": true
 }, {
     "dex": 302,
-    "speciesName": "勾魂眼 暗影化",
+    "speciesName": "勾魂眼 暗影",
     "speciesId": "sableye_shadow",
     "baseStats": {
         "atk": 141,
@@ -11638,7 +11706,7 @@
     "released": true
 }, {
     "dex": 303,
-    "speciesName": "大嘴娃 暗影化",
+    "speciesName": "大嘴娃 暗影",
     "speciesId": "mawile_shadow",
     "baseStats": {
         "atk": 155,
@@ -11681,7 +11749,7 @@
     "released": true
 }, {
     "dex": 304,
-    "speciesName": "可可多拉 暗影化",
+    "speciesName": "可可多拉 暗影",
     "speciesId": "aron_shadow",
     "baseStats": {
         "atk": 121,
@@ -11724,7 +11792,7 @@
     "released": true
 }, {
     "dex": 305,
-    "speciesName": "可多拉 暗影化",
+    "speciesName": "可多拉 暗影",
     "speciesId": "lairon_shadow",
     "baseStats": {
         "atk": 158,
@@ -11767,7 +11835,7 @@
     "released": true
 }, {
     "dex": 306,
-    "speciesName": "波士可多拉 暗影化",
+    "speciesName": "波士可多拉 暗影",
     "speciesId": "aggron_shadow",
     "baseStats": {
         "atk": 198,
@@ -11874,7 +11942,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 309,
-    "speciesName": "落雷獸 暗影化",
+    "speciesName": "落雷獸 暗影",
     "speciesId": "electrike_shadow",
     "baseStats": {
         "atk": 123,
@@ -11939,7 +12007,7 @@
     "released": true
 }, {
     "dex": 310,
-    "speciesName": "雷電獸 暗影化",
+    "speciesName": "雷電獸 暗影",
     "speciesId": "manectric_shadow",
     "baseStats": {
         "atk": 215,
@@ -12125,7 +12193,7 @@
     "released": true
 }, {
     "dex": 318,
-    "speciesName": "利牙魚 暗影化",
+    "speciesName": "利牙魚 暗影",
     "speciesId": "carvanha_shadow",
     "baseStats": {
         "atk": 171,
@@ -12168,7 +12236,7 @@
     "released": true
 }, {
     "dex": 319,
-    "speciesName": "巨牙鯊 暗影化",
+    "speciesName": "巨牙鯊 暗影",
     "speciesId": "sharpedo_shadow",
     "baseStats": {
         "atk": 243,
@@ -12183,7 +12251,7 @@
         "cp1500": [25.5, 4, 13, 12],
         "cp2500": [50, 15, 15, 15]
     },
-    "tags": ["shadoweligible", "shadow", "include1500"],
+    "tags": ["shadoweligible", "shadow"],
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
     "released": true
@@ -12253,7 +12321,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 322,
-    "speciesName": "呆火駝 暗影化",
+    "speciesName": "呆火駝 暗影",
     "speciesId": "numel_shadow",
     "baseStats": {
         "atk": 119,
@@ -12296,7 +12364,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 323,
-    "speciesName": "噴火駝 暗影化",
+    "speciesName": "噴火駝 暗影",
     "speciesId": "camerupt_shadow",
     "baseStats": {
         "atk": 194,
@@ -12422,7 +12490,7 @@
     "released": true
 }, {
     "dex": 328,
-    "speciesName": "大顎蟻 暗影化",
+    "speciesName": "大顎蟻 暗影",
     "speciesId": "trapinch_shadow",
     "baseStats": {
         "atk": 162,
@@ -12465,7 +12533,7 @@
     "released": true
 }, {
     "dex": 329,
-    "speciesName": "超音波幼蟲 暗影化",
+    "speciesName": "超音波幼蟲 暗影",
     "speciesId": "vibrava_shadow",
     "baseStats": {
         "atk": 134,
@@ -12510,7 +12578,7 @@
     "released": true
 }, {
     "dex": 330,
-    "speciesName": "沙漠蜻蜓 暗影化",
+    "speciesName": "沙漠蜻蜓 暗影",
     "speciesId": "flygon_shadow",
     "baseStats": {
         "atk": 205,
@@ -12555,7 +12623,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 331,
-    "speciesName": "刺球仙人掌 暗影化",
+    "speciesName": "刺球仙人掌 暗影",
     "speciesId": "cacnea_shadow",
     "baseStats": {
         "atk": 156,
@@ -12599,7 +12667,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 332,
-    "speciesName": "夢歌仙人掌 暗影化",
+    "speciesName": "夢歌仙人掌 暗影",
     "speciesId": "cacturne_shadow",
     "baseStats": {
         "atk": 221,
@@ -12917,7 +12985,7 @@
     "released": true
 }, {
     "dex": 345,
-    "speciesName": "觸手百合 暗影化",
+    "speciesName": "觸手百合 暗影",
     "speciesId": "lileep_shadow",
     "baseStats": {
         "atk": 105,
@@ -12961,7 +13029,7 @@
     "released": true
 }, {
     "dex": 346,
-    "speciesName": "搖籃百合 暗影化",
+    "speciesName": "搖籃百合 暗影",
     "speciesId": "cradily_shadow",
     "baseStats": {
         "atk": 152,
@@ -13006,7 +13074,7 @@
     "level25CP": 888
 }, {
     "dex": 347,
-    "speciesName": "太古羽蟲 暗影化",
+    "speciesName": "太古羽蟲 暗影",
     "speciesId": "anorith_shadow",
     "baseStats": {
         "atk": 176,
@@ -13050,7 +13118,7 @@
     "level25CP": 1757
 }, {
     "dex": 348,
-    "speciesName": "太古盔甲 暗影化",
+    "speciesName": "太古盔甲 暗影",
     "speciesId": "armaldo_shadow",
     "baseStats": {
         "atk": 222,
@@ -13234,7 +13302,7 @@
     "released": true
 }, {
     "dex": 353,
-    "speciesName": "怨影娃娃 暗影化",
+    "speciesName": "怨影娃娃 暗影",
     "speciesId": "shuppet_shadow",
     "baseStats": {
         "atk": 138,
@@ -13278,7 +13346,7 @@
     "released": true
 }, {
     "dex": 354,
-    "speciesName": "詛咒娃娃 暗影化",
+    "speciesName": "詛咒娃娃 暗影",
     "speciesId": "banette_shadow",
     "baseStats": {
         "atk": 218,
@@ -13322,7 +13390,7 @@
     "released": true
 }, {
     "dex": 355,
-    "speciesName": "夜巡靈 暗影化",
+    "speciesName": "夜巡靈 暗影",
     "speciesId": "duskull_shadow",
     "baseStats": {
         "atk": 70,
@@ -13366,7 +13434,7 @@
     "released": true
 }, {
     "dex": 356,
-    "speciesName": "彷徨夜靈 暗影化",
+    "speciesName": "彷徨夜靈 暗影",
     "speciesId": "dusclops_shadow",
     "baseStats": {
         "atk": 124,
@@ -13476,7 +13544,7 @@
     "released": true
 }, {
     "dex": 359,
-    "speciesName": "阿勃梭魯 暗影化",
+    "speciesName": "阿勃梭魯 暗影",
     "speciesId": "absol_shadow",
     "baseStats": {
         "atk": 246,
@@ -13581,7 +13649,7 @@
     "released": true
 }, {
     "dex": 363,
-    "speciesName": "海豹球 暗影化",
+    "speciesName": "海豹球 暗影",
     "speciesId": "spheal_shadow",
     "baseStats": {
         "atk": 95,
@@ -13625,7 +13693,7 @@
     "released": true
 }, {
     "dex": 364,
-    "speciesName": "海魔獅 暗影化",
+    "speciesName": "海魔獅 暗影",
     "speciesId": "sealeo_shadow",
     "baseStats": {
         "atk": 137,
@@ -13671,7 +13739,7 @@
     "released": true
 }, {
     "dex": 365,
-    "speciesName": "帝牙海獅 暗影化",
+    "speciesName": "帝牙海獅 暗影",
     "speciesId": "walrein_shadow",
     "baseStats": {
         "atk": 182,
@@ -13820,7 +13888,7 @@
     "released": true
 }, {
     "dex": 371,
-    "speciesName": "寶貝龍 暗影化",
+    "speciesName": "寶貝龍 暗影",
     "speciesId": "bagon_shadow",
     "baseStats": {
         "atk": 134,
@@ -13863,7 +13931,7 @@
     "released": true
 }, {
     "dex": 372,
-    "speciesName": "甲殼龍 暗影化",
+    "speciesName": "甲殼龍 暗影",
     "speciesId": "shelgon_shadow",
     "baseStats": {
         "atk": 172,
@@ -13907,7 +13975,7 @@
     "released": true
 }, {
     "dex": 373,
-    "speciesName": "暴飛龍 暗影化",
+    "speciesName": "暴飛龍 暗影",
     "speciesId": "salamence_shadow",
     "baseStats": {
         "atk": 277,
@@ -13951,7 +14019,7 @@
     "released": true
 }, {
     "dex": 374,
-    "speciesName": "鐵啞鈴 暗影化",
+    "speciesName": "鐵啞鈴 暗影",
     "speciesId": "beldum_shadow",
     "baseStats": {
         "atk": 96,
@@ -13994,7 +14062,7 @@
     "released": true
 }, {
     "dex": 375,
-    "speciesName": "金屬怪 暗影化",
+    "speciesName": "金屬怪 暗影",
     "speciesId": "metang_shadow",
     "baseStats": {
         "atk": 138,
@@ -14039,7 +14107,7 @@
     "released": true
 }, {
     "dex": 376,
-    "speciesName": "巨金怪 暗影化",
+    "speciesName": "巨金怪 暗影",
     "speciesId": "metagross_shadow",
     "baseStats": {
         "atk": 257,
@@ -14139,8 +14207,8 @@
     },
     "types": ["dragon", "psychic"],
     "fastMoves": ["DRAGON_BREATH", "ZEN_HEADBUTT", "CHARM"],
-	"chargedMoves": ["OUTRAGE", "PSYCHIC", "THUNDER", "MIST_BALL"],
-	"eliteMoves": ["MIST_BALL"],
+    "chargedMoves": ["OUTRAGE", "PSYCHIC", "THUNDER", "MIST_BALL"],
+    "eliteMoves": ["MIST_BALL"],
     "tags": ["legendary", "shadoweligible"],
     "defaultIVs": {
         "cp500": [5.5, 5, 11, 14],
@@ -14153,28 +14221,6 @@
     "level25CP": 2199
 }, {
     "dex": 380,
-    "speciesName": "拉帝亞斯 暗影化",
-    "speciesId": "latias_shadow",
-    "baseStats": {
-        "atk": 228,
-        "def": 246,
-        "hp": 190
-    },
-    "types": ["dragon", "psychic"],
-    "fastMoves": ["DRAGON_BREATH", "ZEN_HEADBUTT", "CHARM"],
-    "chargedMoves": ["OUTRAGE", "PSYCHIC", "THUNDER", "MIST_BALL"],
-	"eliteMoves": ["MIST_BALL"],
-    "tags": ["legendary", "shadow"],
-    "defaultIVs": {
-        "cp500": [5.5, 5, 11, 14],
-        "cp1500": [16, 5, 12, 7],
-        "cp2500": [26.5, 4, 13, 10]
-    },
-    "buddyDistance": 20,
-    "thirdMoveCost": 100000,
-    "released": true
-}, {
-    "dex": 380,
     "speciesName": "拉帝亞斯 Mega",
     "speciesId": "latias_mega",
     "baseStats": {
@@ -14184,15 +14230,36 @@
     },
     "types": ["dragon", "psychic"],
     "fastMoves": ["DRAGON_BREATH", "ZEN_HEADBUTT", "CHARM"],
-	"chargedMoves": ["OUTRAGE", "PSYCHIC", "THUNDER", "MIST_BALL"],
-	"eliteMoves": ["MIST_BALL"],
+    "chargedMoves": ["OUTRAGE", "PSYCHIC", "THUNDER", "MIST_BALL"],
+    "eliteMoves": ["MIST_BALL"],
     "tags": ["legendary", "mega"],
     "defaultIVs": {
-		"cp1500": [4, 10, 15, 15],
         "cp1500": [11.5, 9, 5, 9],
         "cp2500": [19, 5, 14, 10]
     },
-	"buddyDistance": 20,
+    "buddyDistance": 20,
+    "thirdMoveCost": 100000,
+    "released": true
+}, {
+    "dex": 380,
+    "speciesName": "拉帝亞斯 暗影",
+    "speciesId": "latias_shadow",
+    "baseStats": {
+        "atk": 228,
+        "def": 246,
+        "hp": 190
+    },
+    "types": ["dragon", "psychic"],
+    "fastMoves": ["DRAGON_BREATH", "ZEN_HEADBUTT", "CHARM"],
+    "chargedMoves": ["OUTRAGE", "PSYCHIC", "THUNDER", "MIST_BALL"],
+    "eliteMoves": ["MIST_BALL"],
+    "tags": ["legendary", "shadow"],
+    "defaultIVs": {
+        "cp500": [5.5, 5, 11, 14],
+        "cp1500": [16, 5, 12, 7],
+        "cp2500": [26.5, 4, 13, 10]
+    },
+    "buddyDistance": 20,
     "thirdMoveCost": 100000,
     "released": true
 }, {
@@ -14207,8 +14274,8 @@
     "types": ["dragon", "psychic"],
     "fastMoves": ["DRAGON_BREATH", "ZEN_HEADBUTT"],
     "chargedMoves": ["DRAGON_CLAW", "PSYCHIC", "SOLAR_BEAM", "LUSTER_PURGE"],
-	"eliteMoves": ["LUSTER_PURGE"],
-    "tags": ["legendary"],
+    "eliteMoves": ["LUSTER_PURGE"],
+    "tags": ["legendary", "shadoweligible"],
     "defaultIVs": {
         "cp500": [5, 9, 12, 14],
         "cp1500": [14.5, 4, 10, 14],
@@ -14216,7 +14283,8 @@
     },
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": true
+    "released": true,
+    "level25CP": 2399
 }, {
     "dex": 381,
     "speciesName": "拉帝歐斯 Mega",
@@ -14228,15 +14296,37 @@
     },
     "types": ["dragon", "psychic"],
     "fastMoves": ["DRAGON_BREATH", "ZEN_HEADBUTT"],
-	"chargedMoves": ["DRAGON_CLAW", "PSYCHIC", "SOLAR_BEAM", "LUSTER_PURGE"],
-	"eliteMoves": ["LUSTER_PURGE"],
+    "chargedMoves": ["DRAGON_CLAW", "PSYCHIC", "SOLAR_BEAM", "LUSTER_PURGE"],
+    "eliteMoves": ["LUSTER_PURGE"],
     "tags": ["legendary", "mega"],
     "defaultIVs": {
-		"cp500": [4, 7, 8, 9],
+        "cp500": [4, 7, 8, 9],
         "cp1500": [11, 7, 8, 9],
         "cp2500": [18.5, 6, 7, 9]
     },
-	"buddyDistance": 20,
+    "buddyDistance": 20,
+    "thirdMoveCost": 100000,
+    "released": true
+}, {
+    "dex": 381,
+    "speciesName": "拉帝歐斯 暗影",
+    "speciesId": "latios_shadow",
+    "baseStats": {
+        "atk": 268,
+        "def": 212,
+        "hp": 190
+    },
+    "types": ["dragon", "psychic"],
+    "fastMoves": ["DRAGON_BREATH", "ZEN_HEADBUTT"],
+    "chargedMoves": ["DRAGON_CLAW", "PSYCHIC", "SOLAR_BEAM", "LUSTER_PURGE"],
+    "eliteMoves": ["LUSTER_PURGE"],
+    "tags": ["legendary", "shadow"],
+    "defaultIVs": {
+        "cp500": [5, 9, 12, 14],
+        "cp1500": [14.5, 4, 10, 14],
+        "cp2500": [24, 5, 13, 12]
+    },
+    "buddyDistance": 20,
     "thirdMoveCost": 100000,
     "released": true
 }, {
@@ -14437,7 +14527,7 @@
     "released": true
 }, {
     "dex": 387,
-    "speciesName": "草苗龜 暗影化",
+    "speciesName": "草苗龜 暗影",
     "speciesId": "turtwig_shadow",
     "baseStats": {
         "atk": 119,
@@ -14480,7 +14570,7 @@
     "released": true
 }, {
     "dex": 388,
-    "speciesName": "樹林龜 暗影化",
+    "speciesName": "樹林龜 暗影",
     "speciesId": "grotle_shadow",
     "baseStats": {
         "atk": 157,
@@ -14524,7 +14614,7 @@
     "released": true
 }, {
     "dex": 389,
-    "speciesName": "土台龜 暗影化",
+    "speciesName": "土台龜 暗影",
     "speciesId": "torterra_shadow",
     "baseStats": {
         "atk": 202,
@@ -14701,7 +14791,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 396,
-    "speciesName": "姆克兒 暗影化",
+    "speciesName": "姆克兒 暗影",
     "speciesId": "starly_shadow",
     "baseStats": {
         "atk": 101,
@@ -14744,7 +14834,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 397,
-    "speciesName": "姆克鳥 暗影化",
+    "speciesName": "姆克鳥 暗影",
     "speciesId": "staravia_shadow",
     "baseStats": {
         "atk": 142,
@@ -14787,7 +14877,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 398,
-    "speciesName": "姆克鷹 暗影化",
+    "speciesName": "姆克鷹 暗影",
     "speciesId": "staraptor_shadow",
     "baseStats": {
         "atk": 234,
@@ -14831,7 +14921,7 @@
     "released": true
 }, {
     "dex": 399,
-    "speciesName": "大牙狸 暗影化",
+    "speciesName": "大牙狸 暗影",
     "speciesId": "bidoof_shadow",
     "baseStats": {
         "atk": 80,
@@ -14875,7 +14965,7 @@
     "released": true
 }, {
     "dex": 400,
-    "speciesName": "大尾狸 暗影化",
+    "speciesName": "大尾狸 暗影",
     "speciesId": "bibarel_shadow",
     "baseStats": {
         "atk": 162,
@@ -14953,7 +15043,30 @@
     },
     "buddyDistance": 5,
     "thirdMoveCost": 75000,
-    "released": true
+    "released": true,
+    "level25CP": 472,
+    "tags": ["shadoweligible"]
+}, {
+    "dex": 403,
+    "speciesName": "小貓怪 暗影",
+    "speciesId": "shinx_shadow",
+    "baseStats": {
+        "atk": 117,
+        "def": 64,
+        "hp": 128
+    },
+    "types": ["electric", "none"],
+    "fastMoves": ["SPARK", "TACKLE"],
+    "chargedMoves": ["DISCHARGE", "SWIFT", "THUNDERBOLT"],
+    "defaultIVs": {
+        "cp500": [21.5, 6, 15, 13],
+        "cp1500": [50, 15, 15, 15],
+        "cp2500": [50, 15, 15, 15]
+    },
+    "buddyDistance": 5,
+    "thirdMoveCost": 75000,
+    "released": true,
+    "tags": ["shadow"]
 }, {
     "dex": 404,
     "speciesName": "勒克貓",
@@ -14974,7 +15087,31 @@
     },
     "buddyDistance": 5,
     "thirdMoveCost": 75000,
-    "released": true
+    "released": true,
+    "level25CP": 860,
+    "tags": ["shadoweligible"]
+}, {
+    "dex": 404,
+    "speciesName": "勒克貓 暗影",
+    "speciesId": "luxio_shadow",
+    "baseStats": {
+        "atk": 159,
+        "def": 95,
+        "hp": 155
+    },
+    "types": ["electric", "none"],
+    "fastMoves": ["BITE", "SPARK"],
+    "chargedMoves": ["CRUNCH", "THUNDERBOLT", "WILD_CHARGE"],
+    "defaultIVs": {
+        "cp500": [12.5, 6, 14, 13],
+        "cp1500": [45.5, 5, 14, 15],
+        "cp2500": [50, 15, 15, 15],
+        "cp1500l40": [40, 15, 15, 13]
+    },
+    "buddyDistance": 5,
+    "thirdMoveCost": 75000,
+    "released": true,
+    "tags": ["shadow"]
 }, {
     "dex": 405,
     "speciesName": "倫琴貓",
@@ -14996,7 +15133,32 @@
     "searchPriority": 2,
     "buddyDistance": 5,
     "thirdMoveCost": 75000,
-    "released": true
+    "released": true,
+    "level25CP": 1781,
+    "tags": ["shadoweligible"]
+}, {
+    "dex": 405,
+    "speciesName": "倫琴貓 暗影",
+    "speciesId": "luxray_shadow",
+    "baseStats": {
+        "atk": 232,
+        "def": 156,
+        "hp": 190
+    },
+    "types": ["electric", "none"],
+    "fastMoves": ["HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "SNARL", "SPARK"],
+    "chargedMoves": ["CRUNCH", "HYPER_BEAM", "WILD_CHARGE", "PSYCHIC_FANGS"],
+    "eliteMoves": ["PSYCHIC_FANGS"],
+    "defaultIVs": {
+        "cp500": [6.5, 7, 13, 14],
+        "cp1500": [19, 5, 14, 14],
+        "cp2500": [34, 5, 11, 14]
+    },
+    "searchPriority": 2,
+    "buddyDistance": 5,
+    "thirdMoveCost": 75000,
+    "released": true,
+    "tags": ["shadow"]
 }, {
     "dex": 406,
     "speciesName": "含羞苞",
@@ -15076,7 +15238,7 @@
         "cp1500": [16, 13, 15, 15],
         "cp2500": [27, 9, 15, 15]
     },
-	"tags": ["include1500"],
+    "tags": ["include1500"],
     "buddyDistance": 5,
     "thirdMoveCost": 75000,
     "released": true
@@ -15522,7 +15684,7 @@
     "level25CP": 1471
 }, {
     "dex": 424,
-    "speciesName": "雙尾怪手 暗影化",
+    "speciesName": "雙尾怪手 暗影",
     "speciesId": "ambipom_shadow",
     "baseStats": {
         "atk": 205,
@@ -15669,7 +15831,7 @@
     "released": true
 }, {
     "dex": 429,
-    "speciesName": "夢妖魔 暗影化",
+    "speciesName": "夢妖魔 暗影",
     "speciesId": "mismagius_shadow",
     "baseStats": {
         "atk": 211,
@@ -15713,7 +15875,7 @@
     "released": true
 }, {
     "dex": 430,
-    "speciesName": "烏鴉頭頭 暗影化",
+    "speciesName": "烏鴉頭頭 暗影",
     "speciesId": "honchkrow_shadow",
     "baseStats": {
         "atk": 243,
@@ -15816,7 +15978,7 @@
     "released": true
 }, {
     "dex": 434,
-    "speciesName": "臭鼬噗 暗影化",
+    "speciesName": "臭鼬噗 暗影",
     "speciesId": "stunky_shadow",
     "baseStats": {
         "atk": 121,
@@ -15861,7 +16023,7 @@
     "released": true
 }, {
     "dex": 435,
-    "speciesName": "坦克臭鼬 暗影化",
+    "speciesName": "坦克臭鼬 暗影",
     "speciesId": "skuntank_shadow",
     "baseStats": {
         "atk": 184,
@@ -16174,7 +16336,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 449,
-    "speciesName": "沙河馬 暗影化",
+    "speciesName": "沙河馬 暗影",
     "speciesId": "hippopotas_shadow",
     "baseStats": {
         "atk": 124,
@@ -16219,7 +16381,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 450,
-    "speciesName": "河馬獸 暗影化",
+    "speciesName": "河馬獸 暗影",
     "speciesId": "hippowdon_shadow",
     "baseStats": {
         "atk": 201,
@@ -16263,7 +16425,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 451,
-    "speciesName": "鉗尾蠍 暗影化",
+    "speciesName": "鉗尾蠍 暗影",
     "speciesId": "skorupi_shadow",
     "baseStats": {
         "atk": 93,
@@ -16308,7 +16470,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 452,
-    "speciesName": "龍王蠍 暗影化",
+    "speciesName": "龍王蠍 暗影",
     "speciesId": "drapion_shadow",
     "baseStats": {
         "atk": 180,
@@ -16476,7 +16638,7 @@
     "released": true
 }, {
     "dex": 459,
-    "speciesName": "雪笠怪 暗影化",
+    "speciesName": "雪笠怪 暗影",
     "speciesId": "snover_shadow",
     "baseStats": {
         "atk": 115,
@@ -16543,7 +16705,7 @@
     "released": true
 }, {
     "dex": 460,
-    "speciesName": "暴雪王 暗影化",
+    "speciesName": "暴雪王 暗影",
     "speciesId": "abomasnow_shadow",
     "baseStats": {
         "atk": 178,
@@ -16588,7 +16750,7 @@
     "released": true
 }, {
     "dex": 461,
-    "speciesName": "瑪狃拉 暗影化",
+    "speciesName": "瑪狃拉 暗影",
     "speciesId": "weavile_shadow",
     "baseStats": {
         "atk": 243,
@@ -16632,7 +16794,7 @@
     "released": true
 }, {
     "dex": 462,
-    "speciesName": "自爆磁怪 暗影化",
+    "speciesName": "自爆磁怪 暗影",
     "speciesId": "magnezone_shadow",
     "baseStats": {
         "atk": 238,
@@ -16721,7 +16883,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 465,
-    "speciesName": "巨蔓藤 暗影化",
+    "speciesName": "巨蔓藤 暗影",
     "speciesId": "tangrowth_shadow",
     "baseStats": {
         "atk": 207,
@@ -16766,7 +16928,7 @@
     "released": true
 }, {
     "dex": 466,
-    "speciesName": "電擊魔獸 暗影化",
+    "speciesName": "電擊魔獸 暗影",
     "speciesId": "electivire_shadow",
     "baseStats": {
         "atk": 249,
@@ -16812,7 +16974,7 @@
     "released": true
 }, {
     "dex": 467,
-    "speciesName": "鴨嘴炎獸 暗影化",
+    "speciesName": "鴨嘴炎獸 暗影",
     "speciesId": "magmortar_shadow",
     "baseStats": {
         "atk": 247,
@@ -16939,7 +17101,7 @@
     "released": true
 }, {
     "dex": 472,
-    "speciesName": "天蠍王 暗影化",
+    "speciesName": "天蠍王 暗影",
     "speciesId": "gliscor_shadow",
     "baseStats": {
         "atk": 185,
@@ -16984,7 +17146,7 @@
     "released": true
 }, {
     "dex": 473,
-    "speciesName": "象牙豬 暗影化",
+    "speciesName": "象牙豬 暗影",
     "speciesId": "mamoswine_shadow",
     "baseStats": {
         "atk": 247,
@@ -17031,7 +17193,7 @@
     "released": true
 }, {
     "dex": 474,
-    "speciesName": "多邊獸Ｚ 暗影化",
+    "speciesName": "多邊獸Ｚ 暗影",
     "speciesId": "porygon_z_shadow",
     "baseStats": {
         "atk": 264,
@@ -17077,7 +17239,7 @@
     "released": true
 }, {
     "dex": 475,
-    "speciesName": "艾路雷朵 暗影化",
+    "speciesName": "艾路雷朵 暗影",
     "speciesId": "gallade_shadow",
     "baseStats": {
         "atk": 237,
@@ -17121,7 +17283,7 @@
     "released": true
 }, {
     "dex": 476,
-    "speciesName": "大朝北鼻 暗影化",
+    "speciesName": "大朝北鼻 暗影",
     "speciesId": "probopass_shadow",
     "baseStats": {
         "atk": 135,
@@ -17166,7 +17328,7 @@
     "released": true
 }, {
     "dex": 477,
-    "speciesName": "黑夜魔靈 暗影化",
+    "speciesName": "黑夜魔靈 暗影",
     "speciesId": "dusknoir_shadow",
     "baseStats": {
         "atk": 180,
@@ -17623,13 +17785,13 @@
     "types": ["grass", "none"],
     "fastMoves": ["HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "ZEN_HEADBUTT"],
     "chargedMoves": ["ENERGY_BALL", "GRASS_KNOT", "SOLAR_BEAM", "SEED_FLARE"],
-	"eliteMoves": ["SEED_FLARE"],
+    "eliteMoves": ["SEED_FLARE"],
     "defaultIVs": {
         "cp500": [6, 5, 10, 7],
         "cp1500": [17, 4, 12, 13],
         "cp2500": [28.5, 4, 11, 12]
     },
-	"tags": ["mythical"],
+    "tags": ["mythical"],
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
     "released": true
@@ -17645,16 +17807,16 @@
     "types": ["grass", "flying"],
     "fastMoves": ["HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "ZEN_HEADBUTT"],
     "chargedMoves": ["ENERGY_BALL", "GRASS_KNOT", "SOLAR_BEAM", "SEED_FLARE"],
-	"eliteMoves": ["SEED_FLARE"],
+    "eliteMoves": ["SEED_FLARE"],
     "defaultIVs": {
         "cp500": [5.5, 4, 10, 6],
         "cp1500": [15, 6, 15, 15],
         "cp2500": [26, 4, 12, 7]
     },
-	"tags": ["mythical"],
+    "tags": ["mythical"],
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": false
+    "released": true
 }, {
     "dex": 493,
     "speciesName": "阿爾宙斯",
@@ -18351,7 +18513,30 @@
     },
     "buddyDistance": 1,
     "thirdMoveCost": 10000,
-    "released": true
+    "released": true,
+    "level25CP": 410,
+    "tags": ["shadoweligible"]
+}, {
+    "dex": 509,
+    "speciesId": "purrloin_shadow",
+    "speciesName": "扒手貓 暗影",
+    "baseStats": {
+        "atk": 98,
+        "def": 73,
+        "hp": 121
+    },
+    "types": ["dark", "none"],
+    "fastMoves": ["SCRATCH", "SUCKER_PUNCH"],
+    "chargedMoves": ["NIGHT_SLASH", "PLAY_ROUGH", "DARK_PULSE"],
+    "defaultIVs": {
+        "cp500": [25, 6, 13, 14],
+        "cp1500": [50, 15, 15, 15],
+        "cp2500": [50, 15, 15, 15]
+    },
+    "buddyDistance": 1,
+    "thirdMoveCost": 10000,
+    "released": true,
+    "tags": ["shadow"]
 }, {
     "dex": 510,
     "speciesId": "liepard",
@@ -18371,7 +18556,30 @@
     },
     "buddyDistance": 1,
     "thirdMoveCost": 10000,
-    "released": true
+    "released": true,
+    "level25CP": 1093,
+    "tags": ["shadoweligible"]
+}, {
+    "dex": 510,
+    "speciesId": "liepard_shadow",
+    "speciesName": "酷豹 暗影",
+    "baseStats": {
+        "atk": 187,
+        "def": 106,
+        "hp": 162
+    },
+    "types": ["dark", "none"],
+    "fastMoves": ["CHARM", "SNARL"],
+    "chargedMoves": ["GUNK_SHOT", "PLAY_ROUGH", "DARK_PULSE", "PAYBACK"],
+    "defaultIVs": {
+        "cp500": [10, 5, 15, 13],
+        "cp1500": [31, 4, 15, 10],
+        "cp2500": [50, 15, 15, 15]
+    },
+    "buddyDistance": 1,
+    "thirdMoveCost": 10000,
+    "released": true,
+    "tags": ["shadow"]
 }, {
     "dex": 511,
     "speciesId": "pansage",
@@ -21056,7 +21264,7 @@
     "types": ["dark", "dragon"],
     "fastMoves": ["BITE", "DRAGON_BREATH"],
     "chargedMoves": ["DRAGON_PULSE", "DARK_PULSE", "FLASH_CANNON", "BRUTAL_SWING"],
-	"eliteMoves": ["BRUTAL_SWING"],
+    "eliteMoves": ["BRUTAL_SWING"],
     "defaultIVs": {
         "cp500": [5.5, 4, 5, 6],
         "cp1500": [15, 8, 12, 14],
@@ -23583,7 +23791,7 @@
         "hp": 132
     },
     "types": ["bug", "none"],
-	"fastMoves": ["BUG_BITE", "SPARK"],
+    "fastMoves": ["BUG_BITE", "SPARK"],
     "chargedMoves": ["X_SCISSOR", "VICE_GRIP", "CRUNCH"],
     "defaultIVs": {
         "cp500": [20, 4, 13, 9],
@@ -23603,7 +23811,7 @@
         "hp": 149
     },
     "types": ["bug", "electric"],
-	"fastMoves": ["BUG_BITE", "SPARK"],
+    "fastMoves": ["BUG_BITE", "SPARK"],
     "chargedMoves": ["X_SCISSOR", "DISCHARGE", "CRUNCH"],
     "defaultIVs": {
         "cp500": [11, 7, 11, 14],
@@ -23623,7 +23831,7 @@
         "hp": 184
     },
     "types": ["bug", "electric"],
-	"fastMoves": ["BUG_BITE", "SPARK", "MUD_SLAP"],
+    "fastMoves": ["BUG_BITE", "SPARK", "MUD_SLAP"],
     "chargedMoves": ["X_SCISSOR", "DISCHARGE", "CRUNCH"],
     "defaultIVs": {
         "cp500": [6, 12, 14, 10],
@@ -23643,7 +23851,7 @@
         "hp": 132
     },
     "types": ["fighting", "none"],
-	"fastMoves": ["ROCK_SMASH", "BUBBLE"],
+    "fastMoves": ["ROCK_SMASH", "BUBBLE"],
     "chargedMoves": ["POWER_UP_PUNCH", "CRABHAMMER", "PAYBACK"],
     "defaultIVs": {
         "cp500": [13.5, 9, 12, 15],
@@ -23664,7 +23872,7 @@
         "hp": 219
     },
     "types": ["fighting", "ice"],
-	"fastMoves": ["ROCK_SMASH", "BUBBLE"],
+    "fastMoves": ["ROCK_SMASH", "BUBBLE"],
     "chargedMoves": ["POWER_UP_PUNCH", "CRABHAMMER", "PAYBACK", "ICE_PUNCH"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 13],
@@ -23768,7 +23976,7 @@
         "hp": 120
     },
     "types": ["bug", "fairy"],
-	"fastMoves": ["FAIRY_WIND", "STRUGGLE_BUG"],
+    "fastMoves": ["FAIRY_WIND", "STRUGGLE_BUG"],
     "chargedMoves": ["DAZZLING_GLEAM", "BUG_BUZZ"],
     "defaultIVs": {
         "cp500": [22.5, 4, 9, 13],
@@ -23788,7 +23996,7 @@
         "hp": 155
     },
     "types": ["bug", "fairy"],
-	"fastMoves": ["FAIRY_WIND", "STRUGGLE_BUG"],
+    "fastMoves": ["FAIRY_WIND", "STRUGGLE_BUG"],
     "chargedMoves": ["DAZZLING_GLEAM", "BUG_BUZZ"],
     "defaultIVs": {
         "cp500": [8.5, 6, 14, 11],
@@ -23828,7 +24036,7 @@
         "hp": 181
     },
     "types": ["rock", "none"],
-	"fastMoves": ["COUNTER", "SUCKER_PUNCH", "ROCK_THROW"],
+    "fastMoves": ["COUNTER", "SUCKER_PUNCH", "ROCK_THROW"],
     "chargedMoves": ["STONE_EDGE", "IRON_HEAD", "CRUNCH"],
     "defaultIVs": {
         "cp500": [7, 6, 15, 9],
@@ -23889,7 +24097,7 @@
         "hp": 128
     },
     "types": ["water", "none"],
-	"fastMoves": ["WATER_GUN", "WATERFALL", "IRON_TAIL"],
+    "fastMoves": ["WATER_GUN", "WATERFALL", "IRON_TAIL"],
     "chargedMoves": ["BRINE", "SURF", "AQUA_TAIL"],
     "defaultIVs": {
         "cp500": [50, 15, 15, 15],
@@ -23909,7 +24117,7 @@
         "hp": 128
     },
     "types": ["water", "none"],
-	"fastMoves": ["WATER_GUN", "WATERFALL", "IRON_TAIL"],
+    "fastMoves": ["WATER_GUN", "WATERFALL", "IRON_TAIL"],
     "chargedMoves": ["BRINE", "SURF", "AQUA_TAIL"],
     "defaultIVs": {
         "cp500": [6, 5, 4, 13],
@@ -23929,7 +24137,7 @@
         "hp": 128
     },
     "types": ["water", "none"],
-	"fastMoves": ["WATER_GUN", "WATERFALL", "IRON_TAIL"],
+    "fastMoves": ["WATER_GUN", "WATERFALL", "IRON_TAIL"],
     "chargedMoves": ["BRINE", "SURF", "AQUA_TAIL"],
     "defaultIVs": {
         "cp500": [50, 15, 15, 15],
@@ -23949,7 +24157,7 @@
         "hp": 137
     },
     "types": ["poison", "water"],
-	"fastMoves": ["POISON_STING", "BITE"],
+    "fastMoves": ["POISON_STING", "BITE"],
     "chargedMoves": ["MUDDY_WATER", "GUNK_SHOT", "SLUDGE_WAVE"],
     "defaultIVs": {
         "cp500": [20.5, 4, 10, 13],
@@ -23969,7 +24177,7 @@
         "hp": 137
     },
     "types": ["poison", "water"],
-	"fastMoves": ["POISON_JAB", "BITE"],
+    "fastMoves": ["POISON_JAB", "BITE"],
     "chargedMoves": ["MUDDY_WATER", "GUNK_SHOT", "SLUDGE_WAVE"],
     "defaultIVs": {
         "cp500": [11.5, 4, 12, 11],
@@ -23989,7 +24197,7 @@
         "hp": 172
     },
     "types": ["ground", "none"],
-	"fastMoves": ["MUD_SLAP", "ROCK_SMASH"],
+    "fastMoves": ["MUD_SLAP", "ROCK_SMASH"],
     "chargedMoves": ["BULLDOZE", "BODY_SLAM", "EARTHQUAKE"],
     "defaultIVs": {
         "cp500": [10, 4, 12, 11],
@@ -24009,7 +24217,7 @@
         "hp": 225
     },
     "types": ["ground", "none"],
-	"fastMoves": ["MUD_SLAP", "ROCK_SMASH"],
+    "fastMoves": ["MUD_SLAP", "ROCK_SMASH"],
     "chargedMoves": ["BULLDOZE", "BODY_SLAM", "EARTHQUAKE", "HEAVY_SLAM"],
     "defaultIVs": {
         "cp500": [6, 12, 15, 15],
@@ -24056,7 +24264,7 @@
         "cp1500": [33.5, 4, 15, 8],
         "cp2500": [50, 15, 15, 15]
     },
-	"searchPriority": 10,
+    "searchPriority": 10,
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
     "released": true
@@ -24111,7 +24319,7 @@
         "hp": 120
     },
     "types": ["grass", "fairy"],
-	"fastMoves": ["ASTONISH"],
+    "fastMoves": ["ASTONISH"],
     "chargedMoves": ["GIGA_DRAIN", "DAZZLING_GLEAM", "SEED_BOMB"],
     "defaultIVs": {
         "cp500": [19.5, 4, 9, 9],
@@ -24131,7 +24339,7 @@
         "hp": 155
     },
     "types": ["grass", "fairy"],
-	"fastMoves": ["ASTONISH"],
+    "fastMoves": ["ASTONISH"],
     "chargedMoves": ["GIGA_DRAIN", "MOONBLAST", "SEED_BOMB", "SLUDGE_BOMB"],
     "defaultIVs": {
         "cp500": [10, 8, 15, 9],
@@ -24235,7 +24443,7 @@
         "hp": 123
     },
     "types": ["grass", "none"],
-	"fastMoves": ["RAZOR_LEAF", "CHARM"],
+    "fastMoves": ["RAZOR_LEAF", "CHARM"],
     "chargedMoves": ["ENERGY_BALL", "DRAINING_KISS"],
     "defaultIVs": {
         "cp500": [50, 11, 15, 12],
@@ -24256,7 +24464,7 @@
         "hp": 141
     },
     "types": ["grass", "none"],
-	"fastMoves": ["RAZOR_LEAF", "CHARM"],
+    "fastMoves": ["RAZOR_LEAF", "CHARM"],
     "chargedMoves": ["ENERGY_BALL", "DRAINING_KISS", "GRASS_KNOT"],
     "defaultIVs": {
         "cp500": [26.5, 5, 12, 12],
@@ -24276,7 +24484,7 @@
         "hp": 176
     },
     "types": ["grass", "none"],
-	"fastMoves": ["RAZOR_LEAF", "CHARM", "MAGICAL_LEAF"],
+    "fastMoves": ["RAZOR_LEAF", "CHARM", "MAGICAL_LEAF"],
     "chargedMoves": ["ENERGY_BALL", "DRAINING_KISS", "GRASS_KNOT", "STOMP"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 6],
@@ -24338,7 +24546,7 @@
         "hp": 225
     },
     "types": ["fighting", "none"],
-	"fastMoves": ["COUNTER", "ROCK_SMASH", "TAKE_DOWN"],
+    "fastMoves": ["COUNTER", "ROCK_SMASH", "TAKE_DOWN"],
     "chargedMoves": ["BRICK_BREAK", "CLOSE_COMBAT", "SUPER_POWER"],
     "defaultIVs": {
         "cp500": [6.5, 5, 4, 9],
@@ -24358,7 +24566,7 @@
         "hp": 93
     },
     "types": ["bug", "water"],
-	"fastMoves": ["STRUGGLE_BUG"],
+    "fastMoves": ["STRUGGLE_BUG"],
     "chargedMoves": ["BUG_BUZZ"],
     "defaultIVs": {
         "cp500": [50, 5, 14, 15],
@@ -24379,7 +24587,7 @@
         "hp": 181
     },
     "types": ["bug", "water"],
-	"fastMoves": ["FURY_CUTTER", "METAL_CLAW", "WATERFALL"],
+    "fastMoves": ["FURY_CUTTER", "METAL_CLAW", "WATERFALL"],
     "chargedMoves": ["X_SCISSOR", "AQUA_JET", "AERIAL_ACE"],
     "defaultIVs": {
         "cp500": [6, 8, 15, 10],
@@ -24399,7 +24607,7 @@
         "hp": 146
     },
     "types": ["ghost", "ground"],
-	"fastMoves": ["ASTONISH", "MUD_SHOT"],
+    "fastMoves": ["ASTONISH", "MUD_SHOT"],
     "chargedMoves": ["SAND_TOMB", "SHADOW_BALL", "EARTH_POWER"],
     "defaultIVs": {
         "cp500": [15.5, 6, 14, 10],
@@ -24419,7 +24627,7 @@
         "hp": 198
     },
     "types": ["ghost", "ground"],
-	"fastMoves": ["ASTONISH", "MUD_SHOT"],
+    "fastMoves": ["ASTONISH", "MUD_SHOT"],
     "chargedMoves": ["SAND_TOMB", "SHADOW_BALL", "EARTH_POWER"],
     "defaultIVs": {
         "cp500": [7.5, 12, 11, 15],
@@ -24440,7 +24648,7 @@
         "hp": 146
     },
     "types": ["water", "none"],
-	"fastMoves": ["COUNTER"],
+    "fastMoves": ["COUNTER"],
     "chargedMoves": ["MIRROR_COAT"],
     "defaultIVs": {
         "cp500": [14.5, 4, 4, 15],
@@ -24461,7 +24669,7 @@
         "hp": 216
     },
     "types": ["normal", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE"],
     "defaultIVs": {
         "cp500": [7, 10, 13, 11],
@@ -24482,7 +24690,7 @@
         "hp": 216
     },
     "types": ["normal", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24502,7 +24710,7 @@
         "hp": 216
     },
     "types": ["bug", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24522,7 +24730,7 @@
         "hp": 216
     },
     "types": ["dark", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24542,7 +24750,7 @@
         "hp": 216
     },
     "types": ["dragon", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24562,7 +24770,7 @@
         "hp": 216
     },
     "types": ["electric", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24582,7 +24790,7 @@
         "hp": 216
     },
     "types": ["fairy", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24602,7 +24810,7 @@
         "hp": 216
     },
     "types": ["fighting", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24622,7 +24830,7 @@
         "hp": 216
     },
     "types": ["fire", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24642,7 +24850,7 @@
         "hp": 216
     },
     "types": ["flying", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24662,7 +24870,7 @@
         "hp": 216
     },
     "types": ["ghost", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24682,7 +24890,7 @@
         "hp": 216
     },
     "types": ["grass", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24702,7 +24910,7 @@
         "hp": 216
     },
     "types": ["ground", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24722,7 +24930,7 @@
         "hp": 216
     },
     "types": ["ice", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24742,7 +24950,7 @@
         "hp": 216
     },
     "types": ["poison", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24762,7 +24970,7 @@
         "hp": 216
     },
     "types": ["psychic", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24782,7 +24990,7 @@
         "hp": 216
     },
     "types": ["rock", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24802,7 +25010,7 @@
         "hp": 216
     },
     "types": ["steel", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24822,7 +25030,7 @@
         "hp": 216
     },
     "types": ["water", "none"],
-	"fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
+    "fastMoves": ["TACKLE", "TAKE_DOWN", "BITE"],
     "chargedMoves": ["TRI_ATTACK", "IRON_HEAD", "AERIAL_ACE", "X_SCISSOR"],
     "defaultIVs": {
         "cp500": [6.5, 6, 14, 8],
@@ -24842,7 +25050,7 @@
         "hp": 155
     },
     "types": ["rock", "flying"],
-	"fastMoves": ["ROLLOUT", "TAKE_DOWN"],
+    "fastMoves": ["ROLLOUT", "TAKE_DOWN"],
     "chargedMoves": ["POWER_GEM", "ANCIENT_POWER", "ACROBATICS"],
     "defaultIVs": {
         "cp500": [8, 11, 12, 13],
@@ -24863,7 +25071,7 @@
         "hp": 155
     },
     "types": ["rock", "flying"],
-	"fastMoves": ["ROLLOUT", "TAKE_DOWN"],
+    "fastMoves": ["ROLLOUT", "TAKE_DOWN"],
     "chargedMoves": ["POWER_GEM", "ANCIENT_POWER", "ACROBATICS"],
     "defaultIVs": {
         "cp500": [12.5, 4, 14, 12],
@@ -24884,7 +25092,7 @@
         "hp": 163
     },
     "types": ["normal", "none"],
-	"fastMoves": ["ROLLOUT", "YAWN"],
+    "fastMoves": ["ROLLOUT", "YAWN"],
     "chargedMoves": ["PLAY_ROUGH", "BULLDOZE", "PAYBACK"],
     "defaultIVs": {
         "cp500": [7.5, 4, 11, 7],
@@ -24905,7 +25113,7 @@
         "hp": 155
     },
     "types": ["fire", "dragon"],
-	"fastMoves": ["EMBER", "FIRE_SPIN"],
+    "fastMoves": ["EMBER", "FIRE_SPIN"],
     "chargedMoves": ["OVERHEAT", "FLAMETHROWER", "DRAGON_PULSE"],
     "defaultIVs": {
         "cp500": [8.5, 5, 15, 11],
@@ -24926,7 +25134,7 @@
         "hp": 163
     },
     "types": ["electric", "steel"],
-	"fastMoves": ["THUNDER_SHOCK", "SPARK"],
+    "fastMoves": ["THUNDER_SHOCK", "SPARK"],
     "chargedMoves": ["FELL_STINGER", "WILD_CHARGE", "GYRO_BALL"],
     "defaultIVs": {
         "cp500": [8.5, 9, 13, 14],
@@ -24946,7 +25154,7 @@
         "hp": 146
     },
     "types": ["ghost", "fairy"],
-	"fastMoves": ["SHADOW_CLAW", "CHARM"],
+    "fastMoves": ["SHADOW_CLAW", "CHARM"],
     "chargedMoves": ["SHADOW_SNEAK", "PLAY_ROUGH", "SHADOW_BALL"],
     "defaultIVs": {
         "cp500": [8.5, 6, 11, 12],
@@ -24967,7 +25175,7 @@
         "hp": 169
     },
     "types": ["water", "psychic"],
-	"fastMoves": ["WATER_GUN", "CONFUSION", "BITE"],
+    "fastMoves": ["WATER_GUN", "CONFUSION", "BITE"],
     "chargedMoves": ["PSYCHIC_FANGS", "AQUA_TAIL", "CRUNCH"],
     "defaultIVs": {
         "cp500": [8, 5, 10, 11],
@@ -24988,7 +25196,7 @@
         "hp": 186
     },
     "types": ["normal", "dragon"],
-	"fastMoves": ["DRAGON_BREATH", "EXTRASENSORY"],
+    "fastMoves": ["DRAGON_BREATH", "EXTRASENSORY"],
     "chargedMoves": ["OUTRAGE", "DRAGON_PULSE", "FLY"],
     "defaultIVs": {
         "cp500": [6.5, 7, 13, 11],
@@ -25008,7 +25216,7 @@
         "hp": 172
     },
     "types": ["ghost", "grass"],
-	"fastMoves": ["ASTONISH", "SHADOW_CLAW"],
+    "fastMoves": ["ASTONISH", "SHADOW_CLAW"],
     "chargedMoves": ["POWER_WHIP", "SHADOW_BALL", "HEAVY_SLAM"],
     "defaultIVs": {
         "cp500": [6.5, 6, 11, 10],
@@ -25157,13 +25365,13 @@
     "fastMoves": ["WATER_GUN", "HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER"],
     "chargedMoves": ["SURF", "MOONBLAST", "ICE_BEAM", "HYDRO_PUMP"],
     "defaultIVs": {
-		"cp500": [6.5, 12, 10, 13],
+        "cp500": [6.5, 12, 10, 13],
         "cp1500": [20, 4, 6, 10],
         "cp2500": [36, 4, 9, 12]
     },
     "tags": ["legendary"],
-	"levelFloor": 20,
-	"searchPriority": 5,
+    "levelFloor": 20,
+    "searchPriority": 5,
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
     "released": true
@@ -25264,7 +25472,7 @@
         "cp1500": [14, 6, 11, 11],
         "cp2500": [23.5, 5, 6, 15]
     },
-	"tags": ["legendary"],
+    "tags": ["legendary"],
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
     "released": true
@@ -25278,7 +25486,7 @@
         "hp": 216
     },
     "types": ["bug", "fighting"],
-	"fastMoves": ["COUNTER", "POISON_JAB"],
+    "fastMoves": ["COUNTER", "POISON_JAB"],
     "chargedMoves": ["POWER_UP_PUNCH", "FELL_STINGER", "LUNGE", "SUPER_POWER"],
     "defaultIVs": {
         "cp500": [5.5, 7, 13, 14],
@@ -25298,14 +25506,14 @@
         "hp": 174
     },
     "types": ["bug", "fighting"],
-	"fastMoves": ["BUG_BITE", "LOW_KICK"],
+    "fastMoves": ["BUG_BITE", "LOW_KICK"],
     "chargedMoves": ["FOCUS_BLAST", "BUG_BUZZ", "LUNGE", "CLOSE_COMBAT"],
     "defaultIVs": {
         "cp500": [6.5, 8, 14, 14],
         "cp1500": [19, 8, 13, 15],
         "cp2500": [34.5, 4, 15, 10]
     },
-	"tags": ["legendary"],
+    "tags": ["legendary"],
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
     "released": true
@@ -25319,7 +25527,7 @@
         "hp": 195
     },
     "types": ["electric", "none"],
-	"fastMoves": ["THUNDER_SHOCK", "SPARK"],
+    "fastMoves": ["THUNDER_SHOCK", "SPARK"],
     "chargedMoves": ["DISCHARGE", "THUNDER", "POWER_WHIP", "DAZZLING_GLEAM"],
     "defaultIVs": {
         "cp500": [5, 4, 10, 9],

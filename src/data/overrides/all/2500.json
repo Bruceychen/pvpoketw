@@ -30,6 +30,26 @@
 		"chargedMoves": ["SAND_TOMB", "OUTRAGE"]
 	},
 	{
+		"speciesId": "zapdos_galarian",
+		"chargedMoves": ["ANCIENT_POWER", "BRAVE_BIRD"]
+	},
+	{
+		"speciesId": "qwilfish_hisuian",
+		"chargedMoves": ["AQUA_TAIL", "SHADOW_BALL"]
+	},
+	{
+		"speciesId": "overqwil",
+		"chargedMoves": ["AQUA_TAIL", "SHADOW_BALL"]
+	},
+	{
+		"speciesId": "arcanine_hisuian",
+		"chargedMoves": ["ROCK_SLIDE", "CRUNCH"]
+	},
+	{
+		"speciesId": "articuno_galarian",
+		"chargedMoves": ["ANCIENT_POWER", "BRAVE_BIRD"]
+	},
+	{
 		"speciesId": "bewear",
 		"chargedMoves": ["SUPER_POWER", "PAYBACK"]
 	},
@@ -404,6 +424,10 @@
 		"speciesId": "moltres",
 		"fastMove": "FIRE_SPIN",
 		"chargedMoves": ["SKY_ATTACK", "OVERHEAT"]
+	},
+	{
+		"speciesId": "moltres_galarian",
+		"fastMove": "WING_ATTACK"
 	},
 	{
 		"speciesId": "jirachi",

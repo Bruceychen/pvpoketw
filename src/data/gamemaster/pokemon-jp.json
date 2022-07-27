@@ -6424,7 +6424,6 @@
         "cp2500": [31, 4, 14, 12]
     },
     "eliteMoves": ["HURRICANE"],
-    "searchPriority": 2,
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
     "released": true
@@ -21391,6 +21390,26 @@
         "cp1500": [46, 4, 14, 15],
         "cp2500": [50, 15, 15, 15],
         "cp1500l40": [40, 14, 15, 13]
+    },
+    "buddyDistance": 5,
+    "thirdMoveCost": 75000,
+    "released": true
+}, {
+    "dex": 628,
+    "speciesId": "braviary",
+    "speciesName": "ウォーグル",
+    "baseStats": {
+        "atk": 232,
+        "def": 152,
+        "hp": 225
+    },
+    "types": ["normal", "flying"],
+    "fastMoves": ["STEEL_WING", "AIR_SLASH"],
+    "chargedMoves": ["HEAT_WAVE", "BRAVE_BIRD", "ROCK_SLIDE", "CLOSE_COMBAT"],
+    "defaultIVs": {
+        "cp500": [6, 13, 11, 15],
+        "cp1500": [18, 5, 14, 8],
+        "cp2500": [30.5, 4, 14, 7]
     },
     "buddyDistance": 5,
     "thirdMoveCost": 75000,

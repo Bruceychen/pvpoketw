@@ -47,6 +47,10 @@ switch($cup){
 		$league = 'Hisui Cup';
 		break;
 
+	case "element":
+		$league = 'Element Cup';
+		break;
+
 
 	case "halloween":
 		$league = 'Halloween Cup';
@@ -90,6 +94,7 @@ require_once '../header.php';
         <option value="2500" cup="all" level-cap="50">高級聯盟</option>
         <option value="10000" cup="all" level-cap="50">大師聯盟</option>
         <option value="1500" cup="hisui" level-cap="50">洗翠(神奧)盃</option>
+        <option value="500" cup="element" level-cap="50">元素盃</option>
     </select>
 
 	<div class="date-updated">資料最後更新</div>

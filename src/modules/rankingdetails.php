@@ -186,6 +186,13 @@
 			<div class="ranking-header">解鎖特殊招式星塵數</div>
 			<div class="third-move-cost clear"></div>
 		</div>
+		<div class="detail-section partner-pokemon">
+			<div class="ranking-header">建議組隊成員</div>
+			<div class="footnote">
+				推薦與以下寶可夢一同組隊，點選進入隊伍組建模擬功能：
+			</div>
+			<div class="list"></div>
+		</div>
 		<div class="clear"></div>
 		<div class="detail-section similar-pokemon">
 			<div class="ranking-header">特性相似寶可夢</div>

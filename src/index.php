@@ -55,15 +55,15 @@
 
 	<div class="article-item flex">
 		<div class="col-3">
-			<a href="<?php echo $WEB_ROOT; ?>articles/infographics/22-07-shadow-pokemon-pvp/">
-				<img src="<?php echo $WEB_HOST_ORIGN; ?>articles/article-assets/infographics/22-07-shadow-pokemon-pvp/thumb.jpg">
+			<a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-08-zigzagoon/">
+				<img src="<?php echo $WEB_HOST_ORIGN; ?>articles/article-assets/community-day/22-08-zigzagoon/thumb.jpg">
 			</a>
 		</div>
 		<div class="col-9">
-			<h4><a href="<?php echo $WEB_ROOT; ?>articles/infographics/22-07-shadow-pokemon-pvp/">Best Shadow Pokemon to TM for PvP</a></h4>
-			<div class="date">July 9, 2022</div>
-			<p>When a Team Rocket event arrives, which Shadow Pokemon should you prepare for trouble? Check out the top Shadow Pokemon in each league!</p>
-			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a></div>
+			<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-08-zigzagoon/">Galarian Zigzagoon Community Day Guide for PvP</a></h4>
+			<div class="date">August 12, 2022</div>
+			<p>Obstagoon is already a top tier Pokemon for PvP! Will Obstruct elevate it even further?</p>
+			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Community Day"># Community Day</a><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a></div>
 		</div>
 	</div>
 
@@ -95,8 +95,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Fri Aug 12 08:15:28 2022 +0800</li>
-                <li>原版最後版本時間：Thu Aug 11 17:46:57 2022 -0500</li>
+                <li>中文版最後更新時間：Sat Aug 13 23:55:28 2022 +0800</li>
+                <li>原版最後版本時間：Sat Aug 13 09:16:00 2022 -0500</li>
             </ul>
 </div>
 

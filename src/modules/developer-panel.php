@@ -8,8 +8,11 @@
 		<a class="button" href="<?php echo $WEB_ROOT; ?>data/compile.php" target="_blank">Compile gamemaster</a>
 		<a class="button dev-default-ivs" href="#">Generate default IV's</a>
 		<a class="button dev-shadow-stats" href="#">Update Shadow stats</a>
+		<!--<a class="button dev-validate-family" href="#">Validate Family IDs</a>-->
 
 		<h4>Quick Links</h4>
+		<a class="button" href="<?php echo $WEB_ROOT; ?>ranker.php">Ranker</a>
+		<a class="button" href="<?php echo $WEB_ROOT; ?>rankersandbox.php">Rankersandbox</a>
 		<a class="button dev-production-link" href="#">Open page in production</a>
 	</div>
 </div>
@@ -37,6 +40,12 @@
 		$devPanel.find("a.dev-shadow-stats").click(function(e){
 			e.preventDefault();
 			gm.updateShadowStatus();
+		});
+
+		// Validate family IDs
+		$devPanel.find("a.dev-validate-family").click(function(e){
+			e.preventDefault();
+			gm.validateFamilyData();
 		});
 
 		// Open the current page link on production

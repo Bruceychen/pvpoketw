@@ -34,21 +34,13 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.29.0 (July 7th, 2022)</h4>
+	<h4>v1.29.5 (August 13th, 2022)</h4>
 	<ul>
-		<li>Updated simulation mechanics to match behavior from the latest game version:</li>
+		<li>Simulation mechanics updated:</li>
 		<ul>
-			<li>Floating Fast Moves now apply immediately after a Charged Move instead of the turn after.</li>
-			<ul>
-				<li>This change effectively removes "overtapping" from the simulations.</li>
-				<li>Fast Moves in the simulations still apply before Charged Moves. This will remain until in-game behavior is tested and confirmed otherwise.</li>
-			</ul>
-			<li>In battles using the Train feature, Fast Move damage now applies before switches that occur on the same turn.</li>
-			<ul>
-				<li>If you attempt to switch after a Charged Move, any floating Fast Moves will also apply to the current Pokemon first.</li>
-			</ul>
+			<li>Pokemon can now fire a Charged Move on the same turn that a Fast Move would KO.</li>
 		</ul>
-		<li>"Consistency" score formula has been updated to weigh Fast Move duration less. Pokemon with long duration Fast Moves now have marginally higher Consistency scores.</li>
+		<li>Fixed a timeline spacing issue for simultaneous Charged Moves.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -95,8 +87,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Sat Aug 13 23:55:28 2022 +0800</li>
-                <li>原版最後版本時間：Sat Aug 13 09:16:00 2022 -0500</li>
+                <li>中文版最後更新時間：Sun Aug 14 11:15:28 2022 +0800</li>
+                <li>原版最後版本時間：Sat Aug 13 17:22:49 2022 -0500</li>
             </ul>
 </div>
 

@@ -34,18 +34,9 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.29.6 (August 14th, 2022)</h4>
+	<h4>v1.29.8 (August 25th, 2022)</h4>
 	<ul>
-		<li>The below changes are now reverted.</li>
-	</ul>
-
-	<h4>v1.29.5 (August 13th, 2022)</h4>
-	<ul>
-		<li>Simulation mechanics updated:</li>
-		<ul>
-			<li>Pokemon can now fire a Charged Move on the same turn that a Fast Move would KO.</li>
-		</ul>
-		<li>Fixed a timeline spacing issue for simultaneous Charged Moves.</li>
+		<li>Matrix Battle now includes a "Differences" section which highlights matchups, breakpoints, bulkpoints, or CMP ties gained or lost compared to the first Pokemon in the matrix.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -92,8 +83,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Tue Aug 23 08:15:28 2022 +0800</li>
-                <li>原版最後版本時間：Mon Aug 22 19:10:52 2022 -0500</li>
+                <li>中文版最後更新時間：Fri Aug 26 08:15:28 2022 +0800</li>
+                <li>原版最後版本時間：Thu Aug 25 17:41:06 2022 -0500</li>
             </ul>
 </div>
 

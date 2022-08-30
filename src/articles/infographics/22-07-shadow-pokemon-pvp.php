@@ -14,11 +14,11 @@ require_once '../../header.php';
 <div class="section article white">
 	<h1>Best Shadow Pokemon to TM for PvP</h1>
 	<div class="date">Last updated July 9, 2022</div>
-	<a href="<?php echo $WEB_ROOT;?>articles/article-assets/infographics/22-07-shadow-pokemon-pvp/shadow-pokemon-pvp-infographic-1.jpg" target="_blank">
-		<img style="margin-bottom:15px" src="<?php echo $WEB_ROOT;?>articles/article-assets/infographics/22-07-shadow-pokemon-pvp/shadow-pokemon-pvp-infographic-1.jpg" />
+	<a href="<?php echo $WEB_HOST_ORIGN;?>articles/article-assets/infographics/22-07-shadow-pokemon-pvp/shadow-pokemon-pvp-infographic-1.jpg" target="_blank">
+		<img style="margin-bottom:15px" src="<?php echo $WEB_HOST_ORIGN;?>articles/article-assets/infographics/22-07-shadow-pokemon-pvp/shadow-pokemon-pvp-infographic-1.jpg" />
 	</a>
-	<a href="<?php echo $WEB_ROOT;?>articles/article-assets/infographics/22-07-shadow-pokemon-pvp/shadow-pokemon-pvp-infographic-2.jpg" target="_blank">
-		<img src="<?php echo $WEB_ROOT;?>articles/article-assets/infographics/22-07-shadow-pokemon-pvp/shadow-pokemon-pvp-infographic-2.jpg" />
+	<a href="<?php echo $WEB_HOST_ORIGN;?>articles/article-assets/infographics/22-07-shadow-pokemon-pvp/shadow-pokemon-pvp-infographic-2.jpg" target="_blank">
+		<img src="<?php echo $WEB_HOST_ORIGN;?>articles/article-assets/infographics/22-07-shadow-pokemon-pvp/shadow-pokemon-pvp-infographic-2.jpg" />
 	</a>
 
 </div>

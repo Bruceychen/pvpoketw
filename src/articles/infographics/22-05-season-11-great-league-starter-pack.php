@@ -14,8 +14,8 @@ require_once '../../header.php';
 <div class="section article white">
 	<h1>Great League Starter Pack for Season 11</h1>
 	<div class="date">Last updated May 30, 2022</div>
-	<a href="<?php echo $WEB_ROOT;?>articles/article-assets/infographics/22-05-season-11-great-league-starter-pack/great-league-starter-pack-11.jpg" target="_blank">
-		<img src="<?php echo $WEB_ROOT;?>articles/article-assets/infographics/22-05-season-11-great-league-starter-pack/great-league-starter-pack-11.jpg" />
+	<a href="<?php echo $WEB_HOST_ORIGN;?>articles/article-assets/infographics/22-05-season-11-great-league-starter-pack/great-league-starter-pack-11.jpg" target="_blank">
+		<img src="<?php echo $WEB_HOST_ORIGN;?>articles/article-assets/infographics/22-05-season-11-great-league-starter-pack/great-league-starter-pack-11.jpg" />
 	</a>
 
 </div>

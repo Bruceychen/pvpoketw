@@ -14,8 +14,8 @@ require_once '../../header.php';
 <div class="section article white">
 	<h1>Ultra League Starter Pack for Season 11</h1>
 	<div class="date">Last updated June 6, 2022</div>
-	<a href="<?php echo $WEB_ROOT;?>articles/article-assets/infographics/22-06-season-11-ultra-league-starter-pack/ultra-league-starter-pack-11.jpg" target="_blank">
-		<img src="<?php echo $WEB_ROOT;?>articles/article-assets/infographics/22-06-season-11-ultra-league-starter-pack/ultra-league-starter-pack-11.jpg" />
+	<a href="<?php echo $WEB_HOST_ORIGN;?>articles/article-assets/infographics/22-06-season-11-ultra-league-starter-pack/ultra-league-starter-pack-11.jpg" target="_blank">
+		<img src="<?php echo $WEB_HOST_ORIGN;?>articles/article-assets/infographics/22-06-season-11-ultra-league-starter-pack/ultra-league-starter-pack-11.jpg" />
 	</a>
 
 </div>

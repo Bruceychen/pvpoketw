@@ -14,8 +14,8 @@ require_once '../../header.php';
 <div class="section article white">
 	<h1>Latias and Latios Counters for Master League</h1>
 	<div class="date">Last updated May 3, 2022</div>
-	<a href="<?php echo $WEB_ROOT;?>articles/article-assets/infographics/22-05-latias-latios-counters/graphic.jpg" target="_blank">
-		<img src="<?php echo $WEB_ROOT;?>articles/article-assets/infographics/22-05-latias-latios-counters/graphic.jpg" />
+	<a href="<?php echo $WEB_HOST_ORIGN;?>articles/article-assets/infographics/22-05-latias-latios-counters/graphic.jpg" target="_blank">
+		<img src="<?php echo $WEB_HOST_ORIGN;?>articles/article-assets/infographics/22-05-latias-latios-counters/graphic.jpg" />
 	</a>
 <p>
     Credit to <a href="https://pokebattler.com" target="_blank">Pokebattler.com</a> for the raid counter information.

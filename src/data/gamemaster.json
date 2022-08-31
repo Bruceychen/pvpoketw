@@ -134,20 +134,6 @@
             "values": ["mega"]
         }]
     }, {
-        "name": "littlejungleremix",
-        "title": "叢林小小盃Remix",
-        "include": [{
-            "filterType": "type",
-            "values": ["bug", "dark", "electric", "flying", "grass", "ground", "normal", "poison"]
-        }, {
-            "filterType": "evolution",
-            "values": [1]
-        }],
-        "exclude": [{
-            "filterType": "id",
-            "values": ["skorupi", "cottonee", "ducklett", "salandit"]
-        }]
-    }, {
         "name": "mega",
         "title": "All Pokemon",
         "include": [],
@@ -264,14 +250,6 @@
         "meta": "overused",
         "showCup": false,
         "showFormat": false,
-        "showMeta": true
-    }, {
-        "title": "叢林小小盃Remix",
-        "cup": "littlejungleremix",
-        "cp": 1500,
-        "meta": "littlejungleremix",
-        "showCup": true,
-        "showFormat": true,
         "showMeta": true
     }, {
         "title": "Silph Continentals",

@@ -271,9 +271,9 @@
         "cup": "littlejungleremix",
         "cp": 1500,
         "meta": "littlejungleremix",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
+        "showCup": false,
+        "showFormat": false,
+        "showMeta": false
     }, {
         "title": "Silph Continentals",
         "cup": "continentals",

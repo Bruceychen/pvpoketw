@@ -247,9 +247,8 @@
         "cp": 10000,
         "meta": "master",
         "showCup": false,
-        "showFormat": false,
-        "showMeta": false,
-        "showRankings": false
+        "showFormat": true,
+        "showMeta": false
     }, {
         "title": "Mega大師聯盟(暫譯)",
         "cup": "mega",
@@ -271,9 +270,9 @@
         "cup": "littlejungleremix",
         "cp": 1500,
         "meta": "littlejungleremix",
-        "showCup": false,
-        "showFormat": false,
-        "showMeta": false
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
     }, {
         "title": "Silph Continentals",
         "cup": "continentals",

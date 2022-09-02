@@ -51,7 +51,7 @@
             "values": ["fairy", "fire", "fighting"]
         }, {
             "filterType": "id",
-            "values": ["swampert", "quagsire", "gastrodon", "whiscash", "seismitoad", "marshtomp", "giratina_altered", "obstagoon", "walrein", "trevenant", "mandibuzz", "deoxys_defense"]
+            "values": ["swampert", "quagsire", "gastrodon", "whiscash", "seismitoad", "marshtomp", "giratina_altered", "obstagoon", "walrein", "trevenant", "mandibuzz", "deoxys_defense", "dubwool"]
         }, {
             "filterType": "tag",
             "values": ["mega"]
@@ -132,6 +132,24 @@
             "filterType": "tag",
             "name": "Tag",
             "values": ["mega"]
+        }]
+    }, {
+        "name": "littlejungleremix",
+        "title": "叢林小小盃Remix",
+        "include": [{
+            "filterType": "type",
+            "values": ["bug", "dark", "electric", "flying", "grass", "ground", "normal", "poison"]
+        }, {
+            "filterType": "id",
+            "values": ["zapdos_galarian", "moltres_galarian", "articuno_galarian", "suicune", "entei", "raikou"],
+            "includeShadows": false
+        }],
+        "exclude": [{
+            "filterType": "id",
+            "values": ["skorupi", "cottonee", "ducklett", "salandit", "shuckle", "shuckle_shadow", "smeargle", "aerodactyl_shadow", "scizor_shadow"]
+        }, {
+            "filterType": "tag",
+            "values": ["legendary", "mythical", "mega"]
         }]
     }, {
         "name": "mega",
@@ -234,7 +252,8 @@
         "meta": "master",
         "showCup": false,
         "showFormat": true,
-        "showMeta": false
+        "showMeta": false,
+        "hideRankings": true
     }, {
         "title": "Mega大師聯盟(暫譯)",
         "cup": "mega",
@@ -250,6 +269,14 @@
         "meta": "overused",
         "showCup": false,
         "showFormat": false,
+        "showMeta": true
+    }, {
+        "title": "叢林小小盃Remix",
+        "cup": "littlejungleremix",
+        "cp": 500,
+        "meta": "littlejungleremix",
+        "showCup": true,
+        "showFormat": true,
         "showMeta": true
     }, {
         "title": "Silph Continentals",
@@ -1852,6 +1879,32 @@
         "family": {
             "id": "FAMILY_PIKACHU",
             "parent": "pichu"
+        }
+    }, {
+        "dex": 25,
+        "speciesName": "皮卡丘 謝米圍巾",
+        "speciesId": "pikachu_shaymin",
+        "baseStats": {
+            "atk": 112,
+            "def": 96,
+            "hp": 111
+        },
+        "types": ["electric", "none"],
+        "fastMoves": ["PRESENT", "QUICK_ATTACK", "THUNDER_SHOCK"],
+        "chargedMoves": ["DISCHARGE", "SURF", "THUNDER", "THUNDERBOLT", "WILD_CHARGE", "GRASS_KNOT"],
+        "defaultIVs": {
+            "cp500": [20, 7, 15, 13],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "eliteMoves": ["PRESENT", "SURF", "THUNDER"],
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_PIKACHU",
+            "parent": "pichu",
+            "evolutions": ["raichu"]
         }
     }, {
         "dex": 26,
@@ -6309,7 +6362,7 @@
             "hp": 137
         },
         "types": ["fighting", "none"],
-        "fastMoves": ["LOW_KICK", "ROCK_SMASH"],
+        "fastMoves": ["LOW_KICK", "ROCK_SMASH", "DOUBLE_KICK"],
         "chargedMoves": ["BRICK_BREAK", "CLOSE_COMBAT", "LOW_SWEEP", "STOMP", "STONE_EDGE"],
         "defaultIVs": {
             "cp500": [7.5, 5, 7, 10],
@@ -10401,8 +10454,8 @@
             "hp": 172
         },
         "types": ["normal", "psychic"],
-        "fastMoves": ["CONFUSION", "TACKLE"],
-        "chargedMoves": ["MIRROR_COAT", "PSYCHIC", "THUNDERBOLT"],
+        "fastMoves": ["CONFUSION", "TACKLE", "DOUBLE_KICK"],
+        "chargedMoves": ["MIRROR_COAT", "PSYCHIC", "THUNDERBOLT", "PSYCHIC_FANGS"],
         "defaultIVs": {
             "cp500": [9.5, 4, 11, 4],
             "cp1500": [27, 4, 15, 14],
@@ -35693,7 +35746,7 @@
         "cooldown": 500,
         "buffs": [-1, 0],
         "buffTarget": "opponent",
-        "buffApplyChance": ".1",
+        "buffApplyChance": ".66",
         "archetype": "Debuff Nuke"
     }, {
         "moveId": "ZEN_HEADBUTT",

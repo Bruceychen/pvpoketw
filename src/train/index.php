@@ -38,7 +38,6 @@ require_once '../header.php';
 				<option value="1500 gobattleleague">GO 超級聯盟</option>
 				<option value="2500 gobattleleague">GO 高級聯盟</option>
 				<option value="10000 gobattleleague">GO 大師聯盟</option>
-                <option value="500 element">元素盃</option>
                 <option value="1500 all">超級聯盟(6v6)</option>
                 <option value="2500 all">高級聯盟(6v6)</option>
                 <option value="10000 all">大師聯盟(6v6)</option>

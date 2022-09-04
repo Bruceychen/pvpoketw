@@ -34,6 +34,12 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
+	<h4>v1.29.11 (September 3, 2022)</h4>
+	<ul>
+		<li>Pokemon with moves that lower their Defense (such as Wild Charge and Close Combat) will now prefer to take early Charged Moves and use their shields after they are debuffed.</li>
+	</ul>
+
+
 	<h4>v1.29.10 (September 2, 2022)</h4>
 	<ul>
 		<li>Move updates for Season 12 are now live!</li>
@@ -93,8 +99,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Sat Sep 3 19:59:28 2022 +0800</li>
-                <li>原版最後版本時間：Fri Sep 2 16:12:59 2022 -0500</li>
+                <li>中文版最後更新時間：Sun Sep 4 11:39:28 2022 +0800</li>
+                <li>原版最後版本時間：Sat Sep 3 17:17:04 2022 -0500</li>
             </ul>
 </div>
 

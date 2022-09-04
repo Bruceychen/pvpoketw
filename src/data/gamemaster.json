@@ -190,6 +190,20 @@
             "values": ["ninetales_alolan", "obstagoon", "raichu", "walrein", "umbreon", "dewgong", "regirock", "lycanroc_midnight", "crustle", "dragalge", "pachirisu", "abomasnow", "sableye", "drapion", "moltres_galarian"]
         }]
     }, {
+        "name": "psychic",
+        "title": "超能力盃",
+        "include": [{
+            "filterType": "type",
+            "values": ["psychic"]
+        }],
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["mega"]
+        }, {
+            "filterType": "id",
+            "values": ["mew"]
+        }]
+    }, {
         "name": "retro",
         "title": "復古盃",
         "include": [],
@@ -275,6 +289,14 @@
         "cup": "littlejungleremix",
         "cp": 500,
         "meta": "littlejungleremix",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
+    }, {
+        "title": "超能力盃",
+        "cup": "psychic",
+        "cp": 1500,
+        "meta": "psychic",
         "showCup": true,
         "showFormat": true,
         "showMeta": true
@@ -15681,6 +15703,7 @@
             "cp1500": [28.5, 4, 14, 15],
             "cp2500": [50, 15, 15, 15]
         },
+        "searchPriority": 2,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,

@@ -258,6 +258,17 @@
             "filterType": "id",
             "values": ["umbreon", "sableye", "drapion", "nidoqueen", "walrein", "pachirisu"]
         }]
+    }, {
+        "name": "weather",
+        "title": "天氣盃",
+        "include": [{
+            "filterType": "type",
+            "values": ["fire", "water", "ice", "rock"]
+        }],
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["mega"]
+        }]
     }],
     "formats": [{
         "title": "大師經典賽 (XL 禁止)",
@@ -297,6 +308,14 @@
         "cup": "psychic",
         "cp": 1500,
         "meta": "psychic",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
+    }, {
+        "title": "天氣盃(高級)",
+        "cup": "weather",
+        "cp": 2500,
+        "meta": "weather",
         "showCup": true,
         "showFormat": true,
         "showMeta": true

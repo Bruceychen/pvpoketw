@@ -306,30 +306,6 @@
         "showFormat": false,
         "showMeta": true
     }, {
-        "title": "叢林小小盃Remix",
-        "cup": "littlejungleremix",
-        "cp": 500,
-        "meta": "littlejungleremix",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
-        "title": "超能力盃",
-        "cup": "psychic",
-        "cp": 1500,
-        "meta": "psychic",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
-        "title": "天氣盃(高級)",
-        "cup": "weather",
-        "cp": 2500,
-        "meta": "weather",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
         "title": "Gymbreakers Invitational 2022",
         "cup": "gymbreakers",
         "cp": 1500,

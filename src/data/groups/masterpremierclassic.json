@@ -107,7 +107,11 @@
 }, {
     "speciesId": "primarina",
     "fastMove": "CHARM",
-    "chargedMoves": ["MOONBLAST", "HYDRO_PUMP"]
+    "chargedMoves": ["MOONBLAST", "PSYCHIC"]
+}, {
+    "speciesId": "primarina",
+    "fastMove": "WATERFALL",
+    "chargedMoves": ["MOONBLAST", "PSYCHIC"]
 }, {
     "speciesId": "kommo_o",
     "fastMove": "DRAGON_TAIL",

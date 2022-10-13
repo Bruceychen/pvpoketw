@@ -12,109 +12,109 @@ require_once '../../header.php';
 ?>
 
 <div class="section article white sandshrew">
-	<h1>Sandshrew Community Day Guide for PvP</h1>
-	<div class="date">Last updated March 10th, 2022</div>
-	<img src="<?php echo $WEB_ROOT;?>articles/article-assets/community-day/22-03-sandshrew/banner.jpg" />
-	<p>Both forms of Sandshrew are rolling out this Community Day with some implications for future themed cups in PvP. You can find more info about Sandshrew Community Day at the official <a href="https://pokemongolive.com/en/post/communityday-mar22-sandshrew/" target="_blank">Pokemon GO blog</a>. Below are the leagues and IV spreads to look out for, and answers to frequently asked questions.</p>
+	<h1>穿山王社群日PvP指導方針</h1>
+	<div class="date">最終更新日 3月 9日, 2022</div>
+	<img src="<?php echo $WEB_ROOT;?>articles/article-assets/community-day/22-02-hoppip/banner.jpg" />
+	<p>針對此次社群日主角：兩種不同型態的穿山王，進行分析以及對未來特定主題PvP盃賽的預測。你也可以從官方頁面獲得更多穿山王社群日的資訊：<a href="https://pokemongolive.com/en/post/communityday-mar22-sandshrew/" target="_blank">Pokemon GO blog</a>。 以下將簡述在各聯盟賽制的優劣勢，iv數值取捨，以及一些常見問題的解答。</p>
 
 	<a name="overview"></a>
-	<h3 class="article-header"><strong>Overview</strong></h3>
+	<h3 class="article-header"><strong>概述</strong></h3>
 
 	<div class="cd-features">
 		<div class="feature">
-			<h4>Date &amp; Time</h4>
-			<div class="value">Sunday, March 13th<br></div>
-			<div class="detail">11am - 5pm local time</div>
+			<h4>時間日期</h4>
+			<div class="value">3月13日 星期日<br></div>
+			<div class="detail">當地時間 上午11點 - 下午5點</div>
 		</div>
 		<div class="feature">
-			<h4>Exclusive Fast Move</h4>
-			<div class="value">Shadow Claw</div>
-			<div class="detail">Alolan Sandslash</div>
+			<h4>限定一般招式</h4>
+			<div class="value">暗影爪</div>
+			<div class="detail">穿山王 阿羅拉型態</div>
 		</div>
 		<div class="feature">
-			<h4>Exclusive Charged Move</h4>
-			<div class="value">Night Slash</div>
-			<div class="detail">Kanto Sandslash</div>
+			<h4>限定特殊招式</h4>
+			<div class="value">暗襲要害</div>
+			<div class="detail">穿山王 一般(關東)型態</div>
 		</div>
 		<div class="feature">
-			<h4>Event Bonus</h4>
-			<div class="value">1/4 Hatch Distance</div>
+			<h4>活動額外獎勵</h4>
+			<div class="value">孵化距離 1/4</div>
 		</div>
 	</div>
 
 	<a name="checklist"></a>
-	<h3 class="article-header"><strong>League &amp; IV Recommendations</strong></h3>
+	<h3 class="article-header"><strong>建議參戰PvP聯盟與推薦IV數值</strong></h3>
 
 	<?php require_once 'templates/checklist-template.php'; ?>
 
 	<div class="mega-section">
 		<div class="mega-title">
 			<div class="mega-icon"></div>
-			<h4>Mega Evolve one of these Pokemon during Community Day to earn bonus catch candy!</h4>
+			<h4>活動當日 Mega 進化以下任一寶可夢以獲得額外的捕捉糖果獎勵！</h4>
 		</div>
 		<div class="mega-list">
 			<div class="mega-item" mega="steelix">
 				<div class="mega-image"></div>
-				<div class="mega-label">Steelix</div>
+				<div class="mega-label">大鋼蛇</div>
 			</div>
 			<div class="mega-item" mega="abomasnow">
 				<div class="mega-image"></div>
-				<div class="mega-label">Abomasnow</div>
+				<div class="mega-label">暴雪王</div>
 			</div>
 		</div>
 	</div>
 
 	<a name="faq"></a>
 	<div class="faq-item">
-		<h3 class="article-header"><strong>How good is Alolan Sandslash with Shadow Claw?</strong></h3>
+		<h3 class="article-header"><strong>阿羅拉地區型態的穿山王適合學暗影爪嗎？</strong></h3>
 		<div class="faq-answer">
-			<p><b>Shadow Claw is generally an upgrade for Alolan Sandslash and will perform best in themed cups.</b> Alolan Sandslash is playable in open Great League and Ultra League, but its double weaknesses to Fighting and Fire may make it too risky to use.</p>
-			<p>Shadow Claw and STAB Powder Snow share identical move parameters for Alolan Sandslash (2 turns, 3 damage per turn, 4 energy per turn). However, Shadow Claw is less widely resisted than Powder Snow, in particular against other Ice and Steel types. For this reason, Shadow Claw will likely be the preferred Fast Move for Alolan Sandslash going forward except in metas which have a strong Normal or Dark-type presence.</p>
+			<p><b>暗影爪大致來說強化了阿羅拉穿山王在某些特定主題盃賽的表現。</b> 但在標準的超級與高級聯盟中，其雙屬性在對上格鬥或火系時，加倍的弱點傷害將使得阿羅拉穿山王鮮有表現機會。</p>
+			<p>暗影爪和具有同屬加成的細雪有著類似的角色(均為2轉(turn)招式，3點傷害，4點蓄能)。然而暗影爪在對上同樣是冰或鋼屬性的寶可夢時，相比細雪會有稍佳的屬性優勢。基於這個理由，除非是參加有著較強一般屬性或惡屬性meta的主題盃賽，否則暗影爪會是阿羅拉穿山王較佳的一般招式選擇。</p>
 		</div>
 	</div>
 
 	<div class="faq-item">
-		<h3 class="article-header"><strong>How good is Kanto Sandslash with Night Slash? Is Shadow better?</strong></h3>
+		<h3 class="article-header"><strong>一般(關東)型態的穿山王學會暗襲要害後會有較好的表現嗎？暗影穿山王會不會較佳？</strong></h3>
 		<div class="faq-answer">
-			<p><b>Night Slash gives Kanto Sandslash a much needed low energy move and makes it viable for future themed cups.</b> Night Slash provides unique coverage among Ground types and gives Sandslash the ability to bait for its powerful Earthquake. Sandslash is outclassed by competing Ground types such as Galarian Stunfisk or Swampert, so it's unlikely to find much play in open leagues.</p>
-			<p>Like most Shadows, Shadow Sandslash is not strictly better than regular Sandslash and has its pros and cons. Shadow Sandslash has more closing power, but may depend more on baiting. When Night Slash coverage is the main reason to use Sandslash, such as against Ghost types, Shadow Sandslash appears to perform slightly better,  securing KO's more reliably.</p>
+			<p><b>暗襲要害給了一般(關東)型態穿山王一直以來缺少的低耗能特殊招式，並提高其未來在其他特殊主題盃賽的能見度。</b>暗襲要害同時也給了穿山王地屬性以外的攻擊手段，並且也能用來引誘對手使用護盾，好讓地震能有效發揚火力。但相比其他地屬性強勢寶可夢如：伽勒爾泥巴魚、巨沼怪，穿山王在開放聯盟主題賽如：超級聯盟則相對弱勢許多。</p>
+			<p>與大多數暗影寶可夢情況相似，暗影化穿山王並沒有比普通穿山王優勢多少，並各具其優缺點。暗影化狀態下相對有較高甚至一擊必殺的傷害輸出，但也更需要仰賴騙盾等手段。如果選用暗襲要害穿山王的原因，是考量屬性剋制如對上幽靈屬性，那暗影化型態確實會比普通型態來得有優勢。</p>
 		</div>
 	</div>
 
 	<div class="faq-item">
-		<h3 class="article-header"><strong>I'm not level 40 and can't obtain Candy XL yet. Should I still evolve Sandslash for Ultra League?</strong></h3>
+		<h3 class="article-header"><strong>我的訓練家等級不到40所以還不能農XL大糖，那我還需要進化成穿山王以準備高級聯盟嗎？</strong></h3>
 		<div class="faq-answer">
-			<p><b>Yes, Sandslash is worth evolving even if you can't power one above level 40.</b> Evolve to obtain the exclusive moves, and then you can potentially use it in the future.</p>
+			<p><b>當然！即便你現在還不能用XL大糖將穿山王強化到40級以上，他還是值得趁這機會進化。</b>進化後所學會的限定招式，在未來還是有機會用上。</p>
 		</div>
 	</div>
 
 	<div class="faq-item">
-		<h3 class="article-header"><strong>My Shadow Sandshrew still has Frustration. Can it learn Night Slash if I evolve it during Community Day?</strong></h3>
+		<h3 class="article-header"><strong>我的暗影穿山鼠還沒洗掉特殊招式"遷怒"，這樣在社群日當天進化之後還能學到暗襲要害嗎？</strong></h3>
 		<div class="faq-answer">
-			<p><b>No, a Shadow Pokemon with Frustration cannot learn an exclusive Charged Move when it evolves, </b> even if it has a 2nd Charged Move unlocked. You must have removed Frustration during a previous Team Rocket event.</p>
+			<p><b>不行！持有特殊招式 "遷怒" 的暗影寶可夢進化之後，將無法學會限定特殊招式，</b>即使解鎖第二招特殊招式也一樣無法學會。你的暗影寶可夢必須要在社群日活動開始前，於上一個火箭隊活動中，使用特殊招式學習器將遷怒移除。</p>
 		</div>
 	</div>
 
 	<div class="faq-item">
-		<h3 class="article-header"><strong>What will happen if I evolve a Purified Sandshrew during Community Day? Is there a way to obtain a Sandslash that knows both Night Slash and Return?</strong></h3>
+		<h3 class="article-header"><strong>如果我在社群日活動期間進化"淨化"後的穿山鼠會發生什麼事？我會得到一隻同時學會暗襲要害跟報恩的穿山王嗎？</strong></h3>
 		<div class="faq-answer">
-			<p><b>Exclusive Charged Moves will replace Return if you evolve a Purified Pokemon during its Community Day event.</b> To obtain both Night Slash and Return, you must evolve your Pokemon after the event's evolution window (7pm local time), unlock a 2nd Charged Move, and use an Elite TM to obtain Night Slash.</p>
+			<p><b>如果你在社群日活動時間中進化"淨化"後的穿山鼠，限定特殊招式將會取代掉原本的"報恩"。</b>如果你希望穿山王同時擁有報恩及暗襲要害的話，你必須要在社群日活動"後"才進化成穿山王，並且使用星塵跟糖果解鎖第二招特殊招式，再使用厲害招式學習器取得暗襲要害。</p>
 		</div>
 	</div>
 
 	<a name="further-resources"></a>
-	<h3 class="article-header"><strong>Additional Resources</strong></h3>
+	<h3 class="article-header"><strong>其他有用資訊</strong></h3>
 
 	<div class="flex further-resource-links">
-		<a href="https://www.stadiumgaming.gg/rank-checker" class="gostadium" target="_blank">Stadium Gaming<br>Rank Checker</a>
+		<a href="https://www.stadiumgaming.gg/rank-checker" class="gostadium" target="_blank">Stadium Gaming網站的<br>Rank Checker(英文)</a>
 		<a href="https://pvpivs.com/" target="_blank">pvpivs.com</a>
 	</div>
 
 	<div class="share-link-container">
-		<p>Share this article:</p>
+		<p>分享這篇文章</p>
 		<div class="share-link">
-			<input type="text" value="https://pvpoke.com/articles/community-day/22-03-sandshrew/" readonly>
-			<div class="copy">Copy</div>
+			<input type="text" value="https://pvpoketw.com/articles/community-day/22-03-sandshrew/" readonly>
+			<div class="copy">複製</div>
 		</div>
 	</div>
 </div>

@@ -14,7 +14,7 @@ require_once '../../header.php';
 <div class="section article white zigzagoon">
 	<h1>Galarian Zigzagoon Community Day Guide for PvP</h1>
 	<div class="date">Last updated August 12, 2022</div>
-	<img src="<?php echo $WEB_ROOT;?>articles/article-assets/community-day/22-08-zigzagoon/banner.jpg" />
+	<img src="<?php echo $WEB_HOST_ORIGN;?>articles/article-assets/community-day/22-08-zigzagoon/banner.jpg" />
 	<p>Galarian Zigzagoon will be making a special appearance in the wild this Community Day, bringing the chance to obtain optimal PvP IV's and Obstagoon's signature move, Obstruct. You can find more info on Galarian Zigzagoon Community Day at the <a href="https://pokemongolive.com/en/post/communityday-august-2022-galarian-zigzagoon/" target="_blank">Pokemon GO blog</a>. Below are the leagues and IV spreads to look out for, and answers to frequently asked questions.</p>
 	<p>Special thanks to <a href="https://twitter.com/SwgTips" target="_blank">@SwgTips</a> for the IV research! Check out his <a href="https://gamepress.gg/pokemongo/obstagoon-pvp-iv-deep-dive" target="_blank">deep dive article</a> on Obstagoon IV's for more on Obstagoon breakpoints and bulkpoints.</p>
 	<a name="overview"></a>

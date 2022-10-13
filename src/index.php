@@ -59,14 +59,14 @@
 
 	<div class="article-item flex">
 		<div class="col-3">
-			<a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-08-zigzagoon/">
-				<img src="<?php echo $WEB_HOST_ORIGN; ?>articles/article-assets/community-day/22-08-zigzagoon/thumb.jpg">
+			<a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-10-litwick/">
+				<img src="<?php echo $WEB_HOST_ORIGN; ?>articles/article-assets/community-day/22-10-litwick/thumb.jpg">
 			</a>
 		</div>
 		<div class="col-9">
-			<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-08-zigzagoon/">Galarian Zigzagoon Community Day Guide for PvP</a></h4>
-			<div class="date">August 12, 2022</div>
-			<p>Obstagoon is already a top tier Pokemon for PvP! Will Obstruct elevate it even further?</p>
+			<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-10-litwick/">Litwick Community Day Guide for PvP</a></h4>
+			<div class="date">October 12, 2022</div>
+			<p>Will Litwick be able to haunt its way into PvP this Community Day? Let's shed some light on how Chandelure performs in PvP!</p>
 			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Community Day"># Community Day</a><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a></div>
 		</div>
 	</div>
@@ -99,8 +99,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Sun Oct 9 13:05:28 2022 +0800</li>
-                <li>原版最後版本時間：Fri Oct 7 20:24:28 2022 -0500</li>
+                <li>中文版最後更新時間：Thu Oct 13 08:55:28 2022 +0800</li>
+                <li>原版最後版本時間：Wed Oct 12 15:19:36 2022 -0500</li>
             </ul>
 </div>
 

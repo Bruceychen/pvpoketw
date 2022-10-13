@@ -14,7 +14,7 @@ require_once '../../header.php';
 <div class="section article white geodude">
 	<h1>Alolan Geodude Community Day Guide for PvP</h1>
 	<div class="date">Last updated May 19, 2022</div>
-	<img src="<?php echo $WEB_ROOT;?>articles/article-assets/community-day/22-05-geodude/banner.jpg" />
+	<img src="<?php echo $WEB_HOST_ORIGN;?>articles/article-assets/community-day/22-05-geodude/banner.jpg" />
 	<p>Alolan Geodude is rolling out this Community Day with the exclusive move Rollout! You can get more info about Geodude Community Day at the official <a href="https://pokemongolive.com/en/post/communityday-may-2022-alolan-geodude/" target="_blank">Pokemon GO blog</a>. Below are the leagues and IV spreads to look out for, and answers to frequently asked questions.</p>
 
 	<a name="overview"></a>

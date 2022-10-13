@@ -1,23 +1,5 @@
 {
-	"species": [
-		{
-			"speciesId": "sandshrew",
-			"baseSpeciesId": "sandshrew"
-		},
-		{
-			"speciesId": "sandslash",
-			"baseSpeciesId": "sandshrew"
-		},
-		{
-			"speciesId": "sandshrew_alolan",
-			"baseSpeciesId": "sandshrew_alolan"
-		},
-		{
-			"speciesId": "sandslash_alolan",
-			"baseSpeciesId": "sandshrew_alolan",
-			"default": true
-		}
-	],
+	"species": ["sandshrew", "sandshrew_alolan"],
 	"checklist": [
 		{
 			"title": "High Rank A-Sandslash",
@@ -66,17 +48,7 @@
 			"league": "great",
 			"cp": 1500,
 			"ivs": [50, 15, 15, 15],
-			"priority": 2,
-			"notes": "Field Research: CP 554\nHatch/Raid: CP 739\nWeather Boosted: CP 1201"
-		},
-		{
-			"title": "XL K-Sandslash",
-			"speciesId": "sandslash",
-			"baseSpeciesId": "sandshrew",
-			"league": "ultra",
-			"cp": 2500,
-			"ivs": [50, 2, 14, 15],
-			"priority": 3
+			"priority": 2
 		},
 		{
 			"title": "Little Cup A-Sandshrew",
@@ -85,6 +57,15 @@
 			"league": "special",
 			"cp": 500,
 			"ivs": [15.5, 0, 10, 14],
+			"priority": 2
+		},
+		{
+			"title": "XL K-Sandslash",
+			"speciesId": "sandlash",
+			"baseSpeciesId": "sandshrew",
+			"league": "ultra",
+			"cp": 500,
+			"ivs": [50, 2, 14, 15],
 			"priority": 3
 		},
 		{
@@ -92,9 +73,10 @@
 			"speciesId": "sandslash_alolan",
 			"baseSpeciesId": "sandshrew_alolan",
 			"league": "special",
-			"cp": 500,
+			"cp": 2500,
 			"ivs": [8, 0, 15, 11],
-			"priority": 3
+			"priority": 3,
+			"notes": "In Little Jungle Cup, Alolan Sandslash performs similarly to Alolan Sandshrew, but has advantage over it with a neutral Fast Move and Bulldoze coverage."
 		}
 	]
 }

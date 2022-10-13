@@ -14,7 +14,7 @@ require_once '../../header.php';
 <div class="section article white deino">
 	<h1>Deino Community Day Guide for PvP</h1>
 	<div class="date">Last updated June 23, 2022</div>
-	<img src="<?php echo $WEB_ROOT;?>articles/article-assets/community-day/22-06-deino/banner.jpg" />
+	<img src="<?php echo $WEB_HOST_ORIGN;?>articles/article-assets/community-day/22-06-deino/banner.jpg" />
 	<p>PvP isn't always as easy as "one, two, three" *, but this guide will help you get your head in the game for Deino Community Day! You can get more info about Deino Community Day at the official <a href="https://pokemongolive.com/en/post/communityday-june-2022-deino/" target="_blank">Pokemon GO blog</a>. Below are the leagues and IV spreads to look out for, and answers to frequently asked questions.</p>
 	<p style="font-size: 12px;">* Sometimes you may even need to count to five.</p>
 	<a name="overview"></a>

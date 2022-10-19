@@ -2085,6 +2085,15 @@
     "cooldown": 1000,
     "archetype": "Multipurpose"
 }, {
+    "moveId": "SHADOW_FORCE",
+    "name": "暗影潛襲",
+    "type": "ghost",
+    "power": 120,
+    "energy": 100,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
     "moveId": "SHADOW_PUNCH",
     "name": "暗影拳",
     "abbreviation": "ShP",

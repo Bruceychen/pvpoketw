@@ -259,6 +259,21 @@
             "filterType": "id",
             "values": ["umbreon", "sableye", "drapion", "nidoqueen", "walrein", "pachirisu", "lileep"]
         }]
+    }, {
+        "name": "willpower",
+        "title": "意志盃",
+        "include": [{
+            "filterType": "type",
+            "values": ["dark", "psychic", "fighting"]
+        }],
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["mega"]
+        }, {
+            "filterType": "id",
+            "values": ["gardevoir"]
+        }],
+        "partySize": 3
     }],
     "formats": [{
         "title": "大師經典賽 (XL 禁止)",
@@ -310,14 +325,6 @@
         "showFormat": false,
         "showMeta": true
     }, {
-        "title": "進化盃",
-        "cup": "evolution",
-        "cp": 1500,
-        "meta": "evolution",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
         "title": "萬聖節盃(超級)",
         "cup": "halloween",
         "cp": 1500,
@@ -330,6 +337,14 @@
         "cup": "halloween",
         "cp": 2500,
         "meta": "halloweenultra",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
+    }, {
+        "title": "意志盃",
+        "cup": "willpower",
+        "cp": 1500,
+        "meta": "willpower",
         "showCup": true,
         "showFormat": true,
         "showMeta": true

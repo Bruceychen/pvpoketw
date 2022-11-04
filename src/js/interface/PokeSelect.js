@@ -40,6 +40,7 @@ function PokeSelect(element, i){
 			searchArr.push({
 				speciesId: poke.speciesId,
 				speciesName: poke.speciesName.toLowerCase(),
+				dex: poke.dex,
 				priority: priority
 			});
 
@@ -47,7 +48,7 @@ function PokeSelect(element, i){
 
 			if(poke.speciesId.indexOf("_xs") > -1){
 				// 以下這行針對四隻XL寶可夢
-				displayName = eliteXLPokemon(displayName) + " (非XL)";
+				displayName += " (非XL)";
 			}
 
 			$pokeSelect.append("<option value=\""+poke.speciesId+"\" type-1=\""+poke.types[0]+"\" type-2=\""+poke.types[1]+"\">"+displayName+"</option");
@@ -703,6 +704,11 @@ function PokeSelect(element, i){
 			var pokeName = searchArr[i].speciesName;
 
 			if(pokeName.startsWith(searchStr)){
+				$pokeSelect.find("option[value=\""+searchArr[i].speciesId+"\"]").prop("selected", "selected");
+				break;
+			}
+
+			if(searchArr[i].dex == searchStr){
 				$pokeSelect.find("option[value=\""+searchArr[i].speciesId+"\"]").prop("selected", "selected");
 				break;
 			}

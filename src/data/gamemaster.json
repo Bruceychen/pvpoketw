@@ -111,6 +111,22 @@
         "include": [],
         "exclude": []
     }, {
+        "name": "elementremix",
+        "title": "元素盃Remix",
+        "include": [{
+            "filterType": "evolution",
+            "values": [1]
+        }, {
+            "filterType": "type",
+            "values": ["grass", "water", "fire"]
+        }],
+        "exclude": [{
+            "filterType": "id",
+            "values": ["chinchou", "ducklett", "cottonee", "salandit"]
+        }],
+        "partySize": 3,
+        "presetOnly": true
+    }, {
         "name": "evolution",
         "title": "進化盃",
         "include": [{
@@ -326,14 +342,6 @@
         "showFormat": false,
         "showMeta": true
     }, {
-        "title": "萬聖節盃(高級)",
-        "cup": "halloween",
-        "cp": 2500,
-        "meta": "halloweenultra",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
         "title": "意志盃",
         "cup": "willpower",
         "cp": 1500,
@@ -346,6 +354,14 @@
         "cup": "premier",
         "cp": 2500,
         "meta": "premierultra",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
+    }, {
+        "title": "元素盃Remix",
+        "cup": "elementremix",
+        "cp": 500,
+        "meta": "elementremix",
         "showCup": true,
         "showFormat": true,
         "showMeta": true

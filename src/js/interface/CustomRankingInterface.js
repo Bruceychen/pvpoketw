@@ -12,6 +12,7 @@ function interfaceObject(){
 	var pokeSelectors = [];
 	var customMetaSelector;
 	var overrideSelector;
+	var useDefaultMovesets = true;
 	var rankingsRunning = false;
 	var loadingDataFromCup = false; // Flag for whether we want to import new data into the moveset overrides
 	var self = this;
@@ -29,7 +30,8 @@ function interfaceObject(){
 		include: [],
 		exclude: [],
 		overrides: [],
-		league: 1500
+		league: 1500,
+		useDefaultMovesets: 1
 	}
 
 	// The scenario to rank
@@ -62,6 +64,7 @@ function interfaceObject(){
 		$("body").on("keyup", ".field-section input", filterInput);
 		$("body").on("click", ".field-section.type .select-all, .field-section.type .deselect-all", typeSelectAll);
 		$("body").on("click", ".filter .remove", deleteFilterConfirm);
+		$("body").on("click", ".import-custom-group", importIdsFromCustomGroup);
 
 		battle = new Battle();
 
@@ -71,7 +74,7 @@ function interfaceObject(){
 
 		overrideSelector = new PokeMultiSelect($(".poke.multi").eq(1));
 		overrideSelector.init(data.pokemon, battle);
-		overrideSelector.setContext("customrankings");
+		overrideSelector.setContext("customrankingsoverrides");
 
 		// Fill the advanced cup dropdown with cups from the gamemaster
 		$(".cup-select").html("");
@@ -197,6 +200,12 @@ function interfaceObject(){
 					filter.values.push(parseInt($(this).attr("value")));
 				});
 				break;
+
+			case "evolution":
+				$el.find(".evolution .check.on").each(function(index, value){
+					filter.values.push(parseInt($(this).attr("value")));
+				});
+				break;
 		}
 
 		// Output the cup data to JSON
@@ -231,34 +240,20 @@ function interfaceObject(){
 			$(".button.simulate").html("Running rankings...");
 
 			// Convert overrides custom group into an array
-			var overrides = [];
-			var group = overrideSelector.getPokemonList();
-
-			for(var i = 0; i < group.length; i++){
-				var chargedMoves = [];
-				for(n = 0; n < group[i].chargedMoves.length; n++){
-					chargedMoves.push(group[i].chargedMoves[n].moveId);
-				}
-
-				overrides.push({
-					speciesId: group[i].speciesId,
-					fastMove: group[i].fastMove.moveId,
-					chargedMoves: chargedMoves
-				});
-			}
+			var overrides = collateOverrides(false);
 
 			cup.overrides = overrides;
 			ranker.setMoveOverrides(battle.getCP(), "custom", overrides);
 
+			generateRankings(null, data);
+		} else if(ranker.getMoveSelectMode() == "force"){
+			$(".button.simulate").html("Simulate");
+			$(".custom-rankings-results").show();
+			$(".custom-rankings-list").show();
+
 			// Output the cup data to JSON
 			var json = JSON.stringify(cup);
 			$("textarea.import").val(json);
-
-			generateRankings(null, data);
-		} else if(ranker.getMoveSelectMode() == "force"){
-			$(".button.simulate").html("模擬排名開始");
-			$(".custom-rankings-results").show();
-			$(".custom-rankings-list").show();
 
 			// Set this ranking data in the gamemaster for recommended move reference
 			var key = "allcustom"+battle.getCP();
@@ -299,6 +294,17 @@ function interfaceObject(){
 
 		// Import moveset overrides
 		overrideSelector.quickFillGroup(cup.overrides);
+
+		if(data.useDefaultMovesets !== undefined){
+			cup.useDefaultMovesets = data.useDefaultMovesets;
+		}
+
+
+		if(cup.useDefaultMovesets){
+			$(".check.use-default-movesets").addClass("on");
+		} else{
+			$(".check.use-default-movesets").removeClass("on");
+		}
 
 		// Set league
 		$(".league-select option[value=\""+cup.league+"\"][level-cap=\""+cup.levelCap+"\"]").prop("selected","selected");
@@ -349,8 +355,6 @@ function interfaceObject(){
 		$filter.find(".filter-type option[value=\""+data.filterType+"\"]").prop("selected", "selected");
 		$("." + category + " .filters").append($filter);
 
-		console.log(data);
-
 		// Process and select current values
 		switch(data.filterType){
 			case "type":
@@ -358,6 +362,7 @@ function interfaceObject(){
 			case "cost":
 			case "distance":
 			case "moveType":
+			case "evolution":
 				for(var i = 0; i < data.values.length; i++){
 					$filter.find(".check[value=\""+data.values[i]+"\"]").addClass("on");
 				}
@@ -471,6 +476,13 @@ function interfaceObject(){
 			cup.league = cp;
 			cup.levelCap = levelCap;
 		}
+
+		// Load ranking data for movesets
+		var key = battle.getCup().name + "overall" + battle.getCP();
+
+		if(! gm.rankings[key]){
+			gm.loadRankingData(self, "overall", battle.getCP(), battle.getCup().name);
+		}
 	}
 
 	// Event handler for changing the amount of shields in the ranking scenario
@@ -531,28 +543,102 @@ function interfaceObject(){
 			return false;
 		}
 
-		$(".button.simulate").html("計算中...");
+		$(".button.simulate").html("Generating...");
 
-		if((! data)&&(rankingsRunning)){
-			rankingsRunning = true;
-			return false;
-		} else if((! data)&&(!rankingsRunning)){
-			self.updatePokemonList();
+		setTimeout(function(){
+
+			if((! data)&&(rankingsRunning)){
+				rankingsRunning = true;
+				return false;
+			} else if((! data)&&(!rankingsRunning)){
+				self.updatePokemonList();
+			}
+
+			// Use default league movesets? If no moveset data exists, supply existing data
+			useDefaultMovesets = $(".check.use-default-movesets").hasClass("on");
+			cup.useDefaultMovesets = useDefaultMovesets ? 1 : 0;
+
+			if(! data && useDefaultMovesets){
+				var key = battle.getCup().name + "overall" + battle.getCP();
+
+				if(gm.rankings[key]){
+					data = [gm.rankings[key]]; // Wrapped in an array for weird reasons
+
+
+					// Convert overrides custom group into an array
+					var overrides = collateOverrides(gm.rankings[key]);
+
+					cup.overrides = collateOverrides(false); // Preserve only the manual overrides for export
+					ranker.setMoveOverrides(battle.getCP(), "custom", overrides);
+				}
+
+			}
+
+			if(! data){
+				// Generate movesets
+				ranker.setMoveSelectMode("auto");
+				ranker.setScenarioOverrides([scenario]);
+				ranker.rankLoop(battle.getCP(true), cup, self.receiveRankingData);
+			} else{
+				// Generate rankings with movesets established
+				ranker.setMoveSelectMode("force");
+				ranker.setScenarioOverrides([scenario]);
+				rankingInterface.setScenario(scenario);
+				ranker.rankLoop(battle.getCP(true), cup, self.receiveRankingData, data[0]);
+			}
+
+		}, 250);
+
+	}
+
+	// Generate and return array moveset overrides from defined overrides and default ranking data, if applicable
+
+	function collateOverrides(data){
+		// Convert overrides custom group into an array
+		var overrides = [];
+		var group = overrideSelector.getPokemonList();
+
+		// Push custom defined overrides
+		for(var i = 0; i < group.length; i++){
+			var chargedMoves = [];
+			for(n = 0; n < group[i].chargedMoves.length; n++){
+				chargedMoves.push(group[i].chargedMoves[n].moveId);
+			}
+
+			var obj = {
+				speciesId: group[i].speciesId,
+				fastMove: group[i].fastMove.moveId,
+				chargedMoves: chargedMoves,
+			};
+
+			if(group[i].rankingWeight != 1){
+				obj.weight = group[i].rankingWeight;
+			}
+
+			overrides.push(obj);
 		}
 
+		// Gather overrides from default league rankings
+		if(data){
+			for(var i = 0; i < data.length; i++){
+				var moveset = data[i].moveset;
+				var chargedMoves = [];
 
-		if(! data){
-			// Generate movesets
-			ranker.setMoveSelectMode("auto");
-			ranker.setScenarioOverrides([scenario]);
-			ranker.rankLoop(battle.getCP(true), cup, self.receiveRankingData);
-		} else{
-			// Generate rankings with movesets established
-			ranker.setMoveSelectMode("force");
-			ranker.setScenarioOverrides([scenario]);
-			rankingInterface.setScenario(scenario);
-			ranker.rankLoop(battle.getCP(true), cup, self.receiveRankingData, data[0]);
+				for(n = 1; n < moveset.length; n++){
+					chargedMoves.push(moveset[n]);
+				}
+
+				var obj = {
+					speciesId: data[i].speciesId,
+					fastMove: moveset[0],
+					chargedMoves: chargedMoves,
+				};
+
+				overrides.push(obj);
+			}
 		}
+
+		return overrides;
 	}
 
 	// Turn a filter's checkbox on or off
@@ -581,6 +667,51 @@ function interfaceObject(){
 		}
 
 		self.updateFilterValues($el);
+	}
+
+	// Select or deselect all types
+
+	function importIdsFromCustomGroup(e){
+		var $el = $(e.target).closest(".filter");
+		var listIndex = $el.closest(".filters").attr("list-index");
+		var filter = filterLists[listIndex][parseInt($el.attr("index"))];
+
+		modalWindow("Import Ids from Custom Group", $(".import-group-modal"));
+
+		// Fill select options with list from a multiselector
+
+		var $groupOptions = $(".poke.multi").first().find(".quick-fill-select option[type='custom']");
+
+		$groupOptions.each(function(index, value){
+			$(".modal .custom-group-list").append($(this).clone());
+		});
+
+		// Import custom list
+
+		$(".modal .import").click(function(e){
+			var selectedGroup = $(".modal .custom-group-list option:selected").val();
+			var data = window.localStorage.getItem(selectedGroup);
+
+			if(data){
+				var list = [];
+				// Split CSV data by line break
+				data = data.split('\n');
+
+				for(var i = 0; i < data.length; i++){
+					// Split each line by comma
+					var speciesId = data[i].split(',')[0];
+					list.push(speciesId);
+				}
+
+				var list = list.join(", ");
+
+				$el.find(".ids").val(list);
+			}
+
+			closeModalWindow();
+
+			self.updateFilterValues($el);
+		});
 	}
 
 	// Oh yeah, it's big brain copy + paste time

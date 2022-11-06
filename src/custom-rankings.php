@@ -141,6 +141,7 @@ require_once 'header.php'; ?>
                     <a target="_blank" href="https://docs.google.com/spreadsheets/d/1m6gAODHNgF0YCMrwi5oFmVTDlYRe_9nYRL72V7iPMHg/copy#gid=1098261709">按我產生可編輯副本</a>
 				<div class="field-container">
 					<input class="ids" placeholder="寶可夢英文id" />
+                    <button class="import-custom-group">匯入自訂群組</button>
 				</div>
 			</div>
 
@@ -278,7 +279,9 @@ require_once 'header.php'; ?>
 	<h3>指定寶可夢招式組固定</h3>
 	<p>本站的排名演算法會依據計算結果，推薦寶可夢各自較佳的招式組合。但有時實際情況搭配特定的招式組會又更理想的效果。</p>
 	<p>本功能可以讓你自訂，並且固定特定寶可夢的招式組合。如此在演算法進行計算時將會只考慮你所指定的招式組。
-	<?php require 'modules/pokemultiselect.php'; ?>
+
+    <div class="use-default-movesets check on"><span></span> 使用賽制預設招式組</div>
+    <?php require 'modules/pokemultiselect.php'; ?>
 </div>
 
 <div class="delete-filter-confirm hide">
@@ -288,6 +291,16 @@ require_once 'header.php'; ?>
 		<div class="button yes">是</div>
 		<div class="button no">否</div>
 	</div>
+</div>
+
+<div class="import-group-modal hide">
+    <p>選擇自訂群組以匯入</p>
+
+    <select class="custom-group-list"></select>
+
+    <div class="center flex">
+        <div class="button import">匯入群組</div>
+    </div>
 </div>
 
 <div class="sandbox-search-strings hide">

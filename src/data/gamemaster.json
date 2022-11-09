@@ -33186,8 +33186,8 @@
             "hp": 277
         },
         "types": ["ground", "normal"],
-        "fastMoves": ["STRUGGLE"],
-        "chargedMoves": ["STRUGGLE"],
+        "fastMoves": ["TACKLE", "ROCK_SMASH"],
+        "chargedMoves": ["FIRE_PUNCH", "THUNDER_PUNCH", "AERIAL_ACE"],
         "defaultIVs": {
             "cp500": [5, 7, 15, 9],
             "cp1500": [14.5, 5, 10, 9],

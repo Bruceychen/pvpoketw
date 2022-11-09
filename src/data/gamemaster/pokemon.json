@@ -32716,15 +32716,15 @@
     "dex": 901,
     "speciesName": "月月熊",
     "speciesId": "ursaluna",
-    "baseStats": {
+	"baseStats": {
 		"atk": 243,
         "def": 181,
         "hp": 277
     },
     "types": ["ground", "normal"],
-    "fastMoves": ["STRUGGLE"],
-    "chargedMoves": ["STRUGGLE"],
-    "defaultIVs": {
+    "fastMoves": ["TACKLE", "ROCK_SMASH"],
+    "chargedMoves": ["FIRE_PUNCH", "THUNDER_PUNCH", "AERIAL_ACE"],
+	"defaultIVs": {
 		"cp500": [5, 7, 15, 9],
         "cp1500": [14.5, 5, 10, 9],
         "cp2500": [23.5, 8, 13, 14]

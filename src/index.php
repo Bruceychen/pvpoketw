@@ -66,14 +66,14 @@
 
 	<div class="article-item flex">
 		<div class="col-3">
-			<a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-10-litwick/">
-				<img src="<?php echo $WEB_HOST_ORIGN; ?>articles/article-assets/community-day/22-10-litwick/thumb.jpg">
+			<a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-11-teddiursa/">
+				<img src="<?php echo $WEB_HOST_ORIGN; ?>articles/article-assets/community-day/22-11-teddiursa/thumb.jpg">
 			</a>
 		</div>
 		<div class="col-9">
-			<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-10-litwick/">Litwick Community Day Guide for PvP</a></h4>
-			<div class="date">October 12, 2022</div>
-			<p>Will Litwick be able to haunt its way into PvP this Community Day? Let's shed some light on how Chandelure performs in PvP!</p>
+			<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/22-11-teddiursa/">Teddiursa Community Day Guide for PvP</a></h4>
+			<div class="date">November 11, 2022</div>
+			<p>Ursulana will be making its debut in Pokemon GO! How does it stand up to the meta and is this bear a necessity for PvP?</p>
 			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Community Day"># Community Day</a><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a></div>
 		</div>
 	</div>
@@ -106,8 +106,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Fri Nov 11 12:45:28 2022 +0800</li>
-                <li>原版最後版本時間：Thu Nov 10 19:35:57 2022 -0600</li>
+                <li>中文版最後更新時間：Sat Nov 12 18:25:28 2022 +0800</li>
+                <li>原版最後版本時間：Fri Nov 11 13:30:52 2022 -0600</li>
             </ul>
 </div>
 

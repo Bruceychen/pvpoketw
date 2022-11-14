@@ -3238,7 +3238,7 @@
         }
     }, {
         "dex": 50,
-        "speciesName": "Diglett (Alolan) (Shadow)",
+        "speciesName": "地鼠 阿羅拉 暗影",
         "speciesId": "diglett_alolan_shadow",
         "baseStats": {
             "atk": 108,
@@ -3343,7 +3343,7 @@
         }
     }, {
         "dex": 51,
-        "speciesName": "Dugtrio (Alolan) (Shadow)",
+        "speciesName": "三地鼠 阿羅拉 暗影",
         "speciesId": "dugtrio_alolan_shadow",
         "baseStats": {
             "atk": 201,
@@ -9390,7 +9390,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 177,
-        "speciesName": "Natu (Shadow)",
+        "speciesName": "天然雀 暗影",
         "speciesId": "natu_shadow",
         "baseStats": {
             "atk": 134,
@@ -9441,7 +9441,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 178,
-        "speciesName": "Xatu (Shadow)",
+        "speciesName": "天然鳥 暗影",
         "speciesId": "xatu_shadow",
         "baseStats": {
             "atk": 192,
@@ -15089,7 +15089,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 320,
-        "speciesName": "Wailmer (Shadow)",
+        "speciesName": "吼吼鯨 暗影",
         "speciesId": "wailmer_shadow",
         "baseStats": {
             "atk": 136,
@@ -15142,7 +15142,7 @@
         "tags": ["shadoweligible"]
     }, {
         "dex": 321,
-        "speciesName": "Wailord (Shadow)",
+        "speciesName": "吼鯨王 暗影",
         "speciesId": "wailord_shadow",
         "baseStats": {
             "atk": 175,
@@ -25359,7 +25359,7 @@
     }, {
         "dex": 622,
         "speciesId": "golett_shadow",
-        "speciesName": "Golett (Shadow)",
+        "speciesName": "泥偶小人 暗影",
         "baseStats": {
             "atk": 127,
             "def": 92,
@@ -25410,7 +25410,7 @@
     }, {
         "dex": 623,
         "speciesId": "golurk_shadow",
-        "speciesName": "Golurk (Shadow)",
+        "speciesName": "泥偶巨人 暗影",
         "baseStats": {
             "atk": 222,
             "def": 154,

@@ -153,31 +153,6 @@
         "partySize": 3,
         "levelCap": 40
     }, {
-        "name": "primeval",
-        "title": "Silph Factions (Primeval)",
-        "include": [{
-            "filterType": "type",
-            "name": "Type",
-            "values": ["dark", "dragon", "electric", "ice", "rock"]
-        }, {
-            "filterType": "id",
-            "name": "Species",
-            "values": ["greedent", "snorlax", "munchlax", "lickilicky", "castform", "tapu_fini", "milotic", "arbok", "sceptile"]
-        }],
-        "exclude": [{
-            "filterType": "tag",
-            "name": "Tag",
-            "values": ["shadow", "mega"]
-        }, {
-            "filterType": "type",
-            "name": "Type",
-            "values": ["fighting", "ground", "steel"]
-        }, {
-            "filterType": "id",
-            "name": "Species",
-            "values": ["ninetales_alolan", "obstagoon", "raichu", "walrein", "umbreon", "dewgong", "regirock", "lycanroc_midnight", "crustle", "dragalge", "pachirisu", "abomasnow", "sableye", "drapion", "moltres_galarian", "lileep", "guzzlord"]
-        }]
-    }, {
         "name": "retro",
         "title": "復古盃",
         "include": [],
@@ -189,49 +164,6 @@
             "values": ["mega"]
         }],
         "partySize": 3
-    }, {
-        "name": "sorcerousfactions",
-        "title": "Silph Factions (Sorcerous)",
-        "include": [{
-            "filterType": "type",
-            "values": ["ice", "poison", "fairy", "psychic", "normal"]
-        }],
-        "exclude": [{
-            "filterType": "tag",
-            "values": ["legendary", "mythical", "mega"]
-        }, {
-            "filterType": "type",
-            "values": ["steel"]
-        }, {
-            "filterType": "cost",
-            "values": [100000, 75000]
-        }, {
-            "filterType": "id",
-            "values": ["dewgong", "obstagoon", "walrein", "diggersby", "lickitung", "nidoqueen", "qwilfish_hisuian", "overqwil", "wobbuffet", "medicham", "sneasler", "litleo", "pyroar", "articuno_galarian", "toxapex"]
-        }]
-    }, {
-        "name": "timelessfactions",
-        "title": "Silph Factions (Timeless)",
-        "restrictedPicks": 1,
-        "restrictedPokemon": ["bulbasaur", "ivysaur", "venusaur", "squirtle", "wartortle", "blastoise", "charmander", "charmeleon", "charizard", "chikorita", "bayleef", "meganium", "totodile", "croconaw", "feraligatr", "cyndaquil", "quilava", "typhlosion", "treecko", "grovyle", "sceptile", "mudkip", "marshtomp", "swampert", "torchic", "combusken", "blaziken", "turtwig", "grotle", "torterra", "piplup", "prinplup", "empoleon", "chimchar", "monferno", "infernape", "snivy", "servine", "serperior", "tepig", "pignite", "emboar", "oshawott", "dewott", "samurott"],
-        "include": [{
-            "filterType": "dex",
-            "values": [1, 649]
-        }, {
-            "filterType": "id",
-            "values": ["blaziken", "charizard", "infernape", "empoleon", "monferno", "prinplup", "combusken", "snivy", "servine", "serperior", "tepig", "pignite", "emboar", "oshawott", "dewott", "samurott"],
-            "includeShadows": false
-        }],
-        "exclude": [{
-            "filterType": "tag",
-            "values": ["legendary", "mythical", "shadow", "mega", "alolan", "hisuian", "galarian"]
-        }, {
-            "filterType": "type",
-            "values": ["dragon", "fairy", "fighting", "flying", "normal", "psychic", "steel"]
-        }, {
-            "filterType": "id",
-            "values": ["umbreon", "sableye", "drapion", "nidoqueen", "walrein", "pachirisu", "lileep"]
-        }]
     }],
     "formats": [{
         "title": "大師經典賽 (XL 禁止)",
@@ -275,50 +207,10 @@
         "showFormat": false,
         "showMeta": true
     }, {
-        "title": "Ultra Premier Cup",
-        "cup": "premier",
-        "cp": 2500,
-        "meta": "premierultra",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
         "title": "元素盃Remix",
         "cup": "elementremix",
         "cp": 500,
         "meta": "elementremix",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
-        "title": "Silph Factions (Primeval)",
-        "cup": "primeval",
-        "cp": 1500,
-        "meta": "primeval",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
-        "title": "Silph Factions (Timeless)",
-        "cup": "timelessfactions",
-        "cp": 1500,
-        "meta": "timeless",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
-        "title": "Silph Factions (Sorcerous)",
-        "cup": "sorcerousfactions",
-        "cp": 1500,
-        "meta": "sorcerous",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
-        "title": "Silph Factions (Celestial)",
-        "cup": "celestial",
-        "cp": 2500,
-        "meta": "celestial",
         "showCup": true,
         "showFormat": true,
         "showMeta": true
@@ -24389,7 +24281,11 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": true
+        "released": true,
+        "family": {
+            "id": "FAMILY_DEERLING",
+            "evolutions": ["sawsbuck"]
+        }
     }, {
         "dex": 586,
         "speciesId": "sawsbuck",
@@ -30415,7 +30311,7 @@
         },
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_COSMOG",
             "parent": "cosmoem"
@@ -30439,7 +30335,7 @@
         },
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_COSMOG",
             "parent": "cosmoem"

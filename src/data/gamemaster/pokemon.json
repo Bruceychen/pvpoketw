@@ -24000,7 +24000,11 @@
     },
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
-    "released": true
+    "released": true,
+	"family": {
+        "id": "FAMILY_DEERLING",
+        "evolutions": ["sawsbuck"]
+    }
 }, {
     "dex": 586,
     "speciesId": "sawsbuck",
@@ -30026,7 +30030,7 @@
     },
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": false,
+    "released": true,
     "family": {
         "id": "FAMILY_COSMOG",
         "parent": "cosmoem"
@@ -30050,7 +30054,7 @@
     },
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": false,
+    "released": true,
     "family": {
         "id": "FAMILY_COSMOG",
         "parent": "cosmoem"

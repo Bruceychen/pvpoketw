@@ -2,13 +2,14 @@
 
 <h1>Ranker</h1>
 <div class="section white">
-    <?php require 'modules/formatselect.php'; ?>
-    <p></p>
-    <p>Select your format above and generate rankings. These will be saved as JSON to the '/data/rankings/' directory. This process may take a few minutes. Follow the instructions below to set up rankings for a new cup, or open the developer console for more info.</p>
+	<?php require 'modules/formatselect.php'; ?>
+	<a style="margin-left: 30px;" class="rankersandbox-link" href="#">Rankersandbox &rarr;</a>
+	<p></p>
+	<p>Select your format above and generate rankings. These will be saved as JSON to the '/data/rankings/' directory. This process may take a few minutes. Follow the instructions below to set up rankings for a new cup, or open the developer console for more info.</p>
 
-    <button class="button simulate">Simulate</button>
+	<button class="button simulate">Simulate</button>
 
-    <div class="output"></div>
+	<div class="output"></div>
 </div>
 
 <script src="js/GameMaster.js?v=2"></script>

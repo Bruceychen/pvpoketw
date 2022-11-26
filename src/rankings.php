@@ -72,9 +72,11 @@ switch($cup){
 		break;
 
 	case "factions":
-	case "primeval":
-	case "sorcerousfactions":
-	case "timelessfactions":
+	case "factionsgreat":
+	case "factionsultra":
+	case "factionsmaster":
+	case "ember":
+	case "vanguard":
 		$league = 'Silph Factions';
 		break;
 
@@ -252,13 +254,13 @@ require_once 'header.php';
 <?php require_once 'modules/search-string-help.php'; ?>
 
 <div class="search-traits-selector hide">
-    <p>Select the options below to search for Pokemon traits and playstyles.</p>
+	<p>Select the options below to search for Pokemon traits and playstyles.</p>
 
-    <div class="traits"></div>
+	<div class="traits"></div>
 
-    <div class="center flex">
-        <div class="button search">Search</div>
-    </div>
+	<div class="center flex">
+		<div class="button search">Search</div>
+	</div>
 </div>
 
 

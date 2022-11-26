@@ -2,10 +2,12 @@
 
 <h1>Ranker</h1>
 <div class="section league-select-container">
-    <?php require 'modules/formatselect.php'; ?>
-    <button class="simulate">模擬開始</button>
+	<?php require 'modules/formatselect.php'; ?>
+	<button class="simulate">模擬開始</button>
 
-    <div class="output"></div>
+	<a style="margin-left: 30px;" class="rankings-link" href="#">Rankings &rarr;</a>
+
+	<div class="output"></div>
 </div>
 
 <script src="js/GameMaster.js?v=50"></script>

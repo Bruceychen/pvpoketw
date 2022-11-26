@@ -236,12 +236,12 @@ var InterfaceMaster = (function () {
 					// Open Pokeselect for first visible Pokemon
 					var $rankings = $(".rankings-container .rank:visible");
 
-					console.log($rankings.first());
-
 					if($rankings.length > 0){
 						$rankings.first().trigger("click");
 					} else{
 						self.openPokeSelect();
+
+						$(".modal .poke-search").val($(this).val());
 					}
 				}
 			})
@@ -333,7 +333,7 @@ var InterfaceMaster = (function () {
 				var rankings = [];
 				var cup = battle.getCup();
 
-				var key = cup.name + "overall" + battle.getCP();
+				var key = "all" + "overall" + battle.getCP();
 
 				if(gm.rankings[key]){
 					rankings = [gm.rankings[key]][0]; // Wrapped in an array for weird reasons
@@ -380,6 +380,14 @@ var InterfaceMaster = (function () {
 				el.focus();
 				el.setSelectionRange(0, el.value.length);
 				document.execCommand("copy");
+			});
+
+			// Open a link to the ranker in a new tab
+
+			$("a.ranker-link").click(function(e){
+				e.preventDefault();
+
+				window.open(webRoot + 'ranker.php?cup=' + battle.getCup().name + '&cp=' + battle.getCP(), '_blank');
 			});
 		};
 

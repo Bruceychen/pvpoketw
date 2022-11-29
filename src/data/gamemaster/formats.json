@@ -46,10 +46,19 @@
 		"showMeta": true
 	},
 	{
-		"title": "Element Cup Remix",
-		"cup": "elementremix",
-		"cp": 500,
-		"meta": "elementremix",
+		"title": "Great League Remix",
+		"cup": "remix",
+		"cp": 1500,
+		"meta": "remix",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true
+	},
+	{
+		"title": "Fighting Cup Remix",
+		"cup": "fightingremix",
+		"cp": 1500,
+		"meta": "fightingremix",
 		"showCup": true,
 		"showFormat": true,
 		"showMeta": true

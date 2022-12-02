@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.29.16.2';
+$SITE_VERSION = '1.29.16.3';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -121,7 +121,7 @@ if(! isset($OG_IMAGE)){
 	<link id="favicon" rel="icon" href="<?php echo $WEB_ROOT; ?>img/favicon.png">
 <?php endif; ?>
 
-<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=153">
+<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=154">
 
 <?php if(strpos($META_TITLE, 'Train') !== false): ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/train.css?v=20">
@@ -196,15 +196,19 @@ if(! isset($OG_IMAGE)){
 </head>
 
 <body>
-	<?php if(strpos($_SERVER['REQUEST_URI'], 'season-13') == false): ?>
-		<div class="header-ticker">
-			<a href="https://pvpoketw.com/season-13/rankings/">第13賽季預測排名</a>
-		</div>
-	<?php else: ?>
-		<div class="header-ticker old-version">
-			<a href="https://pvpoketw.com/rankings/">回到第12賽季</a>
-		</div>
+
+	<?php if(false): // Removing this but saving code for future use ?>
+		<?php if(strpos($_SERVER['REQUEST_URI'], 'season-13') == false): ?>
+			<div class="header-ticker">
+				<a href="https://pvpoke.com/season-13/rankings/">Preview Season 13 Updates</a>
+			</div>
+		<?php else: ?>
+			<div class="header-ticker old-version">
+				<a href="https://pvpoke.com/rankings/">Return to Season 12</a>
+			</div>
+		<?php endif; ?>
 	<?php endif; ?>
+
 	<header>
 		<div class="header-wrap">
 			<h1 class="title"><a href="/">PvPoketw.com</a></h1>

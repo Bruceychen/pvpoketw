@@ -153,6 +153,7 @@ function PokeMultiSelect(element){
 			}
 
 			var pokemon = pokeSelector.getPokemon();
+			var scrollToBottom = false;
 
 			if(! pokemon){
 				return false;
@@ -162,7 +163,7 @@ function PokeMultiSelect(element){
 				// Add new Pokemon to list
 
 				pokemonList.push(pokemon);
-
+				scrollToBottom = true;
 			} else{
 				pokemonList[selectedIndex] = pokemon;
 			}
@@ -171,6 +172,9 @@ function PokeMultiSelect(element){
 
 			self.updateListDisplay();
 
+			if(scrollToBottom){
+				$el.find(".rankings-container").scrollTop($el.find(".rankings-container").eq(0).prop("scrollHeight"));
+			}
 		});
 
 		// Add this Pokemon and other IV spreads

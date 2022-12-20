@@ -49,6 +49,10 @@
             <td>184</td>
         </tr>
         <tr>
+            <td><strong>Evolution Family</strong></td>
+            <td>+politoed</td>
+        </tr>
+        <tr>
             <td><strong>招式名稱</strong></td>
             <td>@雙倍奉還</td>
         </tr>
@@ -97,6 +101,10 @@
                 5km :<i>5公里</i><br>
                 20km :<i>20公里</i><br>
             </td>
+        </tr>
+        <tr>
+            <td><strong>Meta 寶可夢</strong></td>
+            <td>meta</td>
         </tr>
         <tr>
             <td><strong>4* 寶可夢</strong></td>

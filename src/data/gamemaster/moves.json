@@ -841,6 +841,24 @@
     "cooldown": 500,
     "archetype": "Fast Charge"
 }, {
+    "moveId": "FUSION_BOLT",
+    "name": "交錯閃電",
+    "type": "electric",
+    "power": 90,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "FUSION_FLARE",
+    "name": "交錯火焰",
+    "type": "fire",
+    "power": 90,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
     "moveId": "FUTURE_SIGHT",
     "name": "預知未來",
     "type": "psychic",

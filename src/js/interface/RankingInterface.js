@@ -53,7 +53,7 @@ var InterfaceMaster = (function () {
 
 				$(".format-select").on("change", selectFormat);
 				$(".league-select").on("change", selectLeague);
-				$(".ranking-categories a").on("click", selectCategory);
+				$(".category-select").on("change", selectCategory);
 				$("body").on("click", ".check", checkBox);
 				$("body").on("click", ".check.limited", toggleLimitedPokemon);
 				$("body").on("click", ".check.xl", toggleXLPokemon);
@@ -115,12 +115,6 @@ var InterfaceMaster = (function () {
 					battle.setLevelCap(50);
 				}
 
-				if(cup == "beam"){
-					category = "beaminess";
-					$(".description").hide();
-					$(".description."+category).show();
-				}
-
 				if(battle.getCup().link){
 					$(".description.link").show();
 					$(".description.link a").attr("href", battle.getCup().link);
@@ -163,6 +157,36 @@ var InterfaceMaster = (function () {
 					} else{
 						metaGroupData = gm.groups[metaKey];
 					}
+				}
+
+				// Sort rankings by selected sort method
+				var sort = $(".category-select option:selected").attr("sort");
+
+				switch(sort){
+					case "score":
+						data.sort((a,b) => (a.score > b.score) ? -1 : ((b.score > a.score) ? 1 : 0));
+						$(".league-select-container > .ranking-header.right").html("Score");
+						break;
+
+					case "statproduct":
+						data.sort((a,b) => (a.stats.product > b.stats.product) ? -1 : ((b.stats.product > a.stats.product) ? 1 : 0));
+						$(".league-select-container > .ranking-header.right").html("Stat Product");
+						break;
+
+					case "attack":
+						data.sort((a,b) => (a.stats.atk > b.stats.atk) ? -1 : ((b.stats.atk > a.stats.atk) ? 1 : 0));
+						$(".league-select-container > .ranking-header.right").html("Attack");
+						break;
+
+					case "defense":
+						data.sort((a,b) => (a.stats.def > b.stats.def) ? -1 : ((b.stats.def > a.stats.def) ? 1 : 0));
+						$(".league-select-container > .ranking-header.right").html("Defense");
+						break;
+
+					case "stamina":
+						data.sort((a,b) => (a.stats.hp > b.stats.hp) ? -1 : ((b.stats.hp > a.stats.hp) ? 1 : 0));
+						$(".league-select-container > .ranking-header.right").html("Stamina");
+						break;
 				}
 
 				// Pass this along to the custom ranking interface to fill in movesets
@@ -284,6 +308,24 @@ var InterfaceMaster = (function () {
 					// Is this the best way to add HTML content? I'm gonna go with no here. But does it work? Yes!
 
 					var $el = $("<div class=\"rank " + pokemon.types[0] + "\" type-1=\""+pokemon.types[0]+"\" type-2=\""+pokemon.types[1]+"\" data=\""+pokemon.speciesId+"\"><div class=\"expand-label\"></div><div class=\"name-container\"><span class=\"number\">#"+(i+1)+"</span><span class=\"name\">"+pokemon.speciesName+"</span><div class=\"moves\">"+moveNameStr+"</div></div><div class=\"rating-container\"><div class=\"rating\">"+r.score+"</span></div><div class=\"clear\"></div></div><div class=\"details\"></div>");
+
+					switch(sort){
+						case "statproduct":
+							$el.find(".rating").html(r.stats.product);
+							break;
+
+						case "attack":
+							$el.find(".rating").html(r.stats.atk);
+							break;
+
+						case "defense":
+							$el.find(".rating").html(r.stats.def);
+							break;
+
+						case "stamina":
+							$el.find(".rating").html(r.stats.hp);
+							break;
+					}
 
 					if(showMoveCounts){
 						$el.find(".count").removeClass("hide");
@@ -423,21 +465,23 @@ var InterfaceMaster = (function () {
 								break;
 
 							case "cat":
-								$(".ranking-categories a").removeClass("selected");
-								$(".ranking-categories a[data=\""+val+"\"]").addClass("selected");
-
-								// Set the corresponding scenario
-
-								var scenarioStr = val;
-
-								if(val == "overall"){
-									scenarioStr = "leads";
+								// Select by sort first if it exists
+								if($(".category-select option[sort=\""+val+"\"]").length > 0){
+									$(".category-select option[sort=\""+val+"\"]").first().prop("selected", "selected");
+								} else{
+									$(".category-select option[value=\""+val+"\"]").first().prop("selected", "selected");
 								}
 
-								for(var i = 0; i < scenarios.length; i++){
-									if(scenarios[i].slug == scenarioStr){
-										scenario = scenarios[i];
-									}
+								// Show relevant description
+
+								var category = $(".category-select option:selected").val();
+								var sort = $(".category-select option:selected").attr("sort");
+
+								$(".description").hide();
+								if(sort == "score"){
+									$(".description."+category).show();
+								} else{
+									$(".description."+sort).show();
 								}
 								break;
 
@@ -457,7 +501,7 @@ var InterfaceMaster = (function () {
 				// Load data via existing change function
 
 				var cp = battle.getCP();
-				var category = $(".ranking-categories a.selected").attr("data");
+				var category = $(".category-select option:selected").val();
 				var cup = battle.getCup().name;
 
 				$(".format-select option[value=\""+cp+"\"][cup=\""+cup+"\"]").prop("selected","selected");
@@ -474,6 +518,13 @@ var InterfaceMaster = (function () {
 
 				if(cup == "little"){
 					cp = 500;
+				}
+
+				// Use the sort method for the non-score based categories
+				var sort = $(".category-select option:selected").attr("sort");
+
+				if(sort != "score"){
+					category = sort;
 				}
 
 				var url = webRoot+"rankings/"+cup+"/"+cp+"/"+category+"/";
@@ -553,7 +604,7 @@ var InterfaceMaster = (function () {
 				var levelCap = parseInt($(".league-select option:selected").attr("level-cap"));
 
 				if(context != "custom"){
-					var category = $(".ranking-categories a.selected").attr("data");
+					var category = $(".category-select option:selected").val();
 					var cup = battle.getCup().name;
 
 					if(cp == 500){
@@ -581,7 +632,8 @@ var InterfaceMaster = (function () {
 			function selectFormat(e){
 				var cp = $(".format-select option:selected").val();
 				var cup = $(".format-select option:selected").attr("cup");
-				var category = $(".ranking-categories a.selected").attr("data");
+				var category = $(".category-select option:selected").val();
+				var sort = $(".category-select option:selected").attr("sort");
 
 				if(! category){
 					category = "overall";
@@ -601,19 +653,18 @@ var InterfaceMaster = (function () {
 
 			function selectCategory(e){
 
-				e.preventDefault();
-
-				$(".ranking-categories a").removeClass("selected");
-
-				$(e.target).addClass("selected");
-
 				var cp = $(".format-select option:selected").val();
-				var category = $(".ranking-categories a.selected").attr("data");
-				var scenarioStr = $(".ranking-categories a.selected").attr("scenario");
+				var category = $(".category-select option:selected").val();
+				var sort = $(".category-select option:selected").attr("sort");
+				var scenarioStr = $(".category-select option:selected").attr("scenario");
 				var cup = $(".format-select option:selected").attr("cup");
 
 				$(".description").hide();
-				$(".description."+category).show();
+				if(sort == "score"){
+					$(".description."+category).show();
+				} else{
+					$(".description."+sort).show();
+				}
 
 				// Set the corresponding scenario
 
@@ -640,7 +691,7 @@ var InterfaceMaster = (function () {
 				}
 
 				var cup = $(".format-select option:selected").attr("cup");
-				var category = $(".ranking-categories a.selected").attr("data");
+				var category = $(".category-select option:selected").val();
 				var $rank = $(this).closest(".rank");
 
 				$rank.toggleClass("selected");
@@ -808,8 +859,7 @@ var InterfaceMaster = (function () {
 
 					$moveDetails.addClass(fastMoves[n].type);
 					$moveDetails.find(".name").html(fastMoves[n].displayName);
-					// 以下UI中文翻譯
-					$moveDetails.find(".archetype .name").html(fastMoveArchetypeTranslate(archetype));
+					$moveDetails.find(".archetype .name").html(archetype);
 					$moveDetails.find(".archetype .icon").addClass(archetypeClass);
 					$moveDetails.find(".dpt .value").html(Math.round( ((fastMoves[n].power * fastMoves[n].stab * pokemon.shadowAtkMult) / (fastMoves[n].cooldown / 500)) * 100) / 100);
 					$moveDetails.find(".ept .value").html(Math.round( (fastMoves[n].energyGain / (fastMoves[n].cooldown / 500)) * 100) / 100);
@@ -899,8 +949,7 @@ var InterfaceMaster = (function () {
 
 					$moveDetails.addClass(chargedMoves[n].type);
 					$moveDetails.find(".name").html(chargedMoves[n].displayName);
-					// 以下這行UI中文翻譯
-					$moveDetails.find(".archetype .name").html(chargedMoveArchetypeTranslate(archetype));
+					$moveDetails.find(".archetype .name").html(archetype);
 					$moveDetails.find(".archetype .icon").addClass(archetypeClass);
 					$moveDetails.find(".damage .value").html(Math.round((chargedMoves[n].power * chargedMoves[n].stab * pokemon.shadowAtkMult) * 100) / 100);
 					$moveDetails.find(".energy .value").html(chargedMoves[n].energy);
@@ -1152,9 +1201,9 @@ var InterfaceMaster = (function () {
 
 				// Display buddy distance and second move cost
 				var moveCostStr = pokemon.thirdMoveCost.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","); // Ugh regex
-				//以下兩行頁面單位翻譯
-				$details.find(".buddy-distance").html(pokemon.buddyDistance + " 公里");
-				$details.find(".third-move-cost").html(moveCostStr + " 星塵");
+
+				$details.find(".buddy-distance").html(pokemon.buddyDistance + " km");
+				$details.find(".third-move-cost").html(moveCostStr + " Stardust");
 
 				// Display Pokemon's highest IV's
 

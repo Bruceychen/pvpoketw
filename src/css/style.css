@@ -159,6 +159,9 @@ header {
 .section p.description {
   margin: 1em 0;
 }
+.section p.small {
+  font-size: 14px;
+}
 .section h2 {
   font-size: 18px;
 }
@@ -984,7 +987,8 @@ select, input {
 .cup-select,
 .format-select,
 .slot-select,
-.mode-select {
+.mode-select,
+.category-select {
   font-size: 18px;
   width: auto;
   background: none;
@@ -2574,6 +2578,33 @@ a.download-csv {
 }
 .rank .details h2 {
   margin: 0 0 5px 0;
+}
+
+.ranking-filters .ranking-filter {
+  max-width: 50%;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.ranking-filters .ranking-filter:last-of-type {
+  padding-right: 0;
+}
+.ranking-filters .ranking-filter h4 {
+  margin: 0 0 5px 0;
+  font-size: 12px;
+}
+.ranking-filters .ranking-filter select {
+  max-width: 100%;
+}
+.ranking-filters .ranking-filter select optgroup {
+  font-weight: normal;
+}
+.ranking-filters .ranking-filter .sort-button {
+  background: none !important;
+  font-size: 14px;
+  text-align: left;
+  margin: 0;
+  padding: 5px 8px;
+  min-width: 100px;
 }
 
 /* Detail tabs */
@@ -4206,9 +4237,11 @@ a.pokebattler {
 
   .league-select,
 .format-select,
-.cup-select {
+.cup-select,
+.category-select {
     max-width: 48%;
     margin-bottom: 5px;
+    font-size: 16px;
   }
 
   .ranking-categories a {
@@ -4715,6 +4748,11 @@ a.pokebattler {
   margin-bottom: 0;
 }
 
+@media only screen and (max-width: 480px) {
+  #dev-panel {
+    display: none;
+  }
+}
 /* Ad styling and display */
 #nitro-header-mobile,
 #nitro-body-mobile,

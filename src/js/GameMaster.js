@@ -826,7 +826,7 @@ var GameMaster = (function () {
 				minStats = 0;
 			}
 
-			var bannedList = ["mewtwo","mewtwo_armored","giratina_altered","groudon","kyogre","palkia","dialga","heatran","giratina_origin","darkrai","cobalion","terrakion","virizion","thundurus_incarnate","regigigas","tornadus_incarnate","tornadus_therian","tornadus_therian_xl","landorus_incarnate", "landorus_therian", "reshiram", "zekrom", "kyurem", "genesect_burn", "xerneas", "thundurus_therian", "yveltal", "meloetta_aria", "zacian", "zamazenta", "zacian_hero", "zamazenta_hero", "genesect_douse", "zarude", "hoopa_unbound", "genesect_shock", "tapu_koko", "tapu_lele", "tapu_bulu", "nihilego", "shaymin_sky", "genesect_chill", "braviary_hisuian", "solgaleo", "lunala", "keldeo_ordinary"];
+			var bannedList = ["mewtwo","mewtwo_armored","giratina_altered","groudon","kyogre","palkia","dialga","heatran","giratina_origin","darkrai","cobalion","terrakion","virizion","thundurus_incarnate","regigigas","tornadus_incarnate","tornadus_therian","tornadus_therian_xl","landorus_incarnate", "landorus_therian", "reshiram", "zekrom", "kyurem", "genesect_burn", "xerneas", "thundurus_therian", "yveltal", "meloetta_aria", "zacian", "zamazenta", "zacian_hero", "zamazenta_hero", "genesect_douse", "zarude", "hoopa_unbound", "genesect_shock", "tapu_koko", "tapu_lele", "tapu_bulu", "nihilego", "shaymin_sky", "genesect_chill", "braviary_hisuian", "solgaleo", "lunala", "keldeo_ordinary", "avalugg_hisuian"];
 
 			// Aggregate filters
 
@@ -1020,6 +1020,8 @@ var GameMaster = (function () {
 			var tags = object.data.pokemonTags;
 			var regions = object.data.pokemonRegions;
 
+			var metaKey = $(".format-select option:selected").first().attr("meta-group");
+
 			if(! battle){
 				battle = new Battle();
 			}
@@ -1190,6 +1192,25 @@ var GameMaster = (function () {
 									valid = true;
 								}
 							}
+
+							// Meta group search
+							if(param == "meta"){
+								if(object.groups[metaKey] !== undefined){
+
+									var group = object.groups[metaKey];
+
+									valid = false;
+
+									for(k = 0; k < group.length; k++){
+										if(pokemon.speciesId.replace("_shadow", "") == group[k].speciesId.replace("_shadow", "")){
+											valid = true;
+										}
+									}
+								} else{
+									valid = true;
+								}
+							}
+
 
 							// Trait search
 

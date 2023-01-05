@@ -34495,7 +34495,7 @@
         "archetype": "General"
     }, {
         "moveId": "FUSION_FLARE",
-        "name": "Fusion Flare",
+        "name": "交錯火焰",
         "type": "fire",
         "power": 90,
         "energy": 45,

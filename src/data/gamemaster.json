@@ -70,22 +70,6 @@
         "include": [],
         "exclude": []
     }, {
-        "name": "elementremix",
-        "title": "元素盃Remix",
-        "include": [{
-            "filterType": "evolution",
-            "values": [1]
-        }, {
-            "filterType": "type",
-            "values": ["grass", "water", "fire"]
-        }],
-        "exclude": [{
-            "filterType": "id",
-            "values": ["chinchou", "ducklett", "cottonee", "salandit"]
-        }],
-        "partySize": 3,
-        "presetOnly": true
-    }, {
         "name": "ember",
         "title": "Silph Factions (Ember)",
         "include": [{
@@ -195,17 +179,6 @@
         "exclude": [],
         "partySize": 3
     }, {
-        "name": "holiday",
-        "title": "假日盃",
-        "include": [{
-            "filterType": "type",
-            "values": ["grass", "normal", "ice", "ghost", "flying", "electric"]
-        }],
-        "exclude": [{
-            "filterType": "tag",
-            "values": ["mega"]
-        }]
-    }, {
         "name": "mega",
         "title": "All Pokemon",
         "include": [],
@@ -280,6 +253,17 @@
             "name": "Pokedex Number",
             "values": [722, 898]
         }]
+    }, {
+        "name": "weather",
+        "title": "天氣盃",
+        "include": [{
+            "filterType": "type",
+            "values": ["fire", "water", "ice", "rock"]
+        }],
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["mega"]
+        }]
     }],
     "formats": [{
         "title": "大師經典賽 (XL 禁止)",
@@ -307,14 +291,6 @@
         "showFormat": false,
         "showMeta": true
     }, {
-        "title": "高級紀念經典賽",
-        "cup": "premierclassic",
-        "cp": 2500,
-        "meta": "ultrapremierclassic",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
         "title": "大師紀念經典賽",
         "cup": "premierclassic",
         "cp": 10000,
@@ -323,18 +299,10 @@
         "showFormat": true,
         "showMeta": true
     }, {
-        "title": "假日盃(超)",
-        "cup": "holiday",
+        "title": "天氣盃(超)",
+        "cup": "weather",
         "cp": 1500,
-        "meta": "holiday",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
-        "title": "假日盃(高)",
-        "cup": "holiday",
-        "cp": 2500,
-        "meta": "holidayultra",
+        "meta": "weathergreat",
         "showCup": true,
         "showFormat": true,
         "showMeta": true
@@ -16414,7 +16382,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false
+        "released": true
     }, {
         "dex": 353,
         "speciesName": "怨影娃娃",

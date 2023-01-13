@@ -125,6 +125,7 @@ function fastmoveAbbreviationArrTranslate(fastmove){
         'BBi' :'蟲咬',
         'IF' :'冰凍牙',
         'FA' :'出奇一擊',
+        'DK' :'二連踢',
         'default':''
     };
     // return (allFastmoves[fastmove] || allFastmoves['default']);

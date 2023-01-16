@@ -48,15 +48,15 @@
 
 	<div class="article-item flex">
 		<div class="col-3">
-			<a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-01-chespin/">
-				<img src="<?php echo $WEB_HOST_ORIGN; ?>articles/article-assets/community-day/23-01-chespin/thumb.jpg">
+			<a href="<?php echo $WEB_ROOT; ?>articles/infographics/23-01-season-of-mythical-wishes-starter-packs/">
+				<img src="<?php echo $WEB_HOST_ORIGN; ?>articles/article-assets/infographics/23-01-season-of-mythical-wishes-starter-packs/thumb.jpg">
 			</a>
 		</div>
 		<div class="col-9">
-			<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-01-chespin/">Chespin Community Day Guide for PvP</a></h4>
-			<div class="date">December 21, 2022</div>
-			<p>Chesnaught is finally getting Frenzy Plant! Can it find a way to crack into the PvP meta? Check out its meta relevance and PvP IV's to look for.</p>
-			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Community Day"># Community Day</a><a href="/pvpoke/src/articles?tag=Infographic"># Infographic</a></div>
+			<h4><a href="<?php echo $WEB_ROOT; ?>articles/infographics/23-01-season-of-mythical-wishes-starter-packs/">PvP Starter Packs for Season of Mythical Wishes</a></h4>
+			<div class="date">January 14, 2023</div>
+			<p>Check out the premiere and budget picks to get started in Great League, Ultra League, and Master League for GO Battle League in the Season of Mythical Wishes!</p>
+			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a><a href="<?php echo $WEB_ROOT; ?>articles?tag=Starter Pack"># Starter Pack</a></div>
 		</div>
 	</div>
 
@@ -88,8 +88,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Thu Jan 14 00:45:28 2022 +0800</li>
-                <li>原版最後版本時間：Thu Jan 12 10:37:29 2023 -0600</li>
+                <li>中文版最後更新時間：Mon Jan 16 12:45:28 2022 +0800</li>
+                <li>原版最後版本時間：Sat Jan 14 12:23:39 2023 -0600</li>
             </ul>
 </div>
 

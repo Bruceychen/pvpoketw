@@ -201,6 +201,31 @@
         "include": [],
         "exclude": []
     }, {
+        "name": "naiad",
+        "title": "Silph Naiad Cup",
+        "include": [{
+            "filterType": "type",
+            "name": "Type",
+            "values": ["bug", "dragon", "psychic", "water"]
+        }, {
+            "filterType": "id",
+            "name": "Species",
+            "values": ["greedent", "miltank", "snorlax"]
+        }],
+        "exclude": [{
+            "filterType": "type",
+            "name": "Type",
+            "values": ["dark", "fairy", "rock"]
+        }, {
+            "filterType": "tag",
+            "name": "Tag",
+            "values": ["mega"]
+        }, {
+            "filterType": "id",
+            "name": "Species",
+            "values": ["araquanid", "articuno_galarian", "cresselia", "forretress", "lanturn", "medicham", "toxapex"]
+        }]
+    }, {
         "name": "ou",
         "title": "Overused Cup",
         "include": [],
@@ -370,6 +395,14 @@
         "cup": "vanguard",
         "cp": 1500,
         "meta": "vanguard",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
+    }, {
+        "title": "Silph Naiad Cup",
+        "cup": "naiad",
+        "cp": 1500,
+        "meta": "naiad",
         "showCup": true,
         "showFormat": true,
         "showMeta": true
@@ -17685,6 +17718,28 @@
         "thirdMoveCost": 100000,
         "released": true
     }, {
+        "dex": 382,
+        "speciesName": "蓋歐卡 原始",
+        "speciesId": "kyogre_primal",
+        "baseStats": {
+            "atk": 331,
+            "def": 251,
+            "hp": 205
+        },
+        "types": ["water", "none"],
+        "fastMoves": ["WATERFALL"],
+        "chargedMoves": ["BLIZZARD", "HYDRO_PUMP", "THUNDER", "SURF"],
+        "tags": ["legendary", "mega"],
+        "defaultIVs": {
+            "cp500": [3.5, 15, 11, 15],
+            "cp1500": [10.5, 6, 8, 13],
+            "cp2500": [17, 11, 15, 13]
+        },
+        "searchPriority": 10,
+        "buddyDistance": 20,
+        "thirdMoveCost": 100000,
+        "released": false
+    }, {
         "dex": 383,
         "speciesName": "固拉多",
         "speciesId": "groudon",
@@ -17707,6 +17762,29 @@
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true
+    }, {
+        "dex": 383,
+        "speciesName": "固拉多 原始",
+        "speciesId": "groudon_primal",
+        "baseStats": {
+            "atk": 331,
+            "def": 251,
+            "hp": 205
+        },
+        "types": ["fire", "ground"],
+        "fastMoves": ["DRAGON_TAIL", "MUD_SHOT"],
+        "chargedMoves": ["EARTHQUAKE", "FIRE_BLAST", "SOLAR_BEAM", "FIRE_PUNCH"],
+        "tags": ["legendary", "mega"],
+        "defaultIVs": {
+            "cp500": [3.5, 15, 11, 15],
+            "cp1500": [10.5, 6, 8, 13],
+            "cp2500": [17, 11, 15, 13]
+        },
+        "eliteMoves": ["FIRE_PUNCH"],
+        "searchPriority": 20,
+        "buddyDistance": 20,
+        "thirdMoveCost": 100000,
+        "released": false
     }, {
         "dex": 384,
         "speciesName": "烈空坐",

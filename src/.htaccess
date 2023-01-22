@@ -9,6 +9,8 @@ RewriteCond %{SCRIPT_FILENAME} !-f
 # RewriteCond %{HTTP_HOST} ^www\.pvpoke\.com [NC]
 # RewriteRule ^(.*)$ https://pvpoke.com/$1 [L,R=301]
 
+RewriteRule ^season-13/(.*)$ /$1 [R,L]
+
 Options -Indexes
 
 RewriteRule ^unite(.*)$ https://unite.pvpoke.com [R=301,L]
@@ -46,6 +48,18 @@ RewriteRule train/analysis.?$ train/analysis.php [L,QSA]
 RewriteRule ^train/analysis/([a-zA-Z0-9-]+)/(\d+).*$ train/analysis.php?cup=$1&cp=$2 [L,QSA]
 
 RewriteRule train/editor.?$ train/editor.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule tera/([\da-zA-Z_-]+)/([\da-zA-Z_-]+)/([\da-zA-Z_-]+).*$ tera/index.php?p=$1&t=$2&a=$3 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule tera/([\da-zA-Z_-]+)/([\da-zA-Z_-]+).*$ tera/index.php?p=$1&t=$2 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule tera/([\da-zA-Z_-]+).*$ tera/index.php?p=$1 [L,QSA]
 
 RewriteRule moves/([a-zA-Z_]+).*$ moves.php?mode=$1 [L,QSA]
 RewriteRule moves.?$ moves.php [L,QSA]

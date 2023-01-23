@@ -357,6 +357,14 @@
         "showFormat": true,
         "showMeta": true
     }, {
+        "title": "高級紀念經典賽",
+        "cup": "premier",
+        "cp": 2500,
+        "meta": "premierultra",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
+    }, {
         "title": "Silph Factions (Great League)",
         "cup": "factionsgreat",
         "cp": 1500,

@@ -5,7 +5,7 @@ if(isset($_GET['p']) && isset($_GET['t'])){
 
 	$name = ucwords(str_replace('_',' ', explode('-', htmlspecialchars($_GET['p']))[0]));
 
-	$META_TITLE = $name . ' Tera Raid Counters';
+	$META_TITLE = $name . ' 太晶戰計算器';
 
 	$META_DESCRIPTION = 'Check ' . $name . ' Tera Raid counters and attackers with the best calculated type matchups.';
 
@@ -16,16 +16,16 @@ if(isset($_GET['p']) && isset($_GET['t'])){
 require_once 'header.php'; ?>
 
 <div class="section home white">
-	<h1>Tera Raid Counter Calculator</h1>
+	<h1>太晶戰反制計算器</h1>
 
-	<p>This tool is a raid counter calculator that measures potential attackers based on optimal offensive and defensive typing against the raid boss.</p>
+	<p>此工具主要針對NS本傳的太晶團體戰，找出最佳攻擊招式與屬性的搭配，以有效克制頭目寶可夢！</p>
 
 	<div class="flex section-header margin-top">
-		<h3>Tera Raid Boss</h3>
+		<h3>太晶戰頭目</h3>
 		<div class="hr"></div>
 	</div>
 
-	<p>Enter the Tera Raid boss details below. You can specify its offensive attack types to help narrow results.</p>
+	<p>以下輸入太晶戰頭目的詳細資料。你也可以追加該頭目使用的招式以利收斂計算結果。</p>
 
 
 	<div class="bordered-section boss-section">
@@ -35,33 +35,33 @@ require_once 'header.php'; ?>
 
 		<div class="flex">
 			<div class="poke-search-container">
-				<input type="text" id="poke-search" placeholder="Search for a Pokemon" />
+				<input type="text" id="poke-search" placeholder="搜尋寶可夢" />
 				<select id="poke-select">
-					<option disabled selected value="">Select a Pokemon</option>
+					<option disabled selected value="">選擇一個寶可夢</option>
 				</select>
 
-				<h4 class="attack-title">Attack Types</h4>
+				<h4 class="attack-title">攻擊屬性</h4>
 				<div class="boss-attack-types">
 					<select id="attack-type-select">
-						<option disabled selected value="">Add a type</option>
-						<option value="bug">Bug</option>
-						<option value="dark">Dark</option>
-						<option value="dragon">Dragon</option>
-						<option value="electric">Electric</option>
-						<option value="fairy">Fairy</option>
-						<option value="fighting">Fighting</option>
-						<option value="fire">Fire</option>
-						<option value="flying">Flying</option>
-						<option value="ghost">Ghost</option>
-						<option value="grass">Grass</option>
-						<option value="ground">Ground</option>
-						<option value="ice">Ice</option>
-						<option value="normal">Normal</option>
-						<option value="poison">Poison</option>
-						<option value="psychic">Psychic</option>
-						<option value="rock">Rock</option>
-						<option value="steel">Steel</option>
-						<option value="water">Water</option>
+						<option disabled selected value="">加入屬性</option>
+						<option value="bug">蟲</option>
+						<option value="dark">惡</option>
+						<option value="dragon">龍</option>
+						<option value="electric">電</option>
+						<option value="fairy">妖精</option>
+						<option value="fighting">格鬥</option>
+						<option value="fire">火</option>
+						<option value="flying">飛行</option>
+						<option value="ghost">幽靈</option>
+						<option value="grass">草</option>
+						<option value="ground">地面</option>
+						<option value="ice">冰</option>
+						<option value="normal">一般</option>
+						<option value="poison">毒</option>
+						<option value="psychic">超能力</option>
+						<option value="rock">岩石</option>
+						<option value="steel">鋼</option>
+						<option value="water">水</option>
 					</select>
 				</div>
 
@@ -79,30 +79,30 @@ require_once 'header.php'; ?>
 				<div class="flex">
 					<div class="tera-icon"></div>
 					<div>
-						<h4>Tera Type</h4>
+						<h4>太晶化屬性</h4>
 
 						<div class="tera-type"></div>
 
 						<select id="tera-select">
-							<option value="" selected disabled>Select a Tera Type</option>
-							<option value="bug">Bug</option>
-							<option value="dark">Dark</option>
-							<option value="dragon">Dragon</option>
-							<option value="electric">Electric</option>
-							<option value="fairy">Fairy</option>
-							<option value="fighting">Fighting</option>
-							<option value="fire">Fire</option>
-							<option value="flying">Flying</option>
-							<option value="ghost">Ghost</option>
-							<option value="grass">Grass</option>
-							<option value="ground">Ground</option>
-							<option value="ice">Ice</option>
-							<option value="normal">Normal</option>
-							<option value="poison">Poison</option>
-							<option value="psychic">Psychic</option>
-							<option value="rock">Rock</option>
-							<option value="steel">Steel</option>
-							<option value="water">Water</option>
+							<option value="" selected disabled>選擇太晶化屬性</option>
+                            <option value="bug">蟲</option>
+                            <option value="dark">惡</option>
+                            <option value="dragon">龍</option>
+                            <option value="electric">電</option>
+                            <option value="fairy">妖精</option>
+                            <option value="fighting">格鬥</option>
+                            <option value="fire">火</option>
+                            <option value="flying">飛行</option>
+                            <option value="ghost">幽靈</option>
+                            <option value="grass">草</option>
+                            <option value="ground">地面</option>
+                            <option value="ice">冰</option>
+                            <option value="normal">一般</option>
+                            <option value="poison">毒</option>
+                            <option value="psychic">超能力</option>
+                            <option value="rock">岩石</option>
+                            <option value="steel">鋼</option>
+                            <option value="water">水</option>
 						</select>
 					</div>
 				</div>
@@ -111,21 +111,21 @@ require_once 'header.php'; ?>
 	</div>
 
 
-	<button id="run">Check Counters</button>
+	<button id="run">計算結果</button>
 
 	<div class="results-container">
 		<div class="flex section-header margin-top">
-			<h3>Counters</h3>
+			<h3>反制寶可夢</h3>
 			<div class="hr"></div>
 		</div>
 
-		<p>The Pokemon below are the top scored based on their offensive and defensive typing against the raid boss.</p>
+		<p>以下為此太晶戰頭目最佳之反制寶可夢，分數來自寶可夢的攻擊招式及其自身屬性的加總運算。</p>
 
 		<div class="bordered-section results-section">
 			<div class="results-controls flex">
 				<div>
-					<input type="text" id="results-search" placeholder="Search counters" />
-					<div class="search-instructions">Search by Pokemon, typing, or Tera type ("@water")</div>
+					<input type="text" id="results-search" placeholder="搜尋反制寶可夢" />
+					<div class="search-instructions">用寶可夢名稱、屬性或太晶化屬性進行搜索。("@water")</div>
 				</div>
 				<a class="results-options" href="#"></a>
 			</div>
@@ -134,10 +134,10 @@ require_once 'header.php'; ?>
 				<table id="results" cellspacing="0">
 					<thead>
 						<tr>
-							<th>Pokemon</th>
-							<th>Typing</th>
-							<th>Tera Type</th>
-							<th>Score</th>
+							<th>寶可夢</th>
+							<th>屬性</th>
+							<th>太晶化屬性</th>
+							<th>分數</th>
 						</tr>
 					</thead>
 					<tbody></tbody>
@@ -146,10 +146,10 @@ require_once 'header.php'; ?>
 		</div>
 
 		<div class="share-link-container">
-			<p>Share these Tera Raid counters:</p>
+			<p>分享此太晶戰的分析計算結果:</p>
 			<div class="share-link">
 				<input type="text" value="" readonly>
-				<div class="copy">Copy</div>
+				<div class="copy">複製</div>
 			</div>
 		</div>
 
@@ -157,39 +157,40 @@ require_once 'header.php'; ?>
 			<div class="typings flex full-row border-bottom"></div>
 			<div class="tera-type flex full-row border-bottom">
 				<div class="type-container"></div>
-				<div class="label">Tera Type</div>
+				<div class="label">太晶化屬性</div>
 			</div>
 			<div class="overall full-row border-bottom">
 				<div class="score"></div>
-				<div class="label">Counter Score</div>
+				<div class="label">反制分數</div>
 			</div>
 			<div class="offense">
 				<div class="score"></div>
-				<div class="label">Offense</div>
+				<div class="label">攻擊</div>
 			</div>
 			<span class="multiply">×</span>
 			<div class="defense">
 				<div class="score"></div>
-				<div class="label">Defense</div>
+				<div class="label">防禦</div>
 			</div>
 
-			<p><b>Counter Score</b> is the product of a Pokemon's offensive and defensive scores.</p>
-			<p><b>Offensive Score</b> is a Pokemon's offensive damage multipliers based on its most effective attacking type and the raid boss's Tera type. It factors in STAB and base stats.</p>
-			<p><b>Defensive Score</b> is the inverse of a Pokemon's defensive damage multipliers based on the raid boss's attack types, the Pokemon's base typing, and its Tera type. It factors in STAB and base stats.</p>
+			<p><b>反制分數</b>:結合寶可夢攻擊與防禦分數的綜合結果。</p>
+			<p><b>攻擊分數</b>:結合寶可夢攻擊與防禦的分數加成結果。</p>
+			<p><b>防禦分數</b>:is the inverse of a Pokemon's defensive damage multipliers based on the raid boss's attack types,
+                the Pokemon's base typing, and its Tera type. It factors in STAB and base stats.</p>
 		</div>
 
 		<div class="results-options template">
 
-			<h4>Sort scores by</h4>
+			<h4>排序分數依照</h4>
 			<select class="score-sort-select">
-				<option value="overall">Overall</option>
-				<option value="offense">Offense</option>
-				<option value="defense">Defense</option>
+				<option value="overall">整體</option>
+				<option value="offense">攻擊</option>
+				<option value="defense">防禦</option>
 			</select>
 
-			<div class="check show-best"><span></span>Show Best for each Species</div>
+			<div class="check show-best"><span></span>顯示最佳寶可夢個體</div>
 
-			<button class="save">Save Changes</button>
+			<button class="save">儲存變更</button>
 		</div>
 
 	</div>

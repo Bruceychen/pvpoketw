@@ -424,6 +424,7 @@ var InterfaceMaster = (function () {
 				}
 
 				for(var i = 0; i < selectedTypes.length; i++){
+					// add translate method
 					let $type = createTypeLabel(selectedTypes[i], false, true);
 
 					$type.insertBefore($(".boss-attack-types select"));
@@ -438,7 +439,8 @@ var InterfaceMaster = (function () {
 
 				$type.addClass(type);
 				$type.attr("tera-type", type);
-				$type.find(".type-name").html(typeName);
+				// TW add translate method
+				$type.find(".type-name").html(typeTranslate(typeName.toLowerCase()));
 
 				if(isTera){
 					$type.addClass("tera");
@@ -449,6 +451,31 @@ var InterfaceMaster = (function () {
 				}
 
 				return $type;
+			}
+			// TW add translate method
+			function typeTranslate(type){
+				var allTypes = {
+					'bug':'蟲',
+					'dark':'惡',
+					'dragon':'龍',
+					'electric':'電',
+					'fairy':'妖精',
+					'fighting':'格鬥',
+					'fire':'火',
+					'flying':'飛行',
+					'ghost':'幽靈',
+					'grass':'草',
+					'ground':'地面',
+					'ice':'冰',
+					'normal':'一般',
+					'poison':'毒',
+					'psychic':'超能力',
+					'rock':'岩石',
+					'steel':'鋼',
+					'water':'水',
+					'default':''
+				};
+				return (allTypes[type] || allTypes['default']);
 			}
 
 			// Filter the results by a provided search str

@@ -1,6 +1,6 @@
 {
 	"pokemon": [{
-	    "name": "Sprigatito",
+	    "name": "新葉喵",
 	    "types": ["grass"],
 	    "id": "sprigatito",
 	    "stats": {
@@ -12,7 +12,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Floragato",
+	    "name": "蒂蕾喵",
 	    "types": ["grass"],
 	    "id": "floragato",
 	    "stats": {
@@ -24,7 +24,7 @@
 	        "spe": 83
 	    }
 	}, {
-	    "name": "Meowscarada",
+	    "name": "魔幻假面喵",
 	    "types": ["grass", "dark"],
 	    "id": "meowscarada",
 	    "stats": {
@@ -36,7 +36,7 @@
 	        "spe": 123
 	    }
 	}, {
-	    "name": "Fuecoco",
+	    "name": "呆火鱷",
 	    "types": ["fire"],
 	    "id": "fuecoco",
 	    "stats": {
@@ -48,7 +48,7 @@
 	        "spe": 36
 	    }
 	}, {
-	    "name": "Crocalor",
+	    "name": "炙燙鱷",
 	    "types": ["fire"],
 	    "id": "crocalor",
 	    "stats": {
@@ -60,7 +60,7 @@
 	        "spe": 49
 	    }
 	}, {
-	    "name": "Skeledirge",
+	    "name": "骨紋巨聲鱷",
 	    "types": ["fire", "ghost"],
 	    "id": "skeledirge",
 	    "stats": {
@@ -72,7 +72,7 @@
 	        "spe": 66
 	    }
 	}, {
-	    "name": "Quaxly",
+	    "name": "潤水鴨",
 	    "types": ["water"],
 	    "id": "quaxly",
 	    "stats": {
@@ -84,7 +84,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Quaxwell",
+	    "name": "涌躍鴨",
 	    "types": ["water"],
 	    "id": "quaxwell",
 	    "stats": {
@@ -96,7 +96,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Quaquaval",
+	    "name": "狂歡浪舞鴨",
 	    "types": ["water", "fighting"],
 	    "id": "quaquaval",
 	    "stats": {
@@ -108,7 +108,7 @@
 	        "spe": 85
 	    }
 	}, {
-	    "name": "Lechonk",
+	    "name": "愛吃豚",
 	    "types": ["normal"],
 	    "id": "lechonk",
 	    "stats": {
@@ -120,7 +120,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Oinkologne (Male)",
+	    "name": "飄香豚(雄)",
 	    "types": ["normal"],
 	    "id": "oinkologne_male",
 	    "stats": {
@@ -132,7 +132,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Oinkologne (Female)",
+	    "name": "飄香豚(雌)",
 	    "types": ["normal"],
 	    "id": "oinkologne_female",
 	    "stats": {
@@ -144,7 +144,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Tarountula",
+	    "name": "團珠蛛",
 	    "types": ["bug"],
 	    "id": "tarountula",
 	    "stats": {
@@ -156,7 +156,7 @@
 	        "spe": 20
 	    }
 	}, {
-	    "name": "Spidops",
+	    "name": "操陷蛛",
 	    "types": ["bug"],
 	    "id": "spidops",
 	    "stats": {
@@ -168,7 +168,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Nymble",
+	    "name": "豆蟋蟀",
 	    "types": ["bug"],
 	    "id": "nymble",
 	    "stats": {
@@ -180,7 +180,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Lokix",
+	    "name": "烈腿蝗",
 	    "types": ["bug", "dark"],
 	    "id": "lokix",
 	    "stats": {
@@ -192,7 +192,7 @@
 	        "spe": 92
 	    }
 	}, {
-	    "name": "Hoppip",
+	    "name": "毽子草",
 	    "types": ["grass", "flying"],
 	    "id": "hoppip",
 	    "stats": {
@@ -204,7 +204,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Skiploom",
+	    "name": "毽子花",
 	    "types": ["grass", "flying"],
 	    "id": "skiploom",
 	    "stats": {
@@ -216,7 +216,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Jumpluff",
+	    "name": "毽子棉",
 	    "types": ["grass", "flying"],
 	    "id": "jumpluff",
 	    "stats": {
@@ -228,7 +228,7 @@
 	        "spe": 110
 	    }
 	}, {
-	    "name": "Fletchling",
+	    "name": "小箭雀",
 	    "types": ["normal", "flying"],
 	    "id": "fletchling",
 	    "stats": {
@@ -240,7 +240,7 @@
 	        "spe": 62
 	    }
 	}, {
-	    "name": "Fletchinder",
+	    "name": "火箭雀",
 	    "types": ["fire", "flying"],
 	    "id": "fletchinder",
 	    "stats": {
@@ -252,7 +252,7 @@
 	        "spe": 84
 	    }
 	}, {
-	    "name": "Talonflame",
+	    "name": "烈箭鷹",
 	    "types": ["fire", "flying"],
 	    "id": "talonflame",
 	    "stats": {
@@ -264,7 +264,7 @@
 	        "spe": 126
 	    }
 	}, {
-	    "name": "Pawmi",
+	    "name": "布撥",
 	    "types": ["electric", "fighting"],
 	    "id": "pawmi",
 	    "stats": {
@@ -276,7 +276,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Pawmo",
+	    "name": "布土撥",
 	    "types": ["electric", "fighting"],
 	    "id": "pawmo",
 	    "stats": {
@@ -288,7 +288,7 @@
 	        "spe": 85
 	    }
 	}, {
-	    "name": "Pawmot",
+	    "name": "巴布土撥",
 	    "types": ["electric", "fighting"],
 	    "id": "pawmot",
 	    "stats": {
@@ -300,7 +300,7 @@
 	        "spe": 105
 	    }
 	}, {
-	    "name": "Houndour",
+	    "name": "戴魯比",
 	    "types": ["dark", "fire"],
 	    "id": "houndour",
 	    "stats": {
@@ -312,7 +312,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Houndoom",
+	    "name": "黑魯加",
 	    "types": ["dark", "fire"],
 	    "id": "houndoom",
 	    "stats": {
@@ -324,7 +324,7 @@
 	        "spe": 95
 	    }
 	}, {
-	    "name": "Yungoos",
+	    "name": "貓鼬少",
 	    "types": ["normal"],
 	    "id": "yungoos",
 	    "stats": {
@@ -336,7 +336,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Gumshoos",
+	    "name": "貓鼬探長",
 	    "types": ["normal"],
 	    "id": "gumshoos",
 	    "stats": {
@@ -348,7 +348,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Skwovet",
+	    "name": "貪心栗鼠",
 	    "types": ["normal"],
 	    "id": "skwovet",
 	    "stats": {
@@ -360,7 +360,7 @@
 	        "spe": 25
 	    }
 	}, {
-	    "name": "Greedent",
+	    "name": "藏飽栗鼠",
 	    "types": ["normal"],
 	    "id": "greedent",
 	    "stats": {
@@ -372,7 +372,7 @@
 	        "spe": 20
 	    }
 	}, {
-	    "name": "Sunkern",
+	    "name": "向日種子",
 	    "types": ["grass"],
 	    "id": "sunkern",
 	    "stats": {
@@ -384,7 +384,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Sunflora",
+	    "name": "向日花怪",
 	    "types": ["grass"],
 	    "id": "sunflora",
 	    "stats": {
@@ -396,7 +396,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Kricketot",
+	    "name": "圓法師",
 	    "types": ["bug"],
 	    "id": "kricketot",
 	    "stats": {
@@ -408,7 +408,7 @@
 	        "spe": 25
 	    }
 	}, {
-	    "name": "Kricketune",
+	    "name": "音箱蟀",
 	    "types": ["bug"],
 	    "id": "kricketune",
 	    "stats": {
@@ -420,7 +420,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Scatterbug",
+	    "name": "粉蝶蟲",
 	    "types": ["bug"],
 	    "id": "scatterbug",
 	    "stats": {
@@ -432,7 +432,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Spewpa",
+	    "name": "粉蝶蛹",
 	    "types": ["bug"],
 	    "id": "spewpa",
 	    "stats": {
@@ -444,7 +444,7 @@
 	        "spe": 29
 	    }
 	}, {
-	    "name": "Vivillon",
+	    "name": "彩粉蝶",
 	    "types": ["bug", "flying"],
 	    "id": "vivillon",
 	    "stats": {
@@ -456,7 +456,7 @@
 	        "spe": 89
 	    }
 	}, {
-	    "name": "Combee",
+	    "name": "三蜜蜂",
 	    "types": ["bug", "flying"],
 	    "id": "combee",
 	    "stats": {
@@ -468,7 +468,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Vespiquen",
+	    "name": "蜂女王",
 	    "types": ["bug", "flying"],
 	    "id": "vespiquen",
 	    "stats": {
@@ -480,7 +480,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Rookidee",
+	    "name": "稚山雀",
 	    "types": ["flying"],
 	    "id": "rookidee",
 	    "stats": {
@@ -492,7 +492,7 @@
 	        "spe": 57
 	    }
 	}, {
-	    "name": "Corvisquire",
+	    "name": "藍鴉",
 	    "types": ["flying"],
 	    "id": "corvisquire",
 	    "stats": {
@@ -504,7 +504,7 @@
 	        "spe": 77
 	    }
 	}, {
-	    "name": "Corviknight",
+	    "name": "鋼鎧鴉",
 	    "types": ["flying", "steel"],
 	    "id": "corviknight",
 	    "stats": {
@@ -516,7 +516,7 @@
 	        "spe": 67
 	    }
 	}, {
-	    "name": "Happiny",
+	    "name": "小福蛋",
 	    "types": ["normal"],
 	    "id": "happiny",
 	    "stats": {
@@ -528,7 +528,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Chansey",
+	    "name": "吉利蛋",
 	    "types": ["normal"],
 	    "id": "chansey",
 	    "stats": {
@@ -540,7 +540,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Blissey",
+	    "name": "幸福蛋",
 	    "types": ["normal"],
 	    "id": "blissey",
 	    "stats": {
@@ -552,7 +552,7 @@
 	        "spe": 55
 	    }
 	}, {
-	    "name": "Azurill",
+	    "name": "露力麗",
 	    "types": ["normal", "fairy"],
 	    "id": "azurill",
 	    "stats": {
@@ -564,7 +564,7 @@
 	        "spe": 20
 	    }
 	}, {
-	    "name": "Marill",
+	    "name": "瑪力露",
 	    "types": ["water", "fairy"],
 	    "id": "marill",
 	    "stats": {
@@ -576,7 +576,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Azumarill",
+	    "name": "瑪力露麗",
 	    "types": ["water", "fairy"],
 	    "id": "azumarill",
 	    "stats": {
@@ -588,7 +588,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Surskit",
+	    "name": "溜溜糖球",
 	    "types": ["bug", "water"],
 	    "id": "surskit",
 	    "stats": {
@@ -600,7 +600,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Masquerain",
+	    "name": "雨翅蛾",
 	    "types": ["bug", "flying"],
 	    "id": "masquerain",
 	    "stats": {
@@ -612,7 +612,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Buizel",
+	    "name": "泳圈鼬",
 	    "types": ["water"],
 	    "id": "buizel",
 	    "stats": {
@@ -624,7 +624,7 @@
 	        "spe": 85
 	    }
 	}, {
-	    "name": "Floatzel",
+	    "name": "浮潛鼬",
 	    "types": ["water"],
 	    "id": "floatzel",
 	    "stats": {
@@ -636,7 +636,7 @@
 	        "spe": 115
 	    }
 	}, {
-	    "name": "Paldean Wooper",
+	    "name": "烏波(帕)",
 	    "types": ["poison", "ground"],
 	    "id": "wooper_paldean",
 	    "stats": {
@@ -648,7 +648,7 @@
 	        "spe": 15
 	    }
 	}, {
-	    "name": "Clodsire",
+	    "name": "土王",
 	    "types": ["poison", "ground"],
 	    "id": "clodsire",
 	    "stats": {
@@ -660,7 +660,7 @@
 	        "spe": 20
 	    }
 	}, {
-	    "name": "Psyduck",
+	    "name": "可達鴨",
 	    "types": ["water"],
 	    "id": "psyduck",
 	    "stats": {
@@ -672,7 +672,7 @@
 	        "spe": 55
 	    }
 	}, {
-	    "name": "Golduck",
+	    "name": "哥達鴨",
 	    "types": ["water"],
 	    "id": "golduck",
 	    "stats": {
@@ -684,7 +684,7 @@
 	        "spe": 85
 	    }
 	}, {
-	    "name": "Chewtle",
+	    "name": "咬咬龜",
 	    "types": ["water"],
 	    "id": "chewtle",
 	    "stats": {
@@ -696,7 +696,7 @@
 	        "spe": 44
 	    }
 	}, {
-	    "name": "Drednaw",
+	    "name": "暴噬龜",
 	    "types": ["water", "rock"],
 	    "id": "drednaw",
 	    "stats": {
@@ -708,7 +708,7 @@
 	        "spe": 74
 	    }
 	}, {
-	    "name": "Igglybuff",
+	    "name": "寶寶丁",
 	    "types": ["normal", "fairy"],
 	    "id": "igglybuff",
 	    "stats": {
@@ -720,7 +720,7 @@
 	        "spe": 15
 	    }
 	}, {
-	    "name": "Jigglypuff",
+	    "name": "胖丁",
 	    "types": ["normal", "fairy"],
 	    "id": "jigglypuff",
 	    "stats": {
@@ -732,7 +732,7 @@
 	        "spe": 20
 	    }
 	}, {
-	    "name": "Wigglytuff",
+	    "name": "胖可丁",
 	    "types": ["normal", "fairy"],
 	    "id": "wigglytuff",
 	    "stats": {
@@ -744,7 +744,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Ralts",
+	    "name": "拉魯拉絲",
 	    "types": ["psychic", "fairy"],
 	    "id": "ralts",
 	    "stats": {
@@ -756,7 +756,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Kirlia",
+	    "name": "奇魯莉安",
 	    "types": ["psychic", "fairy"],
 	    "id": "kirlia",
 	    "stats": {
@@ -768,7 +768,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Gardevoir",
+	    "name": "沙奈朵",
 	    "types": ["psychic", "fairy"],
 	    "id": "gardevoir",
 	    "stats": {
@@ -780,7 +780,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Gallade",
+	    "name": "艾路雷朵",
 	    "types": ["psychic", "fighting"],
 	    "id": "gallade",
 	    "stats": {
@@ -792,7 +792,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Drowzee",
+	    "name": "催眠貘",
 	    "types": ["psychic"],
 	    "id": "drowzee",
 	    "stats": {
@@ -804,7 +804,7 @@
 	        "spe": 42
 	    }
 	}, {
-	    "name": "Hypno",
+	    "name": "引夢貘人",
 	    "types": ["psychic"],
 	    "id": "hypno",
 	    "stats": {
@@ -816,7 +816,7 @@
 	        "spe": 67
 	    }
 	}, {
-	    "name": "Gastly",
+	    "name": "鬼斯",
 	    "types": ["ghost", "poison"],
 	    "id": "gastly",
 	    "stats": {
@@ -828,7 +828,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Haunter",
+	    "name": "鬼斯通",
 	    "types": ["ghost", "poison"],
 	    "id": "haunter",
 	    "stats": {
@@ -840,7 +840,7 @@
 	        "spe": 95
 	    }
 	}, {
-	    "name": "Gengar",
+	    "name": "耿鬼",
 	    "types": ["ghost", "poison"],
 	    "id": "gengar",
 	    "stats": {
@@ -852,7 +852,7 @@
 	        "spe": 110
 	    }
 	}, {
-	    "name": "Tandemaus",
+	    "name": "一對鼠",
 	    "types": ["normal"],
 	    "id": "tandemaus",
 	    "stats": {
@@ -864,7 +864,7 @@
 	        "spe": 75
 	    }
 	}, {
-	    "name": "Maushold",
+	    "name": "一家鼠",
 	    "types": ["normal"],
 	    "id": "maushold",
 	    "stats": {
@@ -876,7 +876,7 @@
 	        "spe": 111
 	    }
 	}, {
-	    "name": "Pichu",
+	    "name": "皮丘",
 	    "types": ["electric"],
 	    "id": "pichu",
 	    "stats": {
@@ -888,7 +888,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Pikachu",
+	    "name": "皮卡丘",
 	    "types": ["electric"],
 	    "id": "pikachu",
 	    "stats": {
@@ -900,7 +900,7 @@
 	        "spe": 90
 	    }
 	}, {
-	    "name": "Raichu",
+	    "name": "雷丘",
 	    "types": ["electric"],
 	    "id": "raichu",
 	    "stats": {
@@ -912,7 +912,7 @@
 	        "spe": 110
 	    }
 	}, {
-	    "name": "Fidough",
+	    "name": "狗仔包",
 	    "types": ["fairy"],
 	    "id": "fidough",
 	    "stats": {
@@ -924,7 +924,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Dachsbun",
+	    "name": "麻花犬",
 	    "types": ["fairy"],
 	    "id": "dachsbun",
 	    "stats": {
@@ -936,7 +936,7 @@
 	        "spe": 95
 	    }
 	}, {
-	    "name": "Slakoth",
+	    "name": "懶人獺",
 	    "types": ["normal"],
 	    "id": "slakoth",
 	    "stats": {
@@ -948,7 +948,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Vigoroth",
+	    "name": "過動猿",
 	    "types": ["normal"],
 	    "id": "vigoroth",
 	    "stats": {
@@ -960,7 +960,7 @@
 	        "spe": 90
 	    }
 	}, {
-	    "name": "Slaking",
+	    "name": "請假王",
 	    "types": ["normal"],
 	    "id": "slaking",
 	    "stats": {
@@ -972,7 +972,7 @@
 	        "spe": 100
 	    }
 	}, {
-	    "name": "Bounsweet",
+	    "name": "甜竹竹",
 	    "types": ["grass"],
 	    "id": "bounsweet",
 	    "stats": {
@@ -984,7 +984,7 @@
 	        "spe": 32
 	    }
 	}, {
-	    "name": "Steenee",
+	    "name": "甜舞妮",
 	    "types": ["grass"],
 	    "id": "steenee",
 	    "stats": {
@@ -996,7 +996,7 @@
 	        "spe": 62
 	    }
 	}, {
-	    "name": "Tsareena",
+	    "name": "甜冷美后",
 	    "types": ["grass"],
 	    "id": "tsareena",
 	    "stats": {
@@ -1008,7 +1008,7 @@
 	        "spe": 72
 	    }
 	}, {
-	    "name": "Smoliv",
+	    "name": "迷你芙",
 	    "types": ["grass", "normal"],
 	    "id": "smoliv",
 	    "stats": {
@@ -1020,7 +1020,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Dolliv",
+	    "name": "奧利紐",
 	    "types": ["grass", "normal"],
 	    "id": "dolliv",
 	    "stats": {
@@ -1032,7 +1032,7 @@
 	        "spe": 33
 	    }
 	}, {
-	    "name": "Arboliva",
+	    "name": "奧利瓦",
 	    "types": ["grass", "normal"],
 	    "id": "arboliva",
 	    "stats": {
@@ -1044,7 +1044,7 @@
 	        "spe": 39
 	    }
 	}, {
-	    "name": "Bonsly",
+	    "name": "盆才怪",
 	    "types": ["rock"],
 	    "id": "bonsly",
 	    "stats": {
@@ -1056,7 +1056,7 @@
 	        "spe": 10
 	    }
 	}, {
-	    "name": "Sudowoodo",
+	    "name": "樹才怪",
 	    "types": ["rock"],
 	    "id": "sudowoodo",
 	    "stats": {
@@ -1068,7 +1068,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Rockruff",
+	    "name": "岩狗狗",
 	    "types": ["rock"],
 	    "id": "rockruff",
 	    "stats": {
@@ -1080,7 +1080,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Lycanroc (Midnight)",
+	    "name": "鬃岩狼人(黑夜)",
 	    "types": ["rock"],
 	    "id": "lycanroc_midnight",
 	    "stats": {
@@ -1092,7 +1092,7 @@
 	        "spe": 82
 	    }
 	}, {
-	    "name": "Lycanroc (Midday)",
+	    "name": "鬃岩狼人(白晝)",
 	    "types": ["rock"],
 	    "id": "lycanroc_midday",
 	    "stats": {
@@ -1104,7 +1104,7 @@
 	        "spe": 112
 	    }
 	}, {
-	    "name": "Lycanroc (Dusk)",
+	    "name": "鬃岩狼人(黃昏)",
 	    "types": ["rock"],
 	    "id": "lycanroc_dusk",
 	    "stats": {
@@ -1116,7 +1116,7 @@
 	        "spe": 110
 	    }
 	}, {
-	    "name": "Rolycoly",
+	    "name": "小炭仔",
 	    "types": ["rock"],
 	    "id": "rolycoly",
 	    "stats": {
@@ -1128,7 +1128,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Carkol",
+	    "name": "大炭車",
 	    "types": ["rock"],
 	    "id": "carkol",
 	    "stats": {
@@ -1140,7 +1140,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Coalossal",
+	    "name": "巨炭山",
 	    "types": ["rock", "fire"],
 	    "id": "coalossal",
 	    "stats": {
@@ -1152,7 +1152,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Shinx",
+	    "name": "小貓怪",
 	    "types": ["electric"],
 	    "id": "shinx",
 	    "stats": {
@@ -1164,7 +1164,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Luxio",
+	    "name": "勒克貓",
 	    "types": ["electric"],
 	    "id": "luxio",
 	    "stats": {
@@ -1176,7 +1176,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Luxray",
+	    "name": "倫琴貓",
 	    "types": ["electric"],
 	    "id": "luxray",
 	    "stats": {
@@ -1188,7 +1188,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Starly",
+	    "name": "姆克兒",
 	    "types": ["normal", "flying"],
 	    "id": "starly",
 	    "stats": {
@@ -1200,7 +1200,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Staravia",
+	    "name": "姆克鳥",
 	    "types": ["normal", "flying"],
 	    "id": "staravia",
 	    "stats": {
@@ -1212,7 +1212,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Staraptor",
+	    "name": "姆克鷹",
 	    "types": ["normal", "flying"],
 	    "id": "staraptor",
 	    "stats": {
@@ -1224,7 +1224,7 @@
 	        "spe": 100
 	    }
 	}, {
-	    "name": "Oricorio (Baile)",
+	    "name": "花舞鳥(熱辣)",
 	    "types": ["fire", "flying"],
 	    "id": "oricorio_baile",
 	    "stats": {
@@ -1236,7 +1236,7 @@
 	        "spe": 93
 	    }
 	}, {
-	    "name": "Oricorio (Pom-Pom)",
+	    "name": "花舞鳥(啪滋)",
 	    "types": ["electric", "flying"],
 	    "id": "oricorio_pom_pom",
 	    "stats": {
@@ -1248,7 +1248,7 @@
 	        "spe": 93
 	    }
 	}, {
-	    "name": "Oricorio (Pa'u)",
+	    "name": "花舞鳥(呼拉)",
 	    "types": ["psychic", "flying"],
 	    "id": "oricorio_pau",
 	    "stats": {
@@ -1260,7 +1260,7 @@
 	        "spe": 93
 	    }
 	}, {
-	    "name": "Oricorio (Sensu)",
+	    "name": "花舞鳥(輕盈)",
 	    "types": ["ghost", "flying"],
 	    "id": "oricorio_sensu",
 	    "stats": {
@@ -1272,7 +1272,7 @@
 	        "spe": 93
 	    }
 	}, {
-	    "name": "Mareep",
+	    "name": "咩利羊",
 	    "types": ["electric"],
 	    "id": "mareep",
 	    "stats": {
@@ -1284,7 +1284,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Flaaffy",
+	    "name": "茸茸羊",
 	    "types": ["electric"],
 	    "id": "flaaffy",
 	    "stats": {
@@ -1296,7 +1296,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Ampharos",
+	    "name": "電龍",
 	    "types": ["electric"],
 	    "id": "ampharos",
 	    "stats": {
@@ -1308,7 +1308,7 @@
 	        "spe": 55
 	    }
 	}, {
-	    "name": "Petilil",
+	    "name": "百合根娃娃",
 	    "types": ["grass"],
 	    "id": "petilil",
 	    "stats": {
@@ -1320,7 +1320,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Lilligant",
+	    "name": "裙兒小姐",
 	    "types": ["grass"],
 	    "id": "lilligant",
 	    "stats": {
@@ -1332,7 +1332,7 @@
 	        "spe": 90
 	    }
 	}, {
-	    "name": "Shroomish",
+	    "name": "蘑蘑菇",
 	    "types": ["grass"],
 	    "id": "shroomish",
 	    "stats": {
@@ -1344,7 +1344,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Breloom",
+	    "name": "斗笠菇",
 	    "types": ["grass", "fighting"],
 	    "id": "breloom",
 	    "stats": {
@@ -1356,7 +1356,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Applin",
+	    "name": "啃果蟲",
 	    "types": ["grass", "dragon"],
 	    "id": "applin",
 	    "stats": {
@@ -1368,7 +1368,7 @@
 	        "spe": 20
 	    }
 	}, {
-	    "name": "Flapple",
+	    "name": "蘋裹龍",
 	    "types": ["grass", "dragon"],
 	    "id": "flapple",
 	    "stats": {
@@ -1380,7 +1380,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Appletun",
+	    "name": "豐蜜龍",
 	    "types": ["grass", "dragon"],
 	    "id": "appletun",
 	    "stats": {
@@ -1392,7 +1392,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Spoink",
+	    "name": "跳跳豬",
 	    "types": ["psychic"],
 	    "id": "spoink",
 	    "stats": {
@@ -1404,7 +1404,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Grumpig",
+	    "name": "噗噗豬",
 	    "types": ["psychic"],
 	    "id": "grumpig",
 	    "stats": {
@@ -1416,7 +1416,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Squawkabilly",
+	    "name": "怒鸚哥",
 	    "types": ["normal", "flying"],
 	    "id": "squawkabilly",
 	    "stats": {
@@ -1428,7 +1428,7 @@
 	        "spe": 92
 	    }
 	}, {
-	    "name": "Misdreavus",
+	    "name": "夢妖",
 	    "types": ["ghost"],
 	    "id": "misdreavus",
 	    "stats": {
@@ -1440,7 +1440,7 @@
 	        "spe": 85
 	    }
 	}, {
-	    "name": "Mismagius",
+	    "name": "夢妖魔",
 	    "types": ["ghost"],
 	    "id": "mismagius",
 	    "stats": {
@@ -1452,7 +1452,7 @@
 	        "spe": 105
 	    }
 	}, {
-	    "name": "Makuhita",
+	    "name": "幕下力士",
 	    "types": ["fighting"],
 	    "id": "makuhita",
 	    "stats": {
@@ -1464,7 +1464,7 @@
 	        "spe": 25
 	    }
 	}, {
-	    "name": "Hariyama",
+	    "name": "鐵掌力士",
 	    "types": ["fighting"],
 	    "id": "hariyama",
 	    "stats": {
@@ -1476,7 +1476,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Crabrawler",
+	    "name": "好勝蟹",
 	    "types": ["fighting"],
 	    "id": "crabrawler",
 	    "stats": {
@@ -1488,7 +1488,7 @@
 	        "spe": 63
 	    }
 	}, {
-	    "name": "Crabominable",
+	    "name": "好勝毛蟹",
 	    "types": ["fighting", "ice"],
 	    "id": "crabominable",
 	    "stats": {
@@ -1500,7 +1500,7 @@
 	        "spe": 43
 	    }
 	}, {
-	    "name": "Salandit",
+	    "name": "夜盜火蜥",
 	    "types": ["poison", "fire"],
 	    "id": "saladit",
 	    "stats": {
@@ -1512,7 +1512,7 @@
 	        "spe": 77
 	    }
 	}, {
-	    "name": "Salazzle",
+	    "name": "焰后蜥",
 	    "types": ["poison", "fire"],
 	    "id": "salazzle",
 	    "stats": {
@@ -1524,7 +1524,7 @@
 	        "spe": 117
 	    }
 	}, {
-	    "name": "Phanpy",
+	    "name": "小小象",
 	    "types": ["ground"],
 	    "id": "phanpy",
 	    "stats": {
@@ -1536,7 +1536,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Donphan",
+	    "name": "頓甲",
 	    "types": ["ground"],
 	    "id": "donphan",
 	    "stats": {
@@ -1548,7 +1548,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Cufant",
+	    "name": "銅象",
 	    "types": ["steel"],
 	    "id": "cufant",
 	    "stats": {
@@ -1560,7 +1560,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Copperajah",
+	    "name": "大王銅象",
 	    "types": ["steel"],
 	    "id": "copperajah",
 	    "stats": {
@@ -1572,7 +1572,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Gible",
+	    "name": "圓陸鯊",
 	    "types": ["dragon", "ground"],
 	    "id": "gible",
 	    "stats": {
@@ -1584,7 +1584,7 @@
 	        "spe": 42
 	    }
 	}, {
-	    "name": "Gabite",
+	    "name": "尖牙陸鯊",
 	    "types": ["dragon", "ground"],
 	    "id": "gabite",
 	    "stats": {
@@ -1596,7 +1596,7 @@
 	        "spe": 82
 	    }
 	}, {
-	    "name": "Garchomp",
+	    "name": "烈咬陸鯊",
 	    "types": ["dragon", "ground"],
 	    "id": "garchomp",
 	    "stats": {
@@ -1608,7 +1608,7 @@
 	        "spe": 102
 	    }
 	}, {
-	    "name": "Nacli",
+	    "name": "鹽石寶",
 	    "types": ["rock"],
 	    "id": "nacli",
 	    "stats": {
@@ -1620,7 +1620,7 @@
 	        "spe": 25
 	    }
 	}, {
-	    "name": "Naclstack",
+	    "name": "鹽石壘",
 	    "types": ["rock"],
 	    "id": "naclstack",
 	    "stats": {
@@ -1632,7 +1632,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Garganacl",
+	    "name": "鹽石巨靈",
 	    "types": ["rock"],
 	    "id": "garganacl",
 	    "stats": {
@@ -1644,7 +1644,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Wingull",
+	    "name": "長翅鷗",
 	    "types": ["water", "flying"],
 	    "id": "wingull",
 	    "stats": {
@@ -1656,7 +1656,7 @@
 	        "spe": 85
 	    }
 	}, {
-	    "name": "Pelipper",
+	    "name": "大嘴鷗",
 	    "types": ["water", "flying"],
 	    "id": "pelipper",
 	    "stats": {
@@ -1668,7 +1668,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Magikarp",
+	    "name": "鯉魚王",
 	    "types": ["water"],
 	    "id": "magikarp",
 	    "stats": {
@@ -1680,7 +1680,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Gyarados",
+	    "name": "暴鯉龍",
 	    "types": ["water", "flying"],
 	    "id": "gyarados",
 	    "stats": {
@@ -1692,7 +1692,7 @@
 	        "spe": 81
 	    }
 	}, {
-	    "name": "Arrokuda",
+	    "name": "刺梭魚",
 	    "types": ["water"],
 	    "id": "arrokuda",
 	    "stats": {
@@ -1704,7 +1704,7 @@
 	        "spe": 66
 	    }
 	}, {
-	    "name": "Barraskewda",
+	    "name": "戽斗尖梭",
 	    "types": ["water"],
 	    "id": "barraskewda",
 	    "stats": {
@@ -1716,7 +1716,7 @@
 	        "spe": 136
 	    }
 	}, {
-	    "name": "Basculin",
+	    "name": "野蠻鱸魚",
 	    "types": ["water"],
 	    "id": "basculin",
 	    "stats": {
@@ -1728,7 +1728,7 @@
 	        "spe": 98
 	    }
 	}, {
-	    "name": "Gulpin",
+	    "name": "溶食獸",
 	    "types": ["poison"],
 	    "id": "gulpin",
 	    "stats": {
@@ -1740,7 +1740,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Swalot",
+	    "name": "吞食獸",
 	    "types": ["poison"],
 	    "id": "swalot",
 	    "stats": {
@@ -1752,7 +1752,7 @@
 	        "spe": 55
 	    }
 	}, {
-	    "name": "Meowth",
+	    "name": "喵喵",
 	    "types": ["normal"],
 	    "id": "meowth",
 	    "stats": {
@@ -1764,7 +1764,7 @@
 	        "spe": 90
 	    }
 	}, {
-	    "name": "Persian",
+	    "name": "貓老大",
 	    "types": ["normal"],
 	    "id": "persian",
 	    "stats": {
@@ -1776,7 +1776,7 @@
 	        "spe": 115
 	    }
 	}, {
-	    "name": "Drifloon",
+	    "name": "飄飄球",
 	    "types": ["ghost", "flying"],
 	    "id": "drifloon",
 	    "stats": {
@@ -1788,7 +1788,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Drifblim",
+	    "name": "隨風球",
 	    "types": ["ghost", "flying"],
 	    "id": "drifblim",
 	    "stats": {
@@ -1800,7 +1800,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Flabebe",
+	    "name": "花蓓蓓",
 	    "types": ["fairy"],
 	    "id": "flabebe",
 	    "stats": {
@@ -1812,7 +1812,7 @@
 	        "spe": 42
 	    }
 	}, {
-	    "name": "Floette",
+	    "name": "花葉蒂",
 	    "types": ["fairy"],
 	    "id": "floette",
 	    "stats": {
@@ -1824,7 +1824,7 @@
 	        "spe": 52
 	    }
 	}, {
-	    "name": "Florges",
+	    "name": "花潔夫人",
 	    "types": ["fairy"],
 	    "id": "florges",
 	    "stats": {
@@ -1836,7 +1836,7 @@
 	        "spe": 75
 	    }
 	}, {
-	    "name": "Diglett",
+	    "name": "地鼠",
 	    "types": ["ground"],
 	    "id": "diglett",
 	    "stats": {
@@ -1848,7 +1848,7 @@
 	        "spe": 95
 	    }
 	}, {
-	    "name": "Dugtrio",
+	    "name": "三地鼠",
 	    "types": ["ground"],
 	    "id": "dugtrio",
 	    "stats": {
@@ -1860,7 +1860,7 @@
 	        "spe": 120
 	    }
 	}, {
-	    "name": "Torkoal",
+	    "name": "煤炭龜",
 	    "types": ["fire"],
 	    "id": "torkoal",
 	    "stats": {
@@ -1872,7 +1872,7 @@
 	        "spe": 20
 	    }
 	}, {
-	    "name": "Numel",
+	    "name": "呆火駝",
 	    "types": ["fire", "ground"],
 	    "id": "numel",
 	    "stats": {
@@ -1884,7 +1884,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Camerupt",
+	    "name": "噴火駝",
 	    "types": ["fire", "ground"],
 	    "id": "camerupt",
 	    "stats": {
@@ -1896,7 +1896,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Bronzor",
+	    "name": "銅鏡怪",
 	    "types": ["steel", "psychic"],
 	    "id": "bronzor",
 	    "stats": {
@@ -1908,7 +1908,7 @@
 	        "spe": 23
 	    }
 	}, {
-	    "name": "Bronzong",
+	    "name": "青銅鐘",
 	    "types": ["steel", "psychic"],
 	    "id": "bronzong",
 	    "stats": {
@@ -1920,7 +1920,7 @@
 	        "spe": 33
 	    }
 	}, {
-	    "name": "Axew",
+	    "name": "牙牙",
 	    "types": ["dragon"],
 	    "id": "axew",
 	    "stats": {
@@ -1932,7 +1932,7 @@
 	        "spe": 57
 	    }
 	}, {
-	    "name": "Fraxure",
+	    "name": "斧牙龍",
 	    "types": ["dragon"],
 	    "id": "fraxure",
 	    "stats": {
@@ -1944,7 +1944,7 @@
 	        "spe": 67
 	    }
 	}, {
-	    "name": "Haxorus",
+	    "name": "雙斧戰龍",
 	    "types": ["dragon"],
 	    "id": "haxorus",
 	    "stats": {
@@ -1956,7 +1956,7 @@
 	        "spe": 97
 	    }
 	}, {
-	    "name": "Mankey",
+	    "name": "猴怪",
 	    "types": ["fighting"],
 	    "id": "mankey",
 	    "stats": {
@@ -1968,7 +1968,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Primeape",
+	    "name": "火爆猴",
 	    "types": ["fighting"],
 	    "id": "primeape",
 	    "stats": {
@@ -1980,7 +1980,7 @@
 	        "spe": 95
 	    }
 	}, {
-	    "name": "Annihilape",
+	    "name": "棄世猴",
 	    "types": ["fighting", "ghost"],
 	    "id": "annihilape",
 	    "stats": {
@@ -1992,7 +1992,7 @@
 	        "spe": 90
 	    }
 	}, {
-	    "name": "Meditite",
+	    "name": "瑪沙那",
 	    "types": ["fighting", "psychic"],
 	    "id": "meditite",
 	    "stats": {
@@ -2004,7 +2004,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Medicham",
+	    "name": "恰雷姆",
 	    "types": ["fighting", "psychic"],
 	    "id": "medicham",
 	    "stats": {
@@ -2016,7 +2016,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Riolu",
+	    "name": "利歐路",
 	    "types": ["fighting"],
 	    "id": "riolu",
 	    "stats": {
@@ -2028,7 +2028,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Lucario",
+	    "name": "路卡利歐",
 	    "types": ["fighting", "steel"],
 	    "id": "lucario",
 	    "stats": {
@@ -2040,7 +2040,7 @@
 	        "spe": 90
 	    }
 	}, {
-	    "name": "Charcadet",
+	    "name": "炭小侍",
 	    "types": ["fire"],
 	    "id": "charcadet",
 	    "stats": {
@@ -2052,7 +2052,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Armarouge",
+	    "name": "紅蓮鎧騎",
 	    "types": ["fire", "psychic"],
 	    "id": "armarouge",
 	    "stats": {
@@ -2064,7 +2064,7 @@
 	        "spe": 75
 	    }
 	}, {
-	    "name": "Ceruledge",
+	    "name": "蒼炎刃鬼",
 	    "types": ["fire", "ghost"],
 	    "id": "ceruledge",
 	    "stats": {
@@ -2076,7 +2076,7 @@
 	        "spe": 85
 	    }
 	}, {
-	    "name": "Barboach",
+	    "name": "泥泥鰍",
 	    "types": ["water", "ground"],
 	    "id": "barboach",
 	    "stats": {
@@ -2088,7 +2088,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Whiscash",
+	    "name": "鯰魚王",
 	    "types": ["water", "ground"],
 	    "id": "whiscash",
 	    "stats": {
@@ -2100,7 +2100,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Tadbulb",
+	    "name": "光蚪仔",
 	    "types": ["electric"],
 	    "id": "tadbulb",
 	    "stats": {
@@ -2112,7 +2112,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Bellibolt",
+	    "name": "電肚蛙",
 	    "types": ["electric"],
 	    "id": "bellibolt",
 	    "stats": {
@@ -2124,7 +2124,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Goomy",
+	    "name": "黏黏寶",
 	    "types": ["dragon"],
 	    "id": "goomy",
 	    "stats": {
@@ -2136,7 +2136,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Sliggoo",
+	    "name": "黏美兒",
 	    "types": ["dragon"],
 	    "id": "sliggoo",
 	    "stats": {
@@ -2148,7 +2148,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Goodra",
+	    "name": "黏美龍",
 	    "types": ["dragon"],
 	    "id": "goodra",
 	    "stats": {
@@ -2160,7 +2160,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Croagunk",
+	    "name": "不良蛙",
 	    "types": ["poison", "fighting"],
 	    "id": "croagunk",
 	    "stats": {
@@ -2172,7 +2172,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Toxicroak",
+	    "name": "毒骷蛙",
 	    "types": ["poison", "fighting"],
 	    "id": "toxicroak",
 	    "stats": {
@@ -2184,7 +2184,7 @@
 	        "spe": 85
 	    }
 	}, {
-	    "name": "Wattrel",
+	    "name": "電海燕",
 	    "types": ["electric", "flying"],
 	    "id": "wattrel",
 	    "stats": {
@@ -2196,7 +2196,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Kilowattrel",
+	    "name": "大電海燕",
 	    "types": ["electric", "flying"],
 	    "id": "kilowattrel",
 	    "stats": {
@@ -2208,7 +2208,7 @@
 	        "spe": 125
 	    }
 	}, {
-	    "name": "Eevee",
+	    "name": "伊布",
 	    "types": ["normal"],
 	    "id": "eevee",
 	    "stats": {
@@ -2220,7 +2220,7 @@
 	        "spe": 55
 	    }
 	}, {
-	    "name": "Vaporeon",
+	    "name": "水伊布",
 	    "types": ["water"],
 	    "id": "vaporeon",
 	    "stats": {
@@ -2232,7 +2232,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Jolteon",
+	    "name": "雷伊布",
 	    "types": ["electric"],
 	    "id": "jolteon",
 	    "stats": {
@@ -2244,7 +2244,7 @@
 	        "spe": 130
 	    }
 	}, {
-	    "name": "Flareon",
+	    "name": "火伊布",
 	    "types": ["fire"],
 	    "id": "flareon",
 	    "stats": {
@@ -2256,7 +2256,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Espeon",
+	    "name": "太陽伊布",
 	    "types": ["psychic"],
 	    "id": "espeon",
 	    "stats": {
@@ -2268,7 +2268,7 @@
 	        "spe": 110
 	    }
 	}, {
-	    "name": "Umbreon",
+	    "name": "月亮伊布",
 	    "types": ["dark"],
 	    "id": "umbreon",
 	    "stats": {
@@ -2280,7 +2280,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Leafeon",
+	    "name": "葉伊布",
 	    "types": ["grass"],
 	    "id": "leafeon",
 	    "stats": {
@@ -2292,7 +2292,7 @@
 	        "spe": 95
 	    }
 	}, {
-	    "name": "Glaceon",
+	    "name": "冰伊布",
 	    "types": ["ice"],
 	    "id": "glaceon",
 	    "stats": {
@@ -2304,7 +2304,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Sylveon",
+	    "name": "仙子伊布",
 	    "types": ["fairy"],
 	    "id": "sylveon",
 	    "stats": {
@@ -2316,7 +2316,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Dunsparce",
+	    "name": "土龍弟弟",
 	    "types": ["normal"],
 	    "id": "dunsparce",
 	    "stats": {
@@ -2328,7 +2328,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Dudunsparce",
+	    "name": "土龍節節",
 	    "types": ["normal"],
 	    "id": "dudunsparce",
 	    "stats": {
@@ -2340,7 +2340,7 @@
 	        "spe": 55
 	    }
 	}, {
-	    "name": "Deerling",
+	    "name": "四季鹿",
 	    "types": ["normal", "grass"],
 	    "id": "deerling",
 	    "stats": {
@@ -2352,7 +2352,7 @@
 	        "spe": 75
 	    }
 	}, {
-	    "name": "Sawsbuck",
+	    "name": "萌芽鹿",
 	    "types": ["normal", "grass"],
 	    "id": "sawsbuck",
 	    "stats": {
@@ -2364,7 +2364,7 @@
 	        "spe": 95
 	    }
 	}, {
-	    "name": "Girafarig",
+	    "name": "麒麟奇",
 	    "types": ["normal", "psychic"],
 	    "id": "girafarig",
 	    "stats": {
@@ -2376,7 +2376,7 @@
 	        "spe": 85
 	    }
 	}, {
-	    "name": "Farigiraf",
+	    "name": "奇麒麟",
 	    "types": ["normal", "psychic"],
 	    "id": "farigiraf",
 	    "stats": {
@@ -2388,7 +2388,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Grimer",
+	    "name": "臭泥",
 	    "types": ["poison"],
 	    "id": "grimer",
 	    "stats": {
@@ -2400,7 +2400,7 @@
 	        "spe": 25
 	    }
 	}, {
-	    "name": "Muk",
+	    "name": "臭臭泥",
 	    "types": ["poison"],
 	    "id": "muk",
 	    "stats": {
@@ -2412,7 +2412,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Maschiff",
+	    "name": "偶叫獒",
 	    "types": ["dark"],
 	    "id": "maschiff",
 	    "stats": {
@@ -2424,7 +2424,7 @@
 	        "spe": 51
 	    }
 	}, {
-	    "name": "Mabosstiff",
+	    "name": "獒教父",
 	    "types": ["dark"],
 	    "id": "mabosstiff",
 	    "stats": {
@@ -2436,7 +2436,7 @@
 	        "spe": 85
 	    }
 	}, {
-	    "name": "Toxel",
+	    "name": "毒電嬰",
 	    "types": ["electric", "poison"],
 	    "id": "toxel",
 	    "stats": {
@@ -2448,7 +2448,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Toxtricity",
+	    "name": "顫弦蠑螈",
 	    "types": ["electric", "poison"],
 	    "id": "toxtricity",
 	    "stats": {
@@ -2460,7 +2460,7 @@
 	        "spe": 75
 	    }
 	}, {
-	    "name": "Dedenne",
+	    "name": "咚咚鼠",
 	    "types": ["electric", "fairy"],
 	    "id": "dedenne",
 	    "stats": {
@@ -2472,7 +2472,7 @@
 	        "spe": 101
 	    }
 	}, {
-	    "name": "Pachirisu",
+	    "name": "帕奇利茲",
 	    "types": ["electric"],
 	    "id": "pachirisu",
 	    "stats": {
@@ -2484,7 +2484,7 @@
 	        "spe": 95
 	    }
 	}, {
-	    "name": "Shroodle",
+	    "name": "滋汁鼴",
 	    "types": ["poison", "normal"],
 	    "id": "shroodle",
 	    "stats": {
@@ -2496,7 +2496,7 @@
 	        "spe": 75
 	    }
 	}, {
-	    "name": "Grafaiai",
+	    "name": "塗標客",
 	    "types": ["poison", "normal"],
 	    "id": "grafaiai",
 	    "stats": {
@@ -2508,7 +2508,7 @@
 	        "spe": 110
 	    }
 	}, {
-	    "name": "Stantler",
+	    "name": "驚角鹿",
 	    "types": ["normal"],
 	    "id": "stantler",
 	    "stats": {
@@ -2520,7 +2520,7 @@
 	        "spe": 85
 	    }
 	}, {
-	    "name": "Foongus",
+	    "name": "哎呀球菇",
 	    "types": ["grass", "poison"],
 	    "id": "foongus",
 	    "stats": {
@@ -2532,7 +2532,7 @@
 	        "spe": 15
 	    }
 	}, {
-	    "name": "Amoonguss",
+	    "name": "敗露球菇",
 	    "types": ["grass", "poison"],
 	    "id": "amoonguss",
 	    "stats": {
@@ -2544,7 +2544,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Voltorb",
+	    "name": "霹靂電球",
 	    "types": ["electric"],
 	    "id": "voltorb",
 	    "stats": {
@@ -2556,7 +2556,7 @@
 	        "spe": 100
 	    }
 	}, {
-	    "name": "Electrode",
+	    "name": "頑皮雷彈",
 	    "types": ["electric"],
 	    "id": "electrode",
 	    "stats": {
@@ -2568,7 +2568,7 @@
 	        "spe": 150
 	    }
 	}, {
-	    "name": "Magnemite",
+	    "name": "小磁怪",
 	    "types": ["electric", "steel"],
 	    "id": "magnemite",
 	    "stats": {
@@ -2580,7 +2580,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Magneton",
+	    "name": "三合一磁怪",
 	    "types": ["electric", "steel"],
 	    "id": "magneton",
 	    "stats": {
@@ -2592,7 +2592,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Magnezone",
+	    "name": "自爆磁怪",
 	    "types": ["electric", "steel"],
 	    "id": "magnezone",
 	    "stats": {
@@ -2604,7 +2604,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Ditto",
+	    "name": "百變怪",
 	    "types": ["normal"],
 	    "id": "ditto",
 	    "stats": {
@@ -2616,7 +2616,7 @@
 	        "spe": 48
 	    }
 	}, {
-	    "name": "Growlithe",
+	    "name": "卡蒂狗",
 	    "types": ["fire"],
 	    "id": "growlithe",
 	    "stats": {
@@ -2628,7 +2628,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Arcanine",
+	    "name": "風速狗",
 	    "types": ["fire"],
 	    "id": "arcanine",
 	    "stats": {
@@ -2640,7 +2640,7 @@
 	        "spe": 95
 	    }
 	}, {
-	    "name": "Teddiursa",
+	    "name": "熊寶寶",
 	    "types": ["normal"],
 	    "id": "teddiursa",
 	    "stats": {
@@ -2652,7 +2652,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Ursaring",
+	    "name": "圈圈熊",
 	    "types": ["normal"],
 	    "id": "ursaring",
 	    "stats": {
@@ -2664,7 +2664,7 @@
 	        "spe": 55
 	    }
 	}, {
-	    "name": "Zangoose",
+	    "name": "貓鼬斬",
 	    "types": ["normal"],
 	    "id": "zangoose",
 	    "stats": {
@@ -2676,7 +2676,7 @@
 	        "spe": 90
 	    }
 	}, {
-	    "name": "Seviper",
+	    "name": "飯匙蛇",
 	    "types": ["poison"],
 	    "id": "seviper",
 	    "stats": {
@@ -2688,7 +2688,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Swablu",
+	    "name": "青綿鳥",
 	    "types": ["normal", "flying"],
 	    "id": "swablu",
 	    "stats": {
@@ -2700,7 +2700,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Altaria",
+	    "name": "七夕青鳥",
 	    "types": ["dragon", "flying"],
 	    "id": "altaria",
 	    "stats": {
@@ -2712,7 +2712,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Skiddo",
+	    "name": "坐騎小羊",
 	    "types": ["grass"],
 	    "id": "skiddo",
 	    "stats": {
@@ -2724,7 +2724,7 @@
 	        "spe": 52
 	    }
 	}, {
-	    "name": "Gogoat",
+	    "name": "坐騎山羊",
 	    "types": ["grass"],
 	    "id": "gogoat",
 	    "stats": {
@@ -2736,7 +2736,7 @@
 	        "spe": 68
 	    }
 	}, {
-	    "name": "Tauros",
+	    "name": "肯泰羅",
 	    "types": ["fighting"],
 	    "id": "tauros_paldean",
 	    "stats": {
@@ -2748,7 +2748,7 @@
 	        "spe": 100
 	    }
 	}, {
-	    "name": "Tauros (Blaze)",
+	    "name": "肯泰羅(火熾)",
 	    "types": ["fighting", "fire"],
 	    "id": "tauros_blaze",
 	    "stats": {
@@ -2760,7 +2760,7 @@
 	        "spe": 100
 	    }
 	}, {
-	    "name": "Tauros (Aqua)",
+	    "name": "肯泰羅(水瀾)",
 	    "types": ["fighting", "water"],
 	    "id": "tauros_aqua",
 	    "stats": {
@@ -2772,7 +2772,7 @@
 	        "spe": 100
 	    }
 	}, {
-	    "name": "Litleo",
+	    "name": "小獅獅",
 	    "types": ["fire", "normal"],
 	    "id": "litleo",
 	    "stats": {
@@ -2784,7 +2784,7 @@
 	        "spe": 72
 	    }
 	}, {
-	    "name": "Pyroar",
+	    "name": "火炎獅",
 	    "types": ["fire", "normal"],
 	    "id": "pyroar",
 	    "stats": {
@@ -2796,7 +2796,7 @@
 	        "spe": 106
 	    }
 	}, {
-	    "name": "Stunky",
+	    "name": "臭鼬噗",
 	    "types": ["poison", "dark"],
 	    "id": "stunky",
 	    "stats": {
@@ -2808,7 +2808,7 @@
 	        "spe": 74
 	    }
 	}, {
-	    "name": "Skuntank",
+	    "name": "坦克臭鼬",
 	    "types": ["poison", "dark"],
 	    "id": "skuntank",
 	    "stats": {
@@ -2820,7 +2820,7 @@
 	        "spe": 84
 	    }
 	}, {
-	    "name": "Zorua",
+	    "name": "索羅亞",
 	    "types": ["dark"],
 	    "id": "zorua",
 	    "stats": {
@@ -2832,7 +2832,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Zoroark",
+	    "name": "索羅亞克",
 	    "types": ["dark"],
 	    "id": "zoroark",
 	    "stats": {
@@ -2844,7 +2844,7 @@
 	        "spe": 105
 	    }
 	}, {
-	    "name": "Sneasel",
+	    "name": "狃拉",
 	    "types": ["dark", "ice"],
 	    "id": "sneasel",
 	    "stats": {
@@ -2856,7 +2856,7 @@
 	        "spe": 115
 	    }
 	}, {
-	    "name": "Weavile",
+	    "name": "瑪狃拉",
 	    "types": ["dark", "ice"],
 	    "id": "weavile",
 	    "stats": {
@@ -2868,7 +2868,7 @@
 	        "spe": 125
 	    }
 	}, {
-	    "name": "Murkrow",
+	    "name": "黑暗鴉",
 	    "types": ["dark", "flying"],
 	    "id": "murkrow",
 	    "stats": {
@@ -2880,7 +2880,7 @@
 	        "spe": 91
 	    }
 	}, {
-	    "name": "Honchkrow",
+	    "name": "烏鴉頭頭",
 	    "types": ["dark", "flying"],
 	    "id": "honchkrow",
 	    "stats": {
@@ -2892,7 +2892,7 @@
 	        "spe": 71
 	    }
 	}, {
-	    "name": "Gothita",
+	    "name": "哥德寶寶",
 	    "types": ["psychic"],
 	    "id": "gothita",
 	    "stats": {
@@ -2904,7 +2904,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Gothorita",
+	    "name": "哥德小童",
 	    "types": ["psychic"],
 	    "id": "gothorita",
 	    "stats": {
@@ -2916,7 +2916,7 @@
 	        "spe": 55
 	    }
 	}, {
-	    "name": "Gothitelle",
+	    "name": "哥德小姐",
 	    "types": ["psychic"],
 	    "id": "gothitelle",
 	    "stats": {
@@ -2928,7 +2928,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Sinistea",
+	    "name": "來悲茶",
 	    "types": ["ghost"],
 	    "id": "sinistea",
 	    "stats": {
@@ -2940,7 +2940,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Polteageist",
+	    "name": "怖思壺",
 	    "types": ["ghost"],
 	    "id": "polteageist",
 	    "stats": {
@@ -2952,7 +2952,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Mimikyu",
+	    "name": "謎擬Ｑ",
 	    "types": ["ghost", "fairy"],
 	    "id": "mimikyu",
 	    "stats": {
@@ -2964,7 +2964,7 @@
 	        "spe": 96
 	    }
 	}, {
-	    "name": "Klefki",
+	    "name": "鑰圈兒",
 	    "types": ["steel", "fairy"],
 	    "id": "klefki",
 	    "stats": {
@@ -2976,7 +2976,7 @@
 	        "spe": 75
 	    }
 	}, {
-	    "name": "Indeedee (Male)",
+	    "name": "愛管侍(雄)",
 	    "types": ["psychic", "normal"],
 	    "id": "indeedee_male",
 	    "stats": {
@@ -2988,7 +2988,7 @@
 	        "spe": 95
 	    }
 	}, {
-	    "name": "Indeedee (Female)",
+	    "name": "愛管侍(雌)",
 	    "types": ["psychic", "normal"],
 	    "id": "indeedee_female",
 	    "stats": {
@@ -3000,7 +3000,7 @@
 	        "spe": 85
 	    }
 	}, {
-	    "name": "Bramblin",
+	    "name": "納噬草",
 	    "types": ["grass", "ghost"],
 	    "id": "bramblin",
 	    "stats": {
@@ -3012,7 +3012,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Brambleghast",
+	    "name": "怖納噬草",
 	    "types": ["grass", "ghost"],
 	    "id": "brambleghast",
 	    "stats": {
@@ -3024,7 +3024,7 @@
 	        "spe": 90
 	    }
 	}, {
-	    "name": "Toedscool",
+	    "name": "原野水母",
 	    "types": ["ground", "grass"],
 	    "id": "toedscool",
 	    "stats": {
@@ -3036,7 +3036,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Toedscruel",
+	    "name": "陸地水母",
 	    "types": ["ground", "grass"],
 	    "id": "toedscruel",
 	    "stats": {
@@ -3048,7 +3048,7 @@
 	        "spe": 100
 	    }
 	}, {
-	    "name": "Tropius",
+	    "name": "熱帶龍",
 	    "types": ["grass", "flying"],
 	    "id": "tropius",
 	    "stats": {
@@ -3060,7 +3060,7 @@
 	        "spe": 51
 	    }
 	}, {
-	    "name": "Fomantis",
+	    "name": "偽螳草",
 	    "types": ["grass"],
 	    "id": "fomantis",
 	    "stats": {
@@ -3072,7 +3072,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Lurantis",
+	    "name": "蘭螳花",
 	    "types": ["grass"],
 	    "id": "lurantis",
 	    "stats": {
@@ -3084,7 +3084,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Klawf",
+	    "name": "毛崖蟹",
 	    "types": ["rock"],
 	    "id": "klawf",
 	    "stats": {
@@ -3096,7 +3096,7 @@
 	        "spe": 75
 	    }
 	}, {
-	    "name": "Capsakid",
+	    "name": "熱辣娃",
 	    "types": ["grass"],
 	    "id": "capsakid",
 	    "stats": {
@@ -3108,7 +3108,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Scovillain",
+	    "name": "狠辣椒",
 	    "types": ["grass", "fire"],
 	    "id": "scovillain",
 	    "stats": {
@@ -3120,7 +3120,7 @@
 	        "spe": 75
 	    }
 	}, {
-	    "name": "Cacnea",
+	    "name": "刺球仙人掌",
 	    "types": ["grass"],
 	    "id": "cacnea",
 	    "stats": {
@@ -3132,7 +3132,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Cacturne",
+	    "name": "夢歌仙人掌",
 	    "types": ["grass", "dark"],
 	    "id": "cacturne",
 	    "stats": {
@@ -3144,7 +3144,7 @@
 	        "spe": 55
 	    }
 	}, {
-	    "name": "Rellor",
+	    "name": "蟲滾泥",
 	    "types": ["bug"],
 	    "id": "rellor",
 	    "stats": {
@@ -3156,7 +3156,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Rabsca",
+	    "name": "蟲甲聖",
 	    "types": ["bug", "psychic"],
 	    "id": "rabsca",
 	    "stats": {
@@ -3168,7 +3168,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Venonat",
+	    "name": "毛球",
 	    "types": ["bug", "poison"],
 	    "id": "venonat",
 	    "stats": {
@@ -3180,7 +3180,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Venomoth",
+	    "name": "摩魯蛾",
 	    "types": ["bug", "poison"],
 	    "id": "venomoth",
 	    "stats": {
@@ -3192,7 +3192,7 @@
 	        "spe": 90
 	    }
 	}, {
-	    "name": "Pineco",
+	    "name": "榛果球",
 	    "types": ["bug"],
 	    "id": "pineco",
 	    "stats": {
@@ -3204,7 +3204,7 @@
 	        "spe": 15
 	    }
 	}, {
-	    "name": "Forretress",
+	    "name": "佛烈托斯",
 	    "types": ["bug", "steel"],
 	    "id": "forretress",
 	    "stats": {
@@ -3216,7 +3216,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Scyther",
+	    "name": "飛天螳螂",
 	    "types": ["bug", "flying"],
 	    "id": "scyther",
 	    "stats": {
@@ -3228,7 +3228,7 @@
 	        "spe": 105
 	    }
 	}, {
-	    "name": "Scizor",
+	    "name": "巨鉗螳螂",
 	    "types": ["bug", "steel"],
 	    "id": "scizor",
 	    "stats": {
@@ -3240,7 +3240,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Heracross",
+	    "name": "赫拉克羅斯",
 	    "types": ["bug", "fighting"],
 	    "id": "heracross",
 	    "stats": {
@@ -3252,7 +3252,7 @@
 	        "spe": 85
 	    }
 	}, {
-	    "name": "Flittle",
+	    "name": "飄飄雛",
 	    "types": ["psychic"],
 	    "id": "flittle",
 	    "stats": {
@@ -3264,7 +3264,7 @@
 	        "spe": 75
 	    }
 	}, {
-	    "name": "Espathra",
+	    "name": "超能艷鴕",
 	    "types": ["psychic"],
 	    "id": "espathra",
 	    "stats": {
@@ -3276,7 +3276,7 @@
 	        "spe": 105
 	    }
 	}, {
-	    "name": "Hippopotas",
+	    "name": "沙河馬",
 	    "types": ["ground"],
 	    "id": "hippopotas",
 	    "stats": {
@@ -3288,7 +3288,7 @@
 	        "spe": 32
 	    }
 	}, {
-	    "name": "Hippowdon",
+	    "name": "河馬獸",
 	    "types": ["ground"],
 	    "id": "hippowdon",
 	    "stats": {
@@ -3300,7 +3300,7 @@
 	        "spe": 47
 	    }
 	}, {
-	    "name": "Sandile",
+	    "name": "黑眼鱷",
 	    "types": ["ground", "dark"],
 	    "id": "sandile",
 	    "stats": {
@@ -3312,7 +3312,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Krokorok",
+	    "name": "混混鱷",
 	    "types": ["ground", "dark"],
 	    "id": "krokorok",
 	    "stats": {
@@ -3324,7 +3324,7 @@
 	        "spe": 74
 	    }
 	}, {
-	    "name": "Krookodile",
+	    "name": "流氓鱷",
 	    "types": ["ground", "dark"],
 	    "id": "krookodile",
 	    "stats": {
@@ -3336,7 +3336,7 @@
 	        "spe": 92
 	    }
 	}, {
-	    "name": "Silicobra",
+	    "name": "沙包蛇",
 	    "types": ["ground"],
 	    "id": "silicobra",
 	    "stats": {
@@ -3348,7 +3348,7 @@
 	        "spe": 46
 	    }
 	}, {
-	    "name": "Sandaconda",
+	    "name": "沙螺蟒",
 	    "types": ["ground"],
 	    "id": "sandaconda",
 	    "stats": {
@@ -3360,7 +3360,7 @@
 	        "spe": 71
 	    }
 	}, {
-	    "name": "Mudbray",
+	    "name": "泥驢仔",
 	    "types": ["ground"],
 	    "id": "mudbray",
 	    "stats": {
@@ -3372,7 +3372,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Mudsdale",
+	    "name": "重泥挽馬",
 	    "types": ["ground"],
 	    "id": "mudsdale",
 	    "stats": {
@@ -3384,7 +3384,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Larvesta",
+	    "name": "燃燒蟲",
 	    "types": ["bug", "fire"],
 	    "id": "larvesta",
 	    "stats": {
@@ -3396,7 +3396,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Volcarona",
+	    "name": "火神蛾",
 	    "types": ["bug", "fire"],
 	    "id": "volcarona",
 	    "stats": {
@@ -3408,7 +3408,7 @@
 	        "spe": 100
 	    }
 	}, {
-	    "name": "Bagon",
+	    "name": "寶貝龍",
 	    "types": ["dragon"],
 	    "id": "bagon",
 	    "stats": {
@@ -3420,7 +3420,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Shelgon",
+	    "name": "甲殼龍",
 	    "types": ["dragon"],
 	    "id": "shelgon",
 	    "stats": {
@@ -3432,7 +3432,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Salamence",
+	    "name": "暴飛龍",
 	    "types": ["dragon", "flying"],
 	    "id": "salamence",
 	    "stats": {
@@ -3444,7 +3444,7 @@
 	        "spe": 100
 	    }
 	}, {
-	    "name": "Tinkatink",
+	    "name": "小鍛匠",
 	    "types": ["fairy", "steel"],
 	    "id": "tinkatink",
 	    "stats": {
@@ -3456,7 +3456,7 @@
 	        "spe": 58
 	    }
 	}, {
-	    "name": "Tinkatuff",
+	    "name": "巧鍛匠",
 	    "types": ["fairy", "steel"],
 	    "id": "tinkatuff",
 	    "stats": {
@@ -3468,7 +3468,7 @@
 	        "spe": 78
 	    }
 	}, {
-	    "name": "Tinkaton",
+	    "name": "巨鍛匠",
 	    "types": ["fairy", "steel"],
 	    "id": "tinkaton",
 	    "stats": {
@@ -3480,7 +3480,7 @@
 	        "spe": 94
 	    }
 	}, {
-	    "name": "Hatenna",
+	    "name": "迷布莉姆",
 	    "types": ["psychic"],
 	    "id": "hatenna",
 	    "stats": {
@@ -3492,7 +3492,7 @@
 	        "spe": 39
 	    }
 	}, {
-	    "name": "Hattrem",
+	    "name": "提布莉姆",
 	    "types": ["psychic"],
 	    "id": "hattrem",
 	    "stats": {
@@ -3504,7 +3504,7 @@
 	        "spe": 49
 	    }
 	}, {
-	    "name": "Hatterene",
+	    "name": "布莉姆溫",
 	    "types": ["psychic", "fairy"],
 	    "id": "hatterene",
 	    "stats": {
@@ -3516,7 +3516,7 @@
 	        "spe": 29
 	    }
 	}, {
-	    "name": "Impidimp",
+	    "name": "搗蛋小妖",
 	    "types": ["dark", "fairy"],
 	    "id": "impidimp",
 	    "stats": {
@@ -3528,7 +3528,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Morgrem",
+	    "name": "詐唬魔",
 	    "types": ["dark", "fairy"],
 	    "id": "morgrem",
 	    "stats": {
@@ -3540,7 +3540,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Grimmsnarl",
+	    "name": "長毛巨魔",
 	    "types": ["dark", "fairy"],
 	    "id": "grimmsnarl",
 	    "stats": {
@@ -3552,7 +3552,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Wiglett",
+	    "name": "海地鼠",
 	    "types": ["water"],
 	    "id": "wiglett",
 	    "stats": {
@@ -3564,7 +3564,7 @@
 	        "spe": 95
 	    }
 	}, {
-	    "name": "Wugtrio",
+	    "name": "三海地鼠",
 	    "types": ["water"],
 	    "id": "wugtrio",
 	    "stats": {
@@ -3576,7 +3576,7 @@
 	        "spe": 120
 	    }
 	}, {
-	    "name": "Bombirdier",
+	    "name": "下石鳥",
 	    "types": ["flying", "dark"],
 	    "id": "bombirdier",
 	    "stats": {
@@ -3588,7 +3588,7 @@
 	        "spe": 82
 	    }
 	}, {
-	    "name": "Finizen",
+	    "name": "波普海豚",
 	    "types": ["water"],
 	    "id": "finizen",
 	    "stats": {
@@ -3600,7 +3600,7 @@
 	        "spe": 75
 	    }
 	}, {
-	    "name": "Palafin",
+	    "name": "海豚俠",
 	    "types": ["water"],
 	    "id": "palafin",
 	    "stats": {
@@ -3612,7 +3612,7 @@
 	        "spe": 100
 	    }
 	}, {
-	    "name": "Varoom",
+	    "name": "噗隆隆",
 	    "types": ["steel", "poison"],
 	    "id": "varoom",
 	    "stats": {
@@ -3624,7 +3624,7 @@
 	        "spe": 47
 	    }
 	}, {
-	    "name": "Revavroom",
+	    "name": "普隆隆姆",
 	    "types": ["steel", "poison"],
 	    "id": "revavroom",
 	    "stats": {
@@ -3636,7 +3636,7 @@
 	        "spe": 90
 	    }
 	}, {
-	    "name": "Cyclizar",
+	    "name": "摩托蜥",
 	    "types": ["dragon", "normal"],
 	    "id": "cyclizar",
 	    "stats": {
@@ -3648,7 +3648,7 @@
 	        "spe": 121
 	    }
 	}, {
-	    "name": "Orthworm",
+	    "name": "拖拖蚓",
 	    "types": ["steel"],
 	    "id": "orthworm",
 	    "stats": {
@@ -3660,7 +3660,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Sableye",
+	    "name": "勾魂眼",
 	    "types": ["dark", "ghost"],
 	    "id": "sableye",
 	    "stats": {
@@ -3672,7 +3672,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Shuppet",
+	    "name": "怨影娃娃",
 	    "types": ["ghost"],
 	    "id": "shuppet",
 	    "stats": {
@@ -3684,7 +3684,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Banette",
+	    "name": "詛咒娃娃",
 	    "types": ["ghost"],
 	    "id": "banette",
 	    "stats": {
@@ -3696,7 +3696,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Falinks",
+	    "name": "列陣兵",
 	    "types": ["fighting"],
 	    "id": "falinks",
 	    "stats": {
@@ -3708,7 +3708,7 @@
 	        "spe": 75
 	    }
 	}, {
-	    "name": "Hawlucha",
+	    "name": "摔角鷹人",
 	    "types": ["fighting", "flying"],
 	    "id": "hawlucha",
 	    "stats": {
@@ -3720,7 +3720,7 @@
 	        "spe": 118
 	    }
 	}, {
-	    "name": "Spiritomb",
+	    "name": "花岩怪",
 	    "types": ["ghost", "dark"],
 	    "id": "spiritomb",
 	    "stats": {
@@ -3732,7 +3732,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Noibat",
+	    "name": "嗡蝠",
 	    "types": ["flying", "dragon"],
 	    "id": "noibat",
 	    "stats": {
@@ -3744,7 +3744,7 @@
 	        "spe": 55
 	    }
 	}, {
-	    "name": "Noivern",
+	    "name": "音波龍",
 	    "types": ["flying", "dragon"],
 	    "id": "noivern",
 	    "stats": {
@@ -3756,7 +3756,7 @@
 	        "spe": 123
 	    }
 	}, {
-	    "name": "Dreepy",
+	    "name": "多龍梅西亞",
 	    "types": ["dragon", "ghost"],
 	    "id": "dreepy",
 	    "stats": {
@@ -3768,7 +3768,7 @@
 	        "spe": 82
 	    }
 	}, {
-	    "name": "Drakloak",
+	    "name": "多龍奇",
 	    "types": ["dragon", "ghost"],
 	    "id": "drakloak",
 	    "stats": {
@@ -3780,7 +3780,7 @@
 	        "spe": 102
 	    }
 	}, {
-	    "name": "Dragapult",
+	    "name": "多龍巴魯托",
 	    "types": ["dragon", "ghost"],
 	    "id": "dragapult",
 	    "stats": {
@@ -3792,7 +3792,7 @@
 	        "spe": 142
 	    }
 	}, {
-	    "name": "Glimmet",
+	    "name": "晶光芽",
 	    "types": ["rock", "poison"],
 	    "id": "glimmet",
 	    "stats": {
@@ -3804,7 +3804,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Glimmora",
+	    "name": "晶光花",
 	    "types": ["rock", "poison"],
 	    "id": "glimmora",
 	    "stats": {
@@ -3816,7 +3816,7 @@
 	        "spe": 86
 	    }
 	}, {
-	    "name": "Rotom",
+	    "name": "洛托姆",
 	    "types": ["electric", "ghost"],
 	    "id": "rotom",
 	    "stats": {
@@ -3828,7 +3828,7 @@
 	        "spe": 86
 	    }
 	}, {
-	    "name": "Greavard",
+	    "name": "墓仔狗",
 	    "types": ["ghost"],
 	    "id": "greavard",
 	    "stats": {
@@ -3840,7 +3840,7 @@
 	        "spe": 34
 	    }
 	}, {
-	    "name": "Houndstone",
+	    "name": "墓揚犬",
 	    "types": ["ghost"],
 	    "id": "houndstone",
 	    "stats": {
@@ -3852,7 +3852,7 @@
 	        "spe": 68
 	    }
 	}, {
-	    "name": "Oranguru",
+	    "name": "智揮猩",
 	    "types": ["normal", "psychic"],
 	    "id": "oranguru",
 	    "stats": {
@@ -3864,7 +3864,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Passimian",
+	    "name": "投擲猴",
 	    "types": ["fighting"],
 	    "id": "passimian",
 	    "stats": {
@@ -3876,7 +3876,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Komala",
+	    "name": "樹枕尾熊",
 	    "types": ["normal"],
 	    "id": "komala",
 	    "stats": {
@@ -3888,7 +3888,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Larvitar",
+	    "name": "幼基拉斯",
 	    "types": ["rock", "ground"],
 	    "id": "larvitar",
 	    "stats": {
@@ -3900,7 +3900,7 @@
 	        "spe": 41
 	    }
 	}, {
-	    "name": "Pupitar",
+	    "name": "沙基拉斯",
 	    "types": ["rock", "ground"],
 	    "id": "pupitar",
 	    "stats": {
@@ -3912,7 +3912,7 @@
 	        "spe": 51
 	    }
 	}, {
-	    "name": "Tyranitar",
+	    "name": "班基拉斯",
 	    "types": ["rock", "dark"],
 	    "id": "tyranitar",
 	    "stats": {
@@ -3924,7 +3924,7 @@
 	        "spe": 61
 	    }
 	}, {
-	    "name": "Stonjourner",
+	    "name": "巨石丁",
 	    "types": ["rock"],
 	    "id": "stonjourner",
 	    "stats": {
@@ -3936,7 +3936,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Eiscue",
+	    "name": "冰砌鵝",
 	    "types": ["ice"],
 	    "id": "eiscue",
 	    "stats": {
@@ -3948,7 +3948,7 @@
 	        "spe": 130
 	    }
 	}, {
-	    "name": "Pincurchin",
+	    "name": "啪嚓海膽",
 	    "types": ["electric"],
 	    "id": "pincurchin",
 	    "stats": {
@@ -3960,7 +3960,7 @@
 	        "spe": 15
 	    }
 	}, {
-	    "name": "Sandygast",
+	    "name": "沙丘娃",
 	    "types": ["ghost", "ground"],
 	    "id": "sandygast",
 	    "stats": {
@@ -3972,7 +3972,7 @@
 	        "spe": 15
 	    }
 	}, {
-	    "name": "Palossand",
+	    "name": "噬沙堡爺",
 	    "types": ["ghost", "ground"],
 	    "id": "palossand",
 	    "stats": {
@@ -3984,7 +3984,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Slowpoke",
+	    "name": "呆呆獸",
 	    "types": ["water", "psychic"],
 	    "id": "slowpoke",
 	    "stats": {
@@ -3996,7 +3996,7 @@
 	        "spe": 15
 	    }
 	}, {
-	    "name": "Slowbro",
+	    "name": "呆殼獸",
 	    "types": ["water", "psychic"],
 	    "id": "slowbro",
 	    "stats": {
@@ -4008,7 +4008,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Slowking",
+	    "name": "呆呆王",
 	    "types": ["water", "psychic"],
 	    "id": "slowking",
 	    "stats": {
@@ -4020,7 +4020,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Shellos",
+	    "name": "無殼海兔",
 	    "types": ["water"],
 	    "id": "shellos",
 	    "stats": {
@@ -4032,7 +4032,7 @@
 	        "spe": 34
 	    }
 	}, {
-	    "name": "Gastrodon",
+	    "name": "海兔獸",
 	    "types": ["water", "ground"],
 	    "id": "gastrodon",
 	    "stats": {
@@ -4044,7 +4044,7 @@
 	        "spe": 39
 	    }
 	}, {
-	    "name": "Shellder",
+	    "name": "大舌貝",
 	    "types": ["water"],
 	    "id": "shellder",
 	    "stats": {
@@ -4056,7 +4056,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Cloyster",
+	    "name": "刺甲貝",
 	    "types": ["water", "ice"],
 	    "id": "cloyster",
 	    "stats": {
@@ -4068,7 +4068,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Qwilfish",
+	    "name": "千針魚",
 	    "types": ["water", "poison"],
 	    "id": "qwilfish",
 	    "stats": {
@@ -4080,7 +4080,7 @@
 	        "spe": 85
 	    }
 	}, {
-	    "name": "Luvdisc",
+	    "name": "愛心魚",
 	    "types": ["water"],
 	    "id": "luvdisc",
 	    "stats": {
@@ -4092,7 +4092,7 @@
 	        "spe": 97
 	    }
 	}, {
-	    "name": "Finneon",
+	    "name": "螢光魚",
 	    "types": ["water"],
 	    "id": "finneon",
 	    "stats": {
@@ -4104,7 +4104,7 @@
 	        "spe": 66
 	    }
 	}, {
-	    "name": "Lumineon",
+	    "name": "霓虹魚",
 	    "types": ["water"],
 	    "id": "lumineon",
 	    "stats": {
@@ -4116,7 +4116,7 @@
 	        "spe": 91
 	    }
 	}, {
-	    "name": "Bruxish",
+	    "name": "磨牙彩皮魚",
 	    "types": ["water", "psychic"],
 	    "id": "bruxish",
 	    "stats": {
@@ -4128,7 +4128,7 @@
 	        "spe": 92
 	    }
 	}, {
-	    "name": "Alomomola",
+	    "name": "保母曼波",
 	    "types": ["water"],
 	    "id": "alomomola",
 	    "stats": {
@@ -4140,7 +4140,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Skrelp",
+	    "name": "垃垃藻",
 	    "types": ["poison", "water"],
 	    "id": "skrelp",
 	    "stats": {
@@ -4152,7 +4152,7 @@
 	        "spe": 30
 	    }
 	}, {
-	    "name": "Dragalge",
+	    "name": "毒藻龍",
 	    "types": ["poison", "dragon"],
 	    "id": "dragalge",
 	    "stats": {
@@ -4164,7 +4164,7 @@
 	        "spe": 44
 	    }
 	}, {
-	    "name": "Clauncher",
+	    "name": "鐵臂槍蝦",
 	    "types": ["water"],
 	    "id": "clauncher",
 	    "stats": {
@@ -4176,7 +4176,7 @@
 	        "spe": 44
 	    }
 	}, {
-	    "name": "Clawitzer",
+	    "name": "鋼炮臂蝦",
 	    "types": ["water"],
 	    "id": "clawitzer",
 	    "stats": {
@@ -4188,7 +4188,7 @@
 	        "spe": 59
 	    }
 	}, {
-	    "name": "Tynamo",
+	    "name": "麻麻小魚",
 	    "types": ["electric"],
 	    "id": "tynamo",
 	    "stats": {
@@ -4200,7 +4200,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Eelektrik",
+	    "name": "麻麻鰻",
 	    "types": ["electric"],
 	    "id": "eelektrik",
 	    "stats": {
@@ -4212,7 +4212,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Eelektross",
+	    "name": "麻麻鰻魚王",
 	    "types": ["electric"],
 	    "id": "eelektross",
 	    "stats": {
@@ -4224,7 +4224,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Mareanie",
+	    "name": "好壞星",
 	    "types": ["poison", "water"],
 	    "id": "mareanie",
 	    "stats": {
@@ -4236,7 +4236,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Toxapex",
+	    "name": "超壞星",
 	    "types": ["poison", "water"],
 	    "id": "toxapex",
 	    "stats": {
@@ -4248,7 +4248,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Flamigo",
+	    "name": "纏紅鶴",
 	    "types": ["flying", "fighting"],
 	    "id": "flamigo",
 	    "stats": {
@@ -4260,7 +4260,7 @@
 	        "spe": 90
 	    }
 	}, {
-	    "name": "Dratini",
+	    "name": "迷你龍",
 	    "types": ["dragon"],
 	    "id": "dratini",
 	    "stats": {
@@ -4272,7 +4272,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Dragonair",
+	    "name": "哈克龍",
 	    "types": ["dragon"],
 	    "id": "dragonair",
 	    "stats": {
@@ -4284,7 +4284,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Dragonite",
+	    "name": "快龍",
 	    "types": ["dragon"],
 	    "id": "dragonite",
 	    "stats": {
@@ -4296,7 +4296,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Snom",
+	    "name": "雪吞蟲",
 	    "types": ["ice", "bug"],
 	    "id": "snom",
 	    "stats": {
@@ -4308,7 +4308,7 @@
 	        "spe": 20
 	    }
 	}, {
-	    "name": "Frosmoth",
+	    "name": "雪絨蛾",
 	    "types": ["ice", "bug"],
 	    "id": "frosmoth",
 	    "stats": {
@@ -4320,7 +4320,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Snover",
+	    "name": "雪笠怪",
 	    "types": ["grass", "ice"],
 	    "id": "snover",
 	    "stats": {
@@ -4332,7 +4332,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Abomasnow",
+	    "name": "暴雪王",
 	    "types": ["grass", "ice"],
 	    "id": "abomasnow",
 	    "stats": {
@@ -4344,7 +4344,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Delibird",
+	    "name": "信使鳥",
 	    "types": ["ice", "flying"],
 	    "id": "delibird",
 	    "stats": {
@@ -4356,7 +4356,7 @@
 	        "spe": 75
 	    }
 	}, {
-	    "name": "Cubchoo",
+	    "name": "噴嚏熊",
 	    "types": ["ice"],
 	    "id": "cubchoo",
 	    "stats": {
@@ -4368,7 +4368,7 @@
 	        "spe": 40
 	    }
 	}, {
-	    "name": "Beartic",
+	    "name": "凍原熊",
 	    "types": ["ice"],
 	    "id": "beartic",
 	    "stats": {
@@ -4380,7 +4380,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Snorunt",
+	    "name": "雪童子",
 	    "types": ["ice"],
 	    "id": "snorunt",
 	    "stats": {
@@ -4392,7 +4392,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Glalie",
+	    "name": "冰鬼護",
 	    "types": ["ice"],
 	    "id": "glalie",
 	    "stats": {
@@ -4404,7 +4404,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Froslass",
+	    "name": "雪妖女",
 	    "types": ["ice", "ghost"],
 	    "id": "froslass",
 	    "stats": {
@@ -4416,7 +4416,7 @@
 	        "spe": 110
 	    }
 	}, {
-	    "name": "Cryogonal",
+	    "name": "幾何雪花",
 	    "types": ["ice"],
 	    "id": "cryogonal",
 	    "stats": {
@@ -4428,7 +4428,7 @@
 	        "spe": 105
 	    }
 	}, {
-	    "name": "Cetoddle",
+	    "name": "走鯨",
 	    "types": ["ice"],
 	    "id": "cetoddle",
 	    "stats": {
@@ -4440,7 +4440,7 @@
 	        "spe": 43
 	    }
 	}, {
-	    "name": "Cetitan",
+	    "name": "浩大鯨",
 	    "types": ["ice"],
 	    "id": "cetitan",
 	    "stats": {
@@ -4452,7 +4452,7 @@
 	        "spe": 73
 	    }
 	}, {
-	    "name": "Bergmite",
+	    "name": "冰寶",
 	    "types": ["ice"],
 	    "id": "bergmite",
 	    "stats": {
@@ -4464,7 +4464,7 @@
 	        "spe": 28
 	    }
 	}, {
-	    "name": "Avalugg",
+	    "name": "冰岩怪",
 	    "types": ["ice"],
 	    "id": "avalugg",
 	    "stats": {
@@ -4476,7 +4476,7 @@
 	        "spe": 28
 	    }
 	}, {
-	    "name": "Rufflet",
+	    "name": "毛頭小鷹",
 	    "types": ["normal", "flying"],
 	    "id": "rufflet",
 	    "stats": {
@@ -4488,7 +4488,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Braviary",
+	    "name": "勇士雄鷹",
 	    "types": ["normal", "flying"],
 	    "id": "braviary",
 	    "stats": {
@@ -4500,7 +4500,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Pawniard",
+	    "name": "駒刀小兵",
 	    "types": ["dark", "steel"],
 	    "id": "pawniard",
 	    "stats": {
@@ -4512,7 +4512,7 @@
 	        "spe": 60
 	    }
 	}, {
-	    "name": "Bisharp",
+	    "name": "劈斬司令",
 	    "types": ["dark", "steel"],
 	    "id": "bisharp",
 	    "stats": {
@@ -4524,7 +4524,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Kingambit",
+	    "name": "仆斬將軍",
 	    "types": ["dark", "steel"],
 	    "id": "kingambit",
 	    "stats": {
@@ -4536,7 +4536,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Deino",
+	    "name": "單首龍",
 	    "types": ["dark", "dragon"],
 	    "id": "deino",
 	    "stats": {
@@ -4548,7 +4548,7 @@
 	        "spe": 38
 	    }
 	}, {
-	    "name": "Zweilous",
+	    "name": "雙首暴龍",
 	    "types": ["dark", "dragon"],
 	    "id": "zweilous",
 	    "stats": {
@@ -4560,7 +4560,7 @@
 	        "spe": 58
 	    }
 	}, {
-	    "name": "Hydreigon",
+	    "name": "三首惡龍",
 	    "types": ["dark", "dragon"],
 	    "id": "hydreigon",
 	    "stats": {
@@ -4572,7 +4572,7 @@
 	        "spe": 98
 	    }
 	}, {
-	    "name": "Veluza",
+	    "name": "輕身鱈",
 	    "types": ["water", "psychic"],
 	    "id": "veluza",
 	    "stats": {
@@ -4584,7 +4584,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Dondozo",
+	    "name": "吃吼霸",
 	    "types": ["water"],
 	    "id": "dondozo",
 	    "stats": {
@@ -4596,7 +4596,7 @@
 	        "spe": 35
 	    }
 	}, {
-	    "name": "Tatsugiri",
+	    "name": "米立龍",
 	    "types": ["dragon", "water"],
 	    "id": "tatsugiri",
 	    "stats": {
@@ -4608,7 +4608,7 @@
 	        "spe": 82
 	    }
 	}, {
-	    "name": "Great Tusk",
+	    "name": "雄偉牙",
 	    "types": ["ground", "fighting"],
 	    "id": "great_tusk",
 	    "stats": {
@@ -4620,7 +4620,7 @@
 	        "spe": 87
 	    }
 	}, {
-	    "name": "Scream Tail",
+	    "name": "吼叫尾",
 	    "types": ["fairy", "psychic"],
 	    "id": "scream_tail",
 	    "stats": {
@@ -4632,7 +4632,7 @@
 	        "spe": 111
 	    }
 	}, {
-	    "name": "Brute Bonnet",
+	    "name": "猛惡菇",
 	    "types": ["grass", "dark"],
 	    "id": "brute_bonnet",
 	    "stats": {
@@ -4644,7 +4644,7 @@
 	        "spe": 55
 	    }
 	}, {
-	    "name": "Flutter Mane",
+	    "name": "振翼髮",
 	    "types": ["ghost", "fairy"],
 	    "id": "flutter_mane",
 	    "stats": {
@@ -4656,7 +4656,7 @@
 	        "spe": 135
 	    }
 	}, {
-	    "name": "Slither Wing",
+	    "name": "爬地翅",
 	    "types": ["bug", "fighting"],
 	    "id": "slither_wing",
 	    "stats": {
@@ -4668,7 +4668,7 @@
 	        "spe": 81
 	    }
 	}, {
-	    "name": "Sandy Shocks",
+	    "name": "沙鐵皮",
 	    "types": ["electric", "ground"],
 	    "id": "sandy_shocks",
 	    "stats": {
@@ -4680,7 +4680,7 @@
 	        "spe": 101
 	    }
 	}, {
-	    "name": "Iron Treads",
+	    "name": "鐵轍跡",
 	    "types": ["ground", "steel"],
 	    "id": "iron_treads",
 	    "stats": {
@@ -4692,7 +4692,7 @@
 	        "spe": 106
 	    }
 	}, {
-	    "name": "Iron Bundle",
+	    "name": "鐵包袱",
 	    "types": ["ice", "water"],
 	    "id": "iron_bundle",
 	    "stats": {
@@ -4704,7 +4704,7 @@
 	        "spe": 136
 	    }
 	}, {
-	    "name": "Iron Hands",
+	    "name": "鐵臂膀",
 	    "types": ["fighting", "electric"],
 	    "id": "iron_hands",
 	    "stats": {
@@ -4716,7 +4716,7 @@
 	        "spe": 50
 	    }
 	}, {
-	    "name": "Iron Jugulis",
+	    "name": "鐵脖頸",
 	    "types": ["dark", "flying"],
 	    "id": "iron_jugulis",
 	    "stats": {
@@ -4728,7 +4728,7 @@
 	        "spe": 108
 	    }
 	}, {
-	    "name": "Iron Moth",
+	    "name": "鐵毒蛾",
 	    "types": ["fire", "poison"],
 	    "id": "iron_moth",
 	    "stats": {
@@ -4740,7 +4740,7 @@
 	        "spe": 110
 	    }
 	}, {
-	    "name": "Iron Thorns",
+	    "name": "鐵荊棘",
 	    "types": ["rock", "electric"],
 	    "id": "iron_thorns",
 	    "stats": {
@@ -4752,7 +4752,7 @@
 	        "spe": 72
 	    }
 	}, {
-	    "name": "Frigibax",
+	    "name": "涼脊龍",
 	    "types": ["dragon", "ice"],
 	    "id": "frigibax",
 	    "stats": {
@@ -4764,7 +4764,7 @@
 	        "spe": 55
 	    }
 	}, {
-	    "name": "Arctibax",
+	    "name": "凍脊龍",
 	    "types": ["dragon", "ice"],
 	    "id": "arctibax",
 	    "stats": {
@@ -4776,7 +4776,7 @@
 	        "spe": 62
 	    }
 	}, {
-	    "name": "Baxcalibur",
+	    "name": "戟脊龍",
 	    "types": ["dragon", "ice"],
 	    "id": "baxcalibur",
 	    "stats": {
@@ -4788,7 +4788,7 @@
 	        "spe": 87
 	    }
 	}, {
-	    "name": "Gimmighoul",
+	    "name": "索財靈",
 	    "types": ["ghost"],
 	    "id": "gimmighoul",
 	    "stats": {
@@ -4800,7 +4800,7 @@
 	        "spe": 10
 	    }
 	}, {
-	    "name": "Gholdengo",
+	    "name": "賽富豪",
 	    "types": ["steel", "ghost"],
 	    "id": "gholdengo",
 	    "stats": {
@@ -4812,7 +4812,7 @@
 	        "spe": 84
 	    }
 	}, {
-	    "name": "Wo-Chien",
+	    "name": "古簡蝸",
 	    "types": ["dark", "grass"],
 	    "id": "wo-chien",
 	    "stats": {
@@ -4824,7 +4824,7 @@
 	        "spe": 70
 	    }
 	}, {
-	    "name": "Chien-Pao",
+	    "name": "古劍豹",
 	    "types": ["dark", "ice"],
 	    "id": "chien-pao",
 	    "stats": {
@@ -4836,7 +4836,7 @@
 	        "spe": 135
 	    }
 	}, {
-	    "name": "Ting-Lu",
+	    "name": "古鼎鹿",
 	    "types": ["dark", "ground"],
 	    "id": "ting-lu",
 	    "stats": {
@@ -4848,7 +4848,7 @@
 	        "spe": 45
 	    }
 	}, {
-	    "name": "Chi-Yu",
+	    "name": "古玉魚",
 	    "types": ["dark", "fire"],
 	    "id": "chi-yu",
 	    "stats": {
@@ -4860,7 +4860,7 @@
 	        "spe": 100
 	    }
 	}, {
-	    "name": "Roaring Moon",
+	    "name": "轟鳴月",
 	    "types": ["dragon", "dark"],
 	    "id": "roaring_moon",
 	    "stats": {
@@ -4872,7 +4872,7 @@
 	        "spe": 119
 	    }
 	}, {
-	    "name": "Iron Valiant",
+	    "name": "鐵武者",
 	    "types": ["fairy", "fighting"],
 	    "id": "iron_valiant",
 	    "stats": {
@@ -4884,7 +4884,7 @@
 	        "spe": 116
 	    }
 	}, {
-	    "name": "Koraidon",
+	    "name": "故勒頓",
 	    "types": ["fighting", "dragon"],
 	    "id": "koraidon",
 	    "stats": {
@@ -4896,7 +4896,7 @@
 	        "spe": 135
 	    }
 	}, {
-	    "name": "Miraidon",
+	    "name": "密勒頓",
 	    "types": ["electric", "dragon"],
 	    "id": "miraidon",
 	    "stats": {
@@ -4908,7 +4908,7 @@
 	        "spe": 135
 	    }
 	}, {
-	    "name": "Charmander",
+	    "name": "小火龍",
 	    "types": ["fire"],
 	    "id": "charmander",
 	    "stats": {
@@ -4920,7 +4920,7 @@
 	        "spe": 65
 	    }
 	}, {
-	    "name": "Charmeleon",
+	    "name": "火恐龍",
 	    "types": ["fire"],
 	    "id": "charmeleon",
 	    "stats": {
@@ -4932,7 +4932,7 @@
 	        "spe": 80
 	    }
 	}, {
-	    "name": "Charizard",
+	    "name": "噴火龍",
 	    "types": ["fire", "flying"],
 	    "id": "charizard",
 	    "stats": {
@@ -4944,7 +4944,7 @@
 	        "spe": 100
 	    }
 	}, {
-	    "name": "Scorbunny",
+	    "name": "炎兔兒",
 	    "types": ["fire"],
 	    "id": "scorbunny",
 	    "stats": {
@@ -4956,7 +4956,7 @@
 	        "spe": 69
 	    }
 	}, {
-	    "name": "Raboot",
+	    "name": "騰蹴小將",
 	    "types": ["fire"],
 	    "id": "raboot",
 	    "stats": {
@@ -4968,7 +4968,7 @@
 	        "spe": 94
 	    }
 	}, {
-	    "name": "Cinderace",
+	    "name": "閃焰王牌",
 	    "types": ["fire"],
 	    "id": "cinderace",
 	    "stats": {
@@ -4980,7 +4980,7 @@
 	        "spe": 119
 	    }
 	}, {
-	    "name": "Froakie",
+	    "name": "呱呱泡蛙",
 	    "types": ["water"],
 	    "id": "froakie",
 	    "stats": {
@@ -4992,7 +4992,7 @@
 	        "spe": 71
 	    }
 	}, {
-	    "name": "Frogadier",
+	    "name": "呱頭蛙",
 	    "types": ["water"],
 	    "id": "frogadier",
 	    "stats": {
@@ -5004,7 +5004,7 @@
 	        "spe": 97
 	    }
 	}, {
-	    "name": "Greninja",
+	    "name": "甲賀忍蛙",
 	    "types": ["water", "dark"],
 	    "id": "greninja",
 	    "stats": {
@@ -5016,7 +5016,7 @@
 	        "spe": 122
 	    }
 	}, {
-	    "name": "Wooper",
+	    "name": "烏波",
 	    "types": ["water", "ground"],
 	    "id": "wooper",
 	    "stats": {
@@ -5028,7 +5028,7 @@
 	        "spe": 15
 	    }
 	}, {
-	    "name": "Quagsire",
+	    "name": "沼王",
 	    "types": ["water", "ground"],
 	    "id": "quagsire",
 	    "stats": {

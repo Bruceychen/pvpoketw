@@ -28,8 +28,8 @@
 	<h3>寶可夢 朱 &amp; 紫</h3>
 
 	<a href="<?php echo $WEB_ROOT; ?>tera/" class="button tera-button">
-		<h2 class="icon-tera">太晶戰屬性搭配計算</h2>
-		<p>NS本傳太晶頭目戰，寶可夢屬性搭配計算</p>
+		<h2 class="icon-tera">太晶戰反制計算器</h2>
+		<p>NS本傳太晶團體戰，反制寶可夢屬性搭配計算</p>
 	</a>
 
 	<?php require 'modules/ads/body-728.php'; ?>
@@ -95,7 +95,7 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Mon Jan 23 23:15:28 2022 +0800</li>
+                <li>中文版最後更新時間：Mon Jan 24 00:35:28 2022 +0800</li>
                 <li>原版最後版本時間：Sun Jan 22 14:22:11 2023 -0600</li>
             </ul>
 </div>

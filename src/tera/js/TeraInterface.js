@@ -365,7 +365,7 @@ var InterfaceMaster = (function () {
 			$(".results-section a.results-options").click(function(e){
 				e.preventDefault();
 
-				let modal = modalWindow("Counter Options", $(".results-options.template").first().clone().removeClass("template"));
+				let modal = modalWindow("排序選項", $(".results-options.template").first().clone().removeClass("template"));
 
 				$(".modal .score-sort-select option[value='"+displayOptions.sort+"']").prop("selected", "selected");
 

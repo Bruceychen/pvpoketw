@@ -5,7 +5,7 @@ if(isset($_GET['p']) && isset($_GET['t'])){
 
 	$name = ucwords(str_replace('_',' ', explode('-', htmlspecialchars($_GET['p']))[0]));
 
-	$META_TITLE = $name . ' 太晶戰計算器';
+	$META_TITLE = $name . ' 太晶戰反制計算器';
 
 	$META_DESCRIPTION = 'Check ' . $name . ' Tera Raid counters and attackers with the best calculated type matchups.';
 
@@ -174,9 +174,8 @@ require_once 'header.php'; ?>
 			</div>
 
 			<p><b>反制分數</b>:結合寶可夢攻擊與防禦分數的綜合結果。</p>
-			<p><b>攻擊分數</b>:結合寶可夢攻擊與防禦的分數加成結果。</p>
-			<p><b>防禦分數</b>:is the inverse of a Pokemon's defensive damage multipliers based on the raid boss's attack types,
-                the Pokemon's base typing, and its Tera type. It factors in STAB and base stats.</p>
+			<p><b>攻擊分數</b>:此寶可夢最佳攻擊傷害值與頭目太晶屬性的計算結果。包含考量招式屬性加成與基礎數值。</p>
+			<p><b>防禦分數</b>:相反情況下此寶可夢所承受的傷害值、自身屬性、自身太晶屬性、基礎數值，與頭目招式屬性的計算結果。</p>
 		</div>
 
 		<div class="results-options template">

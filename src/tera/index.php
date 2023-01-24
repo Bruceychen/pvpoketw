@@ -35,7 +35,7 @@ require_once 'header.php'; ?>
 
 		<div class="flex">
 			<div class="poke-search-container">
-				<input type="text" id="poke-search" placeholder="搜尋寶可夢" />
+				<input type="text" id="poke-search" placeholder="搜尋寶可夢" autocomplete="off" />
 				<select id="poke-select">
 					<option disabled selected value="">選擇一個寶可夢</option>
 				</select>

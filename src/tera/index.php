@@ -145,6 +145,11 @@ require_once 'header.php'; ?>
 			</div>
 		</div>
 
+		<div class="name-details template template">
+			<div class="pokemon-name"></div>
+			<div class="traits flex"></div>
+		</div>
+
 		<div class="share-link-container">
 			<p>分享此太晶戰的分析計算結果:</p>
 			<div class="share-link">
@@ -159,6 +164,10 @@ require_once 'header.php'; ?>
 				<div class="type-container"></div>
 				<div class="label">太晶化屬性</div>
 			</div>
+            <div class="traits-container full-row border-bottom">
+                <div class="traits flex"></div>
+                <div class="label">Traits</div>
+            </div>
 			<div class="overall full-row border-bottom">
 				<div class="score"></div>
 				<div class="label">反制分數</div>
@@ -198,7 +207,8 @@ require_once 'header.php'; ?>
 
 
 	<script src="<?php echo $WEB_ROOT; ?>tera/js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>
-
+	<script src="<?php echo $WEB_ROOT; ?>tera/js/Trait.js?v=<?php echo $SITE_VERSION; ?>"></script>
+	<script src="<?php echo $WEB_ROOT; ?>tera/js/Pokemon.js?v=<?php echo $SITE_VERSION; ?>"></script>
 	<script src="<?php echo $WEB_ROOT; ?>tera/js/TeraRanker.js?v=<?php echo $SITE_VERSION; ?>"></script>
 	<script src="<?php echo $WEB_ROOT; ?>tera/js/TeraInterface.js?v=<?php echo $SITE_VERSION; ?>"></script>
 	<script src="<?php echo $WEB_ROOT; ?>tera/js/ModalWindow.js?v=<?php echo $SITE_VERSION; ?>"></script>

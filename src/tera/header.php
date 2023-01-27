@@ -1,5 +1,5 @@
 <?php require_once '../modules/config.php';
-$SITE_VERSION = '1.0.1';
+$SITE_VERSION = '1.1.1';
 
 /*****************************************************************************
 
@@ -21,9 +21,9 @@ if (strpos($WEB_ROOT, 'src') !== false) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php
 if(! isset($META_TITLE)){
-	$META_TITLE = 'Tera Raid Counter Calculator | PvPoke';
+	$META_TITLE = '太晶戰反制計算器 | PvPokeTW';
 } else{
-	$META_TITLE = $META_TITLE . ' | PvPoke';
+	$META_TITLE = $META_TITLE . ' | PvPokeTW';
 }
 
 if(! isset($META_DESCRIPTION)){
@@ -53,7 +53,7 @@ if(isset($_COOKIE['settings'])){
 <meta name="description" content="<?php echo $META_DESCRIPTION; ?>" />
 
 <?php if(isset($CANONICAL)): ?>
-	<link rel="canonical" href="<?php echo $CANONICAL; ?>" /><!--Prevents Google from indexing hundreds of different versions of the same page-->
+	<link rel="canonical" href="<?php echo htmlspecialchars($CANONICAL); ?>" /><!--Prevents Google from indexing hundreds of different versions of the same page-->
 <?php endif; ?>
 
 <!--OG tags for social-->
@@ -69,7 +69,7 @@ if(isset($_COOKIE['settings'])){
 
 <link id="favicon" rel="icon" href="<?php echo $WEB_ROOT; ?>img/favicon.png">
 
-<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>tera/css/tera-style.css?v=3">
+<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>tera/css/tera-style.css?v=4">
 
 <script src="<?php echo $WEB_ROOT; ?>js/libs/jquery-3.3.1.min.js"></script>
 

@@ -74,7 +74,18 @@ var InterfaceMaster = (function () {
 					}
 
 					let $row = $('<tr><td></td><td>-</td><td></td><td></td></tr>');
-					$row.find("td").eq(0).html(r[i].pokemon.name);
+
+					// Display name and traits
+					let $name = $(".name-details.template").first().clone().removeClass("template");
+					let traits = r[i].pokemon.getActiveTraits();
+
+					$name.find(".pokemon-name").html(r[i].pokemon.name);
+
+					for(var n = 0; n < traits.length; n++){
+						$name.find(".traits").append("<div class=\"trait\">"+traits[n].name+"</div>");
+					}
+
+					$row.find("td").eq(0).html($name);
 
 					// Show Pokemon typings
 					let $types = $("<div class='flex'></div>");
@@ -87,7 +98,7 @@ var InterfaceMaster = (function () {
 					$row.find("td").eq(1).html($types);
 
 					// Show Pokemon tera type
-					let $teraType = createTypeLabel(r[i].tera, true, false);
+					let $teraType = createTypeLabel(r[i].pokemon.tera, true, false);
 					$row.find("td").eq(2).html($teraType);
 
 					// Show Pokemon's score
@@ -152,7 +163,7 @@ var InterfaceMaster = (function () {
 						switch(key){
 							case "p":
 								// Set selected Pokemon
-								selectedPokemon = gm.getPokemonById(val);
+								selectedPokemon = new Pokemon(val);
 								$("#poke-select option[value='"+val+"']").prop("selected", "selected");
 
 								// Default to stab types
@@ -178,9 +189,11 @@ var InterfaceMaster = (function () {
 
 				}
 
+				selectedPokemon.tera = selectedTera;
+
 				updateRaidBossDisplay();
 
-				let r = ranker.rankAttackers(selectedPokemon, selectedTypes, selectedTera);
+				let r = ranker.rankAttackers(selectedPokemon, selectedTypes);
 
 				results = r;
 
@@ -210,8 +223,10 @@ var InterfaceMaster = (function () {
 					return false;
 				}
 
+				selectedPokemon.tera = selectedTera;
 
-				let r = ranker.rankAttackers(selectedPokemon, selectedTypes, selectedTera);
+
+				let r = ranker.rankAttackers(selectedPokemon, selectedTypes);
 
 				results = r;
 
@@ -365,12 +380,22 @@ var InterfaceMaster = (function () {
 				$details.find(".offense .score").html(offense);
 				$details.find(".defense .score").html(defense);
 
+				let traits = r.pokemon.getActiveTraits();
+
+				for(var i = 0; i < traits.length; i++){
+					$details.find(".traits").append("<div class=\"trait\">"+traits[i].name+"</div>");
+				}
+
+				if(traits.length == 0){
+					$details.find(".traits-container").hide();
+				}
+
 				// Display typings
 				for(var i = 0; i < r.pokemon.types.length; i++){
 					$details.find(".typings").append(createTypeLabel(r.pokemon.types[i], false, false));
 				}
 
-				$details.find(".tera-type .type-container").append(createTypeLabel(r.tera, true, false));
+				$details.find(".tera-type .type-container").append(createTypeLabel(r.pokemon.tera, true, false));
 
 				let modal = modalWindow(r.pokemon.name, $details);
 			});
@@ -378,7 +403,7 @@ var InterfaceMaster = (function () {
 			// Open results options modal
 			$(".results-section a.results-options").click(function(e){
 				e.preventDefault();
-
+				// 以下這行介面翻譯
 				let modal = modalWindow("排序選項", $(".results-options.template").first().clone().removeClass("template"));
 
 				$(".modal .score-sort-select option[value='"+displayOptions.sort+"']").prop("selected", "selected");
@@ -408,7 +433,7 @@ var InterfaceMaster = (function () {
 					return;
 				}
 
-				selectedPokemon = gm.getPokemonById(id);
+				selectedPokemon = new Pokemon(id, selectedTera);
 
 				selectedTypes = [];
 

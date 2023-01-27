@@ -10,7 +10,7 @@ function TeraRanker(){
 
 	let allTypes = ["bug","dark","dragon","electric","fairy","fighting","fire","flying","ghost","grass","ground","ice","normal","poison","psychic","rock","steel","water"];
 
-	this.rankAttackers = function(raidBoss, raidTypes, raidTera){
+	this.rankAttackers = function(raidBoss, raidTypes){
 
 		// For each possible defensive and offensive type combination, calculate a defensive score
 		let ranks = self.generateRankingList();
@@ -20,8 +20,8 @@ function TeraRanker(){
 		for(var i = 0; i < ranks.length; i++){
 			let rank = ranks[i];
 
-			rank.defense = self.scoreDefense(raidBoss, rank.pokemon, rank.tera, raidTypes, raidTera);
-			rank.offense = self.scoreOffense(raidBoss, rank.pokemon, rank.tera, raidTera);
+			rank.defense = self.scoreDefense(raidBoss, rank.pokemon, raidTypes);
+			rank.offense = self.scoreOffense(raidBoss, rank.pokemon);
 
 			if(rank.defense > 0){
 				rank.overall = rank.offense / rank.defense; // Overall score = damage output / damage input
@@ -35,25 +35,25 @@ function TeraRanker(){
 
 	// Given a type combo, score offensively given the raid's tera type
 
-	this.scoreOffense = function(raidBoss, attacker, attackerTera, raidTera){
+	this.scoreOffense = function(raidBoss, attacker){
 
 		// Score the Pokemon's base types offensively
 		let baseScore = 1;
 		let neutralEffectiveness = 1;
-		let attackerType1Effectiveness = self.getEffectiveness(attacker.types[0], raidTera) * 1.5;
+		let attackerType1Effectiveness = self.getEffectivenessTraits(attacker.types[0], raidBoss.tera, attacker, raidBoss) * 1.5;
 
 		// The Pokemon will use its most effective offensive type, or at worst a neutral non-STAB move
 		if(attacker.types.length > 1){
-			let attackerType2Effectiveness = self.getEffectiveness(attacker.types[1], raidTera) * 1.5;
+			let attackerType2Effectiveness = self.getEffectivenessTraits(attacker.types[1], raidBoss.tera, attacker, raidBoss) * 1.5;
 			baseScore = Math.max(neutralEffectiveness, attackerType1Effectiveness, attackerType2Effectiveness);
 		} else{
 			baseScore = Math.max(neutralEffectiveness, attackerType1Effectiveness);
 		}
 
-		let teraScore = self.getEffectiveness(attackerTera, raidTera);
+		let teraScore = self.getEffectivenessTraits(attacker.tera, raidBoss.tera, attacker, raidBoss);
 
 		// Apply STAB
-		if(attacker.types.indexOf(attackerTera) > -1){
+		if(attacker.types.indexOf(attacker.tera) > -1){
 			teraScore *= 2.25;
 		} else{
 			teraScore *= 1.5;
@@ -85,15 +85,15 @@ function TeraRanker(){
 
 	// Given a type combo, score defensively given offensive types
 
-	this.scoreDefense = function(raidBoss, defender, defenderTera, raidTypes, raidTera){
+	this.scoreDefense = function(raidBoss, defender, raidTypes){
 
 		// Score the Pokemon's base types defensively
 		let baseScore = 0;
 		let arr = []; // Store effectiveness for each move in an array
 
 		for(var i = 0; i < raidTypes.length; i++){
-			let effectiveness = self.getEffectiveness(raidTypes[i], defender.types);
-			effectiveness *= self.getStab(raidBoss, raidTypes[i], raidTera);
+			let effectiveness = self.getEffectivenessTraits(raidTypes[i], defender.types, raidBoss, defender);
+			effectiveness *= self.getStab(raidBoss, raidTypes[i], raidBoss.tera);
 
 			arr.push(effectiveness);
 		}
@@ -115,8 +115,8 @@ function TeraRanker(){
 		arr = [];
 
 		for(var i = 0; i < raidTypes.length; i++){
-			effectiveness = self.getEffectiveness(raidTypes[i], defenderTera);
-			effectiveness *= self.getStab(raidBoss, raidTypes[i], raidTera);
+			effectiveness = self.getEffectivenessTraits(raidTypes[i], defender.tera, raidBoss, defender);
+			effectiveness *= self.getStab(raidBoss, raidTypes[i], raidBoss.tera);
 
 			arr.push(effectiveness);
 		}
@@ -160,21 +160,38 @@ function TeraRanker(){
 		let ranks = [];
 
 		for(var i = 0; i < gm.data.pokemon.length; i++){
-			let poke = gm.data.pokemon[i];
+			let data = gm.data.pokemon[i];
+
 
 			// Exclude Pokemon with low base stat total
-			let stats = poke.stats;
+			let stats = data.stats;
 			let total = stats.hp + stats.atk + stats.def + stats.spA + stats.spD + stats.spe;
 			if(total < 425){
 				continue;
 			}
 
 			for(var n = 0; n < allTypes.length; n++){
-				// Add an entry for each Pokemon with each tera type]
+				// Add an entry for each Pokemon with each tera type
+				let poke = new Pokemon(data.id, allTypes[n]);
+
 				ranks.push({
-					pokemon: poke,
-					tera: allTypes[n]
+					pokemon: poke
 				});
+
+				// Add a new version of the Pokemon for each exclusive trait
+				for(var k = 0; k < poke.traits.length; k++){
+					let trait = poke.traits[k];
+
+					if(trait.type == "ability"){
+						let p = new Pokemon(gm.data.pokemon[i].id, allTypes[n]);
+						p.enableTrait(trait.id)
+
+						ranks.push({
+							pokemon: p
+						});
+					}
+				}
+
 			}
 		}
 
@@ -195,10 +212,20 @@ function TeraRanker(){
 		return arr;
 	}
 
+	// Return the effectiveness of a move with Pokemon traits factored in
+
+	this.getEffectivenessTraits = function(moveType, targetTypes, attacker, target){
+		let effectiveness = self.getEffectiveness(moveType, targetTypes);
+		let traitEffect = Trait.evaluateType(moveType, targetTypes, attacker, target);
+
+		effectiveness *= traitEffect;
+		return effectiveness;
+	}
+
 	// Given a move type and array of defensive types, return the final type effectiveness multiplier
 
 	this.getEffectiveness = function(moveType, targetTypes){
-		var effectiveness = 1;
+		let effectiveness = 1;
 
 		if(! Array.isArray(targetTypes)){
 			targetTypes = [targetTypes];

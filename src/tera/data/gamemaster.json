@@ -646,7 +646,8 @@
 	        "spA": 25,
 	        "spD": 25,
 	        "spe": 15
-	    }
+	    },
+		"traits": ["water_absorb"]
 	}, {
 	    "name": "土王",
 	    "types": ["poison", "ground"],
@@ -658,7 +659,8 @@
 	        "spA": 45,
 	        "spD": 100,
 	        "spe": 20
-	    }
+	    },
+		"traits": ["water_absorb"]
 	}, {
 	    "name": "可達鴨",
 	    "types": ["water"],
@@ -2230,7 +2232,8 @@
 	        "spA": 110,
 	        "spD": 95,
 	        "spe": 65
-	    }
+	    },
+		"traits": ["water_absorb"]
 	}, {
 	    "name": "雷伊布",
 	    "types": ["electric"],
@@ -3130,7 +3133,8 @@
 	        "spA": 85,
 	        "spD": 40,
 	        "spe": 35
-	    }
+	    },
+		"traits": ["water_absorb"]
 	}, {
 	    "name": "夢歌仙人掌",
 	    "types": ["grass", "dark"],
@@ -3142,7 +3146,8 @@
 	        "spA": 115,
 	        "spD": 60,
 	        "spe": 55
-	    }
+	    },
+		"traits": ["water_absorb"]
 	}, {
 	    "name": "蟲滾泥",
 	    "types": ["bug"],
@@ -4030,7 +4035,8 @@
 	        "spA": 57,
 	        "spD": 62,
 	        "spe": 34
-	    }
+	    },
+		"traits": ["storm_drain"]
 	}, {
 	    "name": "海兔獸",
 	    "types": ["water", "ground"],
@@ -4042,7 +4048,8 @@
 	        "spA": 92,
 	        "spD": 82,
 	        "spe": 39
-	    }
+	    },
+		"traits": ["storm_drain"]
 	}, {
 	    "name": "大舌貝",
 	    "types": ["water"],
@@ -4102,7 +4109,8 @@
 	        "spA": 49,
 	        "spD": 61,
 	        "spe": 66
-	    }
+	    },
+		"traits": ["storm_drain"]
 	}, {
 	    "name": "霓虹魚",
 	    "types": ["water"],
@@ -4114,7 +4122,8 @@
 	        "spA": 69,
 	        "spD": 86,
 	        "spe": 91
-	    }
+	    },
+		"traits": ["storm_drain"]
 	}, {
 	    "name": "磨牙彩皮魚",
 	    "types": ["water", "psychic"],
@@ -4606,7 +4615,8 @@
 	        "spA": 120,
 	        "spD": 95,
 	        "spe": 82
-	    }
+	    },
+		"traits": ["storm_drain"]
 	}, {
 	    "name": "雄偉牙",
 	    "types": ["ground", "fighting"],
@@ -5026,7 +5036,8 @@
 	        "spA": 25,
 	        "spD": 25,
 	        "spe": 15
-	    }
+	    },
+		"traits": ["water_absorb"]
 	}, {
 	    "name": "沼王",
 	    "types": ["water", "ground"],
@@ -5038,6 +5049,19 @@
 	        "spA": 65,
 	        "spD": 65,
 	        "spe": 35
-	    }
-	}]
+	    },
+		"traits": ["water_absorb"]
+	}],
+	"traits": [
+		{
+			"name": "Water Absorb",
+			"id": "water_absorb",
+			"type": "ability"
+		},
+		{
+			"name": "Storm Drain",
+			"id": "storm_drain",
+			"type": "ability"
+		}
+	]
 }

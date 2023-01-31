@@ -197,6 +197,19 @@
     "buffApplyChance": "1",
     "archetype": "Self-Debuff Nuke"
 }, {
+    "moveId": "BREAKING_SWIPE",
+    "name": "廣域破壞 預測",
+    "abbreviation": "BkS",
+    "type": "dragon",
+    "power": 50,
+    "energy": 40,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [-1, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": "1",
+    "archetype": "Debuff Spam/Bait"
+}, {
     "moveId": "BRICK_BREAK",
     "name": "劈瓦",
     "abbreviation": "BkB",

@@ -118,7 +118,8 @@
 	        "spA": 35,
 	        "spD": 45,
 	        "spe": 35
-	    }
+	    },
+		"traits": ["thick_fat"]
 	}, {
 	    "name": "飄香豚(雄)",
 	    "types": ["normal"],
@@ -130,7 +131,8 @@
 	        "spA": 59,
 	        "spD": 80,
 	        "spe": 65
-	    }
+	    },
+		"traits": ["thick_fat"]
 	}, {
 	    "name": "飄香豚(雌)",
 	    "types": ["normal"],
@@ -142,7 +144,8 @@
 	        "spA": 59,
 	        "spD": 90,
 	        "spe": 65
-	    }
+	    },
+		"traits": ["thick_fat"]
 	}, {
 	    "name": "團珠蛛",
 	    "types": ["bug"],
@@ -310,7 +313,8 @@
 	        "spA": 80,
 	        "spD": 50,
 	        "spe": 65
-	    }
+	    },
+		"traits": ["flash_fire"]
 	}, {
 	    "name": "黑魯加",
 	    "types": ["dark", "fire"],
@@ -322,7 +326,8 @@
 	        "spA": 110,
 	        "spD": 80,
 	        "spe": 95
-	    }
+	    },
+		"traits": ["flash_fire"]
 	}, {
 	    "name": "貓鼬少",
 	    "types": ["normal"],
@@ -562,7 +567,8 @@
 	        "spA": 20,
 	        "spD": 40,
 	        "spe": 20
-	    }
+	    },
+		"traits": ["thick_fat", "huge_power"]
 	}, {
 	    "name": "瑪力露",
 	    "types": ["water", "fairy"],
@@ -574,19 +580,21 @@
 	        "spA": 20,
 	        "spD": 50,
 	        "spe": 40
-	    }
+	    },
+		"traits": ["thick_fat", "huge_power"]
 	}, {
 	    "name": "瑪力露麗",
 	    "types": ["water", "fairy"],
 	    "id": "azumarill",
 	    "stats": {
 	        "hp": 100,
-	        "atk": 100,
+	        "atk": 50,
 	        "def": 80,
 	        "spA": 60,
 	        "spD": 80,
 	        "spe": 50
-	    }
+	    },
+		"traits": ["thick_fat", "huge_power"]
 	}, {
 	    "name": "溜溜糖球",
 	    "types": ["bug", "water"],
@@ -828,7 +836,8 @@
 	        "spA": 100,
 	        "spD": 35,
 	        "spe": 80
-	    }
+	    },
+		"traits": ["levitate"]
 	}, {
 	    "name": "鬼斯通",
 	    "types": ["ghost", "poison"],
@@ -840,7 +849,8 @@
 	        "spA": 115,
 	        "spD": 55,
 	        "spe": 95
-	    }
+	    },
+		"traits": ["levitate"]
 	}, {
 	    "name": "耿鬼",
 	    "types": ["ghost", "poison"],
@@ -936,7 +946,8 @@
 	        "spA": 50,
 	        "spD": 80,
 	        "spe": 95
-	    }
+	    },
+		"traits": ["well_baked_body"]
 	}, {
 	    "name": "懶人獺",
 	    "types": ["normal"],
@@ -1128,7 +1139,8 @@
 	        "spA": 40,
 	        "spD": 50,
 	        "spe": 30
-	    }
+	    },
+		"traits": ["flash_fire", "heatproof"]
 	}, {
 	    "name": "大炭車",
 	    "types": ["rock"],
@@ -1140,7 +1152,8 @@
 	        "spA": 60,
 	        "spD": 70,
 	        "spe": 50
-	    }
+	    },
+		"traits": ["flash_fire"]
 	}, {
 	    "name": "巨炭山",
 	    "types": ["rock", "fire"],
@@ -1152,7 +1165,8 @@
 	        "spA": 80,
 	        "spD": 90,
 	        "spe": 30
-	    }
+	    },
+		"traits": ["flash_fire"]
 	}, {
 	    "name": "小貓怪",
 	    "types": ["electric"],
@@ -1392,7 +1406,8 @@
 	        "spA": 100,
 	        "spD": 80,
 	        "spe": 30
-	    }
+	    },
+		"traits": ["thick_fat"]
 	}, {
 	    "name": "跳跳豬",
 	    "types": ["psychic"],
@@ -1404,7 +1419,8 @@
 	        "spA": 70,
 	        "spD": 80,
 	        "spe": 60
-	    }
+	    },
+		"traits": ["thick_fat"]
 	}, {
 	    "name": "噗噗豬",
 	    "types": ["psychic"],
@@ -1416,7 +1432,8 @@
 	        "spA": 90,
 	        "spD": 110,
 	        "spe": 80
-	    }
+	    },
+		"traits": ["thick_fat"]
 	}, {
 	    "name": "怒鸚哥",
 	    "types": ["normal", "flying"],
@@ -1440,7 +1457,8 @@
 	        "spA": 85,
 	        "spD": 85,
 	        "spe": 85
-	    }
+	    },
+		"traits": ["levitate"]
 	}, {
 	    "name": "夢妖魔",
 	    "types": ["ghost"],
@@ -1452,7 +1470,8 @@
 	        "spA": 105,
 	        "spD": 105,
 	        "spe": 105
-	    }
+	    },
+		"traits": ["levitate"]
 	}, {
 	    "name": "幕下力士",
 	    "types": ["fighting"],
@@ -1464,7 +1483,8 @@
 	        "spA": 20,
 	        "spD": 30,
 	        "spe": 25
-	    }
+	    },
+		"traits": ["thick_fat"]
 	}, {
 	    "name": "鐵掌力士",
 	    "types": ["fighting"],
@@ -1476,7 +1496,8 @@
 	        "spA": 40,
 	        "spD": 60,
 	        "spe": 50
-	    }
+	    },
+		"traits": ["thick_fat"]
 	}, {
 	    "name": "好勝蟹",
 	    "types": ["fighting"],
@@ -1620,7 +1641,8 @@
 	        "spA": 35,
 	        "spD": 35,
 	        "spe": 25
-	    }
+	    },
+		"traits": ["purifying_salt"]
 	}, {
 	    "name": "鹽石壘",
 	    "types": ["rock"],
@@ -1632,7 +1654,8 @@
 	        "spA": 35,
 	        "spD": 65,
 	        "spe": 35
-	    }
+	    },
+		"traits": ["purifying_salt"]
 	}, {
 	    "name": "鹽石巨靈",
 	    "types": ["rock"],
@@ -1644,7 +1667,8 @@
 	        "spA": 45,
 	        "spD": 90,
 	        "spe": 35
-	    }
+	    },
+		"traits": ["purifying_salt"]
 	}, {
 	    "name": "長翅鷗",
 	    "types": ["water", "flying"],
@@ -1908,7 +1932,8 @@
 	        "spA": 24,
 	        "spD": 86,
 	        "spe": 23
-	    }
+	    },
+		"traits": ["heatproof", "levitate"]
 	}, {
 	    "name": "青銅鐘",
 	    "types": ["steel", "psychic"],
@@ -1920,7 +1945,8 @@
 	        "spA": 79,
 	        "spD": 116,
 	        "spe": 33
-	    }
+	    },
+		"traits": ["heatproof", "levitate"]
 	}, {
 	    "name": "牙牙",
 	    "types": ["dragon"],
@@ -2052,7 +2078,8 @@
 	        "spA": 50,
 	        "spD": 40,
 	        "spe": 35
-	    }
+	    },
+		"traits": ["flash_fire"]
 	}, {
 	    "name": "紅蓮鎧騎",
 	    "types": ["fire", "psychic"],
@@ -2064,7 +2091,12 @@
 	        "spA": 125,
 	        "spD": 80,
 	        "spe": 75
-	    }
+	    },
+		"traits": ["flash_fire"],
+		"defaults": {
+			"moveTypes": ["fire", "psychic", "ghost"],
+			"traits": ["flash_fire"]
+		}
 	}, {
 	    "name": "蒼炎刃鬼",
 	    "types": ["fire", "ghost"],
@@ -2076,7 +2108,12 @@
 	        "spA": 60,
 	        "spD": 100,
 	        "spe": 85
-	    }
+	    },
+		"traits": ["flash_fire"],
+		"defaults": {
+			"moveTypes": ["fire", "ghost", "psychic"],
+			"traits": ["flash_fire"]
+		}
 	}, {
 	    "name": "泥泥鰍",
 	    "types": ["water", "ground"],
@@ -2257,7 +2294,8 @@
 	        "spA": 95,
 	        "spD": 110,
 	        "spe": 65
-	    }
+	    },
+		"traits": ["flash_fire"]
 	}, {
 	    "name": "太陽伊布",
 	    "types": ["psychic"],
@@ -2629,7 +2667,8 @@
 	        "spA": 70,
 	        "spD": 50,
 	        "spe": 60
-	    }
+	    },
+		"traits": ["flash_fire"]
 	}, {
 	    "name": "風速狗",
 	    "types": ["fire"],
@@ -2641,7 +2680,8 @@
 	        "spA": 100,
 	        "spD": 80,
 	        "spe": 95
-	    }
+	    },
+		"traits": ["flash_fire"]
 	}, {
 	    "name": "熊寶寶",
 	    "types": ["normal"],
@@ -3826,12 +3866,78 @@
 	    "id": "rotom",
 	    "stats": {
 	        "hp": 50,
+	        "atk": 50,
+	        "def": 77,
+	        "spA": 95,
+	        "spD": 77,
+	        "spe": 91
+	    },
+		"traits": ["levitate"]
+	}, {
+	    "name": "Rotom (Heat)",
+	    "types": ["electric", "fire"],
+	    "id": "rotom_heat",
+	    "stats": {
+	        "hp": 50,
 	        "atk": 65,
 	        "def": 107,
 	        "spA": 105,
 	        "spD": 107,
 	        "spe": 86
-	    }
+	    },
+		"traits": ["levitate"]
+	}, {
+	    "name": "Rotom (Wash)",
+	    "types": ["electric", "water"],
+	    "id": "rotom_wash",
+	    "stats": {
+	        "hp": 50,
+	        "atk": 65,
+	        "def": 107,
+	        "spA": 105,
+	        "spD": 107,
+	        "spe": 86
+	    },
+		"traits": ["levitate"]
+	}, {
+	    "name": "Rotom (Frost)",
+	    "types": ["electric", "ice"],
+	    "id": "rotom_frost",
+	    "stats": {
+	        "hp": 50,
+	        "atk": 65,
+	        "def": 107,
+	        "spA": 105,
+	        "spD": 107,
+	        "spe": 86
+	    },
+		"traits": ["levitate"]
+	}, {
+	    "name": "Rotom (Flying)",
+	    "types": ["electric", "flying"],
+	    "id": "rotom_flying",
+	    "stats": {
+	        "hp": 50,
+	        "atk": 65,
+	        "def": 107,
+	        "spA": 105,
+	        "spD": 107,
+	        "spe": 86
+	    },
+		"traits": ["levitate"]
+	}, {
+	    "name": "Rotom (Mow)",
+	    "types": ["electric", "grass"],
+	    "id": "rotom_mow",
+	    "stats": {
+	        "hp": 50,
+	        "atk": 65,
+	        "def": 107,
+	        "spA": 105,
+	        "spD": 107,
+	        "spe": 86
+	    },
+		"traits": ["levitate"]
 	}, {
 	    "name": "墓仔狗",
 	    "types": ["ghost"],
@@ -4207,7 +4313,8 @@
 	        "spA": 45,
 	        "spD": 40,
 	        "spe": 60
-	    }
+	    },
+		"traits": ["levitate"]
 	}, {
 	    "name": "麻麻鰻",
 	    "types": ["electric"],
@@ -4219,7 +4326,8 @@
 	        "spA": 75,
 	        "spD": 70,
 	        "spe": 40
-	    }
+	    },
+		"traits": ["levitate"]
 	}, {
 	    "name": "麻麻鰻魚王",
 	    "types": ["electric"],
@@ -4231,7 +4339,12 @@
 	        "spA": 105,
 	        "spD": 80,
 	        "spe": 50
-	    }
+	    },
+		"traits": ["levitate"],
+		"defaults": {
+			"moveTypes": ["electric", "fire", "normal"],
+			"traits": ["levitate"]
+		}
 	}, {
 	    "name": "好壞星",
 	    "types": ["poison", "water"],
@@ -4435,7 +4548,8 @@
 	        "spA": 95,
 	        "spD": 135,
 	        "spe": 105
-	    }
+	    },
+		"traits": ["levitate"]
 	}, {
 	    "name": "走鯨",
 	    "types": ["ice"],
@@ -4447,7 +4561,8 @@
 	        "spA": 30,
 	        "spD": 40,
 	        "spe": 43
-	    }
+	    },
+		"traits": ["thick_fat"]
 	}, {
 	    "name": "浩大鯨",
 	    "types": ["ice"],
@@ -4459,7 +4574,8 @@
 	        "spA": 45,
 	        "spD": 55,
 	        "spe": 73
-	    }
+	    },
+		"traits": ["thick_fat"]
 	}, {
 	    "name": "冰寶",
 	    "types": ["ice"],
@@ -4579,7 +4695,8 @@
 	        "spA": 125,
 	        "spD": 90,
 	        "spe": 98
-	    }
+	    },
+		"traits": ["levitate"]
 	}, {
 	    "name": "輕身鱈",
 	    "types": ["water", "psychic"],
@@ -5054,13 +5171,48 @@
 	}],
 	"traits": [
 		{
-			"name": "Water Absorb",
-			"id": "water_absorb",
+			"name": "Flash Fire",
+			"id": "flash_fire",
+			"type": "ability"
+		},
+		{
+			"name": "Heatproof",
+			"id": "heatproof",
+			"type": "ability"
+		},
+		{
+			"name": "Huge Power",
+			"id": "huge_power",
+			"type": "ability"
+		},
+		{
+			"name": "Levitate",
+			"id": "levitate",
+			"type": "ability"
+		},
+		{
+			"name": "Purifying Salt",
+			"id": "purifying_salt",
 			"type": "ability"
 		},
 		{
 			"name": "Storm Drain",
 			"id": "storm_drain",
+			"type": "ability"
+		},
+		{
+			"name": "Thick Fat",
+			"id": "thick_fat",
+			"type": "ability"
+		},
+		{
+			"name": "Water Absorb",
+			"id": "water_absorb",
+			"type": "ability"
+		},
+		{
+			"name": "Well-Baked Body",
+			"id": "well_baked_body",
 			"type": "ability"
 		}
 	]

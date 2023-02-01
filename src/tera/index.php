@@ -41,7 +41,7 @@ require_once 'header.php'; ?>
 				</select>
 
 				<h4 class="attack-title">攻擊屬性</h4>
-				<div class="boss-attack-types">
+				<div class="item-list boss-attack-types">
 					<select id="attack-type-select">
 						<option disabled selected value="">加入屬性</option>
 						<option value="bug">蟲</option>
@@ -74,6 +74,16 @@ require_once 'header.php'; ?>
 
 					<a href="#" class="close">×</a>
 				</div>
+
+				<div class="traits-container">
+					<h4 class="sub-title">特性</h4>
+					<div class="item-list boss-traits traits"></div>
+
+					<div class="trait-item template flex check">
+						<span></span><div class="trait-name"></div>
+					</div>
+				</div>
+
 			</div>
 			<div class="tera-type-container">
 				<div class="flex">
@@ -172,6 +182,7 @@ require_once 'header.php'; ?>
 				<div class="score"></div>
 				<div class="label">反制分數</div>
 			</div>
+
 			<div class="offense">
 				<div class="score"></div>
 				<div class="label">攻擊</div>

@@ -40,7 +40,7 @@ require_once 'header.php'; ?>
 					<option disabled selected value="">選擇一個寶可夢</option>
 				</select>
 
-				<h4 class="attack-title">攻擊屬性</h4>
+				<h4 class="sub-title">攻擊屬性</h4>
 				<div class="item-list boss-attack-types">
 					<select id="attack-type-select">
 						<option disabled selected value="">加入屬性</option>

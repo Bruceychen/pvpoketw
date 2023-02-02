@@ -3874,7 +3874,7 @@
 	    },
 		"traits": ["levitate"]
 	}, {
-	    "name": "Rotom (Heat)",
+	    "name": "洛托姆 (加熱)",
 	    "types": ["electric", "fire"],
 	    "id": "rotom_heat",
 	    "stats": {
@@ -3887,7 +3887,7 @@
 	    },
 		"traits": ["levitate"]
 	}, {
-	    "name": "Rotom (Wash)",
+	    "name": "洛托姆 (清洗)",
 	    "types": ["electric", "water"],
 	    "id": "rotom_wash",
 	    "stats": {
@@ -3900,7 +3900,7 @@
 	    },
 		"traits": ["levitate"]
 	}, {
-	    "name": "Rotom (Frost)",
+	    "name": "洛托姆 (結冰)",
 	    "types": ["electric", "ice"],
 	    "id": "rotom_frost",
 	    "stats": {
@@ -3913,7 +3913,7 @@
 	    },
 		"traits": ["levitate"]
 	}, {
-	    "name": "Rotom (Flying)",
+	    "name": "洛托姆 (旋轉)",
 	    "types": ["electric", "flying"],
 	    "id": "rotom_flying",
 	    "stats": {
@@ -3926,7 +3926,7 @@
 	    },
 		"traits": ["levitate"]
 	}, {
-	    "name": "Rotom (Mow)",
+	    "name": "洛托姆 (切割)",
 	    "types": ["electric", "grass"],
 	    "id": "rotom_mow",
 	    "stats": {
@@ -5171,47 +5171,47 @@
 	}],
 	"traits": [
 		{
-			"name": "Flash Fire",
+			"name": "引火",
 			"id": "flash_fire",
 			"type": "ability"
 		},
 		{
-			"name": "Heatproof",
+			"name": "耐熱",
 			"id": "heatproof",
 			"type": "ability"
 		},
 		{
-			"name": "Huge Power",
+			"name": "大力士",
 			"id": "huge_power",
 			"type": "ability"
 		},
 		{
-			"name": "Levitate",
+			"name": "飄浮",
 			"id": "levitate",
 			"type": "ability"
 		},
 		{
-			"name": "Purifying Salt",
+			"name": "潔淨之鹽",
 			"id": "purifying_salt",
 			"type": "ability"
 		},
 		{
-			"name": "Storm Drain",
+			"name": "引水",
 			"id": "storm_drain",
 			"type": "ability"
 		},
 		{
-			"name": "Thick Fat",
+			"name": "厚脂肪",
 			"id": "thick_fat",
 			"type": "ability"
 		},
 		{
-			"name": "Water Absorb",
+			"name": "儲水",
 			"id": "water_absorb",
 			"type": "ability"
 		},
 		{
-			"name": "Well-Baked Body",
+			"name": "焦香之軀",
 			"id": "well_baked_body",
 			"type": "ability"
 		}

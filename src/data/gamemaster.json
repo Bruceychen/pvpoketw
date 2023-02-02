@@ -212,7 +212,7 @@
         "exclude": []
     }, {
         "name": "naiad",
-        "title": "Silph Naiad Cup",
+        "title": "Silph 水仙盃",
         "include": [{
             "filterType": "type",
             "name": "Type",
@@ -417,7 +417,7 @@
         "showFormat": true,
         "showMeta": true
     }, {
-        "title": "Silph Naiad Cup",
+        "title": "Silph 水仙盃",
         "cup": "naiad",
         "cp": 1500,
         "meta": "naiad",

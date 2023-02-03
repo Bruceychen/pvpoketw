@@ -23,9 +23,8 @@ function PokeSelect(element, i){
 
 	var currentHP; // The currently animated HP
 	var currentEnergy; // The currently animated energy
-	//此method配合中文修改顯示排序方式; this method will used for mandarin name sorting and dex no sorting
-	var pokeMonlistDex = [];
-	var pokeMonlistName = [];
+	var previousId = '';
+
 	this.init = function(pokes, b){
 		pokemon = pokes;
 		battle = b;

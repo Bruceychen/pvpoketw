@@ -41,14 +41,9 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.29.21 (December 18, 2022)</h4>
+	<h4>v1.29.22 (February 2, 2023)</h4>
 	<ul>
-		<li>Ranking category and sort updates:</li>
-		<ul>
-			<li>Ranking categories are now organized under a sort dropdown.</li>
-			<li>Rankings can also now be sorted by stat product, Attack, Defense, and Stamina stats.</li>
-			<li>Added a "meta" search string that displays Pokemon in that format's limited meta group.</li>
-		</ul>
+		<li>Added a form select dropdown to quickly select different forms of a Pokemon.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -95,8 +90,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Thu Feb 2 13:15:28 2022 +0800</li>
-                <li>原版最後版本時間：Tue Jan 31 15:32:17 2023 -0600</li>
+                <li>中文版最後更新時間：Fri Feb 3 08:55:28 2022 +0800</li>
+                <li>原版最後版本時間：Thu Feb 2 17:28:47 2023 -0600</li>
             </ul>
 </div>
 

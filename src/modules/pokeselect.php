@@ -11,9 +11,18 @@
 		<option disabled selected value="">選擇寶可夢</option>
 	</select>
 
+	<div class="form-select-container">
+		<div class="form-select-border"></div>
+		<select class="form-select">
+			<option value="" selected disabled>其他型態</option>
+		</select>
+		<a class="form-link" href="#"></a>
+	</div>
+
 	<?php include 'pokebox.php'; ?>
 
 	<div class="poke-stats">
+
 		<h3 class="cp"><span class="identifier" title="Shadow"></span> cp <span class="stat"></span></h3>
 		<div class="types"></div>
 		<div class="stat-container attack clear">

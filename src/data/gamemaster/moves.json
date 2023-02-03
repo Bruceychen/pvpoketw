@@ -175,6 +175,16 @@
     "cooldown": 500,
     "archetype": "Spam/Bait"
 }, {
+    "moveId": "BOOMBURST",
+    "name": "爆音波 預測",
+    "abbreviation": "BmB",
+    "type": "normal",
+    "power": 150,
+    "energy": 75,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
+}, {
     "moveId": "BONE_CLUB",
     "name": "骨棒",
     "type": "ground",
@@ -198,11 +208,11 @@
     "archetype": "Self-Debuff Nuke"
 }, {
     "moveId": "BREAKING_SWIPE",
-    "name": "廣域破壞 預測",
+    "name": "廣域破壞",
     "abbreviation": "BkS",
     "type": "dragon",
     "power": 50,
-    "energy": 40,
+    "energy": 35,
     "energyGain": 0,
     "cooldown": 500,
     "buffs": [-1, 0],

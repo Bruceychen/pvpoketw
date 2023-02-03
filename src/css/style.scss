@@ -434,6 +434,7 @@ header{
 		&.poke-select{
 			font-size:18px;
 			font-weight:bold;
+			border: 2px solid #000;
 
 			option:checked{
 				font-weight:bold;
@@ -444,6 +445,56 @@ header{
 
 		&.charged{
 			font-weight:bold;
+		}
+
+		&.poke-search{
+			background: none;
+		    border: none;
+		    border-bottom: 1px solid #000;
+		    border-radius: 0;
+		}
+	}
+
+	.form-select-container{
+		visibility: hidden;
+		position: relative;
+
+		.form-select, a.form-link{
+			display: block;
+			width: 75%;
+			margin: 10px 0 10px 25%;
+			font-size: 11px;
+			padding: 2px;
+			box-sizing: border-box;
+		}
+
+		a.form-link{
+			background: $color-off-white;
+			border-radius: 4px;
+			padding: 3px;
+			border: 1px solid;
+		}
+
+		.form-select-border{
+			position: absolute;
+		    top: 0;
+		    left: 4%;
+		    width: 27px;
+		    height: 11px;
+		    border-left: 1px dashed;
+		    border-bottom: 1px dashed;
+		    opacity: 0.75;
+		    display: block;
+		    border-bottom-left-radius: 4px;
+
+			&:after{
+				content: "\25B6";
+				position: absolute;
+			    left: 19px;
+			    top: 4px;
+			    font-size: 11px;
+				line-height: 14px;
+			}
 		}
 	}
 

@@ -289,7 +289,8 @@
 	        "spA": 50,
 	        "spD": 40,
 	        "spe": 85
-	    }
+	    },
+		"traits": ["volt_absorb"]
 	}, {
 	    "name": "巴布土撥",
 	    "types": ["electric", "fighting"],
@@ -301,7 +302,8 @@
 	        "spA": 70,
 	        "spD": 60,
 	        "spe": 105
-	    }
+	    },
+		"traits": ["volt_absorb"]
 	}, {
 	    "name": "戴魯比",
 	    "types": ["dark", "fire"],
@@ -339,7 +341,8 @@
 	        "spA": 30,
 	        "spD": 30,
 	        "spe": 45
-	    }
+	    },
+		"traits": ["adaptability"]
 	}, {
 	    "name": "貓鼬探長",
 	    "types": ["normal"],
@@ -351,7 +354,8 @@
 	        "spA": 55,
 	        "spD": 60,
 	        "spe": 45
-	    }
+	    },
+		"traits": ["adaptability"]
 	}, {
 	    "name": "貪心栗鼠",
 	    "types": ["normal"],
@@ -568,7 +572,7 @@
 	        "spD": 40,
 	        "spe": 20
 	    },
-		"traits": ["thick_fat", "huge_power"]
+		"traits": ["thick_fat", "huge_power", "sap_sipper"]
 	}, {
 	    "name": "瑪力露",
 	    "types": ["water", "fairy"],
@@ -581,7 +585,7 @@
 	        "spD": 50,
 	        "spe": 40
 	    },
-		"traits": ["thick_fat", "huge_power"]
+		"traits": ["thick_fat", "huge_power", "sap_sipper"]
 	}, {
 	    "name": "瑪力露麗",
 	    "types": ["water", "fairy"],
@@ -594,7 +598,7 @@
 	        "spD": 80,
 	        "spe": 50
 	    },
-		"traits": ["thick_fat", "huge_power"]
+		"traits": ["thick_fat", "huge_power", "sap_sipper"]
 	}, {
 	    "name": "溜溜糖球",
 	    "types": ["bug", "water"],
@@ -618,7 +622,8 @@
 	        "spA": 100,
 	        "spD": 82,
 	        "spe": 80
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "泳圈鼬",
 	    "types": ["water"],
@@ -740,7 +745,8 @@
 	        "spA": 45,
 	        "spD": 25,
 	        "spe": 20
-	    }
+	    },
+		"traits": ["competitive"]
 	}, {
 	    "name": "胖可丁",
 	    "types": ["normal", "fairy"],
@@ -752,7 +758,8 @@
 	        "spA": 85,
 	        "spD": 50,
 	        "spe": 45
-	    }
+	    },
+		"traits": ["competitive"]
 	}, {
 	    "name": "拉魯拉絲",
 	    "types": ["psychic", "fairy"],
@@ -1178,7 +1185,8 @@
 	        "spA": 40,
 	        "spD": 34,
 	        "spe": 45
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "勒克貓",
 	    "types": ["electric"],
@@ -1190,7 +1198,8 @@
 	        "spA": 60,
 	        "spD": 49,
 	        "spe": 60
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "倫琴貓",
 	    "types": ["electric"],
@@ -1202,7 +1211,8 @@
 	        "spA": 95,
 	        "spD": 79,
 	        "spe": 70
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "姆克兒",
 	    "types": ["normal", "flying"],
@@ -1226,7 +1236,8 @@
 	        "spA": 40,
 	        "spD": 40,
 	        "spe": 80
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "姆克鷹",
 	    "types": ["normal", "flying"],
@@ -1238,7 +1249,8 @@
 	        "spA": 50,
 	        "spD": 60,
 	        "spe": 100
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "花舞鳥(熱辣)",
 	    "types": ["fire", "flying"],
@@ -1445,7 +1457,8 @@
 	        "spA": 45,
 	        "spD": 51,
 	        "spe": 92
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "夢妖",
 	    "types": ["ghost"],
@@ -1716,7 +1729,8 @@
 	        "spA": 60,
 	        "spD": 100,
 	        "spe": 81
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "刺梭魚",
 	    "types": ["water"],
@@ -1752,7 +1766,8 @@
 	        "spA": 80,
 	        "spD": 55,
 	        "spe": 98
-	    }
+	    },
+		"traits": ["adaptability"]
 	}, {
 	    "name": "溶食獸",
 	    "types": ["poison"],
@@ -1994,7 +2009,8 @@
 	        "spA": 35,
 	        "spD": 45,
 	        "spe": 70
-	    }
+	    },
+		"traits": ["defiant"]
 	}, {
 	    "name": "火爆猴",
 	    "types": ["fighting"],
@@ -2006,7 +2022,8 @@
 	        "spA": 60,
 	        "spD": 70,
 	        "spe": 95
-	    }
+	    },
+		"traits": ["defiant"]
 	}, {
 	    "name": "棄世猴",
 	    "types": ["fighting", "ghost"],
@@ -2018,7 +2035,8 @@
 	        "spA": 50,
 	        "spD": 90,
 	        "spe": 90
-	    }
+	    },
+		"traits": ["defiant"]
 	}, {
 	    "name": "瑪沙那",
 	    "types": ["fighting", "psychic"],
@@ -2173,7 +2191,8 @@
 	        "spA": 55,
 	        "spD": 75,
 	        "spe": 40
-	    }
+	    },
+		"traits": ["sap_sipper"]
 	}, {
 	    "name": "黏美兒",
 	    "types": ["dragon"],
@@ -2185,7 +2204,8 @@
 	        "spA": 83,
 	        "spD": 113,
 	        "spe": 60
-	    }
+	    },
+		"traits": ["sap_sipper"]
 	}, {
 	    "name": "黏美龍",
 	    "types": ["dragon"],
@@ -2197,7 +2217,8 @@
 	        "spA": 110,
 	        "spD": 150,
 	        "spe": 80
-	    }
+	    },
+		"traits": ["sap_sipper"]
 	}, {
 	    "name": "不良蛙",
 	    "types": ["poison", "fighting"],
@@ -2233,7 +2254,8 @@
 	        "spA": 55,
 	        "spD": 40,
 	        "spe": 70
-	    }
+	    },
+		"traits": ["competitive", "volt_absorb"]
 	}, {
 	    "name": "大電海燕",
 	    "types": ["electric", "flying"],
@@ -2245,7 +2267,8 @@
 	        "spA": 105,
 	        "spD": 60,
 	        "spe": 125
-	    }
+	    },
+		"traits": ["competitive", "volt_absorb"]
 	}, {
 	    "name": "伊布",
 	    "types": ["normal"],
@@ -2257,7 +2280,8 @@
 	        "spA": 45,
 	        "spD": 65,
 	        "spe": 55
-	    }
+	    },
+		"traits": ["adaptability"]
 	}, {
 	    "name": "水伊布",
 	    "types": ["water"],
@@ -2282,7 +2306,8 @@
 	        "spA": 110,
 	        "spD": 95,
 	        "spe": 130
-	    }
+	    },
+		"traits": ["volt_absorb"]
 	}, {
 	    "name": "火伊布",
 	    "types": ["fire"],
@@ -2391,7 +2416,8 @@
 	        "spA": 40,
 	        "spD": 50,
 	        "spe": 75
-	    }
+	    },
+		"traits": ["sap_sipper"]
 	}, {
 	    "name": "萌芽鹿",
 	    "types": ["normal", "grass"],
@@ -2403,7 +2429,8 @@
 	        "spA": 60,
 	        "spD": 70,
 	        "spe": 95
-	    }
+	    },
+		"traits": ["sap_sipper"]
 	}, {
 	    "name": "麒麟奇",
 	    "types": ["normal", "psychic"],
@@ -2415,7 +2442,8 @@
 	        "spA": 90,
 	        "spD": 65,
 	        "spe": 85
-	    }
+	    },
+		"traits": ["sap_sipper"]
 	}, {
 	    "name": "奇麒麟",
 	    "types": ["normal", "psychic"],
@@ -2427,7 +2455,8 @@
 	        "spA": 110,
 	        "spD": 70,
 	        "spe": 60
-	    }
+	    },
+		"traits": ["sap_sipper"]
 	}, {
 	    "name": "臭泥",
 	    "types": ["poison"],
@@ -2463,7 +2492,8 @@
 	        "spA": 40,
 	        "spD": 51,
 	        "spe": 51
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "獒教父",
 	    "types": ["dark"],
@@ -2475,7 +2505,8 @@
 	        "spA": 60,
 	        "spD": 70,
 	        "spe": 85
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "毒電嬰",
 	    "types": ["electric", "poison"],
@@ -2523,7 +2554,8 @@
 	        "spA": 45,
 	        "spD": 90,
 	        "spe": 95
-	    }
+	    },
+		"traits": ["volt_absorb"]
 	}, {
 	    "name": "滋汁鼴",
 	    "types": ["poison", "normal"],
@@ -2559,7 +2591,8 @@
 	        "spA": 85,
 	        "spD": 65,
 	        "spe": 85
-	    }
+	    },
+		"traits": ["intimidate", "sap_sipper"]
 	}, {
 	    "name": "哎呀球菇",
 	    "types": ["grass", "poison"],
@@ -2668,7 +2701,7 @@
 	        "spD": 50,
 	        "spe": 60
 	    },
-		"traits": ["flash_fire"]
+		"traits": ["flash_fire", "intimidate"]
 	}, {
 	    "name": "風速狗",
 	    "types": ["fire"],
@@ -2681,7 +2714,7 @@
 	        "spD": 80,
 	        "spe": 95
 	    },
-		"traits": ["flash_fire"]
+		"traits": ["flash_fire", "intimidate"]
 	}, {
 	    "name": "熊寶寶",
 	    "types": ["normal"],
@@ -2765,7 +2798,8 @@
 	        "spA": 62,
 	        "spD": 57,
 	        "spe": 52
-	    }
+	    },
+		"traits": ["sap_sipper"]
 	}, {
 	    "name": "坐騎山羊",
 	    "types": ["grass"],
@@ -2777,7 +2811,8 @@
 	        "spA": 97,
 	        "spD": 81,
 	        "spe": 68
-	    }
+	    },
+		"traits": ["sap_sipper"]
 	}, {
 	    "name": "肯泰羅",
 	    "types": ["fighting"],
@@ -2789,7 +2824,8 @@
 	        "spA": 30,
 	        "spD": 70,
 	        "spe": 100
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "肯泰羅(火熾)",
 	    "types": ["fighting", "fire"],
@@ -2801,7 +2837,8 @@
 	        "spA": 30,
 	        "spD": 70,
 	        "spe": 100
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "肯泰羅(水瀾)",
 	    "types": ["fighting", "water"],
@@ -2813,7 +2850,8 @@
 	        "spA": 30,
 	        "spD": 70,
 	        "spe": 100
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "小獅獅",
 	    "types": ["fire", "normal"],
@@ -2945,7 +2983,8 @@
 	        "spA": 55,
 	        "spD": 65,
 	        "spe": 45
-	    }
+	    },
+		"traits": ["competitive"]
 	}, {
 	    "name": "哥德小童",
 	    "types": ["psychic"],
@@ -2957,7 +2996,8 @@
 	        "spA": 75,
 	        "spD": 85,
 	        "spe": 55
-	    }
+	    },
+		"traits": ["competitive"]
 	}, {
 	    "name": "哥德小姐",
 	    "types": ["psychic"],
@@ -2969,7 +3009,8 @@
 	        "spA": 95,
 	        "spD": 110,
 	        "spe": 65
-	    }
+	    },
+		"traits": ["competitive"]
 	}, {
 	    "name": "來悲茶",
 	    "types": ["ghost"],
@@ -3355,7 +3396,8 @@
 	        "spA": 35,
 	        "spD": 35,
 	        "spe": 65
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "混混鱷",
 	    "types": ["ground", "dark"],
@@ -3367,7 +3409,8 @@
 	        "spA": 45,
 	        "spD": 45,
 	        "spe": 74
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "流氓鱷",
 	    "types": ["ground", "dark"],
@@ -3379,7 +3422,8 @@
 	        "spA": 65,
 	        "spD": 70,
 	        "spe": 92
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "沙包蛇",
 	    "types": ["ground"],
@@ -3487,7 +3531,8 @@
 	        "spA": 110,
 	        "spD": 80,
 	        "spe": 100
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "小鍛匠",
 	    "types": ["fairy", "steel"],
@@ -3703,7 +3748,8 @@
 	        "spA": 60,
 	        "spD": 55,
 	        "spe": 65
-	    }
+	    },
+		"traits": ["earth_eater"]
 	}, {
 	    "name": "勾魂眼",
 	    "types": ["dark", "ghost"],
@@ -3751,7 +3797,8 @@
 	        "spA": 70,
 	        "spD": 60,
 	        "spe": 75
-	    }
+	    },
+		"traits": ["defiant"]
 	}, {
 	    "name": "摔角鷹人",
 	    "types": ["fighting", "flying"],
@@ -3985,7 +4032,8 @@
 	        "spA": 40,
 	        "spD": 60,
 	        "spe": 80
-	    }
+	    },
+		"traits": ["defiant"]
 	}, {
 	    "name": "樹枕尾熊",
 	    "types": ["normal"],
@@ -4191,7 +4239,8 @@
 	        "spA": 55,
 	        "spD": 55,
 	        "spe": 85
-	    }
+	    },
+		"traits": ["intimidate"]
 	}, {
 	    "name": "愛心魚",
 	    "types": ["water"],
@@ -4265,7 +4314,8 @@
 	        "spA": 60,
 	        "spD": 60,
 	        "spe": 30
-	    }
+	    },
+		"traits": ["adaptability"]
 	}, {
 	    "name": "毒藻龍",
 	    "types": ["poison", "dragon"],
@@ -4277,7 +4327,8 @@
 	        "spA": 97,
 	        "spD": 123,
 	        "spe": 44
-	    }
+	    },
+		"traits": ["adaptability"]
 	}, {
 	    "name": "鐵臂槍蝦",
 	    "types": ["water"],
@@ -4623,7 +4674,8 @@
 	        "spA": 57,
 	        "spD": 75,
 	        "spe": 80
-	    }
+	    },
+		"traits": ["defiant"]
 	}, {
 	    "name": "駒刀小兵",
 	    "types": ["dark", "steel"],
@@ -4635,7 +4687,8 @@
 	        "spA": 40,
 	        "spD": 40,
 	        "spe": 60
-	    }
+	    },
+		"traits": ["defiant"]
 	}, {
 	    "name": "劈斬司令",
 	    "types": ["dark", "steel"],
@@ -4647,7 +4700,8 @@
 	        "spA": 60,
 	        "spD": 70,
 	        "spe": 70
-	    }
+	    },
+		"traits": ["defiant"]
 	}, {
 	    "name": "仆斬將軍",
 	    "types": ["dark", "steel"],
@@ -4659,7 +4713,8 @@
 	        "spA": 60,
 	        "spD": 85,
 	        "spe": 50
-	    }
+	    },
+		"traits": ["defiant"]
 	}, {
 	    "name": "單首龍",
 	    "types": ["dark", "dragon"],
@@ -5171,6 +5226,26 @@
 	}],
 	"traits": [
 		{
+			"name": "適應力",
+			"id": "adaptability",
+			"type": "ability"
+		},
+		{
+			"name": "好勝",
+			"id": "competitive",
+			"type": "ability"
+		},
+		{
+			"name": "不服輸",
+			"id": "defiant",
+			"type": "ability"
+		},
+		{
+			"name": "食土",
+			"id": "earth_eater",
+			"type": "ability"
+		},
+		{
 			"name": "引火",
 			"id": "flash_fire",
 			"type": "ability"
@@ -5186,6 +5261,11 @@
 			"type": "ability"
 		},
 		{
+			"name": "威嚇",
+			"id": "intimidate",
+			"type": "ability"
+		},
+		{
 			"name": "飄浮",
 			"id": "levitate",
 			"type": "ability"
@@ -5196,6 +5276,11 @@
 			"type": "ability"
 		},
 		{
+			"name": "食草",
+			"id": "sap_sipper",
+			"type": "ability"
+		},
+		{
 			"name": "引水",
 			"id": "storm_drain",
 			"type": "ability"
@@ -5203,6 +5288,11 @@
 		{
 			"name": "厚脂肪",
 			"id": "thick_fat",
+			"type": "ability"
+		},
+		{
+			"name": "蓄電",
+			"id": "volt_absorb",
 			"type": "ability"
 		},
 		{

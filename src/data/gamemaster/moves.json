@@ -176,7 +176,7 @@
     "archetype": "Spam/Bait"
 }, {
     "moveId": "BOOMBURST",
-    "name": "爆音波 預測",
+    "name": "爆音波",
     "abbreviation": "BmB",
     "type": "normal",
     "power": 150,
@@ -866,6 +866,7 @@
 }, {
     "moveId": "FUSION_BOLT",
     "name": "交錯閃電",
+    "abbreviation": "FuB",
     "type": "electric",
     "power": 90,
     "energy": 45,

@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.29.22.4';
+$SITE_VERSION = '1.29.23';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -211,7 +211,7 @@ if(! isset($OG_IMAGE)){
 
 	<header>
 		<div class="header-wrap">
-			<h1 class="title"><a href="/">PvPoketw.com</a></h1>
+            <h1 class="title"><a href="<?php echo $WEB_ROOT; ?>">PvPoketw.com</a></h1>
 			<div class="hamburger">
 				<!--Because I'm too lazy to make a graphic-->
 				<div class="meat"></div>

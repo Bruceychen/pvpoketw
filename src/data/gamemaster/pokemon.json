@@ -3839,6 +3839,8 @@
     "tags": ["shadoweligible", "mega"],
     "level25CP": 2846,
     "eliteMoves": ["COUNTER", "DAZZLING_GLEAM", "PSYCHIC"],
+    "buddyDistance": 3,
+    "thirdMoveCost": 50000,
     "released": true
 }, {
     "dex": 65,
@@ -10721,7 +10723,9 @@
     },
     "tags": ["shadoweligible", "mega"],
     "level25CP": 2581,
-    "released": "true",
+    "buddyDistance": 5,
+    "thirdMoveCost": 75000,
+    "released": true,
     "family": {
         "id": "FAMILY_SCYTHER",
         "parent": "scyther"
@@ -13438,6 +13442,29 @@
     }
 }, {
     "dex": 282,
+    "speciesName": "沙奈朵 Mega",
+    "speciesId": "gardevoir_mega",
+    "baseStats": {
+        "atk": 326,
+        "def": 229,
+        "hp": 169
+    },
+    "types": ["psychic", "fairy"],
+    "fastMoves": ["CHARGE_BEAM", "CONFUSION", "CHARM"],
+    "chargedMoves": ["DAZZLING_GLEAM", "PSYCHIC", "SHADOW_BALL", "SYNCHRONOISE"],
+    "defaultIVs": {
+        "cp500": [4, 15, 15, 15],
+        "cp1500": [12, 11, 8, 13],
+        "cp2500": [19.5, 15, 15, 13]
+    },
+    "tags": ["shadoweligible", "mega"],
+    "eliteMoves": ["SYNCHRONOISE"],
+    "level25CP": 2861,
+    "buddyDistance": 5,
+    "thirdMoveCost": 75000,
+    "released": true
+}, {
+    "dex": 282,
     "speciesName": "沙奈朵 暗影",
     "speciesId": "gardevoir_shadow",
     "baseStats": {
@@ -13462,27 +13489,6 @@
         "id": "FAMILY_RALTS",
         "parent": "kirlia_shadow"
     }
-}, {
-    "dex": 282,
-    "speciesName": "沙奈朵 Mega",
-    "speciesId": "gardevoir_mega",
-    "baseStats": {
-        "atk": 326,
-        "def": 229,
-        "hp": 169
-    },
-    "types": ["psychic", "fairy"],
-    "fastMoves": ["CHARGE_BEAM", "CONFUSION", "CHARM"],
-    "chargedMoves": ["DAZZLING_GLEAM", "PSYCHIC", "SHADOW_BALL", "SYNCHRONOISE"],
-    "defaultIVs": {
-		"cp500": [4, 15, 15, 15],
-        "cp1500": [12, 11, 8, 13],
-        "cp2500": [19.5, 15, 15, 13]
-    },
-    "tags": ["shadoweligible", "mega"],
-    "eliteMoves": ["SYNCHRONOISE"],
-    "level25CP": 2861,
-	"released": true
 }, {
     "dex": 283,
     "speciesName": "溜溜糖球",
@@ -14345,13 +14351,16 @@
     "types": ["steel", "none"],
     "fastMoves": ["DRAGON_TAIL", "IRON_TAIL", "SMACK_DOWN"],
     "chargedMoves": ["HEAVY_SLAM", "STONE_EDGE", "THUNDER", "ROCK_TOMB", "METEOR_BEAM"],
-    "tags": ["mega"],
+    "tags": ["shadoweligible", "mega"],
     "defaultIVs": {
         "cp500": [4.5, 11, 15, 15],
         "cp1500": [13, 7, 12, 15],
         "cp2500": [22, 5, 14, 13]
     },
-    "released": "true"
+    "buddyDistance": 1,
+    "thirdMoveCost": 10000,
+    "released": true,
+    "level25CP": 2629
 }, {
     "dex": 306,
     "speciesName": "波士可多拉 暗影",
@@ -14517,7 +14526,7 @@
     "types": ["electric", "none"],
     "fastMoves": ["CHARGE_BEAM", "SNARL", "THUNDER_FANG"],
     "chargedMoves": ["FLAME_BURST", "THUNDER", "WILD_CHARGE", "OVERHEAT", "PSYCHIC_FANGS"],
-    "tags": ["mega"],
+    "tags": ["shadoweligible", "mega"],
     "defaultIVs": {
         "cp500": [5.5, 5, 4, 11],
         "cp1500": [15, 9, 14, 14],
@@ -14529,7 +14538,8 @@
     "family": {
         "id": "FAMILY_ELECTRIKE",
         "parent": "electrike"
-    }
+    },
+    "level25CP": 2238
 }, {
     "dex": 310,
     "speciesName": "雷電獸 暗影",
@@ -16195,6 +16205,8 @@
         "cp2500": [25, 9, 12, 15]
     },
     "level25CP": 2240,
+    "buddyDistance": 3,
+    "thirdMoveCost": 50000,
     "tags": ["shadoweligible", "mega"],
     "released": true
 }, {
@@ -16417,7 +16429,7 @@
         "cp2500": [27.5, 4, 13, 15]
     },
     "level25CP": 1534,
-    "tags": ["mega"],
+    "tags": ["shadoweligible", "mega"],
     "buddyDistance": 5,
     "thirdMoveCost": 75000,
     "released": true
@@ -16965,6 +16977,8 @@
     "level25CP": 3220,
     "tags": ["shadoweligible", "mega"],
     "eliteMoves": ["OUTRAGE"],
+    "buddyDistance": 5,
+    "thirdMoveCost": 75000,
     "released": true
 }, {
     "dex": 373,
@@ -17280,7 +17294,7 @@
     "fastMoves": ["DRAGON_BREATH", "ZEN_HEADBUTT", "CHARM"],
     "chargedMoves": ["OUTRAGE", "PSYCHIC", "THUNDER", "MIST_BALL"],
     "eliteMoves": ["MIST_BALL"],
-    "tags": ["legendary", "mega"],
+    "tags": ["legendary", "shadoweligible", "mega"],
     "defaultIVs": {
         "cp500": [4, 15, 11, 15],
         "cp1500": [11.5, 4, 10, 11],
@@ -17288,7 +17302,8 @@
     },
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": true
+    "released": true,
+    "level25CP": 3062
 }, {
     "dex": 380,
     "speciesName": "拉帝亞斯 暗影",
@@ -17347,7 +17362,7 @@
     "fastMoves": ["DRAGON_BREATH", "ZEN_HEADBUTT"],
     "chargedMoves": ["DRAGON_CLAW", "PSYCHIC", "SOLAR_BEAM", "LUSTER_PURGE"],
     "eliteMoves": ["LUSTER_PURGE"],
-    "tags": ["legendary", "mega"],
+    "tags": ["legendary", "shadoweligible", "mega"],
     "defaultIVs": {
         "cp500": [4, 5, 11, 11],
         "cp1500": [11, 6, 14, 7],
@@ -17355,7 +17370,8 @@
     },
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": true
+    "released": true,
+    "level25CP": 3198
 }, {
     "dex": 381,
     "speciesName": "拉帝歐斯 暗影",
@@ -17389,8 +17405,8 @@
     },
     "types": ["water", "none"],
     "fastMoves": ["WATERFALL"],
-	"chargedMoves": ["BLIZZARD", "HYDRO_PUMP", "THUNDER", "SURF", "ORIGIN_PULSE"],
-	"eliteMoves": ["ORIGIN_PULSE"],
+    "chargedMoves": ["BLIZZARD", "HYDRO_PUMP", "THUNDER", "SURF", "ORIGIN_PULSE"],
+    "eliteMoves": ["ORIGIN_PULSE"],
     "tags": ["legendary"],
     "defaultIVs": {
         "cp500": [4.5, 15, 15, 14],
@@ -17413,7 +17429,7 @@
     "types": ["water", "none"],
     "fastMoves": ["WATERFALL"],
     "chargedMoves": ["BLIZZARD", "HYDRO_PUMP", "THUNDER", "SURF", "ORIGIN_PULSE"],
-	"eliteMoves": ["ORIGIN_PULSE"],
+    "eliteMoves": ["ORIGIN_PULSE"],
     "tags": ["legendary", "mega"],
     "defaultIVs": {
         "cp500": [3.5, 15, 11, 15],
@@ -17436,7 +17452,7 @@
     "types": ["ground", "none"],
     "fastMoves": ["DRAGON_TAIL", "MUD_SHOT"],
     "chargedMoves": ["EARTHQUAKE", "FIRE_BLAST", "SOLAR_BEAM", "FIRE_PUNCH", "PRECIPICE_BLADES"],
-	"eliteMoves": ["PRECIPICE_BLADES", "FIRE_PUNCH"],
+    "eliteMoves": ["PRECIPICE_BLADES", "FIRE_PUNCH"],
     "tags": ["legendary"],
     "defaultIVs": {
         "cp500": [4.5, 15, 15, 14],
@@ -17458,8 +17474,8 @@
     },
     "types": ["fire", "ground"],
     "fastMoves": ["DRAGON_TAIL", "MUD_SHOT"],
-	"chargedMoves": ["EARTHQUAKE", "FIRE_BLAST", "SOLAR_BEAM", "FIRE_PUNCH", "PRECIPICE_BLADES"],
-	"eliteMoves": ["PRECIPICE_BLADES", "FIRE_PUNCH"],
+    "chargedMoves": ["EARTHQUAKE", "FIRE_BLAST", "SOLAR_BEAM", "FIRE_PUNCH", "PRECIPICE_BLADES"],
+    "eliteMoves": ["PRECIPICE_BLADES", "FIRE_PUNCH"],
     "tags": ["legendary", "mega"],
     "defaultIVs": {
         "cp500": [3.5, 15, 11, 15],
@@ -21274,7 +21290,7 @@
     "types": ["ghost", "dragon"],
     "fastMoves": ["DRAGON_TAIL", "SHADOW_CLAW"],
     "chargedMoves": ["OMINOUS_WIND", "DRAGON_PULSE", "SHADOW_BALL", "SHADOW_FORCE"],
-	"eliteMoves": ["SHADOW_FORCE"],
+    "eliteMoves": ["SHADOW_FORCE"],
     "tags": ["legendary"],
     "defaultIVs": {
         "cp500": [5, 15, 13, 15],
@@ -28133,7 +28149,7 @@
     "types": ["flying", "dragon"],
     "fastMoves": ["AIR_SLASH", "BITE"],
     "chargedMoves": ["DRACO_METEOR", "HURRICANE", "HEAT_WAVE", "PSYCHIC", "BOOMBURST"],
-	"eliteMoves": ["BOOMBURST"],
+    "eliteMoves": ["BOOMBURST"],
     "defaultIVs": {
         "cp500": [7, 4, 10, 9],
         "cp1500": [20.5, 4, 8, 12],

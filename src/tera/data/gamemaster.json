@@ -1642,7 +1642,11 @@
 	        "spA": 80,
 	        "spD": 85,
 	        "spe": 102
-	    }
+	    },
+		"defaults": {
+			"moveTypes": ["dragon", "ground", "rock", "steel"],
+			"teraType": "ground"
+		}
 	}, {
 	    "name": "鹽石寶",
 	    "types": ["rock"],
@@ -2110,11 +2114,7 @@
 	        "spD": 80,
 	        "spe": 75
 	    },
-		"traits": ["flash_fire"],
-		"defaults": {
-			"moveTypes": ["fire", "psychic", "grass"],
-			"traits": ["flash_fire"]
-		}
+		"traits": ["flash_fire"]
 	}, {
 	    "name": "蒼炎刃鬼",
 	    "types": ["fire", "ghost"],
@@ -2127,11 +2127,7 @@
 	        "spD": 100,
 	        "spe": 85
 	    },
-		"traits": ["flash_fire"],
-		"defaults": {
-			"moveTypes": ["fire", "ghost", "dark"],
-			"traits": ["flash_fire"]
-		}
+		"traits": ["flash_fire"]
 	}, {
 	    "name": "泥泥鰍",
 	    "types": ["water", "ground"],
@@ -2380,7 +2376,11 @@
 	        "spA": 110,
 	        "spD": 130,
 	        "spe": 60
-	    }
+	    },
+		"defaults": {
+			"moveTypes": ["fairy", "normal"],
+			"teraType": "fairy"
+		}
 	}, {
 	    "name": "土龍弟弟",
 	    "types": ["normal"],

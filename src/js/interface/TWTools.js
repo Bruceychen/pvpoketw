@@ -126,6 +126,7 @@ function fastmoveAbbreviationArrTranslate(fastmove){
         'IF' :'冰凍牙',
         'FA' :'出奇一擊',
         'DK' :'二連踢',
+        'Tk' :'撞擊',
         'default':''
     };
     // return (allFastmoves[fastmove] || allFastmoves['default']);
@@ -266,6 +267,13 @@ function chargemoveAbbreviationArrTranslate(chargemove){
         'Acr' :'雜技',
         'RT' :'岩石封鎖',
         'MrC' :'鏡面反射',
+        'SSw' :'聖劍',
+        'PrB' :'斷崖之劍',
+        'FuB' :'交錯閃電',
+        'SF' :'神聖之火',
+        'HH' :'十萬馬力',
+        'FF' :'交錯火焰',
+        'G' :'冰封世界',
         'default':''
     };
     // return (allSpecialmoves[chargemove] || allSpecialmoves['default']);

@@ -487,6 +487,16 @@
     "cooldown": 500,
     "archetype": "Spam/Bait"
 }, {
+    "moveId": "DOUBLE_IRON_BASH",
+    "name": "鋼拳雙擊",
+	"abbreviation": "DbI",
+    "type": "steel",
+    "power": 50,
+    "energy": 35,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Spam/Bait"
+}, {
     "moveId": "DOUBLE_KICK",
     "name": "二連踢",
     "type": "fighting",

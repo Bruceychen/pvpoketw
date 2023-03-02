@@ -180,7 +180,7 @@
         "partySize": 3
     }, {
         "name": "ionic",
-        "title": "Silph Ionic Cup",
+        "title": "Silph 離子盃",
         "include": [{
             "filterType": "id",
             "name": "Species",
@@ -349,7 +349,7 @@
         "showFormat": false,
         "showMeta": false
     }, {
-        "title": "Silph Ionic Cup",
+        "title": "Silph 離子盃",
         "cup": "ionic",
         "cp": 1500,
         "meta": "ionic",

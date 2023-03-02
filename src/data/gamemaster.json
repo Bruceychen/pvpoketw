@@ -66,7 +66,7 @@
         }
     }, {
         "name": "color",
-        "title": "色彩盃",
+        "title": "四色盃",
         "include": [{
             "filterType": "type",
             "values": ["fire", "water", "grass", "electric"]
@@ -160,7 +160,7 @@
         }
     }, {
         "name": "fantasy",
-        "title": "幻想盃",
+        "title": "奇幻盃",
         "include": [{
             "filterType": "type",
             "values": ["steel", "dragon", "fairy"]
@@ -307,7 +307,7 @@
         "showFormat": false,
         "showMeta": true
     }, {
-        "title": "幻想盃(高級)",
+        "title": "奇幻盃(高級)",
         "cup": "fantasy",
         "cp": 2500,
         "meta": "fantasyultra",
@@ -315,7 +315,7 @@
         "showFormat": true,
         "showMeta": true
     }, {
-        "title": "色彩盃",
+        "title": "四色盃",
         "cup": "color",
         "cp": 1500,
         "meta": "color",

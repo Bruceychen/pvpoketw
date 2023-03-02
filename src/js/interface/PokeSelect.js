@@ -321,6 +321,8 @@ function PokeSelect(element, i){
 					}
 				}
 
+				$el.find(".form-link").hide();
+
 				if(forms.length > 0){
 					$el.find(".form-select-container").css("visibility", "visible");
 

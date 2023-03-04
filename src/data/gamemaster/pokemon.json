@@ -31914,7 +31914,7 @@
     }
 }, {
     "dex": 849,
-    "speciesName": "Toxtricity (Amped)",
+    "speciesName": "顫弦蠑螈 高調",
     "speciesId": "toxtricity_amped",
     "baseStats": {
         "atk": 224,
@@ -31938,7 +31938,7 @@
     }
 }, {
     "dex": 849,
-    "speciesName": "Toxtricity (Low Key)",
+    "speciesName": "顫弦蠑螈 低調",
     "speciesId": "toxtricity_low_key",
     "baseStats": {
         "atk": 224,
@@ -32082,7 +32082,7 @@
     }
 }, {
     "dex": 854,
-    "speciesName": "Sinistea (Antique)",
+    "speciesName": "來悲茶 真品",
     "speciesId": "sinistea_antique",
     "baseStats": {
         "atk": 134,
@@ -32106,7 +32106,7 @@
     }
 }, {
     "dex": 854,
-    "speciesName": "Sinistea (Phony)",
+    "speciesName": "來悲茶 贗品",
     "speciesId": "sinistea_phony",
     "baseStats": {
         "atk": 134,
@@ -32154,7 +32154,7 @@
     }
 }, {
     "dex": 855,
-    "speciesName": "Polteageist (Antique)",
+    "speciesName": "怖思壺 真品",
     "speciesId": "polteageist_antique",
     "baseStats": {
         "atk": 248,
@@ -32178,7 +32178,7 @@
     }
 }, {
     "dex": 855,
-    "speciesName": "Polteageist (Phony)",
+    "speciesName": "怖思壺 贗品",
     "speciesId": "polteageist_phony",
     "baseStats": {
         "atk": 248,
@@ -32678,7 +32678,7 @@
     "released": false
 }, {
     "dex": 875,
-    "speciesName": "Eiscue (Ice)",
+    "speciesName": "冰砌鵝 結凍頭",
     "speciesId": "eiscue_ice",
     "baseStats": {
         "atk": 148,
@@ -32698,7 +32698,7 @@
     "released": false
 }, {
     "dex": 875,
-    "speciesName": "Eiscue (Noice)",
+    "speciesName": "冰砌鵝 解凍頭",
     "speciesId": "eiscue_noice",
     "baseStats": {
         "atk": 173,
@@ -32739,7 +32739,7 @@
     "released": false
 }, {
     "dex": 876,
-    "speciesName": "Indeedee (Female)",
+    "speciesName": "愛管侍 雌",
     "speciesId": "indeedee_female",
     "baseStats": {
         "atk": 184,
@@ -32760,7 +32760,7 @@
     "released": false
 }, {
     "dex": 876,
-    "speciesName": "Indeedee (Male)",
+    "speciesName": "愛管侍 雄",
     "speciesId": "indeedee_male",
     "baseStats": {
         "atk": 208,
@@ -32801,7 +32801,7 @@
     "released": false
 }, {
     "dex": 877,
-    "speciesName": "Morpeko (Full Belly)",
+    "speciesName": "莫魯貝可 滿腹花紋",
     "speciesId": "morpeko_full_belly",
     "baseStats": {
         "atk": 192,
@@ -32821,7 +32821,7 @@
     "released": false
 }, {
     "dex": 877,
-    "speciesName": "Morpeko (Hangry)",
+    "speciesName": "莫魯貝可 空腹花紋",
     "speciesId": "morpeko_hangry",
     "baseStats": {
         "atk": 192,
@@ -33109,7 +33109,7 @@
     "searchPriority": 5
 }, {
     "dex": 888,
-    "speciesName": "Zacian (Crowned Sword)",
+    "speciesName": "蒼響 劍之王",
     "speciesId": "zacian_crowned_sword",
     "baseStats": {
         "atk": 332,
@@ -33171,7 +33171,7 @@
     "searchPriority": 5
 }, {
     "dex": 889,
-    "speciesName": "Zamazenta (Crowned Shield)",
+    "speciesName": "藏瑪然特 盾之王",
     "speciesId": "zamazenta_crowned_shield",
     "baseStats": {
         "atk": 250,
@@ -33211,7 +33211,7 @@
     "released": false
 }, {
     "dex": 890,
-    "speciesName": "Eternatus (Eternamax)",
+    "speciesName": "無極汰那 無極巨化",
     "speciesId": "eternatus_eternamax",
     "baseStats": {
         "atk": 251,
@@ -33279,7 +33279,7 @@
     }
 }, {
     "dex": 892,
-    "speciesName": "Urshifu (Rapid Strike)",
+    "speciesName": "武道熊師 連擊流",
     "speciesId": "urshifu_rapid_strike",
     "baseStats": {
         "atk": 254,
@@ -33303,7 +33303,7 @@
     }
 }, {
     "dex": 892,
-    "speciesName": "Urshifu (Single Strike)",
+    "speciesName": "武道熊師 一擊流",
     "speciesId": "urshifu_single_strike",
     "baseStats": {
         "atk": 254,
@@ -33449,7 +33449,7 @@
     "released": false
 }, {
     "dex": 898,
-    "speciesName": "Calyrex (Ice Rider)",
+    "speciesName": "蕾冠王 騎乘白馬",
     "speciesId": "calyrex_ice_rider",
     "baseStats": {
         "atk": 268,

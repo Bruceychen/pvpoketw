@@ -14985,7 +14985,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false
+        "released": true
     }, {
         "dex": 309,
         "speciesName": "落雷獸",
@@ -30759,7 +30759,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false
+        "released": true
     }, {
         "dex": 780,
         "speciesName": "老翁龍",

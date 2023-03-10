@@ -379,14 +379,6 @@
         "showFormat": false,
         "showMeta": true
     }, {
-        "title": "奇幻盃(高級)",
-        "cup": "fantasy",
-        "cp": 2500,
-        "meta": "fantasyultra",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
         "title": "四色盃",
         "cup": "color",
         "cp": 1500,
@@ -33892,6 +33884,8 @@
             "cp1500": [20, 4, 13, 8],
             "cp2500": [36, 4, 11, 15]
         },
+        "tags": ["legendary"],
+        "levelFloor": 20,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
@@ -33909,12 +33903,14 @@
         "chargedMoves": ["HYPER_BEAM", "OUTRAGE", "DRAGON_PULSE"],
         "defaultIVs": {
             "cp500": [6.5, 4, 12, 11],
-            "cp1500": [19, 4, 12, 8],
+            "cp1500": [20, 3, 3, 3],
             "cp2500": [31.5, 6, 15, 13]
         },
+        "tags": ["legendary"],
+        "levelFloor": 20,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     }, {
         "dex": 896,
         "speciesName": "雪暴馬",

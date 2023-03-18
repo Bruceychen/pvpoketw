@@ -56,7 +56,7 @@
 	<div class="article-item flex">
 		<div class="col-3">
 			<a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-03-slowpoke/">
-				<img src="<?php echo $WEB_HOST_ORIGN; ?>article-assets/community-day/23-03-slowpoke/thumb.jpg">
+				<img src="<?php echo $WEB_HOST_ORIGN; ?>articles/article-assets/community-day/23-03-slowpoke/thumb.jpg">
 			</a>
 		</div>
 		<div class="col-9">
@@ -95,8 +95,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Fri Mar 17 08:53:28 2022 +0800</li>
-                <li>原版最後版本時間：Thu Mar 16 20:04:08 2023 -0500</li>
+                <li>中文版最後更新時間：Sun Mar 19 01:03:28 2022 +0800</li>
+                <li>原版最後版本時間：Fri Mar 17 19:44:41 2023 -0500</li>
             </ul>
 </div>
 

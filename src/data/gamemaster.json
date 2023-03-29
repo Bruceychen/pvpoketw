@@ -313,7 +313,7 @@
         }]
     }, {
         "name": "polkadot",
-        "title": "Silph Polkadot Cup",
+        "title": "Silph 波卡盃",
         "include": [{
             "filterType": "id",
             "name": "Species",
@@ -490,7 +490,7 @@
         "showMeta": true,
         "hideRankings": false
     }, {
-        "title": "Silph Polkadot Cup",
+        "title": "Silph 波卡盃",
         "cup": "polkadot",
         "cp": 1500,
         "meta": "polkadot",

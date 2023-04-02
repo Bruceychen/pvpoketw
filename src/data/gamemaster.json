@@ -124,7 +124,7 @@
                 "pokemon": ["abomasnow", "araquanid", "aurorus", "charizard", "cofagrigus", "cresselia", "deoxys_defense", "diggersby", "drapion", "dubwool", "froslass", "gliscor", "jellicent", "jumpluff", "mandibuzz", "ninetales_alolan", "obstagoon", "pelipper", "pidgeot", "regirock", "runerigus", "scrafty", "skarmory", "swampert", "tapu_fini", "toxapex", "tropius", "umbreon", "venusaur", "vigoroth", "walrein"]
             }, {
                 "points": 1,
-                "pokemon": ["beedrill", "bronzong", "buzzwole", "chansey", "chesnaught", "dragalge", "dewgong", "dragonair", "dragonite", "dunsparce", "empoleon", "ferrothorn", "galvantula", "gligar", "golbat", "granbull", "greedent", "guzzlord", "hakamo_o", "qwilfish_hisuian", "hypno", "jirachi", "lapras", "lugia", "lurantis", "machamp", "magcargo", "mantine", "meganium", "marowak_alolan", "miltank", "mew", "muk_alolan", "ninetales", "nidoqueen", "overqwil", "pachirisu", "politoed", "probopass", "roserade", "sandslash_alolan", "serperior", "sirfetchd", "skuntank", "sneasler", "steelix", "talonflame", "tentacruel", "stunfisk", "toxicroak", "victini", "victreebel", "whiscash", "wigglytuff", "wobbuffet", "zweilous"]
+                "pokemon": ["grimer_alolan","beedrill", "bronzong", "buzzwole", "chansey", "chesnaught", "dragalge", "dewgong", "dragonair", "dragonite", "dunsparce", "empoleon", "ferrothorn", "galvantula", "gligar", "golbat", "granbull", "greedent", "guzzlord", "hakamo_o", "qwilfish_hisuian", "hypno", "jirachi", "lapras", "lugia", "lurantis", "machamp", "magcargo", "mantine", "meganium", "marowak_alolan", "miltank", "mew", "muk_alolan", "ninetales", "nidoqueen", "overqwil", "pachirisu", "politoed", "probopass", "roserade", "sandslash_alolan", "serperior", "sirfetchd", "skuntank", "sneasler", "steelix", "talonflame", "tentacruel", "stunfisk", "toxicroak", "victini", "victreebel", "whiscash", "wigglytuff", "wobbuffet", "zweilous"]
             }]
         }
     }, {
@@ -143,6 +143,17 @@
         "title": "自訂排名",
         "include": [],
         "exclude": []
+    }, {
+        "name": "evolution",
+        "title": "進化盃",
+        "include": [{
+            "filterType": "evolution",
+            "values": [2]
+        }],
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["mega"]
+        }]
     }, {
         "name": "factionsgreat",
         "title": "Silph Factions (Great League)",
@@ -371,6 +382,20 @@
         }],
         "partySize": 3,
         "presetOnly": true
+    }, {
+        "name": "spring",
+        "title": "春日盃",
+        "include": [{
+            "filterType": "type",
+            "values": ["water", "grass", "fairy"]
+        }],
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["mega"]
+        }, {
+            "filterType": "id",
+            "values": ["toxapex"]
+        }]
     }],
     "formats": [{
         "title": "大師經典賽 (XL 禁止)",
@@ -414,18 +439,26 @@
         "showFormat": false,
         "showMeta": true
     }, {
-        "title": "泰山盃",
-        "cup": "mountain",
-        "cp": 1500,
-        "meta": "mountain",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
         "title": "小小盃",
         "cup": "little",
         "cp": 500,
         "meta": "little",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
+    }, {
+        "title": "春日盃",
+        "cup": "spring",
+        "cp": 1500,
+        "meta": "spring",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
+    }, {
+        "title": "進化盃",
+        "cup": "evolution",
+        "cp": 1500,
+        "meta": "evolution",
         "showCup": true,
         "showFormat": true,
         "showMeta": true
@@ -29841,7 +29874,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_CUTIEFLY",
             "evolutions": ["ribombee"]
@@ -29865,7 +29898,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_CUTIEFLY",
             "parent": "cutiefly"

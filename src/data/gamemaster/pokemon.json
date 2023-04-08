@@ -317,7 +317,8 @@
     "family": {
         "id": "FAMILY_CHARMANDER",
         "parent": "charmeleon"
-    }
+    },
+    "nicknames": ["zard"]
 }, {
     "dex": 6,
     "speciesName": "噴火龍 Mega X",
@@ -344,7 +345,8 @@
     "family": {
         "id": "FAMILY_CHARMANDER",
         "parent": "charmeleon"
-    }
+    },
+    "nicknames": ["zardx"]
 }, {
     "dex": 6,
     "speciesName": "噴火龍 Mega Y",
@@ -371,7 +373,8 @@
     "family": {
         "id": "FAMILY_CHARMANDER",
         "parent": "charmeleon"
-    }
+    },
+    "nicknames": ["zardy"]
 }, {
     "dex": 6,
     "speciesName": "噴火龍 暗影",
@@ -398,7 +401,8 @@
     "family": {
         "id": "FAMILY_CHARMANDER",
         "parent": "charmeleon_shadow"
-    }
+    },
+    "nicknames": ["zard"]
 }, {
     "dex": 7,
     "speciesName": "傑尼龜",
@@ -1520,7 +1524,8 @@
     "family": {
         "id": "FAMILY_PIKACHU",
         "parent": "pikachu"
-    }
+    },
+    "nicknames": ["kchu"]
 }, {
     "dex": 26,
     "speciesName": "雷丘 阿羅拉",
@@ -1547,7 +1552,8 @@
     "family": {
         "id": "FAMILY_PIKACHU",
         "parent": "pikachu"
-    }
+    },
+    "nicknames": ["achu"]
 }, {
     "dex": 27,
     "speciesName": "穿山鼠",
@@ -1574,7 +1580,8 @@
     "family": {
         "id": "FAMILY_SANDSHREW",
         "evolutions": ["sandslash"]
-    }
+    },
+    "nicknames": ["kshrew"]
 }, {
     "dex": 27,
     "speciesName": "穿山鼠 阿羅拉",
@@ -1600,7 +1607,8 @@
     "family": {
         "id": "FAMILY_SANDSHREW",
         "evolutions": ["sandslash_alolan"]
-    }
+    },
+    "nicknames": ["ashrew"]
 }, {
     "dex": 27,
     "speciesName": "穿山鼠 暗影",
@@ -1626,7 +1634,8 @@
     "family": {
         "id": "FAMILY_SANDSHREW",
         "evolutions": ["sandslash_shadow"]
-    }
+    },
+    "nicknames": ["kshrew"]
 }, {
     "dex": 27,
     "speciesName": "穿山鼠 阿羅拉 暗影",
@@ -1651,7 +1660,8 @@
     "family": {
         "id": "FAMILY_SANDSHREW",
         "evolutions": ["sandslash_alolan_shadow"]
-    }
+    },
+    "nicknames": ["ashrew"]
 }, {
     "dex": 28,
     "speciesName": "穿山王",
@@ -1679,7 +1689,8 @@
     "family": {
         "id": "FAMILY_SANDSHREW",
         "parent": "sandshrew"
-    }
+    },
+    "nicknames": ["kslash"]
 }, {
     "dex": 28,
     "speciesName": "穿山王 阿羅拉",
@@ -1708,7 +1719,8 @@
     "family": {
         "id": "FAMILY_SANDSHREW",
         "parent": "sandshrew_alolan"
-    }
+    },
+    "nicknames": ["aslash"]
 }, {
     "dex": 28,
     "speciesName": "穿山王 暗影",
@@ -1735,7 +1747,8 @@
     "family": {
         "id": "FAMILY_SANDSHREW",
         "parent": "sandshrew_shadow"
-    }
+    },
+    "nicknames": ["kslash"]
 }, {
     "dex": 28,
     "speciesName": "穿山王 阿羅拉 暗影",
@@ -1763,7 +1776,8 @@
     "family": {
         "id": "FAMILY_SANDSHREW",
         "parent": "sandshrew_alolan_shadow"
-    }
+    },
+    "nicknames": ["aslash"]
 }, {
     "dex": 29,
     "speciesName": "尼多蘭",
@@ -1897,7 +1911,8 @@
     "family": {
         "id": "FAMILY_NIDORAN_FEMALE",
         "parent": "nidorina"
-    }
+    },
+	"nicknames": ["queen"]
 }, {
     "dex": 31,
     "speciesName": "尼多后 暗影",
@@ -2268,7 +2283,8 @@
     "family": {
         "id": "FAMILY_VULPIX",
         "parent": "vulpix"
-    }
+    },
+    "nicknames": ["k9"]
 }, {
     "dex": 38,
     "speciesName": "九尾 阿羅拉",
@@ -2296,7 +2312,8 @@
         "id": "FAMILY_VULPIX",
         "parent": "vulpix_alolan"
     },
-    "level25CP": 1401
+    "level25CP": 1401,
+    "nicknames": ["a9"]
 }, {
     "dex": 38,
     "speciesName": "九尾 暗影",
@@ -2324,7 +2341,8 @@
     "family": {
         "id": "FAMILY_VULPIX",
         "parent": "vulpix_shadow"
-    }
+    },
+    "nicknames": ["k9"]
 }, {
     "dex": 38,
     "speciesName": "九尾 阿羅拉 暗影",
@@ -2351,7 +2369,8 @@
     "family": {
         "id": "FAMILY_VULPIX",
         "parent": "vulpix_alolan_shadow"
-    }
+    },
+    "nicknames": ["a9"]
 }, {
     "dex": 39,
     "speciesName": "胖丁",
@@ -3657,7 +3676,8 @@
     "family": {
         "id": "FAMILY_POLIWAG",
         "parent": "poliwhirl"
-    }
+    },
+    "nicknames": ["wrath"]
 }, {
     "dex": 62,
     "speciesName": "蚊香泳士 暗影",
@@ -3685,7 +3705,8 @@
     "family": {
         "id": "FAMILY_POLIWAG",
         "parent": "poliwhirl_shadow"
-    }
+    },
+    "nicknames": ["wrath"]
 }, {
     "dex": 63,
     "speciesName": "凱西",
@@ -4241,7 +4262,8 @@
     "family": {
         "id": "FAMILY_TENTACOOL",
         "parent": "tentacool"
-    }
+    },
+	"nicknames": ["cruel"]
 }, {
     "dex": 74,
     "speciesName": "小拳石",
@@ -4374,7 +4396,8 @@
         "id": "FAMILY_GEODUDE",
         "parent": "geodude_alolan",
         "evolutions": ["golem_alolan"]
-    }
+    },
+    "nicknames": ["agrav"]
 }, {
     "dex": 75,
     "speciesName": "隆隆石 暗影",
@@ -4582,7 +4605,8 @@
     "family": {
         "id": "FAMILY_PONYTA",
         "parent": "ponyta_galarian"
-    }
+    },
+	"nicknames": ["gdash"]
 }, {
     "dex": 79,
     "speciesName": "呆呆獸",
@@ -5187,6 +5211,7 @@
         "id": "FAMILY_GRIMER",
         "parent": "grimer_alolan"
     },
+    "nicknames": ["amuk"],
     "level25CP": 1696
 }, {
     "dex": 89,
@@ -6082,7 +6107,8 @@
     "family": {
         "id": "FAMILY_CUBONE",
         "parent": "cubone"
-    }
+    },
+    "nicknames": ["awak"]
 }, {
     "dex": 105,
     "speciesName": "嘎啦嘎啦 暗影",
@@ -6134,7 +6160,8 @@
     "family": {
         "id": "FAMILY_CUBONE",
         "parent": "cubone_shadow"
-    }
+    },
+    "nicknames": ["awak"]
 }, {
     "dex": 106,
     "speciesName": "飛腿郎",
@@ -6378,7 +6405,8 @@
     "family": {
         "id": "FAMILY_KOFFING",
         "parent": "koffing"
-    }
+    },
+    "nicknames": ["gweez"]
 }, {
     "dex": 110,
     "speciesName": "雙彈瓦斯 暗影",
@@ -6818,7 +6846,8 @@
     "family": {
         "id": "FAMILY_MR_MIME",
         "parent": "mime_jr"
-    }
+    },
+    "nicknames": ["mime", "mr mime"]
 }, {
     "dex": 122,
     "speciesName": "魔牆人偶 伽勒爾",
@@ -6844,7 +6873,8 @@
         "id": "FAMILY_MR_MIME",
         "parent": "mime_jr",
         "evolutions": ["mr_rime"]
-    }
+    },
+    "nicknames": ["mime", "mr mime"]
 }, {
     "dex": 123,
     "speciesName": "飛天螳螂",
@@ -7181,7 +7211,8 @@
     "family": {
         "id": "FAMILY_MAGIKARP",
         "parent": "magikarp"
-    }
+    },
+    "nicknames": ["gary"]
 }, {
     "dex": 130,
     "speciesName": "暴鯉龍 Mega",
@@ -7208,7 +7239,8 @@
     "family": {
         "id": "FAMILY_MAGIKARP",
         "parent": "magikarp"
-    }
+    },
+    "nicknames": ["gary"]
 }, {
     "dex": 130,
     "speciesName": "暴鯉龍 暗影",
@@ -7235,7 +7267,8 @@
     "family": {
         "id": "FAMILY_MAGIKARP",
         "parent": "magikarp_shadow"
-    }
+    },
+    "nicknames": ["gary"]
 }, {
     "dex": 131,
     "speciesName": "拉普拉斯",
@@ -7708,7 +7741,8 @@
     "family": {
         "id": "FAMILY_SNORLAX",
         "parent": "munchlax"
-    }
+    },
+	"nicknames": ["lax"]
 }, {
     "dex": 143,
     "speciesName": "卡比獸 暗影",
@@ -8013,7 +8047,8 @@
         "id": "FAMILY_DRATINI",
         "parent": "dratini",
         "evolutions": ["dragonite"]
-    }
+    },
+	"nicknames": ["dnair"]
 }, {
     "dex": 148,
     "speciesName": "哈克龍 暗影",
@@ -8039,7 +8074,8 @@
         "id": "FAMILY_DRATINI",
         "parent": "dratini_shadow",
         "evolutions": ["dragonite_shadow"]
-    }
+    },
+	"nicknames": ["dnair"]
 }, {
     "dex": 149,
     "speciesName": "快龍",
@@ -8067,7 +8103,8 @@
     "family": {
         "id": "FAMILY_DRATINI",
         "parent": "dragonair"
-    }
+    },
+    "nicknames": ["dnite"]
 }, {
     "dex": 149,
     "speciesName": "快龍 暗影",
@@ -8094,7 +8131,8 @@
     "family": {
         "id": "FAMILY_DRATINI",
         "parent": "dragonair_shadow"
-    }
+    },
+    "nicknames": ["dnite"]
 }, {
     "dex": 150,
     "speciesName": "超夢",
@@ -8117,7 +8155,8 @@
     "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"],
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": true
+    "released": true,
+    "nicknames": ["m2"]
 }, {
     "dex": 150,
     "speciesName": "超夢 裝甲",
@@ -8139,7 +8178,8 @@
     },
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": true
+    "released": true,
+    "nicknames": ["am2"]
 }, {
     "dex": 150,
     "speciesName": "超夢 暗影",
@@ -8161,7 +8201,8 @@
     "eliteMoves": ["PSYSTRIKE", "SHADOW_BALL", "HYPER_BEAM"],
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": true
+    "released": true,
+    "nicknames": ["m2"]
 }, {
     "dex": 151,
     "speciesName": "夢幻",
@@ -8758,7 +8799,8 @@
     "family": {
         "id": "FAMILY_HOOTHOOT",
         "parent": "hoothoot"
-    }
+    },
+    "nicknames": ["owl"]
 }, {
     "dex": 165,
     "speciesName": "芭瓢蟲",
@@ -9565,7 +9607,8 @@
     "family": {
         "id": "FAMILY_POLIWAG",
         "parent": "poliwhirl"
-    }
+    },
+    "nicknames": ["toed"]
 }, {
     "dex": 186,
     "speciesName": "蚊香蛙皇 暗影",
@@ -9593,7 +9636,8 @@
     "family": {
         "id": "FAMILY_POLIWAG",
         "parent": "poliwhirl_shadow"
-    }
+    },
+    "nicknames": ["toed"]
 }, {
     "dex": 187,
     "speciesName": "毽子草",
@@ -10740,7 +10784,8 @@
     "family": {
         "id": "FAMILY_QWILFISH",
         "evolutions": ["overqwil"]
-    }
+    },
+    "nicknames": ["hqwil"]
 }, {
     "dex": 212,
     "speciesName": "巨鉗螳螂",
@@ -12240,7 +12285,8 @@
     "family": {
         "id": "FAMILY_LARVITAR",
         "parent": "pupitar"
-    }
+    },
+    "nicknames": ["ttar"]
 }, {
     "dex": 248,
     "speciesName": "班基拉斯 暗影",
@@ -12267,7 +12313,8 @@
     "family": {
         "id": "FAMILY_LARVITAR",
         "parent": "pupitar_shadow"
-    }
+    },
+    "nicknames": ["ttar"]
 }, {
     "dex": 249,
     "speciesName": "洛奇亞",
@@ -12336,7 +12383,8 @@
     "searchPriority": 4,
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": true
+    "released": true,
+    "nicknames": ["hooh", "ho oh"]
 }, {
     "dex": 250,
     "speciesName": "鳳王 暗影",
@@ -12359,7 +12407,8 @@
     "searchPriority": 4,
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": true
+    "released": true,
+    "nicknames": ["hooh", "ho oh"]
 }, {
     "dex": 251,
     "speciesName": "時拉比",
@@ -16131,7 +16180,8 @@
     "family": {
         "id": "FAMILY_LILEEP",
         "parent": "lileep"
-    }
+    },
+    "nicknames": ["dily"]
 }, {
     "dex": 346,
     "speciesName": "搖籃百合 暗影",
@@ -16157,7 +16207,8 @@
     "family": {
         "id": "FAMILY_LILEEP",
         "parent": "lileep_shadow"
-    }
+    },
+    "nicknames": ["dily"]
 }, {
     "dex": 347,
     "speciesName": "太古羽蟲",
@@ -17918,7 +17969,8 @@
     "searchPriority": 15,
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": true
+    "released": true,
+    "nicknames": ["dd"]
 }, {
     "dex": 386,
     "speciesName": "代歐奇希斯 速度",
@@ -19023,7 +19075,8 @@
     "family": {
         "id": "FAMILY_BURMY",
         "parent": "burmy_trash"
-    }
+    },
+    "nicknames": ["trash"]
 }, {
     "dex": 414,
     "speciesName": "紳士蛾",
@@ -20039,7 +20092,8 @@
     "family": {
         "id": "FAMILY_GIBLE",
         "parent": "gabite"
-    }
+    },
+    "nicknames": ["chomp"]
 }, {
     "dex": 446,
     "speciesName": "小卡比獸",
@@ -20374,7 +20428,8 @@
     "family": {
         "id": "FAMILY_CROAGUNK",
         "parent": "croagunk"
-    }
+    },
+	"nicknames": ["croak"]
 }, {
     "dex": 455,
     "speciesName": "尖牙籠",
@@ -20940,7 +20995,8 @@
     "family": {
         "id": "FAMILY_TOGEPI",
         "parent": "togetic"
-    }
+    },
+    "nicknames": ["kiss"]
 }, {
     "dex": 469,
     "speciesName": "遠古巨蜓",
@@ -21359,7 +21415,8 @@
     "family": {
         "id": "FAMILY_SNORUNT",
         "parent": "snorunt"
-    }
+    },
+    "nicknames": ["lass"]
 }, {
     "dex": 479,
     "speciesName": "洛托姆 一般",
@@ -21657,7 +21714,8 @@
     "searchPriority": 32,
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": true
+    "released": true,
+    "nicknames": ["tina", "gira a", "tinaa", "tina a"]
 }, {
     "dex": 487,
     "speciesName": "騎拉帝納 起源",
@@ -21679,7 +21737,8 @@
     },
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": true
+    "released": true,
+    "nicknames": ["tina", "gira o", "tinao", "tina o"]
 }, {
     "dex": 488,
     "speciesName": "克雷色利亞",
@@ -25112,7 +25171,8 @@
         "parent": "joltik"
     },
     "level25CP": 1330,
-    "tags": ["shadoweligible"]
+    "tags": ["shadoweligible"],
+    "nicknames": ["spooder"]
 }, {
     "dex": 596,
     "speciesId": "galvantula_shadow",
@@ -25138,7 +25198,8 @@
         "id": "FAMILY_JOLTIK",
         "parent": "joltik_shadow"
     },
-    "tags": ["shadow"]
+    "tags": ["shadow"],
+    "nicknames": ["spooder"]
 }, {
     "dex": 597,
     "speciesId": "ferroseed",
@@ -25671,7 +25732,8 @@
     "searchPriority": 10,
     "buddyDistance": 5,
     "thirdMoveCost": 75000,
-    "released": true
+    "released": true,
+    "nicknames": ["ufisk"]
 }, {
     "dex": 618,
     "speciesName": "泥巴魚 伽勒爾",
@@ -25693,7 +25755,8 @@
     "searchPriority": 20,
     "buddyDistance": 5,
     "thirdMoveCost": 75000,
-    "released": true
+    "released": true,
+    "nicknames": ["gfisk"]
 }, {
     "dex": 619,
     "speciesId": "mienfoo",
@@ -28029,7 +28092,8 @@
     },
     "buddyDistance": 5,
     "thirdMoveCost": 75000,
-    "released": true
+    "released": true,
+    "tags": ["regional"]
 }, {
     "dex": 702,
     "speciesName": "咚咚鼠",
@@ -32731,7 +32795,8 @@
     "family": {
         "id": "FAMILY_ZIGZAGOON",
         "parent": "linoone_galarian"
-    }
+    },
+	"nicknames": ["goon"]
 }, {
     "dex": 863,
     "speciesName": "喵頭目",
@@ -33716,7 +33781,7 @@
     },
     "types": ["electric", "none"],
     "fastMoves": ["THUNDER_SHOCK", "LOCK_ON"],
-    "chargedMoves": ["THUNDERBOLT", "THUNDER", "HYPER_BEAM"],
+    "chargedMoves": ["ZAP_CANNON", "THUNDER", "HYPER_BEAM"],
     "defaultIVs": {
         "cp500": [7, 6, 7, 5],
         "cp1500": [20, 4, 13, 8],
@@ -33726,7 +33791,7 @@
     "levelFloor": 20,
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": false
+    "released": true
 }, {
     "dex": 895,
     "speciesName": "雷吉鐸拉戈",

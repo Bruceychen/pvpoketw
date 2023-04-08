@@ -411,7 +411,7 @@ var InterfaceMaster = (function () {
 			var $target = null;
 
 			$("body").on("keyup", ".poke-search", function(e){
-				searchStr = $(this).val().toLowerCase();
+				searchStr = $(this).val().toLowerCase().trim();
 
 				$target = $(".train-table."+$(e.target).attr("target"));
 
@@ -474,15 +474,15 @@ var InterfaceMaster = (function () {
 			}
 		};
 
-		return object;
-	}
+        return object;
+    }
 
-	return {
-		getInstance: function () {
-			if (!instance) {
-				instance = createInstance();
-			}
-			return instance;
-		}
-	};
+    return {
+        getInstance: function () {
+            if (!instance) {
+                instance = createInstance();
+            }
+            return instance;
+        }
+    };
 })();

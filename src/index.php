@@ -41,9 +41,10 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.29.27 (March 27, 2023)</h4>
+	<h4>v1.29.28 (April 7, 2023)</h4>
 	<ul>
-		<li>Pokemon in the Potential Alternatives section of the Team Builder are now searchable.</li>
+		<li>Added the ability to select and search for Pokemon by common nicknames ("gfisK", "a9", etc.). You can see a full list of nicknames by clicking the help icon next to the rankings searchbar.</li>
+		<li>Minor UI fixes</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -90,8 +91,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Sun Apr 2 17:05:28 2022 +0800</li>
-                <li>原版最後版本時間：Sat Apr 1 14:16:11 2023 -0500</li>
+                <li>中文版最後更新時間：Sun Apr 9 00:35:28 2022 +0800</li>
+                <li>原版最後版本時間：Fri Apr 7 16:54:58 2023 -0500</li>
             </ul>
 </div>
 

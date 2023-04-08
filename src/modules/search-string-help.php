@@ -6,6 +6,10 @@
             <td>瑪力露麗</td>
         </tr>
         <tr>
+            <td><strong>Pokemon Nickname</strong></td>
+            <td>gfisk (<a class="nickname-list" href="#">List of nicknames<a>)</td>
+        </tr>
+        <tr>
             <td><strong>寶可夢屬性</strong></td>
             <td>water:水屬</td>
         </tr>
@@ -123,4 +127,17 @@
             <td>!water</td>
         </tr>
     </table>
+</div>
+
+<div class="search-nicknames article hide">
+	<p>You can select or search for Pokemon using the common nicknames below:</p>
+	<table cellspacing="0">
+		<thead>
+			<th>Pokemon</th>
+			<th>Nicknames</th>
+		</thead>
+
+		<tbody>
+		</tbody>
+	</table>
 </div>

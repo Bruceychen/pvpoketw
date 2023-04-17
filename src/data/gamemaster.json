@@ -434,14 +434,6 @@
         "showFormat": false,
         "showMeta": true
     }, {
-        "title": "大師紀念盃",
-        "cup": "premier",
-        "cp": 10000,
-        "meta": "premiermaster",
-        "showCup": false,
-        "showFormat": false,
-        "showMeta": true
-    }, {
         "title": "Mega大師聯盟(暫譯)",
         "cup": "mega",
         "cp": 10000,
@@ -470,6 +462,14 @@
         "cup": "weather",
         "cp": 2500,
         "meta": "weather",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
+    }, {
+        "title": "大師紀念盃",
+        "cup": "premier",
+        "cp": 10000,
+        "meta": "premiermaster",
         "showCup": true,
         "showFormat": true,
         "showMeta": true

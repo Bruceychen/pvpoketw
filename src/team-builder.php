@@ -46,6 +46,10 @@ require_once 'header.php';
                 <h3>推薦的XL寶可夢</h3>
                 <div class="check allow-xl <?php if($_SETTINGS->xls): echo "on"; endif; ?>"><span></span>於具威脅寶可夢與可替換成員中顯示等級40以上的寶可夢</div>
 			</div>
+            <div class="team-option">
+                <h3>Allow Same Species</h3>
+                <div class="check same-species"><span></span>Allow team to use multiple of the same species</div>
+            </div>
             <div class="flex-break"></div>
             <div class="team-option">
                 <h3>防護網使用策略</h3>

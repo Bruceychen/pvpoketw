@@ -12,7 +12,7 @@
 			<p>選擇寶可夢組成隊伍，或選擇已儲存之隊伍。</p>
             <a class="custom-group-sort" href="#">排序 ...</a>
 			<div class="rankings-container clear"></div>
-			<div class="team-warning ineligible">你的隊伍成員包含不符此賽制規則的寶可夢。</div>
+			<div class="team-warning ineligible">你的隊伍成員包含不符此賽制規則或數值過低的寶可夢。</div>
 			<div class="team-warning labyrinth">迷宮盃隊伍內寶可夢不得有相同屬性！</div>
 
             <button class="add-poke-btn button">+ 選擇寶可夢</button>

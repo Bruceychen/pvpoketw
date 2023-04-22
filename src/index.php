@@ -41,10 +41,10 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.29.28 (April 7, 2023)</h4>
+	<h4>v1.29.29 (April 22, 2023)</h4>
 	<ul>
-		<li>Added the ability to select and search for Pokemon by common nicknames ("gfisK", "a9", etc.). You can see a full list of nicknames by clicking the help icon next to the rankings searchbar.</li>
-		<li>Minor UI fixes</li>
+		<li>Improved ranking search speed</li>
+		<li>Team Builder has a setting to include Pokemon of the same species in team suggestions. This setting is off by default and enabled for Silph formats.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -91,8 +91,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Thu Apr 20 18:33:28 2022 +0800</li>
-                <li>原版最後版本時間：Wed Apr 19 14:52:29 2023 -0500</li>
+                <li>中文版最後更新時間：Sun Apr 23 01:50:28 2022 +0800</li>
+                <li>原版最後版本時間：Sat Apr 22 11:12:51 2023 -0500</li>
             </ul>
 </div>
 

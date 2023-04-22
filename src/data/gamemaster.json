@@ -64,7 +64,8 @@
             "filterType": "tag",
             "name": "Tag",
             "values": ["mega"]
-        }]
+        }],
+        "allowSameSpecies": true
     }, {
         "name": "catacomb",
         "title": "Silph Factions (Catacomb)",
@@ -97,7 +98,8 @@
             "filterType": "id",
             "name": "Species",
             "values": ["scrafty", "obstagoon", "dewgong", "ninetales_alolan", "crustle", "aurorus", "amaura", "walrein", "qwilfish_hisuian", "overqwil", "araquanid", "trevenant", "magcargo", "dwebble"]
-        }]
+        }],
+        "allowSameSpecies": true
     }, {
         "name": "classic",
         "title": "Classic",
@@ -124,7 +126,7 @@
                 "pokemon": ["abomasnow", "araquanid", "aurorus", "charizard", "cofagrigus", "cresselia", "deoxys_defense", "diggersby", "drapion", "dubwool", "froslass", "gliscor", "jellicent", "jumpluff", "mandibuzz", "ninetales_alolan", "obstagoon", "pelipper", "pidgeot", "regirock", "runerigus", "scrafty", "skarmory", "swampert", "tapu_fini", "toxapex", "tropius", "umbreon", "venusaur", "vigoroth", "walrein"]
             }, {
                 "points": 1,
-                "pokemon": ["grimer_alolan","beedrill", "bronzong", "buzzwole", "chansey", "chesnaught", "dragalge", "dewgong", "dragonair", "dragonite", "dunsparce", "empoleon", "ferrothorn", "galvantula", "gligar", "golbat", "granbull", "greedent", "guzzlord", "hakamo_o", "qwilfish_hisuian", "hypno", "jirachi", "lapras", "lugia", "lurantis", "machamp", "magcargo", "mantine", "meganium", "marowak_alolan", "miltank", "mew", "muk_alolan", "ninetales", "nidoqueen", "overqwil", "pachirisu", "politoed", "probopass", "roserade", "sandslash_alolan", "serperior", "sirfetchd", "skuntank", "sneasler", "steelix", "talonflame", "tentacruel", "stunfisk", "toxicroak", "victini", "victreebel", "whiscash", "wigglytuff", "wobbuffet", "zweilous"]
+                "pokemon": ["beedrill", "bronzong", "buzzwole", "chansey", "chesnaught", "dragalge", "dewgong", "dragonair", "dragonite", "dunsparce", "empoleon", "ferrothorn", "galvantula", "gligar", "golbat", "granbull", "greedent", "grimer_alolan", "guzzlord", "hakamo_o", "qwilfish_hisuian", "hypno", "jirachi", "kommo_o", "lapras", "lugia", "lurantis", "machamp", "magcargo", "mantine", "meganium", "marowak_alolan", "miltank", "mew", "muk_alolan", "ninetales", "nidoqueen", "overqwil", "pachirisu", "politoed", "probopass", "roserade", "sandslash_alolan", "serperior", "sirfetchd", "skuntank", "sneasler", "steelix", "talonflame", "tentacruel", "stunfisk", "toxicroak", "victini", "victreebel", "whiscash", "wigglytuff", "wobbuffet", "zweilous"]
             }]
         }
     }, {
@@ -178,7 +180,8 @@
                 "points": 2,
                 "pokemon": ["abomasnow", "froslass", "pidgeot", "aurorus", "machamp", "scrafty", "charizard", "mandibuzz", "skarmory", "cofagrigus", "mantine", "tapu_fini", "cresselia", "ninetales_alolan", "venusaur", "diggersby", "obstagoon", "walrein", "drapion", "pelipper"]
             }]
-        }
+        },
+        "allowSameSpecies": true
     }, {
         "name": "factionsmaster",
         "title": "Silph Factions (Master League)",
@@ -212,7 +215,8 @@
                 "points": 1,
                 "pokemon": ["landorus_therian", "landorus_incarnate", "genesect", "genesect_shock", "genesect_chill", "genesect_burn", "genesect_douse", "mew", "buzzwole", "florges", "venusaur_mega", "abomasnow_mega", "blaziken_mega", "sceptile_mega", "altaria_mega", "alakazam_mega"]
             }]
-        }
+        },
+        "allowSameSpecies": true
     }, {
         "name": "factionsultra",
         "title": "Silph Factions (Ultra League)",
@@ -282,7 +286,8 @@
         }, {
             "filterType": "id",
             "values": ["toxicroak", "dragalge", "aurorus", "golem_alolan", "lanturn", "tapu_fini", "hawlucha"]
-        }]
+        }],
+        "allowSameSpecies": true
     }, {
         "name": "little",
         "title": "小小盃",
@@ -330,7 +335,8 @@
             "name": "Species",
             "values": ["beedrill", "venomoth", "heracross", "masquerain", "wormadam_sandy", "wormadam_plant", "vespiquen", "scolipede", "galvantula", "charjabug", "araquanid", "raichu", "nidoking", "golduck", "dewgong", "wailmer", "seviper", "sealeo", "bibarel", "serperior", "swoobat", "dedenne", "primarina", "arcanine", "rapidash", "rapidash_galarian", "vaporeon", "typhlosion", "girafarig", "sneasel_hisuian", "donphan", "blaziken", "manectric", "leafeon", "samurott", "zebstrika", "luxray", "emolga", "beartic", "quilladin", "chesnaught", "litleo", "pyroar", "sylveon", "oranguru", "xatu", "talonflame", "togekiss", "swanna", "clefable", "wigglytuff", "plusle", "minun", "florges", "aromatisse", "slurpuff", "raichu_alolan", "jumpluff", "granbull", "castform", "glalie", "roserade", "whimsicott", "arbok", "staraptor", "ledian", "scyther", "yanmega", "toucannon", "espeon", "glaceon", "golisopod", "flareon", "delphox", "heatmor", "zangoose", "emboar", "camerupt", "ampharos", "vikavolt", "jolteon", "bewear", "sandslash", "hippowdon", "pinsir", "kricketune", "lopunny", "linoone", "furret", "ursaluna", "wailord", "cherrim_sunny", "kecleon", "stoutland", "dustox", "braviary", "prinplup", "darmanitan_standard", "darmanitan_galarian_standard", "purugly"]
         }],
-        "exclude": []
+        "exclude": [],
+        "allowSameSpecies": true
     }, {
         "name": "premier",
         "title": "Premier Cup",
@@ -454,6 +460,14 @@
         "cup": "premier",
         "cp": 10000,
         "meta": "premiermaster",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
+    }, {
+        "title": "小小盃",
+        "cup": "little",
+        "cp": 500,
+        "meta": "little",
         "showCup": true,
         "showFormat": true,
         "showMeta": true
@@ -5341,7 +5355,7 @@
             "cp1500": [15, 4, 14, 5],
             "cp2500": [24.5, 5, 14, 11]
         },
-        "tags": ["mega"],
+        "tags": ["mega", "shadoweligible"],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -8269,7 +8283,7 @@
         "types": ["rock", "flying"],
         "fastMoves": ["BITE", "STEEL_WING", "ROCK_THROW"],
         "chargedMoves": ["ANCIENT_POWER", "HYPER_BEAM", "IRON_HEAD", "ROCK_SLIDE", "EARTH_POWER"],
-        "tags": ["mega"],
+        "tags": ["mega", "shadoweligible"],
         "defaultIVs": {
             "cp500": [4.5, 11, 14, 15],
             "cp1500": [13.5, 4, 10, 11],
@@ -34605,7 +34619,7 @@
             "cp1500": [50, 15, 15, 15],
             "cp2500": [50, 15, 15, 15]
         },
-        "buddyDistance": 1,
+        "buddyDistance": 5,
         "thirdMoveCost": 10000,
         "released": true,
         "family": {
@@ -34629,7 +34643,7 @@
             "cp1500": [15.5, 6, 12, 15],
             "cp2500": [25.5, 8, 15, 15]
         },
-        "buddyDistance": 1,
+        "buddyDistance": 5,
         "thirdMoveCost": 10000,
         "released": true,
         "family": {

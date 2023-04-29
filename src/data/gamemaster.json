@@ -7499,7 +7499,7 @@
         "released": true,
         "family": {
             "id": "FAMILY_SCYTHER",
-            "evolutions": ["scizor"]
+            "evolutions": ["scizor", "kleavor"]
         }
     }, {
         "dex": 123,
@@ -34500,6 +34500,28 @@
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
+    }, {
+        "dex": 900,
+        "speciesId": "kleavor",
+        "speciesName": "劈斧螳螂",
+        "baseStats": {
+            "atk": 244,
+            "def": 179,
+            "hp": 172
+        },
+        "defaultIVs": {
+            "cp500": [6, 13, 14, 13],
+            "cp1500": [18, 4, 12, 12],
+            "cp2500": [30, 5, 15, 9]
+        },
+        "types": ["bug", "rock"],
+        "fastMoves": ["STRUGGLE"],
+        "chargedMoves": ["STRUGGLE"],
+        "levelFloor": 20,
+        "family": {
+            "id": "FAMILY_SCYTHER",
+            "parent": "scyther"
+        }
     }, {
         "dex": 901,
         "speciesName": "月月熊",

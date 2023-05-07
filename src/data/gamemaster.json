@@ -146,6 +146,19 @@
         "include": [],
         "exclude": []
     }, {
+        "name": "element",
+        "title": "元素盃",
+        "include": [{
+            "filterType": "evolution",
+            "values": [1]
+        }, {
+            "filterType": "type",
+            "values": ["fire", "water", "grass"]
+        }],
+        "exclude": [],
+        "partySize": 3,
+        "presetOnly": true
+    }, {
         "name": "evolution",
         "title": "進化盃",
         "include": [{
@@ -482,6 +495,14 @@
         "cup": "sunshine",
         "cp": 1500,
         "meta": "sunshine",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
+    }, {
+        "title": "元素盃",
+        "cup": "element",
+        "cp": 500,
+        "meta": "element",
         "showCup": true,
         "showFormat": true,
         "showMeta": true

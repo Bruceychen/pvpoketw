@@ -1,5 +1,5 @@
 <div class="pokebox">
-	<a href="#" class="open-pokebox"><span>匯入</span><span>寶可夢盒子<span></a>
+	<a href="#" class="open-pokebox button-highlight"><span>匯入</span><span>寶可夢盒子<span></a>
 
 	<div class="pokebox-import hide">
 		<div class="pokebox-on hide">

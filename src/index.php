@@ -5,31 +5,66 @@
 	<p>歡迎來到 PvPokeTW.com! 這是一個基於 <a href="pvpoke.com">pvpoke.com</a> 的非官方繁中翻譯版，針對 Pokemon GO PVP(玩家間對戰) 的開源平台。</p>
 
 	<a href="<?php echo $WEB_ROOT; ?>battle/" class="button">
-		<h2 class="icon-battle">戰鬥模擬計算</h2>
-		<p>指定兩隻或多隻寶可夢進行模擬戰鬥並計算各種數據</p>
+		<span class="btn-content-wrap">
+			<span class="btn-icon btn-icon-battle"></span>
+			<span class="btn-label">
+				<h2>戰鬥模擬計算</h2>
+				<p>指定兩隻或多隻寶可夢進行模擬戰鬥並計算各種數據</p>
+			</span>
+		</span>
 	</a>
-	<a href="<?php echo $WEB_ROOT; ?>train/" class="button">
-		<h2 class="icon-train">AI對戰訓練</h2>
-		<p>與AI進行模擬真實狀況的即時戰鬥訓練</p>
-	</a>
+
 	<a href="<?php echo $WEB_ROOT; ?>rankings/" class="button">
-		<h2 class="icon-rankings">寶可夢排名</h2>
-		<p>各聯盟、主題賽中所有寶可夢的招式與戰鬥能力排行</p>
+		<span class="btn-content-wrap">
+			<span class="btn-icon btn-icon-rankings"></span>
+			<span class="btn-label">
+				<h2>寶可夢排名</h2>
+				<p>各聯盟、主題賽中所有寶可夢的招式與戰鬥能力排行</p>
+			</span>
+		</span>
 	</a>
+
 	<a href="<?php echo $WEB_ROOT; ?>team-builder/" class="button">
-		<h2 class="icon-team">隊伍組建模擬</h2>
-		<p>組建隊伍，並且找出屬性優劣勢與潛在威脅</p>
+		<span class="btn-content-wrap">
+			<span class="btn-icon btn-icon-team"></span>
+			<span class="btn-label">
+				<h2>隊伍組建模擬</h2>
+				<p>組建隊伍，並且找出屬性優劣勢與潛在威脅</p>
+			</span>
+		</span>
 	</a>
+
+	<a href="<?php echo $WEB_ROOT; ?>train/" class="button">
+		<span class="btn-content-wrap">
+			<span class="btn-icon btn-icon-train"></span>
+			<span class="btn-label">
+				<h2>AI對戰訓練</h2>
+				<p>與AI進行模擬真實狀況的即時戰鬥訓練</p>
+			</span>
+		</span>
+	</a>
+
+
 	<a href="<?php echo $WEB_ROOT; ?>contribute/" class="button">
-		<h2 class="icon-contribute">貢獻一己之力</h2>
-		<p>網站原始程式碼位置以及贊助原作者(非譯者)</p>
+		<span class="btn-content-wrap">
+			<span class="btn-icon btn-icon-heart"></span>
+			<span class="btn-label">
+				<h2>貢獻一己之力</h2>
+				<p>網站原始程式碼位置以及贊助原作者(非譯者)</p>
+			</span>
+		</span>
 	</a>
 
 	<h3>寶可夢 朱 &amp; 紫</h3>
 
 	<a href="<?php echo $WEB_ROOT; ?>tera/" class="button tera-button">
-		<h2 class="icon-tera">太晶戰反制計算器</h2>
-		<p>NS本傳太晶團體戰，反制寶可夢屬性搭配計算</p>
+		<span class="btn-content-wrap">
+			<span class="btn-icon btn-icon-tera"></span>
+			<span class="btn-label">
+				<h2>太晶戰反制計算器</h2>
+				<p>NS本傳太晶團體戰，反制寶可夢屬性搭配計算</p>
+			</span>
+		</span>
 	</a>
 
 	<?php require 'modules/ads/body-728.php'; ?>
@@ -91,8 +126,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Tue May 23 12:05:28 2022 +0800</li>
-                <li>原版最後版本時間：Mon May 22 14:42:54 2023 -0500</li>
+                <li>中文版最後更新時間：Wed May 31 01:45:28 2023 +0800</li>
+                <li>原版最後版本時間：Mon May 29 07:13:36 2023 -0500</li>
             </ul>
 </div>
 

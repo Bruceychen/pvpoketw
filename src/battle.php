@@ -42,8 +42,18 @@ require_once 'header.php';
 </div>
 
 <div class="section battle">
-	<button class="battle-btn button">開始戰鬥</button>
-	<button class="update-btn button">更新</button>
+	<button class="battle-btn button">
+		<span class="btn-content-wrap">
+			<span class="btn-icon btn-icon-battle"></span>
+			<span class="btn-label">開始戰鬥</span>
+		</span>
+	</button>
+	<button class="update-btn button">
+		<span class="btn-content-wrap">
+			<span class="btn-icon btn-icon-battle"></span>
+			<span class="btn-label">更新</span>
+		</span>
+	</button>
 	<div class="tooltip"><h3 class="name"></h3><div class="details"></div></div>
 
 	<div class="battle-results single">
@@ -78,7 +88,6 @@ require_once 'header.php';
 			</div>
 			<div class="disclaimer">* 此模擬可能會因實際網路連線品質、使用裝置、玩家思考決策時間等諸多因素，而使模擬結果與真實狀況有所出入。</div>
 		</div>
-        <button class="bulk-btn button">Explore Win Conditions</button>
 		<div class="summary section white"></div>
         <div class="tip automated">點擊或將滑鼠游標移動到時間軸上任意位置以獲得更精確資訊。<a href="<?php echo $WEB_ROOT; ?>articles/guide-to-fast-move-registration/">點此</a> 了解更多關於時間軸的機制(英文)。</div>
         <div class="tip sandbox">點選單個圓圈以修改寶可夢行動。</div>
@@ -116,32 +125,45 @@ require_once 'header.php';
 						<tr>
 							<td></td>
 							<td></td>
-							<td>0 <span class="shield shield-none"></span></td>
-							<td>1 <span class="shield"></span></td>
-							<td>2 <span class="shield"></span></td>
+							<td><div class="x-axis">0 <span class="shield shield-none"></span></div></td>
+							<td><div class="x-axis">1 <span class="shield"></span></div></td>
+							<td><div class="x-axis">2 <span class="shield"></span></div></td>
 						</tr>
 						<tr>
 							<td rowspan="4"><span class="name name-1">Pokemon</span></td>
-							<td>0 <span class="shield shield-none"></span></td>
-							<td><a href="#" class="rating star battle-0-0" shields="0,0">100</a></td>
-							<td><a href="#" class="rating star battle-1-0" shields="1,0">100</a></td>
-							<td><a href="#" class="rating star battle-2-0" shields="2,0">100</a></td>
+							<td class="y-axis">0 <span class="shield shield-none"></span></td>
+							<td><a href="#" class="rating margin-6 battle-0-0" shields="0,0">100</a></td>
+							<td><a href="#" class="rating margin-6 battle-1-0" shields="1,0">100</a></td>
+							<td><a href="#" class="rating margin-6 battle-2-0" shields="2,0">100</a></td>
 						</tr>
 						<tr>
-							<td>1 <span class="shield"></span></td>
-							<td><a href="#" class="rating star battle-0-1" shields="0,1">100</a></td>
-							<td><a href="#" class="rating star battle-1-1" shields="1,1">100</a></td>
-							<td><a href="#" class="rating star battle-2-1" shields="2,1">100</a></td>
+							<td class="y-axis">1 <span class="shield"></span></td>
+							<td><a href="#" class="rating margin-6 battle-0-1" shields="0,1">100</a></td>
+							<td><a href="#" class="rating margin-6 battle-1-1" shields="1,1">100</a></td>
+							<td><a href="#" class="rating margin-6 battle-2-1" shields="2,1">100</a></td>
 						</tr>
 						<tr>
-							<td>2 <span class="shield"></span></td>
-							<td><a href="#" class="rating star battle-0-2" shields="0,2">100</a></td>
-							<td><a href="#" class="rating star battle-1-2" shields="1,2">100</a></td>
-							<td><a href="#" class="rating star battle-2-2" shields="2,2">100</a></td>
+							<td class="y-axis">2 <span class="shield"></span></td>
+							<td><a href="#" class="rating margin-6 battle-0-2" shields="0,2">100</a></td>
+							<td><a href="#" class="rating margin-6 battle-1-2" shields="1,2">100</a></td>
+							<td><a href="#" class="rating margin-6 battle-2-2" shields="2,2">100</a></td>
 						</tr>
 					</table>
 					<p class="center">點選上述分數觀看不同條件之結果</p>
                     <p>上表顯示 <span class="name-1">Pokemon</span>對上<span class="name-2">Pokemon</span> 的模擬計算結果。表格中的分數代表這兩隻寶可夢於對戰中分別使用不同個數防護網時的評分。以左邊縱軸為主，高於500分越多則代表<span class="name-1">Pokemon</span>越佔優勢，低於500分越多則是越難戰勝<span class="name-2">Pokemon</span>。</p>
+				</div>
+
+				<h2 class="center">Optimal Move Timing</h2>
+
+				<div class="optimal-timing-section">
+					<div class="optimal-timing-timeline">
+						<div class="timeline"></div>
+						<div class="timeline"></div>
+					</div>
+
+					<p class="timing-none">Optimal Charged Move timing isn't applicable for <span class="name-attacker">Pokemon</span> in this matchup.</p>
+
+					<p class="timing-most-optimal">When Fast Moves align, <span class="name-attacker">Pokemon</span> should throw its Charged Moves after <span class="optimal-1"></span>, <span class="optimal-2"></span>, or <span class="optimal-3"></span> Fast Moves for the most optimal timing.</p>
 				</div>
 
 				<h2 class="center">Breakpoints &amp; Bulkpoints</h2>
@@ -193,19 +215,6 @@ require_once 'header.php';
 					</table>
 				</div>
 
-				<h2 class="center">Optimal Move Timing</h2>
-
-				<div class="optimal-timing-section">
-					<div class="optimal-timing-timeline">
-						<div class="timeline"></div>
-						<div class="timeline"></div>
-					</div>
-
-					<p class="timing-none">Optimal Charged Move timing isn't applicable for <span class="name-attacker">Pokemon</span> in this matchup.</p>
-
-					<p class="timing-most-optimal">When Fast Moves align, <span class="name-attacker">Pokemon</span> should throw its Charged Moves after <span class="optimal-1"></span>, <span class="optimal-2"></span>, or <span class="optimal-3"></span> Fast Moves for the most optimal timing.</p>
-				</div>
-
 				<h2 class="center">Battle Stats</h2>
 
 				<table class="stats-table" cellspacing="0">
@@ -216,8 +225,8 @@ require_once 'header.php';
 					</tr>
 					<tr>
 						<td class="label">戰力指數</td>
-						<td class="stat-battle-rating"><span class="rating star">100</span></td>
-						<td class="stat-battle-rating"><span class="rating star">100</span></td>
+						<td class="stat-battle-rating"><span class="rating">100</span></td>
+						<td class="stat-battle-rating"><span class="rating">100</span></td>
 					</tr>
 					<tr>
 						<td class="label">Total Damage</td>
@@ -374,7 +383,7 @@ require_once 'header.php';
 			<p class="bulkpoint">Explore Fast Move damage received from this group.</p>
 			<p class="attack">Explore Attack stat differential against this group of Pokemon to analyze Charged Move ties.</p>
 
-            <div class="table-container">
+			<div class="table-container">
 				<table class="matrix-table rating-table" cellspacing="0">
 				</table>
 			</div>
@@ -440,7 +449,6 @@ require_once 'header.php';
 
 <?php require_once 'modules/search-string-help.php'; ?>
 
-<!--test 2-->
 <script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/pokemon/Pokemon.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/interface/Interface.js?v=<?php echo $SITE_VERSION; ?>"></script>

@@ -105,8 +105,14 @@ require_once 'header.php';
 	<?php require 'modules/pokemultiselect.php'; ?>
 </div>
 
-<button class="rate-btn button">進行隊伍分析</button>
-<div class="section white error">請選擇至少一隻寶可夢進行分析。</div>
+<button class="rate-btn button">
+	<span class="btn-content-wrap">
+		<span class="btn-icon btn-icon-team"></span>
+		<span class="btn-label">進行隊伍分析</span>
+	</span>
+</button>
+
+<div class="section white error">請選擇至少一隻寶可夢進行分析</div>
 
 <?php require 'modules/ads/body-728.php'; ?>
 

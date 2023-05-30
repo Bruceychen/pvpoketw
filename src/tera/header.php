@@ -69,7 +69,7 @@ if(isset($_COOKIE['settings'])){
 
 <link id="favicon" rel="icon" href="<?php echo $WEB_ROOT; ?>img/favicon.png">
 
-<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>tera/css/tera-style.css?v=5">
+<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>tera/css/tera-style.css?v=6">
 
 <script src="<?php echo $WEB_ROOT; ?>js/libs/jquery-3.3.1.min.js"></script>
 
@@ -106,8 +106,8 @@ if(isset($_COOKIE['settings'])){
 
 	<header>
 		<div class="header-wrap">
-			<h1 class="title"><a href="<?php echo $WEB_ROOT; ?>tera">PvPokeTW.com</a></h1>
-			<a class="home-link" href="<?php echo $WEB_ROOT; ?>">回到原網站</a>
+			<a href="<?php echo $WEB_ROOT; ?>tera"><img src="<?php echo $WEB_ROOT; ?>/img/themes/sunflower/header-white.png" title="PvPokeTW.com" /></a>
+			<a class="home-link" href="<?php echo $WEB_ROOT; ?>">Back to main site</a>
 		</div>
 	</header>
 	<div class="main-wrap">

@@ -206,23 +206,23 @@ if(! isset($OG_IMAGE)){
 	<?php if(true): // Removing this but saving code for future use ?>
 		<?php if(strpos($_SERVER['REQUEST_URI'], 'season-15') == false): ?>
 			<div class="header-ticker">
-				<a href="https://pvpoke.com/season-15/rankings/">Preview next season</a>
+				<a href="https://pvpoketw.com/season-15/rankings/">下季天梯排名</a>
 			</div>
 		<?php else: ?>
 			<div class="header-ticker old-version">
-				<a href="https://pvpoke.com/rankings/">Return to current season</a>
+				<a href="https://pvpoketw.com/rankings/">返回當前季度</a>
 			</div>
 		<?php endif; ?>
 	<?php endif; ?>
 
 	<header>
 		<div class="header-wrap">
-			<?php if($_SETTINGS->theme == 'night'): ?>
-				<a href="<?php echo $WEB_ROOT; ?>"><img src="<?php echo $WEB_ROOT; ?>/img/themes/sunflower/header-white.png" title="PvPokeTW.com" /></a>
-			<?php else: ?>
-				<a href="<?php echo $WEB_ROOT; ?>"><img src="<?php echo $WEB_ROOT; ?>/img/themes/sunflower/header.png" title="PvPokeTW.com" /></a>
-			<?php endif; ?>
-
+<!--			--><?php //if($_SETTINGS->theme == 'night'): ?>
+<!--				<a href="--><?php //echo $WEB_ROOT; ?><!--"><img src="--><?php //echo $WEB_ROOT; ?><!--/img/themes/sunflower/header-white.png" title="PvPokeTW.com" /></a>-->
+<!--			--><?php //else: ?>
+<!--				<a href="--><?php //echo $WEB_ROOT; ?><!--"><img src="--><?php //echo $WEB_ROOT; ?><!--/img/themes/sunflower/header.png" title="PvPokeTW.com" /></a>-->
+<!--			--><?php //endif; ?>
+            <h1 class="title"><a href="<?php echo $WEB_ROOT; ?>">PvPoketw.com</a></h1>
 			<div class="hamburger mobile">
 				<!--Because I'm too lazy to make a graphic-->
 				<div class="meat"></div>

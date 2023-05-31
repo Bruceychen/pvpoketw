@@ -217,12 +217,12 @@ if(! isset($OG_IMAGE)){
 
 	<header>
 		<div class="header-wrap">
-<!--			--><?php //if($_SETTINGS->theme == 'night'): ?>
-<!--				<a href="--><?php //echo $WEB_ROOT; ?><!--"><img src="--><?php //echo $WEB_ROOT; ?><!--/img/themes/sunflower/header-white.png" title="PvPokeTW.com" /></a>-->
-<!--			--><?php //else: ?>
-<!--				<a href="--><?php //echo $WEB_ROOT; ?><!--"><img src="--><?php //echo $WEB_ROOT; ?><!--/img/themes/sunflower/header.png" title="PvPokeTW.com" /></a>-->
-<!--			--><?php //endif; ?>
-            <h1 class="title"><a href="<?php echo $WEB_ROOT; ?>">PvPoketw.com</a></h1>
+			<?php if($_SETTINGS->theme == 'night'): ?>
+				<a href="<?php echo $WEB_ROOT; ?>"><img src="<?php echo $WEB_HOST_ORIGN; ?>/img/themes/sunflower/header-white.png" title="PvPokeTW.com" /></a>
+			<?php else: ?>
+				<a href="<?php echo $WEB_ROOT; ?>"><img src="<?php echo $WEB_HOST_ORIGN; ?>/img/themes/sunflower/header.png" title="PvPokeTW.com" /></a>
+			<?php endif; ?>
+<!--            <h1 class="title"><a href="--><?php //echo $WEB_ROOT; ?><!--">PvPoketw.com</a></h1>-->
 			<div class="hamburger mobile">
 				<!--Because I'm too lazy to make a graphic-->
 				<div class="meat"></div>

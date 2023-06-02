@@ -1,5 +1,5 @@
 <?php require_once '../modules/config.php';
-$SITE_VERSION = '1.3.10';
+$SITE_VERSION = '1.3.10.1';
 
 /*****************************************************************************
 
@@ -106,7 +106,7 @@ if(isset($_COOKIE['settings'])){
 
 	<header>
 		<div class="header-wrap">
-			<h1 class="title"><a href="<?php echo $WEB_ROOT; ?>tera">PvPokeTW.com</a></h1>
+			<h1 class="title"><a href="<?php echo $WEB_ROOT; ?>tera"></a></h1>
 			<a class="home-link" href="<?php echo $WEB_ROOT; ?>">回到原網站</a>
 <!--            <a href="--><?php //echo $WEB_ROOT; ?><!--tera"><img src="--><?php //echo $WEB_ROOT; ?><!--img/themes/sunflower/header-white.png" title="PvPoke.com" /></a>-->
 <!--            <a class="home-link" href="--><?php //echo $WEB_ROOT; ?><!--">Back to main site</a>-->

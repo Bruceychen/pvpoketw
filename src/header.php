@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.30.2';
+$SITE_VERSION = '1.30.2.1';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -236,9 +236,9 @@ if(! isset($OG_IMAGE)){
 					</a>
 					<div class="submenu">
 						<div class="submenu-wrap">
-							<a class="nav-great" href="<?php echo $WEB_ROOT; ?>battle/">Single Battle</a>
-							<a class="nav-ultra" href="<?php echo $WEB_ROOT; ?>battle/multi/">Multi Battle</a>
-							<a class="nav-master" href="<?php echo $WEB_ROOT; ?>battle/matrix/">Matrix Battle</a>
+							<a class="nav-great" href="<?php echo $WEB_ROOT; ?>battle/">單場戰鬥</a>
+							<a class="nav-ultra" href="<?php echo $WEB_ROOT; ?>battle/multi/">多重戰鬥</a>
+							<a class="nav-master" href="<?php echo $WEB_ROOT; ?>battle/matrix/">群組交叉戰鬥</a>
 						</div>
 					</div>
 				</div>
@@ -248,9 +248,9 @@ if(! isset($OG_IMAGE)){
 					</a>
 					<div class="submenu">
 						<div class="submenu-wrap">
-							<a class="nav-great" href="<?php echo $WEB_ROOT; ?>rankings/all/1500/overall/">Great League</a>
-							<a class="nav-ultra" href="<?php echo $WEB_ROOT; ?>rankings/all/2500/overall/">Ultra League</a>
-							<a class="nav-master" href="<?php echo $WEB_ROOT; ?>rankings/all/10000/overall/">Master League</a>
+							<a class="nav-great" href="<?php echo $WEB_ROOT; ?>rankings/all/1500/overall/">超級聯盟</a>
+							<a class="nav-ultra" href="<?php echo $WEB_ROOT; ?>rankings/all/2500/overall/">高級聯盟</a>
+							<a class="nav-master" href="<?php echo $WEB_ROOT; ?>rankings/all/10000/overall/">大師聯盟</a>
 							<a href="<?php echo $WEB_ROOT; ?>custom-rankings/">自訂排名</a>
 						</div>
 					</div>
@@ -262,7 +262,7 @@ if(! isset($OG_IMAGE)){
 					</a>
 					<div class="submenu">
 						<div class="submenu-wrap">
-							<a href="<?php echo $WEB_ROOT; ?>train/analysis/">Top Performers</a>
+							<a href="<?php echo $WEB_ROOT; ?>train/analysis/">強勢寶可夢與分析</a>
 						</div>
 					</div>
 				</div>
@@ -282,7 +282,7 @@ if(! isset($OG_IMAGE)){
 							<a class="icon-heart" href="<?php echo $WEB_ROOT; ?>contribute/">貢獻一己之力</a>
 							<a href="<?php echo $WEB_ROOT; ?>settings/">設定</a>
 							<a class="twitter" href="https://twitter.com/pvpoke" target="_blank">官方推特</a>
-							<a class="tera" href="<?php echo $WEB_ROOT; ?>tera/">Tera Raid Counters</a>
+							<a class="tera" href="<?php echo $WEB_ROOT; ?>tera/">太晶戰反制計算器</a>
 						</div>
 					</div>
 					<div class="safe-mouse-space"></div>

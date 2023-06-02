@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.30.0';
+$SITE_VERSION = '1.30.2';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -127,10 +127,10 @@ if(! isset($OG_IMAGE)){
 
 <link id="favicon" rel="icon" href="<?php echo $WEB_ROOT; ?>img/themes/sunflower/favicon.png">
 
-<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=166">
+<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=167">
 
 <?php if(strpos($META_TITLE, 'Train') !== false): ?>
-	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/train.css?v=20">
+	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/train.css?v=21">
 <?php endif; ?>
 
 <?php if(strpos($_SERVER['REQUEST_URI'], 'articles') !== false): ?>
@@ -138,7 +138,7 @@ if(! isset($OG_IMAGE)){
 <?php endif; ?>
 
 <?php if((isset($_SETTINGS->theme))&&($_SETTINGS->theme != "default")): ?>
-	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/themes/<?php echo $_SETTINGS->theme; ?>.css?v=24">
+	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/themes/<?php echo $_SETTINGS->theme; ?>.css?v=25">
 <?php endif; ?>
 
 <script src="<?php echo $WEB_ROOT; ?>js/libs/jquery-3.3.1.min.js"></script>
@@ -203,7 +203,7 @@ if(! isset($OG_IMAGE)){
 
 <body>
 
-	<?php if(true): // Removing this but saving code for future use ?>
+	<?php if(false): // Removing this but saving code for future use ?>
 		<?php if(strpos($_SERVER['REQUEST_URI'], 'season-15') == false): ?>
 			<div class="header-ticker">
 				<a href="https://pvpoketw.com/season-15/rankings/">下季天梯排名</a>
@@ -217,12 +217,12 @@ if(! isset($OG_IMAGE)){
 
 	<header>
 		<div class="header-wrap">
-			<?php if($_SETTINGS->theme == 'night'): ?>
-				<a href="<?php echo $WEB_ROOT; ?>"><img src="<?php echo $WEB_HOST_ORIGN; ?>/img/themes/sunflower/header-white.png" title="PvPokeTW.com" /></a>
-			<?php else: ?>
-				<a href="<?php echo $WEB_ROOT; ?>"><img src="<?php echo $WEB_HOST_ORIGN; ?>/img/themes/sunflower/header.png" title="PvPokeTW.com" /></a>
-			<?php endif; ?>
-<!--            <h1 class="title"><a href="--><?php //echo $WEB_ROOT; ?><!--">PvPoketw.com</a></h1>-->
+<!--			--><?php //if($_SETTINGS->theme == 'night'): ?>
+<!--				<a href="--><?php //echo $WEB_ROOT; ?><!--"><img src="--><?php //echo $WEB_ROOT; ?><!--img/themes/sunflower/header-white.png" title="PvPoke.com" /></a>-->
+<!--			--><?php //else: ?>
+<!--				<a href="--><?php //echo $WEB_ROOT; ?><!--"><img src="--><?php //echo $WEB_ROOT; ?><!--img/themes/sunflower/header.png" title="PvPoke.com" /></a>-->
+<!--			--><?php //endif; ?>
+            <h1 class="title"><a href="<?php echo $WEB_ROOT; ?>">PvPoketw.com</a></h1>
 			<div class="hamburger mobile">
 				<!--Because I'm too lazy to make a graphic-->
 				<div class="meat"></div>

@@ -76,10 +76,10 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.29.29 (April 22, 2023)</h4>
+	<h4>v1.30.0 (July 1, 2023)</h4>
 	<ul>
-		<li>Improved ranking search speed</li>
-		<li>Team Builder has a setting to include Pokemon of the same species in team suggestions. This setting is off by default and enabled for Silph formats.</li>
+		<li>Move and ranking updates for Season of Hidden Gems are live!</li>
+		<li>New logo and UI updates</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -126,8 +126,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Thu Jun 1 00:15:28 2023 +0800</li>
-                <li>原版最後版本時間：Wed May 31 08:35:12 2023 -0500</li>
+                <li>中文版最後更新時間：Fri Jun 2 12:15:28 2023 +0800</li>
+                <li>原版最後版本時間：Thu Jun 1 16:45:19 2023 -0500</li>
             </ul>
 </div>
 

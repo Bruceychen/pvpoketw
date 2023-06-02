@@ -99,11 +99,12 @@ function PokeMultiSelect(element){
 
 	// Open Pokemon select modal window to add or edit a Pokemon
 
-	this.openPokeSelect = function(index){
+	this.openPokeSelect = function(index, focusName){
+		focusName = typeof focusName !== 'undefined' ? focusName : true;
 
 		selectedIndex = index;
 
-		modalWindow("選擇寶可夢", $el.find(".poke.single").first());
+		modalWindow("Select Pokemon", $el.find(".poke.single").first());
 
 		pokeSelector = new PokeSelect($(".modal .poke"), 1);
 		pokeSelector.setContext("modal"+context);
@@ -122,8 +123,9 @@ function PokeMultiSelect(element){
 				$(".modal-content").append("<div class=\"center\"><a href=\"#\" class=\"compare-poke\">加入並比較</a></div>");
 			}
 
-
-			$(".modal .poke-search").focus();
+			if(focusName){
+				$(".modal .poke-search").focus();
+			}
 		} else{
 
 			// Edit existing Pokemon
@@ -789,10 +791,11 @@ function PokeMultiSelect(element){
 
 	// Click the add new Pokemon button
 
-	$el.find(".add-poke-btn").click(function(e){
+	$el.find(".add-poke-btn").click(function(e, focusName){
+		focusName = typeof focusName !== 'undefined' ? focusName : true;
 
 		if(pokemonList.length < maxPokemonCount){
-			self.openPokeSelect(-1);
+			self.openPokeSelect(-1, focusName);
 		}
 	});
 

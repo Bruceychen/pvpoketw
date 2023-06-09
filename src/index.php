@@ -86,15 +86,14 @@
 
 	<div class="article-item flex">
 		<div class="col-3">
-			<a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-04-togetic/">
-				<img src="<?php echo $WEB_HOST_ORIGN; ?>articles/article-assets/community-day/23-04-togetic/thumb.jpg">
+			<a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-07-axew/">
+				<img src="<?php echo $WEB_ROOT; ?>articles/article-assets/community-day/23-07-axew/thumb.jpg">
 			</a>
 		</div>
 		<div class="col-9">
-			<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-04-togetic/">Togetic Community Day Guide for PvP</a></h4>
-			<div class="date">April 14, 2023</div>
-			<p>Togetic is a charming addition to the Community Day roster, and its evolution, Togekiss, has play in all three leagues. Find out what to look out for in PvP!</p>
-			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Community Day"># Community Day</a><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a></div>
+			<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-07-axew/">Axew Community Day Guide for PvP</a></h4>
+			<div class="date">June 8, 2023</div>
+			<p>Axew is hacking its way onto the Community Day roster. Can it cut a place in PvP? Read up on the meta impact for Haxorus and Breaking Swipe!</p>
 		</div>
 	</div>
 
@@ -126,8 +125,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Wed Jun 7 01:05:28 2023 +0800</li>
-                <li>原版最後版本時間：Tue Jun 6 08:19:27 2023 -0500</li>
+                <li>中文版最後更新時間：Fri Jun 9 19:45:28 2023 +0800</li>
+                <li>原版最後版本時間：Thu Jun 8 10:23:58 2023 -0500</li>
             </ul>
 </div>
 
@@ -145,6 +144,15 @@ if (strpos($WEB_ROOT, 'src') !== false) : ?>
 	<script src="<?php echo $WEB_ROOT; ?>js/battle/Battle.js?v=<?php echo $SITE_VERSION; ?>"></script>
 	<script src="<?php echo $WEB_ROOT; ?>js/battle/TeamRanker.js?v=<?php echo $SITE_VERSION; ?>"></script>
 	<script src="<?php echo $WEB_ROOT; ?>js/RankingMain.js?v=<?php echo $SITE_VERSION; ?>"></script>
+
+<?php else: ?>
+
+	<script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>
+	<script src="<?php echo $WEB_ROOT; ?>js/pokemon/Pokemon.js?v=<?php echo $SITE_VERSION; ?>"></script>
+
+	<script>
+	var gm = GameMaster.getInstance();
+	</script>
 
 <?php endif; ?>
 

@@ -73,12 +73,21 @@
 		"showMeta": true
 	},
 	{
+		"title": "Single-Type Cup",
+		"cup": "single",
+		"cp": 1500,
+		"meta": "single",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true
+	},
+	{
 		"title": "Silph Factions (Great League)",
 		"cup": "factionsgreat",
 		"cp": 1500,
 		"meta": "great",
 		"showCup": false,
-		"showFormat": false,
+		"showFormat": true,
 		"showMeta": false,
 		"hideRankings": true
 	},
@@ -88,7 +97,7 @@
 		"cp": 2500,
 		"meta": "ultra",
 		"showCup": false,
-		"showFormat": false,
+		"showFormat": true,
 		"showMeta": false,
 		"hideRankings": true
 	},
@@ -97,6 +106,24 @@
 		"cup": "factionsmaster",
 		"cp": 10000,
 		"meta": "masterfactions",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true
+	},
+	{
+		"title": "Silph Factions (Ragnar)",
+		"cup": "ragnar",
+		"cp": 1500,
+		"meta": "ragnar",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true
+	},
+	{
+		"title": "Silph Factions (Echo)",
+		"cup": "echo",
+		"cp": 1500,
+		"meta": "echo",
 		"showCup": true,
 		"showFormat": true,
 		"showMeta": true

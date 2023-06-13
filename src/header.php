@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.30.3.10';
+$SITE_VERSION = '1.30.4';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -44,6 +44,11 @@ if(isset($_COOKIE['settings'])){
 		$_SETTINGS->hardMovesetLinks = 0;
 	}
 
+	if(! isset($_SETTINGS->colorblindMode)){
+		$_SETTINGS->colorblindMode = 0;
+	}
+
+
 	// Validate the gamemaster setting, only allow these options
 	$gamemasters = ["gamemaster", "gamemaster-mega", "gamemaster-paldea"];
 
@@ -60,7 +65,8 @@ if(isset($_COOKIE['settings'])){
 		'ads' => 1,
 		'xls' => 1,
 		'rankingDetails' => 'one-page',
-		'hardMovesetLinks' => 0
+		'hardMovesetLinks' => 0,
+		'colorblindMode' => 0
 	];
 }
 
@@ -127,7 +133,7 @@ if(! isset($OG_IMAGE)){
 
 <link id="favicon" rel="icon" href="<?php echo $WEB_ROOT; ?>img/themes/sunflower/favicon.png">
 
-<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=167">
+<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=168">
 
 <?php if(strpos($META_TITLE, 'Train') !== false): ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/train.css?v=21">
@@ -163,7 +169,8 @@ if(! isset($OG_IMAGE)){
 			pokeboxLastDateTime: "<?php echo intval($_SETTINGS->pokeboxLastDateTime); ?>",
 			xls: <?php echo $_SETTINGS->xls ? 'true' : 'false'; ?>,
 			rankingDetails: "<?php echo htmlspecialchars($_SETTINGS->rankingDetails); ?>",
-			hardMovesetLinks: <?php echo intval($_SETTINGS->hardMovesetLinks); ?>
+			hardMovesetLinks: <?php echo intval($_SETTINGS->hardMovesetLinks); ?>,
+			colorblindMode: <?php echo intval($_SETTINGS->colorblindMode); ?>,
 		};
 	<?php else: ?>
 
@@ -176,7 +183,8 @@ if(! isset($OG_IMAGE)){
 			pokeboxLastDateTime: 0,
 			xls: true,
 			rankingDetails: "one-page",
-			hardMovesetLinks: 0
+			hardMovesetLinks: 0,
+			colorblindMode: 0
 		};
 
 	<?php endif; ?>
@@ -201,7 +209,7 @@ if(! isset($OG_IMAGE)){
 
 </head>
 
-<body>
+<body <?php if($_SETTINGS->colorblindMode == 1): ?>class="colorblind"<?php endif; ?>>
 
 	<?php if(false): // Removing this but saving code for future use ?>
 		<?php if(strpos($_SERVER['REQUEST_URI'], 'season-15') == false): ?>

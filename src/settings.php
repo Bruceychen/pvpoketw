@@ -63,7 +63,21 @@ require_once 'header.php';
             </select>
         </div>
 
-		<h3>Gamemaster 版本設定</h3>
+		<h3>Colorblind Mode</h3>
+		<div class="check colorblindMode <?php if($_SETTINGS->colorblindMode == 1) : ?>on<?php endif; ?>"><span></span> Colorblind mode</div>
+		<p>Increase contrast for battle rating colors, symbols, and tables.</p>
+
+		<table class="rating-table" cellspacing="0">
+			<tbody><tr>
+				<td><a href="javascript:void(0)" class="rating margin-6 loss"><span></span>200</a></td>
+				<td><a href="javascript:void(0)" class="rating margin-6 close-loss"><span></span>400</a></td>
+				<td><a href="javascript:void(0)" class="rating margin-6 tie"><span></span>500</a></td>
+				<td><a href="javascript:void(0)" class="rating margin-6 close-win"><span></span>600</a></td>
+				<td><a href="javascript:void(0)" class="rating margin-6 win"><span></span>800</a></td>
+			</tr>
+		</tbody></table>
+
+        <h3>Gamemaster 版本設定</h3>
 		<p>選擇網站使用之寶可夢資料庫。</p>
 		<?php
 		$gamemaster = "gamemaster";

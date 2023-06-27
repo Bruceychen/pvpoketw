@@ -1408,7 +1408,7 @@ var InterfaceMaster = (function () {
 			// Event handler for clicking the rate button
 
 			function rateClick(e){
-				$(".rate-btn").html("計算中...");
+				$(".rate-btn .btn-label").html("計算中...");
 				$(".section.error").hide();
 
 				// This is stupid but the visual updates won't execute until Javascript has completed the entire thread
@@ -1478,8 +1478,22 @@ var InterfaceMaster = (function () {
 					window.history.pushState(data, "Team Builder", url);
 
 					// Send Google Analytics pageview
+					var teamNameStr = pokes[0].speciesName;
+					var i = 1;
 
-					gtag('config', UA_ID, {page_location: (host+url), page_path: url});
+					for(i = 1; i < Math.min(pokes.length, 3); i++){
+						teamNameStr += ", " + pokes[i].speciesName;
+					}
+
+					if(i < pokes.length){
+						teamNameStr += "+" + (pokes.length - i);
+					}
+
+					gtag('event', 'page_view', {
+					  page_title: teamNameStr + " - Team Builder | PvPoke",
+					  page_location: link,
+					  pageview_type: 'virtual'
+					});
 
 					if(results === false){
 						return;

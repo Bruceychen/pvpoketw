@@ -168,7 +168,11 @@ var InterfaceMaster = (function () {
 
 				// Send Google Analytics pageview
 
-				gtag('config', UA_ID, {page_location: (host+url), page_path: url});
+				gtag('event', 'page_view', {
+				  page_title: document.title,
+				  page_location: (host+"moves/"+moveMode+"/"),
+				  pageview_type: 'virtual'
+				});
 			}
 
 			// Refilter moves after being sorted

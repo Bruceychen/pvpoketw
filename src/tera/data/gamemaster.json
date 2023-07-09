@@ -5352,6 +5352,22 @@
 			"teraType": "rock",
 			"moveTypes": ["grass", "fighting", "rock", "ground"]
 		}
+	}, {
+	    "name": "妖火紅狐",
+	    "types": ["fire", "psychic"],
+	    "id": "delphox",
+	    "stats": {
+	        "hp": 75,
+	        "atk": 69,
+	        "def": 72,
+	        "spA": 114,
+	        "spD": 100,
+	        "spe": 104
+	    },
+		"defaults": {
+			"teraType": "fairy",
+			"moveTypes": ["fire", "psychic", "fairy"]
+		}
 	}],
 	"traits": [
 		{

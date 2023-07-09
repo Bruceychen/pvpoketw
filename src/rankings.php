@@ -69,8 +69,8 @@ switch($cup){
 		$league = 'Retro Cup';
 		break;
 
-	case "innocent":
-		$league = 'Silph Innocent Cup';
+	case "fossil":
+		$league = 'Fossil Cup';
 		break;
 
 	case "little":
@@ -96,6 +96,11 @@ switch($cup){
 	case "echo":
 	case "ragnar":
 		$league = 'Silph Factions';
+		break;
+
+	case "ragnargymbreakers":
+	case "vanguardgymbreakers":
+		$league = 'Gymbreakers';
 		break;
 
 	case "element":

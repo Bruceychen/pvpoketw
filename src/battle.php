@@ -170,11 +170,15 @@ require_once 'header.php';
 
 				<div class="breakpoints-section">
 					<p>In Pokemon GO, damage is dealt in whole numbers. A breakpoint is when a Pokemon has high enough Attack to deal 1 more damage with their Fast Move. A bulkpoint is when a Pokemon has high enough Defense to take 1 less damage from their opponent's Fast Move.</p>
-					<p><span class="name-attacker">Pokemon</span> can reach the following breakpoints against this <span class="name-defender">Pokemon</span>:</p>
+					<p><span class="name-attacker">Pokemon</span> can reach the breakpoints below against this <span class="name-defender">Pokemon</span>.</p>
+
+					<select class="breakpoint-move"></select>
+
+
 
 					<table class="stats-table breakpoints" cellspacing="0">
 						<tr>
-							<td><span class="name name-fast">Move</span></td>
+							<td><span class="name">Damage</span></td>
 							<td><span class="name">Minimum Attack</span></td>
 							<td><span class="name">Attack to Guarantee</span></td>
 							<td><span class="name">Top Level &amp; IV's</span></td>
@@ -185,9 +189,11 @@ require_once 'header.php';
 
 					<p><span class="name-attacker">Pokemon</span> can reach the following bulkpoints against this <span class="name-defender">Pokemon</span>:</p>
 
+					<select class="bulkpoint-move"></select>
+
 					<table class="stats-table bulkpoints" cellspacing="0">
 						<tr>
-							<td><span class="name name-fast">Move</span></td>
+							<td><span class="name">Damage</span></td>
 							<td><span class="name">Minimum Defense</span></td>
 							<td><span class="name">Defense to Guarantee</span></td>
 							<td><span class="name">Top Level &amp; IV's</span></td>
@@ -379,9 +385,15 @@ require_once 'header.php';
             </div>
 
 			<p class="battle">Explore battle results against this group of Pokemon.</p>
-			<p class="breakpoint">Explore Fast Move damage dealt to this group of Pokemon.</p>
-			<p class="bulkpoint">Explore Fast Move damage received from this group.</p>
+			<p class="breakpoint">Explore move damage dealt to this group of Pokemon.</p>
+			<p class="bulkpoint">Explore move damage received from this group.</p>
 			<p class="attack">Explore Attack stat differential against this group of Pokemon to analyze Charged Move ties.</p>
+
+			<select class="breakpoint-mode">
+				<option value="fast">Fast Move</option>
+				<option value="cm1">Charged Move 1</option>
+				<option value="cm2">Charged Move 2</option>
+			</select>
 
 			<div class="table-container">
 				<table class="matrix-table rating-table" cellspacing="0">

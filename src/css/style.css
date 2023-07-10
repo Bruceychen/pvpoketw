@@ -1015,7 +1015,8 @@ footer a.domz-link {
   background: #ff5115;
   position: relative;
   max-width: 100%;
-  top: -20px;
+  top: -22px;
+  height: 21px;
 }
 .hp.bar-back .stat {
   position: absolute;
@@ -1818,6 +1819,13 @@ select, input {
 .battle-results.matrix .optimal-timing-section .optimal-3 {
   font-weight: bold;
 }
+.battle-results .battle-details select.breakpoint-move,
+.battle-results .battle-details select.bulkpoint-move, .battle-results.matrix select.breakpoint-move,
+.battle-results.matrix select.bulkpoint-move {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
 .battle-results .battle-details .ranking-categories, .battle-results.matrix .ranking-categories {
   float: none;
   margin-top: 10px;
@@ -1851,8 +1859,15 @@ select, input {
   overflow: scroll;
   max-height: 500px;
 }
+.battle-results.matrix .rating-table {
+  margin-top: 0;
+}
 .battle-results.matrix .rating-table th.selected, .battle-results.matrix .rating-table td.selected {
   background: #546fe8;
+}
+.battle-results.matrix .breakpoint-mode {
+  max-width: 150px;
+  margin: 10px 0;
 }
 .battle-results.matrix .difference-table {
   width: 100%;

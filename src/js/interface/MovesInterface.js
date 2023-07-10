@@ -233,7 +233,7 @@ var InterfaceMaster = (function () {
 					movesetStats.push({ title: "一般招式傷害", value: fastDamage});
 					movesetStats.push({ title: "特殊招式傷害", value: chargedDamage});
 					movesetStats.push({ title: "合計傷害輸出", value: cycleDamage});
-					movesetStats.push({ title: "一般招式使用次數", value: fastMovesPerCycle});
+					movesetStats.push({ title: "一般招式使用次數 Moves", value: moveCounts[0] + " - " + moveCounts[1] + " - " + moveCounts[2] + " - " + moveCounts[3]});
 					movesetStats.push({ title: "發招需求時間", value: cycleDurationStr});
 					movesetStats.push({ title: "每回合傷害輸出", value: cycleDPT});
 				}

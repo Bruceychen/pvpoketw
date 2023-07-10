@@ -1282,7 +1282,8 @@ footer{
 			background:#ff5115;
 			position: relative;
 			max-width: 100%;
-			top: -20px;
+			top: -22px;
+			height: 21px;
 		}
 	}
 
@@ -2080,6 +2081,13 @@ select, input{
 			}
 		}
 
+		select.breakpoint-move,
+		select.bulkpoint-move{
+			margin-top: 15px;
+		    font-size: 16px;
+		    font-weight: bold;
+		}
+
 		.ranking-categories{
 			float: none;
 			margin-top:10px;
@@ -2127,9 +2135,16 @@ select, input{
 		}
 
 		.rating-table{
+			margin-top: 0;
+
 			th.selected, td.selected{
 				background: #546fe8;
 			}
+		}
+
+		.breakpoint-mode{
+			max-width: 150px;
+			margin: 10px 0;
 		}
 
 		.difference-table{

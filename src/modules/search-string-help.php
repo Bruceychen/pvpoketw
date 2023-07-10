@@ -18,6 +18,7 @@
             <td>
                 legendary :<i>傳說的寶可夢</i><br>
                 mythical :<i>幻之寶可夢</i><br>
+                ultrabeast :<i>究極異獸</i><br>
                 regional :<i>現實世界區域限定</i><br>
                 alolan :<i>阿羅拉型態</i><br>
                 galarian :<i>伽勒爾型態但不含伽勒爾限定</i><br>

@@ -87,18 +87,18 @@
 	<h3>Latest Article</h3>
 
 	<div class="article-item flex">
-		<div class="col-3">
-			<a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-07-poliwag/">
-				<img src="<?php echo $WEB_ROOT; ?>articles/article-assets/community-day/23-07-poliwag/thumb.jpg">
-			</a>
-		</div>
-		<div class="col-9">
-			<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-07-poliwag/">Poliwag Community Day Guide for PvP</a></h4>
-			<div class="date">July 16, 2023</div>
-			<p>Poliwag is waddling into Community Day! Both Poliwrath and Politoed are viable in PvP, so let's dive into the impact of their exclusive moves.</p>
-			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Community Day"># Community Day</a><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a></div>
-		</div>
+	<div class="col-3">
+		<a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-08-froakie/">
+			<img src="<?php echo $WEB_ROOT; ?>articles/article-assets/community-day/23-08-froakie/thumb.jpg">
+		</a>
 	</div>
+	<div class="col-9">
+		<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-08-froakie/">Froakie Community Day Guide for PvP</a></h4>
+		<div class="date">August 9, 2023</div>
+		<p>Fan favorite Greninja is finally getting the level-up it needs! Will it be enough to become viable in PvP? Find out more about Greninja and IV's to look for during the upcoming Community Day!</p>
+		<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Community Day"># Community Day</a><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a></div>
+	</div>
+</div>
 
 
     <p>追蹤原作者 <a href="https://twitter.com/pvpoke" target="_blank">推特</a> 以獲得第一手消息及更新快訊！</p>
@@ -128,8 +128,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Mon Aug 6 22:25:28 2023 +0800</li>
-                <li>原版最後版本時間：Sun Aug 6 08:52:12 2023 -0500</li>
+                <li>中文版最後更新時間：Thu Aug 10 08:55:28 2023 +0800</li>
+                <li>原版最後版本時間：Wed Aug 9 15:44:31 2023 -0500</li>
             </ul>
 </div>
 

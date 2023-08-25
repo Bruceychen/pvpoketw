@@ -987,7 +987,7 @@ var BattlerMaster = (function () {
 			// 	        }
 			// 	    });
 			// 	}
-			// }
+			}
 
 			// Handler for the charge up interval
 

@@ -76,12 +76,10 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.30.6 (July 9, 2023)</h4>
+	<h4>v1.30.8 (August 27, 2023)</h4>
 	<ul>
-		<li>Move counts now show counts for 4 cycles instead of 3.</li>
-		<li>Charged Move breakpoints can now be explored in Single Battle and Matrix Battle.</li>
-		<li>Fixed an issue where the mouse pointer covered part of the Charged Move damage tooltip.</li>
-		<li>Fixed an issue that caused faulty ranking search results after searching and then switching leagues.</li>
+		<li>Tweaked ranking formula for Chargers category to factor in a Pokemon's fast move pressure (ability to farm down) and the amount of energy a Pokemon can take out of a matchup if it's forced to throw a Charged Move (ability to overfarm).</li>
+		<li>Tweaked ranking formula for Consistency category to further penalize Pokemon that use the moves Power-Up Punch, Feather Dance, Bubble Beam, and Lunge.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -128,8 +126,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Sun Aug 27 05:05:28 2023 +0800</li>
-                <li>原版最後版本時間：Sat Aug 26 07:48:08 2023 -0500</li>
+                <li>中文版最後更新時間：Mon Aug 28 01:15:28 2023 +0800</li>
+                <li>原版最後版本時間：Sun Aug 27 08:15:29 2023 -0500</li>
             </ul>
 </div>
 

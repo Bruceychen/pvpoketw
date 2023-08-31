@@ -34871,7 +34871,7 @@
     }
 }, {
     "dex": 916,
-    "speciesName": "Oinkologne_female",
+    "speciesName": "飄香豚 雌",
     "speciesId": "oinkologne_female",
     "baseStats": {
         "atk": 169,
@@ -35115,7 +35115,7 @@
     }
 }, {
     "dex": 925,
-    "speciesName": "Maushold_family_of_four",
+    "speciesName": "一家鼠 四",
     "speciesId": "maushold_family_of_four",
     "baseStats": {
         "atk": 159,
@@ -35139,7 +35139,7 @@
     }
 }, {
     "dex": 925,
-    "speciesName": "Maushold_family_of_three",
+    "speciesName": "一家鼠 三",
     "speciesId": "maushold_family_of_three",
     "baseStats": {
         "atk": 159,
@@ -35305,7 +35305,7 @@
     "released": false
 }, {
     "dex": 931,
-    "speciesName": "Squawkabilly_blue",
+    "speciesName": "怒鸚哥 藍",
     "speciesId": "squawkabilly_blue",
     "baseStats": {
         "atk": 185,
@@ -35325,7 +35325,7 @@
     "released": false
 }, {
     "dex": 931,
-    "speciesName": "Squawkabilly_green",
+    "speciesName": "怒鸚哥 綠",
     "speciesId": "squawkabilly_green",
     "baseStats": {
         "atk": 185,
@@ -35345,7 +35345,7 @@
     "released": false
 }, {
     "dex": 931,
-    "speciesName": "Squawkabilly_white",
+    "speciesName": "怒鸚哥 白",
     "speciesId": "squawkabilly_white",
     "baseStats": {
         "atk": 185,
@@ -35365,7 +35365,7 @@
     "released": false
 }, {
     "dex": 931,
-    "speciesName": "Squawkabilly_yellow",
+    "speciesName": "怒鸚哥 黃",
     "speciesId": "squawkabilly_yellow",
     "baseStats": {
         "atk": 185,
@@ -36182,7 +36182,7 @@
     }
 }, {
     "dex": 964,
-    "speciesName": "Palafin_hero",
+    "speciesName": "海豚俠 全能",
     "speciesId": "palafin_hero",
     "baseStats": {
         "atk": 322,
@@ -36206,7 +36206,7 @@
     }
 }, {
     "dex": 964,
-    "speciesName": "Palafin_zero",
+    "speciesName": "海豚俠 平凡",
     "speciesId": "palafin_zero",
     "baseStats": {
         "atk": 143,
@@ -36546,7 +36546,7 @@
     "released": false
 }, {
     "dex": 978,
-    "speciesName": "Tatsugiri_curly",
+    "speciesName": "米立龍 上弓",
     "speciesId": "tatsugiri_curly",
     "baseStats": {
         "atk": 226,
@@ -36566,7 +36566,7 @@
     "released": false
 }, {
     "dex": 978,
-    "speciesName": "Tatsugiri_droopy",
+    "speciesName": "米立龍 下垂",
     "speciesId": "tatsugiri_droopy",
     "baseStats": {
         "atk": 226,
@@ -36586,7 +36586,7 @@
     "released": false
 }, {
     "dex": 978,
-    "speciesName": "Tatsugiri_stretchy",
+    "speciesName": "米立龍 平挺",
     "speciesId": "tatsugiri_stretchy",
     "baseStats": {
         "atk": 226,
@@ -36702,7 +36702,7 @@
     }
 }, {
     "dex": 982,
-    "speciesName": "Dudunsparce_three",
+    "speciesName": "土龍節節 三節",
     "speciesId": "dudunsparce_three",
     "baseStats": {
         "atk": 188,
@@ -36726,7 +36726,7 @@
     }
 }, {
     "dex": 982,
-    "speciesName": "Dudunsparce_two",
+    "speciesName": "土龍節節 二節",
     "speciesId": "dudunsparce_two",
     "baseStats": {
         "atk": 188,
@@ -36774,7 +36774,7 @@
     }
 }, {
     "dex": 984,
-    "speciesName": "Greattusk",
+    "speciesName": "雄偉牙",
     "speciesId": "greattusk",
     "baseStats": {
         "atk": 249,
@@ -36794,7 +36794,7 @@
     "released": false
 }, {
     "dex": 985,
-    "speciesName": "Screamtail",
+    "speciesName": "吼叫尾",
     "speciesId": "screamtail",
     "baseStats": {
         "atk": 139,
@@ -36815,7 +36815,7 @@
     "released": false
 }, {
     "dex": 986,
-    "speciesName": "Brutebonnet",
+    "speciesName": "猛惡菇",
     "speciesId": "brutebonnet",
     "baseStats": {
         "atk": 232,
@@ -36835,7 +36835,7 @@
     "released": false
 }, {
     "dex": 987,
-    "speciesName": "Fluttermane",
+    "speciesName": "振翼髮",
     "speciesId": "fluttermane",
     "baseStats": {
         "atk": 280,
@@ -36855,7 +36855,7 @@
     "released": false
 }, {
     "dex": 988,
-    "speciesName": "Slitherwing",
+    "speciesName": "爬地翅",
     "speciesId": "slitherwing",
     "baseStats": {
         "atk": 261,
@@ -36875,7 +36875,7 @@
     "released": false
 }, {
     "dex": 989,
-    "speciesName": "Sandyshocks",
+    "speciesName": "沙鐵皮",
     "speciesId": "sandyshocks",
     "baseStats": {
         "atk": 244,
@@ -36895,7 +36895,7 @@
     "released": false
 }, {
     "dex": 990,
-    "speciesName": "Irontreads",
+    "speciesName": "鐵轍跡",
     "speciesId": "irontreads",
     "baseStats": {
         "atk": 227,
@@ -36915,7 +36915,7 @@
     "released": false
 }, {
     "dex": 991,
-    "speciesName": "Ironbundle",
+    "speciesName": "鐵包袱",
     "speciesId": "ironbundle",
     "baseStats": {
         "atk": 266,
@@ -36935,7 +36935,7 @@
     "released": false
 }, {
     "dex": 992,
-    "speciesName": "Ironhands",
+    "speciesName": "鐵臂膀",
     "speciesId": "ironhands",
     "baseStats": {
         "atk": 245,
@@ -36955,7 +36955,7 @@
     "released": false
 }, {
     "dex": 993,
-    "speciesName": "Ironjugulis",
+    "speciesName": "鐵脖頸",
     "speciesId": "ironjugulis",
     "baseStats": {
         "atk": 249,
@@ -36975,7 +36975,7 @@
     "released": false
 }, {
     "dex": 994,
-    "speciesName": "Ironmoth",
+    "speciesName": "鐵毒蛾",
     "speciesId": "ironmoth",
     "baseStats": {
         "atk": 281,
@@ -36995,7 +36995,7 @@
     "released": false
 }, {
     "dex": 995,
-    "speciesName": "Ironthorns",
+    "speciesName": "鐵荊棘",
     "speciesId": "ironthorns",
     "baseStats": {
         "atk": 250,
@@ -37015,7 +37015,7 @@
     "released": false
 }, {
     "dex": 996,
-    "speciesName": "Frigibax",
+    "speciesName": "涼脊龍",
     "speciesId": "frigibax",
     "baseStats": {
         "atk": 134,
@@ -37136,7 +37136,7 @@
     }
 }, {
     "dex": 1001,
-    "speciesName": "Wochien",
+    "speciesName": "古簡蝸",
     "speciesId": "wochien",
     "baseStats": {
         "atk": 186,
@@ -37155,7 +37155,7 @@
     "released": false
 }, {
     "dex": 1002,
-    "speciesName": "Chienpao",
+    "speciesName": "古劍豹",
     "speciesId": "chienpao",
     "baseStats": {
         "atk": 261,
@@ -37174,7 +37174,7 @@
     "released": false
 }, {
     "dex": 1003,
-    "speciesName": "Tinglu",
+    "speciesName": "古鼎鹿",
     "speciesId": "tinglu",
     "baseStats": {
         "atk": 194,
@@ -37193,7 +37193,7 @@
     "released": false
 }, {
     "dex": 1004,
-    "speciesName": "Chiyu",
+    "speciesName": "古玉魚",
     "speciesId": "chiyu",
     "baseStats": {
         "atk": 269,
@@ -37212,7 +37212,7 @@
     "released": false
 }, {
     "dex": 1005,
-    "speciesName": "Roaringmoon",
+    "speciesName": "轟鳴月",
     "speciesId": "roaringmoon",
     "baseStats": {
         "atk": 280,
@@ -37231,7 +37231,7 @@
     "released": false
 }, {
     "dex": 1006,
-    "speciesName": "Ironvaliant",
+    "speciesName": "鐵武者",
     "speciesId": "ironvaliant",
     "baseStats": {
         "atk": 279,
@@ -37269,7 +37269,7 @@
     "released": false
 }, {
     "dex": 1007,
-    "speciesName": "Koraidon_apex",
+    "speciesName": "故勒頓 完全",
     "speciesId": "koraidon_apex",
     "baseStats": {
         "atk": 263,
@@ -37307,7 +37307,7 @@
     "released": false
 }, {
     "dex": 1008,
-    "speciesName": "Miraidon_ultimate",
+    "speciesName": "密勒頓 完全",
     "speciesId": "miraidon_ultimate",
     "baseStats": {
         "atk": 263,

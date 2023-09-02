@@ -55,34 +55,16 @@ switch($cup){
 		$league = 'Mega Master League';
 		break;
 
-	case "fantasy":
-		$league = 'Fantasy Cup';
-		break;
-
-
-	case "summer":
-		$league = 'Summer Cup';
-		break;
-
-
 	case "retro":
 		$league = 'Retro Cup';
 		break;
 
-	case "fossil":
-		$league = 'Fossil Cup';
+	case "elementremix":
+		$league = 'Element Cup Remix';
 		break;
 
 	case "little":
 		$league = 'Little Cup';
-		break;
-
-	case "littlejungle":
-		$league = 'Little Jungle Cup';
-		break;
-
-	case "championship":
-		$league = '2023 Championship Series';
 		break;
 
 	case "mega":
@@ -100,14 +82,6 @@ switch($cup){
 	case "ragnargymbreakers":
 	case "vanguardgymbreakers":
 		$league = 'Gymbreakers';
-		break;
-
-	case "element":
-		$league = 'Element Cup';
-		break;
-
-	case "continentals":
-		$league = 'Silph Continentals';
 		break;
 
 	case "remix":
@@ -222,7 +196,7 @@ require_once 'header.php';
 	</div>
 
 	<div class="poke-search-container">
-		<input class="poke-search" context="ranking-search" type="text" placeholder="寶可夢中文名或英文屬性搜尋" />
+		<input class="poke-search" context="ranking-search" type="text" placeholder="寶可夢中文名或英文屬性搜尋" autocomplete="off" />
 		<a href="#" class="search-info" title="Search Help">?</a>
 		<a href="#" class="search-traits" title="搜尋對戰特質">+</a>
 	</div>

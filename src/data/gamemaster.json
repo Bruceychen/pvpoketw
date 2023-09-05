@@ -112,7 +112,8 @@
         "title": "GO Battle League",
         "include": [],
         "exclude": [],
-        "partySize": 3
+        "partySize": 3,
+        "presetOnly": true
     }, {
         "name": "little",
         "title": "小小盃",
@@ -35232,7 +35233,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_LECHONK",
             "evolutions": ["oinkologne", "oinkologne"]
@@ -35257,7 +35258,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_LECHONK",
             "parent": "lechonk"
@@ -35282,7 +35283,8 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
+        "searchPriority": 2,
         "family": {
             "id": "FAMILY_LECHONK",
             "parent": "lechonk"

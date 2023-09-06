@@ -114,6 +114,7 @@ require_once 'header.php'; ?>
 				<div class="field-container">
 					<div class="check" value="legendary"><span></span> 傳說的寶可夢</div>
 					<div class="check" value="mythical"><span></span> 幻之寶可夢</div>
+                    <div class="check" value="ultrabeast"><span></span> 究極異獸</div>
 					<div class="check" value="alolan"><span></span> 阿羅拉型態</div>
                     <div class="check" value="galarian"><span></span> 伽勒爾型態</div>
                     <div class="check" value="hisuian"><span></span> 洗翠型態</div>
@@ -157,6 +158,8 @@ require_once 'header.php'; ?>
                     <li><strong>第六世代：</strong> 650-721</li>
                     <li><strong>第七世代：</strong> 722-807</li>
                     <li><strong>第八世代：</strong> 808-898</li>
+                    <li><strong>傳說時代(洗翠):</strong> 899-905</li>
+                    <li><strong>第九世代:</strong> 906-1008</li>
 				</ul>
 				<div class="field-container">
 					<input class="start-range" placeholder="Start #" />

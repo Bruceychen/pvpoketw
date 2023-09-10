@@ -265,6 +265,7 @@ require_once 'header.php'; ?>
 	<h3>寶可夢清單 (<span class="pokemon-count">0</span>)</h3>
 	<p>下面清單將列出符合條件的寶可夢。但部分未達特定標準的寶可夢，如CP太低等，將不會包含在清單中。</p>
 	<textarea class="pokemon-list"></textarea>
+    <a href="#" class="toggle-pokemon-list">顯示 Pokemon 的ID</a>
 </div>
 
 <div class="section white custom-rankings-meta-group">

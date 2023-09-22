@@ -11,7 +11,7 @@ require_once '../../header.php';
 
 ?>
 
-<div class="section article white poliwag">
+<div class="section article white grubbin">
 	<h1>Grubbin  Community Day Guide for PvP</h1>
 	<div class="date">Last updated September 21st, 2023</div>
 	<img src="<?php echo $WEB_HOST_ORIGN;?>articles/article-assets/community-day/23-09-grubbin/banner.jpg" />
@@ -72,7 +72,7 @@ require_once '../../header.php';
 		<h3 class="article-header"><strong>How good is Charjabug with Volt Switch?</strong></h3>
 		<div class="faq-answer">
 			<p><b>Charjabug with Volt Switch should have a stronger presence in themed cups and may even see some play in open Great League.</b> Charjabug is far bulkier than Vikavolt and squeezes a lot more mileage out of the Fast Move upgrade. Along with the boost to X-Scissor this season, Charjabug stands to take advantage of these improvements in future formats such as Halloween Cup.</p>
-			<p>In the open Great League, Charjabug stands out among the limited number of viable Electric types thanks to its bulk and handy resistances to Fighting and Grass. However, the rise of Gligar as the dominant Flying type raises questions about Charjabug's overall viability. Its chances look more favorable in tournament play where hard counters such as Galarian Stunfisk, Bastiodon, and Steelix see much less play than in GO Battle League.</p>
+			<p>In the open Great League, Charjabug stands out among the limited number of viable Electric types thanks to its bulk and handy resistances to Fighting and Grass. However, the rise of Gligar as the dominant Flying type raises questions about Charjabug's overall viability. Its chances look more favorable in tournament play where hard counters such as Galarian Stunfisk, Bastiodon, and Steelix see less play than in GO Battle League.</p>
 		</div>
 	</div>
 

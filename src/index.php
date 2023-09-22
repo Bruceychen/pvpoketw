@@ -85,18 +85,18 @@
 	<h3>Latest Article</h3>
 
 	<div class="article-item flex">
-	<div class="col-3">
-		<a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-08-froakie/">
-			<img src="<?php echo $WEB_ROOT; ?>articles/article-assets/community-day/23-08-froakie/thumb.jpg">
-		</a>
+		<div class="col-3">
+			<a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-09-grubbin/">
+				<img src="<?php echo $WEB_ROOT; ?>articles/article-assets/community-day/23-09-grubbin/thumb.jpg">
+			</a>
+		</div>
+		<div class="col-9">
+			<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-09-grubbin/">Grubbin Community Day Guide for PvP</a></h4>
+			<div class="date">September 21, 2023</div>
+			<p>Both Charjabug and Vikavolt are getting the exlusive treatment this Community Day! How will they fare in PvP with Volt Switch? Time to dig into the details and check the ins and outs of these Bug-type Pokemon!</p>
+			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Community Day"># Community Day</a><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a></div>
+		</div>
 	</div>
-	<div class="col-9">
-		<h4><a href="<?php echo $WEB_ROOT; ?>articles/community-day/23-08-froakie/">Froakie Community Day Guide for PvP</a></h4>
-		<div class="date">August 9, 2023</div>
-		<p>Fan favorite Greninja is finally getting the level-up it needs! Will it be enough to become viable in PvP? Find out more about Greninja and IV's to look for during the upcoming Community Day!</p>
-		<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Community Day"># Community Day</a><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a></div>
-	</div>
-</div>
 
 
     <p>追蹤原作者 <a href="https://twitter.com/pvpoke" target="_blank">推特</a> 以獲得第一手消息及更新快訊！</p>
@@ -126,8 +126,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Thu Sep 21 13:15:28 2023 +0800</li>
-                <li>原版最後版本時間：Wed Sep 20 13:31:38 2023 -0500</li>
+                <li>中文版最後更新時間：Fri Sep 22 12:15:28 2023 +0800</li>
+                <li>原版最後版本時間：Thu Sep 21 18:03:48 2023 -0500</li>
             </ul>
 </div>
 

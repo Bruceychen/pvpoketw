@@ -43,8 +43,8 @@ switch($cup){
 		$league = 'Kanto Cup';
 		break;
 
-	case "hisui":
-		$league = 'Hisui Cup';
+	case "psychic":
+		$league = 'Psychic Cup';
 		break;
 
 	case "elementremix":
@@ -93,7 +93,7 @@ require_once '../header.php';
         <option value="1500" cup="all" level-cap="50">超級聯盟</option>
         <option value="2500" cup="all" level-cap="50">高級聯盟</option>
         <option value="10000" cup="all" level-cap="50">大師聯盟</option>
-        <option value="500" cup="elementremix" level-cap="50">元素盃 Remix</option>
+        <option value="1500" cup="psychic" level-cap="50">超能力盃 Remix</option>
     </select>
 
 	<div class="date-updated">資料最後更新</div>
@@ -241,7 +241,12 @@ require_once '../header.php';
 </div>
 
 <div class="usage-modal hide">
-	<p><b class="pokemon-label"></b> usage on player and bot teams over 30 days.</p>
+	<p><div class="usage-legend"></div><b class="pokemon-label"></b> usage on player and bot teams over 30 days.</p>
+	<div>Compare with:
+		<select class="usage-compare-select">
+			<option selected disabled>Select a Pokemon</option>
+		</select>
+	</div>
 	<div class="usage-container">
 		<div class="y-axis-container">
 			<div class="value">20%</div>
@@ -249,9 +254,17 @@ require_once '../header.php';
 			<div class="value">0%</div>
 		</div>
 
-		<canvas class="usage-chart" width="400" height="300"></canvas>
+		<div class="canvas-container">
+			<canvas canvas-id="0" class="usage-chart" width="400" height="300"></canvas>
+			<canvas canvas-id="1" class="usage-chart" width="400" height="300"></canvas>
+		</div>
+
 	</div>
-	<div class="x-axis-container">Time</div>
+	<div class="x-axis-container">
+		<div class="value">Jan 1</div>
+		<div class="label">Time</div>
+		<div class="value">Jan 30</div>
+	</div>
 
 </div>
 

@@ -76,10 +76,9 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.31.9 (September 1, 2023)</h4>
+	<h4>v1.30.14 (September 26, 2023)</h4>
 	<ul>
-		<li>Site updates are live for Season of Adventures Abound!</li>
-		<li>Generation 9 Pokemon have been added to the site for simulations. New Pokemon will be added to the rankings as they release.</li>
+		<li>Training Analysis now features usage trends for the most used Pokemon. These will be updated by league as the season continues.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -126,8 +125,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Tue Sep 26 08:55:28 2023 +0800</li>
-                <li>原版最後版本時間：Mon Sep 25 19:31:31 2023 -0500</li>
+                <li>中文版最後更新時間：Thu Sep 28 08:55:28 2023 +0800</li>
+                <li>原版最後版本時間：Wed Sep 27 17:29:48 2023 -0500</li>
             </ul>
 </div>
 

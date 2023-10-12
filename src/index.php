@@ -76,9 +76,10 @@
 	<!--Update section for updates-->
 	<h3>What's New</h3>
 
-	<h4>v1.30.14 (September 26, 2023)</h4>
+	<h4>v1.30.15 (October 11, 2023)</h4>
 	<ul>
-		<li>Training Analysis now features usage trends for the most used Pokemon. These will be updated by league as the season continues.</li>
+		<li>Pokemon selection now includes basic IV ranking and checking functionality under the "Edit/Check IVs" section.</li>
+		<li>Stat modifiers for assigning a Pokemon stat buffs or debuffs have been moved to the "Options" section.</li>
 	</ul>
 
 	<h3>Latest Article</h3>
@@ -125,8 +126,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Tue Oct 10 00:45:28 2023 +0800</li>
-                <li>原版最後版本時間：Sun Oct 8 11:17:13 2023 -0500</li>
+                <li>中文版最後更新時間：Thu Oct 12 13:25:28 2023 +0800</li>
+                <li>原版最後版本時間：Wed Oct 11 14:44:00 2023 -0500</li>
             </ul>
 </div>
 

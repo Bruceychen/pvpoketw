@@ -28414,7 +28414,7 @@
         },
         "types": ["grass", "none"],
         "fastMoves": ["ZEN_HEADBUTT", "ROCK_SMASH", "VINE_WHIP"],
-        "chargedMoves": ["BRICK_BREAK", "LEAF_BLADE"],
+        "chargedMoves": ["BRICK_BREAK", "LEAF_BLADE", "SEED_BOMB"],
         "defaultIVs": {
             "cp500": [7, 4, 4, 15],
             "cp1500": [19.5, 6, 15, 15],
@@ -36931,7 +36931,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_GREAVARD",
             "evolutions": ["houndstone"]
@@ -36954,9 +36954,10 @@
             "cp2500": [45, 4, 14, 11],
             "cp2500l40": [40, 15, 14, 13]
         },
+        "searchPriority": 2,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_GREAVARD",
             "parent": "greavard"

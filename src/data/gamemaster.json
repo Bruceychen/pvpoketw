@@ -144,6 +144,23 @@
         "include": [],
         "exclude": []
     }, {
+        "name": "electric",
+        "title": "電氣盃",
+        "include": [{
+            "filterType": "type",
+            "name": "Type",
+            "values": ["electric"]
+        }],
+        "exclude": [{
+            "filterType": "tag",
+            "name": "Tag",
+            "values": ["mega"]
+        }, {
+            "filterType": "id",
+            "name": "Species",
+            "values": ["stunfisk", "charjabug", "vikavolt", "heliolisk"]
+        }]
+    }, {
         "name": "elementremix",
         "title": "元素盃Remix",
         "include": [{
@@ -414,18 +431,18 @@
         "showFormat": false,
         "showMeta": true
     }, {
-        "title": "陽光盃",
-        "cup": "sunshine",
-        "cp": 1500,
-        "meta": "sunshine",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
         "title": "萬聖節盃",
         "cup": "halloween",
         "cp": 1500,
         "meta": "halloween",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
+    }, {
+        "title": "電氣盃",
+        "cup": "electric",
+        "cp": 1500,
+        "meta": "electric",
         "showCup": true,
         "showFormat": true,
         "showMeta": true

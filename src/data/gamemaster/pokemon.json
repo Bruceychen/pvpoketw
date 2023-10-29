@@ -10257,6 +10257,32 @@
         "id": "FAMILY_WOOPER",
         "evolutions": ["quagsire"]
     }
+},  {
+    "dex": 194,
+    "speciesName": "烏波 帕底亞",
+    "speciesId": "wooper_paldean",
+    "baseStats": {
+        "atk": 75,
+        "def": 66,
+        "hp": 146
+    },
+    "types": ["poison", "ground"],
+    "fastMoves": ["MUD_SHOT", "POISON_JAB"],
+    "chargedMoves": ["BODY_SLAM", "DIG", "SLUDGE_WAVE"],
+    "defaultIVs": {
+        "cp500": [34, 4, 14, 8],
+        "cp1500": [50, 15, 15, 15],
+        "cp2500": [50, 15, 15, 15]
+    },
+    "level25CP": 328,
+    "tags": ["paldean"],
+    "buddyDistance": 3,
+    "thirdMoveCost": 50000,
+    "released": true,
+    "family": {
+        "id": "FAMILY_WOOPER_PALDEAN",
+        "evolutions": ["clodsire"]
+    }
 }, {
     "dex": 194,
     "speciesName": "烏波 暗影",
@@ -11322,7 +11348,7 @@
     }
 }, {
     "dex": 215,
-    "speciesName": "Sneasel (Hisuian) (Shadow)",
+    "speciesName": "狃拉 洗翠 暗影",
     "speciesId": "sneasel_hisuian_shadow",
     "baseStats": {
         "atk": 189,
@@ -35098,7 +35124,7 @@
     "tags": ["shadoweligible"]
 }, {
     "dex": 903,
-    "speciesName": "Sneasler (Shadow)",
+    "speciesName": "大狃拉 暗影",
     "speciesId": "sneasler_shadow",
     "baseStats": {
         "atk": 259,
@@ -37185,8 +37211,8 @@
         "hp": 277
     },
     "types": ["poison", "ground"],
-    "fastMoves": ["POISON_JAB", "MUD_SHOT"],
-    "chargedMoves": ["SLUDGE_BOMB", "EARTHQUAKE", "STONE_EDGE", "ACID_SPRAY", "SURF"],
+    "fastMoves": ["POISON_STING", "MUD_SHOT"],
+    "chargedMoves": ["SLUDGE_BOMB", "EARTHQUAKE", "STONE_EDGE", "ACID_SPRAY", "WATER_PULSE"],
     "defaultIVs": {
         "cp500": [10, 5, 9, 5],
         "cp1500": [29, 4, 15, 14],
@@ -37196,8 +37222,8 @@
     "thirdMoveCost": 50000,
     "released": false,
     "family": {
-        "id": "FAMILY_WOOPER",
-        "parent": "wooper"
+        "id": "FAMILY_WOOPER_PALDEAN",
+        "parent": "wooper_paldean"
     }
 }, {
     "dex": 981,

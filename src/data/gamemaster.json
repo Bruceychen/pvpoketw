@@ -159,7 +159,9 @@
             "filterType": "id",
             "name": "Species",
             "values": ["stunfisk", "charjabug", "vikavolt", "heliolisk"]
-        }]
+        }],
+        "partySize": 3,
+        "presetOnly": true
     }, {
         "name": "elementremix",
         "title": "元素盃Remix",
@@ -430,14 +432,6 @@
         "meta": "premiermaster",
         "showCup": true,
         "showFormat": false,
-        "showMeta": true
-    }, {
-        "title": "萬聖節盃",
-        "cup": "halloween",
-        "cp": 1500,
-        "meta": "halloween",
-        "showCup": true,
-        "showFormat": true,
         "showMeta": true
     }, {
         "title": "電氣盃",

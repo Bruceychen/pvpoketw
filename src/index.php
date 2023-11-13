@@ -57,6 +57,8 @@
 
 	<h3>寶可夢 朱 &amp; 紫</h3>
 
+	<a name="news"></a>
+
 	<a href="<?php echo $WEB_ROOT; ?>tera/" class="button tera-button">
 		<span class="btn-content-wrap">
 			<span class="btn-icon btn-icon-tera"></span>
@@ -69,35 +71,30 @@
 
 	<?php require 'modules/ads/body-728.php'; ?>
 
+	<!--Update section for updates-->
+	<div class="flex new-header">
+		<h3>What's New</h3>
+		<a href="<?php echo $WEB_ROOT; ?>rss/" target="_blank" class="feed-subscribe">RSS Feed</a>
+	</div>
+
+	<div class="feed-container expanded">
+		<div class="feed"></div>
+
+		<div class="news-item template hide">
+			<h4></h4>
+			<div class="news-content"></div>
+			<div class="news-info">
+				<div class="news-date"></div>
+				<a href="#"><div class="link-text">pvpoke.com</div><div>&rarr;</div></a>
+			</div>
+		</div>
+
+		<button class="feed-expand"></button>
+	</div>
+
 	<?php if($_SETTINGS->ads == 1) : ?>
 		<span data-ccpa-link="1"></span>
 	<?php endif; ?>
-
-	<!--Update section for updates-->
-	<h3>What's New</h3>
-
-	<h4>v1.30.15 (October 11, 2023)</h4>
-	<ul>
-		<li>Pokemon selection now includes basic IV ranking and checking functionality under the "Edit/Check IVs" section.</li>
-		<li>Stat modifiers for assigning a Pokemon stat buffs or debuffs have been moved to the "Options" section.</li>
-	</ul>
-
-	<h3>Latest Article</h3>
-
-	<div class="article-item flex">
-		<div class="col-3">
-			<a href="<?php echo $WEB_ROOT; ?>articles/infographics/23-10-adventures-abound-great-league-starter-pack/">
-				<img src="<?php echo $WEB_ROOT; ?>articles/article-assets/infographics/23-10-adventures-abound-great-league-starter-pack/thumb.jpg">
-			</a>
-		</div>
-		<div class="col-9">
-			<h4><a href="<?php echo $WEB_ROOT; ?>articles/infographics/23-10-adventures-abound-great-league-starter-pack/">Great League Starter Pack for Season of Adventures Abound</a></h4>
-			<div class="date">October 7, 2023</div>
-			<p>Check out the premiere and budget picks to get started in Great League and GO Battle League for Season of Adventures Abound!</p>
-			<div class="tags"><a href="<?php echo $WEB_ROOT; ?>articles?tag=Infographic"># Infographic</a><a href="<?php echo $WEB_ROOT; ?>articles?tag=Starter Pack"># Starter Pack</a></div>
-		</div>
-	</div>
-
 
     <p>追蹤原作者 <a href="https://twitter.com/pvpoke" target="_blank">推特</a> 以獲得第一手消息及更新快訊！</p>
     <p>追蹤中文版 <a href="https://twitter.com/tw_pvpokesite" target="_blank">推特</a> 以獲得即時更新快訊！也可以回饋反映意見問題給管理員喔！</p>
@@ -137,23 +134,21 @@ if (strpos($WEB_ROOT, 'src') !== false) : ?>
 
 	<script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>
 	<script src="<?php echo $WEB_ROOT; ?>js/pokemon/Pokemon.js?v=<?php echo $SITE_VERSION; ?>"></script>
-	<script src="<?php echo $WEB_ROOT; ?>js/interface/RankingInterface.js?v=<?php echo $SITE_VERSION; ?>"></script>
+	<script src="<?php echo $WEB_ROOT; ?>js/interface/HomeInterface.js?v=<?php echo $SITE_VERSION; ?>"></script>
 	<script src="<?php echo $WEB_ROOT; ?>js/interface/ModalWindow.js?v=<?php echo $SITE_VERSION; ?>"></script>
 	<script src="<?php echo $WEB_ROOT; ?>js/interface/PokeSearch.js?v=<?php echo $SITE_VERSION; ?>"></script>
 	<script src="<?php echo $WEB_ROOT; ?>js/battle/TimelineEvent.js?v=<?php echo $SITE_VERSION; ?>"></script>
 	<script src="<?php echo $WEB_ROOT; ?>js/battle/TimelineAction.js?v=<?php echo $SITE_VERSION; ?>"></script>
 	<script src="<?php echo $WEB_ROOT; ?>js/battle/Battle.js?v=<?php echo $SITE_VERSION; ?>"></script>
 	<script src="<?php echo $WEB_ROOT; ?>js/battle/TeamRanker.js?v=<?php echo $SITE_VERSION; ?>"></script>
-	<script src="<?php echo $WEB_ROOT; ?>js/RankingMain.js?v=<?php echo $SITE_VERSION; ?>"></script>
+	<script src="<?php echo $WEB_ROOT; ?>js/Main.js?v=<?php echo $SITE_VERSION; ?>"></script>
 
 <?php else: ?>
 
 	<script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>
 	<script src="<?php echo $WEB_ROOT; ?>js/pokemon/Pokemon.js?v=<?php echo $SITE_VERSION; ?>"></script>
-
-	<script>
-	var gm = GameMaster.getInstance();
-	</script>
+	<script src="<?php echo $WEB_ROOT; ?>js/interface/HomeInterface.js?v=<?php echo $SITE_VERSION; ?>"></script>
+	<script src="<?php echo $WEB_ROOT; ?>js/Main.js?v=<?php echo $SITE_VERSION; ?>"></script>
 
 <?php endif; ?>
 

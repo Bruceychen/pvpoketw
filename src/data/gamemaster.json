@@ -110,6 +110,17 @@
             }]
         }
     }, {
+        "name": "catch",
+        "title": "速成盃",
+        "include": [],
+        "exclude": [{
+            "filterType": "id",
+            "values": ["deoxys_defense", "registeel", "regirock", "regice", "mew", "victini", "tapu_fini", "genesect", "rayquaza", "zygarde", "latios", "latias", "raikou", "suicune", "entei", "celebi", "diancie", "regidrago", "regieleki", "ho_oh", "passimian", "flygon_shadow", "buzzwole", "drapion_shadow", "marowak_alolan_shadow", "lapras_shadow", "hitmontop_shadow", "meganium_shadow", "jumpluff_shadow", "steelix_shadow", "abomasnow_shadow", "walrein_shadow", "poliwrath_shadow", "politoed_shadow", "sealeo_shadow"]
+        }, {
+            "filterType": "tag",
+            "values": ["mega"]
+        }]
+    }, {
         "name": "classic",
         "title": "Classic",
         "include": [],
@@ -434,10 +445,10 @@
         "showFormat": false,
         "showMeta": true
     }, {
-        "title": "電氣盃",
-        "cup": "electric",
+        "title": "速成盃",
+        "cup": "catch",
         "cp": 1500,
-        "meta": "electric",
+        "meta": "catch",
         "showCup": true,
         "showFormat": true,
         "showMeta": true

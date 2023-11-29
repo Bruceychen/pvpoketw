@@ -38604,6 +38604,15 @@
         "cooldown": 1500,
         "archetype": "Low Quality"
     }, {
+        "moveId": "ASTONISH_NEW",
+        "name": "驚嚇 新",
+        "type": "ghost",
+        "power": 9,
+        "energy": 0,
+        "energyGain": 10,
+        "cooldown": 1500,
+        "archetype": "General"
+    }, {
         "moveId": "AURA_SPHERE",
         "name": "波導彈",
         "abbreviation": "AuS",
@@ -38651,6 +38660,19 @@
         "energyGain": 0,
         "cooldown": 500,
         "archetype": "General"
+    }, {
+        "moveId": "BLEAKWIND_STORM",
+        "name": "枯葉風暴",
+        "abbreviation": "BwS",
+        "type": "flying",
+        "power": 60,
+        "energy": 45,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [-1, 0],
+        "buffTarget": "opponent",
+        "buffApplyChance": "1",
+        "archetype": "Debuff"
     }, {
         "moveId": "BLIZZARD",
         "name": "暴風雪",
@@ -38716,6 +38738,19 @@
         "buffApplyChance": "1",
         "archetype": "Debuff Spam/Bait"
     }, {
+        "moveId": "BREAKING_SWIPE_NEW",
+        "name": "廣域破壞 新",
+        "abbreviation": "BkS",
+        "type": "dragon",
+        "power": 50,
+        "energy": 35,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [-1, 0],
+        "buffTarget": "opponent",
+        "buffApplyChance": ".66",
+        "archetype": "Debuff Spam/Bait"
+    }, {
         "moveId": "BRICK_BREAK",
         "name": "劈瓦",
         "abbreviation": "BkB",
@@ -38750,6 +38785,15 @@
         "name": "泡沫",
         "type": "water",
         "power": 7,
+        "energy": 0,
+        "energyGain": 11,
+        "cooldown": 1500,
+        "archetype": "Fast Charge"
+    }, {
+        "moveId": "BUBBLE_NEW",
+        "name": "泡沫 新",
+        "type": "water",
+        "power": 8,
         "energy": 0,
         "energyGain": 11,
         "cooldown": 1500,
@@ -39228,6 +39272,15 @@
         "cooldown": 500,
         "archetype": "Spam/Bait"
     }, {
+        "moveId": "BLAZE_KICK_NEW",
+        "name": "火焰踢 新",
+        "type": "fire",
+        "power": 60,
+        "energy": 40,
+        "energyGain": 0,
+        "cooldown": 500,
+        "archetype": "Spam/Bait"
+    }, {
         "moveId": "FAIRY_WIND",
         "name": "妖精之風",
         "type": "fairy",
@@ -39254,6 +39307,15 @@
         "name": "火焰旋渦",
         "type": "fire",
         "power": 9,
+        "energy": 0,
+        "energyGain": 10,
+        "cooldown": 1500,
+        "archetype": "General"
+    }, {
+        "moveId": "FIRE_SPIN_NEW",
+        "name": "火焰旋渦 新",
+        "type": "fire",
+        "power": 10,
         "energy": 0,
         "energyGain": 10,
         "cooldown": 1500,
@@ -39810,6 +39872,15 @@
         "cooldown": 2500,
         "archetype": "Multipurpose"
     }, {
+        "moveId": "INCINERATE_NEW",
+        "name": "燒盡 新",
+        "type": "fire",
+        "power": 20,
+        "energy": 0,
+        "energyGain": 20,
+        "cooldown": 2500,
+        "archetype": "Multipurpose"
+    }, {
         "moveId": "INFESTATION",
         "name": "死纏爛打",
         "abbreviation": "Inf",
@@ -39837,6 +39908,15 @@
         "energyGain": 6,
         "cooldown": 1500,
         "archetype": "Low Quality"
+    }, {
+        "moveId": "IRON_TAIL_NEW",
+        "name": "鐵尾 新",
+        "type": "steel",
+        "power": 10,
+        "energy": 0,
+        "energyGain": 7,
+        "cooldown": 1500,
+        "archetype": "General"
     }, {
         "moveId": "KARATE_CHOP",
         "name": "空手劈",
@@ -40141,6 +40221,16 @@
         "cooldown": 1500,
         "archetype": "Heavy Damage"
     }, {
+        "moveId": "MUD_SLAP_NEW",
+        "name": "擲泥 新",
+        "abbreviation": "MSl",
+        "type": "ground",
+        "power": 11,
+        "energy": 0,
+        "energyGain": 9,
+        "cooldown": 1500,
+        "archetype": "Heavy Damage"
+    }, {
         "moveId": "MYSTICAL_FIRE",
         "name": "魔法火焰",
         "type": "fire",
@@ -40437,6 +40527,18 @@
         "buffApplyChance": ".1",
         "archetype": "High Energy Debuff"
     }, {
+        "moveId": "PSYCHIC_NEW",
+        "name": "精神強念 新",
+        "type": "psychic",
+        "power": 75,
+        "energy": 55,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [0, -1],
+        "buffTarget": "opponent",
+        "buffApplyChance": ".1",
+        "archetype": "High Energy Debuff"
+    }, {
         "moveId": "PSYCHIC_FANGS",
         "name": "精神之牙",
         "type": "psychic",
@@ -40537,6 +40639,15 @@
         "type": "normal",
         "power": 130,
         "energy": 70,
+        "energyGain": 0,
+        "cooldown": 500,
+        "archetype": "Nuke"
+    }, {
+        "moveId": "ROAR_OF_TIME",
+        "name": "時光咆哮",
+        "type": "dragon",
+        "power": 150,
+        "energy": 65,
         "energyGain": 0,
         "cooldown": 500,
         "archetype": "Nuke"
@@ -40644,6 +40755,18 @@
         "buffApplyChance": "1",
         "archetype": "Debuff Spam/Bait"
     }, {
+        "moveId": "SANDSEAR_STORM",
+        "name": "熱沙風暴",
+        "type": "ground",
+        "power": 60,
+        "energy": 45,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [-1, 0],
+        "buffTarget": "opponent",
+        "buffApplyChance": "1",
+        "archetype": "Debuff"
+    }, {
         "moveId": "SCALD",
         "name": "熱水",
         "abbreviation": "Sc",
@@ -40655,6 +40778,19 @@
         "buffs": [-1, 0],
         "buffTarget": "opponent",
         "buffApplyChance": "0.3",
+        "archetype": "High Energy Debuff"
+    }, {
+        "moveId": "SCALD_NEW",
+        "name": "熱水 新",
+        "abbreviation": "Sc",
+        "type": "water",
+        "power": 85,
+        "energy": 50,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [-1, 0],
+        "buffTarget": "opponent",
+        "buffApplyChance": "0.4",
         "archetype": "High Energy Debuff"
     }, {
         "moveId": "SCORCHING_SANDS",
@@ -40869,6 +41005,16 @@
         "cooldown": 500,
         "archetype": "Nuke"
     }, {
+        "moveId": "SPACIAL_REND",
+        "abbreviation": "SpR",
+        "name": "亞空裂斬",
+        "type": "dragon",
+        "power": 95,
+        "energy": 50,
+        "energyGain": 0,
+        "cooldown": 500,
+        "archetype": "General"
+    }, {
         "moveId": "SPARK",
         "name": "電光",
         "abbreviation": "Sp",
@@ -40878,6 +41024,19 @@
         "energyGain": 7,
         "cooldown": 1000,
         "archetype": "General"
+    }, {
+        "moveId": "SPIRIT_SHACKLE",
+        "abbreviation": "SSh",
+        "name": "縫影",
+        "type": "ghost",
+        "power": 50,
+        "energy": 40,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [0, -1],
+        "buffTarget": "opponent",
+        "buffApplyChance": ".33",
+        "archetype": "Debuff Spam/Bait"
     }, {
         "moveId": "SPLASH",
         "name": "躍起",
@@ -40896,6 +41055,16 @@
         "power": 7,
         "energy": 0,
         "energyGain": 5,
+        "cooldown": 1000,
+        "archetype": "Heavy Damage"
+    }, {
+        "moveId": "STEEL_WING_NEW",
+        "name": "鋼翼 新",
+        "abbreviation": "StW",
+        "type": "steel",
+        "power": 7,
+        "energy": 0,
+        "energyGain": 6,
         "cooldown": 1000,
         "archetype": "Heavy Damage"
     }, {
@@ -41294,6 +41463,19 @@
         "energyGain": 0,
         "cooldown": 500,
         "archetype": "Spam/Bait"
+    }, {
+        "moveId": "WILDBOLT_STORM",
+        "abbreviation": "WbS",
+        "name": "鳴雷風暴",
+        "type": "electric",
+        "power": 60,
+        "energy": 45,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [-1, 0],
+        "buffTarget": "opponent",
+        "buffApplyChance": "1",
+        "archetype": "Debuff"
     }, {
         "moveId": "WILD_CHARGE",
         "name": "瘋狂伏特",

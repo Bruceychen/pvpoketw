@@ -26,8 +26,14 @@ function Pokemon(id, i, b){
 	this.data = data;
 	this.dex = data.dex;
 	this.speciesId = id;
+	this.aliasId = this.speciesId;
 	this.canonicalId = id.replace("_xs","");
 	this.speciesName = data.speciesName;
+
+	// Use an alias for duplicate Pokemon entries to redirect to the main Pokemon ID
+	if(data.aliasId){
+		this.aliasId = data.aliasId;
+	}
 
 	this.baseStats = { atk: data.baseStats.atk, def: data.baseStats.def, hp: data.baseStats.hp};
 	this.stats = { atk: 0, def: 0, hp: 0 };
@@ -1964,7 +1970,7 @@ function Pokemon(id, i, b){
 	// Output a string of numbers for URL building and recreating a Pokemon
 
 	this.generateURLPokeStr = function(context){
-		var pokeStr = self.speciesId;
+		var pokeStr = self.aliasId;
 
 		if((self.isCustom)||(self.startStatBuffs[0] != 0)||(self.startStatBuffs[1] != 0)){
 			var arr = [self.level];
@@ -2051,8 +2057,8 @@ function Pokemon(id, i, b){
 			self.shadowAtkMult = gm.data.settings.shadowAtkMult;
 			self.shadowDefMult = gm.data.settings.shadowDefMult;
 
-			if(self.speciesName.indexOf("暗影") == -1){
-				self.speciesName = self.speciesName + " (暗影)";
+			if(self.speciesName.indexOf("Shadow") == -1){
+				self.speciesName = self.speciesName + " (Shadow)";
 
 				// Add Frustration as a custom move
 				if(! self.knowsMove("FRUSTRATION")){
@@ -2063,8 +2069,8 @@ function Pokemon(id, i, b){
 			self.shadowAtkMult = 1;
 			self.shadowDefMult = 1;
 
-			if(self.speciesName.indexOf(" (暗影)") > -1){
-				self.speciesName = self.speciesName.replace(" (暗影)","");
+			if(self.speciesName.indexOf(" (Shadow)") > -1){
+				self.speciesName = self.speciesName.replace(" (Shadow)","");
 
 				// Remove Frustration if added as a Custom Move
 				self.removeMove("FRUSTRATION");

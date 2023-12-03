@@ -175,7 +175,8 @@
             "filterType": "tag",
             "values": ["mega"]
         }],
-        "partySize": 3
+        "partySize": 3,
+        "presetOnly": true
     }],
     "formats": [{
         "title": "大師經典賽 (XL 禁止)",

@@ -925,6 +925,8 @@ function Pokemon(id, i, b){
 
 				if(r.moveset.length > 2){
 					self.selectMove("charged", r.moveset[2], 1);
+				} else{
+					self.selectMove("charged", "none", 1);
 				}
 
 				self.resetMoves();
@@ -2057,8 +2059,8 @@ function Pokemon(id, i, b){
 			self.shadowAtkMult = gm.data.settings.shadowAtkMult;
 			self.shadowDefMult = gm.data.settings.shadowDefMult;
 
-			if(self.speciesName.indexOf("Shadow") == -1){
-				self.speciesName = self.speciesName + " (Shadow)";
+			if(self.speciesName.indexOf("暗影") == -1){
+				self.speciesName = self.speciesName + " (暗影)";
 
 				// Add Frustration as a custom move
 				if(! self.knowsMove("FRUSTRATION")){
@@ -2069,8 +2071,8 @@ function Pokemon(id, i, b){
 			self.shadowAtkMult = 1;
 			self.shadowDefMult = 1;
 
-			if(self.speciesName.indexOf(" (Shadow)") > -1){
-				self.speciesName = self.speciesName.replace(" (Shadow)","");
+			if(self.speciesName.indexOf(" (暗影)") > -1){
+				self.speciesName = self.speciesName.replace(" (暗影)","");
 
 				// Remove Frustration if added as a Custom Move
 				self.removeMove("FRUSTRATION");

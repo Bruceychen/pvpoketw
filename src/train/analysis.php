@@ -93,6 +93,7 @@ require_once '../header.php';
         <option value="1500" cup="all" level-cap="50">超級聯盟</option>
         <option value="2500" cup="all" level-cap="50">高級聯盟</option>
         <option value="10000" cup="all" level-cap="50">大師聯盟</option>
+		<option value="1500" cup="retro" level-cap="50">復古盃</option>
     </select>
 
 	<div class="date-updated">資料最後更新</div>

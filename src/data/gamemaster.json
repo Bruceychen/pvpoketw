@@ -162,7 +162,7 @@
             "values": ["mega"]
         }, {
             "filterType": "id",
-            "values": ["articuno", "celebi", "ho_oh", "hoopa", "lugia", "moltres", "rayquaza", "regice", "regieleki", "regigigas", "shaymin", "shaymin_sky", "zapdos"],
+            "values": ["articuno", "celebi", "ho_oh", "hoopa", "lugia", "moltres", "rayquaza", "regice", "regieleki", "regigigas", "shaymin", "shaymin_sky", "zapdos", "smeargle"],
             "leagues": [500]
         }],
         "partySize": 3,
@@ -12694,7 +12694,11 @@
         "tags": ["shadoweligible"],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": true
+        "released": true,
+        "family": {
+            "id": "FAMILY_STANTLER",
+            "evolutions": ["wyrdeer"]
+        }
     }, {
         "dex": 234,
         "speciesName": "驚角鹿 暗影",
@@ -12715,7 +12719,11 @@
         "tags": ["shadow"],
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": true
+        "released": true,
+        "family": {
+            "id": "FAMILY_STANTLER",
+            "evolutions": ["wyrdeer_shadow"]
+        }
     }, {
         "dex": 235,
         "speciesName": "圖圖犬",
@@ -35619,6 +35627,31 @@
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": false
+    }, {
+        "dex": 899,
+        "speciesName": "詭角鹿",
+        "speciesId": "wyrdeer",
+        "baseStats": {
+            "atk": 206,
+            "def": 145,
+            "hp": 230
+        },
+        "types": ["normal", "psychic"],
+        "fastMoves": ["TACKLE", "ZEN_HEADBUTT", "CONFUSION"],
+        "chargedMoves": ["MEGAHORN", "STOMP", "WILD_CHARGE", "PSYCHIC"],
+        "defaultIVs": {
+            "cp500": [7, 5, 15, 6],
+            "cp1500": [20.5, 4, 15, 7],
+            "cp2500": [37.5, 4, 13, 15]
+        },
+        "levelFloor": 20,
+        "buddyDistance": 5,
+        "thirdMoveCost": 75000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_STANTLER",
+            "parent": "stantler"
+        }
     }, {
         "dex": 900,
         "speciesId": "kleavor",

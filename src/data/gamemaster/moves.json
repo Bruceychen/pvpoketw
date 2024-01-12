@@ -2060,7 +2060,7 @@
     "archetype": "Nuke"
 }, {
     "moveId": "ROAR_OF_TIME",
-    "name": "Roar of Time",
+    "name": "時光咆哮",
     "type": "dragon",
     "power": 150,
     "energy": 65,

@@ -71,6 +71,10 @@ switch($cup){
 		$league = 'Devon Knockout Cup';
 		break;
 
+	case "sovereign":
+		$league = 'Devon Sovereign Cup';
+		break;
+
 	case "catch":
 		$league = 'Catch Cup';
 		break;
@@ -100,7 +104,7 @@ switch($cup){
 		break;
 
 	case "hisui":
-		$league = 'Hisui';
+		$league = 'Hisui Cup';
 		break;
 
 	case "remix":

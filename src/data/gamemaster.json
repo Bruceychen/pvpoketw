@@ -293,7 +293,7 @@
             "values": ["mega", "shadow"]
         }, {
             "filterType": "id",
-            "values": ["ninetales_alolan", "raichu", "obstagoon", "walrein", "umbreon", "dewgong", "regirock", "lycanroc_midnight", "crustle", "dragalge", "abomasnow", "pachirisu", "chansey", "carbink", "haxorus", "meowscarada", "beartic", "lanturn", "diancie", "stunfisk", "guzzlord"]
+            "values": ["ninetales_alolan", "raichu", "obstagoon", "walrein", "umbreon", "dewgong", "regirock", "lycanroc_midnight", "crustle", "dragalge", "abomasnow", "pachirisu", "chansey", "carbink", "haxorus", "meowscarada", "beartic", "lanturn", "diancie", "stunfisk", "guzzlord", "avalugg_hisuian", "lanturnw", "giratina_origin"]
         }, {
             "filterType": "type",
             "values": ["steel", "fighting"]
@@ -364,7 +364,7 @@
         }, {
             "filterType": "id",
             "name": "Species",
-            "values": ["azumarill", "litleo", "pachirisu", "greedent", "lickitung", "lanturn", "cresselia", "miltank", "froslass", "hoopa", "munchlax", "abomasnow", "arctibax", "baxcalibur", "frigibax", "bellibolt", "charjabug", "zangoose"]
+            "values": ["azumarill", "litleo", "greedent", "lickitung", "lanturn", "cresselia", "miltank", "froslass", "hoopa", "munchlax", "abomasnow", "arctibax", "baxcalibur", "frigibax", "bellibolt", "charjabug", "zangoose"]
         }, {
             "filterType": "type",
             "name": "Type",
@@ -13084,7 +13084,8 @@
         },
         "types": ["normal", "none"],
         "fastMoves": ["POUND", "ZEN_HEADBUTT"],
-        "chargedMoves": ["DAZZLING_GLEAM", "HYPER_BEAM", "PSYCHIC"],
+        "chargedMoves": ["DAZZLING_GLEAM", "HYPER_BEAM", "PSYCHIC", "WILD_CHARGE"],
+        "eliteMoves": ["WILD_CHARGE"],
         "defaultIVs": {
             "cp500": [7, 6, 15, 7],
             "cp1500": [21, 4, 11, 6],
@@ -33040,7 +33041,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false
+        "released": true
     }, {
         "dex": 781,
         "speciesName": "破破舵輪",

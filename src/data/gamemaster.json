@@ -258,7 +258,7 @@
         "levelCap": 50
     }, {
         "name": "littlecatch",
-        "title": "Little Catch Cup",
+        "title": "速成盃:迷你版",
         "include": [{
             "filterType": "evolution",
             "values": [1]
@@ -433,7 +433,7 @@
         "showFormat": true,
         "showMeta": true
     }, {
-        "title": "Little Catch Cup",
+        "title": "速成盃:迷你版",
         "cup": "littlecatch",
         "cp": 500,
         "meta": "littlecatch",
@@ -31203,7 +31203,7 @@
         },
         "types": ["grass", "fighting"],
         "fastMoves": ["MAGICAL_LEAF", "PSYCHO_CUT"],
-        "chargedMoves": ["AURA_SPHERE", "ENERGY_BALL", "AERIAL_ACE"],
+        "chargedMoves": ["AURA_SPHERE", "ENERGY_BALL", "AERIAL_ACE", "TRAILBLAZE"],
         "defaultIVs": {
             "cp500": [6.5, 6, 13, 15],
             "cp1500": [20, 4, 5, 4],

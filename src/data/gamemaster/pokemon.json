@@ -35733,7 +35733,6 @@
         "cp1500": [20.5, 4, 15, 7],
         "cp2500": [37.5, 4, 13, 15]
     },
-    "levelFloor": 20,
     "buddyDistance": 5,
     "thirdMoveCost": 75000,
     "released": true,
@@ -35752,7 +35751,7 @@
     },
     "defaultIVs": {
         "cp500": [6, 7, 11, 15],
-        "cp1500": [1, 0, 0, 0],
+        "cp1500": [17.5, 5, 14, 12],
         "cp2500": [29, 6, 13, 14]
     },
     "types": ["bug", "rock"],
@@ -35760,7 +35759,6 @@
     "chargedMoves": ["X_SCISSOR", "ROCK_SLIDE", "STONE_EDGE", "TRAILBLAZE"],
     "buddyDistance": 5,
     "thirdMoveCost": 75000,
-    "levelFloor": 20,
     "family": {
         "id": "FAMILY_SCYTHER",
         "parent": "scyther"
@@ -35896,6 +35894,49 @@
         "id": "FAMILY_QWILFISH",
         "parent": "qwilfish_hisuian"
     }
+},  {
+    "dex": 905,
+    "speciesId": "enamorus_incarnate",
+    "speciesName": "眷戀雲 化身",
+	"baseStats": {
+		"atk": 281,
+		"def": 162,
+		"hp": 179
+	},
+    "types": ["fairy", "flying"],
+    "fastMoves": ["ASTONISH", "ZEN_HEADBUTT", "FAIRY_WIND"],
+    "chargedMoves": ["DAZZLING_GLEAM", "FLY", "GRASS_KNOT"],
+	"defaultIVs": {
+		"cp500": [5.5, 10, 12, 14],
+        "cp1500": [16, 4, 12, 15],
+        "cp2500": [26.5, 5, 14, 14]
+	},
+    "tags": ["legendary"],
+    "searchPriority": 2,
+    "buddyDistance": 20,
+    "thirdMoveCost": 100000,
+    "released": true
+}, {
+    "dex": 905,
+    "speciesId": "enamorus_therian",
+    "speciesName": "眷戀雲 靈獸",
+    "baseStats": {
+		"atk": 250,
+		"def": 201,
+		"hp": 179
+    },
+    "types": ["fairy", "flying"],
+    "fastMoves": ["ASTONISH", "ZEN_HEADBUTT", "FAIRY_WIND"],
+    "chargedMoves": ["DAZZLING_GLEAM", "FLY", "GRASS_KNOT"],
+    "defaultIVs": {
+		"cp500": [5.5, 9, 15, 14],
+        "cp1500": [16, 8, 13, 14],
+        "cp2500": [27.5, 4, 10, 11]
+    },
+    "tags": ["legendary"],
+    "buddyDistance": 20,
+    "thirdMoveCost": 100000,
+    "released": false
 }, {
     "dex": 906,
     "speciesName": "新葉喵",

@@ -46,30 +46,30 @@
 		"showMeta": true
 	},
 	{
-		"title": "Catch Cup",
-		"cup": "catch",
-		"cp": 1500,
-		"meta": "catch",
-		"showCup": true,
-		"showFormat": true,
-		"showMeta": true
-	},
-	{
-		"title": "Little Catch Cup",
-		"cup": "littlecatch",
-		"cp": 500,
-		"meta": "littlecatch",
-		"showCup": true,
-		"showFormat": true,
-		"showMeta": true
-	},
-	{
 		"title": "P!P Championship Series",
 		"cup": "great",
 		"cp": 1500,
 		"meta": "championshipseries",
 		"showCup": false,
 		"showFormat": false,
+		"showMeta": true
+	},
+	{
+		"title": "Electric Cup",
+		"cup": "electric",
+		"cp": 1500,
+		"meta": "electric",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true
+	},
+	{
+		"title": "Spring Cup",
+		"cup": "spring",
+		"cp": 1500,
+		"meta": "spring",
+		"showCup": true,
+		"showFormat": true,
 		"showMeta": true
 	},
 	{

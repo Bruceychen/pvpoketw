@@ -94,7 +94,7 @@
     "moveId": "AQUA_TAIL",
     "name": "水流尾",
     "type": "water",
-    "power": 50,
+    "power": 55,
     "energy": 35,
     "energyGain": 0,
     "cooldown": 500,
@@ -239,10 +239,13 @@
     "abbreviation": "BkB",
     "type": "fighting",
     "power": 40,
-    "energy": 35,
+    "energy": 40,
     "energyGain": 0,
     "cooldown": 500,
-    "archetype": "Spam/Bait"
+	"buffs": [0, -1],
+    "buffTarget": "opponent",
+    "buffApplyChance": "1",
+    "archetype": "Debuff Spam/Bait"
 }, {
     "moveId": "BRUTAL_SWING",
     "name": "狂舞揮打",
@@ -405,7 +408,7 @@
     "name": "十字劈",
     "abbreviation": "CrC",
     "type": "fighting",
-    "power": 50,
+    "power": 55,
     "energy": 35,
     "energyGain": 0,
     "cooldown": 500,
@@ -445,6 +448,16 @@
     "energyGain": 2,
     "cooldown": 500,
     "archetype": "Low Quality"
+}, {
+    "moveId": "DARKEST_LARIAT",
+    "name": "ＤＤ金勾臂",
+    "abbreviation": "DkL",
+	"type": "dark",
+    "power": 120,
+    "energy": 60,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Nuke"
 }, {
     "moveId": "DARK_PULSE",
     "name": "惡之波動",
@@ -1549,6 +1562,16 @@
     "cooldown": 1000,
     "archetype": "Low Quality"
 }, {
+    "moveId": "METAL_SOUND",
+    "name": "金屬音",
+	"abbreviation": "MSo",
+    "type": "steel",
+    "power": 3,
+    "energy": 0,
+    "energyGain": 8,
+    "cooldown": 1000,
+    "archetype": "Fast Charge"
+}, {
     "moveId": "METEOR_BEAM",
     "abbreviation": "MeB",
     "name": "流星光束",
@@ -1667,6 +1690,18 @@
     "energyGain": 0,
     "cooldown": 500,
     "buffs": [-1, 0],
+    "buffTarget": "opponent",
+    "buffApplyChance": "1",
+    "archetype": "Debuff"
+}, {
+    "moveId": "NATURES_MADNESS",
+    "name": "自然之怒",
+    "type": "fairy",
+    "power": 80,
+    "energy": 50,
+    "energyGain": 0,
+    "cooldown": 500,
+    "buffs": [0, -1],
     "buffTarget": "opponent",
     "buffApplyChance": "1",
     "archetype": "Debuff"
@@ -2009,6 +2044,16 @@
     "cooldown": 500,
     "archetype": "General"
 }, {
+    "moveId": "PSYWAVE",
+    "name": "精神波",
+    "abbreviation": "Psy",
+    "type": "psychic",
+    "power": 3,
+    "energy": 0,
+    "energyGain": 2,
+    "cooldown": 500,
+    "archetype": "Low Quality"
+}, {
     "moveId": "QUICK_ATTACK",
     "name": "電光一閃",
     "type": "normal",
@@ -2159,6 +2204,16 @@
     "cooldown": 500,
     "archetype": "Spam/Bait"
 }, {
+    "moveId": "SAND_ATTACK",
+    "name": "潑沙",
+	"abbreviation": "SdA",
+    "type": "ground",
+    "power": 2,
+    "energy": 0,
+    "energyGain": 4,
+    "cooldown": 500,
+    "archetype": "Fast Charge"
+}, {
     "moveId": "SAND_TOMB",
     "name": "流沙地獄",
     "type": "ground",
@@ -2255,7 +2310,7 @@
     "name": "暗影之骨",
     "abbreviation": "SBo",
     "type": "ghost",
-    "power": 75,
+    "power": 80,
     "energy": 45,
     "energyGain": 0,
     "cooldown": 500,
@@ -2800,11 +2855,11 @@
     "moveId": "WATER_PULSE",
     "name": "水之波動",
     "type": "water",
-    "power": 70,
-    "energy": 60,
+    "power": 80,
+    "energy": 55,
     "energyGain": 0,
     "cooldown": 500,
-    "archetype": "High Energy"
+    "archetype": "General"
 }, {
     "moveId": "WATERFALL",
     "name": "攀瀑",

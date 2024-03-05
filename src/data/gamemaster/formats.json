@@ -41,7 +41,7 @@
 		"cup": "premier",
 		"cp": 10000,
 		"meta": "premiermaster",
-		"showCup": false,
+		"showCup": true,
 		"showFormat": false,
 		"showMeta": true
 	},
@@ -68,6 +68,15 @@
 		"cup": "spring",
 		"cp": 1500,
 		"meta": "spring",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true
+	},
+	{
+		"title": "Little Catch Cup",
+		"cup": "littlecatch",
+		"cp": 500,
+		"meta": "littlecatch",
 		"showCup": true,
 		"showFormat": true,
 		"showMeta": true
@@ -136,6 +145,15 @@
         "showFormat": true,
         "showMeta": true
     },
+	{
+		"title": "Little",
+		"cup": "little",
+		"cp": 500,
+		"meta": "little",
+		"showCup": false,
+		"showFormat": false,
+		"showMeta": false
+	},
 	{
 		"title": "Custom",
 		"cup": "custom",

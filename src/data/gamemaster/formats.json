@@ -137,6 +137,15 @@
         "showMeta": true
     },
 	{
+        "title": "Devon Rainstorm Cup",
+        "cup": "rainstorm",
+        "cp": 1500,
+        "meta": "rainstorm",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
+    },
+	{
 		"title": "Little",
 		"cup": "little",
 		"cp": 500,

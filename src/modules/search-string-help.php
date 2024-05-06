@@ -30,23 +30,12 @@
             </td>
         </tr>
         <tr>
-            <td><strong>世代</strong><br></td>
+            <td><strong>世代/地區</strong><br></td>
             <td>
                 gen1:<i>第一世代</i><br>
                 gen2:<i>第二世代</i><br>
-                gen8:<i>第八世代</i><br>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <strong>地區</strong>
-            </td>
-            <td>
                 kanto :<i>關都地區</i><br>
                 johto :<i>城都地區</i><br>
-                hoenn :<i>豐緣地區</i><br>
-                sinnoh :<i>神奧地區</i><br>
-                unova :<i>合眾地區</i><br>
             </td>
         </tr>
         <tr>
@@ -64,6 +53,14 @@
         <tr>
             <td><strong>招式屬性</strong></td>
             <td>@fighting</td>
+        </tr>
+        <tr>
+            <td><strong>Fast Move only</strong></td>
+            <td>@1fighting</td>
+        </tr>
+        <tr>
+            <td><strong>Charged Move only</strong></td>
+            <td>@2mud</td>
         </tr>
         <tr>
             <td>

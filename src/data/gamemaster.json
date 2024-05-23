@@ -119,7 +119,7 @@
         "include": [],
         "exclude": [{
             "filterType": "id",
-            "values": ["deoxys_defense", "registeel", "regirock", "regice", "mew", "victini", "tapu_fini", "genesect", "rayquaza", "zygarde", "latios", "latias", "raikou", "suicune", "entei", "celebi", "diancie", "regidrago", "regieleki", "ho_oh", "flygon_shadow", "buzzwole", "drapion_shadow", "marowak_alolan_shadow", "lapras_shadow", "hitmontop_shadow", "meganium_shadow", "jumpluff_shadow", "steelix_shadow", "abomasnow_shadow", "walrein_shadow", "poliwrath_shadow", "politoed_shadow", "sealeo_shadow", "guzzlord", "zapdos_shadow"]
+            "values": ["deoxys_defense", "regirock", "regice", "mew", "victini", "genesect", "rayquaza", "zygarde", "latios", "latias", "raikou", "suicune", "entei", "celebi", "diancie", "regidrago", "regieleki", "ho_oh", "buzzwole", "drapion_shadow", "marowak_alolan_shadow", "lapras_shadow", "hitmontop_shadow", "meganium_shadow", "jumpluff_shadow", "steelix_shadow", "walrein_shadow", "poliwrath_shadow", "politoed_shadow", "sealeo_shadow", "guzzlord", "zapdos_shadow"]
         }, {
             "filterType": "tag",
             "values": ["mega"]
@@ -428,14 +428,14 @@
         "cup": "premier",
         "cp": 10000,
         "meta": "premiermaster",
-        "showCup": true,
-        "showFormat": true,
+        "showCup": false,
+        "showFormat": false,
         "showMeta": true
     }, {
-        "title": "超級聯盟Remix",
-        "cup": "remix",
+        "title": "速成盃",
+        "cup": "catch",
         "cp": 1500,
-        "meta": "remix",
+        "meta": "catch",
         "showCup": true,
         "showFormat": true,
         "showMeta": true
@@ -34167,7 +34167,7 @@
         "tags": ["ultrabeast"],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_POIPOLE",
             "parent": "poipole"
@@ -34192,7 +34192,7 @@
         "tags": ["ultrabeast"],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     }, {
         "dex": 806,
         "speciesName": "砰頭小丑",
@@ -34213,7 +34213,7 @@
         "tags": ["ultrabeast"],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
-        "released": false
+        "released": true
     }, {
         "dex": 807,
         "speciesName": "捷拉奧拉",

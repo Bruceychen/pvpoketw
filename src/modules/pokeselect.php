@@ -149,6 +149,9 @@
 				</div>
 				<button class="add-fast-move">+ 招式</button>
 				<button class="pull-from-timeline">從時間軸擷取</button>
+
+				<div class="check switch-delay"><span></span>1 turn switch</div>
+
 				<div class="stat-modifiers">
 					<h3 class="section-title">Stat Modifiers (-4 to 4)</h3>
 					<input class="stat-mod" iv="atk" type="number" placeholder="Atk" min="-4" max="4" step="1" />

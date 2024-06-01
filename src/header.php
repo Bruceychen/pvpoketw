@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.31.9.1';
+$SITE_VERSION = '1.31.9.2';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -212,10 +212,10 @@ if(! isset($OG_IMAGE)){
 
 <body <?php if($_SETTINGS->colorblindMode == 1): ?>class="colorblind"<?php endif; ?>>
 
-	<?php  if(false): // Removing this but saving code for future use ?>
-		<?php if(strpos($_SERVER['REQUEST_URI'], 'world-of-wonders') == false): ?>
+	<?php  if(true): // Removing this but saving code for future use ?>
+		<?php if(strpos($_SERVER['REQUEST_URI'], 'shared-skies') == false): ?>
 			<div class="header-ticker">
-				<a href="https://pvpoketw.com/world-of-wonders/rankings/">下季天梯排名</a>
+				<a href="https://pvpoketw.com/shared-skies/rankings/">下季天梯排名</a>
 			</div>
 		<?php else: ?>
 			<div class="header-ticker old-version">

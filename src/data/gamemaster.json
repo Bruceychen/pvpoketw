@@ -353,18 +353,18 @@
         "showFormat": false,
         "showMeta": true
     }, {
-        "title": "高級紀念盃",
-        "cup": "premier",
-        "cp": 2500,
-        "meta": "premierultra",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
         "title": "夏日盃",
         "cup": "summer",
         "cp": 1500,
         "meta": "summer",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true
+    }, {
+        "title": "大師紀念賽",
+        "cup": "premier",
+        "cp": 10000,
+        "meta": "premiermaster",
         "showCup": true,
         "showFormat": true,
         "showMeta": true
@@ -30890,7 +30890,7 @@
             "cp1500": [16, 4, 14, 7],
             "cp2500": [26, 7, 13, 14]
         },
-        "searchPriority": 5,
+        "searchPriority": 10,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
@@ -35642,7 +35642,7 @@
             "parent": "linoone_galarian"
         },
         "nicknames": ["goon"],
-        "searchPriority": 15
+        "searchPriority": 7
     }, {
         "dex": 863,
         "speciesName": "喵頭目",
@@ -38885,6 +38885,7 @@
             "cp1500": [18, 5, 11, 12],
             "cp2500": [30, 4, 14, 6]
         },
+        "searchPriority": 3,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,

@@ -30381,7 +30381,7 @@
         "cp1500": [16, 4, 14, 7],
         "cp2500": [26, 7, 13, 14]
     },
-    "searchPriority": 5,
+    "searchPriority": 10,
     "buddyDistance": 5,
     "thirdMoveCost": 75000,
     "released": true,
@@ -35133,7 +35133,7 @@
         "parent": "linoone_galarian"
     },
     "nicknames": ["goon"],
-    "searchPriority": 15
+    "searchPriority": 7
 }, {
     "dex": 863,
     "speciesName": "喵頭目",
@@ -38376,6 +38376,7 @@
         "cp1500": [18, 5, 11, 12],
         "cp2500": [30, 4, 14, 6]
     },
+	"searchPriority": 3,
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
     "released": true,

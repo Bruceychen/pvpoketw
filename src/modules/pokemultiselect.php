@@ -34,9 +34,6 @@
 				<button class="save-btn save-as hide">另存新隊伍</button>
 				<button class="delete-btn hide">刪除</button>
 			</div>
-
-            <h3 class="section-title">PMGO搜尋字詞</h3>
-            <button class="search-string-btn">產生搜尋字詞</button>
 		</div>
 
 		<div class="options multi-battle-options">
@@ -60,13 +57,15 @@
 				<div class="option on" value="1">策略性使用</div>
 				<div class="option" value="2">開</div>
 			</div>
-			<h3 class="section-title">IV's</h3>
+			<h3 class="section-title">Apply to Group</h3>
 			<select class="default-iv-select">
-				<option value="original">使用標準IV</option>
+
+                <option selected disabled value="">Select an option to apply</option>
 				<option value="gamemaster">使用預設IV</option>
 				<option value="overall">使用最佳IV(排名第1)</option>
 				<option value="atk">使用攻擊最大化IV</option>
 				<option value="def">使用防禦最大化IV</option>
+                <option value="buddy">Best Buddy</option>
 			</select>
 			<select class="pokemon-level-cap-select" style="display:none;">
                 <option value="40">預設等級上限(40)</option>
@@ -76,6 +75,9 @@
             </select>
             <div class="check show-ivs"><span></span>顯示 等級 &amp; IV數值</div>
         </div>
+
+        <h3 class="section-title">PMGO搜尋字詞</h3>
+        <button class="search-string-btn">產生搜尋字詞</button>
 
 		<a href="#" class="clear-selection">清除名單</a>
 	</div>

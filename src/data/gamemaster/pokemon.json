@@ -21548,6 +21548,31 @@
         "parent": "riolu"
     }
 }, {
+    "dex": 448,
+    "speciesName": "路卡利歐 Mega",
+    "speciesId": "lucario_mega",
+    "baseStats": {
+        "atk": 310,
+        "def": 175,
+        "hp": 172
+    },
+    "types": ["fighting", "steel"],
+	"fastMoves": ["BULLET_PUNCH", "COUNTER"],
+    "chargedMoves": ["CLOSE_COMBAT", "FLASH_CANNON", "SHADOW_BALL", "POWER_UP_PUNCH", "AURA_SPHERE", "BLAZE_KICK", "THUNDER_PUNCH"],
+    "defaultIVs": {
+		"cp500": [14.5, 7, 5, 13],
+        "cp1500": [14.5, 7, 5, 13],
+        "cp2500": [23.5, 11, 9, 15]
+    },
+    "tags": ["mega"],
+	"buddyDistance": 5,
+    "thirdMoveCost": 75000,
+    "released": true,
+    "family": {
+        "id": "FAMILY_LUCARIO",
+        "parent": "riolu"
+    }
+}, {
     "dex": 449,
     "speciesName": "沙河馬",
     "speciesId": "hippopotas",
@@ -27504,8 +27529,9 @@
         "hp": 198
     },
     "types": ["electric", "none"],
-    "fastMoves": ["ACID", "SPARK"],
+    "fastMoves": ["ACID", "SPARK", "VOLT_SWITCH"],
     "chargedMoves": ["CRUNCH", "THUNDERBOLT", "ACID_SPRAY", "DRAGON_CLAW", "LIQUIDATION"],
+	"eliteMoves": ["VOLT_SWITCH"],
     "defaultIVs": {
         "cp500": [7, 4, 11, 12],
         "cp1500": [20, 8, 12, 15],

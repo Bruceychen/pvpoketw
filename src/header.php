@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.31.11.12';
+$SITE_VERSION = '1.32.0.3';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -213,7 +213,7 @@ if(! isset($OG_IMAGE)){
 <body <?php if($_SETTINGS->colorblindMode == 1): ?>class="colorblind"<?php endif; ?>>
 
 	<?php  if(true): // Removing this but saving code for future use ?>
-		<?php if(strpos($_SERVER['REQUEST_URI'], 'shared-skies') == false): ?>
+		<?php if(strpos($_SERVER['REQUEST_URI'], 'new-season') == false): ?>
 			<div class="header-ticker">
 				<a href="https://pvpoketw.com/new-season/rankings/">下季天梯排名</a>
 			</div>

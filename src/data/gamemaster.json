@@ -423,7 +423,7 @@
         }]
     }],
     "formats": [{
-        "title": "Little Galar Cup",
+        "title": "小小盃伽勒爾",
         "cup": "galar",
         "cp": 500,
         "meta": "galarlittle",
@@ -12451,7 +12451,7 @@
         "released": true
     }, {
         "dex": 222,
-        "speciesName": "Corsola (Galarian)",
+        "speciesName": "太陽珊瑚 伽勒爾",
         "speciesId": "corsola_galarian",
         "baseStats": {
             "atk": 116,

@@ -10,7 +10,11 @@
 		<div class="custom-options">
 			<h3 class="section-title">寶可夢 (<span class="poke-count">0</span> / <span class="poke-max-count">100</span>)</h3>
 			<p>選擇寶可夢組成隊伍，或選擇已儲存之隊伍。</p>
-            <a class="custom-group-sort" href="#">排序 ...</a>
+            <div class="flex space-between">
+                <a class="custom-group-sort" href="#">排序 ...</a>
+                <div class="check show-move-counts"><span></span>Move Counts</div>
+            </div>
+
 			<div class="rankings-container clear"></div>
 			<div class="team-warning ineligible">你的隊伍成員包含不符此賽制規則或數值過低的寶可夢。</div>
 			<div class="team-warning labyrinth">迷宮盃隊伍內寶可夢不得有相同屬性！</div>

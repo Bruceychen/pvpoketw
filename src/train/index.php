@@ -38,7 +38,6 @@ require_once '../header.php';
 				<option value="1500 gobattleleague">GO 超級聯盟</option>
 				<option value="2500 gobattleleague">GO 高級聯盟</option>
 				<option value="10000 gobattleleague">GO 大師聯盟</option>
-                <option value="1500 jungle">叢林盃</option>
                 <option value="1500 all">超級聯盟(6v6)</option>
                 <option value="2500 all">高級聯盟(6v6)</option>
                 <option value="10000 all">大師聯盟(6v6)</option>
@@ -53,7 +52,7 @@ require_once '../header.php';
             <h3 class="section-title" style="display:none;">交換冷卻時間</h3>
             <select class="switch-time-select"  style="display:none;">
                 <option value="30000">30秒</option>
-                <option value="50000" selected>50秒</option>
+                <option value="50000" selected>60秒</option>
             </select>
             <div class="check autotap-toggle"><span></span>自動點擊</div>
 			<h3 class="section-title">隊伍選擇</h3>

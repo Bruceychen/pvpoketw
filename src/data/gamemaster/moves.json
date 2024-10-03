@@ -119,6 +119,32 @@
     "cooldown": 500,
     "archetype": "Nuke"
 }, {
+    "moveId": "AURA_WHEEL_ELECTRIC",
+    "name": "氣場輪",
+    "abbreviation": "AuW",
+    "type": "electric",
+    "power": 100,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Boost",
+	"buffs": [1, 0],
+    "buffTarget": "self",
+    "buffApplyChance": "1"
+}, {
+    "moveId": "AURA_WHEEL_DARK",
+    "name": "氣場輪",
+    "abbreviation": "AuW",
+    "type": "dark",
+    "power": 100,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "Boost",
+	"buffs": [1, 0],
+    "buffTarget": "self",
+    "buffApplyChance": "1"
+}, {
     "moveId": "AURORA_BEAM",
     "name": "極光束",
     "type": "ice",

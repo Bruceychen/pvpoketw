@@ -26,12 +26,7 @@ function PokeMultiSelect(element){
 
 	var filterMode = "meta";
 
-	var settings = {
-		shields: 1,
-		ivs: "original",
-		bait: 1,
-		levelCap: 50
-	}
+	var settings = getDefaultMultiBattleSettings();
 
 	var cliffhangerMode = false;
 
@@ -113,7 +108,7 @@ function PokeMultiSelect(element){
 
 		selectedIndex = index;
 
-		modalWindow("Select Pokemon", $el.find(".poke.single").first());
+		modalWindow("Select Pokemon", $(".hide .poke.single").first());
 
 		pokeSelector = new PokeSelect($(".modal .poke"), 1);
 		pokeSelector.setContext("modal"+context);
@@ -1089,6 +1084,8 @@ function PokeMultiSelect(element){
 			break;
 		}
 
+		modalWindow("IV's Applied", $("<p>The Pokemon in this group have been updated to <b>"+$el.find(".default-iv-select option:selected").html()+"</b>.</p>"));
+
 		$el.find(".default-iv-select option").eq(0).prop("selected", "selected");
 
 		if(battle.getCup().name != "custom"){
@@ -1193,6 +1190,30 @@ function PokeMultiSelect(element){
 		return settings;
 	}
 
+	// Set settings provided a setting object
+
+	this.setSettingsFromGet = function(obj){
+		// Map values to settings object
+
+		$el.find("input.start-hp").val(obj.startHp * 100);
+		$el.find("input.start-hp").trigger("change");
+
+		$el.find("input.start-energy").val(obj.startEnergy);
+		$el.find("input.start-energy").trigger("change");
+
+		$el.find("input.stat-mod").eq(0).val(obj.startStatBuffs[0]);
+		$el.find("input.stat-mod").eq(1).val(obj.startStatBuffs[1]);
+		$el.find("input.stat-mod").trigger("change");
+
+		if(obj.startCooldown == 1000){
+			$el.find(".check.switch-delay").trigger("click");
+		}
+
+		if(obj.optimizeMoveTiming == 0){
+			$el.find(".check.optimize-timing").trigger("click");
+		}
+	}
+
 	// Set the context for this multiselector
 
 	this.setContext = function(val){
@@ -1218,7 +1239,7 @@ function PokeMultiSelect(element){
 		var showHP = true;
 		var showCP = true;
 		var showRegion = false;
-
+		// 以下這行介面翻譯
 		modalWindow("PMGO搜尋字詞", $(".search-string-window").eq(0));
 
 		self.generateSearchString(showHP, showCP, showRegion);
@@ -1420,6 +1441,117 @@ function PokeMultiSelect(element){
 		window.localStorage.setItem("rankingsShowMoveCounts", showMoveCounts)
 	});
 
+	// Enter starting HP
+
+	$el.find(".start-hp").on("keyup change", function(e){
+
+		settings.startHp = parseFloat($el.find(".start-hp").val()) / 100;
+
+		if(settings.startHp < 0){
+			settings.startHp = 0;
+		} else if (settings.startHp > 1){
+			settings.startHp = 1;
+		}
+
+		if($el.find(".start-hp").val() == ''){
+			settings.startHp = 1;
+		}
+	});
+
+	// Enter starting energy
+
+	$el.find(".start-energy").on("keyup change", function(e){
+
+		var value = parseInt($el.find(".start-energy").val());
+		settings.startEnergy = parseInt($el.find(".start-energy").val());
+
+		if(settings.startEnergy < 0){
+			settings.startEnergy = 0;
+		} else if (settings.startEnergy > 100){
+			settings.startEnergy = 100;
+		}
+
+		if($el.find(".start-energy").val() == ''){
+			settings.startEnergy = 0;
+		}
+	});
+
+	// Turn switch delay on or off
+
+	$el.find(".check.switch-delay").on("click", function(e){
+		// Cooldown decreases at the start of the battle step, so a start value of 1000 will result in a 500 ms delay
+		settings.startCooldown = settings.startCooldown == 0 ? settings.startCooldown = 1000 : settings.startCooldown = 0;
+		console.log(settings.startCooldown);
+	});
+
+	// Turn move optimization on or off
+
+	$el.find(".check.optimize-timing").on("click", function(e){
+		settings.optimizeMoveTiming = (! settings.optimizeMoveTiming);
+	});
+
+	// Change stat modifier options
+	$el.find("input.stat-mod").on("keyup change", function(e){
+
+		var value = parseInt($(this).val());
+
+		if(! value){
+			value = 0;
+		}
+
+		if((value >= -4) && (value <=4) && (value % 1 == 0)){
+			// Valid level
+
+			var attackValue = parseInt($el.find("input.stat-mod[iv='atk']").val());
+			var defenseValue = parseInt($el.find("input.stat-mod[iv='def']").val());
+
+			if(! attackValue)
+				attackValue = 0;
+
+			if(! defenseValue)
+				defenseValue = 0;
+
+			settings.startStatBuffs = [attackValue, defenseValue];
+		}
+
+		var buffDivisor = gm.data.settings.buffDivisor;
+		var adjustmentAtk = 1;
+		var adjustmentDef = 1;
+
+		if(attackValue > 0){
+			adjustmentAtk = (buffDivisor + attackValue) / buffDivisor;
+		} else{
+			adjustmentAtk = buffDivisor / (buffDivisor - attackValue);
+		}
+
+		adjustmentAtk = Math.round(adjustmentAtk * 100) / 100;
+
+		if(defenseValue > 0){
+			adjustmentDef = (buffDivisor + defenseValue) / buffDivisor;
+		} else{
+			adjustmentDef = buffDivisor / (buffDivisor - defenseValue);
+		}
+
+		adjustmentDef = Math.round((1 / adjustmentDef) * 100) / 100;
+
+		$el.find(".adjustment.attack .value").html("x" + adjustmentAtk);
+		$el.find(".adjustment.defense .value").html("x" + adjustmentDef);
+
+		$el.find(".adjustment .value").removeClass("buff debuff");
+
+		if(adjustmentAtk > 1){
+			$el.find(".adjustment.attack .value").addClass("buff");
+		} else if(adjustmentAtk < 1){
+			$el.find(".adjustment.attack .value").addClass("debuff");
+		}
+
+		if(adjustmentDef > 1){
+			$el.find(".adjustment.defense .value").addClass("debuff");
+		} else if(adjustmentDef < 1){
+			$el.find(".adjustment.defense .value").addClass("buff");
+		}
+	});
+
 	// Returns a region based on dex number
 
 	this.getRegion = function(dexNumber){
@@ -1444,4 +1576,19 @@ function PokeMultiSelect(element){
 		}
 		return
 	}
+}
+
+
+function getDefaultMultiBattleSettings() {
+		return {
+		shields: 1,
+		ivs: "original",
+		bait: 1,
+		levelCap: 50,
+		startHp: 1,
+		startEnergy: 0,
+		startCooldown: 0,
+		optimizeMoveTiming: true,
+		startStatBuffs: [ 0, 0 ]
+	};
 }

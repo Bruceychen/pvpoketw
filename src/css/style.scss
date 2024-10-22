@@ -741,6 +741,10 @@ footer{
 					}
 				}
 			}
+
+			.label{
+				font-size:10px;
+			}
 		}
 
 		.types {
@@ -983,24 +987,26 @@ footer{
 		.start-hp,
 		.start-energy{
 			margin:5px 0;
-			max-width:129px;
+			max-width:120px;
+			max-height: 23px;
 		}
 
 		.flex{
 			justify-content: space-between;
 		}
 
-		.check.switch-delay{
-			margin-top: 20px;
-		}
-
 		.shield-baiting,
 		.show-ivs,
 		.optimize-timing,
+		.switch-delay,
 		.priority,
 		.negate-fast-moves{
 			text-align: left;
 			font-size:14px;
+		}
+
+		.show-ivs{
+			margin-bottom: 15px;
 		}
 
 		.add-fast-move{
@@ -1017,6 +1023,7 @@ footer{
 		}
 
 		.label{
+			font-size: 14px;
 			margin:5px 5px 5px 0;
 		}
 
@@ -1226,6 +1233,11 @@ footer{
 			p{
 				font-size:12px;
 			}
+		}
+
+		.search-string-btn{
+			margin-top: 5px;
+			margin-bottom: 15px;
 		}
 
 		.rankings-container{
@@ -1501,10 +1513,6 @@ footer{
 			.multi-battle-options{
 				display: none;
 			}
-		}
-
-		.options .section-title{
-			margin-top:0;
 		}
 
 		.delete-list-confirm + .poke.multi{

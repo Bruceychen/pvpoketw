@@ -55,12 +55,6 @@
 				<div class="option on" value="1"><div class="icon"></div> 1</div>
 				<div class="option" value="2"><div class="icon"></div> 2</div>
 			</div>
-			<h3 class="section-title">誘使對手用盾</h3>
-			<div class="form-group bait-picker">
-				<div class="option" value="0">關</div>
-				<div class="option on" value="1">策略性使用</div>
-				<div class="option" value="2">開</div>
-			</div>
 			<h3 class="section-title">Apply to Group</h3>
 			<select class="default-iv-select">
 
@@ -78,17 +72,53 @@
                 <option value="51">新夥伴等級上限(51)</option>
             </select>
             <div class="check show-ivs"><span></span>顯示 等級 &amp; IV數值</div>
-        </div>
+
+			<a href="#" class="section-title toggle clear">Options <span class="arrow-down">&#9660;</span><span class="arrow-up">&#9650;</span></a>
+			<div class="toggle-content">
+				<div class="flex">
+					<div class="label">HP (%):</div><input class="start-hp" type="number" min="0" max="100" placeholder="Starting HP (%)" />
+				</div>
+				<div class="flex">
+					<div class="label">Energy (Turns):</div><input class="start-energy" type="number" min="0" max="100" placeholder="Starting Energy" />
+				</div>
+
+				<h3 class="section-title">誘使對手用盾</h3>
+				<div class="form-group bait-picker">
+					<div class="option" value="0">關</div>
+					<div class="option on" value="1">策略性使用</div>
+					<div class="option" value="2">開</div>
+				</div>
+
+				<div class="stat-modifiers">
+					<h3 class="section-title">Stat Modifiers (-4 to 4)</h3>
+					<input class="stat-mod" iv="atk" type="number" placeholder="Atk" min="-4" max="4" step="1" />
+					<input class="stat-mod" iv="def" type="number" placeholder="Def" min="-4" max="4" step="1" />
+				</div>
+				<div class="damage-adjustments">
+					<div class="adjustment attack">
+						<div class="value">x1</div>
+						<div class="label">damage dealt</div>
+					</div>
+					<div class="adjustment defense">
+						<div class="value">x1</div>
+						<div class="label">damage taken</div>
+					</div>
+				</div>
+
+				<div class="check switch-delay"><span></span>1 turn switch</div>
+				<div class="check optimize-timing on"><span></span>Optimize move timing</div>
+			</div>
+		</div>
 
         <h3 class="section-title">PMGO搜尋字詞</h3>
         <button class="search-string-btn">產生搜尋字詞</button>
 
 		<a href="#" class="clear-selection">清除名單</a>
 	</div>
+</div>
 
-	<div class="hide">
-		<?php require 'pokeselect.php'; ?>
-	</div>
+<div class="hide">
+	<?php require 'pokeselect.php'; ?>
 </div>
 
 <div class="remove-poke-confirm hide">

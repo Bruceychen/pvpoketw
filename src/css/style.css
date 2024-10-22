@@ -576,6 +576,9 @@ footer a.domz-link {
 .poke .poke-stats .damage-adjustments .adjustment .value.debuff {
   color: #0158d0;
 }
+.poke .poke-stats .damage-adjustments .label {
+  font-size: 10px;
+}
 .poke .poke-stats .types {
   margin-bottom: 3px;
   text-align: center;
@@ -772,21 +775,23 @@ footer a.domz-link {
 .poke .options .start-hp,
 .poke .options .start-energy {
   margin: 5px 0;
-  max-width: 129px;
+  max-width: 120px;
+  max-height: 23px;
 }
 .poke .options .flex {
   justify-content: space-between;
 }
-.poke .options .check.switch-delay {
-  margin-top: 20px;
-}
 .poke .options .shield-baiting,
 .poke .options .show-ivs,
 .poke .options .optimize-timing,
+.poke .options .switch-delay,
 .poke .options .priority,
 .poke .options .negate-fast-moves {
   text-align: left;
   font-size: 14px;
+}
+.poke .options .show-ivs {
+  margin-bottom: 15px;
 }
 .poke .options .add-fast-move {
   border: 1px solid #000;
@@ -800,6 +805,7 @@ footer a.domz-link {
   color: #fff;
 }
 .poke .options .label {
+  font-size: 14px;
   margin: 5px 5px 5px 0;
 }
 .poke .options.multi-battle-options {
@@ -970,6 +976,10 @@ footer a.domz-link {
 }
 .poke.multi .custom-options p {
   font-size: 12px;
+}
+.poke.multi .search-string-btn {
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 .poke.multi .rankings-container {
   max-height: 410px;
@@ -1196,9 +1206,6 @@ footer a.domz-link {
 }
 .poke-select-container.matrix .poke.multi .multi-battle-options {
   display: none;
-}
-.poke-select-container.matrix .options .section-title {
-  margin-top: 0;
 }
 .poke-select-container.matrix .delete-list-confirm + .poke.multi {
   float: right;

@@ -2126,10 +2126,10 @@
     "archetype": "Fast Charge"
 }, {
     "moveId": "RAGE_FIST",
-    "name": "憤怒之拳 預測",
+    "name": "憤怒之拳",
     "type": "ghost",
     "power": 50,
-    "energy": 40,
+    "energy": 35,
     "energyGain": 0,
     "cooldown": 500,
     "buffs": [1, 0],

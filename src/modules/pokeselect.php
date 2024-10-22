@@ -150,7 +150,12 @@
 				<button class="add-fast-move">+ 招式</button>
 				<button class="pull-from-timeline">從時間軸擷取</button>
 
-				<div class="check switch-delay"><span></span>1 turn switch</div>
+				<h3 class="section-title">誘使對手使用盾</h3>
+				<div class="form-group bait-picker">
+					<div class="option" value="0">關</div>
+					<div class="option on" value="1">策略性使用</div>
+					<div class="option" value="2">開</div>
+				</div>
 
 				<div class="stat-modifiers">
 					<h3 class="section-title">Stat Modifiers (-4 to 4)</h3>
@@ -167,13 +172,8 @@
 						<div class="label">damage taken</div>
 					</div>
 				</div>
-				<h3 class="section-title">誘使對手用盾</h3>
-				<div class="form-group bait-picker">
-					<div class="option" value="0">關</div>
-					<div class="option on" value="1">策略性使用</div>
-					<div class="option" value="2">開</div>
-				</div>
 				<div class="check optimize-timing on"><span></span>最佳化招式使用時機</div>
+                <div class="check switch-delay"><span></span>1 turn switch</div>
 			</div>
 		</div>
 

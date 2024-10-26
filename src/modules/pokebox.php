@@ -15,6 +15,7 @@
 
 			<div class="poke-search-container">
 				<input class="poke-search" context="ranking-search" type="text" placeholder="搜尋寶可夢" />
+                <div class="check select-all"><span></span>全選</div>
 			</div>
 
 			<div class="pokebox-list rankings-container">

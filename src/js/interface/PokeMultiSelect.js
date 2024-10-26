@@ -26,7 +26,7 @@ function PokeMultiSelect(element){
 
 	var filterMode = "meta";
 
-	var settings = getDefaultMultiBattleSettings();
+	var multiSettings = getDefaultMultiBattleSettings();
 
 	var cliffhangerMode = false;
 
@@ -125,6 +125,11 @@ function PokeMultiSelect(element){
 			if(interface.battleMode && interface.battleMode == "matrix"){
 				//以下這行介面翻譯
 				$(".modal-content").append("<div class=\"center\"><a href=\"#\" class=\"compare-poke\">加入並比較</a></div>");
+			}
+
+			if(parseInt(settings.pokeboxId) > 0){
+				//以下這行介面翻譯
+				$(".modal-content").append("<div class=\"center\"><a href=\"#\" class=\"compare-pokebox\">加入並比較<br>from Pokebox</a></div>");
 			}
 
 			if(focusName){
@@ -300,6 +305,29 @@ function PokeMultiSelect(element){
 
 		});
 
+		// Add Pokemon and all matching Pokemon from Pokebox
+
+		$(".modal .compare-pokebox").on("click", function(e){
+			e.preventDefault();
+
+			// Make sure something's selected
+			if(! pokeSelector){
+				return false;
+			}
+
+			var pokemon = pokeSelector.getPokemon();
+
+			if(! pokemon){
+				return false;
+			}
+
+			pokemonList.push(pokemon);
+
+			// Add multiple IV spreads of the same Pokemon
+			pokebox.loadPokebox(false, self.addPokemonFromPokebox, pokemon.speciesId);
+
+		});
+
 
 		// Keyboard shortcuts for entering a Pokemon
 
@@ -312,6 +340,18 @@ function PokeMultiSelect(element){
 				$el.find(".add-poke-btn").focus();
 			}
 		});
+	}
+
+	this.addPokemonFromPokebox = function(box){
+		pokemonList = pokemonList.concat(box);
+
+		closeModalWindow();
+
+		showIVs = true;
+
+		$el.find(".check.show-ivs").addClass("on");
+
+		self.updateListDisplay();
 	}
 
 
@@ -623,7 +663,7 @@ function PokeMultiSelect(element){
 		// Set all Pokemon to the new CP limit
 		for(var i = 0; i < pokemonList.length; i++){
 			pokemonList[i].setBattle(battle);
-			pokemonList[i].initialize(cp, settings.defaultIVs);
+			pokemonList[i].initialize(cp, multiSettings.defaultIVs);
 		}
 
 		if(pokemonList.length > 0){
@@ -640,14 +680,14 @@ function PokeMultiSelect(element){
 		for(var i = 0; i < pokemonList.length; i++){
 			pokemonList[i].setLevelCap(levelCap);
 			pokemonList[i].setBattle(battle);
-			pokemonList[i].initialize(battle.getCP(), settings.defaultIVs);
+			pokemonList[i].initialize(battle.getCP(), multiSettings.defaultIVs);
 		}
 
 		if(pokemonList.length > 0){
 			self.updateListDisplay();
 		}
 
-		settings.levelCap = levelCap;
+		multiSettings.levelCap = levelCap;
 	}
 
 	// Convert the current Pokemon list into exportable and savable JSON
@@ -1047,21 +1087,21 @@ function PokeMultiSelect(element){
 	$el.find(".shield-picker .option").on("click", function(e){
 		var value = parseInt($(e.target).closest(".option").attr("value"));
 
-		settings.shields = value;
+		multiSettings.shields = value;
 	});
 
 	// Change IV settings
 
 	$el.find(".default-iv-select").on("change", function(e){
-		settings.ivs = $el.find(".default-iv-select option:selected").val();
+		multiSettings.ivs = $el.find(".default-iv-select option:selected").val();
 
 		// Adjust IVs as needed
-		switch(settings.ivs){
+		switch(multiSettings.ivs){
 			case "overall":
 			case "atk":
 			case "def":
 			for(var i = 0; i < pokemonList.length; i++){
-				pokemonList[i].maximizeStat(settings.ivs);
+				pokemonList[i].maximizeStat(multiSettings.ivs);
 			}
 			break;
 
@@ -1104,13 +1144,13 @@ function PokeMultiSelect(element){
 	// Change bait toggle
 
 	$el.find(".bait-picker .option").on("click", function(e){
-		settings.bait = parseInt($(e.target).attr("value"));
+		multiSettings.bait = parseInt($(e.target).attr("value"));
 	});
 
 	// Change level cap
 
 	$el.find(".pokemon-level-cap-select").on("change", function(e){
-		settings.levelCap = parseInt($el.find(".pokemon-level-cap-select option:selected").val());
+		multiSettings.levelCap = parseInt($el.find(".pokemon-level-cap-select option:selected").val());
 	});
 
 	// Show or hide IV's
@@ -1187,7 +1227,7 @@ function PokeMultiSelect(element){
 	// Return the current option setings
 
 	this.getSettings = function(){
-		return settings;
+		return multiSettings;
 	}
 
 	// Set settings provided a setting object
@@ -1445,16 +1485,16 @@ function PokeMultiSelect(element){
 
 	$el.find(".start-hp").on("keyup change", function(e){
 
-		settings.startHp = parseFloat($el.find(".start-hp").val()) / 100;
+		multiSettings.startHp = parseFloat($el.find(".start-hp").val()) / 100;
 
-		if(settings.startHp < 0){
-			settings.startHp = 0;
-		} else if (settings.startHp > 1){
-			settings.startHp = 1;
+		if(multiSettings.startHp < 0){
+			multiSettings.startHp = 0;
+		} else if (multiSettings.startHp > 1){
+			multiSettings.startHp = 1;
 		}
 
 		if($el.find(".start-hp").val() == ''){
-			settings.startHp = 1;
+			multiSettings.startHp = 1;
 		}
 	});
 
@@ -1463,16 +1503,16 @@ function PokeMultiSelect(element){
 	$el.find(".start-energy").on("keyup change", function(e){
 
 		var value = parseInt($el.find(".start-energy").val());
-		settings.startEnergy = parseInt($el.find(".start-energy").val());
+		multiSettings.startEnergy = parseInt($el.find(".start-energy").val());
 
-		if(settings.startEnergy < 0){
-			settings.startEnergy = 0;
-		} else if (settings.startEnergy > 100){
-			settings.startEnergy = 100;
+		if(multiSettings.startEnergy < 0){
+			multiSettings.startEnergy = 0;
+		} else if (multiSettings.startEnergy > 100){
+			multiSettings.startEnergy = 100;
 		}
 
 		if($el.find(".start-energy").val() == ''){
-			settings.startEnergy = 0;
+			multiSettings.startEnergy = 0;
 		}
 	});
 
@@ -1480,14 +1520,14 @@ function PokeMultiSelect(element){
 
 	$el.find(".check.switch-delay").on("click", function(e){
 		// Cooldown decreases at the start of the battle step, so a start value of 1000 will result in a 500 ms delay
-		settings.startCooldown = settings.startCooldown == 0 ? settings.startCooldown = 1000 : settings.startCooldown = 0;
-		console.log(settings.startCooldown);
+		multiSettings.startCooldown = multiSettings.startCooldown == 0 ? multiSettings.startCooldown = 1000 : multiSettings.startCooldown = 0;
+		console.log(multiSettings.startCooldown);
 	});
 
 	// Turn move optimization on or off
 
 	$el.find(".check.optimize-timing").on("click", function(e){
-		settings.optimizeMoveTiming = (! settings.optimizeMoveTiming);
+		multiSettings.optimizeMoveTiming = (! multiSettings.optimizeMoveTiming);
 	});
 
 	// Change stat modifier options
@@ -1511,7 +1551,7 @@ function PokeMultiSelect(element){
 			if(! defenseValue)
 				defenseValue = 0;
 
-			settings.startStatBuffs = [attackValue, defenseValue];
+			multiSettings.startStatBuffs = [attackValue, defenseValue];
 		}
 
 		var buffDivisor = gm.data.settings.buffDivisor;

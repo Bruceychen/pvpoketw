@@ -29,6 +29,7 @@ var InterfaceMaster = (function () {
 				var rankingDetails = $("#ranking-details option:selected").val();
 				var hardMovesetLinks = $(".check.hard-moveset-links").hasClass("on") ? 1 : 0;
 				var colorblindMode = $(".check.colorblindMode").hasClass("on") ? 1 : 0;
+				var performanceMode = $(".check.performanceMode").hasClass("on") ? 1 : 0;
 
 				$.ajax({
 
@@ -47,7 +48,8 @@ var InterfaceMaster = (function () {
 						'xls': xls,
 						'rankingDetails': rankingDetails,
 						'hardMovesetLinks': hardMovesetLinks,
-						'colorblindMode': colorblindMode
+						'colorblindMode': colorblindMode,
+						'performanceMode': performanceMode
 					},
 					dataType:'json',
 					success : function(data) {

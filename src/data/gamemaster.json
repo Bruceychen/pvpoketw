@@ -594,22 +594,6 @@
         "partySize": 3
     }],
     "formats": [{
-        "title": "萬聖節盃",
-        "cup": "halloween",
-        "cp": 1500,
-        "meta": "halloween",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
-        "title": "超級聯盟Remix",
-        "cup": "remix",
-        "cp": 1500,
-        "meta": "remix",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
         "title": "大師經典賽 (XL 禁止)",
         "cup": "classic",
         "cp": 10000,

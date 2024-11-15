@@ -626,8 +626,9 @@
         "cp": 10000,
         "meta": "premiermaster",
         "showCup": true,
-        "showFormat": true,
-        "showMeta": true
+        "showFormat": false,
+        "showMeta": true,
+        "hideRankings": true
     }, {
         "title": "意志盃",
         "cup": "willpower",
@@ -36328,7 +36329,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_TOXEL",
             "evolutions": ["toxtricity_amped", "toxtricity_low_key"]
@@ -36352,7 +36353,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_TOXEL",
             "parent": "toxel"

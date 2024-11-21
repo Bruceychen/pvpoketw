@@ -45,12 +45,12 @@
 	</a>
 
 
-	<a href="<?php echo $WEB_ROOT; ?>contribute/" class="button">
+	<a href="<?php echo $WEB_ROOT; ?>contact/" class="button">
 		<span class="btn-content-wrap">
 			<span class="btn-icon btn-icon-heart"></span>
 			<span class="btn-label">
-				<h2>貢獻一己之力</h2>
-				<p>網站原始程式碼位置以及贊助原作者(非譯者)</p>
+				<h2>聯絡原版官方</h2>
+				<p>聯絡、回報問題、或到Patreon貢獻心力給原作者(非譯者)</p>
 			</span>
 		</span>
 	</a>
@@ -95,10 +95,6 @@
 	<?php if($_SETTINGS->ads == 1) : ?>
 		<span data-ccpa-link="1"></span>
 	<?php endif; ?>
-
-    <p>追蹤原作者 <a href="https://twitter.com/pvpoke" target="_blank">推特</a> 以獲得第一手消息及更新快訊！</p>
-    <p>追蹤中文版 <a href="https://twitter.com/tw_pvpokesite" target="_blank">推特</a> 以獲得即時更新快訊！也可以回饋反映意見問題給管理員喔！</p>
-
 
     <h3>中文版譯者聲明</h3>
 

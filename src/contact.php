@@ -1,25 +1,36 @@
 <?php
-$META_TITLE='貢獻一己之力';
+$META_TITLE='聯絡原版官方';
 
-$META_DESCRIPTION='贊助原版網站或是查閱專案原始碼';
+$META_DESCRIPTION='聯絡、回報問題、或到Patreon貢獻心力給原作者(非譯者)';
 
 require_once 'header.php'; ?>
 
-<h1>Contribute</h1>
+<h1>聯絡原版官方</h1>
 <div class="section contribute home white">
-	<p>這個網站是由 Pokemon GO 愛好者，替其他同樣喜愛 Pokemon GO 的玩家製作的。贊助原作者團隊，好讓此平台能長久經營並開發出更多實用工具！</p>
+	<p>I'm Matt (aka KakunaMattata42, aka EmpoleonDynamite), the creator and developer of PvPoke! Please reach out if you have any questions or feedback about the site. I'm especially interested in supporting other Pokemon GO resources, grassroots tournaments, and charity events. Hit me up at the links below:</p>
 
-	<a href="https://github.com/pvpoke/pvpoke" class="button">
+	<a href="https://discord.com/users/267712412864479233" target="_blank" class="button discord">
+		<h2 class="no-logo">Discord</h2>
+		<p>Get in touch for any personal or business inquiries.</p>
+	</a>
+
+	<a href="https://github.com/pvpoke/pvpoke" target="_blank" class="button github">
 		<h2 class="no-logo">Github</h2>
 		<p>查閱原始碼、回報bug、或是參與網站程式碼的維護與協作！</p>
 	</a>
 
-	<p>Check out our Patreon page, where you can lend your support and receive some potential perks like a callout on the site and access to developer articles and updates.</p>
+	<a href="https://twitch.tv/empoleondynamite" target="_blank" class="button twitch">
+		<h2 class="no-logo">Twitch</h2>
+		<p>Catch my live streams on Pokemon GO updates (and lots of D&amp;D adventures).</p>
+	</a>
 
-	<a href="https://www.patreon.com/user?u=16528512" class="button">
+	<a href="https://www.patreon.com/user?u=16528512" target="_blank" class="button patreon">
 		<h2 class="no-logo">Patreon</h2>
 		<p>抖內支持原作者(非中文版)團隊！</p>
 	</a>
+
+	<h2>Contributors</h2>
+	<p>Special thanks to everyone who has contributed to the project on Patreon! The website wouldn't be possible with this community and your support.</p>
 
 	<h2 class="center">Ultra Supporters</h2>
 

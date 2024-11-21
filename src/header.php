@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.32.5.8';
+$SITE_VERSION = '1.32.5.10';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -141,7 +141,7 @@ if(! isset($OG_IMAGE)){
 
 <link id="favicon" rel="icon" href="<?php echo $WEB_ROOT; ?>img/themes/sunflower/favicon.png">
 
-<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=194">
+<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=195">
 
 <?php if(strpos($META_TITLE, 'Train') !== false): ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/train.css?v=21">
@@ -298,9 +298,8 @@ if(! isset($OG_IMAGE)){
 						<div class="submenu-wrap">
 							<a href="<?php echo $WEB_ROOT; ?>moves/">招式</a>
 							<a href="<?php echo $WEB_ROOT; ?>articles/">專欄文章</a>
-							<a class="icon-heart" href="<?php echo $WEB_ROOT; ?>contribute/">貢獻一己之力</a>
 							<a href="<?php echo $WEB_ROOT; ?>settings/">設定</a>
-							<a class="twitter" href="https://twitter.com/pvpoke" target="_blank">官方推特</a>
+                            <a class="icon-heart" href="<?php echo $WEB_ROOT; ?>contact/">聯絡原版</a>
 							<a class="tera" href="<?php echo $WEB_ROOT; ?>tera/">太晶戰反制計算器</a>
 							<div class="latest-section mobile">
 								<h4>Latest <a href="<?php echo $WEB_ROOT; ?>#news"></a></h4>

@@ -45,7 +45,7 @@
 	</a>
 
 
-	<a href="<?php echo $WEB_ROOT; ?>contact/" class="button">
+	<a href="<?php echo $WEB_ROOT; ?>contribute/" class="button">
 		<span class="btn-content-wrap">
 			<span class="btn-icon btn-icon-heart"></span>
 			<span class="btn-label">
@@ -112,7 +112,7 @@
     <br>
     <h3>Disclaimer</h3>
 
-    <p>This is non-official, translated version of <a href="pvpoke.com">pvpoke.com</a>, with permission from original creator.</p>
+    <p>This is non-official, translated version of <a href="https://pvpoke.com">pvpoke.com</a>, with permission from original creator.</p>
     <p>This translated website also follows MIT License, but will NOT used for any commercial behavior.</p>
     <p>Any financial support or donate please refer to original creator's <a href="http://patreon.com/user?u=16528512">Patreon</a>
 

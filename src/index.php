@@ -1,4 +1,8 @@
-<?php require_once 'header.php'; ?>
+<?php require_once 'header.php';
+// This project is supported by JetBrains Open Source Development License.
+// JetBrains provides professional tools to help open-source projects like this one thrive.
+// Learn more about JetBrains Open Source support: https://jb.gg/OpenSourceSupport
+?>
 
 <div class="section home white">
 

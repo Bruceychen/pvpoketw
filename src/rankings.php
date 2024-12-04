@@ -67,12 +67,8 @@ switch($cup){
 		$league = 'Sunshine Cup';
 		break;
 
-	case "chaos":
-		$league = 'Devon Chaos Cup';
-		break;
-
-	case "crypt":
-		$league = 'Devon Crypt Cup';
+	case "pillar":
+		$league = 'Devon Pillar Cup';
 		break;
 
 	case "devonchampionship":
@@ -181,7 +177,11 @@ require_once 'header.php';
 <div class="section league-select-container white">
 	<div class="ranking-filters flex">
 		<div class="ranking-filter">
-			<h4>賽制、主題</h4>
+			<div class="flex">
+				<h4>Format</h4>
+				<a class="format-rules" href="#">Rules</a>
+			</div>
+
 			<?php require 'modules/formatselect.php'; ?>
 		</div>
 		<div class="ranking-filter">

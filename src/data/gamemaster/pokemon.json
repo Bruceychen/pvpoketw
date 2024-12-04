@@ -7361,8 +7361,8 @@
         "hp": 155
     },
     "types": ["water", "psychic"],
-    "fastMoves": ["HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "QUICK_ATTACK", "TACKLE", "WATER_GUN"],
-    "chargedMoves": ["HYDRO_PUMP", "ICE_BEAM", "POWER_GEM", "PSYBEAM", "PSYCHIC", "THUNDER"],
+    "fastMoves": ["HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "QUICK_ATTACK", "TACKLE", "WATER_GUN", "PSYWAVE"],
+    "chargedMoves": ["HYDRO_PUMP", "ICE_BEAM", "POWER_GEM", "PSYBEAM", "PSYCHIC", "THUNDER", "SURF"],
     "legacyMoves": ["QUICK_ATTACK"],
     "defaultIVs": {
         "cp500": [7, 13, 15, 15],
@@ -7377,7 +7377,8 @@
     "family": {
         "id": "FAMILY_STARYU",
         "parent": "staryu"
-    }
+    },
+	"searchPriority": 3
 }, {
     "dex": 122,
     "speciesName": "魔牆人偶",
@@ -19900,7 +19901,7 @@
         "hp": 188
     },
     "types": ["normal", "water"],
-    "fastMoves": ["TAKE_DOWN", "WATER_GUN"],
+    "fastMoves": ["TAKE_DOWN", "WATER_GUN", "ROLLOUT"],
     "chargedMoves": ["HYPER_BEAM", "HYPER_FANG", "SURF"],
     "defaultIVs": {
         "cp500": [10.5, 4, 13, 8],
@@ -19926,7 +19927,7 @@
         "hp": 188
     },
     "types": ["normal", "water"],
-    "fastMoves": ["TAKE_DOWN", "WATER_GUN"],
+    "fastMoves": ["TAKE_DOWN", "WATER_GUN", "ROLLOUT"],
     "chargedMoves": ["HYPER_BEAM", "HYPER_FANG", "SURF"],
     "defaultIVs": {
         "cp500": [10.5, 4, 13, 8],
@@ -22116,7 +22117,7 @@
         "cp2500": [44, 6, 15, 13],
         "cp2500l40": [40, 15, 15, 15]
     },
-    "searchPriority": 9,
+    "searchPriority": 2,
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
     "released": true,
@@ -22745,7 +22746,7 @@
         "cp1500": [16.5, 5, 14, 13],
         "cp2500": [28, 4, 10, 12]
     },
-    "searchPriority": 8,
+    "searchPriority": 5,
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
     "released": true,
@@ -22838,7 +22839,7 @@
         "hp": 181
     },
     "types": ["ground", "flying"],
-    "fastMoves": ["FURY_CUTTER", "WING_ATTACK"],
+    "fastMoves": ["FURY_CUTTER", "WING_ATTACK", "SAND_ATTACK"],
     "chargedMoves": ["AERIAL_ACE", "EARTHQUAKE", "NIGHT_SLASH", "SAND_TOMB"],
     "defaultIVs": {
         "cp500": [7, 7, 11, 15],
@@ -22864,7 +22865,7 @@
         "hp": 181
     },
     "types": ["ground", "flying"],
-    "fastMoves": ["FURY_CUTTER", "WING_ATTACK"],
+    "fastMoves": ["FURY_CUTTER", "WING_ATTACK", "SAND_ATTACK"],
     "chargedMoves": ["AERIAL_ACE", "EARTHQUAKE", "NIGHT_SLASH", "SAND_TOMB"],
     "defaultIVs": {
         "cp500": [7, 7, 11, 15],
@@ -30894,7 +30895,7 @@
     },
     "types": ["poison", "dragon"],
     "fastMoves": ["WATER_GUN", "ACID", "DRAGON_TAIL"],
-    "chargedMoves": ["HYDRO_PUMP", "AQUA_TAIL", "OUTRAGE", "GUNK_SHOT"],
+    "chargedMoves": ["HYDRO_PUMP", "AQUA_TAIL", "OUTRAGE", "GUNK_SHOT", "FOCUS_BLAST"],
     "defaultIVs": {
         "cp500": [8, 5, 15, 8],
         "cp1500": [23.5, 5, 9, 15],
@@ -32745,7 +32746,8 @@
     "family": {
         "id": "FAMILY_MAREANIE",
         "parent": "mareanie"
-    }
+    },
+	"searchPriority": 9
 }, {
     "dex": 749,
     "speciesName": "泥驢仔",
@@ -33783,7 +33785,8 @@
     },
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
-    "released": true
+    "released": true,
+	"searchPriority": 6
 }, {
     "dex": 778,
     "speciesName": "謎擬Ｑ",
@@ -35727,55 +35730,7 @@
     },
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
-    "released": false,
-    "family": {
-        "id": "FAMILY_SINISTEA",
-        "evolutions": ["polteageist"]
-    }
-}, {
-    "dex": 854,
-    "speciesName": "來悲茶 真品",
-    "speciesId": "sinistea_antique",
-    "baseStats": {
-        "atk": 134,
-        "def": 96,
-        "hp": 120
-    },
-    "types": ["ghost", "none"],
-    "fastMoves": ["ASTONISH", "SUCKER_PUNCH"],
-    "chargedMoves": ["SHADOW_BALL", "DARK_PULSE", "PSYCHIC"],
-    "defaultIVs": {
-        "cp500": [17, 5, 13, 9],
-        "cp1500": [50, 15, 15, 15],
-        "cp2500": [50, 15, 15, 15]
-    },
-    "buddyDistance": 3,
-    "thirdMoveCost": 50000,
-    "released": false,
-    "family": {
-        "id": "FAMILY_SINISTEA",
-        "evolutions": ["polteageist"]
-    }
-}, {
-    "dex": 854,
-    "speciesName": "來悲茶 贗品",
-    "speciesId": "sinistea_phony",
-    "baseStats": {
-        "atk": 134,
-        "def": 96,
-        "hp": 120
-    },
-    "types": ["ghost", "none"],
-    "fastMoves": ["ASTONISH", "SUCKER_PUNCH"],
-    "chargedMoves": ["SHADOW_BALL", "DARK_PULSE", "PSYCHIC"],
-    "defaultIVs": {
-        "cp500": [17, 5, 13, 9],
-        "cp1500": [50, 15, 15, 15],
-        "cp2500": [50, 15, 15, 15]
-    },
-    "buddyDistance": 3,
-    "thirdMoveCost": 50000,
-    "released": false,
+    "released": true,
     "family": {
         "id": "FAMILY_SINISTEA",
         "evolutions": ["polteageist"]
@@ -35799,55 +35754,7 @@
     },
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
-    "released": false,
-    "family": {
-        "id": "FAMILY_SINISTEA",
-        "parent": "sinistea"
-    }
-}, {
-    "dex": 855,
-    "speciesName": "怖思壺 真品",
-    "speciesId": "polteageist_antique",
-    "baseStats": {
-        "atk": 248,
-        "def": 189,
-        "hp": 155
-    },
-    "types": ["ghost", "none"],
-    "fastMoves": ["ASTONISH", "SUCKER_PUNCH", "HEX"],
-    "chargedMoves": ["SHADOW_BALL", "DARK_PULSE", "PSYCHIC"],
-    "defaultIVs": {
-        "cp500": [6, 12, 14, 14],
-        "cp1500": [18, 7, 13, 11],
-        "cp2500": [30.5, 5, 9, 14]
-    },
-    "buddyDistance": 3,
-    "thirdMoveCost": 50000,
-    "released": false,
-    "family": {
-        "id": "FAMILY_SINISTEA",
-        "parent": "sinistea"
-    }
-}, {
-    "dex": 855,
-    "speciesName": "怖思壺 贗品",
-    "speciesId": "polteageist_phony",
-    "baseStats": {
-        "atk": 248,
-        "def": 189,
-        "hp": 155
-    },
-    "types": ["ghost", "none"],
-    "fastMoves": ["ASTONISH", "SUCKER_PUNCH", "HEX"],
-    "chargedMoves": ["SHADOW_BALL", "DARK_PULSE", "PSYCHIC"],
-    "defaultIVs": {
-        "cp500": [6, 12, 14, 14],
-        "cp1500": [18, 7, 13, 11],
-        "cp2500": [30.5, 5, 9, 14]
-    },
-    "buddyDistance": 3,
-    "thirdMoveCost": 50000,
-    "released": false,
+    "released": true,
     "family": {
         "id": "FAMILY_SINISTEA",
         "parent": "sinistea"
@@ -36491,7 +36398,8 @@
         "defaultFormId": "morpeko_full_belly",
         "alternativeFormId": "morpeko_hangry"
     },
-    "searchPriority": 3,
+	"tags": ["include2500"],
+    "searchPriority": 4,
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
     "released": true

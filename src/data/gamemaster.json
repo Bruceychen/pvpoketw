@@ -328,6 +328,21 @@
             "values": ["dialga", "palkia", "giratina_altered", "giratina_origin", "charizard_mega_x", "charizard_mega_y", "blastoise_mega", "gengar_mega", "melmetal", "kyogre", "groudon", "zekrom", "reshiram", "mewtwo", "lugia", "ho_oh", "dragonite", "gyarados_mega"]
         }]
     }, {
+        "name": "pillar",
+        "title": "Devon Pillar Cup",
+        "include": [{
+            "filterType": "id",
+            "name": "Species",
+            "values": ["clodsire", "feraligatr", "feraligatr_shadow", "ariados", "azumarill", "malamar", "jumpluff", "jumpluff_shadow", "drapion", "drapion_shadow", "lickilicky", "samurott", "walrein", "walrein_shadow", "arctibax", "goodra", "hippowdon", "hippowdon_shadow", "miltank", "ursaring", "ursaring_shadow", "sableye", "sableye_shadow", "weezing_galarian", "weezing_galarian_shadow", "cresselia", "cresselia_shadow", "regirock", "regirock_shadow", "stunfisk", "gligar", "gligar_shadow", "sealeo", "sealeo_shadow", "castform_rainy", "froslass", "froslass_shadow", "lokix", "greedent", "trevenant", "leavanny", "nidoqueen", "nidoqueen_shadow", "golisopod", "spiritomb", "raticate_alolan", "raticate_alolan_shadow", "cradily", "cradily_shadow", "empoleon", "empoleon_shadow", "altaria", "jellicent", "politoed", "politoed_shadow", "furfrou", "beedrill", "beedrill_shadow", "scizor", "scizor_shadow", "seaking", "pelipper", "dragapult", "typhlosion", "typhlosion_shadow", "tapu_fini", "rapidash", "furret", "pidgeot", "pidgeot_shadow", "gyarados", "gyarados_shadow", "lapras", "lapras_shadow", "noctowl", "zangoose", "forretress", "forretress_shadow", "mienshao", "sneasler", "sneasler_shadow", "sneasel_hisuian", "sneasel_hisuian_shadow", "qwilfish", "qwilfish_hisuian", "lunatone", "solrock", "victini", "poliwhirl", "poliwhirl_shadow", "magmar", "magmar_shadow", "magmortar", "magmortar_shadow", "sceptile", "sceptile_shadow", "marowak_alolan", "marowak_alolan_shadow", "runerigus", "gliscor", "gliscor_shadow", "regice", "regice_shadow", "nidoking", "nidoking_shadow", "flygon", "flygon_shadow", "sandslash", "sandslash_shadow", "rapidash_galarian", "swalot", "aurorus"]
+        }],
+        "exclude": [],
+        "overrides": [],
+        "league": 1500,
+        "useDefaultMovesets": 1,
+        "levelCap": 50,
+        "excludeLowPokemon": 0,
+        "includeLowStatProduct": true
+    }, {
         "name": "polaris",
         "title": "Polaris Cup",
         "include": [{
@@ -630,13 +645,14 @@
         "showMeta": true,
         "hideRankings": true
     }, {
-        "title": "復古盃",
-        "cup": "retro",
+        "title": "奇幻盃",
+        "cup": "fantasy",
         "cp": 1500,
-        "meta": "retro",
+        "meta": "fantasy",
         "showCup": true,
         "showFormat": true,
-        "showMeta": true
+        "showMeta": true,
+        "rules": ["Pok\u00e9mon must be at or below 1,500 CP to enter.", "Only Dragon-, Steel-, and Fairy-type Pok\u00e9mon are eligible."]
     }, {
         "title": "Mega大師聯盟(暫譯)",
         "cup": "mega",
@@ -687,18 +703,10 @@
         "showFormat": true,
         "showMeta": true
     }, {
-        "title": "Devon Crypt Cup",
-        "cup": "crypt",
+        "title": "Devon Pillar Cup",
+        "cup": "pillar",
         "cp": 1500,
-        "meta": "crypt",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
-        "title": "Devon Chaos Cup",
-        "cup": "chaos",
-        "cp": 1500,
-        "meta": "chaos",
+        "meta": "pillar",
         "showCup": true,
         "showFormat": true,
         "showMeta": true
@@ -8147,8 +8155,8 @@
             "hp": 155
         },
         "types": ["water", "psychic"],
-        "fastMoves": ["HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "QUICK_ATTACK", "TACKLE", "WATER_GUN"],
-        "chargedMoves": ["HYDRO_PUMP", "ICE_BEAM", "POWER_GEM", "PSYBEAM", "PSYCHIC", "THUNDER"],
+        "fastMoves": ["HIDDEN_POWER_BUG", "HIDDEN_POWER_DARK", "HIDDEN_POWER_DRAGON", "HIDDEN_POWER_ELECTRIC", "HIDDEN_POWER_FIGHTING", "HIDDEN_POWER_FIRE", "HIDDEN_POWER_FLYING", "HIDDEN_POWER_GHOST", "HIDDEN_POWER_GRASS", "HIDDEN_POWER_GROUND", "HIDDEN_POWER_ICE", "HIDDEN_POWER_POISON", "HIDDEN_POWER_PSYCHIC", "HIDDEN_POWER_ROCK", "HIDDEN_POWER_STEEL", "HIDDEN_POWER_WATER", "QUICK_ATTACK", "TACKLE", "WATER_GUN", "PSYWAVE"],
+        "chargedMoves": ["HYDRO_PUMP", "ICE_BEAM", "POWER_GEM", "PSYBEAM", "PSYCHIC", "THUNDER", "SURF"],
         "legacyMoves": ["QUICK_ATTACK"],
         "defaultIVs": {
             "cp500": [7, 13, 15, 15],
@@ -8163,7 +8171,8 @@
         "family": {
             "id": "FAMILY_STARYU",
             "parent": "staryu"
-        }
+        },
+        "searchPriority": 3
     }, {
         "dex": 122,
         "speciesName": "魔牆人偶",
@@ -20686,7 +20695,7 @@
             "hp": 188
         },
         "types": ["normal", "water"],
-        "fastMoves": ["TAKE_DOWN", "WATER_GUN"],
+        "fastMoves": ["TAKE_DOWN", "WATER_GUN", "ROLLOUT"],
         "chargedMoves": ["HYPER_BEAM", "HYPER_FANG", "SURF"],
         "defaultIVs": {
             "cp500": [10.5, 4, 13, 8],
@@ -20712,7 +20721,7 @@
             "hp": 188
         },
         "types": ["normal", "water"],
-        "fastMoves": ["TAKE_DOWN", "WATER_GUN"],
+        "fastMoves": ["TAKE_DOWN", "WATER_GUN", "ROLLOUT"],
         "chargedMoves": ["HYPER_BEAM", "HYPER_FANG", "SURF"],
         "defaultIVs": {
             "cp500": [10.5, 4, 13, 8],
@@ -22902,7 +22911,7 @@
             "cp2500": [44, 6, 15, 13],
             "cp2500l40": [40, 15, 15, 15]
         },
-        "searchPriority": 9,
+        "searchPriority": 2,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -23531,7 +23540,7 @@
             "cp1500": [16.5, 5, 14, 13],
             "cp2500": [28, 4, 10, 12]
         },
-        "searchPriority": 8,
+        "searchPriority": 5,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -23624,7 +23633,7 @@
             "hp": 181
         },
         "types": ["ground", "flying"],
-        "fastMoves": ["FURY_CUTTER", "WING_ATTACK"],
+        "fastMoves": ["FURY_CUTTER", "WING_ATTACK", "SAND_ATTACK"],
         "chargedMoves": ["AERIAL_ACE", "EARTHQUAKE", "NIGHT_SLASH", "SAND_TOMB"],
         "defaultIVs": {
             "cp500": [7, 7, 11, 15],
@@ -23650,7 +23659,7 @@
             "hp": 181
         },
         "types": ["ground", "flying"],
-        "fastMoves": ["FURY_CUTTER", "WING_ATTACK"],
+        "fastMoves": ["FURY_CUTTER", "WING_ATTACK", "SAND_ATTACK"],
         "chargedMoves": ["AERIAL_ACE", "EARTHQUAKE", "NIGHT_SLASH", "SAND_TOMB"],
         "defaultIVs": {
             "cp500": [7, 7, 11, 15],
@@ -31680,7 +31689,7 @@
         },
         "types": ["poison", "dragon"],
         "fastMoves": ["WATER_GUN", "ACID", "DRAGON_TAIL"],
-        "chargedMoves": ["HYDRO_PUMP", "AQUA_TAIL", "OUTRAGE", "GUNK_SHOT"],
+        "chargedMoves": ["HYDRO_PUMP", "AQUA_TAIL", "OUTRAGE", "GUNK_SHOT", "FOCUS_BLAST"],
         "defaultIVs": {
             "cp500": [8, 5, 15, 8],
             "cp1500": [23.5, 5, 9, 15],
@@ -33531,7 +33540,8 @@
         "family": {
             "id": "FAMILY_MAREANIE",
             "parent": "mareanie"
-        }
+        },
+        "searchPriority": 9
     }, {
         "dex": 749,
         "speciesName": "泥驢仔",
@@ -34569,7 +34579,8 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": true
+        "released": true,
+        "searchPriority": 6
     }, {
         "dex": 778,
         "speciesName": "謎擬Ｑ",
@@ -36513,55 +36524,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
-        "family": {
-            "id": "FAMILY_SINISTEA",
-            "evolutions": ["polteageist"]
-        }
-    }, {
-        "dex": 854,
-        "speciesName": "來悲茶 真品",
-        "speciesId": "sinistea_antique",
-        "baseStats": {
-            "atk": 134,
-            "def": 96,
-            "hp": 120
-        },
-        "types": ["ghost", "none"],
-        "fastMoves": ["ASTONISH", "SUCKER_PUNCH"],
-        "chargedMoves": ["SHADOW_BALL", "DARK_PULSE", "PSYCHIC"],
-        "defaultIVs": {
-            "cp500": [17, 5, 13, 9],
-            "cp1500": [50, 15, 15, 15],
-            "cp2500": [50, 15, 15, 15]
-        },
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": false,
-        "family": {
-            "id": "FAMILY_SINISTEA",
-            "evolutions": ["polteageist"]
-        }
-    }, {
-        "dex": 854,
-        "speciesName": "來悲茶 贗品",
-        "speciesId": "sinistea_phony",
-        "baseStats": {
-            "atk": 134,
-            "def": 96,
-            "hp": 120
-        },
-        "types": ["ghost", "none"],
-        "fastMoves": ["ASTONISH", "SUCKER_PUNCH"],
-        "chargedMoves": ["SHADOW_BALL", "DARK_PULSE", "PSYCHIC"],
-        "defaultIVs": {
-            "cp500": [17, 5, 13, 9],
-            "cp1500": [50, 15, 15, 15],
-            "cp2500": [50, 15, 15, 15]
-        },
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_SINISTEA",
             "evolutions": ["polteageist"]
@@ -36585,55 +36548,7 @@
         },
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
-        "released": false,
-        "family": {
-            "id": "FAMILY_SINISTEA",
-            "parent": "sinistea"
-        }
-    }, {
-        "dex": 855,
-        "speciesName": "怖思壺 真品",
-        "speciesId": "polteageist_antique",
-        "baseStats": {
-            "atk": 248,
-            "def": 189,
-            "hp": 155
-        },
-        "types": ["ghost", "none"],
-        "fastMoves": ["ASTONISH", "SUCKER_PUNCH", "HEX"],
-        "chargedMoves": ["SHADOW_BALL", "DARK_PULSE", "PSYCHIC"],
-        "defaultIVs": {
-            "cp500": [6, 12, 14, 14],
-            "cp1500": [18, 7, 13, 11],
-            "cp2500": [30.5, 5, 9, 14]
-        },
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": false,
-        "family": {
-            "id": "FAMILY_SINISTEA",
-            "parent": "sinistea"
-        }
-    }, {
-        "dex": 855,
-        "speciesName": "怖思壺 贗品",
-        "speciesId": "polteageist_phony",
-        "baseStats": {
-            "atk": 248,
-            "def": 189,
-            "hp": 155
-        },
-        "types": ["ghost", "none"],
-        "fastMoves": ["ASTONISH", "SUCKER_PUNCH", "HEX"],
-        "chargedMoves": ["SHADOW_BALL", "DARK_PULSE", "PSYCHIC"],
-        "defaultIVs": {
-            "cp500": [6, 12, 14, 14],
-            "cp1500": [18, 7, 13, 11],
-            "cp2500": [30.5, 5, 9, 14]
-        },
-        "buddyDistance": 3,
-        "thirdMoveCost": 50000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_SINISTEA",
             "parent": "sinistea"
@@ -37277,7 +37192,8 @@
             "defaultFormId": "morpeko_full_belly",
             "alternativeFormId": "morpeko_hangry"
         },
-        "searchPriority": 3,
+        "tags": ["include2500"],
+        "searchPriority": 4,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true
@@ -41346,11 +41262,14 @@
         "name": "重踏",
         "abbreviation": "Bd",
         "type": "ground",
-        "power": 80,
-        "energy": 60,
+        "power": 45,
+        "energy": 45,
         "energyGain": 0,
         "cooldown": 500,
-        "archetype": "High Energy"
+        "buffs": [0, -1],
+        "buffTarget": "opponent",
+        "buffApplyChance": ".5",
+        "archetype": "Debuff Spam/Bait"
     }, {
         "moveId": "BULLET_PUNCH",
         "name": "子彈拳",
@@ -41766,15 +41685,15 @@
         "type": "fire",
         "power": 8,
         "energy": 0,
-        "energyGain": 5,
+        "energyGain": 6,
         "cooldown": 1000,
-        "archetype": "Heavy Damage"
+        "archetype": "Multipurpose"
     }, {
         "moveId": "FIRE_PUNCH",
         "name": "火焰拳",
         "abbreviation": "FiP",
         "type": "fire",
-        "power": 55,
+        "power": 60,
         "energy": 40,
         "energyGain": 0,
         "cooldown": 500,
@@ -42341,14 +42260,14 @@
         "type": "ice",
         "power": 8,
         "energy": 0,
-        "energyGain": 5,
+        "energyGain": 6,
         "cooldown": 1000,
-        "archetype": "Heavy Damage"
+        "archetype": "Multipurpose"
     }, {
         "moveId": "ICE_PUNCH",
         "name": "冰凍拳",
         "type": "ice",
-        "power": 55,
+        "power": 60,
         "energy": 40,
         "energyGain": 0,
         "cooldown": 500,
@@ -43563,6 +43482,7 @@
         "archetype": "General"
     }, {
         "moveId": "SPARKLING_ARIA",
+        "abbreviation": "SpA",
         "name": "泡影詠歎調",
         "type": "water",
         "power": 80,
@@ -43805,14 +43725,14 @@
         "type": "electric",
         "power": 8,
         "energy": 0,
-        "energyGain": 5,
+        "energyGain": 6,
         "cooldown": 1000,
-        "archetype": "Heavy Damage"
+        "archetype": "Multipurpose"
     }, {
         "moveId": "THUNDER_PUNCH",
         "name": "雷電拳",
         "type": "electric",
-        "power": 55,
+        "power": 60,
         "energy": 40,
         "energyGain": 0,
         "cooldown": 500,
@@ -43821,7 +43741,7 @@
         "moveId": "THUNDER_SHOCK",
         "name": "電擊",
         "type": "electric",
-        "power": 3,
+        "power": 4,
         "energy": 0,
         "energyGain": 9,
         "cooldown": 1000,

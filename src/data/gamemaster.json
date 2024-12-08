@@ -303,6 +303,23 @@
         "partySize": 3,
         "presetOnly": true
     }, {
+        "name": "holiday",
+        "title": "假日盃",
+        "include": [{
+            "filterType": "type",
+            "values": ["grass", "normal", "ice", "ghost", "flying", "electric"]
+        }],
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["mega"]
+        }, {
+            "filterType": "id",
+            "values": ["articuno", "celebi", "ho_oh", "hoopa", "lugia", "moltres", "rayquaza", "regice", "regieleki", "regigigas", "shaymin", "shaymin_sky", "zapdos", "morpeko_full_belly"],
+            "leagues": [500]
+        }],
+        "partySize": 3,
+        "presetOnly": true
+    }, {
         "name": "little",
         "title": "小小盃",
         "include": [{
@@ -329,11 +346,11 @@
         }]
     }, {
         "name": "pillar",
-        "title": "Devon Pillar Cup",
+        "title": "Pillar",
         "include": [{
             "filterType": "id",
             "name": "Species",
-            "values": ["clodsire", "feraligatr", "feraligatr_shadow", "ariados", "azumarill", "malamar", "jumpluff", "jumpluff_shadow", "drapion", "drapion_shadow", "lickilicky", "samurott", "walrein", "walrein_shadow", "arctibax", "goodra", "hippowdon", "hippowdon_shadow", "miltank", "ursaring", "ursaring_shadow", "sableye", "sableye_shadow", "weezing_galarian", "weezing_galarian_shadow", "cresselia", "cresselia_shadow", "regirock", "regirock_shadow", "stunfisk", "gligar", "gligar_shadow", "sealeo", "sealeo_shadow", "castform_rainy", "froslass", "froslass_shadow", "lokix", "greedent", "trevenant", "leavanny", "nidoqueen", "nidoqueen_shadow", "golisopod", "spiritomb", "raticate_alolan", "raticate_alolan_shadow", "cradily", "cradily_shadow", "empoleon", "empoleon_shadow", "altaria", "jellicent", "politoed", "politoed_shadow", "furfrou", "beedrill", "beedrill_shadow", "scizor", "scizor_shadow", "seaking", "pelipper", "dragapult", "typhlosion", "typhlosion_shadow", "tapu_fini", "rapidash", "furret", "pidgeot", "pidgeot_shadow", "gyarados", "gyarados_shadow", "lapras", "lapras_shadow", "noctowl", "zangoose", "forretress", "forretress_shadow", "mienshao", "sneasler", "sneasler_shadow", "sneasel_hisuian", "sneasel_hisuian_shadow", "qwilfish", "qwilfish_hisuian", "lunatone", "solrock", "victini", "poliwhirl", "poliwhirl_shadow", "magmar", "magmar_shadow", "magmortar", "magmortar_shadow", "sceptile", "sceptile_shadow", "marowak_alolan", "marowak_alolan_shadow", "runerigus", "gliscor", "gliscor_shadow", "regice", "regice_shadow", "nidoking", "nidoking_shadow", "flygon", "flygon_shadow", "sandslash", "sandslash_shadow", "rapidash_galarian", "swalot", "aurorus"]
+            "values": ["bibarel", "bibarel_shadow", "clodsire", "feraligatr", "feraligatr_shadow", "ariados", "azumarill", "malamar", "jumpluff", "jumpluff_shadow", "drapion", "drapion_shadow", "lickilicky", "samurott", "walrein", "walrein_shadow", "arctibax", "goodra", "hippowdon", "hippowdon_shadow", "miltank", "ursaring", "ursaring_shadow", "sableye", "sableye_shadow", "weezing_galarian", "weezing_galarian_shadow", "cresselia", "cresselia_shadow", "regirock", "regirock_shadow", "stunfisk", "gligar", "gligar_shadow", "sealeo", "sealeo_shadow", "castform_rainy", "froslass", "froslass_shadow", "lokix", "greedent", "trevenant", "leavanny", "nidoqueen", "nidoqueen_shadow", "golisopod", "spiritomb", "raticate_alolan", "raticate_alolan_shadow", "cradily", "cradily_shadow", "empoleon", "empoleon_shadow", "altaria", "jellicent", "politoed", "politoed_shadow", "furfrou", "beedrill", "beedrill_shadow", "scizor", "scizor_shadow", "seaking", "pelipper", "dragapult", "typhlosion", "typhlosion_shadow", "tapu_fini", "rapidash", "furret", "pidgeot", "pidgeot_shadow", "gyarados", "gyarados_shadow", "lapras", "lapras_shadow", "noctowl", "zangoose", "forretress", "forretress_shadow", "mienshao", "sneasler", "sneasler_shadow", "sneasel_hisuian", "sneasel_hisuian_shadow", "qwilfish", "qwilfish_hisuian", "lunatone", "solrock", "victini", "poliwhirl", "poliwhirl_shadow", "magmar", "magmar_shadow", "magmortar", "magmortar_shadow", "sceptile", "sceptile_shadow", "marowak_alolan", "marowak_alolan_shadow", "runerigus", "gliscor", "gliscor_shadow", "regice", "regice_shadow", "nidoking", "nidoking_shadow", "flygon", "flygon_shadow", "sandslash", "sandslash_shadow", "rapidash_galarian", "swalot", "aurorus", "bewear", "starmie", "diggersby"]
         }],
         "exclude": [],
         "overrides": [],
@@ -653,6 +670,15 @@
         "showFormat": true,
         "showMeta": true,
         "rules": ["Pok\u00e9mon must be at or below 1,500 CP to enter.", "Only Dragon-, Steel-, and Fairy-type Pok\u00e9mon are eligible."]
+    }, {
+        "title": "假日小小盃",
+        "cup": "holiday",
+        "cp": 500,
+        "meta": "holidaylittle",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true,
+        "rules": ["Pok\u00e9mon must be at or below 500 CP to enter.", "Only Normal-, Grass-, Electric-, Ice-, Flying-, and Ghost-type Pok\u00e9mon are eligible."]
     }, {
         "title": "Mega大師聯盟(暫譯)",
         "cup": "mega",
@@ -7349,7 +7375,8 @@
         "family": {
             "id": "FAMILY_CUBONE",
             "parent": "cubone"
-        }
+        },
+        "nicknames": ["kwak"]
     }, {
         "dex": 105,
         "speciesName": "嘎啦嘎啦 阿羅拉",
@@ -7370,7 +7397,7 @@
             "cp2500": [50, 15, 15, 15]
         },
         "level25CP": 1090,
-        "searchPriority": 6,
+        "searchPriority": 5,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -7398,7 +7425,7 @@
             "cp1500": [32, 5, 9, 15],
             "cp2500": [50, 15, 15, 15]
         },
-        "searchPriority": 8,
+        "searchPriority": 5,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -7431,7 +7458,9 @@
         "family": {
             "id": "FAMILY_CUBONE",
             "parent": "cubone_shadow"
-        }
+        },
+        "nicknames": ["kwak"],
+        "searchPriority": 6
     }, {
         "dex": 106,
         "speciesName": "飛腿郎",
@@ -13193,7 +13222,7 @@
             "cp2500": [40, 4, 15, 13]
         },
         "eliteMoves": ["WATER_GUN"],
-        "searchPriority": 12,
+        "searchPriority": 4,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -13221,7 +13250,7 @@
             "cp2500": [40, 4, 15, 13]
         },
         "eliteMoves": ["WATER_GUN"],
-        "searchPriority": 12,
+        "searchPriority": 4,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -19729,7 +19758,7 @@
             "cp1500": [13.5, 6, 10, 9],
             "cp2500": [22.5, 5, 14, 7]
         },
-        "searchPriority": 10,
+        "searchPriority": 5,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true,
@@ -22833,7 +22862,7 @@
             "cp2500": [47, 5, 13, 11],
             "cp2500l40": [40, 15, 15, 15]
         },
-        "searchPriority": 4,
+        "searchPriority": 7,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
@@ -29541,7 +29570,7 @@
             "cp1500": [26.5, 4, 15, 6],
             "cp2500": [50, 15, 15, 15]
         },
-        "searchPriority": 4,
+        "searchPriority": 6,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
@@ -29564,7 +29593,7 @@
             "cp1500": [26.5, 4, 15, 6],
             "cp2500": [50, 15, 15, 15]
         },
-        "searchPriority": 6,
+        "searchPriority": 4,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,

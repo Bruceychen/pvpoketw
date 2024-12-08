@@ -2,7 +2,7 @@
 // This project is supported by JetBrains Open Source Development License.
 // JetBrains provides professional tools to help open-source projects like this one thrive.
 // Learn more about JetBrains Open Source support: https://jb.gg/OpenSourceSupport
-$SITE_VERSION = '1.32.6';
+$SITE_VERSION = '1.32.6.1';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {

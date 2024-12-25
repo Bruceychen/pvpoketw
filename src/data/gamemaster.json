@@ -35780,7 +35780,7 @@
         },
         "types": ["flying", "steel"],
         "fastMoves": ["STEEL_WING", "AIR_SLASH"],
-        "chargedMoves": ["DRILL_PECK", "BRAVE_BIRD", "IRON_HEAD"],
+        "chargedMoves": ["DRILL_PECK", "BRAVE_BIRD"],
         "defaultIVs": {
             "cp500": [8, 4, 6, 7],
             "cp1500": [23, 5, 8, 15],
@@ -41849,6 +41849,19 @@
         "energyGain": 0,
         "cooldown": 500,
         "archetype": "Nuke"
+    }, {
+        "moveId": "FLOWER_TRICK",
+        "name": "千變萬花",
+        "abbreviation": "FlT",
+        "type": "grass",
+        "power": 30,
+        "energy": 35,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [1, 0],
+        "buffTarget": "self",
+        "buffApplyChance": "1",
+        "archetype": "Boost"
     }, {
         "moveId": "FLY",
         "name": "飛翔",

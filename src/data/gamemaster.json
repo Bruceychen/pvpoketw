@@ -701,6 +701,15 @@
         "showMeta": true,
         "hideRankings": true
     }, {
+        "title": "假日小小盃",
+        "cup": "holiday",
+        "cp": 500,
+        "meta": "holidaylittle",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true,
+        "rules": ["Pok\u00e9mon must be at or below 500 CP to enter.", "Only Normal-, Grass-, Electric-, Ice-, Flying-, and Ghost-type Pok\u00e9mon are eligible.", "Smeargle is not allowed."]
+    }, {
         "title": "四色盃",
         "cup": "color",
         "cp": 1500,

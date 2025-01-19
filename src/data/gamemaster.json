@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-01-16 22:56:32",
+    "timestamp": "2025-01-17 17:50:08",
     "settings": {
         "partySize": 3,
         "maxBuffStages": 4,
@@ -36254,7 +36254,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_ROOKIDEE",
             "evolutions": ["corvisquire"]
@@ -36279,7 +36279,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_ROOKIDEE",
             "parent": "rookidee",
@@ -36306,7 +36306,7 @@
         },
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_ROOKIDEE",
             "parent": "corvisquire"

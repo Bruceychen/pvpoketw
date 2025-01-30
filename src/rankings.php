@@ -71,6 +71,10 @@ switch($cup){
 		$league = 'Devon Pillar Cup';
 		break;
 
+	case "ingot":
+		$league = 'Devon Ingot Cup';
+		break;
+
 	case "devonchampionship":
 		$league = 'devonchampionship';
 		break;
@@ -89,6 +93,10 @@ switch($cup){
 
 	case "little":
 		$league = 'Little Cup';
+		break;
+
+	case "littlejungle":
+		$league = 'Little Jungle Cup';
 		break;
 
 	case "mega":

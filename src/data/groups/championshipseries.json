@@ -7,6 +7,11 @@
     "fastMove": "COUNTER",
     "chargedMoves": ["RAGE_FIST", "CLOSE_COMBAT"]
 }, {
+    "speciesId": "annihilape_shadow",
+    "fastMove": "COUNTER",
+    "chargedMoves": ["RAGE_FIST", "ICE_PUNCH"],
+    "shadowType": "shadow"
+}, {
     "speciesId": "ariados",
     "fastMove": "POISON_STING",
     "chargedMoves": ["LUNGE", "TRAILBLAZE"]
@@ -19,13 +24,9 @@
     "fastMove": "ROLLOUT",
     "chargedMoves": ["SURF", "HYPER_FANG"]
 }, {
-    "speciesId": "carbink",
-    "fastMove": "ROCK_THROW",
-    "chargedMoves": ["POWER_GEM", "MOONBLAST"]
-}, {
-    "speciesId": "chesnaught",
-    "fastMove": "VINE_WHIP",
-    "chargedMoves": ["FRENZY_PLANT", "SUPER_POWER"]
+    "speciesId": "charjabug",
+    "fastMove": "VOLT_SWITCH",
+    "chargedMoves": ["DISCHARGE", "X_SCISSOR"]
 }, {
     "speciesId": "clodsire",
     "fastMove": "POISON_STING",
@@ -39,13 +40,13 @@
     "fastMove": "ASTONISH",
     "chargedMoves": ["NIGHT_SHADE", "POWER_GEM"]
 }, {
+    "speciesId": "corviknight",
+    "fastMove": "SAND_ATTACK",
+    "chargedMoves": ["SKY_ATTACK", "IRON_HEAD"]
+}, {
     "speciesId": "cresselia",
     "fastMove": "PSYCHO_CUT",
     "chargedMoves": ["GRASS_KNOT", "MOONBLAST"]
-}, {
-    "speciesId": "dachsbun",
-    "fastMove": "CHARM",
-    "chargedMoves": ["PSYCHIC_FANGS", "BODY_SLAM"]
 }, {
     "speciesId": "dewgong",
     "fastMove": "ICE_SHARD",
@@ -166,11 +167,11 @@
     "chargedMoves": ["BLAST_BURN", "THUNDER_PUNCH"],
     "shadowType": "shadow"
 }, {
-    "speciesId": "corviknight",
-    "fastMove": "SAND_ATTACK",
-    "chargedMoves": ["SKY_ATTACK", "IRON_HEAD"]
+    "speciesId": "virizion",
+    "fastMove": "DOUBLE_KICK",
+    "chargedMoves": ["LEAF_BLADE", "SACRED_SWORD"]
 }, {
-    "speciesId": "corviknight",
-    "fastMove": "SAND_ATTACK",
-    "chargedMoves": ["SKY_ATTACK", "PAYBACK"]
+    "speciesId": "cobalion",
+    "fastMove": "DOUBLE_KICK",
+    "chargedMoves": ["SACRED_SWORD", "STONE_EDGE"]
 }]

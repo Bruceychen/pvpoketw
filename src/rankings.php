@@ -59,8 +59,8 @@ switch($cup){
 		$league = 'Retro Cup';
 		break;
 
-	case "fossil":
-		$league = 'Fossil Cup';
+	case "willpower":
+		$league = 'Willpower Cup';
 		break;
 
 	case "sunshine":
@@ -147,8 +147,8 @@ switch($cup){
 		$league = 'Fantasy Cup';
 		break;
 
-	case "psychic":
-		$league = 'Psychic Cup';
+	case "scroll":
+		$league = 'Scroll Cup';
 		break;
 
 	case "holiday":

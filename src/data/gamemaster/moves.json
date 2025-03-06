@@ -2881,7 +2881,7 @@
     "archetype": "High Energy"
 },  {
     "moveId": "TORCH_SONG",
-    "name": "Torch Song",
+    "name": "閃焰高歌",
     "abbreviation": "TSo",
     "type": "fire",
     "power": 70,

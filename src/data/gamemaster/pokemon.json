@@ -1905,7 +1905,7 @@
         "cp2500": [48, 4, 15, 10],
         "cp2500l40": [40, 15, 15, 15]
     },
-    "searchPriority": 12,
+    "searchPriority": 9,
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
     "released": true,
@@ -9410,7 +9410,7 @@
         "cp1500": [28, 4, 14, 12],
         "cp2500": [50, 15, 15, 15]
     },
-    "searchPriority": 3,
+    "searchPriority": 2,
     "buddyDistance": 1,
     "thirdMoveCost": 10000,
     "released": true,
@@ -12231,7 +12231,7 @@
         "cp1500": [27, 5, 9, 13],
         "cp2500": [50, 15, 15, 15]
     },
-    "searchPriority": 7,
+    "searchPriority": 3,
     "level25CP": 1267,
     "tags": ["shadoweligible"],
     "buddyDistance": 5,
@@ -15442,7 +15442,7 @@
     },
     "level25CP": 858,
     "tags": ["shadoweligible"],
-    "searchPriority": 9,
+    "searchPriority": 10,
     "buddyDistance": 5,
     "thirdMoveCost": 75000,
     "released": true
@@ -17788,6 +17788,7 @@
         "cp2500": [50, 15, 15, 15],
         "cp1500l40": [37, 12, 15, 15]
     },
+	"nicknames": ["clops"],
 	"searchPriority": 7,
     "level25CP": 927,
     "tags": ["shadoweligible"],
@@ -23198,11 +23199,12 @@
         "cp2500": [48.5, 4, 14, 14],
         "cp2500l40": [40, 15, 15, 15]
     },
+	"nicknames": ["noir"],
     "level25CP": 1447,
     "tags": ["shadoweligible"],
     "buddyDistance": 3,
     "thirdMoveCost": 50000,
-    "searchPriority": 6,
+    "searchPriority": 3,
     "released": true,
     "family": {
         "id": "FAMILY_DUSKULL",
@@ -37934,12 +37936,14 @@
     },
     "types": ["fire", "ghost"],
     "fastMoves": ["INCINERATE", "BITE"],
-    "chargedMoves": ["FLAMETHROWER", "DISARMING_VOICE", "CRUNCH", "SHADOW_BALL"],
+    "chargedMoves": ["FLAMETHROWER", "DISARMING_VOICE", "CRUNCH", "SHADOW_BALL", "BLAST_BURN", "TORCH_SONG"],
+	"eliteMoves": ["BLAST_BURN"],
     "defaultIVs": {
         "cp500": [6.5, 4, 4, 11],
         "cp1500": [18.5, 4, 12, 11],
         "cp2500": [31.5, 5, 12, 11]
     },
+	"searchPriority": 5,
     "nicknames": ["dirge"],
     "buddyDistance": 3,
     "thirdMoveCost": 10000,

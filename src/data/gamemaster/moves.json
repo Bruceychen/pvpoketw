@@ -167,6 +167,24 @@
     "cooldown": 500,
     "archetype": "General"
 }, {
+    "moveId": "BEHEMOTH_BASH",
+    "name": "巨獸彈",
+    "type": "steel",
+    "power": 80,
+    "energy": 45,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "General"
+}, {
+    "moveId": "BEHEMOTH_BLADE",
+    "name": "巨獸斬",
+    "type": "steel",
+    "power": 100,
+    "energy": 55,
+    "energyGain": 0,
+    "cooldown": 500,
+    "archetype": "High Energy"
+}, {
     "moveId": "BITE",
     "name": "咬住",
     "abbreviation": "Bi",

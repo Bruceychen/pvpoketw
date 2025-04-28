@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-04-19 18:09:25",
+    "timestamp": "2025-04-27 23:06:50",
     "settings": {
         "partySize": 3,
         "maxBuffStages": 4,
@@ -463,15 +463,6 @@
         "showFormat": true,
         "showMeta": true,
         "rules": ["No CP limit.", "Legendary Pok\u00e9mon, Mythical Pok\u00e9mon, and Ultra Beasts are not eligible."]
-    }, {
-        "title": "春日盃",
-        "cup": "spring",
-        "cp": 1500,
-        "meta": "spring",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true,
-        "rules": ["Pok\u00e9mon must be at or below 1,500 CP to enter.", "Only Water-, Grass-, and Fairy-type Pok\u00e9mon are eligible.", "The following Pok\u00e9mon will not be allowed: Jumpluff, Roserade, Toxapex"]
     }, {
         "title": "超級聯盟Remix",
         "cup": "remix",
@@ -28677,7 +28668,8 @@
         },
         "types": ["ice", "none"],
         "fastMoves": ["FROST_BREATH", "ASTONISH"],
-        "chargedMoves": ["BLIZZARD", "FLASH_CANNON", "SIGNAL_BEAM"],
+        "chargedMoves": ["BLIZZARD", "FLASH_CANNON", "SIGNAL_BEAM", "AVALANCHE"],
+        "eliteMoves": ["AVALANCHE"],
         "defaultIVs": {
             "cp500": [6.5, 13, 12, 15],
             "cp1500": [19.5, 5, 14, 14],
@@ -36531,7 +36523,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_APPLIN",
             "evolutions": ["flapple", "appletun"]
@@ -36556,7 +36548,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_APPLIN",
             "parent": "applin"
@@ -36581,7 +36573,7 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false,
+        "released": true,
         "family": {
             "id": "FAMILY_APPLIN",
             "parent": "applin"

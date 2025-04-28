@@ -5,16 +5,6 @@ Please visit https://github.com/pvpoke/pvpoke
 
 This is non-official, mandarin(tradtitonal Chinese) version of pvpoke(pvpoke.com) webiste source code, with permission from original creator.
 
-## Acknowledgments
-
-This project is proudly supported by the **JetBrains Open Source Development License**.  
-JetBrains provides industry-leading tools that greatly enhance the development process.  
-We deeply appreciate their support for open-source projects like this one.
-
-Feel free to explore their amazing products: [JetBrains](https://www.jetbrains.com/)
-
-![JetBrains Logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)
-
 
 ## Running PvPokeTW
 ### Using docker

@@ -1,8 +1,5 @@
 <?php require_once 'modules/config.php';
-// This project is supported by JetBrains Open Source Development License.
-// JetBrains provides professional tools to help open-source projects like this one thrive.
-// Learn more about JetBrains Open Source support: https://jb.gg/OpenSourceSupport
-$SITE_VERSION = '1.32.9.25';
+$SITE_VERSION = '1.32.9.27';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {

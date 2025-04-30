@@ -123,7 +123,7 @@ function Pokebox(element, selector, selectMode, b){
 			};
 
 		} else{
-			if(typeof callback == undefined){
+			if(typeof callback === "undefined"){
 				self.displayBox();
 			} else{
 				if(typeof speciesId == undefined){

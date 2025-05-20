@@ -252,8 +252,6 @@ require_once 'header.php';
     <p><a href="https://gobattlelog.com/pvpoke" target="_blank">回報天梯對手資訊(英文)：gobattlelog.com</a>.</p>
 
     <div class="ranking-checks flex">
-        <div class="check <?php if($_SETTINGS->xls): echo "on"; endif; ?> xl" style="margin-bottom:15px;"><span></span>排名包含XL寶可夢</div>
-
         <div class="check move-counts" style="margin-bottom:15px;"><span></span>顯示一般招式使用次數</div>
     </div>
 

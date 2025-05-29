@@ -1,3 +1,9 @@
+<?php require_once 'header.php';
+// This project is supported by JetBrains Open Source Development License.
+// JetBrains provides professional tools to help open-source projects like this one thrive.
+// Learn more about JetBrains Open Source support: https://jb.gg/OpenSourceSupport
+?>
+
 <div class="section home white">
 
 	<p>歡迎來到 PvPokeTW.com! 這是一個基於 <a href="https://pvpoke.com/">pvpoke.com</a> 的非官方繁中翻譯版，針對 Pokemon GO PVP(玩家間對戰) 的開源平台。</p>

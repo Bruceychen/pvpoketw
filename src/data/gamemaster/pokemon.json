@@ -37507,7 +37507,7 @@
     "tags": ["legendary"],
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": false
+    "released": true
 }, {
     "dex": 888,
     "speciesName": "蒼響 百戰勇者",
@@ -37551,7 +37551,7 @@
     "tags": ["legendary"],
     "buddyDistance": 20,
     "thirdMoveCost": 100000,
-    "released": false
+    "released": true
 }, {
     "dex": 889,
     "speciesName": "藏瑪然特 百戰勇者",

@@ -1,5 +1,33 @@
 [
 	{
+		"title": "Sunshine Cup",
+		"cup": "sunshine",
+		"cp": 1500,
+		"meta": "sunshine",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true,
+		"rules": [
+			"Pokémon must be at or below 1,500 CP to enter.",
+			"Only Normal-, Fire-, Grass-, and Ground-type Pokémon are eligible.",
+			"Charizard is not allowed."
+		]
+	},
+	{
+		"title": "Fossil Cup",
+		"cup": "fossil",
+		"cp": 1500,
+		"meta": "fossil",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true,
+		"rules": [
+			"Pokémon must be at or below 1,500 CP to enter.",
+			"Only Water-, Rock-, and Steel-type Pokémon are eligible.",
+			"Charizard is not allowed."
+		]
+	},
+	{
 		"title": "Master League (Classic)",
 		"cup": "classic",
 		"cp": 10000,
@@ -17,22 +45,10 @@
 		"showCup": true,
 		"showFormat": true,
 		"showMeta": true,
+		"hideRankings": true,
 		"rules": [
 			"No CP limit.",
 			"Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible."
-		]
-	},
-	{
-		"title": "Catch Cup",
-		"cup": "catch",
-		"cp": 1500,
-		"meta": "catch",
-		"showCup": true,
-		"showFormat": true,
-		"showMeta": true,
-		"rules": [
-			"Pokémon must be at or below 1,500 CP to enter.",
-			"Only Pokémon caught during the Might and Mastery Season are eligible."
 		]
 	},
 	{
@@ -81,15 +97,6 @@
 		"showFormat": true,
 		"showMeta": true
 	},
-	{
-        "title": "Spice Bowl",
-        "cup": "spicebowl",
-        "cp": 1500,
-        "meta": "spicebowl",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    },
 	{
 		"title": "Devon Rivalry Cup",
 		"cup": "rivalry",

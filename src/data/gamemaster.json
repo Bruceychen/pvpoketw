@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-05-30 01:34:49",
+    "timestamp": "2025-06-03 22:59:33",
     "settings": {
         "partySize": 3,
         "maxBuffStages": 4,
@@ -140,6 +140,19 @@
         "title": "自訂排名",
         "include": [],
         "exclude": []
+    }, {
+        "name": "fossil",
+        "title": "化石盃",
+        "include": [{
+            "filterType": "type",
+            "values": ["water", "rock", "steel"]
+        }],
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["mega"]
+        }],
+        "partySize": 3,
+        "presetOnly": true
     }, {
         "name": "gbinvitational",
         "title": "Gymbreakers Invitational Remix",
@@ -375,22 +388,6 @@
             "values": ["jumpluff", "clodsire", "mandibuzz", "malamar", "lapras", "corsola_galarian", "tinkaton", "sableye", "dusknoir", "feraligatr", "corviknight", "weezing_galarian", "grumpig", "diggersby", "primeape", "carbink", "azumarill", "pangoro", "annihilape", "gastrodon", "jellicent", "machoke", "steelix", "toxapex", "morpeko_full_belly", "golurk", "bastiodon", "tinkatuff", "claydol", "clefable", "furret", "stunfisk", "togedemaru", "golisopod", "emolga", "marowak", "sandslash_alolan", "quagsire", "drapion", "guzzlord", "dachsbun", "marowak_alolan", "cradily", "aurorus", "medicham", "machamp", "swalot", "spiritomb", "runerigus", "blastoise", "ninetales_alolan", "registeel", "drifblim", "serperior", "wigglytuff", "talonflame", "umbreon", "lickitung", "dewgong", "lickilicky", "dunsparce", "klefki", "gogoat", "chansey", "skarmory", "blissey", "mudbray", "mudsdale", "skiddo"]
         }]
     }, {
-        "name": "spring",
-        "title": "春日盃",
-        "include": [{
-            "filterType": "type",
-            "values": ["water", "grass", "fairy"]
-        }],
-        "exclude": [{
-            "filterType": "tag",
-            "values": ["mega"]
-        }, {
-            "filterType": "id",
-            "values": ["jumpluff", "roserade", "toxapex"]
-        }],
-        "partySize": 3,
-        "presetOnly": true
-    }, {
         "name": "stygian",
         "title": "Devon Stygian Cup",
         "include": [{
@@ -416,6 +413,22 @@
         "useDefaultMovesets": 1,
         "levelCap": 50,
         "includeLowStatProduct": true
+    }, {
+        "name": "sunshine",
+        "title": "陽光盃",
+        "include": [{
+            "filterType": "type",
+            "values": ["normal", "fire", "ground", "grass"]
+        }],
+        "exclude": [{
+            "filterType": "tag",
+            "values": ["mega"]
+        }, {
+            "filterType": "id",
+            "values": ["charizard"]
+        }],
+        "partySize": 3,
+        "presetOnly": true
     }, {
         "name": "tempo",
         "title": "Tempo Cup",
@@ -509,6 +522,24 @@
         "partySize": 3
     }],
     "formats": [{
+        "title": "陽光盃",
+        "cup": "sunshine",
+        "cp": 1500,
+        "meta": "sunshine",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true,
+        "rules": ["Pok\u00e9mon must be at or below 1,500 CP to enter.", "Only Normal-, Fire-, Grass-, and Ground-type Pok\u00e9mon are eligible.", "Charizard is not allowed."]
+    }, {
+        "title": "化石盃",
+        "cup": "fossil",
+        "cp": 1500,
+        "meta": "fossil",
+        "showCup": true,
+        "showFormat": true,
+        "showMeta": true,
+        "rules": ["Pok\u00e9mon must be at or below 1,500 CP to enter.", "Only Water-, Rock-, and Steel-type Pok\u00e9mon are eligible.", "Charizard is not allowed."]
+    }, {
         "title": "大師經典賽 (XL 禁止)",
         "cup": "classic",
         "cp": 10000,
@@ -525,16 +556,8 @@
         "showCup": true,
         "showFormat": true,
         "showMeta": true,
+        "hideRankings": true,
         "rules": ["No CP limit.", "Legendary Pok\u00e9mon, Mythical Pok\u00e9mon, and Ultra Beasts are not eligible."]
-    }, {
-        "title": "速成盃",
-        "cup": "catch",
-        "cp": 1500,
-        "meta": "catch",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true,
-        "rules": ["Pok\u00e9mon must be at or below 1,500 CP to enter.", "Only Pok\u00e9mon caught during the Might and Mastery Season are eligible."]
     }, {
         "title": "P!P Championship Series",
         "cup": "all",
@@ -573,14 +596,6 @@
         "cup": "battlefrontiermaster",
         "cp": 10000,
         "meta": "battlefrontiermaster",
-        "showCup": true,
-        "showFormat": true,
-        "showMeta": true
-    }, {
-        "title": "Spice Bowl",
-        "cup": "spicebowl",
-        "cp": 1500,
-        "meta": "spicebowl",
         "showCup": true,
         "showFormat": true,
         "showMeta": true
@@ -1551,7 +1566,7 @@
             "hp": 163
         },
         "types": ["bug", "poison"],
-        "fastMoves": ["BUG_BITE", "INFESTATION", "POISON_JAB"],
+        "fastMoves": ["BUG_BITE", "INFESTATION", "POISON_JAB", "POISON_STING"],
         "chargedMoves": ["AERIAL_ACE", "SLUDGE_BOMB", "X_SCISSOR", "FELL_STINGER", "DRILL_RUN"],
         "defaultIVs": {
             "cp500": [10, 5, 15, 14],
@@ -1579,7 +1594,7 @@
             "hp": 163
         },
         "types": ["bug", "poison"],
-        "fastMoves": ["BUG_BITE", "INFESTATION", "POISON_JAB"],
+        "fastMoves": ["BUG_BITE", "INFESTATION", "POISON_JAB", "POISON_STING"],
         "chargedMoves": ["AERIAL_ACE", "SLUDGE_BOMB", "X_SCISSOR", "FELL_STINGER", "DRILL_RUN"],
         "defaultIVs": {
             "cp500": [5.5, 8, 15, 15],
@@ -1606,7 +1621,7 @@
             "hp": 163
         },
         "types": ["bug", "poison"],
-        "fastMoves": ["BUG_BITE", "INFESTATION", "POISON_JAB"],
+        "fastMoves": ["BUG_BITE", "INFESTATION", "POISON_JAB", "POISON_STING"],
         "chargedMoves": ["AERIAL_ACE", "SLUDGE_BOMB", "X_SCISSOR", "FELL_STINGER", "DRILL_RUN"],
         "defaultIVs": {
             "cp500": [10, 5, 15, 14],
@@ -2127,7 +2142,7 @@
             "hp": 155
         },
         "types": ["poison", "none"],
-        "fastMoves": ["ACID", "BITE", "DRAGON_TAIL"],
+        "fastMoves": ["ACID", "BITE", "DRAGON_TAIL", "POISON_STING"],
         "chargedMoves": ["DARK_PULSE", "GUNK_SHOT", "SLUDGE_WAVE", "ACID_SPRAY"],
         "defaultIVs": {
             "cp500": [10, 4, 10, 9],
@@ -2153,7 +2168,7 @@
             "hp": 155
         },
         "types": ["poison", "none"],
-        "fastMoves": ["ACID", "BITE", "DRAGON_TAIL"],
+        "fastMoves": ["ACID", "BITE", "DRAGON_TAIL", "POISON_STING"],
         "chargedMoves": ["DARK_PULSE", "GUNK_SHOT", "SLUDGE_WAVE", "ACID_SPRAY"],
         "defaultIVs": {
             "cp500": [10, 4, 10, 9],
@@ -2389,7 +2404,7 @@
         },
         "types": ["electric", "none"],
         "fastMoves": ["SPARK", "THUNDER_SHOCK", "VOLT_SWITCH", "CHARM"],
-        "chargedMoves": ["BRICK_BREAK", "THUNDER", "THUNDER_PUNCH", "WILD_CHARGE", "SKULL_BASH", "TRAILBLAZE"],
+        "chargedMoves": ["BRICK_BREAK", "THUNDER", "THUNDER_PUNCH", "WILD_CHARGE", "SKULL_BASH", "TRAILBLAZE", "SURF"],
         "defaultIVs": {
             "cp500": [8.5, 4, 15, 13],
             "cp1500": [25.5, 5, 13, 13],
@@ -2415,7 +2430,7 @@
         },
         "types": ["electric", "psychic"],
         "fastMoves": ["SPARK", "VOLT_SWITCH", "THUNDER_SHOCK"],
-        "chargedMoves": ["PSYCHIC", "THUNDER_PUNCH", "WILD_CHARGE", "GRASS_KNOT", "TRAILBLAZE"],
+        "chargedMoves": ["PSYCHIC", "THUNDER_PUNCH", "WILD_CHARGE", "GRASS_KNOT", "TRAILBLAZE", "SURF"],
         "tags": ["alolan"],
         "defaultIVs": {
             "cp500": [8, 9, 14, 15],
@@ -2772,7 +2787,7 @@
             "hp": 207
         },
         "types": ["poison", "ground"],
-        "fastMoves": ["BITE", "POISON_JAB"],
+        "fastMoves": ["BITE", "POISON_JAB", "POISON_STING"],
         "chargedMoves": ["EARTHQUAKE", "SLUDGE_WAVE", "STONE_EDGE", "EARTH_POWER", "POISON_FANG"],
         "defaultIVs": {
             "cp500": [7.5, 9, 11, 14],
@@ -2801,7 +2816,7 @@
             "hp": 207
         },
         "types": ["poison", "ground"],
-        "fastMoves": ["BITE", "POISON_JAB"],
+        "fastMoves": ["BITE", "POISON_JAB", "POISON_STING"],
         "chargedMoves": ["EARTHQUAKE", "SLUDGE_WAVE", "STONE_EDGE", "EARTH_POWER", "POISON_FANG"],
         "defaultIVs": {
             "cp500": [7.5, 9, 11, 14],
@@ -2935,7 +2950,7 @@
             "hp": 191
         },
         "types": ["poison", "ground"],
-        "fastMoves": ["FURY_CUTTER", "IRON_TAIL", "POISON_JAB", "DOUBLE_KICK"],
+        "fastMoves": ["FURY_CUTTER", "IRON_TAIL", "POISON_JAB", "DOUBLE_KICK", "POISON_STING"],
         "chargedMoves": ["EARTHQUAKE", "MEGAHORN", "SLUDGE_WAVE", "EARTH_POWER", "SAND_TOMB"],
         "defaultIVs": {
             "cp500": [7.5, 5, 8, 12],
@@ -2963,7 +2978,7 @@
             "hp": 191
         },
         "types": ["poison", "ground"],
-        "fastMoves": ["FURY_CUTTER", "IRON_TAIL", "POISON_JAB", "DOUBLE_KICK"],
+        "fastMoves": ["FURY_CUTTER", "IRON_TAIL", "POISON_JAB", "DOUBLE_KICK", "POISON_STING"],
         "chargedMoves": ["EARTHQUAKE", "MEGAHORN", "SLUDGE_WAVE", "EARTH_POWER", "SAND_TOMB"],
         "defaultIVs": {
             "cp500": [7.5, 5, 8, 12],
@@ -3987,7 +4002,7 @@
             "hp": 137
         },
         "types": ["steel", "none"],
-        "fastMoves": ["SCRATCH", "METAL_CLAW"],
+        "fastMoves": ["SCRATCH", "METAL_CLAW", "METAL_SOUND"],
         "chargedMoves": ["NIGHT_SLASH", "GYRO_BALL", "DIG", "TRAILBLAZE"],
         "tags": ["galarian"],
         "defaultIVs": {
@@ -5209,7 +5224,7 @@
             "hp": 190
         },
         "types": ["water", "poison"],
-        "fastMoves": ["ACID", "POISON_JAB"],
+        "fastMoves": ["ACID", "POISON_JAB", "POISON_STING"],
         "chargedMoves": ["BLIZZARD", "HYDRO_PUMP", "SLUDGE_WAVE", "ACID_SPRAY", "SCALD"],
         "defaultIVs": {
             "cp500": [8, 4, 5, 13],
@@ -5238,7 +5253,7 @@
             "hp": 190
         },
         "types": ["water", "poison"],
-        "fastMoves": ["ACID", "POISON_JAB"],
+        "fastMoves": ["ACID", "POISON_JAB", "POISON_STING"],
         "chargedMoves": ["BLIZZARD", "HYDRO_PUMP", "SLUDGE_WAVE", "ACID_SPRAY", "SCALD"],
         "defaultIVs": {
             "cp500": [8, 4, 5, 13],
@@ -7447,7 +7462,7 @@
         },
         "types": ["normal", "none"],
         "fastMoves": ["LICK", "ZEN_HEADBUTT"],
-        "chargedMoves": ["HYPER_BEAM", "POWER_WHIP", "STOMP", "BODY_SLAM"],
+        "chargedMoves": ["HYPER_BEAM", "POWER_WHIP", "STOMP", "BODY_SLAM", "WRAP"],
         "defaultIVs": {
             "cp500": [14, 4, 14, 5],
             "cp1500": [50, 9, 14, 11],
@@ -9143,7 +9158,7 @@
         },
         "types": ["psychic", "flying"],
         "fastMoves": ["CONFUSION", "PSYCHO_CUT"],
-        "chargedMoves": ["FUTURE_SIGHT", "ANCIENT_POWER", "BRAVE_BIRD"],
+        "chargedMoves": ["FUTURE_SIGHT", "ANCIENT_POWER", "BRAVE_BIRD", "FLY"],
         "tags": ["legendary", "galarian", "wildlegendary"],
         "defaultIVs": {
             "cp500": [5.5, 4, 6, 9],
@@ -9210,7 +9225,7 @@
         },
         "types": ["fighting", "flying"],
         "fastMoves": ["COUNTER"],
-        "chargedMoves": ["CLOSE_COMBAT", "ANCIENT_POWER", "BRAVE_BIRD"],
+        "chargedMoves": ["CLOSE_COMBAT", "ANCIENT_POWER", "BRAVE_BIRD", "FLY"],
         "tags": ["legendary", "galarian", "wildlegendary"],
         "defaultIVs": {
             "cp500": [5.5, 4, 8, 13],
@@ -9276,7 +9291,7 @@
         },
         "types": ["dark", "flying"],
         "fastMoves": ["SUCKER_PUNCH", "WING_ATTACK"],
-        "chargedMoves": ["PAYBACK", "ANCIENT_POWER", "BRAVE_BIRD"],
+        "chargedMoves": ["PAYBACK", "ANCIENT_POWER", "BRAVE_BIRD", "FLY"],
         "tags": ["legendary", "galarian", "wildlegendary"],
         "defaultIVs": {
             "cp500": [6, 6, 15, 14],
@@ -11988,7 +12003,7 @@
             "cp1500": [37.5, 4, 15, 12],
             "cp2500": [50, 15, 15, 15]
         },
-        "searchPriority": 12,
+        "searchPriority": 5,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true
@@ -12346,7 +12361,7 @@
             "cp2500": [30.5, 7, 13, 15]
         },
         "tags": ["shadow"],
-        "searchPriority": 6,
+        "searchPriority": 7,
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
@@ -13943,7 +13958,7 @@
         },
         "types": ["psychic", "flying"],
         "fastMoves": ["DRAGON_TAIL", "EXTRASENSORY"],
-        "chargedMoves": ["FUTURE_SIGHT", "HYDRO_PUMP", "SKY_ATTACK", "AEROBLAST"],
+        "chargedMoves": ["FUTURE_SIGHT", "HYDRO_PUMP", "SKY_ATTACK", "AEROBLAST", "FLY"],
         "eliteMoves": ["AEROBLAST"],
         "tags": ["legendary", "shadoweligible"],
         "defaultIVs": {
@@ -13966,7 +13981,7 @@
         },
         "types": ["psychic", "flying"],
         "fastMoves": ["DRAGON_TAIL", "EXTRASENSORY"],
-        "chargedMoves": ["FUTURE_SIGHT", "HYDRO_PUMP", "SKY_ATTACK", "AEROBLAST"],
+        "chargedMoves": ["FUTURE_SIGHT", "HYDRO_PUMP", "SKY_ATTACK", "AEROBLAST", "FLY"],
         "eliteMoves": ["AEROBLAST"],
         "tags": ["legendary", "shadow"],
         "defaultIVs": {
@@ -16401,7 +16416,7 @@
             "hp": 137
         },
         "types": ["steel", "rock"],
-        "fastMoves": ["METAL_CLAW", "TACKLE"],
+        "fastMoves": ["METAL_CLAW", "TACKLE", "METAL_SOUND"],
         "chargedMoves": ["BODY_SLAM", "IRON_HEAD", "ROCK_TOMB"],
         "defaultIVs": {
             "cp500": [15, 5, 7, 12],
@@ -16427,7 +16442,7 @@
             "hp": 137
         },
         "types": ["steel", "rock"],
-        "fastMoves": ["METAL_CLAW", "TACKLE"],
+        "fastMoves": ["METAL_CLAW", "TACKLE", "METAL_SOUND"],
         "chargedMoves": ["BODY_SLAM", "IRON_HEAD", "ROCK_TOMB"],
         "defaultIVs": {
             "cp500": [15, 5, 7, 12],
@@ -16452,7 +16467,7 @@
             "hp": 155
         },
         "types": ["steel", "rock"],
-        "fastMoves": ["IRON_TAIL", "METAL_CLAW"],
+        "fastMoves": ["IRON_TAIL", "METAL_CLAW", "METAL_SOUND"],
         "chargedMoves": ["BODY_SLAM", "HEAVY_SLAM", "ROCK_SLIDE", "ROCK_TOMB"],
         "defaultIVs": {
             "cp500": [9, 6, 15, 13],
@@ -16479,7 +16494,7 @@
             "hp": 155
         },
         "types": ["steel", "rock"],
-        "fastMoves": ["IRON_TAIL", "METAL_CLAW"],
+        "fastMoves": ["IRON_TAIL", "METAL_CLAW", "METAL_SOUND"],
         "chargedMoves": ["BODY_SLAM", "HEAVY_SLAM", "ROCK_SLIDE", "ROCK_TOMB"],
         "defaultIVs": {
             "cp500": [9, 6, 15, 13],
@@ -16505,7 +16520,7 @@
             "hp": 172
         },
         "types": ["steel", "rock"],
-        "fastMoves": ["DRAGON_TAIL", "IRON_TAIL", "SMACK_DOWN"],
+        "fastMoves": ["DRAGON_TAIL", "IRON_TAIL", "SMACK_DOWN", "METAL_SOUND"],
         "chargedMoves": ["HEAVY_SLAM", "STONE_EDGE", "THUNDER", "ROCK_TOMB", "METEOR_BEAM"],
         "defaultIVs": {
             "cp500": [6.5, 4, 7, 12],
@@ -16531,7 +16546,7 @@
             "hp": 172
         },
         "types": ["steel", "none"],
-        "fastMoves": ["DRAGON_TAIL", "IRON_TAIL", "SMACK_DOWN"],
+        "fastMoves": ["DRAGON_TAIL", "IRON_TAIL", "SMACK_DOWN", "METAL_SOUND"],
         "chargedMoves": ["HEAVY_SLAM", "STONE_EDGE", "THUNDER", "ROCK_TOMB", "METEOR_BEAM"],
         "tags": ["shadoweligible", "mega"],
         "defaultIVs": {
@@ -16553,7 +16568,7 @@
             "hp": 172
         },
         "types": ["steel", "rock"],
-        "fastMoves": ["DRAGON_TAIL", "IRON_TAIL", "SMACK_DOWN"],
+        "fastMoves": ["DRAGON_TAIL", "IRON_TAIL", "SMACK_DOWN", "METAL_SOUND"],
         "chargedMoves": ["HEAVY_SLAM", "STONE_EDGE", "THUNDER", "ROCK_TOMB", "METEOR_BEAM"],
         "defaultIVs": {
             "cp500": [6.5, 4, 7, 12],
@@ -18313,7 +18328,7 @@
         },
         "types": ["water", "none"],
         "fastMoves": ["DRAGON_TAIL", "WATERFALL"],
-        "chargedMoves": ["BLIZZARD", "HYPER_BEAM", "SURF"],
+        "chargedMoves": ["BLIZZARD", "HYPER_BEAM", "SURF", "WRAP"],
         "defaultIVs": {
             "cp500": [6.5, 5, 8, 9],
             "cp1500": [18.5, 5, 11, 14],
@@ -18987,7 +19002,7 @@
         },
         "types": ["ice", "water"],
         "fastMoves": ["POWDER_SNOW", "WATER_GUN"],
-        "chargedMoves": ["AURORA_BEAM", "BODY_SLAM", "WATER_PULSE"],
+        "chargedMoves": ["AURORA_BEAM", "BODY_SLAM", "WATER_PULSE", "SURF"],
         "defaultIVs": {
             "cp500": [11, 5, 15, 11],
             "cp1500": [36.5, 4, 15, 11],
@@ -19015,7 +19030,7 @@
         },
         "types": ["ice", "water"],
         "fastMoves": ["POWDER_SNOW", "WATER_GUN"],
-        "chargedMoves": ["AURORA_BEAM", "BODY_SLAM", "WATER_PULSE"],
+        "chargedMoves": ["AURORA_BEAM", "BODY_SLAM", "WATER_PULSE", "SURF"],
         "defaultIVs": {
             "cp500": [11, 5, 15, 11],
             "cp1500": [36.5, 4, 15, 11],
@@ -19443,7 +19458,7 @@
             "hp": 155
         },
         "types": ["steel", "psychic"],
-        "fastMoves": ["METAL_CLAW", "ZEN_HEADBUTT"],
+        "fastMoves": ["METAL_CLAW", "ZEN_HEADBUTT", "FURY_CUTTER"],
         "chargedMoves": ["GYRO_BALL", "PSYCHIC", "PSYSHOCK"],
         "defaultIVs": {
             "cp500": [11, 6, 8, 15],
@@ -19455,6 +19470,7 @@
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
         "released": true,
+        "searchPriority": 5,
         "family": {
             "id": "FAMILY_BELDUM",
             "parent": "beldum",
@@ -19470,7 +19486,7 @@
             "hp": 155
         },
         "types": ["steel", "psychic"],
-        "fastMoves": ["METAL_CLAW", "ZEN_HEADBUTT"],
+        "fastMoves": ["METAL_CLAW", "ZEN_HEADBUTT", "FURY_CUTTER"],
         "chargedMoves": ["GYRO_BALL", "PSYCHIC", "PSYSHOCK"],
         "defaultIVs": {
             "cp500": [11, 6, 8, 15],
@@ -19496,7 +19512,7 @@
             "hp": 190
         },
         "types": ["steel", "psychic"],
-        "fastMoves": ["BULLET_PUNCH", "ZEN_HEADBUTT"],
+        "fastMoves": ["BULLET_PUNCH", "ZEN_HEADBUTT", "FURY_CUTTER"],
         "chargedMoves": ["EARTHQUAKE", "FLASH_CANNON", "METEOR_MASH", "PSYCHIC"],
         "defaultIVs": {
             "cp500": [5, 12, 15, 10],
@@ -19524,7 +19540,7 @@
             "hp": 190
         },
         "types": ["steel", "psychic"],
-        "fastMoves": ["BULLET_PUNCH", "ZEN_HEADBUTT"],
+        "fastMoves": ["BULLET_PUNCH", "ZEN_HEADBUTT", "FURY_CUTTER"],
         "chargedMoves": ["EARTHQUAKE", "FLASH_CANNON", "METEOR_MASH", "PSYCHIC"],
         "defaultIVs": {
             "cp500": [5, 12, 15, 10],
@@ -20079,7 +20095,7 @@
             "cp2500": [50, 11, 13, 14],
             "cp2500l40": [40, 15, 15, 15]
         },
-        "searchPriority": 5,
+        "searchPriority": 3,
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true,
@@ -21717,7 +21733,7 @@
             "cp2500l40": [40, 15, 15, 15]
         },
         "tags": ["regional"],
-        "searchPriority": 9,
+        "searchPriority": 7,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true
@@ -23008,7 +23024,7 @@
             "hp": 195
         },
         "types": ["poison", "fighting"],
-        "fastMoves": ["COUNTER", "POISON_JAB", "MUD_SHOT"],
+        "fastMoves": ["COUNTER", "POISON_JAB", "MUD_SHOT", "POISON_STING"],
         "chargedMoves": ["DYNAMIC_PUNCH", "MUD_BOMB", "SLUDGE_BOMB", "SHADOW_BALL"],
         "defaultIVs": {
             "cp500": [7.5, 5, 13, 15],
@@ -23016,7 +23032,7 @@
             "cp2500": [44, 6, 15, 13],
             "cp2500l40": [40, 15, 15, 15]
         },
-        "searchPriority": 2,
+        "searchPriority": 3,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -23037,7 +23053,7 @@
             "hp": 195
         },
         "types": ["poison", "fighting"],
-        "fastMoves": ["COUNTER", "POISON_JAB", "MUD_SHOT"],
+        "fastMoves": ["COUNTER", "POISON_JAB", "MUD_SHOT", "POISON_STING"],
         "chargedMoves": ["DYNAMIC_PUNCH", "MUD_BOMB", "SLUDGE_BOMB", "SHADOW_BALL"],
         "defaultIVs": {
             "cp500": [7.5, 5, 13, 15],
@@ -23045,7 +23061,6 @@
             "cp2500": [44, 6, 15, 13],
             "cp2500l40": [40, 15, 15, 15]
         },
-        "searchPriority": 9,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -27237,7 +27252,7 @@
             "hp": 155
         },
         "types": ["bug", "poison"],
-        "fastMoves": ["BUG_BITE", "POISON_JAB"],
+        "fastMoves": ["BUG_BITE", "POISON_JAB", "POISON_STING"],
         "chargedMoves": ["MEGAHORN", "SLUDGE_BOMB", "GYRO_BALL", "X_SCISSOR"],
         "defaultIVs": {
             "cp500": [7.5, 12, 14, 11],
@@ -27264,7 +27279,7 @@
             "hp": 155
         },
         "types": ["bug", "poison"],
-        "fastMoves": ["BUG_BITE", "POISON_JAB"],
+        "fastMoves": ["BUG_BITE", "POISON_JAB", "POISON_STING"],
         "chargedMoves": ["MEGAHORN", "SLUDGE_BOMB", "GYRO_BALL", "X_SCISSOR"],
         "defaultIVs": {
             "cp500": [7.5, 12, 14, 11],
@@ -32684,6 +32699,7 @@
             "cp1500": [30.5, 5, 14, 15],
             "cp2500": [50, 15, 15, 15]
         },
+        "searchPriority": 6,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true
@@ -34354,6 +34370,7 @@
             "cp1500": [33.5, 4, 15, 8],
             "cp2500": [50, 15, 15, 15]
         },
+        "searchPriority": 3,
         "buddyDistance": 3,
         "thirdMoveCost": 50000,
         "released": true,
@@ -34737,7 +34754,32 @@
             "cp1500": [17.5, 6, 13, 11],
             "cp2500": [29.5, 4, 10, 13]
         },
-        "searchPriority": 4,
+        "searchPriority": 8,
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_WIMPOD",
+            "parent": "wimpod"
+        }
+    }, {
+        "dex": 768,
+        "speciesName": "具甲武者",
+        "speciesId": "golisopodsh",
+        "baseStats": {
+            "atk": 218,
+            "def": 226,
+            "hp": 181
+        },
+        "types": ["bug", "water"],
+        "fastMoves": ["FURY_CUTTER", "METAL_CLAW", "WATERFALL", "SHADOW_CLAW"],
+        "chargedMoves": ["X_SCISSOR", "AQUA_JET", "AERIAL_ACE", "LIQUIDATION", "RAZOR_SHELL"],
+        "defaultIVs": {
+            "cp500": [6, 8, 15, 10],
+            "cp1500": [17.5, 6, 13, 11],
+            "cp2500": [29.5, 4, 10, 13]
+        },
+        "tags": ["duplicate", "duplicate1500"],
         "buddyDistance": 1,
         "thirdMoveCost": 10000,
         "released": true,
@@ -35377,8 +35419,8 @@
             "hp": 172
         },
         "types": ["ghost", "grass"],
-        "fastMoves": ["ASTONISH", "SHADOW_CLAW"],
-        "chargedMoves": ["POWER_WHIP", "SHADOW_BALL", "HEAVY_SLAM"],
+        "fastMoves": ["ASTONISH", "SHADOW_CLAW", "METAL_SOUND"],
+        "chargedMoves": ["POWER_WHIP", "SHADOW_BALL", "HEAVY_SLAM", "WRAP"],
         "defaultIVs": {
             "cp500": [6.5, 6, 11, 10],
             "cp1500": [20, 1, 4, 4],
@@ -35644,13 +35686,14 @@
             "hp": 264
         },
         "types": ["psychic", "ghost"],
-        "fastMoves": ["CONFUSION", "AIR_SLASH"],
+        "fastMoves": ["CONFUSION", "AIR_SLASH", "SHADOW_CLAW"],
         "chargedMoves": ["SHADOW_BALL", "PSYCHIC", "MOONBLAST", "FUTURE_SIGHT"],
         "defaultIVs": {
             "cp500": [4.5, 15, 13, 15],
             "cp1500": [13.5, 6, 14, 12],
             "cp2500": [22.5, 7, 13, 13]
         },
+        "searchPriority": 3,
         "tags": ["legendary"],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
@@ -37494,7 +37537,7 @@
             "hp": 172
         },
         "types": ["steel", "none"],
-        "fastMoves": ["METAL_CLAW", "SHADOW_CLAW"],
+        "fastMoves": ["METAL_CLAW", "SHADOW_CLAW", "METAL_SOUND"],
         "chargedMoves": ["IRON_HEAD", "CLOSE_COMBAT", "PLAY_ROUGH", "FOUL_PLAY", "TRAILBLAZE"],
         "defaultIVs": {
             "cp500": [8, 4, 12, 10],
@@ -38434,7 +38477,7 @@
         "chargedMoves": ["HYPER_BEAM", "OUTRAGE", "DRAGON_PULSE", "BREAKING_SWIPE"],
         "defaultIVs": {
             "cp500": [6.5, 4, 12, 11],
-            "cp1500": [1, 0, 0, 0],
+            "cp1500": [20, 2, 4, 4],
             "cp2500": [31.5, 6, 15, 13]
         },
         "tags": ["legendary"],
@@ -38562,7 +38605,7 @@
             "cp2500": [29, 6, 13, 14]
         },
         "types": ["bug", "rock"],
-        "fastMoves": ["QUICK_ATTACK", "AIR_SLASH"],
+        "fastMoves": ["QUICK_ATTACK", "AIR_SLASH", "FURY_CUTTER"],
         "chargedMoves": ["X_SCISSOR", "ROCK_SLIDE", "STONE_EDGE", "TRAILBLAZE"],
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
@@ -38923,7 +38966,7 @@
             "hp": 232
         },
         "types": ["fire", "ghost"],
-        "fastMoves": ["INCINERATE", "BITE"],
+        "fastMoves": ["INCINERATE", "BITE", "HEX"],
         "chargedMoves": ["FLAMETHROWER", "DISARMING_VOICE", "CRUNCH", "SHADOW_BALL", "BLAST_BURN", "TORCH_SONG"],
         "eliteMoves": ["BLAST_BURN"],
         "defaultIVs": {
@@ -39196,7 +39239,7 @@
             "hp": 128
         },
         "types": ["electric", "none"],
-        "fastMoves": ["SPARK", "CHARGE_BEAM"],
+        "fastMoves": ["SPARK", "CHARGE_BEAM", "THUNDER_SHOCK"],
         "chargedMoves": ["THUNDERBOLT", "DISCHARGE", "WILD_CHARGE"],
         "defaultIVs": {
             "cp500": [31, 5, 15, 12],
@@ -39220,7 +39263,7 @@
             "hp": 155
         },
         "types": ["electric", "fighting"],
-        "fastMoves": ["SPARK", "CHARGE_BEAM"],
+        "fastMoves": ["SPARK", "CHARGE_BEAM", "THUNDER_SHOCK"],
         "chargedMoves": ["THUNDERBOLT", "DISCHARGE", "WILD_CHARGE", "THUNDER_PUNCH"],
         "defaultIVs": {
             "cp500": [14.5, 6, 15, 10],
@@ -39245,7 +39288,7 @@
             "hp": 172
         },
         "types": ["electric", "fighting"],
-        "fastMoves": ["SPARK", "CHARGE_BEAM", "LOW_KICK"],
+        "fastMoves": ["SPARK", "CHARGE_BEAM", "LOW_KICK", "THUNDER_SHOCK"],
         "chargedMoves": ["THUNDERBOLT", "DISCHARGE", "WILD_CHARGE", "CLOSE_COMBAT", "THUNDER_PUNCH", "BRICK_BREAK"],
         "eliteMoves": ["BRICK_BREAK"],
         "defaultIVs": {
@@ -39765,6 +39808,7 @@
             "cp1500": [21, 4, 11, 15],
             "cp2500": [40, 4, 12, 15]
         },
+        "searchPriority": 3,
         "buddyDistance": 1,
         "thirdMoveCost": 50000,
         "released": true,
@@ -40435,7 +40479,7 @@
             "hp": 128
         },
         "types": ["steel", "poison"],
-        "fastMoves": ["LICK", "POISON_JAB"],
+        "fastMoves": ["LICK", "POISON_JAB", "METAL_SOUND"],
         "chargedMoves": ["ACID_SPRAY", "GUNK_SHOT", "GYRO_BALL"],
         "defaultIVs": {
             "cp500": [17, 4, 12, 13],
@@ -40459,7 +40503,7 @@
             "hp": 190
         },
         "types": ["steel", "poison"],
-        "fastMoves": ["LICK", "POISON_JAB"],
+        "fastMoves": ["LICK", "POISON_JAB", "METAL_SOUND"],
         "chargedMoves": ["ACID_SPRAY", "GUNK_SHOT", "GYRO_BALL", "OVERHEAT"],
         "defaultIVs": {
             "cp500": [6.5, 5, 9, 13],
@@ -41382,7 +41426,7 @@
         },
         "types": ["steel", "ghost"],
         "fastMoves": ["ASTONISH", "HEX"],
-        "chargedMoves": ["SHADOW_BALL", "DAZZLING_GLEAM", "FOCUS_BLAST"],
+        "chargedMoves": ["SHADOW_BALL", "DAZZLING_GLEAM", "FOCUS_BLAST", "POWER_GEM"],
         "defaultIVs": {
             "cp500": [5.5, 5, 15, 9],
             "cp1500": [15.5, 6, 12, 15],
@@ -41605,9 +41649,9 @@
         "type": "poison",
         "power": 6,
         "energy": 0,
-        "energyGain": 5,
+        "energyGain": 8,
         "cooldown": 1000,
-        "archetype": "Low Quality"
+        "archetype": "Multipurpose"
     }, {
         "moveId": "ACID_SPRAY",
         "name": "酸液炸彈",
@@ -41940,11 +41984,11 @@
         "name": "蟲咬",
         "abbreviation": "BBi",
         "type": "bug",
-        "power": 3,
+        "power": 4,
         "energy": 0,
         "energyGain": 3,
         "cooldown": 500,
-        "archetype": "General"
+        "archetype": "Multipurpose"
     }, {
         "moveId": "BUG_BUZZ",
         "name": "蟲鳴",
@@ -41975,11 +42019,11 @@
         "moveId": "BULLET_PUNCH",
         "name": "子彈拳",
         "type": "steel",
-        "power": 6,
+        "power": 8,
         "energy": 0,
         "energyGain": 7,
         "cooldown": 1000,
-        "archetype": "General"
+        "archetype": "Multipurpose"
     }, {
         "moveId": "BULLET_SEED",
         "name": "種子機關槍",
@@ -42086,8 +42130,18 @@
         "cooldown": 500,
         "buffs": [0, -1],
         "buffTarget": "opponent",
-        "buffApplyChance": "0.3",
+        "buffApplyChance": "0.2",
         "archetype": "Debuff"
+    }, {
+        "moveId": "CRUSH_GRIP",
+        "name": "捏碎",
+        "abbreviation": "CrG",
+        "type": "normal",
+        "power": 110,
+        "energy": 50,
+        "energyGain": 0,
+        "cooldown": 500,
+        "archetype": "General"
     }, {
         "moveId": "CUT",
         "name": "居合斬",
@@ -42158,7 +42212,7 @@
         "moveId": "DOOM_DESIRE",
         "name": "破滅之願",
         "type": "steel",
-        "power": 75,
+        "power": 80,
         "energy": 40,
         "energyGain": 0,
         "cooldown": 500,
@@ -42168,7 +42222,7 @@
         "name": "鋼拳雙擊",
         "abbreviation": "DbI",
         "type": "steel",
-        "power": 50,
+        "power": 55,
         "energy": 35,
         "energyGain": 0,
         "cooldown": 500,
@@ -42225,6 +42279,16 @@
         "energyGain": 0,
         "cooldown": 500,
         "archetype": "Spam/Bait"
+    }, {
+        "moveId": "DRAGON_Energy",
+        "name": "巨龍威能",
+        "abbreviation": "DrE",
+        "type": "dragon",
+        "power": 100,
+        "energy": 45,
+        "energyGain": 0,
+        "cooldown": 500,
+        "archetype": "General"
     }, {
         "moveId": "DRAGON_PULSE",
         "name": "龍之波動",
@@ -42323,9 +42387,9 @@
         "type": "fire",
         "power": 7,
         "energy": 0,
-        "energyGain": 6,
+        "energyGain": 7,
         "cooldown": 1000,
-        "archetype": "Heavy Damage"
+        "archetype": "Multipurpose"
     }, {
         "moveId": "ENERGY_BALL",
         "name": "能量球",
@@ -42596,11 +42660,11 @@
         "moveId": "FURY_CUTTER",
         "name": "連斬",
         "type": "bug",
-        "power": 2,
+        "power": 3,
         "energy": 0,
         "energyGain": 4,
         "cooldown": 500,
-        "archetype": "Fast Charge"
+        "archetype": "Multipurpose"
     }, {
         "moveId": "FUSION_BOLT",
         "name": "交錯閃電",
@@ -43280,7 +43344,7 @@
         "name": "金屬音",
         "abbreviation": "MSo",
         "type": "steel",
-        "power": 3,
+        "power": 5,
         "energy": 0,
         "energyGain": 8,
         "cooldown": 1000,
@@ -43538,12 +43602,12 @@
         "abbreviation": "PbC",
         "type": "electric",
         "power": 70,
-        "energy": 50,
+        "energy": 45,
         "energyGain": 0,
         "cooldown": 500,
         "buffs": [0, 1],
         "buffTarget": "self",
-        "buffApplyChance": ".66",
+        "buffApplyChance": "1",
         "archetype": "Boost"
     }, {
         "moveId": "PAYBACK",
@@ -44462,6 +44526,19 @@
         "cooldown": 500,
         "archetype": "High Energy"
     }, {
+        "moveId": "THUNDER_CAGE",
+        "name": "雷電囚籠",
+        "abbreviation": "ThC",
+        "type": "electric",
+        "power": 60,
+        "energy": 40,
+        "energyGain": 0,
+        "cooldown": 500,
+        "buffs": [0, -1],
+        "buffTarget": "opponent",
+        "buffApplyChance": "1",
+        "archetype": "Debuff"
+    }, {
         "moveId": "THUNDER_FANG",
         "name": "雷電牙",
         "type": "electric",
@@ -44764,27 +44841,10 @@
         "energy": 45,
         "energyGain": 0,
         "cooldown": 500,
-        "archetype": "General"
-    }, {
-        "moveId": "WRAP_GREEN",
-        "name": "Wrap Green",
-        "abbreviation": "WrG",
-        "type": "normal",
-        "power": 25,
-        "energy": 45,
-        "energyGain": 0,
-        "cooldown": 500,
-        "archetype": "General"
-    }, {
-        "moveId": "WRAP_PINK",
-        "name": "Wrap Pink",
-        "abbreviation": "WrP",
-        "type": "normal",
-        "power": 25,
-        "energy": 45,
-        "energyGain": 0,
-        "cooldown": 500,
-        "archetype": "General"
+        "buffs": [0, -1],
+        "buffTarget": "opponent",
+        "buffApplyChance": "1",
+        "archetype": "Debuff"
     }, {
         "moveId": "X_SCISSOR",
         "name": "十字剪",

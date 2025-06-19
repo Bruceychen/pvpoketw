@@ -1272,6 +1272,12 @@ function PokeMultiSelect(element){
 		$el.find(".quick-fill-select option[value='"+id+"']").prop("selected", "selected");
 		$el.find(".quick-fill-select").trigger("change");
 	}
+
+	// Return the single pokeselector
+	this.getPokeSelector = function(){
+		return pokeSelector;
+	}
+
 	// 2021/10/28 原版新增搜尋字串產生功能，但仍須翻譯最佳化與調教
 	// Open the search string generation window
 

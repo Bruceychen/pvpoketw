@@ -57,7 +57,11 @@ require_once 'header.php';
 			</tr>
 		</table>
 		<input class="poke-search" context="move-search" type="text" placeholder="Search Move or Type" />
-		<table class="sortable-table stats-table moves" cellpadding="0" cellspacing="0"></table>
+		<div class="table-container">
+			<table class="sortable-table stats-table moves" cellpadding="0" cellspacing="0"></table>
+		</div>
+
+		<a href="#" class="button download-csv">Export to CSV</a>
 	</div>
 
 	<div class="move-explore-container explore hide">
@@ -106,14 +110,14 @@ require_once 'header.php';
 	</div>
 </div>
 
+<?php require_once 'modules/scripts/battle-scripts.php'; ?>
 
 <!--test 2-->
 <script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/pokemon/Pokemon.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/interface/SortableTable.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/interface/MovesInterface.js?v=<?php echo $SITE_VERSION; ?>"></script>
-<script src="<?php echo $WEB_ROOT; ?>js/battle/TimelineEvent.js?v=<?php echo $SITE_VERSION; ?>"></script>
-<script src="<?php echo $WEB_ROOT; ?>js/battle/Battle.js?v=<?php echo $SITE_VERSION; ?>"></script>
+<script src="<?php echo $WEB_ROOT; ?>js/battle/timeline/TimelineEvent.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/RankingMain.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <!--pvpoketw tools-->
 <script src="<?php echo $WEB_ROOT; ?>js/interface/TWTools.js?v=<?php echo $SITE_VERSION; ?>"></script>

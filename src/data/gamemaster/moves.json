@@ -711,7 +711,7 @@
     "archetype": "Spam/Bait",
     "turns": 1
 }, {
-    "moveId": "DRAGON_Energy",
+    "moveId": "DRAGON_ENERGY",
     "name": "巨龍威能",
     "abbreviation": "DrE",
     "type": "dragon",

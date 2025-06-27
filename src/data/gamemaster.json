@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-06-22 20:57:31",
+    "timestamp": "2025-06-27 01:09:05",
     "settings": {
         "partySize": 3,
         "maxBuffStages": 4,
@@ -110,7 +110,7 @@
         "include": [],
         "exclude": [{
             "filterType": "id",
-            "values": ["garchomp_mega", "gardevoir_mega", "groudon_primal", "gyarados_mega", "kyogre_primal", "latios_mega", "rayquaza_mega", "salamence_mega", "swampert_mega", "tyranitar_mega", "zacian_crowned_sword", "zamazenta_crowned_shield", "volcanion"]
+            "values": ["garchomp_mega", "gardevoir_mega", "groudon_primal", "gyarados_mega", "kyogre_primal", "latios_mega", "rayquaza_mega", "salamence_mega", "swampert_mega", "tyranitar_mega"]
         }],
         "tierRules": {
             "max": 11,
@@ -147,7 +147,7 @@
         "include": [],
         "exclude": [{
             "filterType": "id",
-            "values": []
+            "values": ["bellibolt", "cradily", "virizion", "lapras", "moltres_galarian", "primeape", "weezing_galarian"]
         }]
     }, {
         "name": "cascade",
@@ -700,7 +700,7 @@
         "showMeta": true,
         "hideRankings": true
     }, {
-        "title": "Battle Tower (Aurora)",
+        "title": "Battle Frontier (Aurora)",
         "cup": "aurora",
         "cp": 1500,
         "meta": "aurora",
@@ -708,7 +708,7 @@
         "showFormat": true,
         "showMeta": true
     }, {
-        "title": "Battle Tower (Onyx)",
+        "title": "Battle Frontier (Onyx)",
         "cup": "onyx",
         "cp": 1500,
         "meta": "onyx",
@@ -716,7 +716,7 @@
         "showFormat": true,
         "showMeta": true
     }, {
-        "title": "Battle Tower (Ultra)",
+        "title": "Battle Frontier (Ultra)",
         "cup": "battlefrontierultra",
         "cp": 2500,
         "meta": "ultra",
@@ -724,7 +724,7 @@
         "showFormat": true,
         "showMeta": true
     }, {
-        "title": "Battle Tower (Master)",
+        "title": "Battle Frontier (Master)",
         "cup": "battlefrontiermaster",
         "cp": 10000,
         "meta": "battlefrontiermaster",
@@ -6310,10 +6310,9 @@
             "hp": 190
         },
         "types": ["poison", "dark"],
-        "fastMoves": ["ACID", "BITE", "POISON_JAB"],
+        "fastMoves": ["BITE", "POISON_JAB"],
         "chargedMoves": ["CRUNCH", "GUNK_SHOT", "SLUDGE_BOMB"],
         "tags": ["alolan", "shadoweligible"],
-        "legacyMoves": ["ACID"],
         "defaultIVs": {
             "cp500": [14, 5, 13, 9],
             "cp1500": [49, 13, 13, 15],

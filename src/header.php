@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.33.2.7';
+$SITE_VERSION = '1.33.3.1';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -141,9 +141,9 @@ if(! isset($OG_IMAGE)){
 
 <link id="favicon" rel="icon" href="<?php echo $WEB_ROOT; ?>img/themes/sunflower/favicon.png">
 
-<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=205">
+<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/style.css?v=206">
 
-<?php if(strpos($META_TITLE, 'Train') !== false): ?>
+<?php if(strpos($META_TITLE, 'Train') !== false || strpos($META_TITLE, 'Performers') !== false): ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/train.css?v=21">
 <?php endif; ?>
 
@@ -152,7 +152,7 @@ if(! isset($OG_IMAGE)){
 <?php endif; ?>
 
 <?php if((isset($_SETTINGS->theme))&&($_SETTINGS->theme != "default")): ?>
-	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/themes/<?php echo $_SETTINGS->theme; ?>.css?v=28">
+	<link rel="stylesheet" type="text/css" href="<?php echo $WEB_ROOT; ?>css/themes/<?php echo $_SETTINGS->theme; ?>.css?v=29">
 <?php endif; ?>
 
 <script src="<?php echo $WEB_ROOT; ?>js/libs/jquery-3.3.1.min.js"></script>
@@ -249,66 +249,68 @@ if(! isset($OG_IMAGE)){
 				<div class="meat"></div>
 			</div>
 			<div class="menu">
-				<div class="parent-menu">
-					<a class="icon-battle <?php if(strpos($_SERVER['REQUEST_URI'], '/battle/')): echo "selected"; endif; ?>" href="<?php echo $WEB_ROOT; ?>battle/">
-                        戰鬥模擬計算<span></span>
-					</a>
-					<div class="submenu">
-						<div class="submenu-wrap">
-							<a class="nav-great" href="<?php echo $WEB_ROOT; ?>battle/">單場戰鬥</a>
-							<a class="nav-ultra" href="<?php echo $WEB_ROOT; ?>battle/multi/">多重戰鬥</a>
-							<a class="nav-master" href="<?php echo $WEB_ROOT; ?>battle/matrix/">群組交叉戰鬥</a>
-						</div>
-					</div>
-				</div>
-				<div class="parent-menu">
-					<a class="icon-rankings <?php if(strpos($_SERVER['REQUEST_URI'], '/rankings/')): echo "selected"; endif; ?>" href="<?php echo $WEB_ROOT; ?>rankings/">
-                        寶可夢排名 <span></span>
-					</a>
-					<div class="submenu">
-						<div class="submenu-wrap">
-							<a class="nav-great" href="<?php echo $WEB_ROOT; ?>rankings/all/1500/overall/">超級聯盟</a>
-							<a class="nav-ultra" href="<?php echo $WEB_ROOT; ?>rankings/all/2500/overall/">高級聯盟</a>
-							<a class="nav-master" href="<?php echo $WEB_ROOT; ?>rankings/all/10000/overall/">大師聯盟</a>
-							<a href="<?php echo $WEB_ROOT; ?>custom-rankings/">自訂排名</a>
-						</div>
-					</div>
-				</div>
-				<a class="icon-team <?php if(strpos($_SERVER['REQUEST_URI'], '/team-builder/')): echo "selected"; endif; ?>" href="<?php echo $WEB_ROOT; ?>team-builder/">隊伍組建模擬</a>
-				<div class="parent-menu">
-					<a class="icon-train <?php if(strpos($_SERVER['REQUEST_URI'], '/train/')): echo "selected"; endif; ?>" href="<?php echo $WEB_ROOT; ?>train/">
-						AI對戰訓練 <span></span>
-					</a>
-					<div class="submenu">
-						<div class="submenu-wrap">
-							<a href="<?php echo $WEB_ROOT; ?>train/analysis/">強勢寶可夢與分析</a>
-						</div>
-					</div>
-				</div>
-				<div class="parent-menu more-parent-menu">
-					<a class="more desktop" href="#">
-						<div class="hamburger desktop">
-							<!--Because I'm too lazy to make a graphic-->
-							<div class="meat"></div>
-							<div class="meat"></div>
-							<div class="meat"></div>
-						</div>
-					</a>
-					<div class="submenu">
-						<div class="submenu-wrap">
-							<a href="<?php echo $WEB_ROOT; ?>moves/">招式</a>
-							<a href="<?php echo $WEB_ROOT; ?>articles/">專欄文章</a>
-							<a href="<?php echo $WEB_ROOT; ?>settings/">設定</a>
-                            <a class="icon-heart" href="<?php echo $WEB_ROOT; ?>contact/">聯絡原版</a>
-							<a class="tera" href="<?php echo $WEB_ROOT; ?>tera/">太晶戰反制計算器</a>
-							<div class="latest-section mobile">
-								<h4>Latest <a href="<?php echo $WEB_ROOT; ?>#news"></a></h4>
-								<a class="latest-link" href="#"></a>
-								<div class="date"></div>
+				<div class="menu-content">
+					<div class="parent-menu">
+						<a class="icon-battle <?php if(strpos($_SERVER['REQUEST_URI'], '/battle/')): echo "selected"; endif; ?>" href="<?php echo $WEB_ROOT; ?>battle/">
+	                        戰鬥模擬計算<span></span>
+						</a>
+						<div class="submenu">
+							<div class="submenu-wrap">
+								<a class="nav-great" href="<?php echo $WEB_ROOT; ?>battle/">單場戰鬥</a>
+								<a class="nav-ultra" href="<?php echo $WEB_ROOT; ?>battle/multi/">多重戰鬥</a>
+								<a class="nav-master" href="<?php echo $WEB_ROOT; ?>battle/matrix/">群組交叉戰鬥</a>
 							</div>
 						</div>
 					</div>
-					<div class="safe-mouse-space"></div>
+					<div class="parent-menu">
+						<a class="icon-rankings <?php if(strpos($_SERVER['REQUEST_URI'], '/rankings/')): echo "selected"; endif; ?>" href="<?php echo $WEB_ROOT; ?>rankings/">
+	                        寶可夢排名 <span></span>
+						</a>
+						<div class="submenu">
+							<div class="submenu-wrap">
+								<a class="nav-great" href="<?php echo $WEB_ROOT; ?>rankings/all/1500/overall/">超級聯盟</a>
+								<a class="nav-ultra" href="<?php echo $WEB_ROOT; ?>rankings/all/2500/overall/">高級聯盟</a>
+								<a class="nav-master" href="<?php echo $WEB_ROOT; ?>rankings/all/10000/overall/">大師聯盟</a>
+								<a href="<?php echo $WEB_ROOT; ?>custom-rankings/">自訂排名</a>
+							</div>
+						</div>
+					</div>
+					<a class="icon-team <?php if(strpos($_SERVER['REQUEST_URI'], '/team-builder/')): echo "selected"; endif; ?>" href="<?php echo $WEB_ROOT; ?>team-builder/">隊伍組建模擬</a>
+					<div class="parent-menu">
+						<a class="icon-train <?php if(strpos($_SERVER['REQUEST_URI'], '/train/')): echo "selected"; endif; ?>" href="<?php echo $WEB_ROOT; ?>train/">
+						AI對戰訓練 <span></span>
+						</a>
+						<div class="submenu">
+							<div class="submenu-wrap">
+								<a href="<?php echo $WEB_ROOT; ?>train/analysis/">強勢寶可夢與分析</a>
+							</div>
+						</div>
+					</div>
+					<div class="parent-menu more-parent-menu">
+						<a class="more desktop" href="#">
+							<div class="hamburger desktop">
+								<!--Because I'm too lazy to make a graphic-->
+								<div class="meat"></div>
+								<div class="meat"></div>
+								<div class="meat"></div>
+							</div>
+						</a>
+						<div class="submenu">
+							<div class="submenu-wrap">
+								<a href="<?php echo $WEB_ROOT; ?>moves/">招式</a>
+								<a href="<?php echo $WEB_ROOT; ?>articles/">專欄文章</a>
+								<a href="<?php echo $WEB_ROOT; ?>settings/">設定</a>
+								<a class="icon-heart" href="<?php echo $WEB_ROOT; ?>contact/">聯絡原版</a>
+								<a class="tera" href="<?php echo $WEB_ROOT; ?>tera/">太晶戰反制計算器</a>
+								<div class="latest-section mobile">
+									<h4>Latest <a href="<?php echo $WEB_ROOT; ?>#news"></a></h4>
+									<a class="latest-link" href="#"></a>
+									<div class="date"></div>
+								</div>
+							</div>
+						</div>
+						<div class="safe-mouse-space"></div>
+					</div>
 				</div>
 			</div>
 		</div>

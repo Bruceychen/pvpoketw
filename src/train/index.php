@@ -8,10 +8,14 @@ $META_DESCRIPTION = 'Select your team and practice battling against an AI.';
 require_once '../header.php';
 ?>
 <h1>AI對戰訓練</h1>
-<div class="section home white">
-	<p>選擇寶可夢、自由設定招式及個體值，組建隊伍並和網站AI來場即時的擬真戰鬥吧！</p>
-    <p>使用此工具測試各種新的隊伍搭配與組成，並且依喜好選擇AI強度進行零壓力的對戰訓練，讓你在遊戲中的PVP更加無往不利！</p>
-    <p>你也可以在 <a href="<?php echo $WEB_ROOT; ?>train/analysis/">訓練分析報告</a>中看到這些訓練的相關排名與資料分析數據。</p>
+<div class="section white">
+	<div class="ranking-categories mode-select">
+		<a class="selected" href="<?php echo $WEB_ROOT; ?>train/">Train</a>
+		<a href="<?php echo $WEB_ROOT; ?>train/analysis/">Top Performers</a>
+	</div>
+	<div class="clear"></div>
+	<p class="description">Select your team and options below to battle in a real-time simulation against a CPU opponent.</p>
+	<p>This tool is a training and learning resource intended to supplement your in-game battles. Experiment with new lineups or practice in a pressure free environment against a difficulty of your choice!</p>
 </div>
 
 <div class="hide">

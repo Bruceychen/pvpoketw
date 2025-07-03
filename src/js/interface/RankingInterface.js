@@ -359,8 +359,7 @@ var InterfaceMaster = (function () {
 
 					var typeStr = pokemon.types[i].charAt(0).toUpperCase() + pokemon.types[i].slice(1);
 					if(pokemon.types[i] != "none"){
-						// 加上 type transalte
-						$el.find(".type-container").append("<div class=\"type-info "+pokemon.types[i]+"\">"+typeTranslate(typeStr)+"</div>");
+						$el.find(".type-container").append("<div class=\"type-info "+pokemon.types[i]+"\">"+typeStr+"</div>");
 					}
 				}
 

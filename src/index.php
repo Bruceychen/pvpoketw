@@ -3,7 +3,7 @@
 // JetBrains provides professional tools to help open-source projects like this one thrive.
 // Learn more about JetBrains Open Source support: https://jb.gg/OpenSourceSupport
 ?>
-<div class="banner-link">Take the <a href="https://forms.gle/jUVrKMjGRkYSzui59" target="_blank">PvPoke.com feedback survey</a> and help improve the website!</div>
+<!--<div class="banner-link">Take the <a href="https://forms.gle/jUVrKMjGRkYSzui59" target="_blank">PvPoke.com feedback survey</a> and help improve the website!</div>-->
 
 <div class="section home white">
 
@@ -124,8 +124,8 @@
     <p>Brucey</p>
     <h3>最後更新時間</h3>
             <ul>
-                <li>中文版最後更新時間：Thu Jul 3 12:05:06 2025 +0800</li>
-                <li>原版最後版本時間：Wed Jul 2 13:47:01 2025 -0500</li>
+                <li>中文版最後更新時間：Mon Jul 5 12:05:06 2025 +0800</li>
+                <li>原版最後版本時間：Fri Jul 4 20:12:41 2025 -0500</li>
             </ul>
 </div>
 

@@ -194,6 +194,7 @@ function PokeSelect(element, i){
 					}
 
 					if(context != "modalcustomrankings"){
+						// 以下這行 UI 翻譯
 						$(this).append("<option value=\"custom\">自訂招式 ...</option");
 					}
 
@@ -855,6 +856,8 @@ function PokeSelect(element, i){
 
 	$el.find(".move-select").on("change", function(e){
 
+		$tooltip.hide();
+
 		var moveId = $(this).find("option:selected").val();
 		var moveSlotIndex = $el.find(".move-select.charged").index($(this));
 
@@ -1313,40 +1316,81 @@ function PokeSelect(element, i){
 
 	// Show move stats on hover
 
-	$el.on("mousemove", ".move-bar", function(e){
+	$el.on("mousemove", ".move-bar, .move-select", function(e){
+		let $target = $(e.target);
 
 		$tooltip.show();
 
 		$tooltip.attr("class","tooltip");
 
-		var index = $el.find(".move-bar").index($(e.target).closest(".move-bar"));
-		var move = selectedPokemon.chargedMoves[index];
-		var displayDamage = move.damage;
+		let move;
+		let moveType;
+
+		if($target.is(".move-bar")){
+			let index = $el.find(".move-bar").index($target);
+			move = selectedPokemon.chargedMoves[index];
+			moveType = "charged";
+		} else if($target.is(".move-select.charged")){
+			let index = $el.find(".move-select.charged").index($target);
+			move = selectedPokemon.chargedMoves[index];
+			moveType = "charged";
+		} else{
+			move = selectedPokemon.fastMove;
+			moveType = "fast";
+		}
+
+		if(! move){
+			$tooltip.hide();
+			return false;
+		}
+
+		let displayDamage = move.damage;
+		let percent = 0;
 		// If opponent exists, recalc damage using original stats
 		if(battle.getOpponent(selectedPokemon.index)){
-			var opponent = battle.getOpponent(selectedPokemon.index);
-			var effectiveness = opponent.typeEffectiveness[move.type];
+			let opponent = battle.getOpponent(selectedPokemon.index);
+			let effectiveness = opponent.typeEffectiveness[move.type];
 			displayDamage = DamageCalculator.damageByStats(selectedPokemon, opponent, selectedPokemon.getEffectiveStat(0, true), opponent.getEffectiveStat(1, true), effectiveness, move);
+			percent = Math.floor( (displayDamage / opponent.hp) * 1000) / 10;
 		}
 
-		var dpe = Math.floor( (displayDamage / move.energy) * 100) / 100;
-		var percent = Math.floor( (displayDamage / opponent.hp) * 1000) / 10;
-
+		// Update tooltip display
 		$tooltip.find(".name").html(move.name);
 		$tooltip.addClass(move.type);
-		//以下這行UI翻譯
-		$tooltip.find(".details").html(displayDamage + ' (' + percent + '%) <span class="label">傷害</span><br>' + move.energy + ' <span class="label">能量</span><br>' + dpe + ' <span class="label">dpe</span>');
+		let details = '';
 
-		var width = $tooltip.width();
-		var left = (e.pageX - $(".section").first().offset().left) + 25;
-		var top = e.pageY - 20;
 
-		if( left > ($(".timeline-container").width() - width - 10) ){
-			left -= width;
+		switch(moveType){
+			case "fast":
+				let dpt = Math.floor( (displayDamage / move.turns) * 100) / 100;
+				let ept = Math.floor( (move.energyGain / move.turns) * 100) / 100;
+				let turnLabel = move.turns > 1 ? "turns" : "turn";
+
+				details = displayDamage + ' <span class="label">dmg</span> (' + dpt + ' <i>dpt</i>)<br>'
+					+ move.energyGain + ' <span class="label">energy</span> (' + ept + ' <i>ept</i>)<br>'
+					+ move.turns + ' <span class="label">' + turnLabel + '</span>';
+				break;
+
+			case "charged":
+				let dpe = Math.floor( (displayDamage / move.energy) * 100) / 100;
+				let moveCounts = Pokemon.calculateMoveCounts(selectedPokemon.fastMove, move);
+				// 以下兩行 UI 翻譯
+				details = displayDamage + ' (' + percent + '%) <span class="label">傷害</span><br>'
+				 	+ move.energy + ' <span class="label">能量</span><br>'
+					+ dpe + ' <span class="label">dpe</span><br>'
+					+ moveCounts.join("-") + ' <span class="label">counts</span>';
+				break;
 		}
 
-		if((left < 100)&&($(window).width() <= 480)){
-			left = e.pageX;
+		$tooltip.find(".details").html(details);
+
+		var width = $tooltip.width();
+
+		var left = $target.position().left + $target.width() + 30;
+		var top = $target.position().top + 10;
+
+		if($target.offset().left > $(window).width() / 2){
+			left = $target.position().left - width - 20;
 		}
 
 		$tooltip.css("left",left+"px");
@@ -1355,7 +1399,7 @@ function PokeSelect(element, i){
 
 	// Hide tooltip when mousing over other elements
 
-	$el.find(".move-bar").mouseout(function(e){
+	$el.find(".move-bar, .move-select").mouseout(function(e){
 		$tooltip.hide();
 	});
 
@@ -1363,7 +1407,7 @@ function PokeSelect(element, i){
 
 	$el.find(".clear-selection").on("click", function(e){
 		e.preventDefault();
-
+		// 以下這行 UI 翻譯
 		modalWindow("清除名單", $el.find(".clear-confirm"));
 
 		$(".modal .name").html(selectedPokemon.speciesName);

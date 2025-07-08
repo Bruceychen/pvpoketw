@@ -1410,8 +1410,10 @@ var InterfaceMaster = (function () {
 			// Event handler for clicking the rate button
 
 			function rateClick(e){
+				//以下這行 UI翻譯
 				$(".rate-btn .btn-label").html("計算中...");
 				$(".section.error").hide();
+				$(".team-advanced").prev(".toggle").removeClass("active"); // Hide advanced options when generating results
 
 				// This is stupid but the visual updates won't execute until Javascript has completed the entire thread
 

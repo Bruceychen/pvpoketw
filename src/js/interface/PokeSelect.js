@@ -1374,11 +1374,20 @@ function PokeSelect(element, i){
 			case "charged":
 				let dpe = Math.floor( (displayDamage / move.energy) * 100) / 100;
 				let moveCounts = Pokemon.calculateMoveCounts(selectedPokemon.fastMove, move);
+
+				if(percent > 0){
 				// 以下兩行 UI 翻譯
-				details = displayDamage + ' (' + percent + '%) <span class="label">傷害</span><br>'
-				 	+ move.energy + ' <span class="label">能量</span><br>'
-					+ dpe + ' <span class="label">dpe</span><br>'
-					+ moveCounts.join("-") + ' <span class="label">counts</span>';
+					details = displayDamage + ' (' + percent + '%) <span class="label">傷害</span><br>'
+						+ move.energy + ' <span class="label">能量</span><br>'
+						+ dpe + ' <span class="label">dpe</span><br>'
+						+ moveCounts.join("-") + ' <span class="label">counts</span>';
+				} else{
+					details = displayDamage + ' <span class="label">dmg</span><br>'
+						+ move.energy + ' <span class="label">energy</span><br>'
+						+ dpe + ' <span class="label">dpe</span><br>'
+						+ moveCounts.join("-") + ' <span class="label">counts</span>';
+				}
+
 				break;
 		}
 

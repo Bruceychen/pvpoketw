@@ -2115,7 +2115,7 @@ function Pokemon(id, i, b){
 		if(self.shadowType == "shadow"){
 			self.shadowAtkMult = DamageMultiplier.SHADOW_ATK;
 			self.shadowDefMult = DamageMultiplier.SHADOW_DEF;
-
+			// 以下兩行介面翻譯
 			if(self.speciesName.indexOf("暗影") == -1){
 				self.speciesName = self.speciesName + " (暗影)";
 
@@ -2127,7 +2127,7 @@ function Pokemon(id, i, b){
 		} else{
 			self.shadowAtkMult = 1;
 			self.shadowDefMult = 1;
-
+			// 以下兩行介面翻譯
 			if(self.speciesName.indexOf(" (暗影)") > -1){
 				self.speciesName = self.speciesName.replace(" (暗影)","");
 
@@ -2261,19 +2261,27 @@ function Pokemon(id, i, b){
 		return consistencyScore;
 	}
 
-	// Return the slot number for this Pokemon for Silph Season 3 Continentals
+	// Return an array of slot numbers which contain this Pokemon in a slot based meta
 
-	this.getSlot = function(cup){
-		var slotNumber = 0;
+	this.getSlotNumbers = function(cup, forDisplay = true){
+		let includedSlots = [];
 
-		for(var j = 0; j < cup.slots.length; j++){
-			if((cup.slots[j].pokemon.indexOf(self.speciesId) > -1)||(cup.slots[j].pokemon.indexOf(self.speciesId.replace("_shadow","")) > -1)){
-				slotNumber = j;
-				break;
+		if(! cup?.slots){
+			return includedSlots;
+		}
+
+		for(let i = 0; i < cup.slots.length; i++){
+			if(cup.slots[i].pokemon.includes(self.speciesId) || cup.slots[i].pokemon.includes(self.speciesId.replace("_shadow","") )){
+				if(forDisplay){
+					includedSlots.push(i+1);
+				} else{
+					includedSlots.push(i);
+				}
+
 			}
 		}
 
-		return slotNumber;
+		return includedSlots;
 	}
 
 	// Return a numerical value for this Pokemon's evolution stage

@@ -26,13 +26,21 @@
 			<button class="export-btn">匯入/匯出</button>
 
 			<h3 class="section-title">快速選擇</h3>
-			<select class="quick-fill-select">
-				<option value="new">建立新隊伍</option>
-                <option value="littlegeneral" type="little" class="hide multi-battle">小小盃 Meta</option>
-				<option value="great" type="great" class="multi-battle">超級(1500)聯盟 Meta</option>
-				<option value="ultra" type="ultra" class="hide multi-battle">高級(2500)聯盟 Meta</option>
-				<option value="master" type="master" class="hide multi-battle">大師(無上限)聯盟 Meta</option>
-			</select>
+            <select class="quick-fill-select">
+                <option value="new" selected>建立自訂隊伍</option>
+                <optgroup label="Default">
+                    <option value="great" type="great" class="multi-battle">超級(1500)聯盟 Meta</option>
+                    <option value="ultra" type="ultra" class="multi-battle">高級(2500)聯盟 Meta</option>
+                    <option value="master" type="master" class="multi-battle">大師(無上限)聯盟 Meta</option>
+                    <option value="littlegeneral" type="little" class="multi-battle">小小盃 Meta</option>
+                    <option value="top50" type="top" class="multi-battle">排名前50</option>
+                    <option value="top100" type="top" class="multi-battle">排名前100</option>
+                </optgroup>
+                <optgroup label="Cups">
+                </optgroup>
+                <optgroup label="Custom">
+                </optgroup>
+            </select>
 			<div class="flex quick-fill-buttons">
 				<button class="save-btn save-custom">儲存</button>
 				<button class="save-btn save-as hide">另存新隊伍</button>

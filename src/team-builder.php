@@ -42,6 +42,10 @@ require_once 'header.php';
 		        <h3>暗影化寶可夢</h3>
 		        <div class="check allow-shadows"><span></span>計算結果顯示暗影化寶可夢</div>
 		    </div>
+            <div class="team-option">
+                <h3>Meta寶可夢優先</h3>
+                <div class="check on prioritize-meta"><span></span>Prioritize meta threats and alternatives</div>
+            </div>
 			<div class="team-option">
                 <h3>推薦的XL寶可夢</h3>
                 <div class="check allow-xl <?php if($_SETTINGS->xls): echo "on"; endif; ?>"><span></span>於具威脅寶可夢與可替換成員中顯示等級40以上的寶可夢</div>

@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-07-18 19:09:38",
+    "timestamp": "2025-07-22 23:36:16",
     "settings": {
         "partySize": 3,
         "maxBuffStages": 4,
@@ -241,6 +241,10 @@
                 {
                     "filterType": "tag",
                     "values": ["mega"]
+                },
+                {
+                    "filterType": "id",
+                    "values": ["aegislash_blade", "aegislash_shield"]
                 }
             ]
         },
@@ -33731,7 +33735,7 @@
             },
             "buddyDistance": 5,
             "thirdMoveCost": 75000,
-            "released": false,
+            "released": true,
             "family": {
                 "id": "FAMILY_HONEDGE",
                 "evolutions": ["doublade"]
@@ -33757,18 +33761,18 @@
             },
             "buddyDistance": 5,
             "thirdMoveCost": 75000,
-            "released": false,
+            "released": true,
             "family": {
                 "id": "FAMILY_HONEDGE",
                 "parent": "honedge",
-                "evolutions": ["aegislash"]
+                "evolutions": ["aegislash_shield"]
             }
         },
         {
             "dex": 681,
             "speciesName": "堅盾劍怪 刀劍",
             "speciesId": "aegislash_blade",
-            "originalFormId": "aegislash_shield",
+            "originalFormId": "aegislash_blade",
             "baseStats": {
                 "atk": 272,
                 "def": 97,
@@ -33789,6 +33793,11 @@
             "family": {
                 "id": "FAMILY_HONEDGE",
                 "parent": "doublade"
+            },
+            "formChange": {
+                "type": "set",
+                "trigger": "activate_shield",
+                "alternativeFormId": "aegislash_shield"
             }
         },
         {
@@ -33802,7 +33811,7 @@
                 "hp": 155
             },
             "types": ["steel", "ghost"],
-            "fastMoves": ["PSYCHO_CUT", "AIR_SLASH"],
+            "fastMoves": ["AEGISLASH_CHARGE_PSYCHO_CUT", "AEGISLASH_CHARGE_AIR_SLASH"],
             "chargedMoves": ["FLASH_CANNON", "GYRO_BALL", "SHADOW_BALL"],
             "defaultIVs": {
                 "cp500": [12.5, 4, 15, 15],
@@ -33813,10 +33822,16 @@
             "searchPriority": 2,
             "buddyDistance": 5,
             "thirdMoveCost": 75000,
-            "released": false,
+            "released": true,
             "family": {
                 "id": "FAMILY_HONEDGE",
                 "parent": "doublade"
+            },
+            "formChange": {
+                "type": "set",
+                "trigger": "activate_charged",
+                "moveId": "ANY",
+                "alternativeFormId": "aegislash_blade"
             }
         },
         {
@@ -43869,6 +43884,30 @@
             "cooldown": 500,
             "archetype": "General",
             "turns": 1
+        },
+        {
+            "moveId": "AEGISLASH_CHARGE_PSYCHO_CUT",
+            "name": "精神利刃",
+            "abbreviation": "PC",
+            "type": "psychic",
+            "power": 0,
+            "energy": 0,
+            "energyGain": 6,
+            "cooldown": 1000,
+            "archetype": "Low Quality",
+            "turns": 2
+        },
+        {
+            "moveId": "AEGISLASH_CHARGE_AIR_SLASH",
+            "name": "空氣斬",
+            "abbreviation": "AS",
+            "type": "flying",
+            "power": 0,
+            "energy": 0,
+            "energyGain": 6,
+            "cooldown": 1500,
+            "archetype": "Low Quality",
+            "turns": 3
         },
         {
             "moveId": "AERIAL_ACE",

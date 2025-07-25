@@ -2402,26 +2402,26 @@ function Pokemon(id, i, b){
 			switch(formId){
 				case "aegislash_blade":
 					if(battleCP == 1500){
-						newLevel = Math.round(self.level * 0.5) + 1;
-						cpmIndex = cpms.indexOf(self.getCPMByLevel(newLevel));
+						newLevel = Math.ceil(self.level * 0.5) + 1;
 					}
 
 					if(battleCP == 2500){
-						newLevel = Math.round(self.level * 0.75);
-						cpmIndex = cpms.indexOf(self.getCPMByLevel(newLevel));
+						newLevel = Math.ceil(self.level * 0.75);
 					}
+
+					cpmIndex = cpms.indexOf(self.getCPMByLevel(newLevel));
 					break;
 
 				case "aegislash_shield":
 					if(battleCP == 1500){
 						newLevel = (self.level / 0.5) + 2;
-						cpmIndex = cpms.indexOf(self.getCPMByLevel(newLevel));
 					}
 
 					if(battleCP == 2500){
 						newLevel = Math.round(self.level / 0.75);
-						cpmIndex = cpms.indexOf(self.getCPMByLevel(newLevel));
 					}
+
+					cpmIndex = cpms.indexOf(self.getCPMByLevel(newLevel));
 					break;
 			}
 		}
@@ -2444,7 +2444,7 @@ function Pokemon(id, i, b){
 				level: newLevel
 			}
 
-			newLevel -= 0.5;
+			newLevel--;
 		}
 
 		return newStats;

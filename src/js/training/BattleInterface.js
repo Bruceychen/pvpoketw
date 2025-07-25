@@ -783,7 +783,16 @@ var BattlerMaster = (function () {
 						var pokeStr = pokemon.canonicalId + ' ' + pokemon.fastMove.abbreviation;
 						var chargedMoveAbbrevations = [];
 
+						// Validate move selection
+						if(pokemon.fastMove.isCustom){
+							teamsValid = false;
+						}
+
 						for(var k = 0; k < pokemon.chargedMoves.length; k++){
+							if(pokemon.chargedMoves[k].isCustom){
+								teamsValid = false;
+							}
+
 							chargedMoveAbbrevations.push(pokemon.chargedMoves[k].abbreviation);
 						}
 
@@ -972,6 +981,12 @@ var BattlerMaster = (function () {
 
 				// Report final individual and team data to db
 				// pvpoketw 暫不收集資料
+				// let teamSelectMethod = InterfaceMaster.getInstance().getTeamSelectMethod();
+				// if(teamSelectMethod == "custom" || teamSelectMethod == "manual"){
+				// 	teamsValid = false;
+				// }
+				//
+				// console.log("teams valid: " + teamsValid);
 
 			// 	if(teamsValid && players[1].getAI().getLevel()+1 >= 3){
 			// 		$.ajax({

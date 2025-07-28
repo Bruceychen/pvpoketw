@@ -62,7 +62,9 @@ var RankerMaster = (function () {
 					}
 				}
 
-				callback(allResults);
+				if(callback){
+					callback(allResults);
+				}
 			}
 
 			this.initPokemonList = function(cp){
@@ -422,189 +424,22 @@ var RankerMaster = (function () {
 
 				// Weigh all Pokemon matchups by their opponent's average rating
 
-				var iterations = 10;
-
-				// Doesn't make sense to weight which attackers can beat which other attackers, so don't weight those
-
-				if((scenario.energy[0] != scenario.energy[1])||(scenario.shields[0] != scenario.shields[1])){
-					iterations = 1;
-				}
+				var iterations = 1;
 
 				// Iterate through the rankings and weigh each matchup Battle Rating by the average rating of the opponent
 
 				var rankCutoffIncrease = 0.06;
 				var rankWeightExponent = 1.65;
 
-				if((cup.name == "all")&&(battle.getCP() == 10000)){
-					iterations = 1;
-				}
-
-				if((cup.name == "classic")&&(battle.getCP() == 10000)){
-					iterations = 1;
-				}
-
-				if((cup.name == "factionsmaster")&&(battle.getCP() == 10000)){
-					iterations = 1;
-				}
-
-				if((cup.name == "mega")&&(battle.getCP() == 10000)){
-					iterations = 1;
-				}
-
-				if((cup.name == "all")&&(battle.getCP() == 2500)){
-					iterations = 1;
-				}
-
-				if((cup.name == "all")&&(battle.getCP() == 1500)){
-					iterations = 1;
-				}
-
-				if((cup.name == "championship")&&(battle.getCP() == 1500)){
-					iterations = 1;
-				}
-
-				if((cup.name == "retro")&&(battle.getCP() == 1500)){
-					iterations = 1;
-				}
-
-				if((cup.name == "adl")&&(battle.getCP() == 1500)){
-					iterations = 1;
-				}
-
-				if(cup.name == "lunar"){
-					iterations = 1;
-				}
-
-				if(cup.name == "psychic"){
-					iterations = 1;
-				}
-
-				if(cup.name == "fossil"){
-					iterations = 1;
-				}
-
-				if(cup.name == "colony"){
-					iterations = 1;
-				}
-
-				if(cup.name == "sunshine"){
-					iterations = 1;
-				}
-
-				if(cup.name == "element"){
-					iterations = 1;
-				}
-
-				if(cup.name == "elementremix"){
-					iterations = 1;
-				}
-
-				if(cup.name == "single"){
-					iterations = 1;
-				}
-
-				if(cup.name == "halloween"){
-					iterations = 1;
-				}
-
-				if((cup.name == "goteamup")&&(battle.getCP() == 1500)){
-					iterations = 1;
-				}
-
-				if((cup.name == "premier")&&(battle.getCP() == 10000)){
-					iterations = 1;
-				}
-
-				if((cup.name == "premier")&&(battle.getCP() == 2500)){
-					iterations = 1;
-				}
-
-				if(cup.name == "premierclassic"){
-					iterations = 1;
-				}
-
-				if(cup.name == "spring"){
-					iterations = 1;
-				}
-
-				if(cup.name == "factions"){
-					iterations = 1;
-				}
-
-				if(cup.name == "flying"){
-					iterations = 1;
-				}
-
-				if(cup.name == "littlecatch"){
-					iterations = 1;
-				}
-
-				if(cup.name == "catch"){
-					iterations = 1;
-				}
-
-				if(cup.name == "hisui"){
-					iterations = 1;
-				}
-
-				if((cup.name == "remix")&&(battle.getCP() == 1500)){
-					iterations = 1;
-				}
-
-				if((cup.name == "halloween")&&(battle.getCP() == 2500)){
-					iterations = 1;
-				}
-
-				if(cup.name == "holiday"){
-					iterations = 1;
-				}
-
-				if(cup.name == "kanto"){
-					iterations = 1;
-				}
-
-				if(cup.name == "summer"){
-					iterations = 1;
-				}
-
-				if(cup.name == "little"){
-					iterations = 1;
-				}
-
-				if(cup.name == "littleremix"){
-					iterations = 1;
-				}
-
-				if((cup.name == "little")&&(battle.getCP() == 500)){
-					iterations = 1;
-				}
-
-				if(cup.name == "firefly"){
-					iterations = 1;
-				}
-
-				if(cup.name == "architect"){
-					iterations = 1;
-				}
-
-				if(cup.name == "mountain"){
-					iterations = 1;
-				}
-
-				if(cup.name == "fantasy" && battle.getCP() == 1500){
-					iterations = 1;
-				}
 
 				if(cup.name == "custom"){
 					iterations = 7;
 				}
 
-				// Do fewer or no iterations for a very small pool
-				if(rankings.length < 30){
-					iterations = 1;
-				}
-
 				for(var n = 0; n < iterations; n++){
+
+					var bestScore = Math.max.apply(Math, rankings.map(function(o) { return o.scores[n]; }))
+
 					for(var i = 0; i < rankCount; i++){
 						var score = 0;
 
@@ -619,23 +454,9 @@ var RankerMaster = (function () {
 								weight = Math.pow( Math.max((rankings[j].scores[n] / bestScore) - (.1 + (rankCutoffIncrease * n)), 0), rankWeightExponent);
 							}
 
-							if(cup.name == "premier"){
-								weight = 1;
-							}
-
-							if(cup.name == "love"){
-								weight = 1;
-							}
-
 							// Don't score Pokemon in the mirror match
 
 							if(targets[j].speciesId == pokemonList[i].speciesId){
-								weight = 0;
-							}
-
-							// Don't score XS Pokemon
-
-							if(targets[j].hasTag("xs")){
 								weight = 0;
 							}
 
@@ -643,10 +464,6 @@ var RankerMaster = (function () {
 								weight *= targets[j].weightModifier;
 							} else{
 								if((cup.name == "all")&&(battle.getCP() == 1500)){
-									weight = 0;
-								}
-
-								if((cup.name == "championship")&&(battle.getCP() == 1500)){
 									weight = 0;
 								}
 							}
@@ -662,12 +479,6 @@ var RankerMaster = (function () {
 
 							if(rankings[j].scores[n] / bestScore < .1 + (rankCutoffIncrease * n)){
 								weight = 0;
-							}
-
-							if(weight >= 2){
-								//opScore = opScore * Math.pow(2, weight)
-							} else{
-								//opScore = 0;
 							}
 
 							weights += weight;
@@ -690,17 +501,6 @@ var RankerMaster = (function () {
 
 					// If data is available, take existing move use data
 
-					/*if((moveSelectMode == "force")&&(rankingData)){
-
-						// Find Pokemon in existing rankings
-
-						for(var k = 0; k < rankingData.length; k++){
-							if(pokemon.speciesId == rankingData[k].speciesId){
-								rankings[i].moves = rankingData[k].moves;
-							}
-						}
-					}*/
-
 					rankings[i].moveset = [pokemon.fastMove.moveId, pokemon.chargedMoves[0].moveId];
 
 					if(pokemon.chargedMoves[1]){
@@ -709,6 +509,10 @@ var RankerMaster = (function () {
 
 					if(pokemon.speciesId == "morpeko_full_belly"){
 						rankings[i].moveset[1] = "AURA_WHEEL_ELECTRIC";
+					}
+
+					if(pokemon.speciesId == "aegislash_shield"){
+						rankings[i].moveset[0] = "AEGISLASH_CHARGE_PSYCHO_CUT";
 					}
 
 					rankings[i].score = rankings[i].scores[rankings[i].scores.length-1];

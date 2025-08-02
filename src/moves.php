@@ -12,7 +12,7 @@ if(isset($_GET['mode'])){
 	}
 }
 
-$META_DESCRIPTION = 'Explore moves and movsets in Pokemon GO PvP.';
+$META_DESCRIPTION = 'Explore moves and movesets in Pokemon GO PvP.';
 
 require_once 'header.php';
 
@@ -112,7 +112,6 @@ require_once 'header.php';
 
 <?php require_once 'modules/scripts/battle-scripts.php'; ?>
 
-<!--test 2-->
 <script src="<?php echo $WEB_ROOT; ?>js/GameMaster.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/pokemon/Pokemon.js?v=<?php echo $SITE_VERSION; ?>"></script>
 <script src="<?php echo $WEB_ROOT; ?>js/interface/SortableTable.js?v=<?php echo $SITE_VERSION; ?>"></script>

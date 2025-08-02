@@ -268,6 +268,7 @@ var InterfaceMaster = (function () {
 
 					var fastMovesPerCycle = Math.ceil(chargedMove.energy / fastMove.energyGain);
 					var cycleDuration = (fastMovesPerCycle * fastMove.cooldown) + 500;
+					// 以下這行介面翻譯
 					var cycleDurationStr = (cycleDuration / 500) + " 回合 (" + (cycleDuration / 1000) + " 秒)";
 					var fastDamage = Math.round( (fastMovesPerCycle * fastMove.power * fastMultipliers) * 10) / 10;
 					var chargedDamage = Math.round( (chargedMove.power * chargedMultipliers) * 10) / 10;
@@ -275,7 +276,7 @@ var InterfaceMaster = (function () {
 					var cycleDPT = Math.round( (cycleDamage / (cycleDuration / 500)) * 100) / 100;
 
 					var moveCounts = Pokemon.calculateMoveCounts(fastMove, chargedMove);
-
+					// 以下六行介面翻譯
 					movesetStats.push({ title: "一般招式傷害", value: fastDamage});
 					movesetStats.push({ title: "特殊招式傷害", value: chargedDamage});
 					movesetStats.push({ title: "合計傷害輸出", value: cycleDamage});
@@ -300,8 +301,12 @@ var InterfaceMaster = (function () {
 						var pokemon = gm.data.pokemon[i];
 						var valid = true;
 
-						if(pokemon.shadow){
-							pokemon.chargedMoves.push("RETURN","FRUSTRATION");
+						if(pokemon?.tags?.includes("shadow")){
+							pokemon.chargedMoves.push("FRUSTRATION");
+						}
+
+						if(pokemon?.tags?.includes("shadoweligible")){
+							pokemon.chargedMoves.push("RETURN");
 						}
 
 						if((fastMoveId != '')&&(pokemon.fastMoves.indexOf(fastMoveId) == -1)){

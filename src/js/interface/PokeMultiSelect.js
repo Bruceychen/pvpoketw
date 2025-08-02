@@ -32,6 +32,8 @@ function PokeMultiSelect(element){
 
 	var showMoveCounts = false;
 
+	let updateCallback; // A callback function which is run any time the Pokemon list is updated
+
 	// Show move counts if previously set
 	if(window.localStorage.getItem("rankingsShowMoveCounts") == "true"){
 		$el.find(".check.show-move-counts").addClass("on");
@@ -503,6 +505,10 @@ function PokeMultiSelect(element){
 		} else{
 			$el.find(".add-poke-btn").show();
 			$el.find(".pokebox").show();
+		}
+
+		if(typeof updateCallback === "function"){
+			updateCallback();
 		}
 
 	}
@@ -1299,6 +1305,12 @@ function PokeMultiSelect(element){
 		return pokeSelector;
 	}
 
+	// Set the callback function for when the Pokemon list is updated
+	this.setUpdateCallback = function(callback){
+		if(typeof callback === "function"){
+			updateCallback = callback;
+		}
+	}
 	// 2021/10/28 原版新增搜尋字串產生功能，但仍須翻譯最佳化與調教
 	// Open the search string generation window
 
@@ -1366,7 +1378,7 @@ function PokeMultiSelect(element){
 			duplicates[i] = false;
 
 			// Checks for Weather Ball and Techno Blast (otherwise it will exclude all pokemon that have the move)
-
+			// 以下四行介面翻譯
 			charge1[i] = charge1[i].includes("氣象球") ? "氣象球" : charge1[i]
 			if(!charge2[i]==null) charge2[i] = charge2[i].includes("氣象球") ? "氣象球" : charge2[i]
 			charge1[i] = charge1[i].includes("高科技光炮") ? "高科技光炮" : charge1[i]
@@ -1381,6 +1393,7 @@ function PokeMultiSelect(element){
 			// Checks for region tag
 
 			for(var j = 0; j < team[i].tags.length; j++){
+				// 以下兩行介面翻譯
 				region[i] = ((j < 1) ? false : region[i])
 							|| (team[i].tags[j] === "alolan") ? "阿羅拉" : false
 							|| (team[i].tags[j] === "galarian") ? "伽勒爾" : false
@@ -1391,6 +1404,7 @@ function PokeMultiSelect(element){
 		}
 
 		var searchString = "";
+		// 以下兩行介面翻譯
 		var shadowString = "!暗影";
 		var nonshadowString = "暗影"
 		var idString = ""
@@ -1490,7 +1504,7 @@ function PokeMultiSelect(element){
 				searchString += fastMoveString + charge1String + charge2String + cpString + hpString + regionString;
 			}
 		}
-
+		// 以下這行介面翻譯
 		nonshadowString = (shadowString === "!暗影") ? "" : nonshadowString + "&" ;
 		searchString += ((team.length > 0) ? shadowString + "&" + nonshadowString : "") + idString;
 
@@ -1624,6 +1638,7 @@ function PokeMultiSelect(element){
 	this.getRegion = function(dexNumber){
 		if(dexNumber < 1 || dexNumber > 898){
 			return false
+			// 以下介面翻譯
 		} else if(dexNumber < 152){
 			return "關都"
 		} else if(dexNumber < 252){

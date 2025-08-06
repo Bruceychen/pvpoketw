@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-08-01 15:56:34",
+    "timestamp": "2025-08-05 22:56:14",
     "settings": {
         "partySize": 3,
         "maxBuffStages": 4,
@@ -39806,9 +39806,10 @@
                 "cp2500": [50, 15, 15, 15],
                 "cp500l40": [39.5, 12, 13, 15]
             },
+            "levelFloor": 20,
             "buddyDistance": 5,
             "thirdMoveCost": 75000,
-            "released": false,
+            "released": true,
             "family": {
                 "id": "FAMILY_SNOM",
                 "evolutions": ["frosmoth"]
@@ -39831,9 +39832,10 @@
                 "cp1500": [20.5, 4, 12, 12],
                 "cp2500": [37.5, 4, 14, 14]
             },
+            "levelFloor": 20,
             "buddyDistance": 5,
             "thirdMoveCost": 75000,
-            "released": false,
+            "released": true,
             "family": {
                 "id": "FAMILY_SNOM",
                 "parent": "snom"
@@ -44373,6 +44375,20 @@
             "cooldown": 1500,
             "archetype": "Heavy Damage",
             "turns": 3
+        },
+        {
+            "moveId": "CHILLING_WATER",
+            "name": "潑冷水 預測",
+            "type": "water",
+            "power": 60,
+            "energy": 45,
+            "energyGain": 0,
+            "cooldown": 500,
+            "buffs": [-1, 0],
+            "buffTarget": "opponent",
+            "buffApplyChance": "1",
+            "archetype": "Debuff",
+            "turns": 1
         },
         {
             "moveId": "CLANGING_SCALES",

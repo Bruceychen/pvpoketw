@@ -30,6 +30,20 @@ require_once 'header.php';
 				<option value="night" <?php if($theme == "night") : ?>selected<?php endif; ?>>夜晚</option>
             </select>
         </div>
+        <h3>Gamemaster Version</h3>
+        <p>Select the current Pokemon and move values to use in simulations. You can create new gamemaster versions using the <a href="<?php echo $WEB_ROOT; ?>gm-editor/"><b>Gamemaster Editor</b>.</a></p>
+        <?php
+        $gamemaster = "gamemaster";
+
+        if(isset($_SETTINGS->gamemaster)){
+            $gamemaster = $_SETTINGS->gamemaster;
+        }
+        ?>
+        <div>
+            <select class="input" id="gm-select">
+                <option value="gamemaster" <?php if($gamemaster == "gamemaster") : ?>selected<?php endif; ?>>Default</option>
+            </select>
+        </div>
 
 		<h3>Pokebox</h3>
         <p>PvPoke 已跟<a target="_blank" href="https://www.pokebattler.com/" class="pokebattler">Pokebattler</a>進行整合。於下方輸入你的Pokebattler id，便能將你於Pokebattlers 網站上所登載的寶可夢資料引入本站：</p>
@@ -79,23 +93,6 @@ require_once 'header.php';
 		<h3>Hard Moveset Links</h3>
 		<div class="check hard-moveset-links <?php if($_SETTINGS->hardMovesetLinks == 1) : ?>on<?php endif; ?>"><span></span> Bake move ID's into battle links</div>
 		<p>This setting is for article writing purposes. When active, movesets are hard coded into the URL so battle links are preserved during future moveset updates.</p>
-
-        <h3>Gamemaster 版本設定</h3>
-        <p>選擇網站使用之寶可夢資料庫。</p>
-		<?php
-		$gamemaster = "gamemaster";
-
-		if(isset($_SETTINGS->gamemaster)){
-			$gamemaster = $_SETTINGS->gamemaster;
-		}
-		?>
-		<div>
-		    <select class="input" id="gm-select">
-		        <option value="gamemaster" <?php if($gamemaster == "gamemaster") : ?>selected<?php endif; ?>>預設資料庫</option>
-		        <option value="gamemaster-mega" <?php if($gamemaster == "gamemaster-mega") : ?>selected<?php endif; ?>>含Mega 進化資料(非官方預測)</option>
-                <option value="gamemaster-paldea" <?php if($gamemaster == "gamemaster-paldea") : ?>selected<?php endif; ?>>第九世代 (Speculative)</option>
-			</select>
-		</div>
 
 		<div class="save button">儲存設定</div>
 	</div>

@@ -239,6 +239,8 @@
 			<option selected disabled value="">選擇招式</option>
 		</select>
 
+		<p>You can customize moves in-depth with the <a href="<?php echo $WEB_ROOT; ?>gm-editor/">Gamemaster Editor.</a></p>
+
 		<div class="center flex">
 			<div class="button add-move">加入招式</div>
 		</div>

@@ -18,6 +18,10 @@ if(isset($_COOKIE['settings'])){
 	// Fill in missing settings with defaults
 	if(! isset($_SETTINGS->gamemaster)){
 		$_SETTINGS->gamemaster = "gamemaster";
+	} else if($_SETTINGS->gamemaster == "gamemaster-paldea"){
+		$_SETTINGS->gamemaster = "gamemaster";
+	} else if($_SETTINGS->gamemaster == "gamemaster-mega"){
+		$_SETTINGS->gamemaster = "gamemaster";
 	}
 
 	if(! isset($_SETTINGS->pokeboxId)){
@@ -54,13 +58,6 @@ if(isset($_COOKIE['settings'])){
 
 	if(! isset($_SETTINGS->theme)){
 		$_SETTINGS->theme = 'default';
-	}
-
-	// Validate the gamemaster setting, only allow these options
-	$gamemasters = ["gamemaster", "gamemaster-mega", "gamemaster-paldea"];
-
-	if(! in_array($_SETTINGS->gamemaster, $gamemasters)){
-		$_SETTINGS->gamemaster = "gamemaster";
 	}
 } else{
 	$_SETTINGS = (object) [
@@ -318,4 +315,8 @@ if(! isset($OG_IMAGE)){
 	</header>
 	<div class="main-wrap">
 		<div id="main">
-			<div class="hide mega-warning"><b>提醒：未實裝之Mega寶可夢的數值為網友推估，於正式實裝前請不要投入任何資源培育！</b></div>
+			<?php if($_SETTINGS->gamemaster != "gamemaster"): ?>
+				<div class="custom-gm-banner">
+					A <a href="<?php echo $WEB_ROOT; ?>gm-editor/">custom gamemaster</a> is active. Simulations and content may change.
+				</div>
+			<?php endif; ?>

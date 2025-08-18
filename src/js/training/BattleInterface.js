@@ -844,15 +844,11 @@ var BattlerMaster = (function () {
 						playerType = players[i].getAI().getLevel()+1;
 					}
 
-					// Check that all members of all teams are valid in the format
-					var teamValid = true;
-
 					for(var n = 0; n < team.length; n++){
 						var found = false;
 
 						for(var k = 0; k < eligiblePokemon.length; k++){
 							if(eligiblePokemon[k].speciesId == team[n].speciesId){
-								console.log(team[n].speciesId + " is eligible " + eligiblePokemon[k].speciesId);
 								found = true;
 							}
 						}
@@ -982,7 +978,7 @@ var BattlerMaster = (function () {
 				// Report final individual and team data to db
 				// pvpoketw 暫不收集資料
 				// let teamSelectMethod = InterfaceMaster.getInstance().getTeamSelectMethod();
-				// if(teamSelectMethod == "custom" || teamSelectMethod == "manual"){
+				// if(teamSelectMethod == "custom" || teamSelectMethod == "manual" || settings.gamemaster != "gamemaster"){
 				// 	teamsValid = false;
 				// }
 				//

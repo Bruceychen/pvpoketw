@@ -1,5 +1,7 @@
 {
-    "timestamp": "2025-08-15 04:11:07",
+    "timestamp": "2025-08-18 17:02:32",
+    "id": "gamemaster",
+    "title": "Default",
     "settings": {
         "partySize": 3,
         "maxBuffStages": 4,
@@ -950,16 +952,6 @@
         }
     ],
     "formats": [
-        {
-            "title": "夏日盃 高級",
-            "cup": "summer",
-            "cp": 2500,
-            "meta": "summerultra",
-            "showCup": true,
-            "showFormat": true,
-            "showMeta": true,
-            "rules": ["Pokémon must be at or below 2, 500 CP to enter.", "Only Normal-,  Fire-,  Water-,  Grass-,  Electric-,  and Bug-type Pokémon are eligible."]
-        },
         {
             "title": "大師經典賽 (XL 禁止)",
             "cup": "classic",
@@ -40780,15 +40772,18 @@
             },
             "types": ["poison", "dragon"],
             "fastMoves": ["DRAGON_TAIL", "POISON_JAB"],
-            "chargedMoves": ["CROSS_POISON", "FLAMETHROWER", "HYPER_BEAM"],
+            "chargedMoves": ["SLUDGE_BOMB", "FLAMETHROWER", "HYPER_BEAM", "DYNAMAX_CANNON"],
             "defaultIVs": {
-                "cp500": [4.5, 4, 10, 11],
-                "cp1500": [12.5, 4, 14, 8],
-                "cp2500": [20.5, 5, 14, 15]
+                "cp500": [4, 10, 15, 14],
+                "cp1500": [12, 12, 15, 14],
+                "cp2500": [20, 14, 14, 11]
             },
             "buddyDistance": 20,
             "thirdMoveCost": 100000,
-            "released": false
+            "released": true,
+            "levelFloor": 15,
+            "tags": ["legendary", "untradeable"],
+            "searchPriority": 5
         },
         {
             "dex": 890,
@@ -40801,7 +40796,7 @@
             },
             "types": ["poison", "dragon"],
             "fastMoves": ["DRAGON_TAIL", "POISON_JAB"],
-            "chargedMoves": ["CROSS_POISON", "FLAMETHROWER", "HYPER_BEAM"],
+            "chargedMoves": ["SLUDGE_BOMB", "FLAMETHROWER", "HYPER_BEAM"],
             "defaultIVs": {
                 "cp500": [2.5, 15, 15, 14],
                 "cp1500": [7, 4, 4, 5],
@@ -44284,30 +44279,6 @@
             "turns": 1
         },
         {
-            "moveId": "AEGISLASH_CHARGE_PSYCHO_CUT",
-            "name": "精神利刃",
-            "abbreviation": "PC",
-            "type": "psychic",
-            "power": 0,
-            "energy": 0,
-            "energyGain": 6,
-            "cooldown": 1000,
-            "archetype": "Low Quality",
-            "turns": 2
-        },
-        {
-            "moveId": "AEGISLASH_CHARGE_AIR_SLASH",
-            "name": "空氣斬",
-            "abbreviation": "AS",
-            "type": "flying",
-            "power": 0,
-            "energy": 0,
-            "energyGain": 6,
-            "cooldown": 1500,
-            "archetype": "Low Quality",
-            "turns": 3
-        },
-        {
             "moveId": "AERIAL_ACE",
             "name": "燕返",
             "type": "flying",
@@ -44355,6 +44326,18 @@
             "energyGain": 9,
             "cooldown": 1500,
             "archetype": "General",
+            "turns": 3
+        },
+        {
+            "moveId": "AEGISLASH_CHARGE_AIR_SLASH",
+            "name": "空氣斬",
+            "abbreviation": "AS",
+            "type": "flying",
+            "power": 0,
+            "energy": 0,
+            "energyGain": 6,
+            "cooldown": 1500,
+            "archetype": "Low Quality",
             "turns": 3
         },
         {
@@ -46921,6 +46904,18 @@
             "energyGain": 9,
             "cooldown": 1000,
             "archetype": "Fast Charge",
+            "turns": 2
+        },
+        {
+            "moveId": "AEGISLASH_CHARGE_PSYCHO_CUT",
+            "name": "精神利刃",
+            "abbreviation": "PC",
+            "type": "psychic",
+            "power": 0,
+            "energy": 0,
+            "energyGain": 6,
+            "cooldown": 1000,
+            "archetype": "Low Quality",
             "turns": 2
         },
         {

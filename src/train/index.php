@@ -53,11 +53,6 @@ require_once '../header.php';
 				<option value="2">菁英訓練家(Elite)</option>
 				<option value="3" selected>冠軍訓練家(Champion)</option>
 			</select>
-            <h3 class="section-title" style="display:none;">交換冷卻時間</h3>
-            <select class="switch-time-select"  style="display:none;">
-                <option value="30000">30秒</option>
-                <option value="50000" selected>60秒</option>
-            </select>
             <div class="check autotap-toggle"><span></span>自動點擊</div>
 			<h3 class="section-title">隊伍選擇</h3>
 			<select class="team-method-select">

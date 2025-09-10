@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-09-06 20:57:16",
+    "timestamp": "2025-09-09 21:47:25",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -552,6 +552,31 @@
             ]
         },
         {
+            "name": "laic2025",
+            "title": "LAIC 2025 Championship Series Cup",
+            "link": "https://laic.gg/competitor_info/pokemon_go/",
+            "include": [
+                {
+                    "filterType": "type",
+                    "values": ["dragon", "flying", "ghost", "ice", "psychic"]
+                }
+            ],
+            "exclude": [
+                {
+                    "filterType": "type",
+                    "values": ["dark", "rock"]
+                },
+                {
+                    "filterType": "tag",
+                    "values": ["mega", "legendary", "mythical", "shadow", "ultrabeast"]
+                },
+                {
+                    "filterType": "id",
+                    "values": ["sandslash_alolan", "sandshrew_alolan", "corsola_galarian", "corviknight", "jellicent", "lapras", "kingdra", "ninetales_alolan", "honedge", "doublade", "aegislash_shield", "aegislash_blade"]
+                }
+            ]
+        },
+        {
             "name": "little",
             "title": "小小盃",
             "include": [
@@ -567,6 +592,12 @@
                 }
             ],
             "levelCap": 50
+        },
+        {
+            "name": "mega",
+            "title": "All Pokemon",
+            "include": [],
+            "exclude": []
         },
         {
             "name": "onyx",
@@ -975,16 +1006,6 @@
             "hideRankings": true
         },
         {
-            "title": "復古盃",
-            "cup": "retro",
-            "cp": 1500,
-            "meta": "retro",
-            "showCup": true,
-            "showFormat": true,
-            "showMeta": true,
-            "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Dark-,  Steel-,  and Fairy-type Pokémon are not eligible."]
-        },
-        {
             "title": "夏日盃 超級",
             "cup": "summer",
             "cp": 1500,
@@ -1003,6 +1024,25 @@
             "showFormat": true,
             "showMeta": true,
             "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Fighting-,  Psychic-,  and Dark-type Pokémon will be eligible.", "The following Pokémon will not be allowed: Gardevoir,  Zorua,  Zoroark"]
+        },
+        {
+            "title": "Mega Master League",
+            "cup": "mega",
+            "cp": 10000,
+            "meta": "mega",
+            "showCup": true,
+            "showFormat": true,
+            "showMeta": true,
+            "rules": ["No CP limit.", "Mega-Evolved Pokémon are allowed."]
+        },
+        {
+            "title": "LAIC 2025 Championship Series Cup",
+            "cup": "laic2025",
+            "cp": 1500,
+            "meta": "laic2025",
+            "showCup": true,
+            "showFormat": true,
+            "showMeta": true
         },
         {
             "title": "Battle Frontier (Aurora)",
@@ -18188,6 +18228,33 @@
         },
         {
             "dex": 319,
+            "speciesName": "巨牙鯊 Mega",
+            "speciesId": "sharpedo_mega",
+            "baseStats": {
+                "atk": 289,
+                "def": 144,
+                "hp": 172
+            },
+            "types": ["water", "dark"],
+            "fastMoves": ["BITE", "WATERFALL"],
+            "chargedMoves": ["CRUNCH", "HYDRO_PUMP", "POISON_FANG"],
+            "defaultIVs": {
+                "cp500": [6, 4, 10, 6],
+                "cp1500": [16.5, 7, 14, 15],
+                "cp2500": [28, 4, 12, 15]
+            },
+            "level25CP": 1295,
+            "tags": ["shadoweligible", "include1500", "mega"],
+            "buddyDistance": 3,
+            "thirdMoveCost": 50000,
+            "released": true,
+            "family": {
+                "id": "FAMILY_CARVANHA",
+                "parent": "carvanha"
+            }
+        },
+        {
+            "dex": 319,
             "speciesName": "巨牙鯊 暗影",
             "speciesId": "sharpedo_shadow",
             "baseStats": {
@@ -18397,6 +18464,33 @@
             "released": true,
             "level25CP": 1323,
             "tags": ["shadoweligible"],
+            "family": {
+                "id": "FAMILY_NUMEL",
+                "parent": "numel"
+            }
+        },
+        {
+            "dex": 323,
+            "speciesName": "噴火駝 Mega",
+            "speciesId": "camerupt_mega",
+            "baseStats": {
+                "atk": 253,
+                "def": 183,
+                "hp": 172
+            },
+            "types": ["fire", "ground"],
+            "fastMoves": ["EMBER", "ROCK_SMASH", "INCINERATE"],
+            "chargedMoves": ["EARTHQUAKE", "OVERHEAT", "SOLAR_BEAM", "EARTH_POWER"],
+            "defaultIVs": {
+                "cp500": [6, 4, 11, 12],
+                "cp1500": [17, 4, 15, 14],
+                "cp2500": [28.5, 4, 15, 12]
+            },
+            "buddyDistance": 3,
+            "thirdMoveCost": 50000,
+            "released": false,
+            "level25CP": 1323,
+            "tags": ["shadoweligible", "mega"],
             "family": {
                 "id": "FAMILY_NUMEL",
                 "parent": "numel"
@@ -20822,6 +20916,35 @@
             "buddyDistance": 5,
             "thirdMoveCost": 75000,
             "released": true,
+            "family": {
+                "id": "FAMILY_BELDUM",
+                "parent": "metang"
+            }
+        },
+        {
+            "dex": 376,
+            "speciesName": "巨金怪 Mega",
+            "speciesId": "metagross_mega",
+            "baseStats": {
+                "atk": 300,
+                "def": 289,
+                "hp": 190
+            },
+            "types": ["steel", "psychic"],
+            "fastMoves": ["BULLET_PUNCH", "ZEN_HEADBUTT", "FURY_CUTTER"],
+            "chargedMoves": ["EARTHQUAKE", "FLASH_CANNON", "METEOR_MASH", "PSYCHIC"],
+            "defaultIVs": {
+                "cp500": [4, 8, 14, 14],
+                "cp1500": [11, 6, 15, 14],
+                "cp2500": [18.5, 4, 14, 14]
+            },
+            "level25CP": 2386,
+            "tags": ["shadoweligible", "mega"],
+            "eliteMoves": ["METEOR_MASH"],
+            "searchPriority": 4,
+            "buddyDistance": 5,
+            "thirdMoveCost": 75000,
+            "released": false,
             "family": {
                 "id": "FAMILY_BELDUM",
                 "parent": "metang"

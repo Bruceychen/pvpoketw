@@ -539,7 +539,7 @@
     },
     {
         "moveId": "CHILLING_WATER",
-        "name": "潑冷水 預測",
+        "name": "潑冷水",
         "type": "water",
         "power": 60,
         "energy": 45,

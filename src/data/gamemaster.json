@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-09-09 21:47:25",
+    "timestamp": "2025-09-11 17:17:24",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -975,22 +975,12 @@
     ],
     "formats": [
         {
-            "title": "大師經典賽 (XL 禁止)",
-            "cup": "classic",
-            "cp": 10000,
-            "meta": "master",
-            "showCup": false,
-            "showFormat": true,
-            "showMeta": false,
-            "hideRankings": true
-        },
-        {
             "title": "大師紀念盃",
             "cup": "premier",
             "cp": 10000,
             "meta": "premiermaster",
             "showCup": true,
-            "showFormat": true,
+            "showFormat": false,
             "showMeta": true,
             "hideRankings": true,
             "rules": ["No CP limit.", "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."]
@@ -1633,7 +1623,7 @@
                 "parent": "charmeleon_shadow"
             },
             "nicknames": ["zard"],
-            "searchPriority": 6
+            "searchPriority": 8
         },
         {
             "dex": 7,
@@ -33834,7 +33824,7 @@
             },
             "types": ["fairy", "none"],
             "fastMoves": ["VINE_WHIP", "TACKLE", "RAZOR_LEAF", "FAIRY_WIND"],
-            "chargedMoves": ["MOONBLAST", "PETAL_BLIZZARD", "PSYCHIC", "DISARMING_VOICE", "TRAILBLAZE"],
+            "chargedMoves": ["MOONBLAST", "PETAL_BLIZZARD", "PSYCHIC", "DISARMING_VOICE", "TRAILBLAZE", "CHILLING_WATER"],
             "defaultIVs": {
                 "cp500": [6, 4, 8, 14],
                 "cp1500": [17, 6, 13, 14],
@@ -33847,7 +33837,8 @@
             "family": {
                 "id": "FAMILY_FLABEBE",
                 "parent": "floette"
-            }
+            },
+            "eliteMoves": ["CHILLING_WATER"]
         },
         {
             "dex": 672,
@@ -36188,7 +36179,7 @@
             },
             "buddyDistance": 1,
             "thirdMoveCost": 10000,
-            "searchPriority": 8,
+            "searchPriority": 7,
             "released": true,
             "family": {
                 "id": "FAMILY_GRUBBIN",
@@ -36218,7 +36209,7 @@
             },
             "buddyDistance": 1,
             "thirdMoveCost": 10000,
-            "searchPriority": 8,
+            "searchPriority": 7,
             "released": true,
             "family": {
                 "id": "FAMILY_GRUBBIN",
@@ -44907,7 +44898,7 @@
         },
         {
             "moveId": "CHILLING_WATER",
-            "name": "潑冷水 預測",
+            "name": "潑冷水",
             "type": "water",
             "power": 60,
             "energy": 45,

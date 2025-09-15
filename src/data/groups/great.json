@@ -32,6 +32,12 @@
         "shadowType": "shadow"
     },
     {
+        "speciesId": "charizard_shadow",
+        "fastMove": "EMBER",
+        "chargedMoves": ["BLAST_BURN", "AIR_CUTTER"],
+        "shadowType": "shadow"
+    },
+    {
         "speciesId": "charjabug",
         "fastMove": "VOLT_SWITCH",
         "chargedMoves": ["X_SCISSOR", "DISCHARGE"]
@@ -158,11 +164,6 @@
         "chargedMoves": ["SPARKLING_ARIA", "ICE_BEAM"]
     },
     {
-        "speciesId": "mandibuzz",
-        "fastMove": "AIR_SLASH",
-        "chargedMoves": ["FOUL_PLAY", "AERIAL_ACE"]
-    },
-    {
         "speciesId": "marowak_shadow",
         "fastMove": "MUD_SLAP",
         "chargedMoves": ["BONE_CLUB", "ROCK_SLIDE"],
@@ -179,10 +180,9 @@
         "chargedMoves": ["AURA_WHEEL_ELECTRIC", "PSYCHIC_FANGS"]
     },
     {
-        "speciesId": "primeape_shadow",
+        "speciesId": "primeape",
         "fastMove": "KARATE_CHOP",
-        "chargedMoves": ["RAGE_FIST", "ICE_PUNCH"],
-        "shadowType": "shadow"
+        "chargedMoves": ["RAGE_FIST", "CLOSE_COMBAT"]
     },
     {
         "speciesId": "quagsire",
@@ -225,7 +225,7 @@
     {
         "speciesId": "togekiss",
         "fastMove": "PECK",
-        "chargedMoves": ["DAZZLING_GLEAM", "AURA_SPHERE"]
+        "chargedMoves": ["PSYSHOCK", "AURA_SPHERE"]
     },
     {
         "speciesId": "weezing_galarian_shadow",
@@ -237,11 +237,5 @@
         "speciesId": "wigglytuff",
         "fastMove": "CHARM",
         "chargedMoves": ["ICY_WIND", "SWIFT"]
-    },
-    {
-        "speciesId": "charizard_shadow",
-        "fastMove": "DRAGON_BREATH",
-        "chargedMoves": ["BLAST_BURN", "AIR_CUTTER"],
-        "shadowType": "shadow"
     }
 ]

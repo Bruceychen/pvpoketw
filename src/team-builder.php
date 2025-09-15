@@ -40,7 +40,7 @@ require_once 'header.php';
 		    </div>
 		    <div class="team-option">
 		        <h3>暗影化寶可夢</h3>
-		        <div class="check allow-shadows"><span></span>計算結果顯示暗影化寶可夢</div>
+		        <div class="check on allow-shadows"><span></span>計算結果顯示暗影化寶可夢</div>
 		    </div>
             <div class="team-option">
                 <h3>Meta寶可夢優先</h3>

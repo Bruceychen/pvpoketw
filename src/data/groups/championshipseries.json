@@ -21,13 +21,14 @@
         "chargedMoves": ["HYDRO_CANNON", "SKULL_BASH"]
     },
     {
-        "speciesId": "carbink",
-        "fastMove": "ROCK_THROW",
-        "chargedMoves": ["ROCK_SLIDE", "MOONBLAST"]
+        "speciesId": "charizard_shadow",
+        "fastMove": "DRAGON_BREATH",
+        "chargedMoves": ["BLAST_BURN", "AIR_CUTTER"],
+        "shadowType": "shadow"
     },
     {
         "speciesId": "charizard_shadow",
-        "fastMove": "DRAGON_BREATH",
+        "fastMove": "EMBER",
         "chargedMoves": ["BLAST_BURN", "AIR_CUTTER"],
         "shadowType": "shadow"
     },
@@ -132,9 +133,20 @@
         "shadowType": "shadow"
     },
     {
+        "speciesId": "giratina_altered_shadow",
+        "fastMove": "SHADOW_CLAW",
+        "chargedMoves": ["ANCIENT_POWER", "DRAGON_CLAW"],
+        "shadowType": "shadow"
+    },
+    {
         "speciesId": "golisopod",
         "fastMove": "FURY_CUTTER",
         "chargedMoves": ["X_SCISSOR", "AQUA_JET"]
+    },
+    {
+        "speciesId": "goodra",
+        "fastMove": "DRAGON_BREATH",
+        "chargedMoves": ["AQUA_TAIL", "THUNDER_PUNCH"]
     },
     {
         "speciesId": "greninja",
@@ -175,10 +187,9 @@
         "shadowType": "shadow"
     },
     {
-        "speciesId": "primeape_shadow",
+        "speciesId": "primeape",
         "fastMove": "KARATE_CHOP",
-        "chargedMoves": ["RAGE_FIST", "ICE_PUNCH"],
-        "shadowType": "shadow"
+        "chargedMoves": ["RAGE_FIST", "CLOSE_COMBAT"]
     },
     {
         "speciesId": "quagsire",
@@ -214,6 +225,12 @@
         "chargedMoves": ["FLY", "FLAME_CHARGE"]
     },
     {
+        "speciesId": "talonflame_shadow",
+        "fastMove": "INCINERATE",
+        "chargedMoves": ["FLAME_CHARGE", "FLY"],
+        "shadowType": "shadow"
+    },
+    {
         "speciesId": "tinkaton",
         "fastMove": "FAIRY_WIND",
         "chargedMoves": ["PLAY_ROUGH", "BULLDOZE"]
@@ -221,28 +238,11 @@
     {
         "speciesId": "togekiss",
         "fastMove": "PECK",
-        "chargedMoves": ["DAZZLING_GLEAM", "AURA_SPHERE"]
+        "chargedMoves": ["PSYSHOCK", "AURA_SPHERE"]
     },
     {
         "speciesId": "wigglytuff",
         "fastMove": "CHARM",
         "chargedMoves": ["ICY_WIND", "SWIFT"]
-    },
-    {
-        "speciesId": "charizard_shadow",
-        "fastMove": "EMBER",
-        "chargedMoves": ["BLAST_BURN", "AIR_CUTTER"],
-        "shadowType": "shadow"
-    },
-    {
-        "speciesId": "goodra",
-        "fastMove": "DRAGON_BREATH",
-        "chargedMoves": ["AQUA_TAIL", "THUNDER_PUNCH"]
-    },
-    {
-        "speciesId": "talonflame_shadow",
-        "fastMove": "INCINERATE",
-        "chargedMoves": ["FLAME_CHARGE", "FLY"],
-        "shadowType": "shadow"
     }
 ]

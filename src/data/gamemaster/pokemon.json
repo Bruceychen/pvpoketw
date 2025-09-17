@@ -12097,7 +12097,7 @@
     },
     {
         "dex": 211,
-        "speciesName": "Qwilfish (Shadow)",
+        "speciesName": "千針魚 暗影",
         "speciesId": "qwilfish_shadow",
         "baseStats": {
             "atk": 184,
@@ -17784,7 +17784,7 @@
     },
     {
         "dex": 333,
-        "speciesName": "Swablu (Shadow)",
+        "speciesName": "青綿鳥 暗影",
         "speciesId": "swablu_shadow",
         "baseStats": {
             "atk": 76,
@@ -17866,7 +17866,7 @@
     },
     {
         "dex": 334,
-        "speciesName": "Altaria (Shadow)",
+        "speciesName": "七夕青鳥 暗影",
         "speciesId": "altaria_shadow",
         "baseStats": {
             "atk": 141,
@@ -18230,7 +18230,7 @@
     },
     {
         "dex": 343,
-        "speciesName": "Baltoy (Shadow)",
+        "speciesName": "天秤偶 暗影",
         "speciesId": "baltoy_shadow",
         "baseStats": {
             "atk": 77,
@@ -18284,7 +18284,7 @@
     },
     {
         "dex": 344,
-        "speciesName": "Claydol (Shadow)",
+        "speciesName": "念力土偶 暗影",
         "speciesId": "claydol_shadow",
         "baseStats": {
             "atk": 140,
@@ -18580,7 +18580,35 @@
         "family": {
             "id": "FAMILY_FEEBAS",
             "evolutions": ["milotic"]
-        }
+        },
+        "level25CP": 109,
+        "tags": ["shadoweligible"]
+    },
+    {
+        "dex": 349,
+        "speciesName": "醜醜魚 暗影",
+        "speciesId": "feebas_shadow",
+        "baseStats": {
+            "atk": 29,
+            "def": 85,
+            "hp": 85
+        },
+        "types": ["water", "none"],
+        "fastMoves": ["SPLASH", "TACKLE"],
+        "chargedMoves": ["MIRROR_COAT"],
+        "defaultIVs": {
+            "cp500": [50, 15, 15, 15],
+            "cp1500": [50, 15, 15, 15],
+            "cp2500": [50, 15, 15, 15]
+        },
+        "buddyDistance": 5,
+        "thirdMoveCost": 75000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_FEEBAS",
+            "evolutions": ["milotic_shadow"]
+        },
+        "tags": ["shadow"]
     },
     {
         "dex": 350,
@@ -18605,7 +18633,35 @@
         "family": {
             "id": "FAMILY_FEEBAS",
             "parent": "feebas"
-        }
+        },
+        "level25CP": 1863,
+        "tags": ["shadoweligible"]
+    },
+    {
+        "dex": 350,
+        "speciesName": "美納斯 暗影",
+        "speciesId": "milotic_shadow",
+        "baseStats": {
+            "atk": 192,
+            "def": 219,
+            "hp": 216
+        },
+        "types": ["water", "none"],
+        "fastMoves": ["DRAGON_TAIL", "WATERFALL"],
+        "chargedMoves": ["BLIZZARD", "HYPER_BEAM", "SURF", "WRAP"],
+        "defaultIVs": {
+            "cp500": [6.5, 4, 11, 8],
+            "cp1500": [18.5, 5, 14, 12],
+            "cp2500": [31.5, 4, 14, 15]
+        },
+        "buddyDistance": 5,
+        "thirdMoveCost": 75000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_FEEBAS",
+            "parent": "feebas_shadow"
+        },
+        "tags": ["shadow"]
     },
     {
         "dex": 351,
@@ -31417,7 +31473,7 @@
     {
         "dex": 633,
         "speciesId": "deino_shadow",
-        "speciesName": "Deino (Shadow)",
+        "speciesName": "單首龍 暗影",
         "baseStats": {
             "atk": 116,
             "def": 93,
@@ -31472,7 +31528,7 @@
     {
         "dex": 634,
         "speciesId": "zweilous_shadow",
-        "speciesName": "Zweilous (Shadow)",
+        "speciesName": "雙首暴龍 暗影",
         "baseStats": {
             "atk": 159,
             "def": 135,
@@ -31528,7 +31584,7 @@
     {
         "dex": 635,
         "speciesId": "hydreigon_shadow",
-        "speciesName": "Hydreigon (Shadow)",
+        "speciesName": "三首惡龍 暗影",
         "baseStats": {
             "atk": 256,
             "def": 188,
@@ -31699,6 +31755,28 @@
     },
     {
         "dex": 641,
+        "speciesId": "tornadus_incarnate_shadow",
+        "speciesName": "龍捲雲 化身 暗影",
+        "baseStats": {
+            "atk": 266,
+            "def": 164,
+            "hp": 188
+        },
+        "types": ["flying", "none"],
+        "fastMoves": ["BITE", "AIR_SLASH"],
+        "chargedMoves": ["GRASS_KNOT", "DARK_PULSE", "HYPER_BEAM", "HURRICANE"],
+        "defaultIVs": {
+            "cp500": [6, 4, 4, 4],
+            "cp1500": [16.5, 7, 12, 10],
+            "cp2500": [27.5, 5, 14, 9]
+        },
+        "tags": ["legendary", "shadow"],
+        "buddyDistance": 20,
+        "thirdMoveCost": 100000,
+        "released": true
+    },
+    {
+        "dex": 641,
         "speciesId": "tornadus_therian",
         "speciesName": "龍捲雲 靈獸",
         "baseStats": {
@@ -31716,28 +31794,6 @@
             "cp2500": [29, 4, 13, 9]
         },
         "tags": ["legendary"],
-        "buddyDistance": 20,
-        "thirdMoveCost": 100000,
-        "released": true
-    },
-    {
-        "dex": 641,
-        "speciesId": "tornadus_incarnate_shadow",
-        "speciesName": "Tornadus (Incarnate) (Shadow)",
-        "baseStats": {
-            "atk": 266,
-            "def": 164,
-            "hp": 188
-        },
-        "types": ["flying", "none"],
-        "fastMoves": ["BITE", "AIR_SLASH"],
-        "chargedMoves": ["GRASS_KNOT", "DARK_PULSE", "HYPER_BEAM", "HURRICANE"],
-        "defaultIVs": {
-            "cp500": [6, 4, 4, 4],
-            "cp1500": [16.5, 7, 12, 10],
-            "cp2500": [27.5, 5, 14, 9]
-        },
-        "tags": ["legendary", "shadow"],
         "buddyDistance": 20,
         "thirdMoveCost": 100000,
         "released": true

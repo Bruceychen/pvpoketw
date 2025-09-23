@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-09-21 22:52:02",
+    "timestamp": "2025-09-22 22:00:19",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -616,6 +616,43 @@
             "exclude": []
         },
         {
+            "name": "metamorphosis",
+            "title": "Metamorphosis",
+            "include": [
+                {
+                    "filterType": "type",
+                    "name": "Type",
+                    "values": ["dragon", "flying", "psychic"]
+                },
+                {
+                    "filterType": "id",
+                    "name": "Species",
+                    "values": ["togekiss", "jellicent", "trevenant", "marowak_alolan", "marowak_alolan_shadow", "seaking", "primeape", "primeape_shadow"]
+                }
+            ],
+            "exclude": [
+                {
+                    "filterType": "type",
+                    "name": "Type",
+                    "values": ["dark", "electric", "steel", "ice"]
+                },
+                {
+                    "filterType": "tag",
+                    "name": "Tag",
+                    "values": ["mega"]
+                },
+                {
+                    "filterType": "id",
+                    "name": "Species",
+                    "values": ["corsola_galarian", "rapidash_galarian", "togetic"]
+                }
+            ],
+            "overrides": [],
+            "league": 1500,
+            "useDefaultMovesets": 1,
+            "excludeLowPokemon": 1
+        },
+        {
             "name": "onyx",
             "title": "Onyx Cup",
             "include": [
@@ -1087,19 +1124,10 @@
             "showMeta": true
         },
         {
-            "title": "Devon Ascension Cup",
-            "cup": "ascension",
+            "title": "Devon Metamorphosis Cup",
+            "cup": "metamorphosis",
             "cp": 1500,
-            "meta": "ascension",
-            "showCup": true,
-            "showFormat": true,
-            "showMeta": true
-        },
-        {
-            "title": "Devon (Championship Invitational S2)",
-            "cup": "devonchampionship",
-            "cp": 1500,
-            "meta": "devonchampionship",
+            "meta": "metamorphosis",
             "showCup": true,
             "showFormat": true,
             "showMeta": true
@@ -43903,34 +43931,6 @@
                 "cp2500": [50, 15, 15, 15]
             },
             "searchPriority": 9,
-            "buddyDistance": 3,
-            "thirdMoveCost": 50000,
-            "released": true,
-            "family": {
-                "id": "FAMILY_WOOPER_PALDEAN",
-                "parent": "wooper_paldean"
-            }
-        },
-        {
-            "dex": 980,
-            "speciesName": "土王",
-            "speciesId": "clodsiresb",
-            "aliasId": "clodsire",
-            "baseStats": {
-                "atk": 127,
-                "def": 151,
-                "hp": 277
-            },
-            "types": ["poison", "ground"],
-            "fastMoves": ["POISON_STING", "MUD_SHOT"],
-            "chargedMoves": ["SLUDGE_BOMB", "EARTHQUAKE", "STONE_EDGE", "ACID_SPRAY", "WATER_PULSE", "MEGAHORN"],
-            "eliteMoves": ["MEGAHORN"],
-            "defaultIVs": {
-                "cp500": [10, 4, 6, 15],
-                "cp1500": [29.5, 4, 14, 10],
-                "cp2500": [50, 15, 15, 15]
-            },
-            "tags": ["duplicate", "duplicate1500"],
             "buddyDistance": 3,
             "thirdMoveCost": 50000,
             "released": true,

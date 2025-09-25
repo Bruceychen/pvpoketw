@@ -2694,9 +2694,10 @@ a.download-csv {
 .rank .name {
   font-weight: bold;
 }
-.rank .xl-info-icon {
+.rank .xl-info-icon,
+.rank .editor-note-icon {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 6px;
   opacity: 0.3;
   position: relative;
   top: 3px;
@@ -2706,6 +2707,11 @@ a.download-csv {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+.rank .editor-note-icon {
+  width: 21px;
+  height: 17px;
+  background-image: url("../img/notes-icon.png");
 }
 .rank .rating-container {
   /*a{
@@ -2855,6 +2861,12 @@ a.download-csv {
   font-size: 12px;
   position: relative;
   top: -4px;
+}
+.rank .details .detail-section.traits-container .ranking-header.editor-score-header, .rank .details .detail-section.similar-pokemon .ranking-header.editor-score-header, .rank .details .detail-section.partner-pokemon .ranking-header.editor-score-header, .rank .details .detail-section.notes-container .ranking-header.editor-score-header {
+  background: url("../img/notes-icon.png");
+  background-repeat: no-repeat;
+  background-position-y: 5px;
+  padding-left: 26px;
 }
 .rank .details .detail-section.traits-container .list, .rank .details .detail-section.similar-pokemon .list, .rank .details .detail-section.partner-pokemon .list, .rank .details .detail-section.notes-container .list {
   justify-content: center;

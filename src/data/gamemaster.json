@@ -44700,7 +44700,7 @@
         },
         {
             "dex": 1011,
-            "speciesName": "Dipplin",
+            "speciesName": "裹蜜蟲",
             "speciesId": "dipplin",
             "baseStats": {
                 "atk": 173,
@@ -44727,7 +44727,7 @@
         },
         {
             "dex": 1012,
-            "speciesName": "Poltchageist",
+            "speciesName": "斯魔茶",
             "speciesId": "poltchageist",
             "baseStats": {
                 "atk": 134,
@@ -44752,7 +44752,7 @@
         },
         {
             "dex": 1013,
-            "speciesName": "Sinistcha",
+            "speciesName": "來悲粗茶",
             "speciesId": "sinistcha",
             "baseStats": {
                 "atk": 225,
@@ -44777,7 +44777,7 @@
         },
         {
             "speciesId": "okidogi",
-            "speciesName": "Okidogi",
+            "speciesName": "夠讚狗",
             "dex": 1014,
             "types": ["poison", "fighting"],
             "baseStats": {
@@ -44799,7 +44799,7 @@
         },
         {
             "speciesId": "munkidori",
-            "speciesName": "Munkidori",
+            "speciesName": "願增猿",
             "dex": 1015,
             "types": ["poison", "psychic"],
             "baseStats": {
@@ -44821,7 +44821,7 @@
         },
         {
             "speciesId": "fezandipiti",
-            "speciesName": "Fezandipiti",
+            "speciesName": "吉雉雞",
             "dex": 1016,
             "types": ["poison", "fairy"],
             "baseStats": {
@@ -44844,7 +44844,7 @@
         },
         {
             "speciesId": "ogerpon",
-            "speciesName": "Ogerpon",
+            "speciesName": "厄鬼椪",
             "dex": 1017,
             "types": ["grass", "none"],
             "baseStats": {
@@ -44866,7 +44866,7 @@
         },
         {
             "dex": 1018,
-            "speciesName": "Archaludon",
+            "speciesName": "鋁鋼橋龍",
             "speciesId": "archaludon",
             "baseStats": {
                 "atk": 250,
@@ -44891,7 +44891,7 @@
         },
         {
             "dex": 1019,
-            "speciesName": "Hydrapple",
+            "speciesName": "蜜集大蛇",
             "speciesId": "hydrapple",
             "baseStats": {
                 "atk": 216,
@@ -44916,7 +44916,7 @@
         },
         {
             "speciesId": "gouging_fire",
-            "speciesName": "Gouging Fire",
+            "speciesName": "破空焰",
             "dex": 1020,
             "types": ["fire", "dragon"],
             "baseStats": {
@@ -44938,7 +44938,7 @@
         },
         {
             "speciesId": "raging_bolt",
-            "speciesName": "Raging Bolt",
+            "speciesName": "猛雷鼓",
             "dex": 1021,
             "types": ["electric", "dragon"],
             "baseStats": {
@@ -44960,7 +44960,7 @@
         },
         {
             "speciesId": "iron_boulder",
-            "speciesName": "Iron Boulder",
+            "speciesName": "鐵磐岩",
             "dex": 1022,
             "types": ["rock", "psychic"],
             "baseStats": {
@@ -44982,7 +44982,7 @@
         },
         {
             "speciesId": "iron_crown",
-            "speciesName": "Iron Crown",
+            "speciesName": "鐵頭殼",
             "dex": 1023,
             "types": ["steel", "psychic"],
             "baseStats": {
@@ -45004,7 +45004,7 @@
         },
         {
             "speciesId": "terapagos",
-            "speciesName": "Terapagos",
+            "speciesName": "太樂巴戈斯",
             "dex": 1024,
             "types": ["normal", "none"],
             "baseStats": {
@@ -45026,7 +45026,7 @@
         },
         {
             "speciesId": "pecharunt",
-            "speciesName": "Pecharunt",
+            "speciesName": "桃歹郎",
             "dex": 1025,
             "types": ["poison", "ghost"],
             "baseStats": {

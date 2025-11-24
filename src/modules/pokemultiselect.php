@@ -143,7 +143,11 @@
 	<textarea class="list-text" type="text"></textarea>
 	<div class="export-options">
 		<div class="copy">複製</div>
-		<a class="json" href="#">匯出JSON格式資料</a>
+
+        <a class="team-sheet" href="#">匯出團隊表</a>
+
+
+        <a class="json" href="#">匯出JSON格式資料</a>
 	</div>
 
 	<div class="center">

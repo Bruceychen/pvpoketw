@@ -240,7 +240,7 @@
     },
     {
         "moveId": "BEAK_BLAST",
-        "name": "Beak Blast",
+        "name": "鳥嘴加農炮",
         "type": "flying",
         "power": 110,
         "energy": 55,
@@ -3007,7 +3007,7 @@
     },
     {
         "moveId": "SECRET_SWORD",
-        "name": "Secret Sword",
+        "name": "神秘之劍",
         "abbreviation": "SeS",
         "type": "fighting",
         "power": 70,

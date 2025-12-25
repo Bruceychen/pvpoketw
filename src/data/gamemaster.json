@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-12-15 00:52:07",
+    "timestamp": "2025-12-23 19:45:41",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -1190,16 +1190,6 @@
             "hideRankings": true
         },
         {
-            "title": "Scroll Cup",
-            "cup": "scroll",
-            "cp": 1500,
-            "meta": "scroll",
-            "showCup": true,
-            "showFormat": true,
-            "showMeta": true,
-            "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Water-,  Fighting-,  and Dark-type Pokémon are eligible.", "The following Pokémon will not be allowed: Primarina"]
-        },
-        {
             "title": "假日盃(超)",
             "cup": "holiday",
             "cp": 1500,
@@ -1218,6 +1208,16 @@
             "showFormat": true,
             "showMeta": true,
             "rules": ["Pokémon must be at or below 2, 500 CP to enter.", "Only Normal-,  Grass-,  Electric-,  Ice-,  Flying-,  and Ghost-type Pokémon are eligible."]
+        },
+        {
+            "title": "陽光盃",
+            "cup": "sunshine",
+            "cp": 1500,
+            "meta": "sunshine",
+            "showCup": true,
+            "showFormat": true,
+            "showMeta": true,
+            "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Normal-,  Fire-,  Grass-,  and Ground-type Pokémon are eligible.", "The following Pokémon will not be allowed: Charizard"]
         },
         {
             "title": "EUIC 2026 Championship Series Cup",
@@ -39975,7 +39975,7 @@
             },
             "buddyDistance": 3,
             "thirdMoveCost": 10000,
-            "released": false,
+            "released": true,
             "family": {
                 "id": "FAMILY_ROLYCOLY",
                 "evolutions": ["carkol"]
@@ -39991,7 +39991,7 @@
                 "hp": 190
             },
             "types": ["rock", "fire"],
-            "fastMoves": ["SMACK_DOWN", "INCINERATE"],
+            "fastMoves": ["SMACK_DOWN"],
             "chargedMoves": ["ROCK_BLAST", "ROCK_SLIDE", "FLAME_CHARGE"],
             "defaultIVs": {
                 "cp500": [13, 4, 12, 8],
@@ -40001,7 +40001,7 @@
             },
             "buddyDistance": 3,
             "thirdMoveCost": 10000,
-            "released": false,
+            "released": true,
             "family": {
                 "id": "FAMILY_ROLYCOLY",
                 "parent": "boltund",
@@ -40018,7 +40018,7 @@
                 "hp": 242
             },
             "types": ["rock", "fire"],
-            "fastMoves": ["SMACK_DOWN", "INCINERATE"],
+            "fastMoves": ["SMACK_DOWN", "FIRE_SPIN"],
             "chargedMoves": ["ROCK_BLAST", "ROCK_SLIDE", "FLAME_CHARGE"],
             "defaultIVs": {
                 "cp500": [8, 6, 15, 14],
@@ -40028,7 +40028,7 @@
             },
             "buddyDistance": 3,
             "thirdMoveCost": 10000,
-            "released": false,
+            "released": true,
             "family": {
                 "id": "FAMILY_ROLYCOLY",
                 "parent": "rolycoly"
@@ -47459,6 +47459,21 @@
             "energyGain": 0,
             "cooldown": 500,
             "archetype": "General",
+            "turns": 1
+        },
+        {
+            "moveId": "MIND_BLOWN",
+            "name": "驚爆大頭",
+            "abbreviation": "MdB",
+            "type": "fire",
+            "power": 90,
+            "energy": 35,
+            "energyGain": 0,
+            "cooldown": 500,
+            "buffs": [0, -4],
+            "buffTarget": "opponent",
+            "buffApplyChance": "1",
+            "archetype": "Debuff",
             "turns": 1
         },
         {

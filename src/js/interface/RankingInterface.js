@@ -462,13 +462,14 @@ var InterfaceMaster = (function () {
 				var chargedMove2Count = 0;
 
 				if(pokemon.chargedMoves.length > 1){
-					chargedMove2Name = pokemon.chargedMoves[1].name;
+					chargedMove2Name = pokemon.chargedMoves[1].displayName;
 					chargedMove2Count = Math.ceil(pokemon.chargedMoves[1].energy / pokemon.fastMove.energyGain);
 				}
 
 				$el.on("click", selectPokemon);
 					// 以下這行中文翻譯 針對寫入csv屬性翻譯
-					csv += pokemon.speciesName+','+r.score+','+pokemon.dex+','+typeTranslate(pokemon.types[0])+','+typeTranslate(pokemon.types[1])+','+(Math.round(pokemon.stats.atk*10)/10)+','+(Math.round(pokemon.stats.def*10)/10)+','+Math.round(pokemon.stats.hp)+','+Math.round(pokemon.stats.atk*pokemon.stats.def*pokemon.stats.hp)+','+pokemon.level+','+pokemon.fastMove.name+','+pokemon.chargedMoves[0].name+','+chargedMove2Name+','+chargedMove1Count+','+chargedMove2Count+','+pokemon.buddyDistance+','+pokemon.thirdMoveCost+'\n';
+					// csv += pokemon.speciesName+','+r.score+','+pokemon.dex+','+typeTranslate(pokemon.types[0])+','+typeTranslate(pokemon.types[1])+','+(Math.round(pokemon.stats.atk*10)/10)+','+(Math.round(pokemon.stats.def*10)/10)+','+Math.round(pokemon.stats.hp)+','+Math.round(pokemon.stats.atk*pokemon.stats.def*pokemon.stats.hp)+','+pokemon.level+','+pokemon.fastMove.name+','+pokemon.chargedMoves[0].name+','+chargedMove2Name+','+chargedMove1Count+','+chargedMove2Count+','+pokemon.buddyDistance+','+pokemon.thirdMoveCost+'\n';
+					csv += pokemon.speciesName+','+r.score+','+pokemon.dex+','+typeTranslate(pokemon.types[0])+','+typeTranslate(pokemon.types[1])+','+(Math.round(pokemon.stats.atk*10)/10)+','+(Math.round(pokemon.stats.def*10)/10)+','+Math.round(pokemon.stats.hp)+','+Math.round(pokemon.stats.atk*pokemon.stats.def*pokemon.stats.hp)+','+pokemon.level+','+pokemon.cp+','+pokemon.fastMove.displayName+','+pokemon.chargedMoves[0].displayName+','+chargedMove2Name+','+chargedMove1Count+','+chargedMove2Count+','+pokemon.buddyDistance+','+pokemon.thirdMoveCost+'\n';
 
 
 				// If a Pokemon has been selected via URL parameters, jump to it

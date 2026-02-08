@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-02-03 17:32:55",
+    "timestamp": "2026-02-07 16:15:18",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -54,7 +54,7 @@
                 {
                     "filterType": "id",
                     "name": "Species",
-                    "values": ["ariados", "armarouge", "audino", "bewear", "bisharp", "blaziken", "blaziken_shadow", "bruxish", "buzzwole", "camerupt", "camerupt_shadow", "castform_sunny", "centiskorch", "charizard", "charizard_shadow", "cherrim_sunny", "chimecho", "clefable", "crobat", "crobat_shadow", "crustle", "crustle_shadow", "darmanitan_standard", "darmanitan_standard_shadow", "deoxys_defense", "druddigon", "electrode", "electrode_hisuian", "electrode_shadow", "espeon", "frosmoth", "gallade", "gallade_shadow", "gardevoir", "gardevoir_shadow", "heatmor", "incineroar", "krookodile", "latias", "latias_shadow", "latios", "latios_shadow", "leavanny", "ledian", "lickitung", "lopunny", "lucario", "lurantis", "magcargo", "magmar", "magmar_shadow", "magmortar", "magmortar_shadow", "medicham", "mesprit", "mew", "milotic", "miltank", "moltres", "moltres_shadow", "nidoking", "nidoking_shadow", "nidoqueen", "nidoqueen_shadow", "pawniard", "rapidash_galarian", "rotom", "rotom_fan", "rotom_frost", "rotom_heat", "rotom_mow", "rotom_wash", "scolipede", "scolipede_shadow", "scrafty", "seaking", "simisear", "skeledirge", "slowbro", "slowbro_galarian", "slowbro_shadow", "slowking", "slowking_galarian", "slowking_shadow", "slowpoke", "slowpoke_shadow", "slurpuff", "snorlax", "snorlax_shadow", "solrock", "spinda", "swoobat", "sylveon", "talonflame", "talonflame_shadow", "tatsugiri_curly", "tatsugiri_droopy", "tatsugiri_stretchy", "tinkaton", "tinkatuff", "turtonator", "tyrantrum", "tyrantrum_shadow", "umbreon", "vileplume", "vileplume_shadow", "wormadam_trash", "wugtrio"]
+                    "values": ["ariados", "armarouge", "audino", "bewear", "bisharp", "blaziken", "blaziken_shadow", "bruxish", "buzzwole", "camerupt", "camerupt_shadow", "castform_sunny", "centiskorch", "charizard", "charizard_shadow", "cherrim_sunny", "chimecho", "clefable", "crobat", "crobat_shadow", "crustle", "crustle_shadow", "darmanitan_standard", "darmanitan_standard_shadow", "deoxys_defense", "druddigon", "electrode", "electrode_hisuian", "electrode_shadow", "espeon", "frosmoth", "gallade", "gallade_shadow", "gardevoir", "gardevoir_shadow", "heatmor", "incineroar", "krookodile", "latias", "latias_shadow", "latios", "latios_shadow", "leavanny", "ledian", "ledian_shadow", "lickitung", "lopunny", "lucario", "lurantis", "magcargo", "magmar", "magmar_shadow", "magmortar", "magmortar_shadow", "medicham", "mesprit", "mew", "milotic", "milotic_shadow", "miltank", "moltres", "moltres_shadow", "nidoking", "nidoking_shadow", "nidoqueen", "nidoqueen_shadow", "pawniard", "rapidash_galarian", "rotom", "rotom_fan", "rotom_frost", "rotom_heat", "rotom_mow", "rotom_wash", "scolipede", "scolipede_shadow", "scrafty", "seaking", "simisear", "skeledirge", "slowbro", "slowbro_galarian", "slowbro_shadow", "slowking", "slowking_galarian", "slowking_shadow", "slowpoke", "slowpoke_shadow", "slurpuff", "snorlax", "snorlax_shadow", "solrock", "spinda", "swoobat", "sylveon", "talonflame", "talonflame_shadow", "tatsugiri_curly", "tatsugiri_droopy", "tatsugiri_stretchy", "tinkaton", "tinkatuff", "turtonator", "tyrantrum", "tyrantrum_shadow", "umbreon", "vileplume", "vileplume_shadow", "wormadam_trash", "wugtrio"]
                 }
             ],
             "exclude": [
@@ -150,12 +150,8 @@
                 "floor": 0,
                 "tiers": [
                     {
-                        "points": 2,
-                        "pokemon": ["furret"]
-                    },
-                    {
                         "points": 1,
-                        "pokemon": ["altaria", "annihilape", "azumarill", "clodsire", "corsola_galarian", "corviknight", "cradily", "empoleon", "feraligatr", "florges", "forretress", "gastrodon", "guzzlord", "jellicent", "lickilicky", "marowak", "primeape", "scizor", "stunfisk", "talonflame", "wigglytuff"]
+                        "pokemon": ["altaria", "annihilape", "blastoise", "charjabug", "clefable", "clodsire", "corsola_galarian", "corviknight", "cradily", "empoleon", "feraligatr", "florges", "forretress", "furret", "gastrodon", "guzzlord", "jellicent", "lickilicky", "ludicolo", "malamar", "marowak", "moltres_galarian", "ninetales_alolan", "primeape", "steelix", "talonflame", "wigglytuff"]
                     }
                 ]
             },
@@ -6057,6 +6053,34 @@
             "buddyDistance": 3,
             "thirdMoveCost": 50000,
             "released": true,
+            "family": {
+                "id": "FAMILY_BELLSPROUT",
+                "parent": "weepinbell"
+            }
+        },
+        {
+            "dex": 71,
+            "speciesName": "大食花 Mega",
+            "speciesId": "victreebel_mega",
+            "baseStats": {
+                "atk": 265,
+                "def": 181,
+                "hp": 190
+            },
+            "types": ["grass", "poison"],
+            "fastMoves": ["ACID", "RAZOR_LEAF", "MAGICAL_LEAF"],
+            "chargedMoves": ["LEAF_BLADE", "SLUDGE_BOMB", "SOLAR_BEAM", "ACID_SPRAY", "LEAF_TORNADO"],
+            "eliteMoves": ["MAGICAL_LEAF"],
+            "defaultIVs": {
+                "cp500": [5.5, 5, 12, 13],
+                "cp1500": [15.5, 7, 14, 14],
+                "cp2500": [26, 4, 14, 15]
+            },
+            "level25CP": 2192,
+            "tags": ["shadoweligible", "mega"],
+            "buddyDistance": 3,
+            "thirdMoveCost": 50000,
+            "released": false,
             "family": {
                 "id": "FAMILY_BELLSPROUT",
                 "parent": "weepinbell"
@@ -35382,6 +35406,33 @@
         },
         {
             "dex": 687,
+            "speciesName": "烏賊王 Mega",
+            "speciesId": "malamar_mega",
+            "baseStats": {
+                "atk": 208,
+                "def": 222,
+                "hp": 200
+            },
+            "types": ["dark", "psychic"],
+            "fastMoves": ["PECK", "PSYCHO_CUT", "PSYWAVE"],
+            "chargedMoves": ["PSYBEAM", "FOUL_PLAY", "SUPER_POWER", "HYPER_BEAM"],
+            "defaultIVs": {
+                "cp500": [6, 8, 13, 15],
+                "cp1500": [17.5, 4, 15, 15],
+                "cp2500": [29.5, 4, 15, 11]
+            },
+            "buddyDistance": 3,
+            "thirdMoveCost": 50000,
+            "released": false,
+            "family": {
+                "id": "FAMILY_INKAY",
+                "parent": "inkay"
+            },
+            "level25CP": 1955,
+            "tags": ["shadoweligible", "mega"]
+        },
+        {
+            "dex": 687,
             "speciesName": "烏賊王 暗影",
             "speciesId": "malamar_shadow",
             "baseStats": {
@@ -42512,8 +42563,8 @@
                 "hp": 179
             },
             "types": ["fairy", "flying"],
-            "fastMoves": ["ASTONISH", "ZEN_HEADBUTT", "FAIRY_WIND"],
-            "chargedMoves": ["DAZZLING_GLEAM", "FLY", "GRASS_KNOT"],
+            "fastMoves": ["ASTONISH", "EXTRASENSORY", "FAIRY_WIND"],
+            "chargedMoves": ["MOONBLAST", "FLY", "EARTH_POWER", "MYSTICAL_FIRE"],
             "defaultIVs": {
                 "cp500": [5.5, 14, 10, 15],
                 "cp1500": [16.5, 4, 9, 11],

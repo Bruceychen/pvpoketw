@@ -1754,7 +1754,7 @@
     },
     {
         "moveId": "HYDRO_PUMP_BLASTOISE",
-        "name": "Hydro Pump Blastoise",
+        "name": "水箭龜水炮",
         "type": "water",
         "power": 90,
         "energy": 80,
@@ -2766,7 +2766,7 @@
     },
     {
         "moveId": "PYRO_BALL",
-        "name": "Pyro Ball",
+        "name": "火焰球",
         "type": "fire",
         "power": 75,
         "energy": 40,

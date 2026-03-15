@@ -30,21 +30,6 @@ $formats = array (
   ),
   2 => 
   array (
-    'title' => 'Kanto Cup',
-    'cup' => 'kanto',
-    'cp' => 1500,
-    'meta' => 'kanto',
-    'showCup' => true,
-    'showFormat' => true,
-    'showMeta' => true,
-    'rules' => 
-    array (
-      0 => 'Pokémon must be at or below 1,500 CP to enter.',
-      1 => 'Only Pokémon with a Pokédex number between #001 and #151 are eligible.',
-    ),
-  ),
-  3 => 
-  array (
     'title' => 'Spring Cup',
     'cup' => 'spring',
     'cp' => 1500,
@@ -59,36 +44,50 @@ $formats = array (
       2 => 'The following Pokemon are not allowed: Jumpluff, Roserade, Toxapex',
     ),
   ),
+  3 => 
+  array (
+    'title' => 'Jungle Cup',
+    'cup' => 'jungle',
+    'cp' => 1500,
+    'meta' => 'jungle',
+    'showCup' => true,
+    'showFormat' => true,
+    'showMeta' => true,
+    'rules' => 
+    array (
+      0 => 'Pokémon must be at or below 1,500 CP to enter.',
+      1 => 'Only Normal-, Grass-, Electric-, Poison-, Ground-, Flying-, Bug-, and Dark-type Pokémon are eligible.',
+    ),
+  ),
   4 => 
   array (
-    'title' => 'Battle Frontier (Majestic)',
-    'cup' => 'majestic',
+    'title' => 'Battle Frontier (Bayou Cup)',
+    'cup' => 'bayou',
     'cp' => 1500,
-    'meta' => 'majestic',
+    'meta' => 'bayou',
     'showCup' => true,
     'showFormat' => true,
     'showMeta' => true,
   ),
   5 => 
   array (
-    'title' => 'Battle Frontier (Crucible)',
-    'cup' => 'crucible',
-    'cp' => 2500,
-    'meta' => 'crucible',
+    'title' => 'Battle Frontier (Brujería Cup)',
+    'cup' => 'brujeria',
+    'cp' => 1500,
+    'meta' => 'brujeria',
     'showCup' => true,
     'showFormat' => true,
     'showMeta' => true,
   ),
   6 => 
   array (
-    'title' => 'Battle Frontier (Great)',
-    'cup' => 'battlefrontiergreat',
-    'cp' => 1500,
-    'meta' => 'great',
-    'showCup' => false,
+    'title' => 'Battle Frontier (UL Retro)',
+    'cup' => 'bfretro',
+    'cp' => 2500,
+    'meta' => 'bfretro',
+    'showCup' => true,
     'showFormat' => true,
-    'showMeta' => false,
-    'hideRankings' => true,
+    'showMeta' => true,
   ),
   7 => 
   array (

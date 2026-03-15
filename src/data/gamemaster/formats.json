@@ -24,19 +24,6 @@
 		]
 	},
 	{
-		"title": "Kanto Cup",
-		"cup": "kanto",
-		"cp": 1500,
-		"meta": "kanto",
-		"showCup": true,
-		"showFormat": true,
-		"showMeta": true,
-		"rules": [
-			"Pokémon must be at or below 1,500 CP to enter.",
-			"Only Pokémon with a Pokédex number between #001 and #151 are eligible."
-		]
-	},
-	{
 		"title": "Spring Cup",
 		"cup": "spring",
 		"cp": 1500,
@@ -51,32 +38,44 @@
 		]
 	},
 	{
-		"title": "Battle Frontier (Majestic)",
-		"cup": "majestic",
+		"title": "Jungle Cup",
+		"cup": "jungle",
 		"cp": 1500,
-		"meta": "majestic",
+		"meta": "jungle",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true,
+		"rules": [
+			"Pokémon must be at or below 1,500 CP to enter.",
+			"Only Normal-, Grass-, Electric-, Poison-, Ground-, Flying-, Bug-, and Dark-type Pokémon are eligible."
+		]
+	},
+	{
+		"title": "Battle Frontier (Bayou Cup)",
+		"cup": "bayou",
+		"cp": 1500,
+		"meta": "bayou",
 		"showCup": true,
 		"showFormat": true,
 		"showMeta": true
 	},
 	{
-		"title": "Battle Frontier (Crucible)",
-		"cup": "crucible",
+		"title": "Battle Frontier (Brujería Cup)",
+		"cup": "brujeria",
+		"cp": 1500,
+		"meta": "brujeria",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true
+	},
+	{
+		"title": "Battle Frontier (UL Retro)",
+		"cup": "bfretro",
 		"cp": 2500,
-		"meta": "crucible",
+		"meta": "bfretro",
 		"showCup": true,
 		"showFormat": true,
 		"showMeta": true
-	},
-	{
-		"title": "Battle Frontier (Great)",
-		"cup": "battlefrontiergreat",
-		"cp": 1500,
-		"meta": "great",
-		"showCup": false,
-		"showFormat": true,
-		"showMeta": false,
-		"hideRankings": true
 	},
 	{
 		"title": "Battle Frontier (Master)",

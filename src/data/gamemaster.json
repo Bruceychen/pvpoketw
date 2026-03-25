@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-03-24 02:09:40",
+    "timestamp": "2026-03-25 02:08:24",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -144,6 +144,7 @@
         {
             "name": "championshipseries",
             "title": "P!P Championship Series",
+            "rankingAlias": "all",
             "include": [],
             "exclude": [
                 {
@@ -274,6 +275,20 @@
             "levelCap": 50,
             "excludeLowPokemon": 1,
             "cup": "equinox"
+        },
+        {
+            "name": "gobattleleague",
+            "title": "GO Battle League",
+            "rankingAlias": "all",
+            "include": [],
+            "exclude": [
+                {
+                    "filterType": "tag",
+                    "values": ["mega"]
+                }
+            ],
+            "partySize": 3,
+            "presetOnly": true
         },
         {
             "name": "jungle",

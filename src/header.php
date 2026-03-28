@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.36.21';
+$SITE_VERSION = '1.36.21.1';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {
@@ -222,9 +222,9 @@ if(! isset($OG_IMAGE)){
 <body <?php if($_SETTINGS->colorblindMode == 1): ?>class="colorblind"<?php endif; ?>>
 
 	<?php  if(false): // Removing this but saving code for future use ?>
-		<?php if(strpos($_SERVER['REQUEST_URI'], 'new-season-2026') == false): ?>
+		<?php if(strpos($_SERVER['REQUEST_URI'], 'memories') == false): ?>
 			<div class="header-ticker">
-				<a href="https://pvpoke.com/new-season-2026/rankings/">Preview next season</a>
+				<a href="https://pvpoketw.com/memories/rankings/">Preview next season</a>
 			</div>
 		<?php else: ?>
 			<div class="header-ticker old-version">

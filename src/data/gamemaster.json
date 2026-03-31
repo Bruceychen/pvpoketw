@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-03-25 02:08:24",
+    "timestamp": "2026-03-30 23:32:08",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -277,6 +277,22 @@
             "cup": "equinox"
         },
         {
+            "name": "fantasy",
+            "title": "奇幻盃",
+            "include": [
+                {
+                    "filterType": "type",
+                    "values": ["steel", "dragon", "fairy"]
+                }
+            ],
+            "exclude": [
+                {
+                    "filterType": "tag",
+                    "values": ["mega"]
+                }
+            ]
+        },
+        {
             "name": "gobattleleague",
             "title": "GO Battle League",
             "rankingAlias": "all",
@@ -356,6 +372,29 @@
             "levelCap": 50
         },
         {
+            "name": "maelstrom",
+            "title": "Maelstrom Cup",
+            "link": "https://devon.gg",
+            "cup": "maelstrom",
+            "include": [],
+            "exclude": [
+                {
+                    "filterType": "id",
+                    "name": "Species",
+                    "values": ["aegislash_shield", "altaria", "annihilape", "araquanid", "azumarill", "carbink", "corsola_galarian", "corviknight", "doublade", "empoleon", "florges", "forretress", "furret", "gastrodon", "guzzlord", "jellicent", "lickilicky", "marowak", "quagsire", "scizor", "stunfisk", "tinkaton", "wigglytuff"]
+                },
+                {
+                    "filterType": "tag",
+                    "name": "Tag",
+                    "values": ["mega"]
+                }
+            ],
+            "overrides": [],
+            "league": 1500,
+            "useDefaultMovesets": 1,
+            "excludeLowPokemon": 1
+        },
+        {
             "name": "premier",
             "title": "Premier Cup",
             "include": [],
@@ -419,16 +458,6 @@
             "rules": ["No CP limit.", "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."]
         },
         {
-            "title": "叢林盃",
-            "cup": "jungle",
-            "cp": 1500,
-            "meta": "jungle",
-            "showCup": true,
-            "showFormat": true,
-            "showMeta": true,
-            "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Normal-,  Grass-,  Electric-,  Poison-,  Ground-,  Flying-,  Bug-,  and Dark-type Pokémon are eligible."]
-        },
-        {
             "title": "電氣盃",
             "cup": "electric",
             "cp": 1500,
@@ -437,6 +466,16 @@
             "showFormat": true,
             "showMeta": true,
             "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Electric-type Pokémon are eligible.", "The following Pokemon are not allowed: Stunfisk,  Heliolisk,  Charjabug,  Vikavolt"]
+        },
+        {
+            "title": "奇幻盃",
+            "cup": "fantasy",
+            "cp": 1500,
+            "meta": "fantasy",
+            "showCup": true,
+            "showFormat": true,
+            "showMeta": true,
+            "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Dragon-,  Steel-,  and Fairy-type Pokémon are eligible."]
         },
         {
             "title": "Battle Frontier (Bayou Cup)",
@@ -479,6 +518,15 @@
             "cup": "equinox",
             "cp": 1500,
             "meta": "equinox",
+            "showCup": true,
+            "showFormat": true,
+            "showMeta": true
+        },
+        {
+            "title": "Devon Maelstrom Cup",
+            "cup": "maelstrom",
+            "cp": 1500,
+            "meta": "maelstrom",
             "showCup": true,
             "showFormat": true,
             "showMeta": true
@@ -46367,6 +46415,17 @@
             "type": "normal",
             "power": 150,
             "energy": 80,
+            "energyGain": 0,
+            "cooldown": 500,
+            "archetype": "Nuke",
+            "turns": 1
+        },
+        {
+            "moveId": "GIGATON_HAMMER",
+            "name": "Gigaton Hammer",
+            "type": "steel",
+            "power": 130,
+            "energy": 60,
             "energyGain": 0,
             "cooldown": 500,
             "archetype": "Nuke",

@@ -1376,6 +1376,17 @@
         "turns": 1
     },
     {
+        "moveId": "GIGATON_HAMMER",
+        "name": "Gigaton Hammer",
+        "type": "steel",
+        "power": 130,
+        "energy": 60,
+        "energyGain": 0,
+        "cooldown": 500,
+        "archetype": "Nuke",
+        "turns": 1
+    },
+    {
         "moveId": "GLACIATE",
         "name": "冰封世界",
         "type": "ice",

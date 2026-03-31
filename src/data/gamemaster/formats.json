@@ -24,19 +24,6 @@
 		]
 	},
 	{
-		"title": "Jungle Cup",
-		"cup": "jungle",
-		"cp": 1500,
-		"meta": "jungle",
-		"showCup": true,
-		"showFormat": true,
-		"showMeta": true,
-		"rules": [
-			"Pokémon must be at or below 1,500 CP to enter.",
-			"Only Normal-, Grass-, Electric-, Poison-, Ground-, Flying-, Bug-, and Dark-type Pokémon are eligible."
-		]
-	},
-	{
 		"title": "Electric Cup",
 		"cup": "electric",
 		"cp": 1500,
@@ -48,6 +35,19 @@
 			"Pokémon must be at or below 1,500 CP to enter.",
 			"Only Electric-type Pokémon are eligible.",
 			"The following Pokemon are not allowed: Stunfisk, Heliolisk, Charjabug, Vikavolt"
+		]
+	},
+	{
+		"title": "Fantasy Cup",
+		"cup": "fantasy",
+		"cp": 1500,
+		"meta": "fantasy",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true,
+		"rules": [
+			"Pokémon must be at or below 1,500 CP to enter.",
+			"Only Dragon-, Steel-, and Fairy-type Pokémon are eligible."
 		]
 	},
 	{
@@ -91,6 +91,15 @@
 		"cup": "equinox",
 		"cp": 1500,
 		"meta": "equinox",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true
+	},
+	{
+		"title": "Devon Maelstrom Cup",
+		"cup": "maelstrom",
+		"cp": 1500,
+		"meta": "maelstrom",
 		"showCup": true,
 		"showFormat": true,
 		"showMeta": true

@@ -598,7 +598,6 @@ var InterfaceMaster = (function () {
 
 						for(var n = 0; n < metaGroup.length; n++){
 							var searchId = metaGroup[n].speciesId;
-							searchId = searchId.replace("_shadow","");
 							searchId = searchId.replace("_xs","");
 							searchId = searchId.replace("_xl","");
 
@@ -683,8 +682,6 @@ var InterfaceMaster = (function () {
 
 					// Reduce remaining points by the cost of remaining picks so incompatible tiers aren't suggested
 					remainingPoints -= (remainingPicks - 1) * cliffObj.floor;
-
-					console.log("remaining points:" + remainingPoints);
 
 					// Add ineligible tiers to the exclusion list
 					for(var i = 0; i < tiers.length; i++){

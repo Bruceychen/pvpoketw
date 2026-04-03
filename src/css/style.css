@@ -2331,6 +2331,13 @@ a.download-csv {
   background: url("../img/shield.png");
   z-index: 10;
 }
+.timeline .item-container .item.shieldSpecial {
+  width: 25px;
+  height: 22px;
+  top: -12px;
+  background: url("../img/shield_special.png");
+  z-index: 10;
+}
 .timeline .item-container .item.faint {
   color: #ff0000;
   font-size: 20px;
@@ -2597,6 +2604,9 @@ a.download-csv {
 }
 .tooltip.shield {
   background: #df46e5;
+}
+.tooltip.shieldSpecial {
+  background: #fef4b5;
 }
 .tooltip.tap {
   background: #eee;

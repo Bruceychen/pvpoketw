@@ -2661,6 +2661,14 @@ a.download-csv{
 				z-index: 10;
 			}
 
+			&.shieldSpecial{
+				width:25px;
+				height:22px;
+				top:-12px;
+				background:url('../img/shield_special.png');
+				z-index: 10;
+			}
+
 			&.faint{
 				color:$color-faint;
 				font-size:20px;
@@ -2894,6 +2902,10 @@ a.download-csv{
 
 	&.shield{
 		background:$color-shield;
+	}
+
+	&.shieldSpecial{
+		background:#fef4b5;
 	}
 
 	&.tap{

@@ -33760,7 +33760,8 @@
         "formChange": {
             "type": "set",
             "trigger": "activate_shield",
-            "alternativeFormId": "aegislash_shield"
+            "alternativeFormId": "aegislash_shield",
+            "resetOnSwitch": true
         }
     },
     {
@@ -33794,7 +33795,8 @@
             "type": "set",
             "trigger": "activate_charged",
             "moveId": "ANY",
-            "alternativeFormId": "aegislash_blade"
+            "alternativeFormId": "aegislash_blade",
+            "resetOnSwitch": true
         }
     },
     {
@@ -37524,11 +37526,13 @@
         "dex": 778,
         "speciesName": "謎擬Ｑ",
         "speciesId": "mimikyu",
+        "originalFormId": "mimikyu",
         "baseStats": {
             "atk": 177,
             "def": 199,
             "hp": 146
         },
+        "nativeStatBuffs": [0, 0],
         "types": ["ghost", "fairy"],
         "fastMoves": ["SHADOW_CLAW", "HEX"],
         "chargedMoves": ["SHADOW_SNEAK", "PLAY_ROUGH", "THUNDER"],
@@ -37537,6 +37541,44 @@
             "cp1500": [25, 5, 13, 15],
             "cp2500": [50, 13, 15, 15],
             "cp2500l40": [40, 15, 15, 15]
+        },
+        "formChange": {
+            "type": "set",
+            "trigger": "charged_move_damage",
+            "effect": "protect",
+            "moveId": "ANY",
+            "alternativeFormId": "mimikyu_busted",
+            "resetOnSwitch": false
+        },
+        "searchPriority": 4,
+        "buddyDistance": 5,
+        "thirdMoveCost": 50000,
+        "released": false
+    },
+    {
+        "dex": 778,
+        "speciesName": "謎擬Ｑ 現形",
+        "speciesId": "mimikyu_busted",
+        "originalFormId": "mimikyu",
+        "baseStats": {
+            "atk": 177,
+            "def": 199,
+            "hp": 146
+        },
+        "nativeStatBuffs": [0, -1],
+        "types": ["ghost", "fairy"],
+        "fastMoves": ["SHADOW_CLAW", "HEX"],
+        "chargedMoves": ["SHADOW_SNEAK", "PLAY_ROUGH", "THUNDER"],
+        "defaultIVs": {
+            "cp500": [8.5, 4, 12, 14],
+            "cp1500": [25, 5, 13, 15],
+            "cp2500": [50, 13, 15, 15],
+            "cp2500l40": [40, 15, 15, 15]
+        },
+          "formChange": {
+            "type": "set",
+            "trigger": "none",
+            "resetOnSwitch": false
         },
         "buddyDistance": 5,
         "thirdMoveCost": 50000,
@@ -40227,7 +40269,8 @@
             "trigger": "charged_move",
             "moveId": "ANY",
             "defaultFormId": "morpeko_full_belly",
-            "alternativeFormId": "morpeko_hangry"
+            "alternativeFormId": "morpeko_hangry",
+            "resetOnSwitch": true
         },
         "tags": ["include2500"],
         "searchPriority": 4,

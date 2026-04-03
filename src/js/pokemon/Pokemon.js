@@ -46,6 +46,7 @@ function Pokemon(id, i, b, d){
 	this.stats = { atk: 0, def: 0, hp: 0 };
 	this.statBuffs = [ 0, 0 ]; // 0 - attack, 1 - defense
 	this.startStatBuffs = [ 0, 0 ];
+	this.nativeStatBuffs = [ 0, 0 ]; // Form or species specific stat buffs
 	this.buffChanceModifier = 0;
 	this.ivs = { atk: 0, def: 0, hp: 0 };
 	this.types = [ data.types[0], data.types[1] ];
@@ -1829,7 +1830,7 @@ function Pokemon(id, i, b, d){
 
 	// Resets Pokemon prior to battle
 
-	this.reset = function(){
+	this.reset = function(isSwitch = false){
 		self.hp = self.startHp;
 		self.energy = self.startEnergy;
 		self.cooldown = self.startCooldown;
@@ -1838,9 +1839,11 @@ function Pokemon(id, i, b, d){
 		self.statBuffs = [self.startStatBuffs[0], self.startStatBuffs[1]];
 		self.faintSource = '';
 
-		if(self.formChange){
+		if(self.formChange && (self.formChange.resetOnSwitch || ! isSwitch)){
 			self.changeForm(self.startFormId);
 		}
+
+		self.applyStatBuffs(self.nativeStatBuffs);
 
 		self.resetMoves();
 	}
@@ -1852,6 +1855,7 @@ function Pokemon(id, i, b, d){
 		self.startEnergy = 0;
 		self.startCooldown = 0;
 		self.startStatBuffs = [0, 0];
+		self.nativeStatBuffs = [0, 0];
 		self.startFormId = self.originalFormId;
 
 		self.reset();
@@ -1984,7 +1988,6 @@ function Pokemon(id, i, b, d){
 			self.statBuffs[i] = Math.min(self.statBuffs[i], maxBuffStages);
 			self.statBuffs[i] = Math.max(self.statBuffs[i], -maxBuffStages);
 		}
-
 	}
 
 	// Return effective stat after applying modifier, 0 - attack, 1 - defense
@@ -2360,6 +2363,14 @@ function Pokemon(id, i, b, d){
 			this.stats.atk = newStats.atk;
 			this.stats.def = newStats.def;
 			//this.stats.hp = newStats.hp;
+		}
+
+		// Apply form specific stat buffs or debuffs
+		if(form?.nativeStatBuffs){
+			self.nativeStatBuffs[0] = form.nativeStatBuffs[0];
+			self.nativeStatBuffs[1] = form.nativeStatBuffs[1];
+
+			self.applyStatBuffs(self.nativeStatBuffs);
 		}
 
 		// Form specific functionality

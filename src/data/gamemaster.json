@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-04-01 16:02:37",
+    "timestamp": "2026-04-07 00:02:52",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -433,6 +433,28 @@
                     "values": ["abomasnow", "amoonguss", "araquanid", "bellibolt", "charjabug", "dhelmise", "dragalge", "golbat", "gourgeist_average", "gourgeist_large", "gourgeist_small", "gourgeist_super", "jumpluff", "lanturn", "ledian", "nidorina", "oranguru", "pachirisu", "pumpkaboo_average", "pumpkaboo_large", "pumpkaboo_small", "pumpkaboo_super", "rotom", "rotom_fan", "rotom_frost", "rotom_mow", "rotom_wash", "slowking_galarian", "smoochum", "spidops", "swalot", "toxapex", "toxtricity", "vespiquen", "vikavolt"]
                 }
             ]
+        },
+        {
+            "name": "spring",
+            "title": "春日盃",
+            "include": [
+                {
+                    "filterType": "type",
+                    "values": ["water", "grass", "fairy"]
+                }
+            ],
+            "exclude": [
+                {
+                    "filterType": "tag",
+                    "values": ["mega"]
+                },
+                {
+                    "filterType": "id",
+                    "values": ["jumpluff", "roserade", "toxapex"]
+                }
+            ],
+            "partySize": 3,
+            "presetOnly": true
         }
     ],
     "formats": [
@@ -476,6 +498,16 @@
             "showFormat": true,
             "showMeta": true,
             "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Dragon-,  Steel-,  and Fairy-type Pokémon are eligible."]
+        },
+        {
+            "title": "春日盃",
+            "cup": "spring",
+            "cp": 1500,
+            "meta": "spring",
+            "showCup": true,
+            "showFormat": true,
+            "showMeta": true,
+            "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Water-,  Grass-,  and Fairy-type Pokémon are eligible.", "The following Pokemon are not allowed: Junpluff,  Roserade,  Toxapex"]
         },
         {
             "title": "Battle Frontier (Bayou Cup)",

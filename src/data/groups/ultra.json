@@ -22,6 +22,11 @@
         "shadowType": "shadow"
     },
     {
+        "speciesId": "articuno",
+        "fastMove": "POWDER_SNOW",
+        "chargedMoves": ["ICY_WIND", "HURRICANE"]
+    },
+    {
         "speciesId": "bellibolt",
         "fastMove": "SUCKER_PUNCH",
         "chargedMoves": ["PARABOLIC_CHARGE", "ZAP_CANNON"]
@@ -98,7 +103,7 @@
     {
         "speciesId": "florges",
         "fastMove": "FAIRY_WIND",
-        "chargedMoves": ["MOONBLAST", "CHILLING_WATER"]
+        "chargedMoves": ["DISARMING_VOICE", "CHILLING_WATER"]
     },
     {
         "speciesId": "gastrodon",
@@ -263,8 +268,13 @@
         "chargedMoves": ["CRUNCH", "EARTHQUAKE"]
     },
     {
-        "speciesId": "articuno",
-        "fastMove": "POWDER_SNOW",
-        "chargedMoves": ["ICY_WIND", "HURRICANE"]
+        "speciesId": "florges",
+        "fastMove": "FAIRY_WIND",
+        "chargedMoves": ["CHILLING_WATER", "TRAILBLAZE"]
+    },
+    {
+        "speciesId": "tinkaton",
+        "fastMove": "FAIRY_WIND",
+        "chargedMoves": ["GIGATON_HAMMER", "BULLDOZE"]
     }
 ]

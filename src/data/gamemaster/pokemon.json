@@ -42716,7 +42716,8 @@
         },
         "types": ["fairy", "steel"],
         "fastMoves": ["FAIRY_WIND", "ROCK_SMASH"],
-        "chargedMoves": ["PLAY_ROUGH", "FLASH_CANNON", "HEAVY_SLAM", "BULLDOZE"],
+        "chargedMoves": ["PLAY_ROUGH", "FLASH_CANNON", "HEAVY_SLAM", "BULLDOZE", "GIGATON_HAMMER"],
+        "eliteMoves": ["GIGATON_HAMMER"],
         "defaultIVs": {
             "cp500": [8.5, 4, 11, 14],
             "cp1500": [25, 4, 15, 14],

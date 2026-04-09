@@ -171,6 +171,11 @@
         "chargedMoves": ["RAGE_FIST", "CLOSE_COMBAT"]
     },
     {
+        "speciesId": "quagsire",
+        "fastMove": "MUD_SHOT",
+        "chargedMoves": ["AQUA_TAIL", "STONE_EDGE"]
+    },
+    {
         "speciesId": "quagsire_shadow",
         "fastMove": "MUD_SHOT",
         "chargedMoves": ["AQUA_TAIL", "STONE_EDGE"],
@@ -242,14 +247,9 @@
         "chargedMoves": ["PSYSHOCK", "AURA_SPHERE"]
     },
     {
-        "speciesId": "wigglytuff",
-        "fastMove": "CHARM",
-        "chargedMoves": ["ICY_WIND", "SWIFT"]
-    },
-    {
-        "speciesId": "quagsire",
-        "fastMove": "MUD_SHOT",
-        "chargedMoves": ["AQUA_TAIL", "STONE_EDGE"]
+        "speciesId": "weezing_galarian",
+        "fastMove": "FAIRY_WIND",
+        "chargedMoves": ["SLUDGE", "BRUTAL_SWING"]
     },
     {
         "speciesId": "weezing_galarian_shadow",
@@ -258,8 +258,18 @@
         "shadowType": "shadow"
     },
     {
-        "speciesId": "weezing_galarian",
+        "speciesId": "wigglytuff",
+        "fastMove": "CHARM",
+        "chargedMoves": ["ICY_WIND", "SWIFT"]
+    },
+    {
+        "speciesId": "tinkaton",
         "fastMove": "FAIRY_WIND",
-        "chargedMoves": ["SLUDGE", "BRUTAL_SWING"]
+        "chargedMoves": ["GIGATON_HAMMER", "BULLDOZE"]
+    },
+    {
+        "speciesId": "diggersby",
+        "fastMove": "MUD_SHOT",
+        "chargedMoves": ["FIRE_PUNCH", "SCORCHING_SANDS"]
     }
 ]

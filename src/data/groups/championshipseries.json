@@ -26,11 +26,6 @@
         "chargedMoves": ["X_SCISSOR", "DISCHARGE"]
     },
     {
-        "speciesId": "clefable",
-        "fastMove": "FAIRY_WIND",
-        "chargedMoves": ["MOONBLAST", "METEOR_MASH"]
-    },
-    {
         "speciesId": "clodsire",
         "fastMove": "POISON_STING",
         "chargedMoves": ["EARTHQUAKE", "STONE_EDGE"]
@@ -134,6 +129,17 @@
         "chargedMoves": ["WEATHER_BALL_ICE", "CHILLING_WATER"]
     },
     {
+        "speciesId": "piloswine",
+        "fastMove": "POWDER_SNOW",
+        "chargedMoves": ["ICICLE_SPEAR", "STONE_EDGE"]
+    },
+    {
+        "speciesId": "piloswine_shadow",
+        "fastMove": "POWDER_SNOW",
+        "chargedMoves": ["ICICLE_SPEAR", "STONE_EDGE"],
+        "shadowType": "shadow"
+    },
+    {
         "speciesId": "politoed",
         "fastMove": "MUD_SHOT",
         "chargedMoves": ["WEATHER_BALL_WATER", "ICE_BEAM"]
@@ -193,14 +199,8 @@
         "chargedMoves": ["ICY_WIND", "SWIFT"]
     },
     {
-        "speciesId": "piloswine",
-        "fastMove": "POWDER_SNOW",
-        "chargedMoves": ["ICICLE_SPEAR", "STONE_EDGE"]
-    },
-    {
-        "speciesId": "piloswine_shadow",
-        "fastMove": "POWDER_SNOW",
-        "chargedMoves": ["ICICLE_SPEAR", "STONE_EDGE"],
-        "shadowType": "shadow"
+        "speciesId": "diggersby",
+        "fastMove": "MUD_SHOT",
+        "chargedMoves": ["FIRE_PUNCH", "SCORCHING_SANDS"]
     }
 ]

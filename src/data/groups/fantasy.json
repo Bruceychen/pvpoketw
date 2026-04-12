@@ -35,6 +35,11 @@
         "chargedMoves": ["AIR_CUTTER", "PAYBACK"]
     },
     {
+        "speciesId": "doublade",
+        "fastMove": "SHADOW_CLAW",
+        "chargedMoves": ["SACRED_SWORD", "GYRO_BALL"]
+    },
+    {
         "speciesId": "empoleon",
         "fastMove": "METAL_SOUND",
         "chargedMoves": ["HYDRO_CANNON", "DRILL_PECK"]
@@ -143,7 +148,7 @@
     {
         "speciesId": "tinkaton",
         "fastMove": "FAIRY_WIND",
-        "chargedMoves": ["PLAY_ROUGH", "BULLDOZE"]
+        "chargedMoves": ["GIGATON_HAMMER", "BULLDOZE"]
     },
     {
         "speciesId": "togekiss",
@@ -177,8 +182,15 @@
         "chargedMoves": ["ICY_WIND", "SWIFT"]
     },
     {
-        "speciesId": "doublade",
+        "speciesId": "empoleon_shadow",
+        "fastMove": "WATERFALL",
+        "chargedMoves": ["HYDRO_CANNON", "DRILL_PECK"],
+        "shadowType": "shadow"
+    },
+    {
+        "speciesId": "giratina_altered_shadow",
         "fastMove": "SHADOW_CLAW",
-        "chargedMoves": ["SACRED_SWORD", "GYRO_BALL"]
+        "chargedMoves": ["DRAGON_CLAW", "SHADOW_SNEAK"],
+        "shadowType": "shadow"
     }
 ]

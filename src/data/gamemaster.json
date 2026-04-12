@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-04-08 17:11:08",
+    "timestamp": "2026-04-11 16:16:16",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -478,16 +478,6 @@
             "showMeta": true,
             "hideRankings": true,
             "rules": ["No CP limit.", "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."]
-        },
-        {
-            "title": "電氣盃",
-            "cup": "electric",
-            "cp": 1500,
-            "meta": "electric",
-            "showCup": true,
-            "showFormat": true,
-            "showMeta": true,
-            "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Electric-type Pokémon are eligible.", "The following Pokemon are not allowed: Stunfisk,  Heliolisk,  Charjabug,  Vikavolt"]
         },
         {
             "title": "奇幻盃",
@@ -38326,7 +38316,6 @@
                 "cp1500": [20, 1, 4, 4],
                 "cp2500": [32.5, 4, 14, 13]
             },
-            "levelFloor": 20,
             "buddyDistance": 5,
             "thirdMoveCost": 50000,
             "released": true

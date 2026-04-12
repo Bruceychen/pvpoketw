@@ -37644,7 +37644,6 @@
             "cp1500": [20, 1, 4, 4],
             "cp2500": [32.5, 4, 14, 13]
         },
-        "levelFloor": 20,
         "buddyDistance": 5,
         "thirdMoveCost": 50000,
         "released": true

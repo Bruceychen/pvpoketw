@@ -24,20 +24,6 @@
 		]
 	},
 	{
-		"title": "Electric Cup",
-		"cup": "electric",
-		"cp": 1500,
-		"meta": "electric",
-		"showCup": true,
-		"showFormat": true,
-		"showMeta": true,
-		"rules": [
-			"Pokémon must be at or below 1,500 CP to enter.",
-			"Only Electric-type Pokémon are eligible.",
-			"The following Pokemon are not allowed: Stunfisk, Heliolisk, Charjabug, Vikavolt"
-		]
-	},
-	{
 		"title": "Fantasy Cup",
 		"cup": "fantasy",
 		"cp": 1500,

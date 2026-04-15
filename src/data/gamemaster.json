@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-04-14 04:15:20",
+    "timestamp": "2026-04-14 18:14:43",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -395,6 +395,30 @@
             "excludeLowPokemon": 1
         },
         {
+            "name": "naic2026",
+            "title": "NAIC 2026 Championship Series Cup",
+            "include": [
+                {
+                    "filterType": "type",
+                    "values": ["fairy", "normal", "psychic", "water"]
+                }
+            ],
+            "exclude": [
+                {
+                    "filterType": "tag",
+                    "values": ["mega"]
+                },
+                {
+                    "filterType": "type",
+                    "values": ["dark", "grass", "steel"]
+                },
+                {
+                    "filterType": "id",
+                    "values": ["araquanid", "carbink", "chansey", "chinchou", "claydol", "clefable", "cresselia", "dedenne", "diggersby", "farfetchd", "furret", "gastrodon", "golisopod", "greedent", "jellicent", "lanturn", "lickilicky", "lickitung", "lugia", "medicham", "oranguru", "poliwrath", "rotom_wash", "toxapex", "wigglytuff"]
+                }
+            ]
+        },
+        {
             "name": "premier",
             "title": "Premier Cup",
             "include": [],
@@ -480,6 +504,16 @@
             "rules": ["No CP limit.", "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."]
         },
         {
+            "title": "春日盃",
+            "cup": "spring",
+            "cp": 1500,
+            "meta": "spring",
+            "showCup": true,
+            "showFormat": true,
+            "showMeta": true,
+            "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Water-,  Grass-,  and Fairy-type Pokémon are eligible.", "The following Pokemon are not allowed: Jumpluff,  Roserade,  Toxapex"]
+        },
+        {
             "title": "奇幻盃",
             "cup": "fantasy",
             "cp": 1500,
@@ -490,14 +524,14 @@
             "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Dragon-,  Steel-,  and Fairy-type Pokémon are eligible."]
         },
         {
-            "title": "春日盃",
-            "cup": "spring",
+            "title": "NAIC 2026 Championship Series Cup",
+            "cup": "naic2026",
             "cp": 1500,
-            "meta": "spring",
+            "meta": "naic2026",
             "showCup": true,
             "showFormat": true,
             "showMeta": true,
-            "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Water-,  Grass-,  and Fairy-type Pokémon are eligible.", "The following Pokemon are not allowed: Junpluff,  Roserade,  Toxapex"]
+            "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Fairy-,  Normal-,  Psychic- and Water-type Pokémon are eligible.", "The following types are not allowed: Dark,  Grass,  Steel", "The following Pokemon are not allowed: Araquanid,  Carbink,  Chansey,  Chinchou,  Claydol,  Clefable,  Cresselia,  Dedenne,  Diggersby,  Farfetch'd,  Gastrodon,  Golisopod,  Greedent,  Jellicent,  Lanturn,  Lickilicky,  Lickitung,  Lugia,  Medicham,  Oranguru,  Poliwrath"]
         },
         {
             "title": "Battle Frontier (Bayou Cup)",

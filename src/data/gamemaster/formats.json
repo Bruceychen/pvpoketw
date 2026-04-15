@@ -24,6 +24,20 @@
 		]
 	},
 	{
+		"title": "Spring Cup",
+		"cup": "spring",
+		"cp": 1500,
+		"meta": "spring",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true,
+		"rules": [
+			"Pokémon must be at or below 1,500 CP to enter.",
+			"Only Water-, Grass-, and Fairy-type Pokémon are eligible.",
+			"The following Pokemon are not allowed: Jumpluff, Roserade, Toxapex"
+		]
+	},
+	{
 		"title": "Fantasy Cup",
 		"cup": "fantasy",
 		"cp": 1500,
@@ -37,17 +51,18 @@
 		]
 	},
 	{
-		"title": "Spring Cup",
-		"cup": "spring",
+		"title": "NAIC 2026 Championship Series Cup",
+		"cup": "naic2026",
 		"cp": 1500,
-		"meta": "spring",
+		"meta": "naic2026",
 		"showCup": true,
 		"showFormat": true,
 		"showMeta": true,
 		"rules": [
 			"Pokémon must be at or below 1,500 CP to enter.",
-			"Only Water-, Grass-, and Fairy-type Pokémon are eligible.",
-			"The following Pokemon are not allowed: Junpluff, Roserade, Toxapex"
+			"Only Fairy-, Normal-, Psychic- and Water-type Pokémon are eligible.",
+			"The following types are not allowed: Dark, Grass, Steel",
+			"The following Pokemon are not allowed: Araquanid, Carbink, Chansey, Chinchou, Claydol, Clefable, Cresselia, Dedenne, Diggersby, Farfetch'd, Gastrodon, Golisopod, Greedent, Jellicent, Lanturn, Lickilicky, Lickitung, Lugia, Medicham, Oranguru, Poliwrath"
 		]
 	},
 	{

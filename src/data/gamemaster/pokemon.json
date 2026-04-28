@@ -31872,7 +31872,8 @@
             "id": "FAMILY_DEINO",
             "parent": "zweilous_shadow"
         },
-        "tags": ["shadow"]
+        "tags": ["shadow"],
+        "searchPriority": 2
     },
     {
         "dex": 636,
@@ -42996,7 +42997,8 @@
         },
         "buddyDistance": 5,
         "thirdMoveCost": 75000,
-        "released": false
+        "levelFloor": 20,
+        "released": true
     },
     {
         "dex": 969,

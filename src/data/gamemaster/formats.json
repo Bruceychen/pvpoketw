@@ -119,6 +119,15 @@
 		"showMeta": true
 	},
 	{
+		"title": "Devon Cosy Cup",
+		"cup": "cosy",
+		"cp": 1500,
+		"meta": "cosy",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true
+	},
+	{
 		"title": "Gymbreakers LAIC 2025 Remix",
 		"cup": "laic2025remix",
 		"cp": 1500,

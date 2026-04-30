@@ -1,5 +1,5 @@
 <?php require_once 'modules/config.php';
-$SITE_VERSION = '1.36.22.8';
+$SITE_VERSION = '1.36.22.11';
 
 // This prevents caching on local testing
 if (strpos($WEB_ROOT, 'src') !== false) {

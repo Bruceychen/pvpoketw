@@ -168,10 +168,20 @@ require_once 'header.php'; ?>
                     <li><strong>傳說時代(洗翠):</strong> 899-905</li>
                     <li><strong>第九世代:</strong> 906-1008</li>
 				</ul>
-				<div class="field-container">
-					<input class="start-range" placeholder="Start #" />
-					<input class="end-range" placeholder="End #" />
+
+				<div class="dex-range-rows">
+					<div class="dex-range-row flex align-items-center gap-15">
+						<div>Range #1:</div>
+						<input class="start-range" placeholder="Start #" />
+						<input class="end-range" placeholder="End #" />
+					</div>
 				</div>
+
+				<div class="field-container flex align-items-center gap-15">
+					<button class="dex-add-range">+ Add Range</button>
+					<button class="dex-remove-range">- Remove Range</button>
+				</div>
+
 			</div>
 
             <div class="field-section cost">

@@ -87,26 +87,6 @@ $formats = array (
   ),
   7 => 
   array (
-    'title' => 'Devon Equinox Cup',
-    'cup' => 'equinox',
-    'cp' => 1500,
-    'meta' => 'equinox',
-    'showCup' => true,
-    'showFormat' => true,
-    'showMeta' => true,
-  ),
-  8 => 
-  array (
-    'title' => 'Devon Maelstrom Cup',
-    'cup' => 'maelstrom',
-    'cp' => 1500,
-    'meta' => 'maelstrom',
-    'showCup' => true,
-    'showFormat' => true,
-    'showMeta' => true,
-  ),
-  9 => 
-  array (
     'title' => 'Devon Cosy Cup',
     'cup' => 'cosy',
     'cp' => 1500,
@@ -115,27 +95,7 @@ $formats = array (
     'showFormat' => true,
     'showMeta' => true,
   ),
-  10 => 
-  array (
-    'title' => 'Gymbreakers LAIC 2025 Remix',
-    'cup' => 'laic2025remix',
-    'cp' => 1500,
-    'meta' => 'laic2025remix',
-    'showCup' => true,
-    'showFormat' => true,
-    'showMeta' => true,
-  ),
-  11 => 
-  array (
-    'title' => 'Zygarden Chrono Meta',
-    'cup' => 'chrono',
-    'cp' => 1500,
-    'meta' => 'chrono',
-    'showCup' => true,
-    'showFormat' => true,
-    'showMeta' => true,
-  ),
-  12 => 
+  8 => 
   array (
     'title' => 'Little Cup',
     'cup' => 'little',
@@ -145,7 +105,7 @@ $formats = array (
     'showFormat' => false,
     'showMeta' => false,
   ),
-  13 => 
+  9 => 
   array (
     'title' => 'Catch Cup',
     'cup' => 'catch',
@@ -155,7 +115,7 @@ $formats = array (
     'showFormat' => false,
     'showMeta' => false,
   ),
-  14 => 
+  10 => 
   array (
     'title' => 'Custom',
     'cup' => 'custom',

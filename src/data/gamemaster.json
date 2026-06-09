@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-06-05 16:40:07",
+    "timestamp": "2026-06-06 03:27:40",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -206,6 +206,46 @@
             "exclude": []
         },
         {
+            "name": "equinox",
+            "title": "Equinox Cup",
+            "link": "https://devon.gg",
+            "include": [
+                {
+                    "filterType": "type",
+                    "name": "Type",
+                    "values": ["fire", "flying", "grass", "ground", "normal"]
+                },
+                {
+                    "filterType": "id",
+                    "name": "Species",
+                    "values": ["wailmer", "wailmer_shadow", "wailord", "wailord_shadow"]
+                }
+            ],
+            "exclude": [
+                {
+                    "filterType": "type",
+                    "name": "Type",
+                    "values": ["electric", "rock"]
+                },
+                {
+                    "filterType": "tag",
+                    "name": "Tag",
+                    "values": ["mega"]
+                },
+                {
+                    "filterType": "id",
+                    "name": "Species",
+                    "values": ["altaria", "dudunsparce", "dunsparce", "lickilicky", "miltank", "piloswine", "whimsicott", "wigglytuff"]
+                }
+            ],
+            "overrides": [],
+            "league": 1500,
+            "useDefaultMovesets": 1,
+            "levelCap": 50,
+            "excludeLowPokemon": 1,
+            "cup": "equinox"
+        },
+        {
             "name": "gobattleleague",
             "title": "GO Battle League",
             "rankingAlias": "all",
@@ -388,6 +428,15 @@
             "cup": "battlefrontiermaster",
             "cp": 10000,
             "meta": "battlefrontiermaster",
+            "showCup": true,
+            "showFormat": true,
+            "showMeta": true
+        },
+        {
+            "title": "Devon Equinox Cup",
+            "cup": "equinox",
+            "cp": 1500,
+            "meta": "equinox",
             "showCup": true,
             "showFormat": true,
             "showMeta": true
@@ -6951,12 +7000,40 @@
                 "cp2500": [50, 15, 15, 15],
                 "cp1500l40": [39, 12, 13, 14]
             },
+            "tags": ["shadoweligible"],
             "buddyDistance": 3,
             "thirdMoveCost": 50000,
             "released": true,
             "family": {
                 "id": "FAMILY_KRABBY",
                 "evolutions": ["kingler"]
+            }
+        },
+        {
+            "dex": 98,
+            "speciesName": "大鉗蟹 暗影",
+            "speciesId": "krabby_shadow",
+            "baseStats": {
+                "atk": 181,
+                "def": 124,
+                "hp": 102
+            },
+            "types": ["water", "none"],
+            "fastMoves": ["BUBBLE", "MUD_SHOT"],
+            "chargedMoves": ["BUBBLE_BEAM", "VICE_GRIP", "WATER_PULSE", "RAZOR_SHELL"],
+            "defaultIVs": {
+                "cp500": [12, 4, 12, 15],
+                "cp1500": [42, 4, 15, 13],
+                "cp2500": [50, 15, 15, 15],
+                "cp1500l40": [39, 12, 13, 14]
+            },
+            "tags": ["shadow"],
+            "buddyDistance": 3,
+            "thirdMoveCost": 50000,
+            "released": true,
+            "family": {
+                "id": "FAMILY_KRABBY",
+                "evolutions": ["kingler_shadow"]
             }
         },
         {
@@ -6976,6 +7053,7 @@
                 "cp1500": [19.5, 5, 15, 12],
                 "cp2500": [35, 4, 15, 13]
             },
+            "tags": ["shadoweligible"],
             "eliteMoves": ["MUD_SHOT"],
             "buddyDistance": 3,
             "thirdMoveCost": 50000,
@@ -6983,6 +7061,33 @@
             "family": {
                 "id": "FAMILY_KRABBY",
                 "parent": "krabby"
+            }
+        },
+        {
+            "dex": 99,
+            "speciesName": "巨鉗蟹 暗影",
+            "speciesId": "kingler_shadow",
+            "baseStats": {
+                "atk": 240,
+                "def": 181,
+                "hp": 146
+            },
+            "types": ["water", "none"],
+            "fastMoves": ["BUBBLE", "METAL_CLAW", "MUD_SHOT"],
+            "chargedMoves": ["VICE_GRIP", "WATER_PULSE", "X_SCISSOR", "CRABHAMMER", "RAZOR_SHELL"],
+            "defaultIVs": {
+                "cp500": [6.5, 11, 14, 15],
+                "cp1500": [19.5, 5, 15, 12],
+                "cp2500": [35, 4, 15, 13]
+            },
+            "tags": ["shadow"],
+            "eliteMoves": ["MUD_SHOT"],
+            "buddyDistance": 3,
+            "thirdMoveCost": 50000,
+            "released": true,
+            "family": {
+                "id": "FAMILY_KRABBY",
+                "parent": "krabby_shadow"
             }
         },
         {

@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-06-09 00:44:18",
+    "timestamp": "2026-06-10 01:32:25",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -45,6 +45,44 @@
                     "values": ["mega"]
                 }
             ]
+        },
+        {
+            "name": "bastille",
+            "title": "Bastille Cup",
+            "link": "https://devon.gg/",
+            "include": [
+                {
+                    "filterType": "type",
+                    "name": "Type",
+                    "values": ["bug", "dragon", "poison", "steel", "water"]
+                },
+                {
+                    "filterType": "id",
+                    "name": "Species",
+                    "values": ["sandslash_alolan", "stunfisk_galarian"]
+                }
+            ],
+            "exclude": [
+                {
+                    "filterType": "type",
+                    "name": "Type",
+                    "values": ["electric", "fairy", "fire", "flying", "ground"]
+                },
+                {
+                    "filterType": "tag",
+                    "name": "Tag",
+                    "values": ["mega", "shadow"]
+                },
+                {
+                    "filterType": "id",
+                    "name": "Species",
+                    "values": ["doublade", "empoleon", "forretress", "melmetal", "metang"]
+                }
+            ],
+            "overrides": [],
+            "league": 1500,
+            "useDefaultMovesets": 1,
+            "excludeLowPokemon": 1
         },
         {
             "name": "battlefrontiermaster",
@@ -362,6 +400,28 @@
                     "values": ["abomasnow", "amoonguss", "araquanid", "bellibolt", "charjabug", "dhelmise", "dragalge", "golbat", "gourgeist_average", "gourgeist_large", "gourgeist_small", "gourgeist_super", "jumpluff", "lanturn", "ledian", "nidorina", "oranguru", "pachirisu", "pumpkaboo_average", "pumpkaboo_large", "pumpkaboo_small", "pumpkaboo_super", "rotom", "rotom_fan", "rotom_frost", "rotom_mow", "rotom_wash", "slowking_galarian", "smoochum", "spidops", "swalot", "toxapex", "toxtricity", "vespiquen", "vikavolt"]
                 }
             ]
+        },
+        {
+            "name": "sunshine",
+            "title": "陽光盃",
+            "include": [
+                {
+                    "filterType": "type",
+                    "values": ["normal", "fire", "ground", "grass"]
+                }
+            ],
+            "exclude": [
+                {
+                    "filterType": "tag",
+                    "values": ["mega"]
+                },
+                {
+                    "filterType": "id",
+                    "values": ["charizard"]
+                }
+            ],
+            "partySize": 3,
+            "presetOnly": true
         }
     ],
     "formats": [
@@ -395,6 +455,16 @@
             "showFormat": true,
             "showMeta": true,
             "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Fairy-,  Normal-,  Psychic- and Water-type Pokémon are eligible.", "The following types are not allowed: Dark,  Grass,  Steel", "The following Pokemon are not allowed: Araquanid,  Carbink,  Chansey,  Chinchou,  Claydol,  Clefable,  Cresselia,  Dedenne,  Diggersby,  Farfetch'd,  Gastrodon,  Golisopod,  Greedent,  Jellicent,  Lanturn,  Lickilicky,  Lickitung,  Lugia,  Medicham,  Oranguru,  Poliwrath"]
+        },
+        {
+            "title": "陽光盃",
+            "cup": "sunshine",
+            "cp": 1500,
+            "meta": "sunshine",
+            "showCup": true,
+            "showFormat": true,
+            "showMeta": true,
+            "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Normal-,  Fire-,  Grass-,  and Ground-type Pokémon are eligible.", "The following Pokemon are not allowed: Charizard"]
         },
         {
             "title": "Battle Frontier (Bayou Cup)",
@@ -433,10 +503,19 @@
             "showMeta": true
         },
         {
-            "title": "Devon Cosy Cup",
-            "cup": "cosy",
+            "title": "Devon Equinox Cup",
+            "cup": "equinox",
             "cp": 1500,
-            "meta": "cosy",
+            "meta": "equinox",
+            "showCup": true,
+            "showFormat": true,
+            "showMeta": true
+        },
+        {
+            "title": "Devon Bastille Cup",
+            "cup": "bastille",
+            "cp": 1500,
+            "meta": "bastille",
             "showCup": true,
             "showFormat": true,
             "showMeta": true

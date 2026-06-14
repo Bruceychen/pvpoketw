@@ -9443,7 +9443,7 @@
     },
     {
         "dex": 150,
-        "speciesName": "Mewtwo (Mega X)",
+        "speciesName": "超夢 Mega X",
         "speciesId": "mewtwo_mega_x",
         "baseStats": {
             "atk": 399,
@@ -9469,7 +9469,7 @@
     },
     {
         "dex": 150,
-        "speciesName": "Mewtwo (Mega Y)",
+        "speciesName": "超夢 Mega Y",
         "speciesId": "mewtwo_mega_y",
         "baseStats": {
             "atk": 413,
@@ -40377,7 +40377,7 @@
     },
     {
         "dex": 870,
-        "speciesName": "Falinks (Mega)",
+        "speciesName": "列陣兵 Mega",
         "speciesId": "falinks_mega",
         "baseStats": {
             "atk": 267,

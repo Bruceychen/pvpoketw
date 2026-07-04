@@ -3324,7 +3324,7 @@
         "energyGain": 0,
         "cooldown": 500,
         "buffs": [2, 0],
-        "buffTarget": "opponent",
+        "buffTarget": "self",
         "buffApplyChance": ".125",
         "archetype": "Boost Spam",
         "turns": 1

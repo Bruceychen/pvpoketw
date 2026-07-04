@@ -39269,7 +39269,8 @@
         },
         "types": ["water", "none"],
         "fastMoves": ["POUND", "WATER_GUN"],
-        "chargedMoves": ["WATER_PULSE", "SURF", "SHADOW_BALL"],
+        "chargedMoves": ["WATER_PULSE", "SURF", "SHADOW_BALL", "SNIPE_SHOT", "HYDRO_CANNON"],
+        "eliteMoves": ["HYDRO_CANNON"],
         "defaultIVs": {
             "cp500": [6.5, 4, 14, 7],
             "cp1500": [18.5, 5, 13, 15],

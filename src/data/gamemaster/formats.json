@@ -37,6 +37,19 @@
 		]
 	},
 	{
+		"title": "Fantasy Cup (Ultra League)",
+		"cup": "fantasy",
+		"cp": 2500,
+		"meta": "fantasyultra",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true,
+		"rules": [
+			"Pokémon must be at or below 2,500 CP to enter.",
+			"Only Dragon-, Steel-, and Fairy-type Pokémon are eligible."
+		]
+	},
+	{
 		"title": "Battle Frontier (Copa Dilúvio)",
 		"cup": "copadiluvio",
 		"cp": 1500,

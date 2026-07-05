@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-03 16:45:34",
+    "timestamp": "2026-07-04 18:53:35",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -340,6 +340,22 @@
             "cup": "equinox"
         },
         {
+            "name": "fantasy",
+            "title": "奇幻盃",
+            "include": [
+                {
+                    "filterType": "type",
+                    "values": ["steel", "dragon", "fairy"]
+                }
+            ],
+            "exclude": [
+                {
+                    "filterType": "tag",
+                    "values": ["mega"]
+                }
+            ]
+        },
+        {
             "name": "gobattleleague",
             "title": "GO Battle League",
             "rankingAlias": "all",
@@ -572,6 +588,16 @@
             "showFormat": true,
             "showMeta": true,
             "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Normal-,  Fire-,  Water-,  Grass-,  Electric-,  and Bug-type Pokémon are eligible."]
+        },
+        {
+            "title": "奇幻盃(高級)",
+            "cup": "fantasy",
+            "cp": 2500,
+            "meta": "fantasyultra",
+            "showCup": true,
+            "showFormat": true,
+            "showMeta": true,
+            "rules": ["Pokémon must be at or below 2, 500 CP to enter.", "Only Dragon-,  Steel-,  and Fairy-type Pokémon are eligible."]
         },
         {
             "title": "Battle Frontier (Copa Dilúvio)",

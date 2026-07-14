@@ -24,19 +24,6 @@
 		]
 	},
 	{
-		"title": "Summer Cup",
-		"cup": "summer",
-		"cp": 1500,
-		"meta": "summer",
-		"showCup": true,
-		"showFormat": true,
-		"showMeta": true,
-		"rules": [
-			"Pokémon must be at or below 1,500 CP to enter.",
-			"Only Normal-, Fire-, Water-, Grass-, Electric-, and Bug-type Pokémon are eligible."
-		]
-	},
-	{
 		"title": "Fantasy Cup (Ultra League)",
 		"cup": "fantasy",
 		"cp": 2500,
@@ -112,6 +99,15 @@
 		"cup": "bastille",
 		"cp": 1500,
 		"meta": "bastille",
+		"showCup": true,
+		"showFormat": true,
+		"showMeta": true
+	},
+	{
+		"title": "Devon Chrysalis Cup",
+		"cup": "chrysalis",
+		"cp": 1500,
+		"meta": "chrysalis",
 		"showCup": true,
 		"showFormat": true,
 		"showMeta": true

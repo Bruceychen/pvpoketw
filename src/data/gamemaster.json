@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-05 19:43:15",
+    "timestamp": "2026-07-14 03:16:24",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -194,6 +194,44 @@
                     "values": ["mimikyu"]
                 }
             ]
+        },
+        {
+            "name": "chrysalis",
+            "title": "Chrysalis Cup - Devon World Championship 2026",
+            "include": [
+                {
+                    "filterType": "type",
+                    "name": "Type",
+                    "values": ["dragon", "flying", "psychic"]
+                },
+                {
+                    "filterType": "id",
+                    "name": "Species",
+                    "values": ["jellicent", "marowak_alolan", "marowak_alolan_shadow", "primeape", "primeape_shadow", "seaking", "togekiss", "trevenant", "trevenant_shadow"]
+                }
+            ],
+            "exclude": [
+                {
+                    "filterType": "type",
+                    "name": "Type",
+                    "values": ["dark", "electric", "ice", "steel"]
+                },
+                {
+                    "filterType": "tag",
+                    "name": "Tag",
+                    "values": ["mega"]
+                },
+                {
+                    "filterType": "id",
+                    "name": "Species",
+                    "values": ["corsola_galarian", "rapidash_galarian", "togetic"]
+                }
+            ],
+            "overrides": [],
+            "league": 1500,
+            "useDefaultMovesets": 1,
+            "excludeLowPokemon": 1,
+            "link": "https://devon.gg/"
         },
         {
             "name": "classic",
@@ -597,16 +635,6 @@
             "rules": ["No CP limit.", "Legendary Pokémon,  Mythical Pokémon,  and Ultra Beasts are not eligible."]
         },
         {
-            "title": "夏日盃",
-            "cup": "summer",
-            "cp": 1500,
-            "meta": "summer",
-            "showCup": true,
-            "showFormat": true,
-            "showMeta": true,
-            "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Normal-,  Fire-,  Water-,  Grass-,  Electric-,  and Bug-type Pokémon are eligible."]
-        },
-        {
             "title": "奇幻盃(高級)",
             "cup": "fantasy",
             "cp": 2500,
@@ -676,6 +704,15 @@
             "cup": "bastille",
             "cp": 1500,
             "meta": "bastille",
+            "showCup": true,
+            "showFormat": true,
+            "showMeta": true
+        },
+        {
+            "title": "Devon Chrysalis Cup",
+            "cup": "chrysalis",
+            "cp": 1500,
+            "meta": "chrysalis",
             "showCup": true,
             "showFormat": true,
             "showMeta": true

@@ -1788,6 +1788,60 @@
     },
     {
         "dex": 26,
+        "speciesName": "Raichu (Mega X)",
+        "speciesId": "raichu_mega_x",
+        "baseStats": {
+            "atk": 277,
+            "def": 203,
+            "hp": 155
+        },
+        "types": ["electric", "none"],
+        "fastMoves": ["SPARK", "THUNDER_SHOCK", "VOLT_SWITCH", "CHARM"],
+        "chargedMoves": ["BRICK_BREAK", "THUNDER", "THUNDER_PUNCH", "WILD_CHARGE", "SKULL_BASH", "TRAILBLAZE", "SURF"],
+        "defaultIVs": {
+            "cp500": [5.5, 4, 9, 15],
+            "cp1500": [15.5, 5, 14, 15],
+            "cp2500": [26, 5, 13, 14]
+        },
+        "eliteMoves": ["THUNDER"],
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_PIKACHU",
+            "parent": "pikachu"
+        },
+        "tags": ["mega"]
+    },
+    {
+        "dex": 26,
+        "speciesName": "Raichu (Mega Y)",
+        "speciesId": "raichu_mega_y",
+        "baseStats": {
+            "atk": 339,
+            "def": 157,
+            "hp": 155
+        },
+        "types": ["electric", "none"],
+        "fastMoves": ["SPARK", "THUNDER_SHOCK", "VOLT_SWITCH", "CHARM"],
+        "chargedMoves": ["BRICK_BREAK", "THUNDER", "THUNDER_PUNCH", "WILD_CHARGE", "SKULL_BASH", "TRAILBLAZE", "SURF"],
+        "defaultIVs": {
+            "cp500": [5, 8, 15, 15],
+            "cp1500": [14.5, 4, 11, 15],
+            "cp2500": [24, 5, 12, 15]
+        },
+        "eliteMoves": ["THUNDER"],
+        "buddyDistance": 1,
+        "thirdMoveCost": 10000,
+        "released": true,
+        "family": {
+            "id": "FAMILY_PIKACHU",
+            "parent": "pikachu"
+        },
+        "tags": ["mega"]
+    },
+    {
+        "dex": 26,
         "speciesName": "雷丘 阿羅拉",
         "speciesId": "raichu_alolan",
         "baseStats": {
@@ -40048,7 +40102,7 @@
         },
         "types": ["flying", "water"],
         "fastMoves": ["PECK", "WATER_GUN"],
-        "chargedMoves": ["DRILL_PECK", "FLY", "HYDRO_PUMP"],
+        "chargedMoves": ["FLY", "HYDRO_PUMP", "SURF", "DIVE"],
         "defaultIVs": {
             "cp500": [9, 4, 8, 11],
             "cp1500": [26, 5, 15, 13],

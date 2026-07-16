@@ -744,6 +744,18 @@
         "turns": 1
     },
     {
+        "moveId": "DIVE",
+        "name": "Dive",
+        "type": "water",
+        "power": 50,
+        "energy": 40,
+        "energyGain": 0,
+        "turns": 1,
+        "cooldown": 500,
+        "archetype": "Spam/Bait",
+        "abbreviation": "Dve"
+    },
+    {
         "moveId": "DOOM_DESIRE",
         "name": "破滅之願",
         "type": "steel",

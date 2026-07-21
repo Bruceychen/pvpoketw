@@ -745,7 +745,7 @@
     },
     {
         "moveId": "DIVE",
-        "name": "Dive",
+        "name": "潛水",
         "type": "water",
         "power": 50,
         "energy": 40,
@@ -1414,7 +1414,7 @@
     },
     {
         "moveId": "GLAIVE_RUSH",
-        "name": "Glaive Rush",
+        "name": "巨劍突擊",
         "abbreviation": "GlR",
         "type": "dragon",
         "power": 90,

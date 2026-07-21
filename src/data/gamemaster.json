@@ -2595,7 +2595,7 @@
         },
         {
             "dex": 26,
-            "speciesName": "Raichu (Mega X)",
+            "speciesName": "雷丘 Mega X",
             "speciesId": "raichu_mega_x",
             "baseStats": {
                 "atk": 277,
@@ -2622,7 +2622,7 @@
         },
         {
             "dex": 26,
-            "speciesName": "Raichu (Mega Y)",
+            "speciesName": "雷丘 Mega Y",
             "speciesId": "raichu_mega_y",
             "baseStats": {
                 "atk": 339,
@@ -46722,7 +46722,7 @@
         },
         {
             "moveId": "DIVE",
-            "name": "Dive",
+            "name": "潛水",
             "type": "water",
             "power": 50,
             "energy": 40,
@@ -47391,7 +47391,7 @@
         },
         {
             "moveId": "GLAIVE_RUSH",
-            "name": "Glaive Rush",
+            "name": "巨劍突擊",
             "abbreviation": "GlR",
             "type": "dragon",
             "power": 90,

@@ -1788,7 +1788,7 @@
     },
     {
         "dex": 26,
-        "speciesName": "Raichu (Mega X)",
+        "speciesName": "雷丘 Mega X",
         "speciesId": "raichu_mega_x",
         "baseStats": {
             "atk": 277,
@@ -1815,7 +1815,7 @@
     },
     {
         "dex": 26,
-        "speciesName": "Raichu (Mega Y)",
+        "speciesName": "雷丘 Mega Y",
         "speciesId": "raichu_mega_y",
         "baseStats": {
             "atk": 339,

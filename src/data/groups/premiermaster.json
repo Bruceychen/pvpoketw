@@ -1,8 +1,8 @@
 [
     {
         "speciesId": "annihilape",
-        "fastMove": "COUNTER",
-        "chargedMoves": ["RAGE_FIST", "ICE_PUNCH"]
+        "fastMove": "LOW_KICK",
+        "chargedMoves": ["RAGE_FIST", "CLOSE_COMBAT"]
     },
     {
         "speciesId": "annihilape_shadow",
@@ -36,6 +36,11 @@
         "fastMove": "DRAGON_BREATH",
         "chargedMoves": ["THUNDER_PUNCH", "SUPER_POWER"],
         "shadowType": "shadow"
+    },
+    {
+        "speciesId": "empoleon",
+        "fastMove": "METAL_SOUND",
+        "chargedMoves": ["HYDRO_CANNON", "DRILL_PECK"]
     },
     {
         "speciesId": "feraligatr",
@@ -117,12 +122,12 @@
     {
         "speciesId": "rhyperior",
         "fastMove": "MUD_SLAP",
-        "chargedMoves": ["BREAKING_SWIPE", "ROCK_WRECKER"]
+        "chargedMoves": ["DRILL_RUN", "ROCK_WRECKER"]
     },
     {
         "speciesId": "rhyperior_shadow",
         "fastMove": "MUD_SLAP",
-        "chargedMoves": ["BREAKING_SWIPE", "ROCK_WRECKER"],
+        "chargedMoves": ["DRILL_RUN", "ROCK_WRECKER"],
         "shadowType": "shadow"
     },
     {
@@ -188,8 +193,23 @@
         "chargedMoves": ["FRENZY_PLANT", "SLUDGE"]
     },
     {
-        "speciesId": "empoleon",
+        "speciesId": "sylveon",
+        "fastMove": "FAIRY_WIND",
+        "chargedMoves": ["MOONBLAST", "SHADOW_BALL"]
+    },
+    {
+        "speciesId": "kingambit",
         "fastMove": "METAL_SOUND",
-        "chargedMoves": ["HYDRO_CANNON", "DRILL_PECK"]
+        "chargedMoves": ["FOUL_PLAY", "IRON_HEAD"]
+    },
+    {
+        "speciesId": "milotic",
+        "fastMove": "WATERFALL",
+        "chargedMoves": ["AQUA_TAIL", "WRAP"]
+    },
+    {
+        "speciesId": "dondozo",
+        "fastMove": "WATERFALL",
+        "chargedMoves": ["SURF", "OUTRAGE"]
     }
 ]

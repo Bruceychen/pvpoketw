@@ -46259,7 +46259,7 @@
         },
         {
             "moveId": "ACID_SPRAY_PLUS",
-            "name": "Acid Spray+",
+            "name": "酸液炸彈+",
             "type": "poison",
             "power": 20,
             "energy": 40,
@@ -46641,7 +46641,7 @@
         },
         {
             "moveId": "BRICK_BREAK_PLUS",
-            "name": "Brick Break+",
+            "name": "劈瓦+",
             "abbreviation": "BkB+",
             "type": "fighting",
             "power": 40,
@@ -47179,7 +47179,7 @@
         },
         {
             "moveId": "DRILL_PECK_PLUS",
-            "name": "Drill Peck+",
+            "name": "啄鑽+",
             "abbreviation": "DrP+",
             "type": "flying",
             "power": 60,
@@ -47242,7 +47242,7 @@
         },
         {
             "moveId": "DYNAMIC_PUNCH_PLUS",
-            "name": "Dynamic Punch+",
+            "name": "爆裂拳+",
             "abbreviation": "DyP+",
             "type": "fighting",
             "power": 130,
@@ -47645,7 +47645,7 @@
         },
         {
             "moveId": "FUTURE_SIGHT_PLUS",
-            "name": "Future Sight+",
+            "name": "預知未來+",
             "type": "psychic",
             "power": 130,
             "energy": 80,
@@ -48392,7 +48392,7 @@
         },
         {
             "moveId": "LIQUIDATION_PLUS",
-            "name": "Liquidation+",
+            "name": "水流裂破+",
             "abbreviation": "Li+",
             "type": "water",
             "power": 55,
@@ -48723,7 +48723,7 @@
         },
         {
             "moveId": "MYSTICAL_FIRE_PLUS",
-            "name": "Mystical Fire+",
+            "name": "魔法火焰+",
             "type": "fire",
             "power": 50,
             "energy": 40,
@@ -48861,7 +48861,7 @@
         },
         {
             "moveId": "OUTRAGE_PLUS",
-            "name": "Outrage+",
+            "name": "逆鱗+",
             "type": "dragon",
             "power": 80,
             "energy": 50,
@@ -49106,7 +49106,7 @@
         },
         {
             "moveId": "PSYBEAM_PLUS",
-            "name": "Psybeam+",
+            "name": "幻象光線+",
             "abbreviation": "Psb+",
             "type": "psychic",
             "power": 60,
@@ -49521,7 +49521,7 @@
         },
         {
             "moveId": "SEED_BOMB_PLUS",
-            "name": "Seed Bomb+",
+            "name": "種子炸彈+",
             "abbreviation": "SeB+",
             "type": "grass",
             "power": 60,
@@ -49960,7 +49960,7 @@
         },
         {
             "moveId": "SURF_PLUS",
-            "name": "Surf+",
+            "name": "衝浪+",
             "type": "water",
             "power": 55,
             "energy": 35,
@@ -50289,7 +50289,7 @@
         },
         {
             "moveId": "VOLT_TACKLE_PLUS",
-            "name": "Volt Tackle+",
+            "name": "伏特攻擊+",
             "type": "electric",
             "power": 65,
             "energy": 35,
@@ -50522,7 +50522,7 @@
         },
         {
             "moveId": "ZAP_CANNON_PLUS",
-            "name": "Zap Cannon+",
+            "name": "電磁炮+",
             "type": "electric",
             "power": 70,
             "energy": 45,

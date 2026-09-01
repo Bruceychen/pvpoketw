@@ -25,6 +25,16 @@
 
 		<h3 class="cp"><span class="identifier" title="Shadow"></span> cp <span class="stat"></span></h3>
 		<div class="types"></div>
+
+				<div class="mega-level-container">
+			<div class="mega-level-select">
+				<div class="mega-level button"></div>
+				<div class="mega-level button"></div>
+				<div class="mega-level button"></div>
+				<div class="mega-level button"></div>
+			</div>
+		</div>
+
 		<div class="stat-container attack clear">
 			<div class="stat-label">
 				<span class="label-name">攻擊</span>
@@ -124,7 +134,8 @@
 
 			<select class="move-select charged"></select>
 			<select class="move-select charged"></select>
-            <select class="move-select extra-charged"></select>
+			<select class="move-select extra-charged"></select>
+			<div class="mega-evolution-bonus">Mega 進化獎勵: x<span>1</span></div>
 			<button class="auto-select">自動選擇招式</button>
             <div class="legacy">*：絕版招式<br><sup>†</sup>：無法透過任何招式學習器習得</div>
 		</div>

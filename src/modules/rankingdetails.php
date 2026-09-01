@@ -149,10 +149,16 @@
 				</div>
 			</div>
 			<div class="rank selected recommended">推薦招式</div>
-			<div class="footnote">
+			<div class="footnote move-legacy-key hide">
 				* 活動或僅能透過厲害招式學習器習得<br>
 				<sup>†</sup> 無法透過招式學習器學會<br><br>
 				<div>招式數值已包含同屬性和暗影化攻擊加成。</div>
+			</div>
+			<div class="footnote move-legacy-key move-legacy-key-mega hide">
+				* Event or Elite TM exclusive<br>
+				<sup>†</sup> Unobtainable via TM<br>
+				+ Obtained automatically on Mega Evolution <br><br>
+				<div>Move stats include same type and Mega Evolution bonuses (default Mega Level 3).</div>
 			</div>
 		</div>
 		<div class="detail-section float">

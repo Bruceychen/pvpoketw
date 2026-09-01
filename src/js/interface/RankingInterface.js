@@ -364,7 +364,8 @@ var InterfaceMaster = (function () {
 
 					var typeStr = pokemon.types[i].charAt(0).toUpperCase() + pokemon.types[i].slice(1);
 					if(pokemon.types[i] != "none"){
-						$el.find(".type-container").append("<div class=\"type-info "+pokemon.types[i]+"\">"+typeStr+"</div>");
+						// 以下這行中文翻譯
+						$el.find(".type-container").append("<div class=\"type-info "+pokemon.types[i]+"\">"+typeTranslateUp(typeStr)+"</div>");
 					}
 				}
 
@@ -1246,13 +1247,19 @@ var InterfaceMaster = (function () {
 				for(var i = 0; i < weaknessArr.length; i++){
 					// 顯示屬性翻譯function 使用
 					// $details.find(".detail-section .weaknesses").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+typeTranslate(effectivenessArr[i].type)+"</div></div>");
+					console.log(weaknessArr[i].type)
+					console.log(typeTranslateUp(weaknessArr[i].type))
 					$details.find(".detail-section .weaknesses").append("<div class=\"type "+weaknessArr[i].type+"\"><div class=\"multiplier\">x"+weaknessArr[i].displayVal+"</div><div>"+weaknessArr[i].type+"</div></div>");
+					// $details.find(".detail-section .weaknesses").append("<div class=\"type "+weaknessArr[i].type+"\"><div class=\"multiplier\">x"+weaknessArr[i].displayVal+"</div><div>"+typeTranslateUp(weaknessArr[i].type)+"</div></div>");
 				}
 
 				for(var i = 0; i < resistanceArr.length; i++){
 					// 顯示屬性翻譯function 使用
 					// $details.find(".detail-section .resistances").append("<div class=\"type "+effectivenessArr[i].type+"\"><div class=\"multiplier\">x"+num+"</div><div>"+typeTranslate(effectivenessArr[i].type)+"</div></div>");
+					console.log(resistanceArr[i].type)
+					console.log(typeTranslateUp(resistanceArr[i].type))
 					$details.find(".detail-section .resistances").append("<div class=\"type "+resistanceArr[i].type+"\"><div class=\"multiplier\">x"+resistanceArr[i].displayVal+"</div><div>"+resistanceArr[i].type+"</div></div>");
+					// $details.find(".detail-section .resistances").append("<div class=\"type "+resistanceArr[i].type+"\"><div class=\"multiplier\">x"+resistanceArr[i].displayVal+"</div><div>"+typeTranslateUp(resistanceArr[i].type)+"</div></div>");
 				}
 
 				// Display Pokemon's stat ranges

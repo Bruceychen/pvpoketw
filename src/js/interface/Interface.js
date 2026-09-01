@@ -33,7 +33,7 @@ var InterfaceMaster = (function () {
 			this.matrixMode = "battle";
 			var currentSortCol = null;
 			var currentSortOrder = "asc";
-			
+
 			var sandbox = false;
 			var actions = [];
 			var sandboxPokemon;
@@ -986,7 +986,7 @@ var InterfaceMaster = (function () {
 				var defender = pokeSelectors[1].getPokemon();
 				attacker.reset();
 				defender.reset();
-				
+
 				var breakpoints = attacker.calculateBreakpoints(defender, move);
 
 				$(".stats-table.breakpoints .output").html('<tr></tr>');
@@ -1187,7 +1187,8 @@ var InterfaceMaster = (function () {
 					for(var n = 0; n < pokemon.types.length; n++){
 						var typeStr = pokemon.types[n].charAt(0).toUpperCase() + pokemon.types[n].slice(1);
 						if(pokemon.types[n] != "none"){
-							$el.find(".type-container").append("<div class=\"type-info "+pokemon.types[n]+"\">"+typeStr+"</div>");
+							// 以下這行中文翻譯
+							$el.find(".type-container").append("<div class=\"type-info "+pokemon.types[n]+"\">"+typeTranslateUp(typeStr)+"</div>");
 						}
 					}
 
@@ -1685,9 +1686,9 @@ var InterfaceMaster = (function () {
 			}
 
 			// Event handler for sorting the matrix-table
-			
+
 			function handleMatrixSort() {
-				const th = $(this); 
+				const th = $(this);
 				const table = th.closest("table");
 				const tbody = table.find("tbody");
 				const colIndex = th.index();
@@ -1697,18 +1698,18 @@ var InterfaceMaster = (function () {
 
 				// Get all rows as an array
 				const rows = tbody.find("tr").toArray();
-			
+
 				// Determine ascending/descending (returns true on first click)
 				let ascending = !th.data("asc");
 				th.data("asc", ascending);
 				th.attr("data-asc", ascending)
-			
+
 				rows.sort((a, b) => {
 					const A = parseFloat($(a).children().eq(colIndex).text());
 					const B = parseFloat($(b).children().eq(colIndex).text());
 					return ascending ? A - B : B - A;
 				});
-			
+
 				// Re-attach rows
 				tbody.append(rows);
 			}
@@ -2176,7 +2177,7 @@ var InterfaceMaster = (function () {
 								} else{
 									targetMultiSelector.quickFillURLParam(val);
 								}
-								
+
 							break;
 
 						}
@@ -2396,7 +2397,7 @@ var InterfaceMaster = (function () {
 					if(! settingGetParams){
 						window.history.pushState({mode: "matrix"}, "Battle", webRoot + "battle/matrix/");
 					}
-					
+
 
 					// Update document title and favicon
 					document.title = "Matrix | PvPoke";

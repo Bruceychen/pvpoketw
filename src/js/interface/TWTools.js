@@ -80,6 +80,12 @@ function typeTranslate(type){
     return (allTypes[type] || allTypes['default']);
 }
 
+function typeTranslateUp(type){
+    if (typeof type !== 'string') return type;   // 非字串原樣退回，避免 toLowerCase 丟 TypeError
+    var translated = typeTranslate(type.trim().toLowerCase());
+    return translated || type;                   // 翻不出來（回空字串）就退回原值
+}
+
 function fastmoveAbbreviationArrTranslate(fastmove){
     var allFastmoves = {
         'RTh':'落石',

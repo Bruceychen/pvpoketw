@@ -85,6 +85,7 @@ require_once 'header.php'; ?>
                     <option value="moveType">招式屬性</option>
                     <option value="cost">特殊招式解鎖星塵</option>
                     <option value="distance">夥伴行走距離</option>
+                    <option value="evolution">Evolution</option>
 				</select>
 			</div>
 			<div class="field-section type">
@@ -130,6 +131,17 @@ require_once 'header.php'; ?>
                     <div class="check" value="shadow"><span></span>暗影化</div>
                     <div class="check" value="shadoweligible"><span></span>另有暗影化型態</div>
                     <div class="check" value="mega"><span></span> Mega進化</div>
+                    <div class="check" value="supermega"><span></span> Super Mega</div>
+				</div>
+			</div>
+
+			<div class="field-section evolution">
+				<p>Select evolution requirements below.</p>
+				<div class="field-container">
+					<div class="check" value="0"><span></span> No evolution</div>
+					<div class="check" value="1"><span></span> First stage</div>
+					<div class="check" value="2"><span></span> Middle stage</div>
+					<div class="check" value="3"><span></span> Final stage</div>
 				</div>
 			</div>
 
@@ -144,7 +156,6 @@ require_once 'header.php'; ?>
 					<li><em>giratina_altered</em></li>
 					<li><em>deoxys_defense</em></li>
                     <li><em>sirfetchd</em></li>
-					<li><em>pikachu,deoxys_defense,beedrill</em></li>
 				</ul>
 				<p>譯者按：亦可參考此份Google試算表文件：<a target="_blank" href="https://docs.google.com/spreadsheets/d/1m6gAODHNgF0YCMrwi5oFmVTDlYRe_9nYRL72V7iPMHg/edit#gid=1098261709">寶可夢英文id列表</a> 或
                     <a target="_blank" href="https://docs.google.com/spreadsheets/d/1m6gAODHNgF0YCMrwi5oFmVTDlYRe_9nYRL72V7iPMHg/copy#gid=1098261709">按我產生可編輯副本</a>

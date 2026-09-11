@@ -731,6 +731,18 @@
         "turns": 1
     },
     {
+        "moveId": "DARK_PULSE_PLUS",
+        "name": "惡之波動+",
+        "type": "dark",
+        "power": 60,
+        "energy": 40,
+        "energyGain": 0,
+        "cooldown": 500,
+        "archetype": "Spam/Bait",
+        "turns": 1,
+        "isMegaMove": true
+    },
+    {
         "moveId": "DAZZLING_GLEAM",
         "name": "魔法閃耀",
         "type": "fairy",
@@ -1141,7 +1153,7 @@
     },
     {
         "moveId": "FELL_STINGER_PLUS",
-        "name": "致命針刺",
+        "name": "致命針刺+",
         "abbreviation": "FeS",
         "type": "bug",
         "power": 40,

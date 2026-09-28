@@ -212,13 +212,19 @@
         "chargedMoves": ["GIGATON_HAMMER", "BULLDOZE"]
     },
     {
+        "speciesId": "umbreon",
+        "fastMove": "SNARL",
+        "chargedMoves": ["DARK_PULSE", "LAST_RESORT"]
+    },
+    {
         "speciesId": "vigoroth",
         "fastMove": "SCRATCH",
         "chargedMoves": ["BODY_SLAM", "BULLDOZE"]
     },
     {
-        "speciesId": "umbreon",
-        "fastMove": "SNARL",
-        "chargedMoves": ["DARK_PULSE", "LAST_RESORT"]
+        "speciesId": "hydreigon_shadow",
+        "fastMove": "DRAGON_BREATH",
+        "chargedMoves": ["BRUTAL_SWING", "FLY"],
+        "shadowType": "shadow"
     }
 ]

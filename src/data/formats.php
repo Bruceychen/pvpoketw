@@ -59,6 +59,22 @@ $formats = array (
   ),
   4 => 
   array (
+    'title' => 'Mega Color Cup',
+    'cup' => 'colormega',
+    'cp' => 1500,
+    'meta' => 'colormega',
+    'showCup' => true,
+    'showFormat' => true,
+    'showMeta' => true,
+    'rules' => 
+    array (
+      0 => 'Pokemon must be at or below 1,500 CP to enter.',
+      1 => 'Mega-Evolved Pokémon are eligible.',
+      2 => 'Only Grass-, Fire-, Water-, Electric-type Pokémon are eligible.',
+    ),
+  ),
+  5 => 
+  array (
     'title' => 'Retro Cup',
     'cup' => 'retro',
     'cp' => 1500,
@@ -72,7 +88,7 @@ $formats = array (
       1 => 'Dark-, Steel-, and Fairy-type Pokémon are not eligible.',
     ),
   ),
-  5 => 
+  6 => 
   array (
     'title' => 'LAIC 2027 Championship Series Cup',
     'cup' => 'laic2027',
@@ -91,7 +107,7 @@ $formats = array (
       5 => 'Prohibited Pokemon: Altaria, Annihilape, Araquanid, Chansey, Clodsire, Corsola (Galarian), Dusclops, Furret, Jellicent, Kingdra, Medicham, Oranguru, Snorlax, Wobbuffet, Mega Sableye.',
     ),
   ),
-  6 => 
+  7 => 
   array (
     'title' => 'Battle Frontier (Spectral)',
     'cup' => 'spectral',
@@ -101,7 +117,7 @@ $formats = array (
     'showFormat' => true,
     'showMeta' => true,
   ),
-  7 => 
+  8 => 
   array (
     'title' => 'Battle Frontier (Cauldron)',
     'cup' => 'cauldron',
@@ -111,7 +127,7 @@ $formats = array (
     'showFormat' => true,
     'showMeta' => true,
   ),
-  8 => 
+  9 => 
   array (
     'title' => 'Battle Frontier (Master)',
     'cup' => 'battlefrontiermaster',
@@ -121,7 +137,17 @@ $formats = array (
     'showFormat' => true,
     'showMeta' => true,
   ),
-  9 => 
+  10 => 
+  array (
+    'title' => 'Devon Trail Cup',
+    'cup' => 'trail',
+    'cp' => 1500,
+    'meta' => 'trail',
+    'showCup' => true,
+    'showFormat' => true,
+    'showMeta' => true,
+  ),
+  11 => 
   array (
     'title' => 'Gymbreakers Invitational Season 7',
     'cup' => 'gymbreakers',
@@ -131,7 +157,7 @@ $formats = array (
     'showFormat' => true,
     'showMeta' => true,
   ),
-  10 => 
+  12 => 
   array (
     'title' => 'Master Premier Cup',
     'cup' => 'premier',
@@ -147,7 +173,7 @@ $formats = array (
       1 => 'Legendary Pokémon, Mythical Pokémon, and Ultra Beasts are not eligible.',
     ),
   ),
-  11 => 
+  13 => 
   array (
     'title' => 'Little Cup',
     'cup' => 'little',
@@ -157,7 +183,7 @@ $formats = array (
     'showFormat' => false,
     'showMeta' => false,
   ),
-  12 => 
+  14 => 
   array (
     'title' => 'Catch Cup',
     'cup' => 'catch',
@@ -167,7 +193,7 @@ $formats = array (
     'showFormat' => false,
     'showMeta' => false,
   ),
-  13 => 
+  15 => 
   array (
     'title' => 'Custom',
     'cup' => 'custom',

@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-17 03:10:24",
+    "timestamp": "2026-10-21 03:50:13",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -114,7 +114,7 @@
                 },
                 {
                     "filterType": "id",
-                    "values": ["mimikyu"]
+                    "values": ["mimikyu", "minior_core", "minior_meteor"]
                 }
             ]
         },
@@ -327,7 +327,7 @@
                 },
                 {
                     "filterType": "id",
-                    "values": ["altaria", "annihilape", "araquanid", "chansey", "clodsire", "corsola_galarian", "dusclops", "furret", "jellicent", "kingdra", "medicham", "oranguru", "snorlax", "wobbuffet", "sableye_mega"]
+                    "values": ["altaria", "annihilape", "araquanid", "chansey", "clodsire", "corsola_galarian", "dusclops", "furret", "jellicent", "kingdra", "medicham", "oranguru", "snorlax", "wobbuffet", "sableye_mega", "minior_core", "minior_meteor"]
                 }
             ]
         },
@@ -39238,6 +39238,7 @@
             "dex": 774,
             "speciesName": "小隕星 核心",
             "speciesId": "minior_core",
+            "originalFormId": "minior_core",
             "baseStats": {
                 "atk": 218,
                 "def": 131,
@@ -39254,12 +39255,20 @@
             },
             "buddyDistance": 3,
             "thirdMoveCost": 50000,
-            "released": false
+            "released": true,
+            "formChange": {
+                "type": "set",
+                "trigger": "battle_start",
+                "alternativeFormId": "minior_meteor",
+                "resetOnSwitch": false
+            },
+            "searchPriority": 4
         },
         {
             "dex": 774,
             "speciesName": "小隕星 流星",
             "speciesId": "minior_meteor",
+            "originalFormId": "minior_meteor",
             "baseStats": {
                 "atk": 116,
                 "def": 194,
@@ -39270,13 +39279,21 @@
             "chargedMoves": ["POWER_GEM", "ANCIENT_POWER", "ACROBATICS"],
             "defaultIVs": {
                 "cp500": [12.5, 4, 11, 15],
-                "cp1500": [45.5, 4, 14, 13],
+                "cp1500": [44, 5, 14, 13],
                 "cp2500": [50, 15, 15, 15],
                 "cp1500l40": [39.5, 13, 14, 14]
             },
             "buddyDistance": 3,
             "thirdMoveCost": 50000,
-            "released": false
+            "released": false,
+            "formChange": {
+                "type": "set",
+                "trigger": "hp",
+                "amount": 0.5,
+                "alternativeFormId": "minior_core",
+                "resetOnSwitch": false,
+                "animationTime": 5000
+            }
         },
         {
             "dex": 775,

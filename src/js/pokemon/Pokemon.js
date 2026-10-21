@@ -2531,6 +2531,7 @@ function Pokemon(id, i, b, d){
 		let newLevel = self.level;
 		let cpmIndex = cpms.indexOf(self.cpm);
 		let battleCP = battle.getCP();
+		let oldCP = self.cp;
 
 		// Form specific cases
 		if(self.speciesId != formId){
@@ -2558,6 +2559,29 @@ function Pokemon(id, i, b, d){
 
 					cpmIndex = cpms.indexOf(self.getCPMByLevel(newLevel));
 					break;
+
+				case "minior_meteor":
+					if(battleCP == 1500){
+						newLevel = self.level * 2;
+					}
+
+					/*if(battleCP == 2500){
+						newLevel = (Math.round(self.level * 1.25) * 2) / 2;
+					}*/
+					break;
+
+				case "minior_core":
+					if(battleCP == 1500){
+						if(self.level % 0.5 == 0 && self.level % 1 != 0)
+							newLevel = (self.level - 0.5) / 2;
+						else
+							newLevel = self.level / 2;
+					}
+
+					/*if(battleCP == 2500){
+						newLevel = (Math.round(self.level * 1.25) * 2) / 2;
+					}*/
+					break;
 			}
 		}
 
@@ -2579,7 +2603,12 @@ function Pokemon(id, i, b, d){
 				level: newLevel
 			}
 
-			newLevel--;
+			let decrementer = 1;
+
+			if(this.activeFormId == "minior_core" || this.decrementer == "minior_meteor")
+				decrementer = 0.5;
+
+			newLevel -= decrementer;
 		}
 
 		return newStats;
